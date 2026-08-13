@@ -46,8 +46,10 @@ sweeps the `dsh-plugin` GitHub topic, npm, and GitHub code search, and queues
 new finds in [`data/candidates.json`](data/candidates.json) on a single reused
 triage PR. Nothing is promoted automatically. To triage: apply the spam gate,
 then either move the entry into `plugins.json` (fill in every schema field
-yourself; candidate metadata is a lead, not a record) or delete it from the
-queue.
+yourself; candidate metadata is a lead, not a record) or record it in
+[`data/rejected.json`](data/rejected.json) with a one-line reason and remove
+it from the queue. The discovery sweep never re-queues a rejected repo; to
+appeal a rejection, delete its ledger row in the same PR that adds the entry.
 
 ## Verification sweeps
 

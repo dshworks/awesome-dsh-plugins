@@ -132,7 +132,7 @@ function checkRegistry(registry, errors) {
   });
 }
 
-function checkCandidates(candidates, registry, errors) {
+function checkCandidates(candidates, registry, rejected, errors) {
   if (typeOf(candidates) !== "object" || !Array.isArray(candidates.candidates)) {
     errors.push("candidates.json: expected { updated, candidates: [] }");
     return;
@@ -142,6 +142,8 @@ function checkCandidates(candidates, registry, errors) {
   }
   const registrySources = new Set(
     registry.plugins.filter((p) => !p.path).map((p) => p.repo.toLowerCase()));
+  const rejectedSlugs = new Set(
+    (rejected.rejected ?? []).map((r) => (r.repo ?? "").toLowerCase()));
   const seen = new Set();
   candidates.candidates.forEach((c, i) => {
     const at = `candidates[${i}]`;
@@ -155,6 +157,41 @@ function checkCandidates(candidates, registry, errors) {
     if (registrySources.has(slug)) {
       errors.push(`${at}: "${c.repo}" is already in plugins.json; drop it from the queue`);
     }
+    if (rejectedSlugs.has(slug)) {
+      errors.push(`${at}: "${c.repo}" was already rejected (data/rejected.json); drop it from the queue`);
+    }
+  });
+}
+
+function checkRejected(rejected, registry, errors) {
+  if (typeOf(rejected) !== "object" || !Array.isArray(rejected.rejected)) {
+    errors.push("rejected.json: expected { updated, rejected: [] }");
+    return;
+  }
+  if (!isRealDate(rejected.updated ?? "")) {
+    errors.push(`rejected.json: bad updated date "${rejected.updated}"`);
+  }
+  const registrySources = new Set(
+    registry.plugins.map((p) => p.repo.toLowerCase()));
+  const seen = new Set();
+  rejected.rejected.forEach((r, i) => {
+    const at = `rejected[${i}]`;
+    if (!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(r.repo ?? "")) {
+      errors.push(`${at}: bad repo slug "${r.repo}"`);
+      return;
+    }
+    const slug = r.repo.toLowerCase();
+    if (seen.has(slug)) errors.push(`${at}: duplicate rejection "${r.repo}"`);
+    seen.add(slug);
+    if (typeof r.reason !== "string" || r.reason.length === 0) {
+      errors.push(`${at}: missing rejection reason for "${r.repo}"`);
+    }
+    if (!isRealDate(r.date ?? "")) {
+      errors.push(`${at}: bad date "${r.date}"`);
+    }
+    if (registrySources.has(slug)) {
+      errors.push(`${at}: "${r.repo}" is both rejected and in plugins.json; pick one`);
+    }
   });
 }
 
@@ -163,6 +200,7 @@ function checkCandidates(candidates, registry, errors) {
 const schema = read("data/schema.json");
 const registry = read("data/plugins.json");
 const candidates = read("data/candidates.json");
+const rejected = read("data/rejected.json");
 
 const errors = [];
 validateNode(schema, registry, "registry", schema, errors);
@@ -170,7 +208,8 @@ if (errors.length === 0) {
   // Invariants assume shape; only run them on schema-clean data.
   checkRegistry(registry, errors);
 }
-checkCandidates(candidates, registry, errors);
+checkRejected(rejected, registry, errors);
+checkCandidates(candidates, registry, rejected, errors);
 
 if (errors.length > 0) {
   console.error(`validate: ${errors.length} error(s)`);
@@ -178,4 +217,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 console.log(
-  `validate: ok (${registry.plugins.length} plugins, ${candidates.candidates.length} candidates)`);
+  `validate: ok (${registry.plugins.length} plugins, ${candidates.candidates.length} candidates, ${rejected.rejected.length} rejected)`);

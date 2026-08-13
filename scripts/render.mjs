@@ -105,7 +105,7 @@ ${registrySection()}
 
 Open a PR against [\`data/plugins.json\`](data/plugins.json) only; the README is regenerated. See [CONTRIBUTING.md](CONTRIBUTING.md). The spam gate in short: a real install path (a \`dsh.bundle\` manifest, a published npm package, or a \`SKILL.md\` layout dsh discovers), not a renamed template fork, and it loads against the dsh version you claim.
 
-A scheduled workflow also sweeps the \`dsh-plugin\` topic, npm, and GitHub code search; new finds queue in [\`data/candidates.json\`](data/candidates.json) on a single reused triage PR and never enter the registry without review.
+A scheduled workflow also sweeps the \`dsh-plugin\` topic, npm, and GitHub code search; new finds queue in [\`data/candidates.json\`](data/candidates.json) on a single reused triage PR and never enter the registry without review. Rejected candidates are recorded with one-line reasons in [\`data/rejected.json\`](data/rejected.json) and are not re-queued.
 
 ## Field notes
 

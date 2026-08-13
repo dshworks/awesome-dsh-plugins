@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Scheduled ecosystem discovery. Sweeps three sources for dsh extensions and
 // merges new finds into data/candidates.json, the human/agent triage queue.
-// Candidates NEVER flow into data/plugins.json automatically.
+// Candidates NEVER flow into data/plugins.json automatically. Repos already
+// triaged and rejected live in data/rejected.json and are never re-queued.
 //
 // Sources:
 //   1. GitHub repo search on the official discovery topic `dsh-plugin`
@@ -110,8 +111,10 @@ async function fromCodeSearch() {
 
 const registry = read("data/plugins.json");
 const file = read("data/candidates.json");
+const rejectedFile = read("data/rejected.json");
 
 const known = new Set(registry.plugins.map((p) => p.repo.toLowerCase()));
+const rejected = new Set(rejectedFile.rejected.map((r) => r.repo.toLowerCase()));
 const queue = new Map(file.candidates.map((c) => [c.repo.toLowerCase(), c]));
 
 const found = [];
@@ -132,6 +135,7 @@ for (const c of found) {
   if (!SLUG_RE.test(c.repo ?? "")) continue;
   const slug = c.repo.toLowerCase();
   if (known.has(slug)) continue;
+  if (rejected.has(slug)) continue; // triaged and rejected; do not requeue
   const existing = queue.get(slug);
   if (existing) {
     // refresh metadata, union sources, keep the original discovered date
