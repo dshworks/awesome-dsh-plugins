@@ -6540,6 +6540,683 @@
       "tags": [
         "memory"
       ]
+    },
+    {
+      "name": "dsh-web-lan-access",
+      "repo": "AcidGr/dsh-web-lan-access",
+      "description": "LAN and remote access for the DeepSeek Harness Web UI, including polyfills so the GUI works off localhost.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-web-lan-access",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-web-mobile-fix",
+      "repo": "AcidGr/dsh-web-mobile-fix",
+      "description": "Mobile layout fixes for the DeepSeek Harness Web UI: settings panel and page layout on small screens.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-web-mobile-fix",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-bilibili",
+      "repo": "CZX2244/dsh-bilibili",
+      "description": "Bilibili video tools for DeepSeek Harness: transcript-first analyze and summarize from a video URL.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-bilibili",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-browser-playwright",
+      "repo": "ChenyuHeee/dsh-browser-playwright",
+      "description": "Playwright browser automation for DeepSeek Harness: accessibility-tree interaction with stable refs and per-session contexts.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-browser-playwright",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-promptwall",
+      "repo": "Chhlafiu4312/promptwall",
+      "description": "Local prompt-injection and secret-exfiltration firewall for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-promptwall",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "name": "dsh-attachments",
+      "repo": "CocoSgt/dsh-attachments",
+      "description": "Bring any file into the conversation: stash it in the workspace and reference it from the agent.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-attachments",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-inspector",
+      "repo": "CocoSgt/dsh-inspector",
+      "description": "Inspect and manage the live instruction chain and project skills for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-inspector",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ]
+    },
+    {
+      "name": "dsh-skills",
+      "repo": "CocoSgt/dsh-skills",
+      "description": "Global skill hub for dsh: aggregates Claude Code, project, and .skill sources in Settings.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-skills",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-prompt-polish",
+      "repo": "JoukoPuro/dsh-prompt-polish",
+      "description": "Composer toolbar button that rewrites your prompt via the connected LLM (balanced, concise, detailed, or code).",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-prompt-polish",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-skill-manager",
+      "repo": "Lanxing6480/dsh-skill-manager",
+      "description": "Skill manager for the dsh web GUI: a sidebar panel for listing, enabling, and organizing skills.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "@lanxing/dsh-skill-manager",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-usage-stats-make0209",
+      "repo": "Make0209/dsh-usage-stats",
+      "description": "Usage stats for DeepSeek Harness: heatmap, token and cache-hit board, balance, and workspace aliases.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ]
+    },
+    {
+      "name": "dsh-persona-memory",
+      "repo": "Quophic/dsh-persona-memory",
+      "description": "Persistent long-term persona memory for DeepSeek Harness, kept in MEMORY.md / USER files.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-persona-memory",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-webui-market-plugin",
+      "repo": "Sanqi-normal/dsh-webui-market-plugin",
+      "description": "In-harness community plugin market for the dsh web GUI: browse, install, and uninstall into a profile.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "@sanqi-normal/dsh-webui-market-plugin",
+      "stars": 13,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-mindspace-local-rag",
+      "repo": "Spirtxiaoqi7/mindspace-dsh-local-rag",
+      "description": "Local hybrid RAG plugin for DeepSeek Harness, invoked by the model from the workspace.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "mindspace-dsh-local-rag",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge"
+      ]
+    },
+    {
+      "name": "dsh-vision-terry12138qy",
+      "repo": "Terry12138qy/dsh-vision",
+      "description": "Vision tool for text-only DeepSeek models: send images to Qwen or GLM multimodal and return descriptions.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ]
+    },
+    {
+      "name": "dsh-blackjack",
+      "repo": "WhiseNT/dsh-blackjack",
+      "description": "Blackjack table in DeepSeek Harness: play 21 against the house while you work.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-blackjack",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "fun"
+      ]
+    },
+    {
+      "name": "dsh-skill-manager-ytxue",
+      "repo": "YTxue/dsh-skill-manager-ytxue",
+      "description": "Settings-sidebar skill manager: list and toggle, folder import, DSH-spec check and auto-fix.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-skill-manager-ytxue",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-mobile-access",
+      "repo": "YiYan129600/dsh-mobile-access",
+      "description": "One-page mobile access setup: Tailscale/LAN detection, scan-to-open QR, and an insecure-origin polyfill.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-mobile-access",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-plugin-catalog",
+      "repo": "YiYan129600/dsh-plugin-catalog",
+      "description": "Settings Plugins tab that lists installed plugins for the dsh web GUI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-plugin-catalog",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-file-explorer-zalpha263",
+      "repo": "Zalpha263/dsh-file-explorer",
+      "description": "Persistent web file explorer: lazy directory tree, preview, and inline edit for the workspace.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-external-migration",
+      "repo": "buguoshixc/deepseek-harness-external-migration",
+      "description": "Migrate Codex, Claude Code, Qoder, and OpenCode config and chat history into DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "deepseek-harness-external-migration",
+      "stars": 3,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "interop"
+      ]
+    },
+    {
+      "name": "dsh-project-organizer",
+      "repo": "caoqinnan-web/dsh-project-organizer",
+      "description": "Project context engineering for agents: turn messy project context into organized notes.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-project-organizer",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge"
+      ]
+    },
+    {
+      "name": "dsh-web-search-brave",
+      "repo": "cnChenKai/dsh-web-search-brave",
+      "description": "Brave Search-backed WebSearchProvider for DeepSeek Harness (ctx.web).",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-web-search-brave",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-web-search-tavily",
+      "repo": "cnChenKai/dsh-web-search-tavily",
+      "description": "Tavily-backed WebSearchProvider for DeepSeek Harness, including a keyless mode.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-web-search-tavily",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-plugin-md-outline",
+      "repo": "d-ouyang/dsh-plugin-md-outline",
+      "description": "Outline and lint Markdown structure: heading tree, level skips, duplicate headings, unclosed fences.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-plugin-md-outline",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-reverse-skill",
+      "repo": "dhicoc/dsh-reverse-skill",
+      "description": "Reverse-engineering skill pack as a Cordis plugin: 85 SKILL.md units for authorized security research.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "@reverse-skill/dsh-reverse-skill",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge"
+      ]
+    },
+    {
+      "name": "dsh-mcp-center",
+      "repo": "drfccv/dsh-mcp-center",
+      "description": "Settings-driven MCP server manager: connect any MCP server to DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-mcp-center",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-moyan",
+      "repo": "elviszhang007/dsh-moyan",
+      "description": "A quiet quote line in the Web UI sidebar: poems, literature, and game lines from a customizable corpus.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-moyan",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "fun"
+      ]
+    },
+    {
+      "name": "dsh-remote-ide",
+      "repo": "harryopo/dsh-remote-ide",
+      "description": "SSH remote IDE for DeepSeek Harness: explorer, SFTP editor, and a live SSH PTY terminal.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-remote-ide",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-ocg-billing",
+      "repo": "hiro-nikaitou/dsh-ocg-billing",
+      "description": "OpenCode Go billing layer: cached official pricing, bill computation, and a composer bill line.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "@hiro-nikaitou/dsh-ocg-billing",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ]
+    },
+    {
+      "name": "dsh-token-stats",
+      "repo": "huantian1223/dsh-token-stats",
+      "description": "Token usage statistics for DeepSeek Harness: cumulative and peak tokens with a live HUD.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-token-stats",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ]
+    },
+    {
+      "name": "dsh-plugin-notify",
+      "repo": "huguangyu666/dsh-plugin-notify",
+      "description": "Notification outlet: desktop toasts, Chinese TTS, and sounds when long tasks finish, error, or need you.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-plugin-notify",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "notifications"
+      ]
+    },
+    {
+      "name": "muretai-dsh-skill",
+      "repo": "muretai/muretai-dsh-skill",
+      "description": "Join the Muretai agent network from DeepSeek Harness: identity, inbound-mail wake, and MCP wiring.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "muretai-dsh-skill",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-gauge",
+      "repo": "noone89A/dsh-gauge",
+      "description": "Cache-hit rate, token usage, and cost estimates for the DeepSeek Harness Web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-gauge",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ]
+    },
+    {
+      "name": "dsh-bookmarks",
+      "repo": "penguin-oo/dsh-bookmarks",
+      "description": "Bookmark assistant replies: per-message notes and tags, a cross-session center, and Markdown export.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-bookmarks",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-science-workbench",
+      "repo": "poplarity/dsh-science-workbench",
+      "description": "Reproducible science workbench: agent-driven cells, inline figures, provenance, and environment snapshots.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-science-workbench",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge"
+      ]
+    },
+    {
+      "name": "dsh-plugin-terminal",
+      "repo": "siberiah2o/dsh-plugin-terminal",
+      "description": "Bottom terminal panel for the DeepSeek Harness Web GUI, backed by node-pty.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-plugin-terminal",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-qqbot",
+      "repo": "tencent-connect/dsh-qqbot",
+      "description": "QQ Bot IM channel plugin for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "@tencent-connect/dsh-qqbot",
+      "stars": 3,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ]
+    },
+    {
+      "name": "dsh-weixin",
+      "repo": "xiaoshihou514/dsh-weixin",
+      "description": "Control DeepSeek Harness remotely through Weixin.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-weixin",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ]
+    },
+    {
+      "name": "dsh-skills-manager",
+      "repo": "xiaoxianyu-office/dsh-skills-manager",
+      "description": "Settings-page Skills manager: system and user skill lists with toggle, edit, delete, and create.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "npm": "dsh-skills-manager",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ]
     }
   ]
 }
