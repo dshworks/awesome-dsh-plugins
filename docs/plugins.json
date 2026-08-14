@@ -17484,6 +17484,468 @@
       ],
       "pushedAt": "2026-08-14",
       "npm": "@sqnb/dsh-gpt-remote-compaction"
+    },
+    {
+      "name": "dsh-fschannel",
+      "repo": "cershuang/dsh-fschannel",
+      "description": "Feishu/Lark bot bridge that binds a web session to a Feishu chat so messages flow both ways.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-fschannel"
+    },
+    {
+      "name": "dsh-session-archive-manager",
+      "repo": "my-dsh-plugin/session-archive-manager",
+      "description": "Manage archived DeepSeek Harness sessions from Settings: view, unarchive, delete, batch delete, or delete all.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-live-reload",
+      "repo": "xuhurdern-beep/dsh-live-reload",
+      "description": "One-click hot reload of the running DeepSeek Harness plugin composition without restarting the process.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-live-reload"
+    },
+    {
+      "name": "dsh-deepseek-billing-xiaoxiao",
+      "repo": "xiao-xiao-bai-ya/dsh-deepseek-billing",
+      "description": "Draggable DeepSeek balance overlay showing account balance, last-turn spend, and current-turn cost.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-external/dsh-deepseek-billing"
+    },
+    {
+      "name": "dsh-browser-companion",
+      "repo": "Tianyu209/dsh-browser-companion",
+      "description": "Persistent visible browser for DeepSeek Harness with human-in-the-loop login and agent browser tools.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-browser-companion"
+    },
+    {
+      "name": "dsh-session-doctor",
+      "repo": "mayf3/dsh-session-doctor",
+      "description": "Diagnose stuck DeepSeek Harness sessions, abort hung activity, keep queued messages, and resume processing.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-session-doctor"
+    },
+    {
+      "name": "dsh-units",
+      "repo": "TYEclipse/dsh-units",
+      "description": "Unit conversion toolbox for DeepSeek Harness: length, mass, temperature, cooking volume, data sizes, and more.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-units"
+    },
+    {
+      "name": "dsh-workmate",
+      "repo": "halosb/dsh-workmate",
+      "description": "Task-completion toasts and webhooks plus a private local knowledge base with kb_search.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "notifications",
+        "knowledge"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-workmate"
+    },
+    {
+      "name": "dsh-session-repair-ui",
+      "repo": "Semidia/dsh-session-repair-ui",
+      "description": "Session-header button that repairs mismatched tool-call and tool-result ids so a conversation can continue.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-docker",
+      "repo": "STARDUSTLC666/dsh-docker",
+      "description": "Docker container tools for DeepSeek Harness: ps, logs, inspect, exec, and manage via the official subprocess service.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-docker"
+    },
+    {
+      "name": "dsh-think-sticky",
+      "repo": "kongjianguan/dsh-think-sticky",
+      "description": "Pins the Think expand/collapse row to the top of the viewport when long reasoning scrolls away.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@kongjianguan/dsh-think-sticky"
+    },
+    {
+      "name": "dsh-skill-panel-nianchen",
+      "repo": "nianchen8/dsh-skill-panel",
+      "description": "Skill management panel for the DeepSeek Harness web app.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-bundle-updater",
+      "repo": "hyls9527/dsh-bundle-updater",
+      "description": "Profile bundle manager for checking, searching, adding, and removing DeepSeek Harness plugins.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-local-vision",
+      "repo": "hyls9527/dsh-local-vision",
+      "description": "Local vision bridge for text-only models via llama.cpp, Ollama, LM Studio, or vLLM.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-explorer",
+      "repo": "ZrSiO4-y/dsh-explorer",
+      "description": "VS Code-style file explorer for the DeepSeek Harness web GUI with multi-tab preview and filename search.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@zrsio4-y/dsh-explorer"
+    },
+    {
+      "name": "dsh-clawshell",
+      "repo": "jorinyang/dsh-clawshell",
+      "description": "ClawShell vision as DeepSeek Harness plugins: self-perception, adaptation, and swarm tools.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-clawshell"
+    },
+    {
+      "name": "dsh-sql",
+      "repo": "STARDUSTLC666/dsh-sql",
+      "description": "SQL tools for DeepSeek Harness across SQLite, MySQL, and PostgreSQL with a write-operation approval gate.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-sql"
+    },
+    {
+      "name": "dsh-vision-plugin-woyeshishen",
+      "repo": "woyeshishen/dsh-vision-plugin",
+      "description": "describe_image tool that calls an external vision model so text-only DeepSeek Harness sessions can see pictures.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@woyeshishen/dsh-vision-plugin"
+    },
+    {
+      "name": "otto-dsh",
+      "repo": "ottotheagent/otto-dsh",
+      "description": "Book flights, hotels, and cars from DeepSeek Harness through the Otto travel MCP connector.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@ottotheagent/otto-dsh"
+    },
+    {
+      "name": "dsh-lx-music",
+      "repo": "CyberryRe/lx_music-for-dsh",
+      "description": "LX Music sidebar player and search_and_play tool for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "fun"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "lx-music-for-dsh"
+    },
+    {
+      "name": "dsh-ui-preset-enhance",
+      "repo": "lssyd20070106/dsh-ui-preset-enhance",
+      "description": "Web UI extras for custom backgrounds, theme colors, prompt presets, and manual context compaction.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-ui-preset-enhance"
+    },
+    {
+      "name": "git-clis-dsh",
+      "repo": "TommyFang2077/git-clis-dsh",
+      "description": "GitHub gh and Gitea tea CLI helpers for DeepSeek Harness: detect, token setup, and issue operations.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@tommyfang/git-clis-dsh"
+    },
+    {
+      "name": "dsh-plugin-explorer",
+      "repo": "nonmean/dsh-plugin-explorer",
+      "description": "Browse GitHub repos tagged dsh-plugin from the web UI, with live search and a Sync button.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-session-manager-semidia",
+      "repo": "Semidia/dsh-session-manager",
+      "description": "Right-click session menu and sidebar manager: pin, rename, archive, export, and open in a new window.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-external/dsh-session-manager"
+    },
+    {
+      "name": "dsh-file-attachments",
+      "repo": "xzyonline/dsh-file-attachments",
+      "description": "Session-bound file attachments with safe detection for DeepSeek Harness conversations.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-pip",
+      "repo": "extension-hunter/dsh-pip",
+      "description": "Detach the DeepSeek Harness web GUI into a Document Picture-in-Picture always-on-top window.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-pip"
     }
   ]
 }
