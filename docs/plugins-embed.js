@@ -17946,6 +17946,283 @@ window.__PLUGINS__ = {
       ],
       "pushedAt": "2026-08-14",
       "npm": "dsh-pip"
+    },
+    {
+      "name": "dsh-any-background",
+      "repo": "Tkingxiao/dsh-any-background",
+      "description": "Custom wallpaper and theme-color controls for the DeepSeek Harness web UI, including opacity, blur, and a color wheel.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-writing-pad",
+      "repo": "linhx1999/dsh-writing-pad",
+      "description": "Session-backed Markdown writing pad for the web GUI with preview and a writing_draft agent tool.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "adhdgofly-dsh-ext",
+      "repo": "zuoguyoupan2023/adhdgofly-dsh-ext",
+      "description": "Part-of-speech highlighting for rendered Markdown: nouns green, verbs red, adjectives and adverbs purple.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-stock-watch",
+      "repo": "Awu12277/dsh-stock-watch",
+      "description": "Collapsible A-share watchlist popup with live quotes, charts, and a target-price panel.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "fun"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-md-table-formatter",
+      "repo": "Hyna-hla/dsh-md-table-formatter",
+      "description": "Aligns markdown tables in assistant replies after each turn and adds a /clear-history command.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-snapshot-hyna-hla",
+      "repo": "Hyna-hla/dsh-snapshot",
+      "description": "Automatic file snapshots on write and edit, with restore/purge tools and session export.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "cordis-transfer-plugin",
+      "repo": "zby1211/cordis-transfer-plugin",
+      "description": "Import and export dynamic Cordis plugins as zip packages from the DeepSeek Harness web UI.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-super-injector",
+      "repo": "yjh051108/dsh-super-injector",
+      "description": "Runtime injector for local DSH plugin packages with hot reload and a settings-page manager.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 15,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-im",
+      "repo": "xmanrui/dsh-im",
+      "description": "QR-code IM channel plugin that connects Feishu, WeChat, and DingTalk bots to DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-dingtalk-xmanrui",
+      "repo": "xmanrui/dsh-dingtalk",
+      "description": "DingTalk channel plugin with QR-code bot authorization for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-harmony",
+      "repo": "CH4ACKO3/dsh-harmony",
+      "description": "Runtime library to patch, replace, and decorate DeepSeek Harness plugins with hot reload.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-mneme",
+      "repo": "modusensus/dsh-mneme",
+      "path": "dsh-mneme",
+      "description": "Cross-session memory with SQLite, Markdown mirrors, autoDream consolidation, and a web panel.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 9,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "octie-dsh-plugin",
+      "repo": "StarChen-Cycler/octie-dsh-plugin",
+      "path": "octie",
+      "description": "Durable DAG task-graph plugin with octie tools, a Cordis service, and a web UI.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-kanban",
+      "repo": "isolat-3k/dsh-kanban",
+      "path": "plugin",
+      "description": "Hermes-style kanban board plugin for the DeepSeek Harness web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-roundtable",
+      "repo": "qiuqiukof-oss/hesi-dsh-plugins",
+      "path": "hesi-dsh-roundtable",
+      "description": "Hesi multi-agent roundtable workflow with engineer, PM, and skeptic seats.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-plan",
+      "repo": "qiuqiukof-oss/hesi-dsh-plugins",
+      "path": "hesi-dsh-plan",
+      "description": "Hesi one-click execution flow on DeepSeek Harness plan-mode with verify and rollback.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14"
     }
   ]
 };
