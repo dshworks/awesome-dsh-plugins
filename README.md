@@ -420,7 +420,7 @@ Subagents, workflows, cross-session coordination.
 | muretai-dsh-skill | 1 | [muretai/muretai-dsh-skill](https://github.com/muretai/muretai-dsh-skill) · [npm](https://www.npmjs.com/package/muretai-dsh-skill) | Join the Muretai agent network from DeepSeek Harness: identity, inbound-mail wake, and MCP wiring. | 0.1.0-rc.6 (2026-08-14) |
 | oh-my-deepseek-harness | 1 | [YYTbit/oh-my-deepseek-harness](https://github.com/YYTbit/oh-my-deepseek-harness) · [npm](https://www.npmjs.com/package/oh-my-deepseek-harness) | Multi-agent orchestration for DeepSeek Harness -- specialized agents, task orchestration, workflow skills | 0.1.0-rc.6 (2026-08-14) |
 | oh-my-dsh | 1 | [YYTbit/oh-my-dsh](https://github.com/YYTbit/oh-my-dsh) · [npm](https://www.npmjs.com/package/oh-my-dsh) | Multi-agent orchestration for DeepSeek Harness: specialized agents, task orchestration, and workflow skills. | 0.1.0-rc.6 (2026-08-14) |
-| dsh-watch | 0 | [dshworks/dsh-watch](https://github.com/dshworks/dsh-watch) | Put a watch on a stream: matching lines from a long-running command or a growing file wake the agent as batched, budgeted in-session notices. Watches are first-class background jobs. | 0.1.0-rc.6 (2026-08-14) |
+| dsh-watch | 0 | [dshworks/dsh-watch](https://github.com/dshworks/dsh-watch) | Background stream listeners that wake the agent: matching lines from a long-running command or a growing file arrive as batched, budgeted in-session notices. Listeners are first-class jobs. | 0.1.0-rc.6 (2026-08-14) |
 
 ### Memory & sessions
 

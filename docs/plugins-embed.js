@@ -9807,7 +9807,7 @@ window.__PLUGINS__ = {
     {
       "name": "dsh-watch",
       "repo": "dshworks/dsh-watch",
-      "description": "Put a watch on a stream: matching lines from a long-running command or a growing file wake the agent as batched, budgeted in-session notices. Watches are first-class background jobs.",
+      "description": "Background stream listeners that wake the agent: matching lines from a long-running command or a growing file arrive as batched, budgeted in-session notices. Listeners are first-class jobs.",
       "category": "plugin",
       "tags": [
         "agents",
