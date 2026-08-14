@@ -16157,6 +16157,267 @@
       ],
       "pushedAt": "2026-08-14",
       "npm": "dsh-plugin-reading-pipeline"
+    },
+    {
+      "name": "dsh-plugin-llm-balance",
+      "repo": "FengHuoLinShan/dsh-plugin-llm-balance",
+      "description": "Draggable API balance and quota card for DeepSeek, Moonshot, and Kimi For Coding providers.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage",
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-llm-balance"
+    },
+    {
+      "name": "dsh-auto-mode",
+      "repo": "NanmiCoder/dsh-auto-mode",
+      "description": "Fail-closed automatic permission policy for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@nanmicoder/dsh-auto-mode"
+    },
+    {
+      "name": "dsh-github-login",
+      "repo": "Noob-stupid/dsh-github-login",
+      "description": "Visual GitHub device-code login for the DSH host, with an optional Electron helper and gh CLI token sync.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "interop",
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-github-login"
+    },
+    {
+      "name": "dsh-langfuse",
+      "repo": "TtTRz/dsh-langfuse",
+      "description": "Langfuse observability for DeepSeek Harness: one OpenTelemetry trace tree per agent session, with feedback scores and subagent lineage.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-langfuse"
+    },
+    {
+      "name": "dsh-locallens",
+      "repo": "uknowmyface/locallens",
+      "description": "Local macOS Vision OCR for DeepSeek Harness: read text from screenshots, clipboard images, or files with no upload.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision",
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@locallens/dsh-tool-screenshot-ocr"
+    },
+    {
+      "name": "dsh-plugin-session-import",
+      "repo": "huguangyu666/dsh-plugin-session-import",
+      "description": "Import claude-code, Codex, reasonix, and zcode chat histories into dsh sessions with workspace binding.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "interop",
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-session-import"
+    },
+    {
+      "name": "dsh-codex",
+      "repo": "Yan-Zero/dsh-codex",
+      "description": "Use a ChatGPT subscription in DeepSeek Harness through OpenAI Codex sign-in, with Codex models, search, and image tools.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 8,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "models"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-codex"
+    },
+    {
+      "name": "dsh-continual-evolve",
+      "repo": "ZK-Andy/dsh-continual-evolve",
+      "description": "Continual self-evolution for DeepSeek Harness: versioned, auditable, rollback-safe harness state refined from session trajectories.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents",
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-continual-evolve"
+    },
+    {
+      "name": "dsh-cost-display",
+      "repo": "misakimiku2/dsh-cost-display",
+      "description": "Status-bar session cost for DeepSeek Harness, billed per model with peak and off-peak rates.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-cost-display"
+    },
+    {
+      "name": "dsh-web-search-duckduckgo",
+      "repo": "qwased/dsh-web-search-duckduckgo",
+      "description": "Free DuckDuckGo search provider and web_search_ddg tool for the DeepSeek Harness web capability seam.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "packages/dsh-web-search-duckduckgo-bundle"
+    },
+    {
+      "name": "gatecraft",
+      "repo": "Cryonnan/GateCraft-math-modeling-skills",
+      "description": "Gated math-modeling skill suite for DeepSeek Harness: five-stage pipeline, stage gates, and scripted quality checks.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge",
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "gatecraft"
+    },
+    {
+      "name": "dsh-subagent-admission",
+      "repo": "yha9806/dsh-subagent-admission",
+      "description": "Shared lifecycle admission protocol and reference policy kernel for DeepSeek Harness subagents.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents",
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "packages/dsh-subagent-admission",
+      "npm": "dsh-subagent-admission"
+    },
+    {
+      "name": "dsh-plugin-open-editor",
+      "repo": "Civitasv/dsh-plugin-open-editor",
+      "description": "Open the current DSH project in VS Code, Cursor, Windsurf, or another editor from the web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui",
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-open-editor"
+    },
+    {
+      "name": "dsh-notify",
+      "repo": "TerricSH/dsh-notify",
+      "description": "Desktop notifications for DeepSeek Harness approval, completion, and error events with click-to-open deep links.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "notifications"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@terricsh/dsh-notify"
     }
   ]
 }
