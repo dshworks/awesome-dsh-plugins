@@ -15149,6 +15149,379 @@ window.__PLUGINS__ = {
         "interop"
       ],
       "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-tavern",
+      "repo": "Player-MINEPIG/dsh-tavern",
+      "description": "SillyTavern-compatible content adapters for DeepSeek Harness: characters, world books, presets, and a web client.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "fun",
+        "interop"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-tavern"
+    },
+    {
+      "name": "dsh-lark-bot",
+      "repo": "PlutoKeating/dsh-lark-bot",
+      "description": "Bridge DeepSeek Harness into Feishu/Lark with streaming cards, project workspaces, approvals, and scheduling.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 9,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-lark-bot"
+    },
+    {
+      "name": "dsh-auxiliary",
+      "repo": "Gu-ZT/dsh-auxiliary",
+      "description": "Auxiliary model routes for DeepSeek Harness: vision understanding and context compression through dedicated providers.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision",
+        "models"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-auxiliary"
+    },
+    {
+      "name": "ha-orchestrator",
+      "repo": "Saktawdi/ha-orchestrator",
+      "description": "Model high-availability failover plus subagent orchestration (fanout, pipeline, supervisor) for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents",
+        "models"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "ha-orchestrator"
+    },
+    {
+      "name": "dsh-plugin-finder",
+      "repo": "ihuajiu/dsh-plugin-finder",
+      "description": "Natural-language plugin search for DeepSeek Harness: ask what you need and get matching dsh.so plugins with install commands.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-finder"
+    },
+    {
+      "name": "dsh-tool-ocr",
+      "repo": "ferstar/dsh-tool-ocr",
+      "description": "Standalone OCR tool plugin for DeepSeek Harness: local image text recognition (nbocr / PP-OCRv6) for models without vision.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision",
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-tool-ocr"
+    },
+    {
+      "name": "deepseek-harness-remote",
+      "repo": "liguobao/deepseek-harness-remote",
+      "description": "Secure remote control for DeepSeek Harness: paired clients view sessions, continue chats, and handle approvals while the harness stays on the host.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "deepseek-harness-remote"
+    },
+    {
+      "name": "dsh-forge",
+      "repo": "zhn1100/dsh-forge",
+      "description": "Reproducible DeepSeek Harness plugin development profile with a cordis patch, CLI, and runtime-aware preset.",
+      "category": "tool",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-forge"
+    },
+    {
+      "name": "dsh-evoresearch",
+      "repo": "Karbo123/DSH-EvoResearch",
+      "description": "Self-evolving research workflow for DeepSeek Harness: project workspaces, research memory, multi-agent teams, and a custom workbench.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge",
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "packages/evoresearch-plugin",
+      "npm": "@evoresearch/dsh-plugin"
+    },
+    {
+      "name": "dsh-token-activity",
+      "repo": "SnowNightt/dsh-token-activity",
+      "description": "365-day daily token-usage heatmap for DeepSeek Harness; hover a date to see every model and its token count.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "packages/token-activity",
+      "npm": "@snownightt/dsh-token-activity"
+    },
+    {
+      "name": "dsh-phone",
+      "repo": "railgun0325/dsh-phone",
+      "description": "Lets the DeepSeek Harness agent run on a rooted Android phone (screenshot, tap, swipe, open apps) with a mobile web layout.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 5,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "plugin",
+      "npm": "dsh-android-control"
+    },
+    {
+      "name": "dsh-cloak-browser",
+      "repo": "maxiaovivi/dsh-cloak-browser",
+      "description": "Native CloakBrowser tools for DeepSeek Harness: isolated per-agent browser sessions, snapshots, interaction, and screenshots.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-cloak-browser"
+    },
+    {
+      "name": "dsh-code",
+      "repo": "UNLINEARITY/dsh-code",
+      "description": "Claude-Code-style interactive TUI bundle for DeepSeek Harness with a DeepSeek-blue whale banner and live session transcript.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 4,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "terminal"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-code"
+    },
+    {
+      "name": "dsh-agent-memory",
+      "repo": "Culeot/dsh-agent-memory",
+      "description": "Cross-session long-term memory for DeepSeek Harness: schema-validated storage plus remember, recall, index, and forget tools.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-agent-memory"
+    },
+    {
+      "name": "wanjiaqi-meme",
+      "repo": "Chu-Xin-r/wanjiaqi-meme",
+      "description": "Skill distilled from 22,771 live-stream danmaku memes for 玩机器-style commentary and CS×DOTA jokes.",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "fun"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-session-import",
+      "repo": "devmom/dsh-session-import",
+      "description": "Cross-tool session migration for DeepSeek Harness: ingest, continue, knowledge extraction, bidirectional export, and privacy redaction.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory",
+        "interop"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-session-import"
+    },
+    {
+      "name": "deepseek-harness-zh-cn",
+      "repo": "imlishiyuan/deepseek-harness-zh-cn",
+      "description": "Chinese-first plugin that makes DeepSeek Harness reason and answer in Simplified Chinese by default.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "deepseek-harness-zh-cn"
+    },
+    {
+      "name": "dsh-auto-fold",
+      "repo": "Neplich/dsh_plugin",
+      "description": "Auto-collapse thinking and tool-call records above assistant body text, with a persistent expand/collapse bar.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "packages/dsh-auto-fold",
+      "npm": "@neplich/dsh-auto-fold"
+    },
+    {
+      "name": "dsh-config-mcp",
+      "repo": "Neplich/dsh_plugin",
+      "description": "MCP servers settings section: list, add, edit, toggle, and delete MCP servers via user-level cordis.patch.yml with live HMR.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui",
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "packages/dsh-config-mcp",
+      "npm": "@neplich/dsh-config-mcp"
+    },
+    {
+      "name": "dsh-preset-dev",
+      "repo": "Neplich/dsh_plugin",
+      "description": "Agent-preset installer for 开发模式 (dev): the standard coding agent plus the cordis runtime-inspection toolset.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools",
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "path": "packages/dsh-preset-dev",
+      "npm": "@neplich/dsh-preset-dev"
     }
   ]
 };
