@@ -13448,6 +13448,1707 @@ window.__PLUGINS__ = {
       ],
       "pushedAt": "2026-08-14",
       "npm": "@kakadeka/dsh-baton"
+    },
+    {
+      "name": "dsh-agent-team-room",
+      "repo": "ishuowang/dsh-agent-team-room",
+      "description": "Persistent multi-agent rooms with membership, messaging, tasks, and a shared DSH Web timeline.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-agent-team-room"
+    },
+    {
+      "name": "dsh-update-notifier",
+      "repo": "arvin-yd/dsh-update-notifier",
+      "description": "Red-dot update checker for DeepSeek Harness: warns in the sidebar footer when a newer @deepseek-ai/dsh release exists on npm.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "notifications"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-update-notifier"
+    },
+    {
+      "name": "dsh-better-deepseek",
+      "repo": "EdgeTypE/dsh-better-deepseek",
+      "description": "DeepSeek Harness bridge plugin for Better-DeepSeek Chrome extension integration",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "interop"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-better-deepseek"
+    },
+    {
+      "name": "dsh-plugin-web-search-tavily",
+      "repo": "coderdailyone/dsh-plugin-web-search-tavily",
+      "description": "Tavily search provider bundle for DeepSeek Harness (dsh): registers a WebSearchProvider into ctx.web",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-web-search-tavily"
+    },
+    {
+      "name": "dsh-rigorquant",
+      "repo": "linxichen/dsh-rigorquant",
+      "description": "RigorQuant for DeepSeek Harness: unattended, walled multi-agent research for empirical/computational mathematics with a four-part pre-implementation check battery and a jacobian/Lean escalation lane.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-rigorquant"
+    },
+    {
+      "name": "dsh-zotero-wiki",
+      "repo": "Wechsels/dsh-zotero-wiki",
+      "description": "A DeepSeekHarness plugin that turns your Zotero library into a citation-aware Obsidian wiki: sync, MinerU PDF parsing, DeepSeek notes, topic reviews and query tools.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-zotero-wiki"
+    },
+    {
+      "name": "dsh-plugin-terminal-mervyn-teo",
+      "repo": "mervyn-teo/dsh-plugin-terminal",
+      "description": "DSH Web plugin: a real PTY terminal in a VS Code-style collapsible footer panel (host PTY + WebSocket + xterm.js)",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "terminal"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-bash-rtk",
+      "repo": "DeepTrial/dsh-bash-rtk",
+      "description": "DeepSeek Harness bash executor plugin that routes eligible commands through rtk (Rust Token Killer) to compress tool output and save tokens. Optional overlay: install, then enable via --patch.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@deeptrial/dsh-bash-rtk"
+    },
+    {
+      "name": "dsh-asc",
+      "repo": "lmst2/dsh-asc",
+      "description": "Agentic Surface Compaction (ASC) for DeepSeek Harness: the model decides when and what to compact, committed as durable session-log replacements with full replay, search, and degradation",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-asc"
+    },
+    {
+      "name": "dsh-doctor",
+      "repo": "sc3294145287-beep/dsh-doctor",
+      "description": "Deterministic diagnostics and recovery for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-doctor"
+    },
+    {
+      "name": "dsh-webproxy-router-plugin",
+      "repo": "jinsiyu/dsh-webproxy-router-plugin",
+      "description": "Proxy Router: route listed hostnames through an HTTP/SOCKS proxy for ctx.web fetches (host plugin) + settings card (client bundle)",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-webproxy-router-plugin"
+    },
+    {
+      "name": "dsh-observability",
+      "repo": "jeremy9682/dsh-observability",
+      "description": "Community DeepSeek Harness plugin.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-codex-observability"
+    },
+    {
+      "name": "dsh-balance-display",
+      "repo": "xsuas/dsh-balance-display",
+      "description": "DeepSeek Harness balance display plugin",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@xsuas/dsh-balance-display"
+    },
+    {
+      "name": "dsh-client-ui-trajectory-categories",
+      "repo": "QWQ-nn/dsh-client-ui-trajectory-categories",
+      "description": "DSH Web 轨迹分类视图插件：「分类」标签页 = 左上角「合计」动作统计（写入/读取/删除/下载/命令/搜索/子代理/其他工具/消息/压缩）+ 思维导图画布（一次一个问题，问题画布标签切换，问题 → 方案 → 工具调用，节点可拖动、线条带惯性）。点击问题/方案收起展开子流程，点击工具查看「做了什么/输出日志/修改内容/参数/错误」。中文分类、中英文工具名匹配，保留原始「轨迹」流程列表。纯...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-client-ui-trajectory-categories"
+    },
+    {
+      "name": "dsh-guardian-akira399",
+      "repo": "akira399/dsh-guardian",
+      "description": "DeepSeek Harness task-protection plugin: plugin preflight scanner (catches missing `inject` declarations that crash the host), loop detection (repeated identical tool calls -> steer to a new approa...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-captain",
+      "repo": "KanoNoUta/dsh-captain",
+      "description": "Captain GPT planner, DeepSeek worker, GPT reviewer orchestration plugin",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@deepseek-ai/dsh-captain"
+    },
+    {
+      "name": "dsh-ask-guard",
+      "repo": "Q1hangL/dsh-ask-guard",
+      "description": "Timeout guard for ask_user_question: a lost or unanswered question resolves as a structured ASK_TIMEOUT instead of hanging the turn forever",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-ask-guard"
+    },
+    {
+      "name": "dsh-chat-import-devmom",
+      "repo": "devmom/dsh-chat-import",
+      "description": "Cross-tool session migration plugin for the DeepSeek Harness (dsh): high-fidelity ingest, continue, knowledge extraction, bidirectional export, privacy redaction.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "chat-import"
+    },
+    {
+      "name": "dsh-habits",
+      "repo": "DimitriLIAN/dsh-habits",
+      "description": "My Habits for DeepSeek Harness: edit the user-global AGENTS.md from the Web settings — injected into every session by the built-in agent-instructions loader.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-habits"
+    },
+    {
+      "name": "dsh-mcp-settings-aka-danielzhang",
+      "repo": "aka-danielZhang/dsh-mcp-settings",
+      "description": "Settings-driven MCP server manager, inventory Remote, and Web settings UI for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-mcp-settings"
+    },
+    {
+      "name": "dsh-zh-hant-hk",
+      "repo": "Argonaut790/dsh-zh-hant-hk",
+      "description": "Hong Kong Traditional Chinese wording for DeepSeek Harness (會話 → 對話, 設置 → 設定, …)",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-zh-hant-hk"
+    },
+    {
+      "name": "dsh-update-checker",
+      "repo": "duntansen/dsh-update-checker",
+      "description": "DSH web plugin: check DeepSeek Harness updates from Settings — local dsh --version vs npm registry latest/next, one-click update, timeline, notifications, history.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-update-checker"
+    },
+    {
+      "name": "dsh-plugins",
+      "repo": "Sakana-yuyu/dsh-plugins",
+      "description": "Star-ranked DeepSeek Harness plugin catalog. Search and install other dsh-plugin repos.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugins-catalog"
+    },
+    {
+      "name": "dsh-voice-mic",
+      "repo": "Zachary7456/dsh-voice-mic",
+      "description": "DSH WebUI 语音输入插件：输入框麦克风按钮（Alt+V）→ 录音 → 浏览器 Web Speech API 或本地 FunASR 后端转写 → 文本回填输入框（不自动发送）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-voice-mic"
+    },
+    {
+      "name": "dsh-backup",
+      "repo": "xiaoyuyu6420/dsh-backup",
+      "description": "Backup DeepSeek Harness user data (~/.dsh) with one command: /backup, automatic scheduled backups, checksums and rotation. 一键备份 DSH 数据，支持定时自动备份。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-backup"
+    },
+    {
+      "name": "dsh-o11y-plugin",
+      "repo": "fly3366/dsh-o11y-plugin",
+      "description": "Unified observability (trace/log/metric) for deepseek-harness plugins: hooks dsh session telemetry where available, maintains OTel signals where not, and exports via standard OTLP.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-o11y-plugin"
+    },
+    {
+      "name": "dsh-hot-plugin-host",
+      "repo": "tianyaZTY/dsh-hot-plugin-host",
+      "description": "Hot-plugin host for DeepSeek Harness: install/update static client plugins at runtime — drop a bundle into the hot dir, every open page loads it live, no restart.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-hot-plugin-host"
+    },
+    {
+      "name": "dsh-recall-plugin",
+      "repo": "limbo947/dsh-recall-plugin",
+      "description": "DSH 消息撤回插件：在用户消息气泡旁加「撤回」按钮，把项目文件（独立影子 git 仓库快照）与对话历史（官方 fork）一并回退到该消息发送之前。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-recall-plugin"
+    },
+    {
+      "name": "dsh-file-panel",
+      "repo": "yu2025-luo/dsh-file-panel",
+      "description": "DeepSeek Harness plugin: a right-side panel that lists files the agent created or downloaded, with inline preview and \"reveal in folder\".",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-file-panel"
+    },
+    {
+      "name": "dsh-memory-manager",
+      "repo": "tuanmaoOVO/dsh-memory-manager",
+      "description": "DSH 记忆管理插件（宿主级）：文件夹记忆库、印象、组合与双向链接、上下文计划注入、规约记忆（新会话自动常驻）、Agent 记忆工具、图谱视图，设置页自由开关。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-external/dsh-memory-manager"
+    },
+    {
+      "name": "dsh-advisor-glangzh",
+      "repo": "glangzh/dsh-advisor",
+      "description": "Advisor strategy for DeepSeek Harness: escalate hard decisions from the executor (deepseek-v4-flash) to deepseek-v4-pro through the official subagents channel.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-advisor-plugin"
+    },
+    {
+      "name": "hermes-to-dsh",
+      "repo": "beimianism/Hermes-to-DSH",
+      "description": "DSH plugin — browse local Hermes skills / MCP servers / chats in the DeepSeek Harness web sidebar, and inject selected skills & MCP config into the active agent (active/passive mode).",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "hermes-to-dsh"
+    },
+    {
+      "name": "dsh-fluid-width",
+      "repo": "LessXi/dsh-fluid-width",
+      "description": "DSH Web GUI 聊天显示区宽度自适应：把出厂硬编码的 748px 显示区改成随窗口流动（默认封顶 2000px，可配置）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-fluid-width"
+    },
+    {
+      "name": "dsh-sysmon",
+      "repo": "AKS1st/dsh-sysmon",
+      "description": "DSH Web 右下角系统状态悬浮窗：CPU（x%/y）、内存、磁盘占用，1 秒刷新",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-external/dsh-sysmon"
+    },
+    {
+      "name": "dsh-plugin-catalog-luniteglaze",
+      "repo": "LuniteGlaze/dsh-plugin-catalog",
+      "description": "DeepSeek Harness plugin: an enhanced Settings > Plugins catalog with third-party badges, mount-point aggregation, and bilingual descriptions you can edit.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-auto-approval-plugin",
+      "repo": "StyxNether/dsh-auto-approval-plugin",
+      "description": "A middle permission tier for DeepSeek Harness between workspace-write and danger-full-access: auto-approves harmless commands and operations targeting configured trusted areas, beyond the current w...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-auto-approval-plugin"
+    },
+    {
+      "name": "dsh-stall-guard",
+      "repo": "akira399/dsh-stall-guard",
+      "description": "DeepSeek Harness watchdog plugin with a monitor → judge → continue/fix/redirect flow and NO task termination: in-flight operations are treated as progress (never steered), and only true silence tri...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-stall-guard"
+    },
+    {
+      "name": "dsh-of-your-own",
+      "repo": "LaplaceYoung/dsh-of-your-own",
+      "description": "/fuck — read your Claude Code & Codex conversation history in parallel, analyze your preferences and tool habits, migrate them into DSH as a persisted profile, and keep remembering them.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-external/dsh-of-your-own"
+    },
+    {
+      "name": "dsh-awiki",
+      "repo": "AgentConnect/dsh-awiki",
+      "description": "AWiki identity and messaging plugin for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-awiki"
+    },
+    {
+      "name": "dsh-input-plus",
+      "repo": "WhitePlusMS/dsh-input-plus",
+      "description": "DSH 输入框强化 (DSH Input+): @ file/directory reference and native composer status for the DeepSeek Harness Web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-input-plus"
+    },
+    {
+      "name": "dsh-plugin-manager-imissthecat",
+      "repo": "imissthecat/dsh-plugin-manager",
+      "description": "WebUI plugin manager for DeepSeek Harness: search the npm registry, install, enable/disable, and uninstall profile plugins from the browser",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-onebot",
+      "repo": "Hoshino-Yumetsuki/dsh-onebot",
+      "description": "OneBot v11 HTTP and WebSocket adapter for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-onebot"
+    },
+    {
+      "name": "dsh-session-link",
+      "repo": "PwnKY/dsh-session-link",
+      "description": "Codex-style session deep links for DeepSeek Harness (dsh): copy a dsh:// link from any conversation, open it in the browser, or paste it into another conversation to read that session's context.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-session-link"
+    },
+    {
+      "name": "dsh-jlink-plugin",
+      "repo": "cyj0920/dsh-jlink-plugin",
+      "description": "Native DeepSeek Harness plugin for J-Link debugging: manager + tools + device patches + visualization. 原生 J-Link 调试插件（管理器+工具+补丁注册+可视化）。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@can/dsh-jlink"
+    },
+    {
+      "name": "dsh-chat-timeline",
+      "repo": "jjxjjjjiik-bot/dsh-chat-timeline",
+      "description": "DeepSeek 官网风格右侧消息时间线：常驻显示当前会话的用户消息卡片，悬停高亮、点击跳转到对应消息。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-chat-timeline"
+    },
+    {
+      "name": "dsh-providers",
+      "repo": "tyql688/dsh-providers",
+      "description": "Model providers for DeepSeek Harness: sign in with OAuth or an API key, and keep every provider's model catalog current",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "models"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-providers"
+    },
+    {
+      "name": "douyin-plugin-dsh-plugin",
+      "repo": "chu557/douyin-plugin-dsh-plugin",
+      "description": "DSH plugin: the /douyin command opens the Douyin web app in the default browser",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "fun"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-command-douyin"
+    },
+    {
+      "name": "dsh-plugin-balance",
+      "repo": "lmmzss-jk/dsh-plugin-balance",
+      "description": "DeepSeek Harness web plugin: header balance button (left of the native Session log), dropdown with account balance, live per-session model + token usage and official-rate cost estimates; auto-hides...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@lmmzss/dsh-plugin-balance"
+    },
+    {
+      "name": "dsh-grok-geo",
+      "repo": "xuboboo/dsh-grok-geo",
+      "description": "DSH bundle: grok-geo GEO brand audit agent skill — AI-search visibility, recommendations, citations, competitor presence and content-gap diagnosis across 17+ AI engines (ChatGPT/Perplexity/Claude/G...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-grok-geo"
+    },
+    {
+      "name": "weshop-dsh-plugin",
+      "repo": "weshopai/weshop-dsh-plugin",
+      "description": "Native Cordis WeShop canvas, tools, skills, and Web UI for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 4,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "weshop-dsh-plugin"
+    },
+    {
+      "name": "dsh-sound-plugin",
+      "repo": "FG-FOX/dsh-sound-plugin",
+      "description": "Web sound cues: play distinct tones when a task completes, when the agent needs permission/asks a question, and when a task aborts abnormally.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "notifications"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-client-ui-sounds"
+    },
+    {
+      "name": "dsh-plugin-lifensame",
+      "repo": "lifensame/dsh-plugin",
+      "description": "Global memory plugin for the DeepSeek Harness: persistent cross-session memories, automatic per-task recall, and model-facing add/search/list/delete/summarize tools",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-memory"
+    },
+    {
+      "name": "dsh-sfversion",
+      "repo": "sparkmio/dsh-sfversion",
+      "description": "StepFun 视觉桥(step-3.7-flash):给纯文本模型装上眼睛——图片描述 + UI 还原,原生图片消息自动翻译",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-sfversion"
+    },
+    {
+      "name": "dsh-tui-plugin-ohmypi",
+      "repo": "mytianyi0712/dsh-tui-plugin-OhMyPi",
+      "description": "OMP-styled interactive terminal profile bundle for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "terminal"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-omp-tui"
+    },
+    {
+      "name": "dsh-chinese-search",
+      "repo": "xzy-jason/dsh-chinese-search",
+      "description": "Chinese full-text search for DeepSeek Harness memory plugins using jieba segmentation",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-chinese-search"
+    },
+    {
+      "name": "dsh-quant-workbench",
+      "repo": "dmsobtl/dsh-quant-workbench",
+      "description": "量化研究工作台 Profile for DeepSeek Harness — A股/美股/加密货币行情、技术分析、策略回测。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-quant-workbench"
+    },
+    {
+      "name": "dsh-codex-provider-plugin",
+      "repo": "DamonBao/dsh-codex-provider-plugin",
+      "description": "OpenAI Codex OAuth provider and native settings UI for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "models"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@jcy2387/dsh-codex-provider-plugin"
+    },
+    {
+      "name": "dsh-plugin-grok2api-media-tool",
+      "repo": "lsjspl/dsh-plugin-grok2api-media-tool",
+      "description": "dsh bundle plugin: grok2api image & video generation tools (generate_image / generate_video) for the DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-grok2api-media-tool"
+    },
+    {
+      "name": "dsh-test-workbench",
+      "repo": "dmsobtl/dsh-test-workbench",
+      "description": "测试工作台 Profile for DeepSeek Harness — 组装 UI 验证、会话分析、视觉路由为一体的 QA Agent。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-test-workbench"
+    },
+    {
+      "name": "dsh-scrape-webpage",
+      "repo": "131CDA1/dsh-scrape-webpage",
+      "description": "网页抓取与分析插件：抓取网页正文并给出统计与关键词分析，支持内容图片下载与识图分析器扩展接口。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-scrape-webpage"
+    },
+    {
+      "name": "dsh-plugin-workbench",
+      "repo": "Pasumao/dsh-plugin-workbench",
+      "description": "VS Code-style workspace file explorer + editable preview for the dsh web GUI",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-workbench"
+    },
+    {
+      "name": "dsh-plugin-market-zhen-wushuilingchun",
+      "repo": "Zhen-WushuiLingchun/dsh-plugin-market",
+      "description": "Persistent plugin marketplace for DeepSeek Harness: discover GitHub plugins and hand installation to a new DSH agent session.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@hydrogenoxide18/dsh-plugin-market"
+    },
+    {
+      "name": "dsh-plugin-organizer",
+      "repo": "Inspireason/dsh-plugin-organizer",
+      "description": "DSH web plugin: group the plugin inventory into official and third-party collapsible sections",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-organizer"
+    },
+    {
+      "name": "dsh-plugin-usage",
+      "repo": "bennett-dsh/dsh-plugin-usage",
+      "description": "Token usage statistics for DeepSeek Harness — daily/custom-range views, model filters, call counts and cost, inspired by CC Switch statistics.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-usage"
+    },
+    {
+      "name": "dsh-plugin-drone",
+      "repo": "initialencounter/dsh-plugin-drone",
+      "description": "Drag files or floders from explorer into dsh smoothly",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-drone"
+    },
+    {
+      "name": "dsh-plugin-market-veloce-ailab",
+      "repo": "veloce-ailab/dsh-plugin-market",
+      "description": "Plugin market foundation with a standalone Web configuration editor for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-market"
+    },
+    {
+      "name": "dsh-plugin-market-joeyefengying",
+      "repo": "joeyefengying/dsh-plugin-market",
+      "description": "DSH 插件市场（组合包，重启常驻）— 设置面板浏览 awesome-dsh-plugin 社区精选（227），搜索/分类/星标排名/一键安装/已装检测/收藏。Host 注册 HTTP 路由跑 shell，Client 用 fetch 调用。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-plugin-skill-tree",
+      "repo": "nfz/dsh-plugin-skill-tree",
+      "description": "Shared public and profession-core capability trees for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-skill-tree"
+    },
+    {
+      "name": "dsh-feishu-plugin",
+      "repo": "yangzhaofeng496/dsh-feishu-plugin",
+      "description": "Feishu bot bridge plugin for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "channels"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@local/dsh-feishu"
+    },
+    {
+      "name": "dsh-plugins-henlii",
+      "repo": "henlii/dsh-plugins",
+      "description": "DeepSeek Harness (dsh) 自定义插件集合：每个插件可独立安装，也可通过集合 patch 一次性全部安装。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugins"
+    },
+    {
+      "name": "dsh-taskboard-plugin",
+      "repo": "maochiy/dsh-taskboard-plugin",
+      "description": "DeepSeek Harness 任务看板插件：本地 JSON 存储的六列看板 + 任务会话联动 + 拖拽排序 + 面向模型的看板工具。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@xiuda-ai/dsh-taskboard-plugin"
+    },
+    {
+      "name": "dsh-notify-plugin",
+      "repo": "orange1926/dsh-notify-plugin",
+      "description": "DSH 回答完成提醒插件：turn/end 时提示音 + Windows 系统通知，点击通知可聚焦并切换会话，设置里可自由开关。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "notifications"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-local/notify"
+    },
+    {
+      "name": "dsh-plugin-account-hud",
+      "repo": "namesColin/DSH-Plugin-Account-HUD",
+      "description": "DeepSeek account HUD: API balance + service status floating widget, draggable, i18n zh/en, optional better-sidebar tab.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-account-hud"
+    },
+    {
+      "name": "dsh-plugin-reload",
+      "repo": "reina4xa/dsh-plugin-reload",
+      "description": "A DeepSeek Harness plugin: model-facing reload_plugin tool that restarts one Cordis Loader entry (by entry id, module name, or MCP serverName) without touching sibling entries — respawns mcp-client...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-reload"
+    },
+    {
+      "name": "dsh-vision-tool",
+      "repo": "visail/dsh-vision-tool",
+      "description": "Image routing for text-only models in DeepSeek Harness: a global analyze_image tool (Kimi vision) plus automatic rewriting of pasted images into attachment references when the active model cannot s...",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-vision-tool"
+    },
+    {
+      "name": "dsh-workspace-inspector",
+      "repo": "GIGHT111/dsh-workspace-inspector",
+      "description": "右侧面板插件：展示当前会话 Token 用量（tokenUsage/contextPressure 投影）与工作区文件树（host HTTP 路由 + client 面板）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-workspace-inspector"
+    },
+    {
+      "name": "dsh-tool-user-memory",
+      "repo": "IAMLieutenant/dsh-tool-user-memory",
+      "description": "User preference memory for DeepSeek Harness: persisted user profile with memory_get/memory_update tools and system-prompt injection",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-tool-user-memory"
+    },
+    {
+      "name": "dsh-session-cost",
+      "repo": "ChengChe106/dsh-session-cost",
+      "description": "dsh plugin: show the estimated DeepSeek API cost of the current session in the web GUI stats strip (token usage × official pricing, peak/off-peak aware)",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-session-cost"
+    },
+    {
+      "name": "dsh-ws-files",
+      "repo": "zhangxiang1993621/dsh-ws-files",
+      "description": "工作空间文件浏览器：在 dsh web 界面直接查看工作空间目录与文件内容",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-ws-files"
+    },
+    {
+      "name": "dsh-plugin-anydoc",
+      "repo": "beancookie/dsh-plugin-anydoc",
+      "description": "DSH plugin: convert documents to GitHub-Flavored Markdown via @firecrawl/anydoc",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-plugin-anydoc"
+    },
+    {
+      "name": "dsh-dolphindb",
+      "repo": "tradercjz/dsh-dolphindb",
+      "description": "DolphinDB integration for DeepSeek Harness: the WebSocket executor, the model-facing query/write tools, and the bundled DolphinDB skills as one installable profile bundle",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@tradercjz/dsh-dolphindb"
+    },
+    {
+      "name": "dsh-approval-comment",
+      "repo": "MaYiFei1995/dsh-approval-comment",
+      "description": "DSH Web 审批增强插件：无感替代审批窗口，支持「拒绝并附言」；拒绝后终止当前回合工作，并重新结合附言思考。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-approval-comment"
+    },
+    {
+      "name": "dsh-kimi-webbridge",
+      "repo": "MicroHEROX/dsh-Kimi-WebBridge",
+      "description": "Kimi WebBridge for DeepSeek Harness: drive the user's real browser (navigate, click, fill, snapshot, screenshot, evaluate, network, upload, PDF) through the local Kimi WebBridge daemon",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-kimi-webbridge"
+    },
+    {
+      "name": "dsh-exa-mcp",
+      "repo": "MicroHEROX/dsh-exa-mcp",
+      "description": "Exa Search MCP for DeepSeek Harness: mounts the remote Exa MCP endpoint (https://mcp.exa.ai/mcp) through the in-box @deepseek-ai/dsh-mcp-client bridge",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-exa-mcp"
+    },
+    {
+      "name": "dsh-image-reader",
+      "repo": "zcXie777/dsh-image-reader",
+      "description": "Give DeepSeek Harness agents the ability to read images directly: a model-facing read_image tool that answers questions about an image through any OpenAI-compatible vision endpoint.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-image-reader"
+    },
+    {
+      "name": "dsh-approval-guardian",
+      "repo": "karuboniru/dsh-approval-guardian",
+      "description": "DeepSeek Harness bundle that routes real sandbox escalation prompts through a dedicated approval reviewer",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-approval-guardian"
+    },
+    {
+      "name": "dsh-speech-sherpa",
+      "repo": "wuxinzhe/dsh-speech-sherpa",
+      "description": "DeepSeek Harness 本地离线语音插件：STT 语音识别 + TTS 语音合成 + WebUI 按住说话（Sherpa-ONNX）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-speech-sherpa"
+    },
+    {
+      "name": "dsh-approval-ai",
+      "repo": "ang-XWBWZ/dsh-approval-ai",
+      "description": "AI approval answerer using the unified ctx.llm route with fail-closed local policy checks",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@llangtop/dsh-approval-ai"
+    },
+    {
+      "name": "dsh-input-queue",
+      "repo": "EthanHuangEbor/dsh-input-queue",
+      "description": "Rich queued-input panel for DeepSeek Harness: queue supplementary messages while the agent works, then edit, remove, or steer them — with an always-visible queue dock in the web GUI",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-input-queue"
+    },
+    {
+      "name": "dsh-latexcp",
+      "repo": "Chi-hong22/dsh-latexcp",
+      "description": "DeepSeek Harness Web LaTeX formula copy helper: hover a formula to copy its TeX source as $...$ or \\(...\\), with inline/display delimiters auto-matched",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@chi-hong22/dsh-latexcp"
+    },
+    {
+      "name": "dsh-model-thinking",
+      "repo": "cyberlieflife/dsh-model-thinking",
+      "description": "DSH web plugin: 为自定义模型（OpenAI-compatible pi-ai provider）增加思考强度（reasoning effort）配置 —— 设置页新增「思考强度」分区，按模型配置思考级别与线格式、按 provider 配置默认思考强度，直接写入 llm-pi-ai 设置，composer 模型选择器随即生效。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "models"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-model-thinking"
+    },
+    {
+      "name": "dsh-plugin-dev-skill",
+      "repo": "green-dalii/dsh-plugin-dev-skill",
+      "description": "A skill pack that enables any agent to develop DeepSeek Harness (DSH) plugins correctly, efficiently, and in accordance with the official conventions.",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-plugin-development-ray",
+      "repo": "RayYeung1989/dsh-plugin-development",
+      "description": "通用 dsh 插件开发 Skill：任何 agent 工具加载即会开发符合 DeepSeek Harness 的 dsh 插件 (Agent-tool-agnostic SKILL.md for developing DeepSeek Harness dsh plugins)",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-plugin-audit",
+      "repo": "wefio/dsh-plugin-audit",
+      "description": "Community DeepSeek Harness plugin.",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "hana-dsh-bridge",
+      "repo": "KhalilYamber/hana-dsh-bridge",
+      "description": "HanaAgent × DeepSeek Harness 协作桥：让你的 Hana 把 coding 工作派给 DSH，含 Agent 自部署手册与 DSH API 逆向笔记",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "interop"
+      ],
+      "pushedAt": "2026-08-14"
     }
   ]
 };
