@@ -17036,6 +17036,454 @@ window.__PLUGINS__ = {
       ],
       "pushedAt": "2026-08-14",
       "npm": "frameevidence"
+    },
+    {
+      "name": "dsh-plugin-marketplace-yelebai",
+      "repo": "YELEBAI/dsh-plugin-marketplace",
+      "description": "A plugin marketplace for DeepSeek Harness with categories, trending discovery, install management, and controlled restart.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 4,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "marketplace"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-bash-win",
+      "repo": "zimzaza4/dsh-bash-win",
+      "description": "Windows-first bash tools for DeepSeek Harness: Git Bash and WSL2 bash with bwrap sandbox, approval mode, and background jobs.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities",
+        "terminal"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@zimzaza4/dsh-bash-win"
+    },
+    {
+      "name": "dsh-side-workspace",
+      "repo": "invalidnaaaame/dsh-side-workspace",
+      "description": "Codex-style side conversations, a right workspace with Side/Subagents/Goal, and a pinned-notes board for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents",
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-external/dsh-side"
+    },
+    {
+      "name": "pptfast",
+      "repo": "liustack/pptfast",
+      "description": "Stable editable PPTX generation for DeepSeek Harness agents: semantic IR in, native DrawingML out.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@liustack/pptfast"
+    },
+    {
+      "name": "dsh-voice-nn",
+      "repo": "3274375092/dsh-voice",
+      "description": "Microphone voice input for DeepSeek Harness: speak in the web UI and submit the recognized text as a normal message.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@nn12138/dsh-voice"
+    },
+    {
+      "name": "dsh-subagent-max",
+      "repo": "aaravarr/dsh-subagent-max",
+      "description": "Subagent delegation with per-call model override and a live multi-panel streaming subagent viewer.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@aaravarr/dsh-subagent-max"
+    },
+    {
+      "name": "dsh-doctor-astra",
+      "repo": "astra3294/dsh-doctor",
+      "description": "Deterministic diagnostics and recovery for DeepSeek Harness, with a web client and CLI.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-balance-monitor",
+      "repo": "Rainronin/dsh-balance-monitor",
+      "description": "DeepSeek API balance snapshot, a ds_balance tool, and a Matrix sidebar badge for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-balance-monitor"
+    },
+    {
+      "name": "dsh-simplify",
+      "repo": "GongYuanCaiJi/dsh-simplify",
+      "description": "Reviews recently changed code for clarity, consistency, and maintainability in DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-simplify"
+    },
+    {
+      "name": "dsh-doctor-jorinyang",
+      "repo": "jorinyang/dsh-doctor",
+      "description": "Diagnostic, repair, and rollback tools for DeepSeek Harness: dsh_doctor, dsh_doctor_fix, and dsh_doctor_rollback.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "observability"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@jorinyang/dsh-doctor"
+    },
+    {
+      "name": "dsh-crw",
+      "repo": "us/dsh-crw",
+      "description": "fastCRW-backed web_search and web_fetch providers for DeepSeek Harness ctx.web.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-crw"
+    },
+    {
+      "name": "dsh-rename",
+      "repo": "lmst2/dsh-rename",
+      "description": "Slash command to rename the current DeepSeek Harness session, or let the model pick a title.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-rename"
+    },
+    {
+      "name": "dsh-hyperframes",
+      "repo": "STARDUSTLC666/dsh-hyperframes",
+      "description": "Registers HyperFrames by HeyGen video-creation skills for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-hyperframes"
+    },
+    {
+      "name": "dsh-remotion",
+      "repo": "STARDUSTLC666/dsh-remotion",
+      "description": "Registers the Remotion React video-creation skill set for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-remotion"
+    },
+    {
+      "name": "dsh-voice-stardust",
+      "repo": "STARDUSTLC666/dsh-voice",
+      "description": "TTS and STT tools for DeepSeek Harness agents: Microsoft neural voices and OpenAI-compatible ASR.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-voice"
+    },
+    {
+      "name": "dsh-deepseek-vision",
+      "repo": "Argonaut790/dsh-deepseek-vision",
+      "description": "Image understanding, OCR, and persistent visual evidence for text-only DeepSeek Harness models.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "vision"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-deepseek-vision"
+    },
+    {
+      "name": "dsh-model-usage",
+      "repo": "AKS1st/model-usage-plugin",
+      "description": "Model token usage stats, cost estimates, and account balance for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "musage-stats"
+    },
+    {
+      "name": "dsh-mermaid",
+      "repo": "AKS1st/dsh-mermaid",
+      "description": "Renders Mermaid code fences as SVG diagrams in DeepSeek Harness web conversations.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "ui"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@dsh-external/dsh-mermaid"
+    },
+    {
+      "name": "dsh-config-manager",
+      "repo": "xiajiajun516/dsh-config-manager",
+      "description": "Backup, export, import, and migrate DeepSeek Harness configuration from the web UI.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "devtools"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-config-manager"
+    },
+    {
+      "name": "dsh-web-search-parallel",
+      "repo": "parallel-web/dsh-web-search-parallel",
+      "description": "Parallel Search provider bundle for the DeepSeek Harness web capability seam.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@parallel-web/dsh-web-search-parallel"
+    },
+    {
+      "name": "dsh-explore-tree",
+      "repo": "CrazeBox/dsh-ExploreTree",
+      "description": "A research progress tree for long-horizon exploration, recorded on the host and shown in the DeepSeek Harness sidebar.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "knowledge"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "research-tree-plugin"
+    },
+    {
+      "name": "dsh-provider-usage-somewhere",
+      "repo": "somewhere1994/dsh-provider-usage",
+      "description": "DeepSeek balance and Kimi Code quota dashboard dock for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-legion",
+      "repo": "wxxb789/dsh-legion",
+      "description": "Configurable multi-model subagent profiles for DeepSeek Harness.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "agents"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "dsh-legion"
+    },
+    {
+      "name": "dsh-go-balance-show",
+      "repo": "TheMyceliumOfAntan/dsh-go-balance-show",
+      "description": "OpenCode Go usage ring next to the send button, shown while an opencode-go model is selected.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "usage"
+      ],
+      "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-gpt-remote-compaction",
+      "repo": "UABULAJIQL/dsh-gpt-remote-compaction",
+      "description": "Compacts GPT conversations in DeepSeek Harness via a remote OpenAI-compatible endpoint.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-14",
+      "lastVerified": "2026-08-14",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-14",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-08-14",
+      "npm": "@sqnb/dsh-gpt-remote-compaction"
     }
   ]
 };
