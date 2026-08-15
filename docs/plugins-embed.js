@@ -1,6 +1,6 @@
 window.__PLUGINS__ = {
   "$schema": "./schema.json",
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "plugins": [
     {
       "name": "dsh-base",
@@ -18223,6 +18223,21 @@ window.__PLUGINS__ = {
         "agents"
       ],
       "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "riffkit",
+      "repo": "riffkit/skill",
+      "path": "riffkit",
+      "description": "Short-video skill in the SKILL.md format dsh reads: rebuilds a winning TikTok's formula into your own product video; copy riffkit/ into a skill root such as ~/.agents/skills",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "tags": [
+        "capabilities"
+      ]
     }
   ]
 };

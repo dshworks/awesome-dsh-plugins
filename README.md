@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dshworks.github.io/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 1028 entries across 17 functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 1029 entries across 17 functional areas, every one stating the dsh version it was last verified against.
 
 **[Browse the reef](https://dshworks.github.io/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -72,7 +72,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-926 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-14.
+926 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-15.
 
 ### Web UI
 
@@ -1230,6 +1230,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | dsh-plugin-audit | 0 | [wefio/dsh-plugin-audit](https://github.com/wefio/dsh-plugin-audit) | Community DeepSeek Harness plugin. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-plugin-dev-skill | 0 | [green-dalii/dsh-plugin-dev-skill](https://github.com/green-dalii/dsh-plugin-dev-skill) | A skill pack that enables any agent to develop DeepSeek Harness (DSH) plugins correctly, efficiently, and in accordance with the official conventions. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-plugin-development-ray | 0 | [RayYeung1989/dsh-plugin-development](https://github.com/RayYeung1989/dsh-plugin-development) | 通用 dsh 插件开发 Skill：任何 agent 工具加载即会开发符合 DeepSeek Harness 的 dsh 插件 (Agent-tool-agnostic SKILL.md for developing DeepSeek Harness dsh plugins) | 0.1.0-rc.6 (2026-08-14) |
+| riffkit | - | [riffkit/skill](https://github.com/riffkit/skill/tree/HEAD/riffkit) | Short-video skill in the SKILL.md format dsh reads: rebuilds a winning TikTok's formula into your own product video; copy riffkit/ into a skill root such as ~/.agents/skills | 0.1.0-rc.6 (2026-08-15) |
 
 ### Themes
 
