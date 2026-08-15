@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-284 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+285 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -284,6 +284,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-turn-diff | 0 | [2436238575/dsh-turn-diff](https://github.com/2436238575/dsh-turn-diff) | DSH Web UI 插件：每轮结束时汇总本轮所有文件修改差异 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-turn-dots | 0 | [Blaczz/dsh-turn-dots](https://github.com/Blaczz/dsh-turn-dots) | Codex-style conversation turn rail: one dot per turn in the DeepSeek Harness web GUI. | 0.1.0-rc.6 (2026-08-14) |
 | Dsh-UI-Enhance | 0 | [xjackzenvey/Dsh-UI-Enhance](https://github.com/xjackzenvey/Dsh-UI-Enhance) | Optional Web UI enhancements for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
+| dsh-ui-hub | 0 | [Han-1413141/dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) | UI butler for every plugin UI in the DSH Web client: official/plugin categories, per-widget toggles, drag move/resize, collision avoidance and one-click auto arrange. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-ux-simple | 0 | [KhalilYamber/dsh-ux-simple](https://github.com/KhalilYamber/dsh-ux-simple) | DSH 界面两档模式（简化/原生）：工具卡片白话化，降低新手门槛 / Two-level UI mode (simple/native) with plain-language tool cards for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-vscode-lonelymo | 0 | [lonelymoon87/dsh-vscode](https://github.com/lonelymoon87/dsh-vscode) | Run DeepSeek Harness sessions from a VS Code sidebar. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-workspace-dir | 0 | [DDSG-X/dsh-workspace-dir](https://github.com/DDSG-X/dsh-workspace-dir) | DeepSeek Harness plugin: show the current conversation's working directory in a draggable directory panel with adjustable opacity. | 0.1.0-rc.6 (2026-08-15) |
