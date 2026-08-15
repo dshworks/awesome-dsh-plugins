@@ -40,6 +40,12 @@ const SLUG_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 // name; the rest accumulated on their own and hold repos the official topic
 // does not.
 const TOPICS = ["dsh-plugin", "dsh-plugins", "dsh-theme", "dsh-skill", "dsh-bundle"];
+// Sibling registry. Themes carry the dsh-plugin topic like everything else, so
+// without this every entry in awesome-dsh-themes re-enters this queue on every
+// run, forever — 138 of the first 248 candidates were already listed there.
+// Fetched rather than vendored so it cannot go stale; a failed fetch degrades
+// to "queue them and let triage catch it", never to a wrong rejection.
+const THEMES_REGISTRY = "https://raw.githubusercontent.com/dshworks/awesome-dsh-themes/main/data/themes.json";
 const SEARCH_CAP = 1000; // GitHub returns at most this many results per query
 const EPOCH = "2020-01-01"; // no dsh repo predates this; keeps the first slice cheap
 
@@ -215,6 +221,17 @@ const file = read("data/candidates.json");
 const rejectedFile = read("data/rejected.json");
 
 const known = new Set(registry.plugins.map((p) => p.repo.toLowerCase()));
+
+// Anything already listed in the themes registry is triaged, just not here.
+try {
+  const res = await fetch(THEMES_REGISTRY, { signal: AbortSignal.timeout(20000) });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const themes = await res.json();
+  for (const t of themes.themes ?? []) known.add(t.repo.toLowerCase());
+  console.error(`discover: excluding ${themes.themes?.length ?? 0} repo(s) already in awesome-dsh-themes`);
+} catch (err) {
+  console.error(`discover: could not read the themes registry (${err.message}); its entries may re-queue here`);
+}
 // A rejection carrying `recheckAfter` is a snapshot ("no install path on the
 // day we looked"), not a verdict. Once it expires the repo is a candidate
 // again — otherwise a project that ships its manifest a week late is buried
