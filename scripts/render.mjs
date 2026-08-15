@@ -77,17 +77,59 @@ function byRank(a, b) {
     || a.name.localeCompare(b.name);
 }
 
-function table(plugins) {
-  const rows = plugins
+// GitHub stops rendering a markdown file at ~512 KB, silently: the page just
+// ends mid-row and every section below it disappears. At 2,642 entries the
+// full README crossed that and cut off inside the Skills table. So the README
+// shows the top of each section and links to a complete per-section list in
+// lists/, which stays small enough to render.
+const README_ROWS = 25;
+
+function tableRows(plugins) {
+  return plugins
     .slice()
     .sort(byRank)
     .map((p) =>
       `| ${esc(p.name)}${p.official ? " (official)" : ""}${p.featured ? " ⭐" : ""} | ${starsCell(p)} | ${repoCell(p)} | ${esc(p.description)} | ${verifiedCell(p)} |`);
-  return [
+}
+
+function table(plugins, { limit = Infinity, listFile = null } = {}) {
+  const rows = tableRows(plugins);
+  const shown = rows.slice(0, limit);
+  const out = [
     "| Name | Repo ★ | Repo | Description | Verified against |",
     "|---|---|---|---|---|",
-    ...rows,
+    ...shown,
   ].join("\n");
+  if (rows.length <= limit) return out;
+  const more = listFile
+    ? `**[all ${rows.length} →](${listFile})**`
+    : `all ${rows.length}`;
+  return `${out}\n\n<sub>Showing the ${shown.length} most-starred of ${rows.length}. ${more} · [gallery](${GALLERY}) · [JSON](data/plugins.json)</sub>`;
+}
+
+// Full listings, one file per section. Written alongside the README so nothing
+// is only reachable through the gallery.
+const lists = [];
+function listFor(title, blurb, plugins) {
+  const rel = `lists/${slug(title)}.md`;
+  lists.push({
+    rel,
+    body: `<!-- Rendered by scripts/render.mjs from data/plugins.json. Do not edit by hand. -->
+
+# ${title}
+
+${blurb}
+
+${plugins.length} entries, most-starred first. Back to the [registry README](../README.md) · [gallery](${GALLERY}).
+
+${[
+  "| Name | Repo ★ | Repo | Description | Verified against |",
+  "|---|---|---|---|---|",
+  ...tableRows(plugins),
+].join("\n")}
+`,
+  });
+  return rel;
 }
 
 function featuredSection() {
@@ -104,11 +146,14 @@ function pluginSections() {
   for (const [id, title, blurb] of TAGS) {
     const rows = plugins.filter((p) => (p.tags?.[0] ?? "untagged") === id);
     if (!rows.length) continue;
-    parts.push(`### ${title}\n\n${blurb}\n\n${table(rows)}`);
+    const listFile = rows.length > README_ROWS ? listFor(title, blurb, rows) : null;
+    parts.push(`### ${title}\n\n${blurb}\n\n${table(rows, { limit: README_ROWS, listFile })}`);
   }
   const untagged = plugins.filter((p) => !p.tags?.length);
   if (untagged.length) {
-    parts.push(`### Untagged\n\nFresh from the watch, not yet placed in an area.\n\n${table(untagged)}`);
+    const blurb = "Fresh from the watch, not yet placed in an area.";
+    const listFile = untagged.length > README_ROWS ? listFor("Untagged", blurb, untagged) : null;
+    parts.push(`### Untagged\n\n${blurb}\n\n${table(untagged, { limit: README_ROWS, listFile })}`);
   }
   return parts.join("\n\n");
 }
@@ -118,7 +163,8 @@ function categorySections() {
   for (const [key, heading, blurb] of CATEGORIES) {
     const plugins = data.plugins.filter((p) => p.category === key);
     if (plugins.length === 0) continue;
-    parts.push(`### ${heading}\n\n${blurb}\n\n${table(plugins)}`);
+    const listFile = plugins.length > README_ROWS ? listFor(heading, blurb, plugins) : null;
+    parts.push(`### ${heading}\n\n${blurb}\n\n${table(plugins, { limit: README_ROWS, listFile })}`);
   }
   return parts.join("\n\n");
 }
@@ -176,6 +222,8 @@ ${featuredSection()}
 
 ${nPlugins} Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated ${data.updated}.
 
+Each area shows its ${README_ROWS} most-starred entries and links to the complete list in [\`lists/\`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [\`data/plugins.json\`](data/plugins.json) and the [gallery](${GALLERY}) always hold everything.
+
 ${pluginSections()}
 
 ${categorySections()}
@@ -184,7 +232,7 @@ ${categorySections()}
 
 Open a PR against [\`data/plugins.json\`](data/plugins.json) only; the README is regenerated. See [CONTRIBUTING.md](CONTRIBUTING.md). The spam gate in short: a real install path (a \`dsh.bundle\` manifest, a published npm package, or a \`SKILL.md\` layout dsh discovers), not a renamed template fork, and it loads against the dsh version you claim. Pick one or two \`tags\` from the schema's list so your entry lands in the right area.
 
-A scheduled workflow also sweeps the \`dsh-plugin\` topic, npm, and GitHub code search; new finds queue in [\`data/candidates.json\`](data/candidates.json) on a single reused triage PR and never enter the registry without review. Rejected candidates are recorded with one-line reasons in [\`data/rejected.json\`](data/rejected.json) and are not re-queued.
+A scheduled workflow also sweeps every dsh discovery topic, npm, and GitHub code search; new finds queue in [\`data/candidates.json\`](data/candidates.json) on a single reused triage PR and never enter the registry without review. Rejected candidates are recorded with one-line reasons in [\`data/rejected.json\`](data/rejected.json). Rejections of judgment ("this is a curated list") are permanent; rejections of fact ("no install path on the day we looked") carry a \`recheckAfter\` date and are swept again once it passes, so shipping a manifest late is not a life sentence.
 
 ## Field notes
 
@@ -196,11 +244,21 @@ MIT. Not affiliated with DeepSeek; the harness README calls itself "an idea, an 
 `;
 
 mkdirSync(join(ROOT, "docs"), { recursive: true });
+mkdirSync(join(ROOT, "lists"), { recursive: true });
 const artifacts = [
   { rel: "README.md", body: readme },
+  ...lists,
   { rel: "docs/plugins.json", body: `${JSON.stringify(data, null, 2)}\n` },
   { rel: "docs/plugins-embed.js", body: `window.__PLUGINS__ = ${JSON.stringify(data, null, 2)};\n` },
 ];
+
+// A README that GitHub truncates looks complete until you scroll to the cut.
+// Fail the render rather than ship one.
+const README_LIMIT = 512 * 1024;
+if (Buffer.byteLength(readme, "utf8") > README_LIMIT) {
+  console.error(`render: README.md is ${Buffer.byteLength(readme, "utf8")} bytes, over GitHub's ~${README_LIMIT} render limit; lower README_ROWS`);
+  process.exit(1);
+}
 
 if (process.argv.includes("--check")) {
   let bad = false;
