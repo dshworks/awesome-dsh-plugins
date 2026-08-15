@@ -48880,6 +48880,21 @@ window.__PLUGINS__ = {
       "tags": [
         "ui"
       ]
+    },
+    {
+      "name": "dsh-plugin-open-app",
+      "repo": "2nd1st/dsh-plugin-open-app",
+      "npm": "@2nd1st/dsh-plugin-open-app",
+      "description": "Brings open-mcp-apps into dsh: each MCP app becomes a sidebar container with its own workspace, session and App mode, plus an agent status strip and inline widget rendering in chat.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "unverified",
+      "tags": [
+        "ui"
+      ]
     }
   ]
 };
