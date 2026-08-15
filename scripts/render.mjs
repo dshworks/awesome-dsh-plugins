@@ -156,7 +156,9 @@ Each entry carries two orthogonal dimensions: \`category\` is the form factor (b
 
 ## Why a filtered registry
 
-DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [\`dsh-plugin\`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic already held 431 repositories, template forks and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
+DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [\`dsh-plugin\`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. Two days later it holds 2,999, template spam and topic-riders included, and 1,666 of them were created in a single day. A raw topic feed is not a registry; the filter is the value this repo adds.
+
+How much filtering that is, measured: the 2026-08-15 sweep examined 2,382 topic repositories not already in the registry and found no dsh install path at all in 964 of them — no \`dsh\` manifest in \`package.json\`, no dsh dependency, no \`SKILL.md\`. Those repositories carry the topic and nothing else.
 
 If you prefer a curated prose list, [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) does that well, with daily compatibility tracking. This repo is the machine-readable complement, not a replacement.
 
