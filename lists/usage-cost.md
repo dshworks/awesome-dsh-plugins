@@ -4,7 +4,7 @@
 
 Token accounting, billing, balance, quota.
 
-206 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+207 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -188,6 +188,7 @@ Token accounting, billing, balance, quota.
 | dsh-ibka-balance | 0 | [ibka512/dsh-ibka-balance](https://github.com/ibka512/dsh-ibka-balance) | 常驻余额监测卡片：DeepSeek API 余额实时显示，每 5 分钟自动刷新，过低变色提醒。A permanent composer-dock card showing your DeepSeek API account balance with auto-refresh and low-balance warnings. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-infra-observability | 0 | [Bryan-cmf/dsh-infra-observability](https://github.com/Bryan-cmf/dsh-infra-observability) | DSH-Plugin: structural observability layer — real tool/skill usage recording (tools/result), skill-catalog audit, and a watchdog with health/error events. No model self-reporting. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-liang-rheostat | 0 | [Codingendless/dsh-liang-rheostat](https://github.com/Codingendless/dsh-liang-rheostat/tree/HEAD/dsh-liang-rheostat-client-ui) | DeepSeek 梁表 · 滑动变阻器 — 浏览器半边:每条模型回复的回合尾部显示一行评级(梁祖/梁神/梁圣/梁子/牢梁/小难梁),数据来自会话事件里的 usage,与服务端 dsh-liang-rheostat-server 同款评分引擎 | 0.1.0-rc.6 (2026-08-15) |
+| dsh-meter | - | [dshworks/dsh-meter](https://github.com/dshworks/dsh-meter) | DeepSeek's time-of-use meter: session cost billed at the tariff in force when each request was dispatched, the running tariff and its countdown, and a local-time tariff clock in the composer dock. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-model-sync | 0 | [jiay98528-dev/dsh-model-sync](https://github.com/jiay98528-dev/dsh-model-sync) | Sync live provider model lists into DSH settings and show 5h/7d quota rings for the current session model. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-netcafe | 0 | [mario03690/dsh-netcafe](https://github.com/mario03690/dsh-netcafe) | DeepSeek Harness bundle for AI NetCafé's hosted tools. One install for the full catalogue, or pick one of four focused packs (tables, dev kit, doc flow, China facts) so you only pay the context cost | 0.1.0-rc.6 (2026-08-15) |
 | dsh-opencode-usage-fengyang | 0 | [FengYangXun123/dsh-opencode-usage](https://github.com/FengYangXun123/dsh-opencode-usage) | OpenCode Go 订阅用量监控：侧边栏底部常驻徽标（5h/周/月百分比，异常标红），点击在左侧弹出详情卡片（重置倒计时、趋势、告警、Key 配置），用量突增/超标标红提醒（防额度被他人盗刷）。 | 0.1.0-rc.6 (2026-08-15) |

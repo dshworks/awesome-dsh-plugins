@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dshworks.github.io/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2754 entries across 17 functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2755 entries across 17 functional areas, every one stating the dsh version it was last verified against.
 
 **[Browse the reef](https://dshworks.github.io/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -74,7 +74,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-2647 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-15.
+2648 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-15.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dshworks.github.io/awesome-dsh-plugins/) always hold everything.
 
@@ -450,7 +450,7 @@ Token accounting, billing, balance, quota.
 | dsh-spend | 5 | [nonewind/dsh-spend](https://github.com/nonewind/dsh-spend) | Token usage, multi-dimensional statistics, auto-detected billing plans (Code/Token) and estimated spend for the dsh web UI | 0.1.0-rc.6 (2026-08-15) |
 | dsh-token-cost | 5 | [le-soleil-se-couche/dsh-token-cost](https://github.com/le-soleil-se-couche/dsh-token-cost) | DSH web GUI plugin: token usage (input/output), cache hit/miss and cost statistics per conversation and in aggregate, with auto-switching DeepSeek pricing schemes | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 206. **[all 206 →](lists/usage-cost.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 207. **[all 207 →](lists/usage-cost.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Observability & evidence
 
