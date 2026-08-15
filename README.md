@@ -74,7 +74,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-2650 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-15.
+2650 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-16.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dshworks.github.io/awesome-dsh-plugins/) always hold everything.
 

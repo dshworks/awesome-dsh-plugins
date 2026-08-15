@@ -1,6 +1,6 @@
 window.__PLUGINS__ = {
   "$schema": "./schema.json",
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "plugins": [
     {
       "name": "dsh-base",
@@ -48891,9 +48891,9 @@ window.__PLUGINS__ = {
       "category": "plugin",
       "official": false,
       "added": "2026-08-15",
-      "lastVerified": "2026-08-15",
+      "lastVerified": "2026-08-16",
       "verifiedAgainst": "0.1.0-rc.6",
-      "status": "unverified",
+      "status": "verified",
       "tags": [
         "ui"
       ]
