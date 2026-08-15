@@ -126,10 +126,19 @@ function isRealDate(s) {
 
 // --- registry invariants ---------------------------------------------------
 
+// Some upstream GitHub descriptions arrive already destroyed: the API itself
+// returns "DSH ????:??????? + ??/????" for repos whose owner set the field from
+// a mis-encoded terminal. A registry that copies those in is passing on damage
+// its readers cannot undo.
+const MOJIBAKE = /\?{4,}|�/;
+
 function checkRegistry(registry, errors) {
   const seen = { name: new Map(), npm: new Map(), source: new Map() };
   registry.plugins.forEach((p, i) => {
     const at = `plugins[${i}] (${p.name ?? "?"})`;
+    if (p.description && MOJIBAKE.test(p.description)) {
+      errors.push(`${at}: description looks mis-encoded; write one or leave the entry out`);
+    }
     for (const [field, map] of [
       ["name", seen.name],
       ["npm", seen.npm],
