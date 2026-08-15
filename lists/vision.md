@@ -4,7 +4,7 @@
 
 Image understanding for text-only models.
 
-140 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+141 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -123,6 +123,7 @@ Image understanding for text-only models.
 | dsh-image-to-text | 0 | [HiSeax/dsh-image-to-text](https://github.com/HiSeax/dsh-image-to-text) | DSH model tool that converts images to text (OCR + description) via configurable vision API providers, with image intake support for text-only models. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-imagegen-plugin | 0 | [ShiXiangYu2/dsh-imagegen-plugin](https://github.com/ShiXiangYu2/dsh-imagegen-plugin) | A DeepSeek Harness plugin that registers a generate_image tool (Qwen-Image / DeepSeek Janus-Pro-7B via SiliconFlow) callable by the model. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-llm-vision-router | 0 | [dmsobtl/dsh-llm-vision-router](https://github.com/dmsobtl/dsh-llm-vision-router) | DSH plugin: auto-route to a multimodal model when messages contain images, stay on the cheap model otherwise. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-multimedia-viewer | 0 | [chaiyujin/dsh-multimedia-viewer](https://github.com/chaiyujin/dsh-multimedia-viewer) | Browse images and video from the current workspace inside the harness page: floating button, filtered thumbnail grid, lightbox and inline playback. Scoped to the session cwd. | unverified |
 | DSH-Multimodal-yauntyou | 0 | [yauntyour/DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) | DSH multimodal input plugin: route file attachments (images, video, audio, text) through per-preset model chains and feed the results to the session model as prompt tokens. Adds a Multimodal settings | 0.1.0-rc.6 (2026-08-15) |
 | dsh-ocr-review | 0 | [jiayan-xu/dsh-ocr-review](https://github.com/jiayan-xu/dsh-ocr-review) | Local OpenCodeReview (ocr) gate for dsh: ocr_review tool runs AI code review on a workspace/branch diff via the managed node install, returns structured findings and optional gate failure. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-onebot-mario841 | 0 | [mario841859784/dsh-onebot](https://github.com/mario841859784/dsh-onebot) | QQ bot channel for dsh via the OneBot 11 protocol (NapCat / Lagrange / LLOneBot / go-cqhttp): reverse- or forward-WebSocket, DM + group chats with mention gating and allowlists, inbound image/voice | 0.1.0-rc.6 (2026-08-15) |

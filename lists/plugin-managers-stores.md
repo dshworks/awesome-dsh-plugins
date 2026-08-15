@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-122 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+123 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -66,6 +66,7 @@ In-UI stores, installers, skill managers.
 | dsh-store | 3 | [huguangyu666/dsh-store](https://github.com/huguangyu666/dsh-store) · [npm](https://www.npmjs.com/package/dsh-store) | DeepSeek Harness 插件商店：npm 权威源聚合（250+ 插件）+ dsh 字段质量验证 + GitHub 星标，一键安装/卸载（自动合并 cordis.patch.yml），重启生效。 | 0.1.0-rc.6 (2026-08-14) |
 | dsh-web | 3 | [Tom6814/dsh-web](https://github.com/Tom6814/dsh-web/tree/HEAD/plugin-market) | DSH 插件市场 + 预览面板 + 插件启停：搜索安装 GitHub topic:dsh-plugin 插件；对话文件/端口网页预览；插件列表启用停用（Zeabur 适配） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-workshop | 3 | [loguhan/dsh-workshop](https://github.com/loguhan/dsh-workshop) | Steam Workshop style plugin store for DSH Web UI: browse, search and one-click install community plugins with mirror acceleration | 0.1.0-rc.6 (2026-08-14) |
+| deepseek-harness-desktop-evanmorm | 2 | [evanmormmm/deepseek-harness-desktop](https://github.com/evanmormmm/deepseek-harness-desktop) | Community Windows desktop distribution of DeepSeek Harness with a verified installer and portable runtime. | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-huggingface | 2 | [emredeveloper/deepseek-harness-huggingface](https://github.com/emredeveloper/deepseek-harness-huggingface) | DeepSeek Harness tools for discovering models on Hugging Face Hub. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-better-launcher | 2 | [mocchh/dsh-better-launcher](https://github.com/mocchh/dsh-better-launcher) | dsh start / stop / status — one-command lifecycle manager for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-dynplugin-manager | 2 | [Thomas-key/dsh-dynplugin-manager](https://github.com/Thomas-key/dsh-dynplugin-manager) · [npm](https://www.npmjs.com/package/dsh-dynplugin-manager) | Manage DSH dynamic plugins (Dynamic Cordis Plugins): scan directories, browse, and load via /dynload slash command. Community gap — self-built. | 0.1.0-rc.6 (2026-08-14) |

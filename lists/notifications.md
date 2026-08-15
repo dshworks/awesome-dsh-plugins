@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-39 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+40 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-notify-dshiq04 | 0 | [dshiq04/dsh-notify](https://github.com/dshiq04/dsh-notify) | Browser notifications + distinct chimes for the dsh web UI: alerted when a run finishes and when the agent needs user input (question / plan review / approval), each with its own clearly different | 0.1.0-rc.6 (2026-08-15) |
 | dsh-notify-zhengjy0 | 0 | [zhengjy01/dsh-notify](https://github.com/zhengjy01/dsh-notify) | 系统级弹窗提示插件：任务完成 / 任务失败 / 工具失败 / 目标完成或受阻 / 工作流完成 / 需要人工确认（权限审批）时弹出系统通知（macOS 通知中心横幅与模态弹窗，Linux notify-send） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-peak-alert | 0 | [zbxzbx98/dsh-peak-alert](https://github.com/zbxzbx98/dsh-peak-alert) | DeepSeek 峰谷定价提示插件：高峰时段（北京 09:00-12:00 / 14:00-18:00）把 DSH Web 输入卡片染成淡红色，并显示当前高峰/空闲时段、价格倍率与下次切换时间 | 0.1.0-rc.6 (2026-08-15) |
+| dsh-plugin-notification-sounds | 0 | [Heldea-xianmiao/dsh-plugin-notification-sounds](https://github.com/Heldea-xianmiao/dsh-plugin-notification-sounds) | DSH 提示音插件（原生常驻版）：为开始运行、成功完成、异常中断、需要审批、子代理完成等事件分别设置提示音，支持逐事件上传本地音频文件。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-onebot | 0 | [kun2-5code/dsh-plugin-onebot](https://github.com/kun2-5code/dsh-plugin-onebot) | DeepSeek Harness (dsh) plugin: notify OneBot users/groups when a task completes, via WS long-connection (server mode) + OneBot HTTP API actions. Config editable in the web GUI (Settings → Plugins → | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-web-notify | 0 | [vilicvane/dsh-plugin-web-notify](https://github.com/vilicvane/dsh-plugin-web-notify) | Browser notifications for DeepSeek Harness: turn completion, approvals, plan reviews, and questions. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-push | 0 | [kiim-wong/dsh-push](https://github.com/kiim-wong/dsh-push) | Push DeepSeek Harness agent lifecycle notifications to configurable channels | 0.1.0-rc.6 (2026-08-15) |

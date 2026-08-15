@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dshworks.github.io/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2642 entries across 17 functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2662 entries across 17 functional areas, every one stating the dsh version it was last verified against.
 
 **[Browse the reef](https://dshworks.github.io/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -74,7 +74,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-2535 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-15.
+2555 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-15.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dshworks.github.io/awesome-dsh-plugins/) always hold everything.
 
@@ -110,7 +110,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-client-ui-mobile-adapt | 8 | [Hotsteel2901/dsh-client-ui-mobile-adapt](https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt) | Mobile adaptation for the DeepSeek Harness Web GUI: single-column layout, sidebar drawer, compact header/composer, fullscreen settings, trajectory floating details, stats pill panel | 0.1.0-rc.6 (2026-08-14) |
 | dsh-fail-logger | 8 | [Areium/dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) · [npm](https://www.npmjs.com/package/dsh-fail-logger) | DSH 插件：全模式工具失败自动实录——把原生工具、PTC(Code Mode) run_code、代码内嵌工具调用的失败按错因去重计数，自动写入 skill 的机器维护区段，越用越少错。Auto-record tool failures from every execution mode into a skill's machine-maintained section (dedup + cou | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 267. **[all 267 →](lists/web-ui.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 269. **[all 269 →](lists/web-ui.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Terminals & desktop
 
@@ -124,6 +124,7 @@ TUIs, desktop shells, headless runners.
 | dsh-desktop | 210 | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | A cross-platform desktop shell for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tianshu-tui | 143 | [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) · [npm](https://www.npmjs.com/package/@huiliyi37/dsh-tianshu-tui) | Terminal UI for dsh shipped as an installable profile bundle | 0.1.0-rc.5 (2026-08-13) |
 | deepseek-harness-desktop-ningbain | 39 | [ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop/tree/HEAD/apps/dsh-desktop) | Lossless desktop shell for DeepSeek Harness and the complete dsh-web-ui plugin collection | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-app | 27 | [RongleCat/deepseek-app](https://github.com/RongleCat/deepseek-app) | Desktop workbench for DeepSeek Harness — Grok App visual shell, DSH engine | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-tui-openmaai | 25 | [openma-ai/deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui/tree/HEAD/npm) | Terminal-native agent UI for DeepSeek Harness; standalone CLI or dsh profile bundle | 0.1.0-rc.6 (2026-08-15) |
 | DSHDesktop | 21 | [CCMu04/DSHDesktop](https://github.com/CCMu04/DSHDesktop) | Unofficial Windows desktop shell for the unmodified DeepSeek Harness Web UI | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-cc1252 | 17 | [cc1252/deepseek-harness-desktop](https://github.com/cc1252/deepseek-harness-desktop/tree/HEAD/harness) | Unpruned runtime payload for the Electron wrapper | 0.1.0-rc.6 (2026-08-15) |
@@ -140,11 +141,10 @@ TUIs, desktop shells, headless runners.
 | dsh-desktop-ethanwea | 5 | [ethanweave/dsh-desktop](https://github.com/ethanweave/dsh-desktop/tree/HEAD/runtime) | DeepSeek Harness 桌面应用（类 Codex）：原生窗口 + 系统托盘 | 0.1.0-rc.6 (2026-08-15) |
 | DSH-Plugs | 5 | [JustGenius-s/DSH-Plugs](https://github.com/JustGenius-s/DSH-Plugs/tree/HEAD/plugins/dsh-desktop-update) | Desktop update badge for DSH-Desktop: renders an update icon next to the sidebar Settings button, driven by window.dshDesktop (Electron preload bridge) | 0.1.0-rc.6 (2026-08-15) |
 | Deepseek-Harness-as-Desktop | 4 | [KhanZou/Deepseek-Harness-as-Desktop](https://github.com/KhanZou/Deepseek-Harness-as-Desktop/tree/HEAD/dsh-desktop-framework) | Unified desktop framework for the DSH Web UI: generic settings tabs/items (window.__DSH_SETTINGS__), right/bottom panel shells (window.__DSH_PANELS__), and the Files/Changes/Terminal tabs with | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-harness-desktop-bailang1 | 4 | [bailang1218/deepseek-harness-desktop](https://github.com/bailang1218/deepseek-harness-desktop) | Community-maintained self-contained Tauri desktop distribution for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-tui | 4 | [Hilbert-beinghappy/deepseek-tui](https://github.com/Hilbert-beinghappy/deepseek-tui) | A pluggable DeepSeek-colored terminal surface for DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
-| dib | 4 | [MaimoryLab/dib](https://github.com/MaimoryLab/dib/tree/HEAD/plugins/dsh-desktop) | DeepSeek Harness desktop UI extensions | 0.1.0-rc.6 (2026-08-15) |
-| DSH-closerAI | 4 | [sb1733831438-maker/DSH-closerAI](https://github.com/sb1733831438-maker/DSH-closerAI/tree/HEAD/apps/desktop) | CloserAI Electron desktop shell: hardened window that hosts the DeepSeek Harness web UI. | 0.1.0-rc.6 (2026-08-15) |
 
-<sub>Showing the 25 most-starred of 111. **[all 111 →](lists/terminals-desktop.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 116. **[all 116 →](lists/terminals-desktop.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Tools & capabilities
 
@@ -212,7 +212,7 @@ Image understanding for text-only models.
 | dsh-codex-tools | 3 | [SPYQWER1/dsh-codex-tools](https://github.com/SPYQWER1/dsh-codex-tools) · [npm](https://www.npmjs.com/package/dsh-codex-tools) | Codex-backed web search, image generation, and image understanding tools for the DeepSeek Harness. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-docker-devlythe | 3 | [devLythen/dsh-docker](https://github.com/devLythen/dsh-docker) | Docker image for DeepSeek Harness, with self-hosted deployment supported | 0.1.0-rc.6 (2026-08-15) |
 
-<sub>Showing the 25 most-starred of 140. **[all 140 →](lists/vision.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 141. **[all 141 →](lists/vision.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Agents & orchestration
 
@@ -246,7 +246,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-continual-evolve | 5 | [ZK-Andy/dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) · [npm](https://www.npmjs.com/package/dsh-continual-evolve) | Continual self-evolution for DeepSeek Harness: versioned, auditable, rollback-safe harness state refined from session trajectories. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-inspect | 5 | [omdsh-dev/dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) | 发现问题 → 修复交付 → 质量复查 的简单闭环插件：checkup（对抗式检查+红队验证）/ fix（根因→修复→验证）/ review（对抗式复查）三个工具，基于官方 workflow 引擎。 | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 214. **[all 214 →](lists/agents-orchestration.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 217. **[all 217 →](lists/agents-orchestration.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Memory & sessions
 
@@ -280,7 +280,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-btw | 4 | [iyllyt/dsh-btw](https://github.com/iyllyt/dsh-btw) · [npm](https://www.npmjs.com/package/dsh-btw) | Transient /btw side questions for DeepSeek Harness: immediate while the main agent is busy, context-sharing, tool-free, one-shot, cache-aware, and invisible to the main session catalog. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-companion-williamj | 4 | [william-jin-cmu/dsh-companion](https://github.com/william-jin-cmu/dsh-companion/tree/HEAD/dsh-bridge) | DSH Companion 的本地网关插件：把宿主 ApiProxy 暴露为 127.0.0.1 上的 HTTP + SSE（token 鉴权），供桌面壳驱动会话 | 0.1.0-rc.6 (2026-08-15) |
 
-<sub>Showing the 25 most-starred of 273. **[all 273 →](lists/memory-sessions.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 275. **[all 275 →](lists/memory-sessions.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Models & providers
 
@@ -348,7 +348,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-vscode | 4 | [MJ-Chang/dsh-vscode](https://github.com/MJ-Chang/dsh-vscode) | Run DeepSeek Harness inside VS Code: chat with the agent and edit your project, like Claude Code / Codex / Copilot. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-beacons | 3 | [Da-Mie/dsh-beacons](https://github.com/Da-Mie/dsh-beacons) · [npm](https://www.npmjs.com/package/dsh-beacons) | Codex/OpenChamber-style prompt-navigator rail with scroll-spy — a DeepSeek Harness plugin | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 92. **[all 92 →](lists/interop-migration.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 93. **[all 93 →](lists/interop-migration.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Channels & remote
 
@@ -382,7 +382,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-plugin-wechat | 3 | [gnulife/dsh-plugin-wechat](https://github.com/gnulife/dsh-plugin-wechat) | DeepSeek Harness (DSH) 个人微信 ClawBot 插件：OpenClaw 负责微信通道（扫码登录/收发消息），DSH 负责大脑，两者通过 OpenAI 兼容协议桥接。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-wecom | 3 | [TtTRz/dsh-wecom](https://github.com/TtTRz/dsh-wecom) | dsh-wecom: a WeCom AI Bot channel for DeepSeek Harness — each chat runs a persistent, preset-backed agent over the official long connection. | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 77. **[all 77 →](lists/channels-remote.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 78. **[all 78 →](lists/channels-remote.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Notifications
 
@@ -416,7 +416,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-notify-bark | 1 | [pc439527/dsh-notify-bark](https://github.com/pc439527/dsh-notify-bark) | Bark 推送通知插件：DSH Host 端监听回合结束 / 等待回答 / 等待授权等事件，通过 Bark Server 推送到 iPhone。设置页经专用 RPC 读写 Host 配置（Bark 地址脱敏，不落地到浏览器）。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-notify-plugin | 1 | [orange1926/dsh-notify-plugin](https://github.com/orange1926/dsh-notify-plugin) · [npm](https://www.npmjs.com/package/@dsh-local/notify) | DSH 回答完成提醒插件：turn/end 时提示音 + Windows 系统通知，点击通知可聚焦并切换会话，设置里可自由开关。 | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 39. **[all 39 →](lists/notifications.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 40. **[all 40 →](lists/notifications.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Usage & cost
 
@@ -450,7 +450,7 @@ Token accounting, billing, balance, quota.
 | dsh-usage-chart | 5 | [Max-Samson/dsh-usage-chart](https://github.com/Max-Samson/dsh-usage-chart) · [npm](https://www.npmjs.com/package/dsh-usage-chart) | Real-time token usage, cost estimates, per-round charts, and DeepSeek API balance for the Web GUI. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-usage-stats ⭐ | 5 | [lanlandeli/dsh-usage-stats](https://github.com/lanlandeli/dsh-usage-stats) | Beautiful token analytics for DeepSeek Harness — trends, activity heatmaps, model breakdowns, and data exports. | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 198. **[all 198 →](lists/usage-cost.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 200. **[all 200 →](lists/usage-cost.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Observability & evidence
 
@@ -552,7 +552,7 @@ In-UI stores, installers, skill managers.
 | dsh-hub | 4 | [omdsh-dev/dsh-hub](https://github.com/omdsh-dev/dsh-hub) | OMDSH community extension hub built on official DeepSeek Harness contracts | 0.1.0-rc.6 (2026-08-14) |
 | dsh-mcp-admin | 4 | [kairoz9/dsh-mcp-admin](https://github.com/kairoz9/dsh-mcp-admin) · [npm](https://www.npmjs.com/package/dsh-mcp-admin) | MCP admin for dsh: /mcp server status and per-profile MCP server management (add/edit/delete/enable) from the settings page, via a typert remote. | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 122. **[all 122 →](lists/plugin-managers-stores.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 123. **[all 123 →](lists/plugin-managers-stores.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Developer tools
 
@@ -620,7 +620,7 @@ Research workbenches, RAG, learning modes.
 | dsh-plugin-knowledge-graph | 3 | [Luke-Yong/dsh-plugin-knowledge-graph](https://github.com/Luke-Yong/dsh-plugin-knowledge-graph) | DeepSeek Harness plugin: a read_graph tool backed by a codebase knowledge graph (CONTAINS / EXPORTS / IMPORTS / IMPORTS_SYMBOL). | 0.1.0-rc.6 (2026-08-15) |
 | dsh-research-notes | 3 | [fff122/dsh-research-notes](https://github.com/fff122/dsh-research-notes) | A local research notes plugin for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-15) |
 
-<sub>Showing the 25 most-starred of 86. **[all 86 →](lists/knowledge-research.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 87. **[all 87 →](lists/knowledge-research.md)** · [gallery](https://dshworks.github.io/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Fun
 

@@ -4,7 +4,7 @@
 
 Bridges to and from Claude Code, Codex, and other harnesses.
 
-92 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+93 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-codex-agent-bridge | 2 | [je00/dsh-codex-agent-bridge](https://github.com/je00/dsh-codex-agent-bridge) | Connect DeepSeek Harness agents to authenticated Codex App Server sessions | 0.1.0-rc.6 (2026-08-14) |
 | dsh-codex-auth | 2 | [suntianc/dsh-codex-auth](https://github.com/suntianc/dsh-codex-auth) | Use the local Codex CLI ChatGPT login as a DeepSeek Harness LLM route, with a native GPT Auth settings card | 0.1.0-rc.6 (2026-08-15) |
 | dsh-codex-importer | 2 | [life1996cou/dsh-codex](https://github.com/life1996cou/dsh-codex) · [npm](https://www.npmjs.com/package/@deepseek-ai/dsh-codex-importer) | 从本地 Codex (~/.codex) 导入会话，生成带完整历史的新 DSH 会话 | 0.1.0-rc.6 (2026-08-14) |
+| dsh-cxsm | 2 | [negativegluon/dsh-cxsm](https://github.com/negativegluon/dsh-cxsm) | Codex-style conversation summary tab for DeepSeek Harness (DSH). | 0.1.0-rc.6 (2026-08-15) |
 | dsh-deck-builder | 2 | [Blaczz/dsh-deck-builder](https://github.com/Blaczz/dsh-deck-builder) | DeepSeek Harness tool plugin: convert Markdown into a self-contained HTML presentation (slides) with themes and keyboard navigation. Zero dependencies, no core changes. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-file-mention-hucj09 | 2 | [hucj09/dsh-file-mention](https://github.com/hucj09/dsh-file-mention) | DSH Web GUI @-mention workspace file picker: input @ to filter git-tracked files plus files re-included via .aiinclude, like Codex/Claude Code file references. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-find-skill | 2 | [Moximxxx/dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) | Bridge the vercel-labs/skills ecosystem into dsh: LLM-driven skill search, install, and lifecycle for temp/project/global scopes | 0.1.0-rc.6 (2026-08-15) |

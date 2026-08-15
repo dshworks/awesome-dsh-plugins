@@ -4,7 +4,7 @@
 
 Token accounting, billing, balance, quota.
 
-198 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+200 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -202,7 +202,9 @@ Token accounting, billing, balance, quota.
 | dsh-tools | 0 | [HarryLi-7/dsh-tools](https://github.com/HarryLi-7/dsh-tools/tree/HEAD/dsh-balance-widget) | Show DeepSeek account balance in the DSH web composer input row | 0.1.0-rc.6 (2026-08-15) |
 | dsh-turn-budget-nunchaku | 0 | [Nunchakus888/dsh-turn-budget](https://github.com/Nunchakus888/dsh-turn-budget) | Fail-closed per-turn step, tool-call, and provider-token budgets for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-turn-usage | 0 | [HABIDSKOFT/dsh-turn-usage](https://github.com/HABIDSKOFT/dsh-turn-usage) | Per-turn token usage and cost display for the DeepSeek Harness web UI: input (cache miss/hit), output, and estimated price per conversation. dsh-plugin. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-usage-meter-hohband | 0 | [hohband/DSH-Plugins](https://github.com/hohband/DSH-Plugins/tree/HEAD/usage-meter) | Sidebar balance and usage readout for two providers at once: DeepSeek official and OpenCode Go. | unverified |
 | dsh-usage-meter-vdev388 | 0 | [V-dev-388/dsh-usage-meter](https://github.com/V-dev-388/dsh-usage-meter) | DSH（DeepSeek Harness）模型用量仪表盘插件：按服务商/模型汇总全部会话 token 用量（assistant/message 带 usage 事件），设置页「用量」板块展示，含今日/7天/30天趋势柱状图。 | 0.1.0-rc.6 (2026-08-15) |
 | LastTokens | 0 | [SynetAI/LastTokens](https://github.com/SynetAI/LastTokens) | 实时显示 DeepSeek API 余额、任务消耗记录（tokens 消耗量 / 缓存命中 / 耗时 / 估算金额）， 可拖动悬浮球 + 四主题悬浮仪表盘。 | 0.1.0-rc.6 (2026-08-15) |
+| opencode-go-usage-badge | 0 | [UniverseCA/opencode-go-usage-badge](https://github.com/UniverseCA/opencode-go-usage-badge) | OpenCode Go subscription usage as a badge in the conversation header, with a click-to-open rolling/weekly/monthly detail card. | unverified |
 | ui-theme-quota-show | 0 | [wwxiaoqi/ui-theme-quota-show](https://github.com/wwxiaoqi/ui-theme-quota-show) | DeepSeek Harness web UI plugin: a sidebar card above Settings that shows the live DeepSeek API balance (total / topped-up / granted, period usage, low-balance warning) from the official GET | 0.1.0-rc.6 (2026-08-15) |
 | uiopt | 0 | [237229953-create/uiopt](https://github.com/237229953-create/uiopt) | 显示优化 — WebUI 显示增强:余额实时查询、会话消耗、缓存命中率、提供商图标、额外插件管理 | 0.1.0-rc.6 (2026-08-15) |

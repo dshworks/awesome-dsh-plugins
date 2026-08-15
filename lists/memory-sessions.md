@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-273 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+275 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -270,6 +270,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-skill-trail | 0 | [Bryan-cmf/dsh-skill-trail](https://github.com/Bryan-cmf/dsh-skill-trail) | DSH-Plugin: per-reply skill trail — truthful per-turn triggered/used tool & skill badges, folded from the session log (no model self-reporting). | 0.1.0-rc.6 (2026-08-15) |
 | dsh-subagent-model-selector | 0 | [qwased/dsh-subagent-model-selector](https://github.com/qwased/dsh-subagent-model-selector/tree/HEAD/packages/client/ui-subagent-model) | Subagent model pinning UI: the /subagent-model popupSelect over the session model directory | 0.1.0-rc.6 (2026-08-15) |
 | dsh-task-console | 0 | [He2way/dsh-task-console](https://github.com/He2way/dsh-task-console) | DSH client plugin — flip to the back of the page for a floating glass task console: live background jobs, subagents, session overview and workspace of the current session, with mouse-draggable cards. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-timeline-hemo9493 | 0 | [hemo94931/dsh-timeline](https://github.com/hemo94931/dsh-timeline) | 会话时间轴：在 dsh WebUI 会话消息列右缘渲染用户消息刻度导航条（悬浮摘要 / 点击跳转 / ▲▼ 导航 / 连续位置指示） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-token-viewer | 0 | [qwert702/dsh-token-viewer](https://github.com/qwert702/dsh-token-viewer) | Token consumption surface: a composer-dock strip for the current session plus a sidebar card above the workspaces region aggregating all sessions, read from the token-meter session projections | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tool-memory | 0 | [sikwoxy/dsh-tool-memory](https://github.com/sikwoxy/dsh-tool-memory) | DeepSeek Harness 插件：Hermes 式跨会话持久记忆。MEMORY.md/USER.md 纯文本存储 + 冻结快照注入 system prompt + memory_* 工具（add/replace/remove/batch/show/refresh） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tools-meta | 0 | [DViridescent/dsh-tools-meta](https://github.com/DViridescent/dsh-tools-meta) | 允许 agent 在 DSH 里为自己动态增删工具。新增的工具可以跨 DSH 重启存在。Let the agent add and remove tools for itself in DSH; added tools persist across DSH restarts. | 0.1.0-rc.6 (2026-08-15) |
@@ -278,6 +279,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-ux-plugins | 0 | [Kutlukgit/dsh-ux-plugins](https://github.com/Kutlukgit/dsh-ux-plugins/tree/HEAD/packages/ux/session-title) | Auto-generate concise session titles from the first user message in DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-vector-memory | 0 | [Bryan-cmf/dsh-vector-memory](https://github.com/Bryan-cmf/dsh-vector-memory) | DSH-Plugin: durable agent memory core — mem_save / mem_search / mem_health tools backed by the DSH storageDomain (durable, survives restarts), plus a 記憶 view tab. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-workspace-enhance | 0 | [yuanzehui313/dsh-workspace-enhance](https://github.com/yuanzehui313/dsh-workspace-enhance) | DeepSeek Harness workspace & session enhancement plugin: recycle bin, cross-workspace session drag, ungrouped sessions, multi-folder workspace roots, in-app directory picker, session merge — shipped | 0.1.0-rc.6 (2026-08-15) |
+| omp2dsh-plugins | 0 | [Fun10165/omp2dsh-plugins](https://github.com/Fun10165/omp2dsh-plugins/tree/HEAD/packages/bang) | ! prefix quick command runner: !cmd injects its result into the session flow (context), !!cmd shows it in a dock panel marked excluded-from-context. Ported from omp's bang/bash input modes. | 0.1.0-rc.6 (2026-08-15) |
 | pi-dsh | 0 | [fatwang2/pi-dsh](https://github.com/fatwang2/pi-dsh) | Pi Coding Agent provider extension that exposes the DeepSeek Harness (dsh) as a selectable provider: in-process session pool with live streaming; DSH owns prompt/memory/skills, pi-dsh routes each | 0.1.0-rc.6 (2026-08-15) |
 | session-import-codex | 0 | [xing01l/session-import-codex](https://github.com/xing01l/session-import-codex) | DeepSeek Harness plugin for importing Codex App Server conversation history | 0.1.0-rc.6 (2026-08-15) |
 | ThreadTrail | 0 | [drindr/ThreadTrail](https://github.com/drindr/ThreadTrail/tree/HEAD/threadtrail-client) | ThreadTrail browser panel for DeepSeek Harness: the operation timeline between commits, message -> diff, code -> conversation, and non-destructive rewind. | 0.1.0-rc.6 (2026-08-15) |

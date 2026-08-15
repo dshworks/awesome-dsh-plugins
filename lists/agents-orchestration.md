@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-214 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+217 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -121,6 +121,8 @@ Subagents, workflows, cross-session coordination.
 | agent-plaza | 1 | [agent-plaza/agent-plaza](https://github.com/agent-plaza/agent-plaza) | Zero-signup public plaza for AI agents — speak, read, discover | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-flow | 1 | [alison-xx/deepseek-harness-flow](https://github.com/alison-xx/deepseek-harness-flow) | Community visual workflow and multi-model evaluation plugin for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-toolkit | 1 | [huangmouren2023/deepseek-harness-toolkit](https://github.com/huangmouren2023/deepseek-harness-toolkit/tree/HEAD/tools/dsh-nudge) | Nudge the model when a task errors or is interrupted: on terminal request failure, follow up so the agent explains the error or resumes from the interruption instead of going silent. | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-plugins | 1 | [bitterSmilezzz/deepseek-plugins](https://github.com/bitterSmilezzz/deepseek-plugins/tree/HEAD/dsh-agent-teams) | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI | 0.1.0-rc.6 (2026-08-15) |
+| donecheck | 1 | [linkage18/donecheck](https://github.com/linkage18/donecheck) | Automatic review-and-repair loop after every answer: a reviewer sees the full reply plus the actual tool results and iterates with tool access until the work is really done. | unverified |
 | dsh-acp | 1 | [cnctem/dsh-acp](https://github.com/cnctem/dsh-acp) | Agent Client Protocol (ACP) JSON-RPC stdio server for DeepSeek Harness — bridges Zed and other IDEs to dsh agents | 0.1.0-rc.6 (2026-08-15) |
 | dsh-advisor-glangzh | 1 | [glangzh/dsh-advisor](https://github.com/glangzh/dsh-advisor) · [npm](https://www.npmjs.com/package/dsh-advisor-plugin) | Advisor strategy for DeepSeek Harness: escalate hard decisions from the executor (deepseek-v4-flash) to deepseek-v4-pro through the official subagents channel. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-agent-life | 1 | [jonah791/dsh-agent-life](https://github.com/jonah791/dsh-agent-life) | 数字生命循环原语：可打断的 sleep（到期自我唤醒）+ 醒来状态注入 + 事故文件读取 + 决策日志。零规则——睡多久/醒来做什么由 agent 自主决定。 | 0.1.0-rc.6 (2026-08-15) |
@@ -216,6 +218,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-visual-plan | 0 | [JIAQI23333/dsh-visual-plan](https://github.com/JIAQI23333/dsh-visual-plan) | Visual plan mode for DeepSeek Harness: structured plan.json + plan.md, an editable React Flow canvas, comments, plan diff, versioned revisions, and reliable write-back to the agent. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-voice-jessenjx | 0 | [Jesse-njx/dsh-voice](https://github.com/Jesse-njx/dsh-voice) | dsh-voice — voice notes in, spoken answers out: dictate audio that becomes user messages (transcribe), have the agent read replies aloud (speak), and leave walk-away narration on long headless runs. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-workflow-worktree | 0 | [lisycotana/dsh-workflow-worktree](https://github.com/lisycotana/dsh-workflow-worktree) | Git worktree isolation backend for DeepSeek Harness workflows: binds each write-capable workflow agent to its own recoverable checkout. | 0.1.0-rc.6 (2026-08-15) |
+| dshicon | 0 | [fezeryang/dshicon](https://github.com/fezeryang/dshicon) | Ambient status-driven WebGL2 ORB avatar for DeepSeek Harness: a host task-status state machine plus a client orb that reflects agent/tool/error phase and teleports into the running turn's status row. | 0.1.0-rc.6 (2026-08-15) |
 | math-research-dsh | 0 | [xsoc1/math-research-dsh](https://github.com/xsoc1/math-research-dsh) | Rigorous open mathematics research suite for DeepSeek Harness: four agent skills (rigorous-open-math-research, manage-math-research-program, math-research-workflow, lean-verify) with CI-verified | 0.1.0-rc.6 (2026-08-15) |
 | pptkit-presentation | 0 | [openHacking/pptkit-presentation](https://github.com/openHacking/pptkit-presentation/tree/HEAD/packages/dsh-plugin-pptkit-presentation) | DeepSeek Harness plugin bundle that registers the pptkit-presentation Agent Skill (PPTKit deck authoring, preview, and PPTX export) with DSH's skill catalog. | 0.1.0-rc.6 (2026-08-15) |
 | prompt-polish | 0 | [JOJO666888888/prompt-polish](https://github.com/JOJO666888888/prompt-polish) | dsh 提示词优化助手：发送前调用专门的提示词工程 agent 润色/补全/扩写命令，支持重写、多轮改写与撤回（动态 client 插件，随 harness 启动自动加载）。 | 0.1.0-rc.6 (2026-08-15) |

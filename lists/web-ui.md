@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-267 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+269 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -246,6 +246,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-git-graph-samecorn | 0 | [samecorner/dsh-git-graph](https://github.com/samecorner/dsh-git-graph) | GitKraken / vscode-git-graph style commit graph for dsh: a server-side tool pair (git_graph / git_show) plus keyed tool views that render the commit DAG, refs, and per-commit diffs right inside the | 0.1.0-rc.6 (2026-08-15) |
 | dsh-hotswap | 0 | [HongzhongL/dsh-hotswap](https://github.com/HongzhongL/dsh-hotswap) | Runtime hot-swap for DeepSeek Harness: hot enable/disable/restart Cordis plugins and auto hot-mount bundles from the Web GUI — no dsh restart. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-lan-uuid-fix | 0 | [Zenjibad/dsh-lan-uuid-fix](https://github.com/Zenjibad/dsh-lan-uuid-fix) | dsh bundle: polyfill crypto.randomUUID on insecure origins so the DeepSeek Harness Web UI works over plain-HTTP LAN | 0.1.0-rc.6 (2026-08-15) |
+| dsh-locale-ja | 0 | [fang2hou/dsh-locale-ja](https://github.com/fang2hou/dsh-locale-ja) | Japanese (日本語) interface for DeepSeek Harness — a standard DSH client plugin that adds 日本語 as a selectable UI language alongside 中文 and English, with Japanese system fonts. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-markdown-preview | 0 | [GitHubJiKe/dsh-markdown-preview](https://github.com/GitHubJiKe/dsh-markdown-preview) | In-chat preview for produced files in DeepSeek Harness Web: click a produced-file chip to render Markdown (server-side markdown-it + highlight.js), images, or plain text right in the conversation | 0.1.0-rc.6 (2026-08-15) |
 | dsh-mermaid-preview | 0 | [realguan/dsh-mermaid-preview](https://github.com/realguan/dsh-mermaid-preview) | Render Mermaid fenced code blocks as diagrams in DeepSeek Harness (dsh) web — chat, trajectory, plan review and every other Markdown surface. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-mermaid-preview-plugin | 0 | [baconbao/dsh-mermaid-preview-plugin](https://github.com/baconbao/dsh-mermaid-preview-plugin) | Render mermaid fenced blocks inside assistant messages as diagrams directly in the chat. | 0.1.0-rc.6 (2026-08-15) |
@@ -253,6 +254,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-navigation-bar | 0 | [KeLearns/dsh-navigation-bar](https://github.com/KeLearns/dsh-navigation-bar) | Piano-key style conversation navigation bar for the DeepSeek Harness web GUI: one key per user message with hover ladder animation, message-preview tooltip and active-message highlight. Official | 0.1.0-rc.6 (2026-08-15) |
 | dsh-open-with | 0 | [ChuanTianML/dsh-open-with](https://github.com/ChuanTianML/dsh-open-with) | Open registered DeepSeek Harness workspaces in detected or configured local editors from the Web GUI | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-api-quota | 0 | [ganfne123/dsh-plugin-api-quota](https://github.com/ganfne123/dsh-plugin-api-quota) | DSH Web UI plugin: check your DeepSeek API key balance/quota (GET /user/balance) from the sidebar, with a GUI panel showing total/granted/topped-up balance. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-plugin-bgpic | 0 | [luyyooo/dsh-plugin-bgpic](https://github.com/luyyooo/dsh-plugin-bgpic) | Background image control in the top-right: local or URL images, custom cropping, opacity and surface translucency, ordered or random slideshow. | unverified |
 | dsh-plugin-checker | 0 | [Airmetro/dsh-plugin-checker](https://github.com/Airmetro/dsh-plugin-checker) | Detect updates for installed third-party (non-builtin) DSH plugins, ask the user, and update them from the Web GUI. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-connection-banner | 0 | [yinren112/dsh-plugin-connection-banner](https://github.com/yinren112/dsh-plugin-connection-banner) | Visible reconnecting banner for the DeepSeek Harness Web UI | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-doc-present | 0 | [AuraxM/dsh-plugin-doc-present](https://github.com/AuraxM/dsh-plugin-doc-present) | Doc Present: let the agent present plans/designs as self-contained interactive HTML pages (FX animations) - shown in an in-GUI panel and a shareable LAN preview server instead of long chat text | 0.1.0-rc.6 (2026-08-15) |

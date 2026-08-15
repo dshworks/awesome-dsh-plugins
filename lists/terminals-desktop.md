@@ -4,7 +4,7 @@
 
 TUIs, desktop shells, headless runners.
 
-111 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+116 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -14,6 +14,7 @@ TUIs, desktop shells, headless runners.
 | dsh-desktop | 210 | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | A cross-platform desktop shell for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tianshu-tui | 143 | [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) · [npm](https://www.npmjs.com/package/@huiliyi37/dsh-tianshu-tui) | Terminal UI for dsh shipped as an installable profile bundle | 0.1.0-rc.5 (2026-08-13) |
 | deepseek-harness-desktop-ningbain | 39 | [ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop/tree/HEAD/apps/dsh-desktop) | Lossless desktop shell for DeepSeek Harness and the complete dsh-web-ui plugin collection | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-app | 27 | [RongleCat/deepseek-app](https://github.com/RongleCat/deepseek-app) | Desktop workbench for DeepSeek Harness — Grok App visual shell, DSH engine | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-tui-openmaai | 25 | [openma-ai/deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui/tree/HEAD/npm) | Terminal-native agent UI for DeepSeek Harness; standalone CLI or dsh profile bundle | 0.1.0-rc.6 (2026-08-15) |
 | DSHDesktop | 21 | [CCMu04/DSHDesktop](https://github.com/CCMu04/DSHDesktop) | Unofficial Windows desktop shell for the unmodified DeepSeek Harness Web UI | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-cc1252 | 17 | [cc1252/deepseek-harness-desktop](https://github.com/cc1252/deepseek-harness-desktop/tree/HEAD/harness) | Unpruned runtime payload for the Electron wrapper | 0.1.0-rc.6 (2026-08-15) |
@@ -30,6 +31,7 @@ TUIs, desktop shells, headless runners.
 | dsh-desktop-ethanwea | 5 | [ethanweave/dsh-desktop](https://github.com/ethanweave/dsh-desktop/tree/HEAD/runtime) | DeepSeek Harness 桌面应用（类 Codex）：原生窗口 + 系统托盘 | 0.1.0-rc.6 (2026-08-15) |
 | DSH-Plugs | 5 | [JustGenius-s/DSH-Plugs](https://github.com/JustGenius-s/DSH-Plugs/tree/HEAD/plugins/dsh-desktop-update) | Desktop update badge for DSH-Desktop: renders an update icon next to the sidebar Settings button, driven by window.dshDesktop (Electron preload bridge) | 0.1.0-rc.6 (2026-08-15) |
 | Deepseek-Harness-as-Desktop | 4 | [KhanZou/Deepseek-Harness-as-Desktop](https://github.com/KhanZou/Deepseek-Harness-as-Desktop/tree/HEAD/dsh-desktop-framework) | Unified desktop framework for the DSH Web UI: generic settings tabs/items (window.__DSH_SETTINGS__), right/bottom panel shells (window.__DSH_PANELS__), and the Files/Changes/Terminal tabs with | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-harness-desktop-bailang1 | 4 | [bailang1218/deepseek-harness-desktop](https://github.com/bailang1218/deepseek-harness-desktop) | Community-maintained self-contained Tauri desktop distribution for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-tui | 4 | [Hilbert-beinghappy/deepseek-tui](https://github.com/Hilbert-beinghappy/deepseek-tui) | A pluggable DeepSeek-colored terminal surface for DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
 | dib | 4 | [MaimoryLab/dib](https://github.com/MaimoryLab/dib/tree/HEAD/plugins/dsh-desktop) | DeepSeek Harness desktop UI extensions | 0.1.0-rc.6 (2026-08-15) |
 | DSH-closerAI | 4 | [sb1733831438-maker/DSH-closerAI](https://github.com/sb1733831438-maker/DSH-closerAI/tree/HEAD/apps/desktop) | CloserAI Electron desktop shell: hardened window that hosts the DeepSeek Harness web UI. | 0.1.0-rc.6 (2026-08-15) |
@@ -72,6 +74,7 @@ TUIs, desktop shells, headless runners.
 | dsh-tui-rabbitkn | 2 | [rabbitknight/dsh-tui](https://github.com/rabbitknight/dsh-tui/tree/HEAD/packages/dsh-tui-app) | The dsh terminal-surface bundle: an interactive TUI over dsh-base, ported from pi's terminal UI (@earendil-works/pi-tui) | 0.1.0-rc.6 (2026-08-15) |
 | maid-atelier-ui-bundle | 2 | [flaricy/maid-atelier-ui-bundle](https://github.com/flaricy/maid-atelier-ui-bundle/tree/HEAD/plugins/dsh-side-panel) | Git review, terminal, and file workspace panel for DSH Web | 0.1.0-rc.6 (2026-08-15) |
 | dash-songqiko | 1 | [songqikong/dash](https://github.com/songqikong/dash) | DASH — Deepseek Agentic Service Harness. oh-my-pi style TUI on the DSH agent kernel, run in the terminal via `dsh --profile dash`. | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-harness-desktop-0reki | 1 | [0reki/deepseek-harness-desktop](https://github.com/0reki/deepseek-harness-desktop) | Native desktop client for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-community | 1 | [k4its1t/deepseek-harness-desktop-community](https://github.com/k4its1t/deepseek-harness-desktop-community/tree/HEAD/runtime) | An unofficial open-source desktop shell for the DeepSeek Harness Web UI on macOS and Windows. | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-dawnmagn | 1 | [DawnMagnet/deepseek-harness-desktop](https://github.com/DawnMagnet/deepseek-harness-desktop) | A simple Windows desktop launcher for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-jesspig | 1 | [jesspig/deepseek-harness-desktop](https://github.com/jesspig/deepseek-harness-desktop/tree/HEAD/packages/desktop-bundle) | 这是一个独立的 Cordis 应用:不改动上游仓库,以官方扩展方式(自定义 profile + bundle + Cordis 插件)把 dsh 跑成原生桌面应用。 | 0.1.0-rc.6 (2026-08-15) |
@@ -82,6 +85,7 @@ TUIs, desktop shells, headless runners.
 | deepseek-harness-desktop-phoenix0 | 1 | [phoenix0086/deepseek-harness-desktop](https://github.com/phoenix0086/deepseek-harness-desktop) | Unofficial macOS desktop distribution for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-windows | 1 | [Easyhoov/deepseek-harness-desktop-windows](https://github.com/Easyhoov/deepseek-harness-desktop-windows) | DeepSeek Harness as a desktop app: host boots in-process inside Electron, the built frontend loads locally, and API plus event traffic crosses an IPC bridge (no port, no local HTTP server). | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-xiangsha | 1 | [xiangshangya/deepseek-harness-desktop](https://github.com/xiangshangya/deepseek-harness-desktop) | Electron desktop app for the DeepSeek Harness — bundles the dsh web server and its web frontend. | 0.1.0-rc.6 (2026-08-15) |
+| DeepSeek-Harness-Electron- | 1 | [FlyPig-tt/DeepSeek-Harness-Electron-](https://github.com/FlyPig-tt/DeepSeek-Harness-Electron-) | DeepSeek Harness 的 Electron 桌面版 | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-HARNESS-GUI | 1 | [MoRiv447/deepseek-HARNESS-GUI](https://github.com/MoRiv447/deepseek-HARNESS-GUI) | Tauri 2 desktop wrapper for DeepSeek Harness (dsh) — double-click to launch the local web UI, no CLI needed | 0.1.0-rc.6 (2026-08-15) |
 | desktop-gui-automation-cua | 1 | [afa-cloud/desktop-gui-automation-cua](https://github.com/afa-cloud/desktop-gui-automation-cua/tree/HEAD/plugin) | DSH plugin shell for desktop-gui-automation-cua: slash commands that drive the repo's computer-use scripts (single source of truth). | 0.1.0-rc.6 (2026-08-15) |
 | desktop-harness | 1 | [citizenll/desktop-harness](https://github.com/citizenll/desktop-harness) | Electron desktop distribution of DeepSeek Harness with source-driven evolution and plugin management. | 0.1.0-rc.6 (2026-08-15) |
@@ -92,6 +96,7 @@ TUIs, desktop shells, headless runners.
 | dsh-desktop-qingchun | 1 | [qingchunnh/dsh-desktop](https://github.com/qingchunnh/dsh-desktop) | DeepSeek Harness 的桌面客户端，自动检测本机运行环境，启动并连接 dsh Web UI | 0.1.0-rc.6 (2026-08-15) |
 | dsh-desktop-shell | 1 | [ikashana/dsh-desktop-shell](https://github.com/ikashana/dsh-desktop-shell) | Desktop launcher shell for DeepSeek Harness (dsh): a tray-resident Electron wrapper that starts or reuses the local dsh web server and opens it in a native window | 0.1.0-rc.6 (2026-08-15) |
 | dsh-desktop-window | 1 | [fengzhiyushui/dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) | DSH 桌面窗口插件：以独立应用窗口打开 DeepSeek Harness Web UI（自动开窗 + 会话头部手动开关 + 设置页自动开窗开关） | 0.1.0-rc.6 (2026-08-15) |
+| dsh-desktop-xenia092 | 1 | [Xenia0922/dsh-desktop](https://github.com/Xenia0922/dsh-desktop) | DeepSeek Harness desktop application | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tui-xiaoshih | 1 | [xiaoshihou514/dsh-tui](https://github.com/xiaoshihou514/dsh-tui) | An interactive terminal surface for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-web-open-bnqzzdf | 1 | [bnqzzdf/dsh-web-open](https://github.com/bnqzzdf/dsh-web-open) | Auto-open the browser, whale tray icon, desktop shortcut and one-shot installer for `dsh web` (DeepSeek Harness plugin) | 0.1.0-rc.6 (2026-08-15) |
 | dsh-windows-tray | 1 | [GZMULDY/dsh-windows-tray](https://github.com/GZMULDY/dsh-windows-tray) · [npm](https://www.npmjs.com/package/@gzmuldyxx/dsh-windows-tray) | System-tray whale controller for DeepSeek Harness (Windows): Start / Stop / Restart the dsh web service and open the Web UI from a tray icon. | 0.1.0-rc.6 (2026-08-14) |

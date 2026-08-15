@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-77 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+78 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -34,6 +34,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-plugin-wechat | 3 | [gnulife/dsh-plugin-wechat](https://github.com/gnulife/dsh-plugin-wechat) | DeepSeek Harness (DSH) 个人微信 ClawBot 插件：OpenClaw 负责微信通道（扫码登录/收发消息），DSH 负责大脑，两者通过 OpenAI 兼容协议桥接。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-wecom | 3 | [TtTRz/dsh-wecom](https://github.com/TtTRz/dsh-wecom) | dsh-wecom: a WeCom AI Bot channel for DeepSeek Harness — each chat runs a persistent, preset-backed agent over the official long connection. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-weixin-skylar | 3 | [skylar-fei/dsh-wechat-maid](https://github.com/skylar-fei/dsh-wechat-maid/tree/HEAD/packages/dsh-weixin) | DSH Web 插件合集：微信机器人（连接 + 主动消息/定时推送）+ 深蓝女仆桌宠，两个插件共享构建预设的单仓库。 | 0.1.0-rc.6 (2026-08-14) |
+| SKILLS-featherh | 3 | [FeatherHunter/SKILLS](https://github.com/FeatherHunter/SKILLS/tree/HEAD/dsh-plugin/dsh-feishu-link/package) | DSH 插件 — Agent 接入飞书/Lark IM（动态 + npm 安装 双形态）。 | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-remote | 2 | [liguobao/deepseek-harness-remote](https://github.com/liguobao/deepseek-harness-remote) · [npm](https://www.npmjs.com/package/deepseek-harness-remote) | Secure remote control for DeepSeek Harness: paired clients view sessions, continue chats, and handle approvals while the harness stays on the host. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-cc-connect | 2 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | Bridge a running cc-connect instance into DeepSeek Harness: push messages to Feishu/WeChat/Telegram sessions and discover projects via cc_connect_send / cc_connect_list tools. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-cowork | 2 | [Jesse-njx/dsh-cowork](https://github.com/Jesse-njx/dsh-cowork/tree/HEAD/packages/chatnode-wechat) | Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |

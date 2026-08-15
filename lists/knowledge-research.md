@@ -4,7 +4,7 @@
 
 Research workbenches, RAG, learning modes.
 
-86 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+87 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -78,6 +78,7 @@ Research workbenches, RAG, learning modes.
 | dsh-geo | 0 | [winyh/dsh-geo](https://github.com/winyh/dsh-geo) | 生成式引擎优化（GEO）DeepSeek Harness plugin for SEO, GEO and AEO analysis of Markdown knowledge bases. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-llm-wiki-wangning | 0 | [wangning19940904/dsh-llm-wiki](https://github.com/wangning19940904/dsh-llm-wiki) | Workspace-scoped, local-first LLM wiki plugin for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-github-search | 0 | [Tianbaidi/dsh-plugin-github-search](https://github.com/Tianbaidi/dsh-plugin-github-search) | Search GitHub repos and npm packages before building new dsh plugins — stop reinventing wheels | 0.1.0-rc.6 (2026-08-15) |
+| dsh-plugin-kaoyan | 0 | [luyyooo/dsh-plugin-kaoyan](https://github.com/luyyooo/dsh-plugin-kaoyan) | Postgraduate-exam study workbench in the sidebar: task board, mistake book with AI classification, reading drills, vocabulary, essay marking, and a politics monthly digest. | unverified |
 | dsh-plugin-search | 0 | [shinjiyu/dsh-plugin-search](https://github.com/shinjiyu/dsh-plugin-search) | Zero-config web_search for DeepSeek Harness when you are not on the official DeepSeek API. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-project-wiki | 0 | [yu-xin-c/dsh-project-wiki](https://github.com/yu-xin-c/dsh-project-wiki) | Auditable, workspace-local project wiki for DeepSeek Harness with a native Web view | 0.1.0-rc.6 (2026-08-15) |
 | dsh-research-library | 0 | [LKRCharon/dsh-research-library](https://github.com/LKRCharon/dsh-research-library) | A native research-library workbench for DeepSeek Harness, powered by Field Current: bounded literature search, BibTeX, and session-linked evidence snapshots. | 0.1.0-rc.6 (2026-08-15) |
