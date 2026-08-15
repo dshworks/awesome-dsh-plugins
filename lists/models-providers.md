@@ -4,7 +4,7 @@
 
 Providers, routing, fallbacks, subscription adapters.
 
-140 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+140 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|

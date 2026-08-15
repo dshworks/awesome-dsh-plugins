@@ -6,7 +6,8 @@
   "description": "Spam-filtered open-data registry of DeepSeek Harness (dsh) plugins, bundles, skills, and themes",
   "registry": {
     "org": "dshworks",
-    "repo": "awesome-dsh-plugins"
+    "repo": "awesome-dsh-plugins",
+    "site": "https://dsh.works"
   },
   "scripts": {
     "validate": "node scripts/validate.mjs",
