@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-89 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+93 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -20,6 +20,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-plugin-audit-jkrandom | 4 | [jkrandom-sudo/dsh-plugin-audit](https://github.com/jkrandom-sudo/dsh-plugin-audit) | Security audit plugin for DeepSeek Harness: static permission profiling and a runtime sentinel for third-party plugins | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugins-henlii | 4 | [henlii/dsh-plugins](https://github.com/henlii/dsh-plugins) · [npm](https://www.npmjs.com/package/dsh-plugins) | DeepSeek Harness (dsh) 自定义插件集合：每个插件可独立安装，也可通过集合 patch 一次性全部安装。 | 0.1.0-rc.6 (2026-08-14) |
 | dsh-stream-rules | 4 | [jiesou/dsh-stream-rules](https://github.com/jiesou/dsh-stream-rules) · [npm](https://www.npmjs.com/package/@jiesou/dsh-stream-rules) | Inject steering rules when needed without wasting system context. | 0.1.0-rc.6 (2026-08-14) |
+| dsh-thinking-status-customizer | 4 | [Dbi-Eshuh/dsh-thinking-status-customizer](https://github.com/Dbi-Eshuh/dsh-thinking-status-customizer) | A lifecycle-safe CSS-only customizer for the DSH Web thinking status. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-agentfuse | 3 | [MkaliezZ/dsh-agentfuse-plugin](https://github.com/MkaliezZ/dsh-agentfuse-plugin) · [npm](https://www.npmjs.com/package/@deepseek-ai/dsh-agentfuse) | AgentFuse fail-closed pre-dispatch tool gate for DeepSeek Harness with durable allow/block decision evidence. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-approval-ai | 3 | [ang-XWBWZ/dsh-approval-ai](https://github.com/ang-XWBWZ/dsh-approval-ai) · [npm](https://www.npmjs.com/package/@llangtop/dsh-approval-ai) | AI approval answerer using the unified ctx.llm route with fail-closed local policy checks | 0.1.0-rc.6 (2026-08-14) |
 | dsh-auto | 3 | [simon300000/dsh-auto](https://github.com/simon300000/dsh-auto) · [npm](https://www.npmjs.com/package/dsh-auto) | Model-reviewed Auto Approve permission preset for the DeepSeek Harness Web UI. | 0.1.0-rc.6 (2026-08-14) |
@@ -76,6 +77,8 @@ Permission tiers, gates, redaction, protection.
 | dsh-approval-gate | 0 | [moon09300731/dsh-approval-gate](https://github.com/moon09300731/dsh-approval-gate) | DeepSeek Harness 自动审批门控：Flash 模型预判写入/命令是否不可回补，安全自动批准、危险转人工（fail-safe） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-arbitrary-host | 0 | [FairyScript/dsh-arbitrary-host](https://github.com/FairyScript/dsh-arbitrary-host/tree/HEAD/plugin) | Non-invasive dsh web bundle layer: accepts an arbitrary --host, gates the app behind secure contexts, auto-trusts a concrete LAN-IP bind, and makes the connection privileged-method gate configurable. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-auth-gate | 0 | [jiang539/dsh-auth-gate](https://github.com/jiang539/dsh-auth-gate) | DSH Web UI 的认证门禁插件，提供 SVG 图形验证码与防暴力破解保护 | 0.1.0-rc.6 (2026-08-15) |
+| dsh-auth-tunnel | 0 | [ai-eks/dsh-auth-tunnel](https://github.com/ai-eks/dsh-auth-tunnel) | Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or | 0.1.0-rc.6 (2026-08-15) |
+| dsh-auto-classifier | 0 | [PAKIKNOWLEDGE/dsh-auto-classifier](https://github.com/PAKIKNOWLEDGE/dsh-auto-classifier) | Autonomous (auto) mode permission classifier for DeepSeek Harness: a Claude-Code-auto-mode-like classifier over tools/pre-execute and approval/request, a selectable 'auto' permission preset, LLM | 0.1.0-rc.6 (2026-08-15) |
 | dsh-egress-guard | 0 | [LKRCharon/dsh-egress-guard](https://github.com/LKRCharon/dsh-egress-guard) | Local, zero-network, fail-closed secret preflight for DeepSeek Harness model requests. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-git-plugin-itcodery | 0 | [IT-coder-Yy/dsh-git-plugin](https://github.com/IT-coder-Yy/dsh-git-plugin) | DeepSeek Harness Cordis 插件（静态 npm 包形态）：把用户对 git 操作的自然语言描述，转成最简洁安全的命令建议与解释，并让用户在「直接执行 / 手动执行」之间选择。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-git-worktree-wloops | 0 | [wloops/dsh-git-worktree](https://github.com/wloops/dsh-git-worktree) | Domi-grade git worktree isolation and delivery for DeepSeek Harness: permanent worktrees, ready-for-review / apply / discard / finish lifecycle, conflict handling, and safe cleanup. | 0.1.0-rc.6 (2026-08-15) |
@@ -96,4 +99,5 @@ Permission tiers, gates, redaction, protection.
 | dsh-system-control | 0 | [FrankZhangIronly/dsh-system-control](https://github.com/FrankZhangIronly/dsh-system-control) | DSH web 系统控制插件：侧边栏底部「系统」菜单（重启=退出码42 / 关闭=退出码0），经 /system RPC 通道（loopback 权限）调用宿主 appExit。双面：bundle patch 挂宿主半，dsh.client 装配浏览器半。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-toolbelt-xiayuhku | 0 | [xiayuhkust/dsh-toolbelt](https://github.com/xiayuhkust/dsh-toolbelt/tree/HEAD/packages/secret-guard) | Blocks model-facing tools from reading secret and PII files (.env, keys, credentials) in DeepSeek Harness. Deny with reason via the tools/pre-execute waterfall. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-verify-gate | 0 | [blueWhalei/dsh-verify-gate](https://github.com/blueWhalei/dsh-verify-gate) | Engineering verify gate for DeepSeek Harness: configured commands are authority; dirty receipts block conclude. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-verify-judge | 0 | [zriyox/dsh-verify-judge](https://github.com/zriyox/dsh-verify-judge) | Goal-completion verification gate for DeepSeek Harness: intercept update_goal(complete), run workspace verification commands, and only let the goal close when they pass | 0.1.0-rc.6 (2026-08-15) |
 | readonly-security-audit | 0 | [my-dsh-plugin/readonly-security-audit](https://github.com/my-dsh-plugin/readonly-security-audit) | 只读安全审计模式 · Read-only Security Audit Mode for DeepSeek Harness：系统级只读拦截、逐次写入审批、强制报告交付选择；适用于任意 Harness 检出 / fork。 | 0.1.0-rc.6 (2026-08-15) |

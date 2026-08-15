@@ -47199,6 +47199,1555 @@ window.__PLUGINS__ = {
         "usage",
         "ui"
       ]
+    },
+    {
+      "name": "dsh-pet",
+      "repo": "PC2005-cloud/dsh-pet",
+      "path": "dsh-pet",
+      "description": "A floating desktop pet for the DeepSeek Harness Web UI: idle breathing, occasional direction turns, random actions, and screen wandering.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 25,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-gui-customization",
+      "repo": "LAN-TINA-WS/dsh-gui-customization",
+      "path": "packages/dsh-gui-customization",
+      "description": "DSH theme plugin for the DeepSeek Harness Web UI: Nous Blue palette, ambient glow, dynamic image/video backgrounds. DSH 界面设定插件：配色 / 氛围光 / 动态背景（中英双语）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 10,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "vision"
+      ]
+    },
+    {
+      "name": "dsh-qq2006",
+      "repo": "LaplaceYoung/dsh-qq2006",
+      "description": "QQ2006 skin plugin for DSH (DeepSeek Harness): registers the 'qq2006' theme (coral-blue --dsw-alias-* token overrides), mirrors the active theme onto body[data-ds-skin], and ships the global",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 9,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "touhou-hakurei",
+      "repo": "xiake595/touhou-hakurei",
+      "description": "Hot-pluggable Hakurei Shrine (Touhou Project) skin for the dsh web GUI: shrine day/night backdrops, Reimu figures, framed sidebar & composer, transparent paper UI",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 8,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "knowledge"
+      ]
+    },
+    {
+      "name": "dsh-galgame",
+      "repo": "Lanxing6480/dsh-galgame",
+      "description": "GalGame mode for the dsh web GUI: a third conversation view tab (after 轨迹) that renders the real agent session as a visual-novel stage — whale-girl (DeepSeek) portrait with diff switching + draggable",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 6,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-answer-pet",
+      "repo": "Nanki-nn/dsh-answer-pet",
+      "description": "DeepSeek Harness Web 可扩展回答状态宠物框架：支持宠物主题、多会话进度、模型轨迹和工具调用。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 6,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-codex-pet-skr311",
+      "repo": "skr311/dsh-codex-pet",
+      "path": "packages/dsh-codex-pet",
+      "description": "A desktop pet plugin for DeepSeek Harness (DSH): import Codex-style sprite-sheet pets and render them in the DSH Web GUI as a floating shell.overlay, with a pet library, interactions, and Agent-state",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 5,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "interop"
+      ]
+    },
+    {
+      "name": "dsh-live2d-pets",
+      "repo": "cyanfish-x/dsh-live2d-pets",
+      "description": "Live2D pet plugin for DeepSeek Harness: load models from any external URL or local model path",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 4,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun"
+      ]
+    },
+    {
+      "name": "dsh-thinking-status-customizer",
+      "repo": "Dbi-Eshuh/dsh-thinking-status-customizer",
+      "description": "A lifecycle-safe CSS-only customizer for the DSH Web thinking status.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 4,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "safety",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-deepseek-girl-pet",
+      "repo": "f0909172434/dsh-deepseek-girl-pet",
+      "description": "Animated deepseek girl desktop pet overlay for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 4,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-blue-whale",
+      "repo": "starslittle/dsh-blue-whale",
+      "description": "A DeepSeek Chat-style blue-whale color skin. Light and dark follow the built-in appearance.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 4,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-black-whale",
+      "repo": "147228/dsh-black-whale",
+      "description": "夕小瑶 × DeepSeek Harness 黑鲸实验室主题皮肤",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "fun"
+      ]
+    },
+    {
+      "name": "dsh-whale-pet",
+      "repo": "aceice01/dsh-whale-pet",
+      "description": "DeepSeek 鲸鱼娘桌宠 — 蓝发女仆 + 鲸鱼尾动画 · 晓伊神经网络语音 · 撒娇互动 · 任务完成提醒 · 会话余额徽章（非官方同人项目）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "notifications"
+      ]
+    },
+    {
+      "name": "dsh-desk-pet",
+      "repo": "anneheartrecord/dsh-desk-pet",
+      "description": "Always-on-top DeepSeek Harness desktop pet. Default whale, four skins, four silent states. Not an in-page widget.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-plugin-pet",
+      "repo": "c-ling/dsh-plugin-pet",
+      "description": "A virtual pet companion for the DeepSeek Harness web GUI: mood animations driven by live agent state, built-in sprites, custom image upload, and Codex-style multi-frame spritesheet import.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "interop",
+        "fun"
+      ]
+    },
+    {
+      "name": "harness-pet",
+      "repo": "cakeni/harness-pet",
+      "description": "Harness Pet is an unofficial community project. Not affiliated with, endorsed by, or maintained by DeepSeek. A tiny whale for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun"
+      ]
+    },
+    {
+      "name": "dsh-aemeath-pet",
+      "repo": "culture-flask/dsh-aemeath-pet",
+      "description": "Aemeath desktop pet for the DeepSeek Harness web GUI: a pixel-art companion that idles, works, waits, and reacts alongside the agent.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-whale-pet-lglglglg",
+      "repo": "lglglglgy/dsh-whale-pet",
+      "description": "A floating interactive whale desk pet for the DeepSeek Harness Web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-catppuccin",
+      "repo": "NoNameLeGo/dsh-catppuccin",
+      "description": "Catppuccin themes for the DeepSeek Harness web GUI — Latte, Frappé, Macchiato and Mocha registered into the official theme system (Appearance settings), fully remapping the --dsw-* token ladder.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-pet-corner",
+      "repo": "omdsh-dev/dsh-pet-corner",
+      "description": "DSH Pet Corner: a floating pet, keyless pet-image proxy, favorites, and plugin-owned settings API",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "vision"
+      ]
+    },
+    {
+      "name": "dsh-desktop-pet-sereinmo",
+      "repo": "sereinmono/dsh-desktop-pet",
+      "description": "An optional desktop companion for deepseek-harness that shows ambient status via a small animated pet.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-skin-universe",
+      "repo": "springbrand-lab/dsh-skin-universe",
+      "path": "packages/dsh-aionui-panel",
+      "description": "DSH web GUI right-panel system: a pixel-faithful re-implementation of AionUi's Explorer + Preview columns (file tree, filename search, git changes, multi-tab preview of 10+ formats) driven by real",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "knowledge"
+      ]
+    },
+    {
+      "name": "dsh-ui-appearance",
+      "repo": "TQSY114514/dsh-ui-appearance",
+      "description": "Appearance customization plugin for DeepSeek Harness WebUI: theme palette, background image, transparency and blur over the --dsw-* token system",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "vision"
+      ]
+    },
+    {
+      "name": "dsh-pet-vulcan62",
+      "repo": "Vulcan626/dsh-pet",
+      "description": "Frame-wide DeepSeek Pet with a swimming sprite and current-session API statistics",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-blue-whale-maid",
+      "repo": "yuxino/dsh-blue-whale-maid",
+      "description": "Blue Whale Maid desktop pet and task notifier for DeepSeek Harness Web (artwork by simashui @ codex-pets.net)",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "interop"
+      ]
+    },
+    {
+      "name": "dsh-pixel-ui",
+      "repo": "zhang66633/dsh-pixel-ui",
+      "description": "DSH 像素皮肤：Agent Xi 风格四主题（木屋/羊皮纸/暖阳/终端绿）+ fusion-pixel/Press Start 2P 像素字体 + CRT 扫描线，可一键切回现代默认",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 3,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-nailong-desktop-pet",
+      "repo": "2002yxy/dsh-nailong-desktop-pet",
+      "description": "Unofficial Nailong animated desktop-pet plugin for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-cyber-particle",
+      "repo": "AKS1st/dsh-cyber-particle",
+      "description": "Particle-network background overlay for the DeepSeek Harness Web shell.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-eye-care",
+      "repo": "Anionex/dsh-eye-care",
+      "description": "Warm light, warm dark, and system-aware eye-care themes for DSH Web",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "deepseek-harness-angelina-themes",
+      "repo": "bilbillm/deepseek-harness-angelina-themes",
+      "description": "Angelina light and dark glass themes with restrained parallax for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-plugin-colorscheme",
+      "repo": "Civitasv/dsh-plugin-colorscheme",
+      "description": "Colorschemes for DeepSeek Harness: MIT-licensed preset themes mapped onto the --dsw-* token system, a settings picker row, and user extension via a themes directory, plugin config, or settings.yaml.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-meow-cat",
+      "repo": "dsh-pub/dsh-meow-cat",
+      "description": "A cat runs across the bottom of the DeepSeek Harness web UI with a synthesized meow every time a conversation turn ends.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "ui"
+      ]
+    },
+    {
+      "name": "Angelina-dsh-plugin",
+      "repo": "FlowerWater1019/Angelina-dsh-plugin",
+      "description": "Unofficial Angelina companion and Rhodes-inspired theme for the DeepSeek Harness Web UI",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-pets",
+      "repo": "hellosz/dsh-pets",
+      "description": "DeepSeek Harness pet companion — Codex Pets style floating pet with notification broadcasting and a pet_say tool",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "interop"
+      ]
+    },
+    {
+      "name": "dsh-ui-desktop-pet",
+      "repo": "jmctsh/dsh-ui-desktop-pet",
+      "path": "ui-desktop-pet",
+      "description": "Desktop pet plugin: a draggable, clickable, talking Live2D character floating in the shell.overlay layer",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-home-ui",
+      "repo": "lehhair/dsh-home-ui",
+      "description": "PiUI-inspired home feed visual refinement for the DSH web client: sidebar palette unified with the conversation feed, feed header aligned with the sidebar controls, and the header hairline replaced",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-windows-ocr",
+      "repo": "maxwell-feng/dsh-windows-ocr",
+      "description": "dsh plugin: recognize attached images with the built-in Windows OCR engine (Windows.Media.Ocr) and send only the recognized text to the model — image bytes never leave the machine.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "vision"
+      ]
+    },
+    {
+      "name": "DeepSeek-Harness-Pet",
+      "repo": "minybear/DeepSeek-Harness-Pet",
+      "description": "Codex-style desktop pet for the DSH web GUI: a floating animated sprite driven by the agent's running state",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "agents"
+      ]
+    },
+    {
+      "name": "chiral-pulse",
+      "repo": "MoonShadow1976/chiral-pulse",
+      "description": "CHIRAL PULSE - a Death Stranding-styled BB pod vital-signs monitor for the DeepSeek Harness web UI: the session's heartbeat waveform is the hero, and the pulse reacts to real agent activity.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "memory",
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-ui-whale-omdshdev",
+      "repo": "omdsh-dev/dsh-ui-whale",
+      "description": "DSH Web UI 像素鲸鱼伙伴插件：会话标题栏常驻，平时眨眼/偶尔摆尾/动胸鳍，思考运行时持续动起来，回合完成头顶喷水，点击冒爱心，零核心改动。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-webUI-pets",
+      "repo": "pineapple880066/dsh-webUI-pets",
+      "path": "packages/client/ui-desktop-pet",
+      "description": "Codex-style draggable desktop pets for the DeepSeek Harness Web UI / 类似 Codex 的 DeepSeek Harness Web UI 可拖拽桌宠",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-waterball-pet",
+      "repo": "sundusk/dsh-waterball-pet",
+      "description": "Water ball pet plugin for the dsh web GUI: a floating sky-blue water ball with white eyes that reacts to agent activity (idle / thinking / tool) and ships an enable toggle plus size in the Web UI",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "fun"
+      ]
+    },
+    {
+      "name": "dsh-ui-beautify",
+      "repo": "Zalpha263/dsh-ui-beautify",
+      "description": "Customize the DeepSeek Harness web UI: theme color presets (main area, sidebar, message bubble, send button) plus a full-page background image — all reversible and light/dark aware.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "vision"
+      ]
+    },
+    {
+      "name": "dsh-pet-zealot00",
+      "repo": "zealot00/dsh-pet",
+      "description": "Desktop pet for DeepSeek Harness Web UI: idle float animation, click speech, right-click settings panel, skin separation (assets + settings). Roadmap: alarm clock, sticky notes and more practical",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "fun"
+      ]
+    },
+    {
+      "name": "LaoA-dshGF",
+      "repo": "zhulin025/LaoA-dshGF",
+      "description": "State-driven black and white cyber-girlfriend skins for dsh web",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 2,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-suite",
+      "repo": "alex04130/dsh-suite",
+      "description": "DSH extension suite: runtime injector, task-aware reasoning-mode routing preset, cross-session mailbox, agent teams, model delegation, skill manager, and plugin-manager UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "memory",
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-mcp",
+      "repo": "ArvinQi/dsh-mcp",
+      "description": "MCP server 管理插件（独立版）：托管 MCP 服务器注册表（持久化定义、运行时挂载、环境变量注入、连接探测）+ Web 设置管理页。由 deepseek-harness 仓库内的 mcp-manager / ui-settings-mcp / web-mcp 迁移合并而来。MCP server registry with WebUI management for DeepSeek",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "marketplace",
+        "interop"
+      ]
+    },
+    {
+      "name": "yuhao-pet",
+      "repo": "dlpufan/yuhao-pet",
+      "description": "DSH Web GUI 桌面宠物「宇昊」：可拖拽/投喂/玩耍/洗澡/打针吃药/学习/打工/积分商店，token 消耗自动攒积分。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-whale-pet-er1c0v0",
+      "repo": "Er1c0v0/dsh-whale-pet",
+      "description": "An unofficial whale-girl desktop pet for the DeepSeek Harness Web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
+    },
+    {
+      "name": "furina-desk-pet",
+      "repo": "fykuang02/furina-desk-pet",
+      "description": "芙宁娜卡通大头桌宠：DeepSeek Harness Web GUI 客户端插件（点击特效 / 好感度系统 / 可拖拽 / 本地持久化）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-bgwall-plugin",
+      "repo": "hubo980205/dsh-bgwall-plugin",
+      "description": "背景图片墙 (Background Wall)：把 DeepSeek Harness Web 界面背景换成任意图片（远程 URL 或服务器本地文件），支持透明度、模糊与铺放方式调节。控制面板位于「设置 → 背景图片」。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-im-bot",
+      "repo": "ivorytower1026/dsh-im-bot",
+      "path": "im-channel",
+      "description": "IM front-end channels (WeChat, Feishu) for DeepSeek Harness: scan-code login, message routing to agent sessions",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "channels",
+        "agents"
+      ]
+    },
+    {
+      "name": "dsx",
+      "repo": "kemi-20/dsx",
+      "description": "A desktop shell for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "terminal",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-vision-mcp",
+      "repo": "moton16/dsh-vision-mcp",
+      "description": "Give your text-only LLM eyes: zero-dependency MCP server that reads images via external OpenAI-compatible vision models with automatic provider fallback, plus a one-command patch for DSH image-attachm",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "models",
+        "vision"
+      ]
+    },
+    {
+      "name": "dsh-material-you",
+      "repo": "mtaech/dsh-material-you",
+      "description": "Material You (Material 3) skin for DeepSeek Harness: HCT tonal palette + Maple Mono NF CN typography",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-dafeiyu",
+      "repo": "QCYTSN/dsh-dafeiyu",
+      "description": "A desktop-native BigFish companion driven by DeepSeek Harness session events.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "memory",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-fare-meter",
+      "repo": "Saikel-Orado-Liu/dsh-fare-meter",
+      "description": "DeepSeek conversation cost tracking for the DeepSeek Harness Web GUI: price-snapshot-anchored per-turn cost (peak/off-peak aware), account balance, cost tab, per-message chips, and a header pill with",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "usage",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-git-remotes",
+      "repo": "yq04/dsh-git-remotes",
+      "description": "DSH web plugin: better-sidebar Git Remotes tab for fetch / ff-only pull / confirmed push. Does not replace the built-in Git stage/commit tab.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 1,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "notifications",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-api-balance-02muller",
+      "repo": "02Muller25/dsh-api-balance",
+      "description": "Real-time DeepSeek API account balance readout for the DeepSeek Harness web GUI (dsh web).",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "usage",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-music",
+      "repo": "1608kiy/dsh-music",
+      "description": "这是一个可以让你边对话边听歌的 DeepSeek Harness 插件：可完全隐藏/重开的悬浮播放器（关闭后页面不留痕迹，可让 agent 或设置页重新打开；默认收缩成小唱片圈吸附贴边，双击下一首/三击上一首），接入QQ音乐（官方接口解析），支持扫码登录QQ音乐账号（解锁VIP播放与「我喜欢」）、断点续播、音质切换、重启续播、歌单导入和搜索。dsh-MusicPlayer: chat and",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "fun",
+        "channels"
+      ]
+    },
+    {
+      "name": "dsh-auth-tunnel",
+      "repo": "ai-eks/dsh-auth-tunnel",
+      "description": "Password-gated public access for the Web GUI via Cloudflare Tunnel: a loopback password gate (login page + HMAC cookie) in front of the webserver, published by spawning cloudflared in quick or",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "safety",
+        "ui"
+      ]
+    },
+    {
+      "name": "framefactory-plugin",
+      "repo": "anywhere-labs/framefactory-plugin",
+      "description": "A runnable DeepSeek Harness plugin for FrameFactory content workflows.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-windtunnel",
+      "repo": "BotonJ/dsh-windtunnel",
+      "description": "DSH 插件风洞 — contract regression harness for DeepSeek Harness plugin bundles. Scripted-adapter driving, isolated child processes, session-event assertions.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "name": "deepseek-harness-plugin-skill",
+      "repo": "chenshutian9610/deepseek-harness-plugin-skill",
+      "path": "references/deepseek-harness/packages/bundle/web-app",
+      "description": "DeepSeek Harness 插件开发 Skill",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "devtools"
+      ]
+    },
+    {
+      "name": "deepseek-harness-terminal-plugin",
+      "repo": "chenshutian9610/deepseek-harness-terminal-plugin",
+      "description": "Interactive PTY terminal dock for dsh-web, toggled with Cmd/Ctrl+J",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-session-unarchive",
+      "repo": "dylan121322/dsh-session-unarchive",
+      "description": "dsh plugin: view archived sessions and restore them to their workspace in the Web GUI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "memory",
+        "ui"
+      ]
+    },
+    {
+      "name": "deepseek-harness-desktop-fufankej",
+      "repo": "fufankeji/deepseek-harness-desktop",
+      "description": "An installable desktop app for DeepSeek Harness with a bundled runtime, native shell, local Host management, and plugin extensibility.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "terminal",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-plugin-gydmsg",
+      "repo": "gydmsg/dsh-plugin",
+      "path": "packages/dsh-plugin-notify",
+      "description": "DSH 树外插件：Windows 桌面通知（Web Notification API）。DSH 需要用户回答（question/requested）或回答完成（turn/end）时向系统通知中心弹通知，点击聚焦回 DSH 页面。纯客户端逻辑，host 半仅作 loader 行（client-modules 扫描 dsh.client 声明）。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "notifications",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-ui-extensions",
+      "repo": "haibara757/dsh-ui-extensions",
+      "description": "DeepSeek Harness extension center: sidebar nav plus a GitHub plugin catalog",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "marketplace",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-computer-use-haifeiwu",
+      "repo": "haifeiWu/dsh-computer-use",
+      "description": "DSH plugin: local macOS computer use — screenshot/mouse/keyboard/browser control + OCR fallback for dsh (DeepSeek Harness)",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "vision",
+        "models"
+      ]
+    },
+    {
+      "name": "dsh-courier",
+      "repo": "haifeiWu/dsh-courier",
+      "description": "DSH cross-session messaging plugin: reliable delivery + role addressing for the coding/review loop",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-deepseek-usage-haifeiwu",
+      "repo": "haifeiWu/dsh-deepseek-usage",
+      "description": "DSH plugin: real-time DeepSeek token usage, estimated cost and account balance in the DSH Web UI",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "usage",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-ocr",
+      "repo": "haifeiWu/dsh-ocr",
+      "description": "DSH plugin: local OCR and image understanding for dsh — inlined image previews in Web tool cards",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "vision",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-balance-meter-healing1",
+      "repo": "healing1/dsh-balance-meter",
+      "description": "DeepSeek account balance and usage readout for the dsh web GUI: queries the official Get User Balance endpoint and shows current remaining balance and spend on the page.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "usage",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-usage-stats-healing1",
+      "repo": "healing1/dsh-usage-stats",
+      "description": "Lightweight usage analytics for DeepSeek Harness — token trends, activity heatmaps, model breakdowns, and exports.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "usage"
+      ]
+    },
+    {
+      "name": "dsh-web-plugin-manager-healing1",
+      "repo": "healing1/dsh-web-plugin-manager",
+      "description": "Manage DeepSeek Harness (DSH) plugins from the Web UI: list, enable/disable, install/remove, environments, and a GitHub-awesome-driven marketplace.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "marketplace",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-file-upload",
+      "repo": "HongMing-Huang/dsh-file-upload",
+      "description": "DeepSeek Harness dual-face plugin: Claude-style drag-and-drop / paperclip file upload, content sniffing, document-to-Markdown conversion (built-in JS parsers with optional Microsoft MarkItDown CLI)",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "models",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-plugin-toggle-huntersx",
+      "repo": "huntersxy/dsh-plugin-toggle",
+      "description": "第三方插件开关：在设置页启用/禁用第三方插件（改写各 profile 的 cordis.patch.yml，DSH 热重载立即生效）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "TabNexus-DSH",
+      "repo": "KaichenCurry/TabNexus-DSH",
+      "description": "TabNexus for DSH（独立版）：零 Chrome 依赖的浏览器任务上下文插件。任务文档、自由章节、四态页面、进度、导出、全局工作区 UI，装完即用。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "memory",
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-image-gen",
+      "repo": "LeemanCheung/dsh-image-gen",
+      "description": "GPT Image 2 generation with progressive Codex-style previews for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "vision",
+        "interop"
+      ]
+    },
+    {
+      "name": "dsh-voice-input-lougyang",
+      "repo": "lougyang/dsh-voice-input",
+      "description": "系统级语音输入（DSH 插件）：挂载后自动在后台启动，按全局热键说话，本地 Whisper 转写并粘贴到当前光标处——在电脑任何程序里都能用，不只是 DSH。纯本地运行，语音不出本机。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-auto-classifier",
+      "repo": "PAKIKNOWLEDGE/dsh-auto-classifier",
+      "description": "Autonomous (auto) mode permission classifier for DeepSeek Harness: a Claude-Code-auto-mode-like classifier over tools/pre-execute and approval/request, a selectable 'auto' permission preset, LLM",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "safety",
+        "models"
+      ]
+    },
+    {
+      "name": "dsh-vision-workbench",
+      "repo": "princefrogdida-ux/dsh-vision-workbench",
+      "description": "Windows-first vision suite for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "vision",
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-md2pdf",
+      "repo": "Raymond-Leung7/dsh-md2pdf",
+      "description": "DSH plugin: convert Markdown to print-friendly PDF (A4, CJK fonts, tables with repeated headers). Provides the md_to_pdf model tool.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities",
+        "interop"
+      ]
+    },
+    {
+      "name": "ds-turn-notify-reimucre",
+      "repo": "reimu-create/ds-turn-notify",
+      "description": "DSH 会话完成或索要权限时后台提醒 + 提示音（Windows）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "notifications",
+        "memory"
+      ]
+    },
+    {
+      "name": "uiopt-reimucre",
+      "repo": "reimu-create/uiopt",
+      "description": "显示优化 — WebUI 显示增强:余额实时查询、会话消耗、缓存命中率、提供商图标、额外插件管理",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "usage",
+        "memory"
+      ]
+    },
+    {
+      "name": "dsh-win32",
+      "repo": "sjh9714/dsh-win32",
+      "description": "First-class Windows for DeepSeek Harness: real persistent-bash Minimal mode (Git Bash PTY), a doctor for the known install traps, one-command setup | 让 DeepSeek Harness 在 Windows 上成为一等公民",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-windows-notify",
+      "repo": "taskschd1145/dsh-windows-notify",
+      "description": "DeepSeek Harness Windows 通知插件",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "notifications"
+      ]
+    },
+    {
+      "name": "dsh-deepread",
+      "repo": "xiehuan123/dsh-deepread",
+      "description": "DeepRead 精读助手：精读一本书或一篇文章，提取核心观点、论证结构与关键论据。四种模式（quick/deep/map/book），知识地图模式输出「观点—证据—数据—关系」结构化报告（含四档置信度、数据五要素、八种关系标注、Mermaid 思维导图与主动回忆问题）；支持微信公众号链接、.txt/.md/.html/.pdf 文件与粘贴文本（内置纯 JS PDF 文本提取器）；可选导出",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities",
+        "channels"
+      ]
+    },
+    {
+      "name": "dsh-verify-judge",
+      "repo": "zriyox/dsh-verify-judge",
+      "description": "Goal-completion verification gate for DeepSeek Harness: intercept update_goal(complete), run workspace verification commands, and only let the goal close when they pass",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "name": "dsh-herdr-bridge",
+      "repo": "damozhang/dsh-herdr-bridge",
+      "description": "Bridge a dsh web session to Herdr: discover, start, prompt, and observe other agents (pi, claude, codex) from inside the dsh web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "interop",
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-workspace-actions",
+      "repo": "ZJS248/dsh-workspace-actions",
+      "description": "Workspace file manager in the sidebar: browse and create files and folders, register a directory as a sub-workspace, open in the system file manager, copy absolute paths.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-15",
+      "lastVerified": "2026-08-15",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "stars": 0,
+      "starsUpdated": "2026-08-15",
+      "tags": [
+        "capabilities",
+        "ui"
+      ]
     }
   ]
 };

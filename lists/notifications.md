@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-40 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+44 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -29,6 +29,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-update-checker-airmetro | 2 | [Airmetro/dsh-update-checker](https://github.com/Airmetro/dsh-update-checker) | Auto-check DeepSeek Harness for new releases and notify the user in the Web GUI with a locale-aware banner. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-web-notification | 2 | [2h0n/dsh-web-notification](https://github.com/2h0n/dsh-web-notification) · [npm](https://www.npmjs.com/package/dsh-web-notification) | System-level Web Notification when the model finishes a reply in the DeepSeek Harness web GUI | 0.1.0-rc.6 (2026-08-14) |
 | dsh-ding | 1 | [CAOGGL/dsh-ding](https://github.com/CAOGGL/dsh-ding) · [npm](https://www.npmjs.com/package/dsh-ding) | Play a sound and show a Windows toast when a DeepSeek Harness turn finishes, with a Web UI bell control. | 0.1.0-rc.6 (2026-08-14) |
+| dsh-git-remotes | 1 | [yq04/dsh-git-remotes](https://github.com/yq04/dsh-git-remotes) | DSH web plugin: better-sidebar Git Remotes tab for fetch / ff-only pull / confirmed push. Does not replace the built-in Git stage/commit tab. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-notifier | 1 | [YZz-S/dsh-notifier](https://github.com/YZz-S/dsh-notifier) | DeepSeek Harness (dsh) 系统通知插件：任务完成或需要人工确认/输入时，发送操作系统原生通知。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-notify | 1 | [TerricSH/dsh-notify](https://github.com/TerricSH/dsh-notify) · [npm](https://www.npmjs.com/package/@terricsh/dsh-notify) | Desktop notifications for DeepSeek Harness approval, completion, and error events with click-to-open deep links. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-notify-bark | 1 | [pc439527/dsh-notify-bark](https://github.com/pc439527/dsh-notify-bark) | Bark 推送通知插件：DSH Host 端监听回合结束 / 等待回答 / 等待授权等事件，通过 Bark Server 推送到 iPhone。设置页经专用 RPC 读写 Host 配置（Bark 地址脱敏，不落地到浏览器）。 | 0.1.0-rc.6 (2026-08-15) |
@@ -36,15 +37,18 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-plugin-approval-alert | 1 | [doncelee229-cmyk/dsh-plugin-approval-alert](https://github.com/doncelee229-cmyk/dsh-plugin-approval-alert) | Desktop notification when DeepSeek Harness needs approval, with workspace name and click-to-jump. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-sound-plugin | 1 | [FG-FOX/dsh-sound-plugin](https://github.com/FG-FOX/dsh-sound-plugin) · [npm](https://www.npmjs.com/package/dsh-client-ui-sounds) | Web sound cues: play distinct tones when a task completes, when the agent needs permission/asks a question, and when a task aborts abnormally. | 0.1.0-rc.6 (2026-08-14) |
 | ds-turn-notify | 0 | [237229953-create/ds-turn-notify](https://github.com/237229953-create/ds-turn-notify) | DSH 会话完成或索要权限时后台提醒 + 提示音（Windows） | 0.1.0-rc.6 (2026-08-15) |
+| ds-turn-notify-reimucre | 0 | [reimu-create/ds-turn-notify](https://github.com/reimu-create/ds-turn-notify) | DSH 会话完成或索要权限时后台提醒 + 提示音（Windows） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-check-update | 0 | [HuiHuitie-zhu/dsh-check-update](https://github.com/HuiHuitie-zhu/dsh-check-update) | DSH 更新检查器（npm 版）：设置页检查 @deepseek-ai/dsh 是否有新版，导航红点提醒。Check @deepseek-ai/dsh for updates, red-dot reminder. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-mobile-kngear | 0 | [knGear/dsh-mobile](https://github.com/knGear/dsh-mobile/tree/HEAD/plugins/mobile-AndroidNotify) | 移动前端安卓通知插件: notify 工具 + 生命周期常驻/横幅 + 通知点击跳转(?session=) | 0.1.0-rc.6 (2026-08-15) |
 | dsh-notif-plugin | 0 | [messageer/dsh-notif-plugin](https://github.com/messageer/dsh-notif-plugin/tree/HEAD/dsh-task-notify) | DSH会话停止/阻塞时提醒：右上角 toast + 提示音（WebAudio）+ 系统通知（Windows/macOS 通知中心，页面失焦时弹）。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-notify-dshiq04 | 0 | [dshiq04/dsh-notify](https://github.com/dshiq04/dsh-notify) | Browser notifications + distinct chimes for the dsh web UI: alerted when a run finishes and when the agent needs user input (question / plan review / approval), each with its own clearly different | 0.1.0-rc.6 (2026-08-15) |
 | dsh-notify-zhengjy0 | 0 | [zhengjy01/dsh-notify](https://github.com/zhengjy01/dsh-notify) | 系统级弹窗提示插件：任务完成 / 任务失败 / 工具失败 / 目标完成或受阻 / 工作流完成 / 需要人工确认（权限审批）时弹出系统通知（macOS 通知中心横幅与模态弹窗，Linux notify-send） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-peak-alert | 0 | [zbxzbx98/dsh-peak-alert](https://github.com/zbxzbx98/dsh-peak-alert) | DeepSeek 峰谷定价提示插件：高峰时段（北京 09:00-12:00 / 14:00-18:00）把 DSH Web 输入卡片染成淡红色，并显示当前高峰/空闲时段、价格倍率与下次切换时间 | 0.1.0-rc.6 (2026-08-15) |
+| dsh-plugin-gydmsg | 0 | [gydmsg/dsh-plugin](https://github.com/gydmsg/dsh-plugin/tree/HEAD/packages/dsh-plugin-notify) | DSH 树外插件：Windows 桌面通知（Web Notification API）。DSH 需要用户回答（question/requested）或回答完成（turn/end）时向系统通知中心弹通知，点击聚焦回 DSH 页面。纯客户端逻辑，host 半仅作 loader 行（client-modules 扫描 dsh.client 声明）。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-notification-sounds | 0 | [Heldea-xianmiao/dsh-plugin-notification-sounds](https://github.com/Heldea-xianmiao/dsh-plugin-notification-sounds) | DSH 提示音插件（原生常驻版）：为开始运行、成功完成、异常中断、需要审批、子代理完成等事件分别设置提示音，支持逐事件上传本地音频文件。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-onebot | 0 | [kun2-5code/dsh-plugin-onebot](https://github.com/kun2-5code/dsh-plugin-onebot) | DeepSeek Harness (dsh) plugin: notify OneBot users/groups when a task completes, via WS long-connection (server mode) + OneBot HTTP API actions. Config editable in the web GUI (Settings → Plugins → | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-web-notify | 0 | [vilicvane/dsh-plugin-web-notify](https://github.com/vilicvane/dsh-plugin-web-notify) | Browser notifications for DeepSeek Harness: turn completion, approvals, plan reviews, and questions. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-push | 0 | [kiim-wong/dsh-push](https://github.com/kiim-wong/dsh-push) | Push DeepSeek Harness agent lifecycle notifications to configurable channels | 0.1.0-rc.6 (2026-08-15) |
 | dsh-req-workbench | 0 | [Songran241/dsh-req-workbench](https://github.com/Songran241/dsh-req-workbench) | 需求管理工作台：在 DeepSeek Harness Web UI 中管理需求与子任务，支持从对话 turn 与本地文档导入功能需求，子任务截止时间与超时提醒。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-update-checker-harryli7 | 0 | [HarryLi-7/dsh-update-checker](https://github.com/HarryLi-7/dsh-update-checker) | DSH profile plugin: notify in the web sidebar when a newer @deepseek-ai/dsh version is available on npm | 0.1.0-rc.6 (2026-08-15) |
+| dsh-windows-notify | 0 | [taskschd1145/dsh-windows-notify](https://github.com/taskschd1145/dsh-windows-notify) | DeepSeek Harness Windows 通知插件 | 0.1.0-rc.6 (2026-08-15) |

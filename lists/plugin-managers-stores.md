@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-123 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+126 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -94,6 +94,7 @@ In-UI stores, installers, skill managers.
 | dsh-awesome-deepseek-skills | 1 | [Whning0513/awesome-deepseek-skills](https://github.com/Whning0513/awesome-deepseek-skills) · [npm](https://www.npmjs.com/package/dsh-awesome-deepseek-skills) | Browse and install pinned Agent Skills from Awesome DeepSeek Skills in DSH | 0.1.0-rc.6 (2026-08-14) |
 | dsh-client-plugin-manager | 1 | [mccxs/dsh-client-plugin-manager](https://github.com/mccxs/dsh-client-plugin-manager) | Web plugin manager: grouped plugin inventory and marketplace tabs for dsh settings | 0.1.0-rc.6 (2026-08-15) |
 | dsh-manager | 1 | [222wcnm/dsh-manager](https://github.com/222wcnm/dsh-manager/tree/HEAD/plugin/dsh-lifecycle) | DSH lifecycle plugin: a loopback-fenced graceful-shutdown endpoint (POST /_lifecycle/shutdown) and a health endpoint (GET /_lifecycle/health), injected via the dsh webServer and appExit services. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-mcp | 1 | [ArvinQi/dsh-mcp](https://github.com/ArvinQi/dsh-mcp) | MCP server 管理插件（独立版）：托管 MCP 服务器注册表（持久化定义、运行时挂载、环境变量注入、连接探测）+ Web 设置管理页。由 deepseek-harness 仓库内的 mcp-manager / ui-settings-mcp / web-mcp 迁移合并而来。MCP server registry with WebUI management for DeepSeek | 0.1.0-rc.6 (2026-08-15) |
 | dsh-mcp-center | 1 | [drfccv/dsh-mcp-center](https://github.com/drfccv/dsh-mcp-center) · [npm](https://www.npmjs.com/package/dsh-mcp-center) | Settings-driven MCP server manager: connect any MCP server to DeepSeek Harness. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-mcp-manager-1a125 | 1 | [1a125/dsh-mcp-manager](https://github.com/1a125/dsh-mcp-manager) | DSH 全局 MCP 管理器：设置页「MCP 管理」——粘贴 JSON 一键添加 / 开关 / 删除全局 MCP 服务（统一写入宿主 cordis.patch.yml，跨项目生效）。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-mcp-manager-henc49 | 1 | [HenC49/dsh-mcp-manager](https://github.com/HenC49/dsh-mcp-manager) | DSH plugin bundle: runtime MCP server management — add/remove/enable/reload MCP servers through agent tools, persisted to a JSON registry, no restart or cordis.yml edits required. Bridged tools use | 0.1.0-rc.6 (2026-08-15) |
@@ -130,4 +131,6 @@ In-UI stores, installers, skill managers.
 | dsh-skill-manager-yiweih | 0 | [Yi-Wei-H/dsh-skill-manager](https://github.com/Yi-Wei-H/dsh-skill-manager) | DSH web plugin: install, list, and remove skills from Settings, in global or project scope. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-skills-market | 0 | [peiqi10086/dsh-skills-market](https://github.com/peiqi10086/dsh-skills-market) | DSH skills manager + SkillHub marketplace: manage user-level/per-workspace skills and search/install skills from SkillHub in a Web UI panel | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tool-market-data | 0 | [dmsobtl/dsh-tool-market-data](https://github.com/dmsobtl/dsh-tool-market-data) | DSH plugin: multi-market financial data — A-shares, US stocks, crypto. Quotes, K-lines, fundamentals, and screening. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-ui-extensions | 0 | [haibara757/dsh-ui-extensions](https://github.com/haibara757/dsh-ui-extensions) | DeepSeek Harness extension center: sidebar nav plus a GitHub plugin catalog | 0.1.0-rc.6 (2026-08-15) |
+| dsh-web-plugin-manager-healing1 | 0 | [healing1/dsh-web-plugin-manager](https://github.com/healing1/dsh-web-plugin-manager) | Manage DeepSeek Harness (DSH) plugins from the Web UI: list, enable/disable, install/remove, environments, and a GitHub-awesome-driven marketplace. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-webui-market-plugin-plus | 0 | [condaThinker/dsh-webui-market-plugin-plus](https://github.com/condaThinker/dsh-webui-market-plugin-plus) | In-harness community plugin market for the dsh web GUI — fork of @sanqi-normal/dsh-webui-market-plugin. Browse awesome-dsh-plugin.com, install/uninstall with a global never-lost progress indicator | 0.1.0-rc.6 (2026-08-15) |

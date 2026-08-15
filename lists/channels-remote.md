@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-78 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+79 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -56,6 +56,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-chatnode-wechat | 1 | [Jesse-njx/dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-feishu-bridge-zhbdream | 1 | [zhbdream/dsh-feishu-bridge](https://github.com/zhbdream/dsh-feishu-bridge) | Feishu → local DeepSeek Harness Agent bridge (dsh-plugin) | 0.1.0-rc.6 (2026-08-15) |
 | dsh-feishu-plugin | 1 | [yangzhaofeng496/dsh-feishu-plugin](https://github.com/yangzhaofeng496/dsh-feishu-plugin) · [npm](https://www.npmjs.com/package/@local/dsh-feishu) | Feishu bot bridge plugin for DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
+| dsh-im-bot | 1 | [ivorytower1026/dsh-im-bot](https://github.com/ivorytower1026/dsh-im-bot/tree/HEAD/im-channel) | IM front-end channels (WeChat, Feishu) for DeepSeek Harness: scan-code login, message routing to agent sessions | 0.1.0-rc.6 (2026-08-15) |
 | dsh-im-bridge-shaobeic | 1 | [shaobeichen/dsh-im-bridge](https://github.com/shaobeichen/dsh-im-bridge) | 统一 IM 桥插件家族（monorepo）：核心 dsh-im + 渠道适配器（telegram / feishu）。让 DeepSeek Harness 通过 IM 可指挥、可通知、可审批。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-im-hub | 1 | [ThreeBody6666/dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) | A multi-platform IM gateway for DeepSeek Harness (dsh) — Feishu (Lark), WeCom (WeChat Work), and Telegram. Turn your dsh agent into a chat assistant reachable from the messaging apps you already use. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-lark-bot-tarraenc | 1 | [tarraencompassing61/dsh-lark-bot](https://github.com/tarraencompassing61/dsh-lark-bot) | Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling | 0.1.0-rc.6 (2026-08-15) |

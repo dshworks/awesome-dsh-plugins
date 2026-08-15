@@ -4,7 +4,7 @@
 
 Providers, routing, fallbacks, subscription adapters.
 
-138 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+140 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -103,6 +103,7 @@ Providers, routing, fallbacks, subscription adapters.
 | dsh-thinking-effort | 1 | [hytime/dsh-thinking-effort](https://github.com/hytime/dsh-thinking-effort) | DSH 第三方模型思考强度档位插件：默认档位自动补齐（宿主）+ 设置页自定义档位编辑器（客户端） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tokensforce-login | 1 | [spirits001/dsh-tokensforce-login](https://github.com/spirits001/dsh-tokensforce-login) | DeepSeek Harness plugin: tokensforce gateway login onboarding and provider profiles through dsh-llm-pi-ai | 0.1.0-rc.6 (2026-08-15) |
 | dsh-vision-LMstudio | 1 | [TiankunDai/dsh-vision-LMstudio](https://github.com/TiankunDai/dsh-vision-LMstudio/tree/HEAD/packages/dsh-lmstudio-vision) | 本地 LM Studio 视觉识别插件：连接 LM Studio OpenAI 兼容接口（默认 http://127.0.0.1:1234），用视觉模型（首选 google/gemma-4-31b-qat）识别本地图片与剪贴板图片。agent 工具 lmstudio_vision / lmstudio_clipboard / lmstudio_models + 设置页「LM Studio | 0.1.0-rc.6 (2026-08-15) |
+| dsh-vision-mcp | 1 | [moton16/dsh-vision-mcp](https://github.com/moton16/dsh-vision-mcp) | Give your text-only LLM eyes: zero-dependency MCP server that reads images via external OpenAI-compatible vision models with automatic provider fallback, plus a one-command patch for DSH image-attachm | 0.1.0-rc.6 (2026-08-15) |
 | dsh-vision-xzyonlin | 1 | [xzyonline/dsh-vision](https://github.com/xzyonline/dsh-vision) | Vision for text-only DeepSeek: a view_image tool that answers questions about images via any OpenAI-compatible VLM endpoint (defaults to the free Zhipu glm-4.6v-flash; DashScope, Ollama and others | 0.1.0-rc.6 (2026-08-15) |
 | dsh-web-search-responses | 1 | [herminger/dsh-web-search-responses](https://github.com/herminger/dsh-web-search-responses) | DSH ctx.web search provider that reuses the conversation model's OpenAI Responses web_search tool | 0.1.0-rc.6 (2026-08-15) |
 | dsh-zen-proxy | 1 | [Yee-h/dsh-zen-proxy](https://github.com/Yee-h/dsh-zen-proxy) | dsh plugin: in-process OpenAI-compatible proxy that injects official OpenCode Zen client headers, enabling Zen free models in dsh without the 429 FreeUsageLimitError | 0.1.0-rc.6 (2026-08-15) |
@@ -120,6 +121,7 @@ Providers, routing, fallbacks, subscription adapters.
 | dsh-codex-ddll8023 | 0 | [ddll8023/dsh-codex](https://github.com/ddll8023/dsh-codex) | Standalone OpenAI Codex (ChatGPT Plus/Pro OAuth) provider plugin for the DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-context-proxy | 0 | [EvilIrving/dsh-context-proxy](https://github.com/EvilIrving/dsh-context-proxy) | Thin on-demand context-retrieval layer for DeepSeek Harness: context_query / context_slice / context_grep tools over the sessionQuery and subprocess seams. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-credentials-system | 0 | [khiqwq/dsh-credentials-system](https://github.com/khiqwq/dsh-credentials-system) | DeepSeek Harness credential provider backed by Windows DPAPI, with authenticated passphrase exports. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-file-upload | 0 | [HongMing-Huang/dsh-file-upload](https://github.com/HongMing-Huang/dsh-file-upload) | DeepSeek Harness dual-face plugin: Claude-style drag-and-drop / paperclip file upload, content sniffing, document-to-Markdown conversion (built-in JS parsers with optional Microsoft MarkItDown CLI) | 0.1.0-rc.6 (2026-08-15) |
 | dsh-gateway-provider | 0 | [Luck9Star/dsh-gateway-provider](https://github.com/Luck9Star/dsh-gateway-provider) | Generic LLM gateway model provider plugin for DeepSeek Harness: mounts newapi / LiteLLM / Higress / any OpenAI-compatible gateway as provider routes, auto-discovers the model list, enriches every | 0.1.0-rc.6 (2026-08-15) |
 | dsh-github-release-radar | 0 | [zoahdev/dsh-github-release-radar](https://github.com/zoahdev/dsh-github-release-radar) | GitHub Release Radar for DeepSeek Harness: query releases, repo stats, repository search, and Git tags without an API key. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-llm-auto-route | 0 | [qinyu765/dsh-llm-auto-route](https://github.com/qinyu765/dsh-llm-auto-route) | Provider discovery, matching, health checks, and pre-output failover for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-15) |

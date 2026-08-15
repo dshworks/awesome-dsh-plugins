@@ -4,7 +4,7 @@
 
 TUIs, desktop shells, headless runners.
 
-116 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+119 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -100,10 +100,13 @@ TUIs, desktop shells, headless runners.
 | dsh-tui-xiaoshih | 1 | [xiaoshihou514/dsh-tui](https://github.com/xiaoshihou514/dsh-tui) | An interactive terminal surface for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-web-open-bnqzzdf | 1 | [bnqzzdf/dsh-web-open](https://github.com/bnqzzdf/dsh-web-open) | Auto-open the browser, whale tray icon, desktop shortcut and one-shot installer for `dsh web` (DeepSeek Harness plugin) | 0.1.0-rc.6 (2026-08-15) |
 | dsh-windows-tray | 1 | [GZMULDY/dsh-windows-tray](https://github.com/GZMULDY/dsh-windows-tray) · [npm](https://www.npmjs.com/package/@gzmuldyxx/dsh-windows-tray) | System-tray whale controller for DeepSeek Harness (Windows): Start / Stop / Restart the dsh web service and open the Web UI from a tray icon. | 0.1.0-rc.6 (2026-08-14) |
+| dsx | 1 | [kemi-20/dsx](https://github.com/kemi-20/dsx) | A desktop shell for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | ethan-workbench | 1 | [ethan0084/ethan-workbench](https://github.com/ethan0084/ethan-workbench/tree/HEAD/packages/bundle) | A desktop-style project and AI workbench for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-app | 0 | [fufankeji/deepseek-harness-app](https://github.com/fufankeji/deepseek-harness-app) | An installable desktop app for DeepSeek Harness with a bundled runtime, native shell, local Host management, and plugin extensibility. | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-harness-desktop-fufankej | 0 | [fufankeji/deepseek-harness-desktop](https://github.com/fufankeji/deepseek-harness-desktop) | An installable desktop app for DeepSeek Harness with a bundled runtime, native shell, local Host management, and plugin extensibility. | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-lucaslee | 0 | [LucasleeCN/deepseek-harness-desktop](https://github.com/LucasleeCN/deepseek-harness-desktop/tree/HEAD/harness) | Unpruned runtime payload for the Electron wrapper | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-desktop-miraclea | 0 | [miracle-ai-studio/deepseek-harness-desktop](https://github.com/miracle-ai-studio/deepseek-harness-desktop/tree/HEAD/packages/cordis-plugin) | Cordis adapter that attaches DeepSeek Harness Desktop to the existing Web Host | 0.1.0-rc.6 (2026-08-15) |
+| deepseek-harness-terminal-plugin | 0 | [chenshutian9610/deepseek-harness-terminal-plugin](https://github.com/chenshutian9610/deepseek-harness-terminal-plugin) | Interactive PTY terminal dock for dsh-web, toggled with Cmd/Ctrl+J | 0.1.0-rc.6 (2026-08-15) |
 | deepseek-harness-tui-yangeyu | 0 | [Yangeyu/deepseek-harness-tui](https://github.com/Yangeyu/deepseek-harness-tui) | Claude Code-inspired terminal client bundle for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | DeepSeeker | 0 | [wuxie888/DeepSeeker](https://github.com/wuxie888/DeepSeeker) | DeepSeek Harness, ready on your desktop. | 0.1.0-rc.6 (2026-08-15) |
 | dsh_for_mac | 0 | [rogerhorsley/dsh_for_mac](https://github.com/rogerhorsley/dsh_for_mac) | One-click macOS desktop client for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |

@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-44 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+45 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ Building, testing, and publishing plugins.
 | dsh-plugin-scaffold | 1 | [skyzhao1223/dsh-plugin-scaffold](https://github.com/skyzhao1223/dsh-plugin-scaffold) | Minimal runnable DeepSeek Harness plugin scaffold: one model-facing tool registered through ctx.tools. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-skill-tree | 1 | [nfz/dsh-plugin-skill-tree](https://github.com/nfz/dsh-plugin-skill-tree) · [npm](https://www.npmjs.com/package/dsh-plugin-skill-tree) | Shared public and profession-core capability trees for DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
 | dsh-preset-dev | 1 | [Neplich/dsh_plugin](https://github.com/Neplich/dsh_plugin/tree/HEAD/packages/dsh-preset-dev) · [npm](https://www.npmjs.com/package/@neplich/dsh-preset-dev) | Agent-preset installer for 开发模式 (dev): the standard coding agent plus the cordis runtime-inspection toolset. | 0.1.0-rc.6 (2026-08-14) |
+| deepseek-harness-plugin-skill | 0 | [chenshutian9610/deepseek-harness-plugin-skill](https://github.com/chenshutian9610/deepseek-harness-plugin-skill/tree/HEAD/references/deepseek-harness/packages/bundle/web-app) | DeepSeek Harness 插件开发 Skill | 0.1.0-rc.6 (2026-08-15) |
 | dsh-changelog | 0 | [GongYuanCaiJi/dsh-changelog](https://github.com/GongYuanCaiJi/dsh-changelog) | 自动生成发布说明（移植自 @noice-tech/pi-changelog） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-desktop-sjscy05 | 0 | [sjscy05/dsh-desktop](https://github.com/sjscy05/dsh-desktop/tree/HEAD/engine) | Single-file Windows launcher for DeepSeek Harness (pkg --sea build) | 0.1.0-rc.6 (2026-08-15) |
 | dsh-lens | 0 | [hajimixiaojie/dsh-lens](https://github.com/hajimixiaojie/dsh-lens) | TypeScript/JavaScript diagnostics lens for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |

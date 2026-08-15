@@ -4,7 +4,7 @@
 
 Bridges to and from Claude Code, Codex, and other harnesses.
 
-93 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
+95 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dshworks.github.io/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -37,6 +37,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-mattpocock-skills | 3 | [xiaoxiaosrm/dsh-mattpocock-skills](https://github.com/xiaoxiaosrm/dsh-mattpocock-skills) · [npm](https://www.npmjs.com/package/@mattpocock-community/dsh-engineering-skills) | DeepSeek Harness (DSH) bundle porting Matt Pocock's 'Engineering for Real Engineers' + 'Productivity' Claude-Code skills (SKILL.md set) into a native DSH skill plugin. Same skill bodies, DSH skill dis | 0.1.0-rc.6 (2026-08-14) |
 | dsh-output-styles | 3 | [PerryLink/dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) · [npm](https://www.npmjs.com/package/dsh-output-styles) | Claude Code outputStyles-equivalent runtime output-style switching for DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
 | dsh-plugin-opencode-bridge | 3 | [YYTbit/dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) | Bridge OpenCode's skills and configuration into DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
+| dsh-plugin-pet | 3 | [c-ling/dsh-plugin-pet](https://github.com/c-ling/dsh-plugin-pet) | A virtual pet companion for the DeepSeek Harness web GUI: mood animations driven by live agent state, built-in sprites, custom image upload, and Codex-style multi-frame spritesheet import. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-plugin-subscriptions | 3 | [V1ki/dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) | Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers, with OAuth login from the web Settings page | 0.1.0-rc.6 (2026-08-14) |
 | dsh-better-deepseek | 2 | [EdgeTypE/dsh-better-deepseek](https://github.com/EdgeTypE/dsh-better-deepseek) · [npm](https://www.npmjs.com/package/dsh-better-deepseek) | DeepSeek Harness bridge plugin for Better-DeepSeek Chrome extension integration | 0.1.0-rc.6 (2026-08-14) |
 | dsh-codex-agent-bridge | 2 | [je00/dsh-codex-agent-bridge](https://github.com/je00/dsh-codex-agent-bridge) | Connect DeepSeek Harness agents to authenticated Codex App Server sessions | 0.1.0-rc.6 (2026-08-14) |
@@ -88,6 +89,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-compat-shims | 0 | [xiaohj233/dsh-compat-shims](https://github.com/xiaohj233/dsh-compat-shims/tree/HEAD/packages/keyboard-guard) | Touch-device compatibility shim that prevents programmatic focus from opening the mobile keyboard while preserving user-initiated focus and desktop behavior. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-config-sync | 0 | [muyifc/dsh-config-sync](https://github.com/muyifc/dsh-config-sync) | DeepSeek Harness config sync: export/import DSH settings, API credentials, profile plugin patches and user agent presets as portable local bundles or a single password-encrypted file (AES-256-GCM + | 0.1.0-rc.6 (2026-08-15) |
 | dsh-desk-renakoni | 0 | [Renakoni/dsh-desk](https://github.com/Renakoni/dsh-desk/tree/HEAD/dsh-plugin) | DeepSeek Harness event bridge for DSH Desk. | 0.1.0-rc.6 (2026-08-15) |
+| dsh-herdr-bridge | 0 | [damozhang/dsh-herdr-bridge](https://github.com/damozhang/dsh-herdr-bridge) | Bridge a dsh web session to Herdr: discover, start, prompt, and observe other agents (pi, claude, codex) from inside the dsh web UI. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-knowledge | 0 | [ICCuse/dsh-knowledge](https://github.com/ICCuse/dsh-knowledge) | Bridge the agent into the user's global Markdown knowledge base (D:\knowledge, shared with the Codex kb.cmd CLI): kb_add/kb_search/kb_show/kb_timeline tools with byte-compatible frontmatter | 0.1.0-rc.6 (2026-08-15) |
 | dsh-mcp-json | 0 | [caopu16/dsh-mcp-json](https://github.com/caopu16/dsh-mcp-json) | Load MCP servers for the DeepSeek Harness from the mcp.json of Claude Code, Kiro, OpenCode, and Codex, with user and project layers and live reload | 0.1.0-rc.6 (2026-08-15) |
 | dsh-migrate | 0 | [kkkkkkkkki/dsh-migrate](https://github.com/kkkkkkkkki/dsh-migrate) | Import chat history and memory from other AI agents (Claude Code, Codex CLI, Gemini CLI, Aider, Cursor, Cline, OpenCode, …) into DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
