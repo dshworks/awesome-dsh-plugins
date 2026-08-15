@@ -16,7 +16,9 @@ name: watch
 
 on:
   schedule:
-    - cron: "17 2 * * *"
+    # Four times a day. The dsh-plugin topic took ~400 new repositories a day
+    # through mid-August; a daily sweep leaves the queue a day stale by design.
+    - cron: "17 2,8,14,20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -29,6 +31,9 @@ env:
 jobs:
   discover:
     runs-on: ubuntu-latest
+    # An exhaustive sweep is ~110 search calls against a 30/min limit, so it
+    # runs in low tens of minutes. Anything past 45 is stuck, not slow.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,7 +46,13 @@ jobs:
       - name: Discover candidates
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/discover.mjs
+        run: |
+          set -o pipefail
+          node scripts/discover.mjs 2>&1 | tee /tmp/discover.log
+          # Coverage goes into the PR body: a sweep that read part of a topic
+          # and a topic that went quiet produce the same candidate count, and
+          # only one of them is fine.
+          grep -E '^discover: (topic:|[0-9]+ .*over the)' /tmp/discover.log > /tmp/coverage.txt || true
 
       - name: Validate
         run: node scripts/validate.mjs
@@ -58,14 +69,23 @@ jobs:
 
           COUNT=$(node -p "JSON.parse(require('fs').readFileSync('data/candidates.json','utf8')).candidates.length")
           TITLE="discovery: ${COUNT} candidate(s) awaiting triage ($(date -u +%F))"
-          BODY=$(cat <<'EOF'
-          Automated sweep of the `dsh-plugin` topic, npm, and GitHub code search.
+          BODY=$(cat <<EOF
+          Automated sweep of every dsh discovery topic, npm, and GitHub code search.
 
-          Triage: for each entry in `data/candidates.json`, either promote it
-          (separate PR moving it into `data/plugins.json` after the spam gate
-          in CONTRIBUTING.md passes) or delete it from the queue. This branch
-          is rebuilt from main and force-pushed on every run, so merge or
-          close whenever; the next run reopens or refreshes it.
+          Coverage this run — each topic swept exhaustively, past GitHub's
+          1000-result search cap, by slicing on creation date and star count:
+
+          \`\`\`
+          $(cat /tmp/coverage.txt)
+          \`\`\`
+
+          Triage: for each entry in \`data/candidates.json\`, either promote it
+          (separate PR moving it into \`data/plugins.json\` after the spam gate
+          in CONTRIBUTING.md passes) or record it in \`data/rejected.json\` with
+          a reason — and a \`recheckAfter\` date if the rejection is a fact about
+          today rather than a judgment about the project. This branch is rebuilt
+          from main and force-pushed on every run, so merge or close whenever;
+          the next run reopens or refreshes it.
           EOF
           )
 
@@ -84,3 +104,44 @@ jobs:
             gh pr create --repo "$GITHUB_REPOSITORY" --head "$DISCOVERY_BRANCH" \
               --base main --title "$TITLE" --body "$BODY"
           fi
+
+  # Machine fields only. CONTRIBUTING declares stars/starsUpdated/pushedAt
+  # owned by scripts/stars.mjs, so this commits straight to main rather than
+  # opening a PR nobody would read. It never touches status, verifiedAgainst,
+  # tags, or featured.
+  stars:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Refresh stars and push dates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/stars.mjs
+
+      - name: Re-render and validate
+        run: |
+          node scripts/render.mjs
+          node scripts/validate.mjs
+
+      - name: Commit if anything moved
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "stars unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "stars: refresh counts and push dates"
+          # main can move under us while the sweep runs; rebase rather than fail
+          git pull --rebase origin main
+          git push origin main

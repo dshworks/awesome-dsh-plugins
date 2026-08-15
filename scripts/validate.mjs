@@ -160,8 +160,13 @@ function checkCandidates(candidates, registry, rejected, errors) {
   }
   const registrySources = new Set(
     registry.plugins.filter((p) => !p.path).map((p) => p.repo.toLowerCase()));
+  // An expired rejection is allowed back in the queue on purpose; only a live
+  // one makes a candidate row a mistake.
+  const today = new Date().toISOString().slice(0, 10);
   const rejectedSlugs = new Set(
-    (rejected.rejected ?? []).map((r) => (r.repo ?? "").toLowerCase()));
+    (rejected.rejected ?? [])
+      .filter((r) => !r.recheckAfter || r.recheckAfter > today)
+      .map((r) => (r.repo ?? "").toLowerCase()));
   const seen = new Set();
   candidates.candidates.forEach((c, i) => {
     const at = `candidates[${i}]`;
@@ -176,7 +181,7 @@ function checkCandidates(candidates, registry, rejected, errors) {
       errors.push(`${at}: "${c.repo}" is already in plugins.json; drop it from the queue`);
     }
     if (rejectedSlugs.has(slug)) {
-      errors.push(`${at}: "${c.repo}" was already rejected (data/rejected.json); drop it from the queue`);
+      errors.push(`${at}: "${c.repo}" was already rejected and the rejection has not expired (data/rejected.json); drop it from the queue`);
     }
   });
 }
@@ -206,6 +211,16 @@ function checkRejected(rejected, registry, errors) {
     }
     if (!isRealDate(r.date ?? "")) {
       errors.push(`${at}: bad date "${r.date}"`);
+    }
+    // A rejection that can expire has to say when. Snapshot rejections ("no
+    // install path today") get a recheckAfter; judgment rejections ("this is a
+    // curated list") are permanent and omit it.
+    if (r.recheckAfter !== undefined) {
+      if (!isRealDate(r.recheckAfter)) {
+        errors.push(`${at}: bad recheckAfter "${r.recheckAfter}"`);
+      } else if (r.recheckAfter < r.date) {
+        errors.push(`${at}: recheckAfter ${r.recheckAfter} predates date ${r.date}`);
+      }
     }
     if (registrySources.has(slug)) {
       errors.push(`${at}: "${r.repo}" is both rejected and in plugins.json; pick one`);
