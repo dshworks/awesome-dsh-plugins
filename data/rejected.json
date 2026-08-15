@@ -31,6 +31,11 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "1cyberlangke1/tokkit",
+      "reason": "general tokenizer library that ships DeepSeek vocabularies; not a dsh extension",
+      "date": "2026-08-15"
+    },
+    {
       "repo": "1lyygit/dsh-launcher",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -2676,6 +2681,11 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "narevai/ai-billing",
+      "reason": "multi-provider billing library with a DeepSeek adapter; no dsh install path",
+      "date": "2026-08-15"
+    },
+    {
       "repo": "neciszhang/dsh-desktop",
       "reason": "vendors or pins the dsh runtime rather than extending it",
       "date": "2026-08-15",
@@ -3006,6 +3016,11 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "PicGo/PicGo-Core",
+      "reason": "general image-upload engine; npm-search noise",
+      "date": "2026-08-15"
     },
     {
       "repo": "pingfanfan/dsh-verify",
@@ -3561,6 +3576,11 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "taptap/instant-games-open-mcp",
+      "reason": "TapTap MCP server; MCP is harness-agnostic, no dsh install path",
+      "date": "2026-08-15"
     },
     {
       "repo": "TaxolYang0000/dsh-hermes-collab-pipeline",
