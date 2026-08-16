@@ -48901,6 +48901,21 @@
       "stars": 0,
       "starsUpdated": "2026-08-16",
       "pushedAt": "2026-08-15"
+    },
+    {
+      "name": "dsh-otel",
+      "repo": "krimvp/dsh-otel",
+      "npm": "dsh-otel",
+      "description": "OpenTelemetry traces and metrics for DeepSeek Harness: turn, step, model-call, and tool-call spans under the GenAI semantic conventions, exported over OTLP to any backend.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-16",
+      "lastVerified": "2026-08-16",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "tags": [
+        "observability"
+      ]
     }
   ]
 }

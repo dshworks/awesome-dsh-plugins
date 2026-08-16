@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-66 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+67 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -69,6 +69,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-feedback | 0 | [TT432/dsh-feedback](https://github.com/TT432/dsh-feedback) | Feedback log for DeepSeek Harness — lightweight add/list/delete of process feedback, persisted to {cwd}/work/feedback.json, plus a runtime skill describing the mechanism. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-growth | 0 | [winyh/dsh-growth](https://github.com/winyh/dsh-growth) | DeepSeek Harness tools for evidence-backed user growth, customer acquisition, AARRR funnels, retention, unit economics and MRR. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-jwt | 0 | [ZhijiangTang/dsh-jwt](https://github.com/ZhijiangTang/dsh-jwt) | DSH plugin: decode and inspect JWT tokens (debug only, no signature verification). | 0.1.0-rc.6 (2026-08-15) |
+| dsh-otel | - | [krimvp/dsh-otel](https://github.com/krimvp/dsh-otel) · [npm](https://www.npmjs.com/package/dsh-otel) | OpenTelemetry traces and metrics for DeepSeek Harness: turn, step, model-call, and tool-call spans under the GenAI semantic conventions, exported over OTLP to any backend. | 0.1.0-rc.6 (2026-08-16) |
 | dsh-plugin-warroom-garak | 0 | [lukethecat/dsh-plugin-warroom-garak](https://github.com/lukethecat/dsh-plugin-warroom-garak) | War-room garak baseline scan tool for DeepSeek Harness — runs an authorized garak probe sweep against a target LLM endpoint and returns auditable findings + an evidence report. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-scout-maxhouin | 0 | [MaxHou-infinity/dsh-scout](https://github.com/MaxHou-infinity/dsh-scout) | Evidence-driven company and job intelligence plugin for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-tool-backtest | 0 | [dmsobtl/dsh-tool-backtest](https://github.com/dmsobtl/dsh-tool-backtest) | DSH plugin: strategy backtesting engine — define strategies in natural language, run against historical data, get performance metrics. | 0.1.0-rc.6 (2026-08-15) |

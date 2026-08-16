@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2757 entries across 17 functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2758 entries across 17 functional areas, every one stating the dsh version it was last verified against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -75,7 +75,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-2650 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-16.
+2651 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-16.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -485,7 +485,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-recovery-proof | 3 | [dongsheng123132/dsh-recovery-proof](https://github.com/dongsheng123132/dsh-recovery-proof) | Read-only recovery drill evidence for DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
 | dsh-release-proof | 3 | [dongsheng123132/dsh-release-proof](https://github.com/dongsheng123132/dsh-release-proof) | Reproducible multi-source release evidence for DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 66. **[all 66 →](lists/observability-evidence.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 67. **[all 67 →](lists/observability-evidence.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Safety & approvals
 
