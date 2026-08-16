@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-286 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+287 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -51,6 +51,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-client-ui-mobile-adapt | 8 | [Hotsteel2901/dsh-client-ui-mobile-adapt](https://github.com/Hotsteel2901/dsh-client-ui-mobile-adapt) | Mobile adaptation for the DeepSeek Harness Web GUI: single-column layout, sidebar drawer, compact header/composer, fullscreen settings, trajectory floating details, stats pill panel | 0.1.0-rc.6 (2026-08-14) |
 | dsh-fail-logger | 8 | [Areium/dsh-fail-logger](https://github.com/Areium/dsh-fail-logger) · [npm](https://www.npmjs.com/package/dsh-fail-logger) | DSH 插件：全模式工具失败自动实录——把原生工具、PTC(Code Mode) run_code、代码内嵌工具调用的失败按错因去重计数，自动写入 skill 的机器维护区段，越用越少错。Auto-record tool failures from every execution mode into a skill's machine-maintained section (dedup + cou | 0.1.0-rc.6 (2026-08-14) |
 | dsh-maid-whale-webUI | 8 | [yunxiiQwQ/dsh-maid-whale-webUI](https://github.com/yunxiiQwQ/dsh-maid-whale-webUI/tree/HEAD/maid-whale-webui) | Cloud-paper DeepSeek skin for the DSH web GUI with the deepseek-drool character as a quiet page-edge mascot | 0.1.0-rc.6 (2026-08-15) |
+| dsh-plugin-smooth-stream | 8 | [SpookySandwich/dsh-plugin-smooth-stream](https://github.com/SpookySandwich/dsh-plugin-smooth-stream) · [npm](https://www.npmjs.com/package/dsh-plugin-smooth-stream) | Reveals assistant replies in fading paragraph batches instead of token-by-token; smooth scroll-follow while streaming, live summary line on thinking blocks, respects prefers-reduced-motion. | 0.1.0-rc.6 (2026-08-16) |
 | dsh-plugin-ya-workspace-sidebar | 8 | [HuanLinOTO/dsh-plugin-ya-workspace-sidebar](https://github.com/HuanLinOTO/dsh-plugin-ya-workspace-sidebar) | Two-level DSH workspace sidebar with global recent sessions and breadcrumb navigation. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-sidechain | 8 | [omdsh-dev/dsh-sidechain](https://github.com/omdsh-dev/dsh-sidechain) | /side persistent side conversations and /btw one-shot side questions in an ephemeral fork that does not write main history. | 0.1.0-rc.6 (2026-08-14) |
 | deepseek-harness-zh-cn | 7 | [imlishiyuan/deepseek-harness-zh-cn](https://github.com/imlishiyuan/deepseek-harness-zh-cn) · [npm](https://www.npmjs.com/package/deepseek-harness-zh-cn) | Chinese-first plugin that makes DeepSeek Harness reason and answer in Simplified Chinese by default. | 0.1.0-rc.6 (2026-08-14) |

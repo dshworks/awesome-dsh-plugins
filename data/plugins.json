@@ -21913,21 +21913,22 @@
       "pushedAt": "2026-08-13"
     },
     {
-      "name": "dsh-smooth-stream",
-      "repo": "SpookySandwich/dsh-smooth-stream",
-      "description": "DeepSeek Harness plugin: reveal assistant replies in calm fading chunks instead of token-by-token twitch.",
+      "name": "dsh-plugin-smooth-stream",
+      "repo": "SpookySandwich/dsh-plugin-smooth-stream",
+      "description": "Reveals assistant replies in fading paragraph batches instead of token-by-token; smooth scroll-follow while streaming, live summary line on thinking blocks, respects prefers-reduced-motion.",
       "category": "plugin",
       "official": false,
       "added": "2026-08-15",
-      "lastVerified": "2026-08-15",
+      "lastVerified": "2026-08-16",
       "verifiedAgainst": "0.1.0-rc.6",
       "status": "verified",
       "stars": 8,
       "starsUpdated": "2026-08-16",
       "tags": [
-        "capabilities"
+        "ui"
       ],
-      "pushedAt": "2026-08-16"
+      "pushedAt": "2026-08-16",
+      "npm": "dsh-plugin-smooth-stream"
     },
     {
       "name": "deepseek-harness-desktop-starsqvq",

@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-514 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+513 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -59,7 +59,6 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-hdc-bridge | 8 | [1na-ko/dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) | DSH-native HarmonyOS dev-assistant plugin: hdc device bridge with a live device panel, official-first versioned API docs (SDK .d.ts + offline bundled Tier-1 knowledge), and an optional DevEco CLI. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-oauth-mcp-client | 8 | [springbrand-lab/dsh-oauth-mcp-client](https://github.com/springbrand-lab/dsh-oauth-mcp-client) | OAuth-enabled Streamable HTTP MCP client plugin for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-playwright-browser | 8 | [Clizo1209/dsh-playwright-browser](https://github.com/Clizo1209/dsh-playwright-browser) | Semantic, multi-tab Playwright browser automation for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-14) |
-| dsh-smooth-stream | 8 | [SpookySandwich/dsh-smooth-stream](https://github.com/SpookySandwich/dsh-smooth-stream) | DeepSeek Harness plugin: reveal assistant replies in calm fading chunks instead of token-by-token twitch. | 0.1.0-rc.6 (2026-08-15) |
 | skills-creghtde | 8 | [creght-dev/skills](https://github.com/creght-dev/skills) | DeepSeek Harness bundle that registers the Creght skill pack on ctx.skills. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-bash-encoding-lhh010 | 7 | [lhh010/dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) | DSH bash 输出编码自动识别插件：替换 ctx.bash，自管 spawn 收集原始字节，自动检测 UTF-16LE/UTF-8/GBK 等编码并正确解码，修复 WSL/Windows 下 bash 工具的中文乱码。 | 0.1.0-rc.6 (2026-08-15) |
 | dsh-git-identity | 7 | [LoserFox/dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) | DSH profile bundle：git 提交固定使用环境自身作者身份（优先 gh CLI 登录账号，GitHub noreply 邮箱），GIT_AUTHOR_*/GIT_COMMITTER_* 环境变量注入压过一切 git config | 0.1.0-rc.6 (2026-08-15) |

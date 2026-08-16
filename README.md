@@ -111,7 +111,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-mobile | 14 | [lehhair/dsh-mobile](https://github.com/lehhair/dsh-mobile) | Narrow-screen pager: the stock three-column frame becomes a swipeable sidebar\|chat pager with safe-area insets. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-gui-customization | 13 | [LAN-TINA-WS/dsh-gui-customization](https://github.com/LAN-TINA-WS/dsh-gui-customization/tree/HEAD/packages/dsh-gui-customization) | DSH theme plugin for the DeepSeek Harness Web UI: Nous Blue palette, ambient glow, dynamic image/video backgrounds. DSH 界面设定插件：配色 / 氛围光 / 动态背景（中英双语） | 0.1.0-rc.6 (2026-08-15) |
 
-<sub>Showing the 25 most-starred of 286. **[all 286 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 287. **[all 287 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Terminals & desktop
 
@@ -179,7 +179,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | billion-context-dsh | 17 | [Tyan66666/billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) | Active Context Pruning (ACP) for the DeepSeek Harness — model-driven context management as a CompactionEngine backend. | 0.1.0-rc.6 (2026-08-15) |
 | quantum-practices | 17 | [unitarylab/quantum-practices](https://github.com/unitarylab/quantum-practices) | Quantum Algorithms Best Practices tool bundle for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 
-<sub>Showing the 25 most-starred of 514. **[all 514 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 513. **[all 513 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Vision
 
