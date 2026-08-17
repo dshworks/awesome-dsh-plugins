@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-83 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+84 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -91,3 +91,4 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | git-clis-dsh | 1 | [TommyFang2077/git-clis-dsh](https://github.com/TommyFang2077/git-clis-dsh) · [npm](https://www.npmjs.com/package/@tommyfang/git-clis-dsh) | GitHub gh and Gitea tea CLI helpers for DeepSeek Harness: detect, token setup, and issue operations. | 0.1.0-rc.6 (2026-08-14) |
 | keyringseam | 1 | [fieldnote-ops/keyringseam](https://github.com/fieldnote-ops/keyringseam) · [npm](https://www.npmjs.com/package/keyringseam) | macOS Keychain credential provider for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-14) |
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) · [npm](https://www.npmjs.com/package/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.6 (2026-08-14) |
+| dsh-wm | - | [WayneJin0918/dsh-wm](https://github.com/WayneJin0918/dsh-wm) | World-model research toolkit: inspect frames, name 3D / pixel / latent routes, score pred vs GT, and RSI skills / wm.yaml. | 0.1.0-rc.6 (2026-08-17) |

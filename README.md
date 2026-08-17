@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2758 entries across 17 functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2759 entries across 17 functional areas, every one stating the dsh version it was last verified against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -689,7 +689,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-mermaid | 4 | [AKS1st/dsh-mermaid](https://github.com/AKS1st/dsh-mermaid) · [npm](https://www.npmjs.com/package/@dsh-external/dsh-mermaid) | Renders Mermaid code fences as SVG diagrams in DeepSeek Harness web conversations. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-model-usage | 4 | [AKS1st/model-usage-plugin](https://github.com/AKS1st/model-usage-plugin) · [npm](https://www.npmjs.com/package/musage-stats) | Model token usage stats, cost estimates, and account balance for DeepSeek Harness. | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 83. **[all 83 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 84. **[all 84 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Skills
 
