@@ -48938,6 +48938,21 @@ window.__PLUGINS__ = {
       "stars": 1,
       "starsUpdated": "2026-08-17",
       "pushedAt": "2026-08-17"
+    },
+    {
+      "name": "dsh-airlock",
+      "repo": "krimvp/dsh-airlock",
+      "npm": "dsh-airlock",
+      "description": "Labels context by where it came from and denies capabilities over those labels, so a denied call cannot be reformulated into an allowed one.",
+      "category": "plugin",
+      "added": "2026-08-16",
+      "lastVerified": "2026-08-16",
+      "verifiedAgainst": "0.1.0-rc.6",
+      "status": "verified",
+      "tags": [
+        "safety",
+        "observability"
+      ]
     }
   ]
 };

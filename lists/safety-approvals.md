@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-93 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+94 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -76,6 +76,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-self-evolving | 1 | [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving/tree/HEAD/packages/candidate-baseline) | Stable baseline parent candidate. Namespace-form DSH bundle; loaded through the real Cordis Loader in Gate 0. Not a profile, not a generated candidate. | 0.1.0-rc.6 (2026-08-15) |
 | dsh-todo-freshness-guard | 1 | [lamost423/dsh-todo-freshness-guard](https://github.com/lamost423/dsh-todo-freshness-guard) | Remind and block stale tool work until todo_write is reconciled in DeepSeek Harness | 0.1.0-rc.6 (2026-08-14) |
 | dsh-tool-approval | 1 | [ilharp/dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) | Manual approval for Deepseek Harness (aka "Manual Mode"/"Ask Mode") | 0.1.0-rc.6 (2026-08-15) |
+| dsh-airlock | - | [krimvp/dsh-airlock](https://github.com/krimvp/dsh-airlock) · [npm](https://www.npmjs.com/package/dsh-airlock) | Labels context by where it came from and denies capabilities over those labels, so a denied call cannot be reformulated into an allowed one. | 0.1.0-rc.6 (2026-08-16) |
 | dsh-approval-flow-poc | 0 | [lasoloryan/dsh-approval-flow-poc](https://github.com/lasoloryan/dsh-approval-flow-poc) | A fail-closed, auditable approval policy plugin for DeepSeek Harness | 0.1.0-rc.6 (2026-08-15) |
 | dsh-approval-gate | 0 | [moon09300731/dsh-approval-gate](https://github.com/moon09300731/dsh-approval-gate) | DeepSeek Harness 自动审批门控：Flash 模型预判写入/命令是否不可回补，安全自动批准、危险转人工（fail-safe） | 0.1.0-rc.6 (2026-08-15) |
 | dsh-arbitrary-host | 0 | [FairyScript/dsh-arbitrary-host](https://github.com/FairyScript/dsh-arbitrary-host/tree/HEAD/plugin) | Non-invasive dsh web bundle layer: accepts an arbitrary --host, gates the app behind secure contexts, auto-trusts a concrete LAN-IP bind, and makes the connection privileged-method gate configurable. | 0.1.0-rc.6 (2026-08-15) |

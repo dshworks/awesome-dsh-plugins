@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2759 entries across 17 functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 2760 entries across 17 functional areas, every one stating the dsh version it was last verified against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -75,7 +75,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-2651 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-16.
+2652 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-16.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -519,7 +519,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-tool-git-lxj808624 | 4 | [lxj808624/dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) | Structured, safe Git tool family for DeepSeek Harness: status/diff/log/branch/stage/commit/stash/show/fetch/pull/remote/checkout with a destructive-command guard. | 0.1.0-rc.6 (2026-08-14) |
 | dsh-agentfuse | 3 | [MkaliezZ/dsh-agentfuse-plugin](https://github.com/MkaliezZ/dsh-agentfuse-plugin) · [npm](https://www.npmjs.com/package/@deepseek-ai/dsh-agentfuse) | AgentFuse fail-closed pre-dispatch tool gate for DeepSeek Harness with durable allow/block decision evidence. | 0.1.0-rc.6 (2026-08-14) |
 
-<sub>Showing the 25 most-starred of 93. **[all 93 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 94. **[all 94 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Plugin managers & stores
 
