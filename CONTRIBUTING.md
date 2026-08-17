@@ -45,18 +45,38 @@ A scheduled workflow ([`.github/workflows/watch.yml`](.github/workflows/watch.ym
 sweeps every dsh discovery topic (`dsh-plugin`, `dsh-plugins`, `dsh-theme`,
 `dsh-skill`, `dsh-bundle`), npm, and GitHub code search, and queues new finds
 in [`data/candidates.json`](data/candidates.json) on a single reused triage PR.
-Nothing is promoted automatically. To triage: apply the spam gate, then either
-move the entry into `plugins.json` (fill in every schema field yourself;
-candidate metadata is a lead, not a record) or record it in
-[`data/rejected.json`](data/rejected.json) with a one-line reason and remove
-it from the queue.
+Nothing is promoted automatically.
+
+The reading is automated; the admitting is not. On every sweep,
+[`scripts/triage.mjs`](scripts/triage.mjs) opens each queued repo's own files —
+`package.json`, `SKILL.md`, and if the root says nothing, the whole tree — and
+reports what it found in the PR body. A maintainer applies it on a branch:
+
+```sh
+npm run triage:dry    # decide everything, write nothing
+npm run triage        # apply: admit with evidence, reject with a reason
+npm run render && npm run validate
+```
+
+Admissions carry `evidence`, the `path#key` the install path was proven in, so
+`status: verified` cites a file instead of asserting one. Rejections carry a
+reason and a recheck date. What stays in the queue is what a machine should not
+have decided: themes that belong in the sibling registry, `SKILL.md` files with
+no frontmatter, and anything with no description upstream to copy — this
+registry copies an author's own words and never writes new ones for them.
+
+Hand-triage is still welcome and always wins: move the entry into
+`plugins.json` yourself (candidate metadata is a lead, not a record) or record
+it in [`data/rejected.json`](data/rejected.json) with a one-line reason.
 
 Topic sweeps are exhaustive. GitHub caps search at 1000 results per query and
 `dsh-plugin` passed that on 2026-08-14, so the sweep slices a topic by creation
-date — and a single over-cap day by star count — until every slice fits, then
-drains every page. Each topic reports `examined N/total`: a run that reads part
-of a topic has to say so, because a saturating sweep and a quieting ecosystem
-produce the same falling batch sizes.
+date, an over-cap day by star count, and an over-cap zero-star day by repo size
+— that last axis because the zero-star bucket has no finer star slice below it
+and is exactly where a spam wave lands: on 2026-08-17 it held 957 of the 1000
+the API will return. Each topic reports `examined N/total`, and a slice that
+saturates every axis says how many repos it could not read, because a
+saturating sweep and a quieting ecosystem produce the same falling batch sizes.
 
 ### Rejections expire
 
@@ -86,3 +106,14 @@ fields refreshed by `scripts/stars.mjs`, not worth editing by hand.
 dsh is a developer preview with promised breaking changes, so entries rot.
 Re-verification PRs that only bump `lastVerified` / `verifiedAgainst`, or flip
 `status` to `broken` with a one-line reason, are always welcome.
+
+`npm run prove` re-reads every listed entry and rewrites its `evidence`,
+`lastVerified`, and `verifiedAgainst`. An entry it cannot prove drops to
+`status: unverified` and loses its evidence — it is never deleted, because an
+unreachable repo and a dead one look identical from here. Repos that 404 are
+named in the run's output rather than acted on; confirm across two runs before
+removing a row, since a repo can 404 for hours and come back.
+
+`scripts/validate.mjs` fails any non-official entry claiming `status: verified`
+without `evidence`, which is what keeps the status from drifting back into
+decoration.

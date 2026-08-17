@@ -121,7 +121,13 @@
         },
         "status": {
           "enum": ["verified", "unverified", "broken"],
-          "description": "verified: install path confirmed against verifiedAgainst (manifest or skill-layout inspection at minimum). unverified: listed, not yet checked. broken: known not to work against verifiedAgainst."
+          "description": "verified: install path confirmed against verifiedAgainst (manifest or skill-layout inspection at minimum), and `evidence` says where. unverified: listed, not yet checked. broken: known not to work against verifiedAgainst."
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 200,
+          "description": "Where the install path was proven, as path#key — package.json#dsh.bundle, packages/x/package.json#dependencies.@deepseek-ai/dsh-base, SKILL.md#frontmatter. Recorded by scripts/triage.mjs against the repo's default branch on lastVerified, so a reader can open the file and check. Required by status: verified; a status without one is a claim, not a check."
         }
       }
     }

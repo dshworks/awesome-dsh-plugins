@@ -54,6 +54,18 @@ jobs:
           # only one of them is fine.
           grep -E '^discover: (topic:|[0-9]+ .*over the)' /tmp/discover.log > /tmp/coverage.txt || true
 
+      # Read every queued repo and say what it is, without writing anything.
+      # A queue of bare slugs is work nobody does; a queue that already says
+      # "61 of these prove an install path, here is the file for each" is a
+      # review. Applying it stays a maintainer's command on purpose — the
+      # machine reads, the human admits.
+      - name: Triage the queue (report only)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -o pipefail
+          node scripts/triage.mjs --dry-run 2>&1 | tail -3 | tee /tmp/triage.txt || true
+
       - name: Validate
         run: node scripts/validate.mjs
 
@@ -79,13 +91,26 @@ jobs:
           $(cat /tmp/coverage.txt)
           \`\`\`
 
-          Triage: for each entry in \`data/candidates.json\`, either promote it
-          (separate PR moving it into \`data/plugins.json\` after the spam gate
-          in CONTRIBUTING.md passes) or record it in \`data/rejected.json\` with
-          a reason — and a \`recheckAfter\` date if the rejection is a fact about
-          today rather than a judgment about the project. This branch is rebuilt
-          from main and force-pushed on every run, so merge or close whenever;
-          the next run reopens or refreshes it.
+          What reading them found — \`scripts/triage.mjs --dry-run\`, which
+          fetches each repo's own files and looks for an install path:
+
+          \`\`\`
+          $(cat /tmp/triage.txt)
+          \`\`\`
+
+          To apply that verdict, on a branch off main:
+
+          \`\`\`sh
+          npm run triage && npm run render && npm run validate
+          \`\`\`
+
+          It writes the provable ones into \`data/plugins.json\` with the file
+          each install path was proven in, the unprovable ones into
+          \`data/rejected.json\` with a reason and a \`recheckAfter\` date, and
+          leaves in the queue only what a machine should not decide: theme
+          routing and the close calls. This branch is rebuilt from main and
+          force-pushed on every run, so merge or close whenever; the next run
+          reopens or refreshes it.
           EOF
           )
 

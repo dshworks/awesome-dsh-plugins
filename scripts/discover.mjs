@@ -152,10 +152,39 @@ async function sweepRange(base, lo, hi, out) {
     return;
   }
 
-  for (const stars of ["0", "1", "2", "3", "4..5", "6..10", "11..30", ">30"]) {
-    await drain(`${q} stars:${stars}`, out);
+  await sweepStars(q, out);
+}
+
+// Progressively finer axes for one over-cap day. Stars split a busy day, but
+// the zero-star bucket has no finer star axis below it and is exactly where a
+// spam wave lands: on 2026-08-17 it held 957 of the 1000 the API will return.
+// Repo size splits it further, and if even that saturates the run says which
+// slice it could not finish rather than reporting a short list as complete.
+const STAR_SLICES = ["0", "1", "2", "3", "4..5", "6..10", "11..30", ">30"];
+const SIZE_SLICES = ["0..10", "11..50", "51..200", "201..1000", "1001..10000", ">10000"];
+
+async function sweepStars(q, out) {
+  for (const stars of STAR_SLICES) {
+    const sq = `${q} stars:${stars}`;
+    if ((await drain(sq, out)) > SEARCH_CAP) await sweepSize(sq, out);
   }
 }
+
+async function sweepSize(q, out) {
+  for (const size of SIZE_SLICES) {
+    const sq = `${q} size:${size}`;
+    const total = await drain(sq, out);
+    if (total > SEARCH_CAP) {
+      console.error(`discover: ${sq} holds ${total}, over the ${SEARCH_CAP} the API will return, and no finer axis is left; ~${total - SEARCH_CAP} repo(s) in this slice went unread`);
+    }
+  }
+}
+
+// How big the ecosystem is, per topic, as of this run. The README used to
+// hand-type these numbers into its own thesis paragraph, which meant the one
+// claim the repo makes about why it exists was the one claim that rotted.
+const topicTotals = {};
+let topicRepos = new Set();
 
 async function fromTopics() {
   const out = [];
@@ -163,6 +192,7 @@ async function fromTopics() {
     const base = `topic:${topic}`;
     const probe = await searchRepos(base, 1);
     const total = probe.total_count;
+    topicTotals[topic] = total;
     const before = new Set(out.map((r) => r.repo)).size;
     if (total <= SEARCH_CAP) {
       await drain(base, out);
@@ -176,6 +206,7 @@ async function fromTopics() {
     const seen = new Set(out.map((r) => r.repo)).size - before;
     console.error(`discover: ${base} -> examined ${seen} new / ${total} in topic`);
   }
+  topicRepos = new Set(out.map((r) => r.repo.toLowerCase()));
   return out;
 }
 
@@ -240,6 +271,9 @@ const rejected = new Set(
   rejectedFile.rejected
     .filter((r) => !r.recheckAfter || r.recheckAfter > TODAY)
     .map((r) => r.repo.toLowerCase()));
+// Coverage counts every rejection, live or expired: an expired one was still
+// read, it just earned another look.
+const rejectedAll = new Set(rejectedFile.rejected.map((r) => r.repo.toLowerCase()));
 const expired = rejectedFile.rejected.filter((r) => r.recheckAfter && r.recheckAfter <= TODAY).length;
 if (expired) console.error(`discover: ${expired} rejection(s) expired and are eligible again`);
 const queue = new Map(file.candidates.map((c) => [c.repo.toLowerCase(), c]));
@@ -296,6 +330,29 @@ const next = { updated: file.updated, candidates };
 // A cap that truncates quietly reads as "that was everything".
 if (overflow) {
   console.error(`discover: ${overflow} find(s) over the ${MAX_NEW_PER_RUN}/run cap were NOT queued; raise DISCOVER_MAX_NEW or run again after triage`);
+}
+
+// Ecosystem size, written whenever a sweep actually measured it. Separate from
+// candidates.json because it is a measurement, not a queue: it changes on a run
+// that queues nothing, and render.mjs reads it so the README's own numbers
+// cannot drift from what the last sweep saw.
+if (topicRepos.size) {
+  // Coverage is the intersection, not two separate tallies: how many of the
+  // repos carrying a topic *today* this org has actually read. The registry
+  // also holds repos that have since dropped the topic or were renamed, so
+  // counting listed+rejected against the topic total would exceed 100%.
+  const decidedHere = [...topicRepos].filter((r) => known.has(r) || rejectedAll.has(r)).length;
+  const queuedHere = [...topicRepos].filter((r) => queue.has(r)).length;
+  const coverage = {
+    measured: TODAY,
+    topics: {},
+    unique: topicRepos.size,
+    decided: decidedHere,
+    queued: queuedHere,
+  };
+  for (const t of TOPICS) if (topicTotals[t] !== undefined) coverage.topics[t] = topicTotals[t];
+  writeFileSync(join(ROOT, "data/coverage.json"), `${JSON.stringify(coverage, null, 2)}\n`);
+  console.error(`discover: coverage — ${decidedHere}/${topicRepos.size} topic repos decided, ${queuedHere} queued`);
 }
 
 if (JSON.stringify(next.candidates) === JSON.stringify(file.candidates)) {

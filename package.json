@@ -13,7 +13,10 @@
     "validate": "node scripts/validate.mjs",
     "render": "node scripts/render.mjs",
     "render:check": "node scripts/render.mjs --check",
-    "discover": "node scripts/discover.mjs"
+    "discover": "node scripts/discover.mjs",
+    "triage": "node scripts/triage.mjs",
+    "triage:dry": "node scripts/triage.mjs --dry-run",
+    "prove": "node scripts/triage.mjs --prove"
   },
   "engines": {
     "node": ">=20"

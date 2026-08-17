@@ -156,6 +156,12 @@ function checkRegistry(registry, errors) {
     if (p.added && p.lastVerified && p.lastVerified < p.added) {
       errors.push(`${at}: lastVerified ${p.lastVerified} predates added ${p.added}`);
     }
+    // The registry's whole claim is that its rows were checked. For two days
+    // 2,751 of 2,760 rows said `verified` and nothing anywhere had looked at
+    // one; the field was decoration. It now has to cite a file.
+    if (p.status === "verified" && !p.evidence && !p.official) {
+      errors.push(`${at}: status "verified" with no evidence; run \`npm run triage -- --prove\` or set status "unverified"`);
+    }
   });
 }
 
