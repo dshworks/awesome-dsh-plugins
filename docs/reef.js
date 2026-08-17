@@ -90,9 +90,14 @@ function card(p) {
     ? `<p class="install"><code>${esc(cmd)}</code><button type="button" class="copy" data-copy="${esc(cmd)}">Copy</button></p>`
     : "";
   const stars = starsLabel(p);
-  const verified = p.status === "verified"
+  // "verified" is worth nothing on its own. Where the install path was found
+  // is a file anyone can open, so the status links to it.
+  const label = p.status === "verified"
     ? `${esc(p.verifiedAgainst)} · ${esc(p.lastVerified)}`
     : esc(p.status);
+  const verified = p.evidence
+    ? `<a class="proof" href="https://github.com/${esc(p.repo)}/blob/HEAD/${esc(p.evidence.split("#")[0])}" rel="noopener" title="install path proven in ${esc(p.evidence)}">${label}</a>`
+    : label;
   const activity = activityLabel(p);
   return `<article class="card${p.featured ? " is-pick" : ""}">
     <div class="head">
@@ -127,13 +132,50 @@ function renderStats(shown) {
     : `${shown.length} of ${all.length} corals`;
 }
 
+// The reef outgrew one-shot rendering. Building every card up front means
+// tens of thousands of DOM nodes on first paint for a view that shows twelve,
+// and it is the phone that pays. Cards come in tides instead: filtering and
+// sorting still run over the whole registry (a few milliseconds of string
+// matching), only the drawing is deferred, so nothing about search changes.
+const TIDE = 60;
+let shown = 0;
+let rows = [];
+
+function growReef() {
+  const root = document.getElementById("reef");
+  const next = rows.slice(shown, shown + TIDE);
+  if (!next.length) return;
+  document.getElementById("tide")?.remove();
+  root.insertAdjacentHTML("beforeend", next.map(card).join(""));
+  shown += next.length;
+  if (shown < rows.length) {
+    root.insertAdjacentHTML(
+      "beforeend",
+      `<p class="tide" id="tide">${rows.length - shown} more below the surface…</p>`);
+    tideWatcher?.observe(document.getElementById("tide"));
+  }
+}
+
+// Falls back to a plain button-free "keep scrolling" only if the browser has
+// no IntersectionObserver; every card is still reachable through search.
+const tideWatcher = typeof IntersectionObserver === "function"
+  ? new IntersectionObserver((entries) => {
+    if (entries.some((e) => e.isIntersecting)) growReef();
+  }, { rootMargin: "800px 0px" })
+  : null;
+
 function render() {
-  const rows = applyView();
+  rows = applyView();
+  shown = 0;
   renderStats(rows);
   const root = document.getElementById("reef");
-  root.innerHTML = rows.length
-    ? rows.map(card).join("")
-    : `<p class="empty">Nothing on this patch of reef. The sea is young.</p>`;
+  if (!rows.length) {
+    root.innerHTML = `<p class="empty">Nothing on this patch of reef. The sea is young.</p>`;
+    return;
+  }
+  root.innerHTML = "";
+  growReef();
+  if (!tideWatcher) while (shown < rows.length) growReef();
 }
 
 function polyps() {
@@ -192,7 +234,24 @@ function boot() {
   state.plugins = data.plugins || [];
   polyps();
 
-  document.getElementById("hero-count").textContent = String(state.plugins.length);
+  const n = (x) => x.toLocaleString("en-US");
+  document.getElementById("hero-count").textContent = n(state.plugins.length);
+
+  // Anyone can publish how many repos carry a tag. This says how many were
+  // opened and read — and what reading them threw out.
+  const cov = window.__COVERAGE__;
+  const sounding = document.getElementById("sounding");
+  if (cov && sounding) {
+    const authors = new Set(state.plugins.map((p) => p.repo.split("/")[0])).size;
+    const pct = Math.round((cov.decided / cov.topic) * 100);
+    sounding.innerHTML = [
+      `From <b>${n(authors)}</b> authors.`,
+      `Of the <b>${n(cov.topic)}</b> repositories carrying a dsh topic on ${esc(cov.measured)},`,
+      `<b>${n(cov.decided)}</b> — ${pct}% — have been opened, read, and decided;`,
+      `<b>${n(cov.noInstallPath)}</b> carried the topic and nothing else.`,
+      `Every rejection is <a href="https://github.com/dshworks/awesome-dsh-plugins/blob/main/data/rejected.json" rel="noopener">published with its reason</a>.`,
+    ].join(" ");
+  }
 
   // Tag chips, ordered by size so the busiest areas come first.
   const counts = {};

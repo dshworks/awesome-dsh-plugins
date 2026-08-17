@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 5172 entries across 17 functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 5,172 entries from 3,506 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -21,15 +21,27 @@ Each entry carries two orthogonal dimensions: `category` is the form factor (bun
 
 ## Why a filtered registry
 
-DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. Two days later it holds 2,999, template spam and topic-riders included, and 1,666 of them were created in a single day. A raw topic feed is not a registry; the filter is the value this repo adds.
+DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of 2026-08-17 it holds 5,875, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
 
-How much filtering that is, measured: the 2026-08-15 sweep examined 2,382 topic repositories not already in the registry and found no dsh install path at all in 964 of them — no `dsh` manifest in `package.json`, no dsh dependency, no `SKILL.md`. Those repositories carry the topic and nothing else.
+How much filtering that is, measured on 2026-08-17: **5,918** repositories carry a dsh discovery topic and **5,748** of them — 97% — have been opened, read, and decided. 1,202 were rejected, **1,088** of those for having no install path at any depth: no `dsh` manifest in `package.json`, no dsh dependency, no `SKILL.md`. They carry the topic and nothing else. Every rejection is published with its reason and a recheck date in [`data/rejected.json`](data/rejected.json).
+
+That is the number worth comparing. A topic count says how many people typed a tag. **5,748 of 5,918** says how many repositories somebody actually opened.
 
 If you prefer a curated prose list, [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) does that well, with daily compatibility tracking. This repo is the machine-readable complement, not a replacement.
 
 ## Why "verified against" is a schema field
 
 dsh is a developer preview and the team promises compatibility-breaking changes. Example: the `.dsh-plugin` manifest format was deleted on 2026-08-09 with no migration path, silently stranding every tutorial written against it. A compatibility claim without a version and a date rots, so the schema records both (`verifiedAgainst`, `lastVerified`) and stale entries get re-checked or flagged.
+
+A version and a date still only say *when* somebody looked. `evidence` says *where*, as `path#key`:
+
+```
+"evidence": "package.json#dsh.bundle"
+"evidence": "packages/theme/package.json#dependencies.@deepseek-ai/dsh-base"
+"evidence": "skills/reviewer/SKILL.md#frontmatter"
+```
+
+Open the file and check. `scripts/validate.mjs` refuses a `verified` row that cannot cite one, so the status cannot quietly become decoration — which it had, on 2,751 rows, before this field existed.
 
 ## Contents
 

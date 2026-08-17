@@ -17,6 +17,16 @@ const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
 
 const { registry: cfg } = read("package.json");
 const data = read("data/plugins.json");
+// How big the ecosystem was at the last sweep, measured by scripts/discover.mjs.
+// Every number in the prose below comes from here or from the data; the README
+// used to hand-type them, so the one claim this repo makes about why it exists
+// was the one claim that went stale.
+const coverage = read("data/coverage.json");
+const rejectedRows = read("data/rejected.json").rejected ?? [];
+const num = (n) => n.toLocaleString("en-US");
+const authors = new Set(data.plugins.map((p) => p.repo.split("/")[0])).size;
+const noInstallPath = rejectedRows.filter((r) => /no dsh install path/.test(r.reason ?? "")).length;
+const pct = Math.round((coverage.decided / coverage.unique) * 100);
 
 const HARNESS = "deepseek-ai/deepseek-harness";
 const BADGE = "https://img.shields.io/badge/powered__by-dsh-4D6BFE?logo=deepseek";
@@ -192,7 +202,7 @@ const readme = `<!-- Rendered by scripts/render.mjs from data/plugins.json. Do n
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](${GALLERY})
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/${HARNESS}) (\`dsh\`) plugins, bundles, and skills — ${data.plugins.length} entries across ${TAGS.length} functional areas, every one stating the dsh version it was last verified against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/${HARNESS}) (\`dsh\`) plugins, bundles, and skills — ${num(data.plugins.length)} entries from ${num(authors)} authors across ${TAGS.length} functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](${GALLERY})** — the same registry as a filterable, sortable gallery.
 
@@ -207,15 +217,27 @@ Each entry carries two orthogonal dimensions: \`category\` is the form factor (b
 
 ## Why a filtered registry
 
-DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [\`dsh-plugin\`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. Two days later it holds 2,999, template spam and topic-riders included, and 1,666 of them were created in a single day. A raw topic feed is not a registry; the filter is the value this repo adds.
+DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [\`dsh-plugin\`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of ${coverage.measured} it holds ${num(coverage.topics["dsh-plugin"])}, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
 
-How much filtering that is, measured: the 2026-08-15 sweep examined 2,382 topic repositories not already in the registry and found no dsh install path at all in 964 of them — no \`dsh\` manifest in \`package.json\`, no dsh dependency, no \`SKILL.md\`. Those repositories carry the topic and nothing else.
+How much filtering that is, measured on ${coverage.measured}: **${num(coverage.unique)}** repositories carry a dsh discovery topic and **${num(coverage.decided)}** of them — ${pct}% — have been opened, read, and decided. ${num(rejectedRows.length)} were rejected, **${num(noInstallPath)}** of those for having no install path at any depth: no \`dsh\` manifest in \`package.json\`, no dsh dependency, no \`SKILL.md\`. They carry the topic and nothing else. Every rejection is published with its reason and a recheck date in [\`data/rejected.json\`](data/rejected.json).
+
+That is the number worth comparing. A topic count says how many people typed a tag. **${num(coverage.decided)} of ${num(coverage.unique)}** says how many repositories somebody actually opened.
 
 If you prefer a curated prose list, [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) does that well, with daily compatibility tracking. This repo is the machine-readable complement, not a replacement.
 
 ## Why "verified against" is a schema field
 
 dsh is a developer preview and the team promises compatibility-breaking changes. Example: the \`.dsh-plugin\` manifest format was deleted on 2026-08-09 with no migration path, silently stranding every tutorial written against it. A compatibility claim without a version and a date rots, so the schema records both (\`verifiedAgainst\`, \`lastVerified\`) and stale entries get re-checked or flagged.
+
+A version and a date still only say *when* somebody looked. \`evidence\` says *where*, as \`path#key\`:
+
+\`\`\`
+"evidence": "package.json#dsh.bundle"
+"evidence": "packages/theme/package.json#dependencies.@deepseek-ai/dsh-base"
+"evidence": "skills/reviewer/SKILL.md#frontmatter"
+\`\`\`
+
+Open the file and check. \`scripts/validate.mjs\` refuses a \`verified\` row that cannot cite one, so the status cannot quietly become decoration — which it had, on 2,751 rows, before this field existed.
 
 ## Contents
 
@@ -301,10 +323,11 @@ const indexBody = indexSrc.replace(MARKERS, `<!-- render:meta -->\n${headMeta}\n
 // A counts-only file so a page can quote this registry's size without
 // pulling the whole 1.6MB of it. dsh.works reads it on load; anything
 // else that wants the numbers gets them for ~150 bytes.
-const rejected = read("data/rejected.json").rejected ?? [];
+const rejected = rejectedRows;
 const stats = {
   updated: data.updated,
   plugins: data.plugins.length,
+  authors,
   npm: data.plugins.filter((p) => p.npm).length,
   categories: Object.fromEntries(
     [...new Set(data.plugins.map((p) => p.category))]
@@ -314,6 +337,16 @@ const stats = {
   tags: TAGS.length,
   rejected: rejected.length,
   rejectedRecheck: rejected.filter((r) => r.recheckAfter).length,
+  // The comparable number: how much of the topic was read, not how much of it
+  // is listed. `examined` is listed + rejected; `topic` is what the last sweep
+  // counted across every dsh discovery topic.
+  coverage: {
+    measured: coverage.measured,
+    topic: coverage.unique,
+    decided: coverage.decided,
+    rejected: rejected.length,
+    noInstallPath,
+  },
   verifiedAgainst: data.plugins
     .map((p) => p.verifiedAgainst)
     .filter(Boolean)
@@ -326,7 +359,13 @@ const artifacts = [
   ...lists,
   { rel: INDEX_REL, body: indexBody },
   { rel: "docs/plugins.json", body: `${JSON.stringify(data, null, 2)}\n` },
-  { rel: "docs/plugins-embed.js", body: `window.__PLUGINS__ = ${JSON.stringify(data, null, 2)};\n` },
+  // The embed is a build artifact the browser parses before it can paint, not
+  // a file anyone reads: pretty-printing it spent a megabyte of a visitor's
+  // bandwidth on indentation. docs/plugins.json stays formatted for humans.
+  {
+    rel: "docs/plugins-embed.js",
+    body: `window.__PLUGINS__ = ${JSON.stringify(data)};\nwindow.__COVERAGE__ = ${JSON.stringify(stats.coverage)};\n`,
+  },
   { rel: "docs/stats.json", body: `${JSON.stringify(stats, null, 2)}\n` },
 ];
 
