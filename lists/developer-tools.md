@@ -96,7 +96,7 @@ Building, testing, and publishing plugins.
 | dsh-test-coverage | 0 | [uckkk/dsh-test-coverage](https://github.com/uckkk/dsh-test-coverage) | 测试覆盖率分析：解析 LCOV / Cobertura / Istanbul-JSON / Go cover.out 覆盖率报告，产出结构化覆盖率数据与未覆盖行区间，指导补写测试 | 0.1.0-rc.6 (2026-08-17) |
 | dsh-test-drive | 0 | [PerryLink/dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) | Isolated install-and-smoke test drives for DeepSeek Harness plugins: installs a repo or npm package into a throwaway DSH_HOME profile, verifies the bundle patch layer and boot logs, records a | 0.1.0-rc.6 (2026-08-17) |
 | dsh-test-env-entry | 0 | [EIGHTfs/dsh-test-env-entry](https://github.com/EIGHTfs/dsh-test-env-entry) | 测试环境入口：侧边栏一键查看主/测试实例与反代状态、打开测试环境、启动/停止测试实例 | 0.1.0-rc.6 (2026-08-18) |
-| dsh-test-runner-mkaliezz | 0 | [MkaliezZ/dsh-test-runner](https://github.com/MkaliezZ/dsh-test-runner) | DSH plugin: dsh-test-runner | 0.1.0-rc.6 (2026-08-17) |
+| dsh-test-normalizer | 0 | [MkaliezZ/dsh-test-normalizer](https://github.com/MkaliezZ/dsh-test-normalizer) | DSH plugin: dsh-test-runner | 0.1.0-rc.6 (2026-08-17) |
 | dsh-tool-tdd | 0 | [Xiaooooo434680/dsh-tool-tdd](https://github.com/Xiaooooo434680/dsh-tool-tdd) | TDD test runner tool for DeepSeek Harness: run test commands, parse structured failures (Jest/Vitest/Pytest/Go/Rust/TAP/tsc), and drive a red-green loop | 0.1.0-rc.6 (2026-08-17) |
 | dsh-video-creator | 0 | [uckkk/dsh-video-creator](https://github.com/uckkk/dsh-video-creator) | 视频号创作助手：内置主流短视频创作模板，调用中国境内大模型一键生成内容包，适配抖音/视频号/B站/快手/小红书/微博/西瓜视频快速发布 | 0.1.0-rc.6 (2026-08-17) |
 | gamify-edu | 0 | [BinLe1988/gamify-edu](https://github.com/BinLe1988/gamify-edu) | A modern, gamified educational platform built with React, TypeScript, and Vite | 0.1.0-rc.6 (2026-08-18) |
