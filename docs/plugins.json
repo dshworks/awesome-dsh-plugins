@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "plugins": [
     {
       "name": "dsh-base",
@@ -115759,6 +115759,23 @@
         "interop"
       ],
       "pushedAt": "2026-08-19"
+    },
+    {
+      "name": "repo-cover",
+      "repo": "sjh9714/repo-cover",
+      "description": "Agent designs a GitHub social-preview card as one self-contained 1280x640 HTML file; flat repo-cover.md skill, editorial mood inline, CJK-aware line breaking.",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-19",
+      "lastVerified": "2026-08-19",
+      "verifiedAgainst": "none",
+      "status": "unverified",
+      "evidence": "repo-cover.md (flat root-level skill file)",
+      "stars": 0,
+      "starsUpdated": "2026-08-19",
+      "tags": [
+        "capabilities"
+      ]
     }
   ]
 }

@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 6,190 entries from 4,222 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 6,191 entries from 4,222 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -85,7 +85,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-6080 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-18.
+6080 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-19.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -729,6 +729,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | dsh-skills-alicep19 | 0 | [Alice-P197/dsh-skills](https://github.com/Alice-P197/dsh-skills/tree/HEAD/write-dsh-skill) | [Skill] DSH 技能（非插件，复制进 skills/ 自动加载）：add-llm-provider 接入第三方 LLM + write-dsh-skill 编写技能 | 0.1.0-rc.6 (2026-08-18) |
 | fasthtml-desktop | 0 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | 0.1.0-rc.6 (2026-08-17) |
 | multi-skilled-repository | 0 | [High-cla/multi-skilled-repository](https://github.com/High-cla/multi-skilled-repository/tree/HEAD/skills/customize-dsh) | AI Agent Skills 合集 — CMD+PowerShell 避坑指南 · CLI 优先决策矩阵 · 更多技能持续添加 | 0.1.0-rc.6 (2026-08-17) |
+| repo-cover | 0 | [sjh9714/repo-cover](https://github.com/sjh9714/repo-cover) | Agent designs a GitHub social-preview card as one self-contained 1280x640 HTML file; flat repo-cover.md skill, editorial mood inline, CJK-aware line breaking. | unverified |
 
 ### Themes
 
