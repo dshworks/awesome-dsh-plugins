@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-2516 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+2515 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -968,7 +968,6 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-adversarial-review | 0 | [mario03690/dsh-adversarial-review](https://github.com/mario03690/dsh-adversarial-review) | Adversarial review for code, MCP configs and system prompts — every finding carries a repro path and confidence; unreproducible ones are marked suspected, never confirmed. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-age-edu | 0 | [uckkk/dsh-age-edu](https://github.com/uckkk/dsh-age-edu) | ageedu：分龄教育：按参数返回亲子教育方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-agent-shell | 0 | [PastSheep/dsh-agent-shell](https://github.com/PastSheep/dsh-agent-shell) | Agent shell tools (bash via Git Bash, cmd) with a live shell-record feed: every execution is recorded and served to the right-drawer Shell drawer over a loopback RPC channel. 对话右侧 Shell | 0.1.0-rc.8 (2026-08-20) |
-| dsh-agentvalet | 0 | [AgentValet/dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) | Governed platform access for DeepSeek Harness — no credential on the machine | 0.1.0-rc.8 (2026-08-21) |
 | dsh-aggression | 0 | [uckkk/dsh-aggression](https://github.com/uckkk/dsh-aggression) | aggression：攻击行为：按参数返回行为纠正建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-agnes-omni | 0 | [wumu1111111/dsh-agnes-omni](https://github.com/wumu1111111/dsh-agnes-omni) | Agnes 全模态插件 for DeepSeek Harness：看图（agnes_vision）、生图/图生图（agnes_image）、视觉桥（带图消息可发送并自动交给 Agnes 视觉分析）。密钥经 DSH 凭据服务读取，不写入代码。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ai-collab | 0 | [tengfeizhao1219/dsh-ai-collab](https://github.com/tengfeizhao1219/dsh-ai-collab) | AI 多角色协作开发框架：文件即通信 + 教训库 + 决策日志 + 一致性审计 + 复盘持续优化（REVIEW）。注册 ai_collab_init 工具。 | 0.1.0-rc.8 (2026-08-20) |

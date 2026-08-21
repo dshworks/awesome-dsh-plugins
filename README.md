@@ -205,7 +205,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-toy | 58 | [c3ll256/dsh-toy](https://github.com/c3ll256/dsh-toy) | Connects toys/devices to DSH: asks brand/model then picks Intiface (Bluetooth, serial, USB; auto-starts Engine) or MonsterParty for known share-link models; unknown starts generic Bluetooth search. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-univer-office | 57 | [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) · [npm](https://www.npmjs.com/package/dsh-univer-office) | DSH × Univer integration with a bundled collaboration Gateway and Viewer: inline previews, live floating Worktree windows, and session-end review actions in DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 2516. **[all 2516 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 2515. **[all 2515 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Vision
 
@@ -545,7 +545,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-self-control-guard | 5 | [pandashere/dsh-self-control-guard](https://github.com/pandashere/dsh-self-control-guard) | Self-control guard for DeepSeek Harness: intercept host-kill attempts from bash, teach the controlled exit/restart tools, run token-confirmed graceful exit/restart, and write the restart recovery | 0.1.0-rc.8 (2026-08-20) |
 | dsh-auto | 4 | [simon300000/dsh-auto](https://github.com/simon300000/dsh-auto) | Model-reviewed Auto Approve permission preset for the DeepSeek Harness Web UI. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 313. **[all 313 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 314. **[all 314 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Plugin managers & stores
 
