@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-313 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+314 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -165,6 +165,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-agency-agents-zh | 0 | [GongYuanCaiJi/dsh-agency-agents-zh](https://github.com/GongYuanCaiJi/dsh-agency-agents-zh) | 267 个即插即用的 AI 专家角色定义——从前端开发到区块链安全，从小红书运营到抖音策略（移植自 agency-agents-zh） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-agent-gate | 0 | [xingyingyuzhui/dsh-agent-gate](https://github.com/xingyingyuzhui/dsh-agent-gate) | Claw/session permission gate for DeepSeek Harness. 按分层权限拦截工具、钉官方沙箱、走一次性审批，并写审计。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-agent-sentinel | 0 | [okaditya84/dsh-agent-sentinel](https://github.com/okaditya84/dsh-agent-sentinel) | Security guard plugin for DeepSeek Harness: secret redaction, a shell command denylist, indirect prompt-injection scanning, and syntax verification on file writes. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-agentvalet | 0 | [AgentValet/dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) · [npm](https://www.npmjs.com/package/@agentvalet/dsh) | Brokered platform access: four tools mint a short-lived assertion per call, so SaaS credentials stay off the machine and every call is owner-approvable and audited | 0.1.0-rc.8 (2026-08-21) |
 | dsh-airlock | 0 | [krimvp/dsh-airlock](https://github.com/krimvp/dsh-airlock) · [npm](https://www.npmjs.com/package/dsh-airlock) | Labels context by where it came from and denies capabilities over those labels, so a denied call cannot be reformulated into an allowed one. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ankle-sprain | 0 | [uckkk/dsh-ankle-sprain](https://github.com/uckkk/dsh-ankle-sprain) | anklesprain：崴脚处理：按参数返回防护建议（运动损伤请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-approval-flow-poc | 0 | [lasoloryan/dsh-approval-flow-poc](https://github.com/lasoloryan/dsh-approval-flow-poc) | A fail-closed, auditable approval policy plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |

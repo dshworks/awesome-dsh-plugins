@@ -155650,7 +155650,7 @@
     {
       "name": "dsh-agentvalet",
       "repo": "AgentValet/dsh-agentvalet",
-      "description": "Governed platform access for DeepSeek Harness — no credential on the machine",
+      "description": "Brokered platform access: four tools mint a short-lived assertion per call, so SaaS credentials stay off the machine and every call is owner-approvable and audited",
       "category": "plugin",
       "official": false,
       "added": "2026-08-21",
@@ -155661,8 +155661,9 @@
       "stars": 0,
       "starsUpdated": "2026-08-21",
       "tags": [
-        "capabilities"
-      ]
+        "safety"
+      ],
+      "npm": "@agentvalet/dsh"
     },
     {
       "name": "dsh-0-tools",
