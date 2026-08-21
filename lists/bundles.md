@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-83 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+84 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -91,3 +91,4 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | frameevidence | 1 | [fieldnote-ops/frameevidence](https://github.com/fieldnote-ops/frameevidence) | Bounded, read-only design evidence for DeepSeek Harness agents, compatible with the Figma REST API. | 0.1.0-rc.8 (2026-08-20) |
 | keyringseam | 1 | [fieldnote-ops/keyringseam](https://github.com/fieldnote-ops/keyringseam) | macOS Keychain credential provider for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-memory-safe | - | [seriousz158/dsh-memory](https://github.com/seriousz158/dsh-memory) | Local Git-backed long-term memory for DeepSeek Harness with cited context, usage-aware read tools, safe sync, preview, and rollback. | 0.1.0-rc.7 (2026-08-21) |
