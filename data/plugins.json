@@ -174096,6 +174096,22 @@
       "tags": [
         "capabilities"
       ]
+    },
+    {
+      "name": "dsh-memory-safe",
+      "repo": "seriousz158/dsh-memory",
+      "description": "Local Git-backed long-term memory for DeepSeek Harness with cited context, usage-aware read tools, safe sync, preview, and rollback.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-21",
+      "lastVerified": "2026-08-21",
+      "verifiedAgainst": "0.1.0-rc.7",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "memory",
+        "safety"
+      ]
     }
   ]
 }
