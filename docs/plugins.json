@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "plugins": [
     {
       "name": "dsh-base",
@@ -175204,6 +175204,23 @@
         "agents"
       ],
       "pushedAt": "2026-08-15"
+    },
+    {
+      "name": "dsh-session-insights",
+      "repo": "GreenLv/dsh-session-insights",
+      "description": "Local-first session retrospectives for DeepSeek Harness, with deterministic or model-assisted bilingual reports and privacy-preserving sessionQuery ingestion.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-22",
+      "lastVerified": "2026-08-22",
+      "verifiedAgainst": "0.1.1-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-session-insights",
+      "tags": [
+        "observability",
+        "memory"
+      ]
     },
     {
       "name": "plugin-contract-unification",

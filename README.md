@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 9,341 entries from 5,462 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 9,342 entries from 5,463 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -101,7 +101,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-9142 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-21.
+9142 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-08-22.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -715,7 +715,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-obsidian-assistant | 6 | [iamzcr/dsh-obsidian-assistant](https://github.com/iamzcr/dsh-obsidian-assistant) · [npm](https://www.npmjs.com/package/dsh-obsidian-assistant) | Read, search, and edit a local Obsidian vault from DeepSeek Harness, with optional Local REST API integration. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-acp | 6 | [agentic-control-plane/dsh-acp-plugin](https://github.com/agentic-control-plane/dsh-acp-plugin) · [npm](https://www.npmjs.com/package/dsh-plugin-acp) | Policy-check every DeepSeek Harness tool call and keep a durable record of what was allowed and why. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 83. **[all 83 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 84. **[all 84 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Skills
 
