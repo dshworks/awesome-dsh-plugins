@@ -4,7 +4,7 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-08-22",
+  "checked": "2026-08-23",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
   "count": 360,
   "packages": [
@@ -368,6 +368,12 @@
       "npm": "@feiyang666/deepseekharnessdesktop-vault",
       "why": "published by feiyang-dev/deepseekharnessdesktop-vault",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "yhyfhgs/dsh-providers-extension",
+      "npm": "@fhxgs/dsh-providers-extension",
+      "why": "no such package",
+      "since": "2026-08-22"
     },
     {
       "repo": "781316853/dsh-provider-quota",
@@ -1265,13 +1271,13 @@
       "repo": "lifensame/dsh-plugin",
       "npm": "dsh-memory",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-22"
+      "since": "2026-08-23"
     },
     {
       "repo": "BayInl/dsh-memory",
       "npm": "dsh-memory",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-22"
+      "since": "2026-08-23"
     },
     {
       "repo": "solknight48/dsh-memoryhub",
@@ -1283,12 +1289,6 @@
       "repo": "welsione/dsh-mmx-bridge",
       "npm": "dsh-mmx-multimodal",
       "why": "no such package",
-      "since": "2026-08-21"
-    },
-    {
-      "repo": "omdsh-dev/dsh-mnemon",
-      "npm": "dsh-mnemon",
-      "why": "published by grivn/dsh-mnemon",
       "since": "2026-08-21"
     },
     {
@@ -1328,16 +1328,16 @@
       "since": "2026-08-21"
     },
     {
-      "repo": "sjh9714/dsh-movein",
-      "npm": "dsh-movein",
-      "why": "published by sjh9714/claude-to-opencode",
-      "since": "2026-08-22"
-    },
-    {
       "repo": "syy-shark/dsh-music-plugin",
       "npm": "dsh-music-plugin",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "WSL043/dsh-native-session-delete",
+      "npm": "dsh-native-session-delete",
+      "why": "published by wsl043/dsh-native-session-manager",
+      "since": "2026-08-22"
     },
     {
       "repo": "666489/dsh-nature-papers",
@@ -1721,13 +1721,13 @@
       "repo": "sulfide2085/dsh-skill-manager",
       "npm": "dsh-skill-manager",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-22"
+      "since": "2026-08-23"
     },
     {
       "repo": "ZzzzzzzLL/dsh-skill-manager",
       "npm": "dsh-skill-manager",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-22"
+      "since": "2026-08-23"
     },
     {
       "repo": "YTxue/dsh-skill-manager-ytxue",
