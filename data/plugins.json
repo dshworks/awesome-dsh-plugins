@@ -175221,6 +175221,26 @@
         "capabilities"
       ],
       "pushedAt": "2026-08-16"
+    },
+    {
+      "name": "dsh-plugin-no-workspace",
+      "repo": "SpookySandwich/dsh-plugin-no-workspace",
+      "description": "Standalone workspace-free conversations with lossless detach and direct sidebar rendering in the native DSH Web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-23",
+      "lastVerified": "2026-08-23",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-plugin-no-workspace",
+      "stars": 0,
+      "starsUpdated": "2026-08-23",
+      "tags": [
+        "memory",
+        "ui"
+      ],
+      "pushedAt": "2026-08-23"
     }
   ]
 }

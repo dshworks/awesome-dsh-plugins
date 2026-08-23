@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-1150 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1151 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -911,6 +911,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-plugin-memory-nattocb | 0 | [NattoCB/dsh-plugin-memory](https://github.com/NattoCB/dsh-plugin-memory) | Persistent 5-layer memory system for DeepSeek Harness (entry injection, relevance retrieval, agent tools, and LLM-backed auto-extraction). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-memtrace | 0 | [syncable-dev/dsh-plugin-memtrace](https://github.com/syncable-dev/dsh-plugin-memtrace) | Local-first code intelligence graph for DeepSeek Harness: structural search, blast radius, temporal memory, and 27 agent skills over Memtrace MCP. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-modality-fallback | 0 | [lilei0311/dsh-plugin-modality-fallback](https://github.com/lilei0311/dsh-plugin-modality-fallback) | DeepSeek Harness (dsh) plugin: route one request to a modality-capable fallback model instead of forcing the whole session onto a single model. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-no-workspace | 0 | [SpookySandwich/dsh-plugin-no-workspace](https://github.com/SpookySandwich/dsh-plugin-no-workspace) · [npm](https://www.npmjs.com/package/dsh-plugin-no-workspace) | Standalone workspace-free conversations with lossless detach and direct sidebar rendering in the native DSH Web UI. | 0.1.1-rc.2 (2026-08-23) |
 | dsh-plugin-plurai | 0 | [plur-ai/dsh-plugin](https://github.com/plur-ai/dsh-plugin) | PLUR memory for DeepSeek Harness — engrams injected straight into the prompt, no tool call required | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-rag-mervynte | 0 | [mervyn-teo/dsh-plugin-rag](https://github.com/mervyn-teo/dsh-plugin-rag) | DeepSeek Harness (DSH) plugin: a self-contained semantic memory (RAG) over all your chat sessions. Indexes messages live via session/event, stores embeddings in one local JSON file, and exposes a | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-recall | 0 | [truelove-dreamer/dsh-plugin-recall](https://github.com/truelove-dreamer/dsh-plugin-recall) · [npm](https://www.npmjs.com/package/dsh-plugin-recall) | DeepSeek Harness plugin: cross-session memory for the model. Full-text search all past sessions (SQLite FTS5 via ctx.sessionQuery) and bring the strongest matching excerpts back into the current | 0.1.0-rc.8 (2026-08-20) |
