@@ -175221,6 +175221,22 @@
         "capabilities"
       ],
       "pushedAt": "2026-08-16"
+    },
+    {
+      "name": "dsh-plugin-message-edit-spookysandwich",
+      "repo": "SpookySandwich/dsh-plugin-message-edit",
+      "npm": "dsh-plugin-message-edit",
+      "description": "Edit a sent message to rewind and branch the conversation from that turn; a counter under the bubble switches versions and a Versions tab draws the branch family as a turn-level tree.",
+      "category": "plugin",
+      "tags": [
+        "memory",
+        "ui"
+      ],
+      "added": "2026-08-23",
+      "lastVerified": "2026-08-23",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
