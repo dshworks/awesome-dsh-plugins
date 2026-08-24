@@ -191,11 +191,14 @@ const parse = (text) => {
   try { return JSON.parse(text); } catch { return null; }
 };
 
-const depsOf = (pkg) => Object.keys({
-  ...(pkg?.dependencies ?? {}),
-  ...(pkg?.peerDependencies ?? {}),
-  ...(pkg?.devDependencies ?? {}),
-});
+// Returns [section, name] pairs, not bare names: `evidence` is a receipt a
+// reader is meant to follow to the exact key, and a plugin's dsh dependency
+// lands in peerDependencies or devDependencies about as often as in
+// dependencies. Writing `#dependencies.X` for all three produced a path that
+// does not resolve in the file it names -- a receipt for the wrong drawer.
+const DEP_SECTIONS = ["dependencies", "peerDependencies", "devDependencies"];
+const depsOf = (pkg) => DEP_SECTIONS.flatMap(
+  (section) => Object.keys(pkg?.[section] ?? {}).map((name) => [section, name]));
 
 // A package.json that is not this repo's own work proves nothing about this
 // repo. Distributions and desktop shells vendor the harness tree wholesale, and
@@ -237,8 +240,11 @@ function proveFromPackage(pkg, path, repo) {
   if (vendoredFrom(pkg, repo)) return null;
   if (pkg.dsh?.bundle) return { evidence: `${path}#dsh.bundle`, why: "dsh.bundle manifest" };
   if (pkg.dsh) return { evidence: `${path}#dsh.${Object.keys(pkg.dsh).join("+")}`, why: "dsh manifest" };
-  const ds = depsOf(pkg).filter((d) => d.startsWith("@deepseek-ai/"));
-  if (ds.length) return { evidence: `${path}#dependencies.${ds[0]}`, why: `depends on ${ds[0]}` };
+  const ds = depsOf(pkg).filter(([, d]) => d.startsWith("@deepseek-ai/"));
+  if (ds.length) {
+    const [section, name] = ds[0];
+    return { evidence: `${path}#${section}.${name}`, why: `depends on ${name}` };
+  }
   return null;
 }
 
@@ -283,7 +289,7 @@ async function proveRoot(repo) {
     pkgName: pkg?.name ?? null,
     pkgDesc: pkg?.description ?? null,
     private: pkg?.private === true,
-    cordis: depsOf(pkg).some((d) => d === "cordis" || d.startsWith("cordis-")),
+    cordis: depsOf(pkg).some(([, d]) => d === "cordis" || d.startsWith("cordis-")),
     hasSkill: !!skill,
     skillFrontmatter: skill ? SKILL_FRONTMATTER.test(skill) : false,
     hasReadme: !!readme,

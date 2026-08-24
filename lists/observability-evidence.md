@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-136 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+141 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -19,10 +19,12 @@ Diagnostics, logs, audits, content-addressed proofs.
 | DSH-changeproof | 5 | [Apageoflove/DSH-changeproof](https://github.com/Apageoflove/DSH-changeproof) | ChangeProof - change-relevance + evidence-freshness quality plugin for DeepSeek Harness (DSH) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-capability-receipt | 4 | [dongsheng123132/dsh-capability-receipt](https://github.com/dongsheng123132/dsh-capability-receipt) | Content-addressed receipts for skills actually loaded by DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lineage | 4 | [dongsheng123132/dsh-lineage](https://github.com/dongsheng123132/dsh-lineage) | Content-addressed data and action lineage evidence for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| dsh-monitor-iambbp | 4 | [iambbp/dsh-monitor](https://github.com/iambbp/dsh-monitor) | DEEPSEEK 监控插件（峰谷时段版）— DSH 原生插件：实时 API 用量监控与峰谷价格提示悬浮窗 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-observation-journal | 4 | [Cavan-Ou/dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) | Zero-intrusion session telemetry: one observation card per session with task, model, tools, and failure stats. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-session-audit | 4 | [bwndlct/dsh-session-audit](https://github.com/bwndlct/dsh-session-audit) | Session execution analytics and audit reports for DeepSeek Harness. Understand how your agent actually worked: steps, tool calls, failures, repeated actions, token usage and verification signals. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-trajectory-governance | 4 | [dfycaly98931680/dsh-trajectory-governance](https://github.com/dfycaly98931680/dsh-trajectory-governance) | Agent trajectory governance & anomaly diagnosis for DeepSeek Harness: rebuild structured multi-branch trajectory trees from the session/event feed, keep observation-layer snapshots, and run three t... | 0.1.0-rc.8 (2026-08-20) |
 | dsh-verification-receipt | 4 | [030611/dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) · [npm](https://www.npmjs.com/package/dsh-verification-receipt) | Privacy-minimal heuristic per-turn execution summaries for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| MathModelingAgent | 4 | [yohanchen1/MathModelingAgent](https://github.com/yohanchen1/MathModelingAgent) | Evidence-driven mathematical modeling and verification skills for DeepSeek Harness | 0.1.0-rc.8 (2026-08-24) |
 | qiushi-dsh-evidence-audit | 4 | [030611/qiushi-dsh-evidence-audit](https://github.com/030611/qiushi-dsh-evidence-audit) · [npm](https://www.npmjs.com/package/qiushi-dsh-evidence-audit) | Observe-only hash-chained evidence receipts for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-2origin | 3 | [dongsheng123132/dsh-2origin](https://github.com/dongsheng123132/dsh-2origin) | Evidence-first 2Origin state projection, diff and immutable freeze for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-action-parity | 3 | [dongsheng123132/dsh-action-parity](https://github.com/dongsheng123132/dsh-action-parity) | Evidence that CLI, MCP and GUI bindings reach the same DeepSeek Harness action core | 0.1.0-rc.8 (2026-08-20) |
@@ -68,11 +70,14 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-eval | 1 | [hccccc01333/dsh-eval](https://github.com/hccccc01333/dsh-eval/tree/HEAD/packages/eval) · [npm](https://www.npmjs.com/package/dsh-eval) | Agent evaluation platform: benchmark YAML, headless run orchestration, trace-based metrics, and run reports | 0.1.0-rc.8 (2026-08-20) |
 | dsh-fleet-audit | 1 | [LeslieWylie/dsh-fleet-audit](https://github.com/LeslieWylie/dsh-fleet-audit) | DSH agent-fleet hygiene audit: credential-file permissions, embedded credentials in git remotes (masked), provider token-prefix literals. Read-only, zero-dependency, deterministic. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-git-dashboard | 1 | [Sombrer0-1/dsh-git-dashboard](https://github.com/Sombrer0-1/dsh-git-dashboard) · [npm](https://www.npmjs.com/package/dsh-git-dashboard) | Read-only Git workspace dashboard for the dsh web profile (out-of-tree bundle) | 0.1.0-rc.8 (2026-08-20) |
+| dsh-gitland | 1 | [yingzaicc/dsh-gitland](https://github.com/yingzaicc/dsh-gitland) | Git panel for DeepSeek Harness: log timeline, branch and worktree management over registered workspaces | 0.1.0-rc.8 (2026-08-24) |
 | dsh-hos-scrcpy | 1 | [ns-zzj/dsh-hos-scrcpy](https://github.com/ns-zzj/dsh-hos-scrcpy/tree/HEAD/PluginMain-Static) | DSH 鸿蒙投屏控制插件（静态 npm 包版）：设备发现 / 实时投屏 / 触控操作 / 系统按键 / hilog 日志 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-instruction-audit | 1 | [1052326311/dsh-instruction-audit](https://github.com/1052326311/dsh-instruction-audit) | Privacy-minimal provenance receipts for DeepSeek Harness workspace instructions | 0.1.0-rc.8 (2026-08-20) |
+| dsh-llm-wiki-flyaibox | 1 | [FlyAIBox/dsh-llm-wiki](https://github.com/FlyAIBox/dsh-llm-wiki) | A Markdown-first, evidence-grounded LLM wiki plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-24) |
 | dsh-otel | 1 | [krimvp/dsh-otel](https://github.com/krimvp/dsh-otel) · [npm](https://www.npmjs.com/package/dsh-otel) | OpenTelemetry traces and metrics for DeepSeek Harness: turn, step, model-call, and tool-call spans under the GenAI semantic conventions, exported over OTLP to any backend. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-git-context | 1 | [qtjg/dsh-plugin-git-context](https://github.com/qtjg/dsh-plugin-git-context) | A DeepSeek Harness plugin that exposes bounded Git status, diff, and log context to the model. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-git-inspect | 1 | [Wanbinyu/dsh-plugin-git-inspect](https://github.com/Wanbinyu/dsh-plugin-git-inspect) | Read-only Git inspection tools for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-ui-debug | 1 | [FeatherHunter/dsh-plugin-ui-debug](https://github.com/FeatherHunter/dsh-plugin-ui-debug) | DSH 插件 UI 调试神器：让 AI 在真实 Chrome（Playwright）中自动看界面、点按钮、拖组件，一键安装零配置 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-prometheus | 1 | [xxiaoxiong/dsh-prometheus](https://github.com/xxiaoxiong/dsh-prometheus) · [npm](https://www.npmjs.com/package/dsh-prometheus) | Privacy-conscious Prometheus metrics and a Grafana dashboard for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-provenance | 1 | [Darren-Tang/dsh-provenance](https://github.com/Darren-Tang/dsh-provenance) · [npm](https://www.npmjs.com/package/dsh-provenance) | Pre-install supply-chain provenance checks for DeepSeek Harness plugins: verify the tarball you're about to install matches the source you read, before any code runs. Never executes the audited | 0.1.0-rc.8 (2026-08-20) |
 | dsh-remote-plugin | 1 | [Blank-not-black/dsh-remote-plugin](https://github.com/Blank-not-black/dsh-remote-plugin) | DSH Remote bundle 插件（独立包形态）：DSH 原生侧边栏入口 + 右侧抽屉管理页；内置网关随 DSH 自动启停，直显令牌与设备监控；配套 Android App 远程操控 DSH。源码: https://github.com/Blank-not-black/dsh-remote-plugin | 0.1.0-rc.8 (2026-08-20) |

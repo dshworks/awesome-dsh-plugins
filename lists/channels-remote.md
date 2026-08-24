@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-195 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+197 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -63,6 +63,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-wxauto-plugin | 3 | [br1nosense/dsh-wxauto-plugin](https://github.com/br1nosense/dsh-wxauto-plugin) | DSH 微信自动化插件：任务进度微信推送、消息监听、微信⇄DSH 双向桥（设置页开关+配置）。基于 wxauto4。 | 0.1.0-rc.8 (2026-08-20) |
 | redfox-community-dsh | 3 | [redfox-data/redfox-community-dsh](https://github.com/redfox-data/redfox-community-dsh) | RedFox community skills for DeepSeek Harness: 100+ social-media data skills (Douyin, Xiaohongshu, Kuaishou, Bilibili, WeChat, Weibo, YouTube, TikTok and more), mirrored one-way from the | 0.1.0-rc.8 (2026-08-20) |
 | SKILLS-featherh | 3 | [FeatherHunter/SKILLS](https://github.com/FeatherHunter/SKILLS/tree/HEAD/dsh-plugin/dsh-feishu-link/package) | DSH 插件 — Agent 接入飞书/Lark IM（动态 + npm 安装 双形态）。 | unverified |
+| wxpilot | 3 | [wuliLiuyue/wxpilot](https://github.com/wuliLiuyue/wxpilot/tree/HEAD/packages/dsh) | wxpilot — A CLI for automating WeChat Mini Programs, built for AI Agents. Lets an Agent drive the WeChat DevTools like a browser — page navigation, element interaction, state reading, network capture | 0.1.0-rc.8 (2026-08-24) |
 | dsh-discord | 2 | [suuuuuu-1/dsh-discord](https://github.com/suuuuuu-1/dsh-discord) | Bidirectional Discord bridge and remote controller for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feishu-bot | 2 | [TingRuDeng/dsh-feishu-bot](https://github.com/TingRuDeng/dsh-feishu-bot) · [npm](https://www.npmjs.com/package/@tingrudeng/dsh-feishu-bot) | Feishu (Lark) private-chat frontend for DeepSeek Harness: drive, monitor, and approve local agents from Feishu, sharing sessions with the Web GUI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feishu-bot-littlein | 2 | [LittleInk/dsh-feishu-bot](https://github.com/LittleInk/dsh-feishu-bot) | Feishu (Lark) bot channel for DeepSeek Harness: receives im.message.receive_v1 over the Feishu WebSocket long connection (no public URL needed), drives the local agent per chat, and replies through | 0.1.0-rc.8 (2026-08-20) |
@@ -126,6 +127,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-scheduler | 1 | [yangyongzhen/dsh-scheduler](https://github.com/yangyongzhen/dsh-scheduler) | Cron / one-shot scheduled tasks for DeepSeek Harness: run shell commands or fire webhooks on a schedule, with optional ServerChan / DingTalk / Feishu delivery of results. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-settings-pro | 1 | [kazecreator/dsh-settings-pro](https://github.com/kazecreator/dsh-settings-pro) · [npm](https://www.npmjs.com/package/@kazecreator/dsh-settings-pro) | DeepSeek Harness settings-pro plugin: IM bridge (Telegram/WeChat), DeepSeek usage, cross-restart memory, desktop pets, and a vision bridge | 0.1.0-rc.8 (2026-08-20) |
 | dsh-telegram | 1 | [ben7am1n/dsh-telegram](https://github.com/ben7am1n/dsh-telegram) | Telegram runtime adapter for DeepSeek Harness — chat with your dsh agents from Telegram. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-telegram-notify-puesite | 1 | [puesite/dsh-telegram-notify](https://github.com/puesite/dsh-telegram-notify/tree/HEAD/plugin) | Send DSH progress / approval / error notifications to Telegram | 0.1.0-rc.8 (2026-08-24) |
 | dsh-web-remote-frp | 1 | [Casually/dsh-web-remote-frp](https://github.com/Casually/dsh-web-remote-frp) · [npm](https://www.npmjs.com/package/dsh-web-remote-frp) | DSH 手机/外网远程访问插件（frp 版）：frp 内网穿透公网隧道（frpc 一键下载）+ token 鉴权代理 + gzip 压缩 + 局域网 HTTP/HTTPS 直连 + 常驻手机图标面板 + 六大机器人通道（微信/QQ/Telegram/钉钉/飞书/企业微信）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wechat-bridge | 1 | [zxz9988/dsh-wechat-bridge](https://github.com/zxz9988/dsh-wechat-bridge) · [npm](https://www.npmjs.com/package/@zxz9988/dsh-wechat-bridge) | DSH 插件：把手机微信（腾讯 iLink/ClawBot 官方协议）桥接到 DeepSeek Harness AI 助手 \| DeepSeek Harness WeChat bridge plugin: connect WeChat to DSH AI via Tencent iLink/ClawBot — streaming replies, QR login, cron jobs, web | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wechat-bridge-lanbaolu | 1 | [lanbaolu/dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) · [npm](https://www.npmjs.com/package/@lanbaolu/dsh-wechat-bridge) | 基于 wechat-claude-code 的 DSH 微信桥接插件：三端通用（Windows/macOS/Linux），host 工具 + Web 管理面板 | 0.1.0-rc.8 (2026-08-21) |
