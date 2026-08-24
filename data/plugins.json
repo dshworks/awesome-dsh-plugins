@@ -175208,22 +175208,21 @@
       "pushedAt": "2026-08-15"
     },
     {
-      "name": "plugin-contract-unification",
-      "repo": "zhang123liang/plugin-contract-unification",
-      "description": "One contract for every capability. Foundation for AI coding assistant skill systems and enterprise plugin systems.",
-      "category": "skill",
+      "name": "dsh-session-insights",
+      "repo": "GreenLv/dsh-session-insights",
+      "description": "Local-first session retrospectives for DeepSeek Harness, with deterministic or model-assisted bilingual reports and privacy-preserving sessionQuery ingestion.",
+      "category": "bundle",
       "official": false,
-      "added": "2026-08-21",
-      "lastVerified": "2026-08-21",
-      "verifiedAgainst": "0.1.0-rc.8",
+      "added": "2026-08-22",
+      "lastVerified": "2026-08-22",
+      "verifiedAgainst": "0.1.1-rc.1",
       "status": "verified",
-      "evidence": "SKILL.md#frontmatter",
-      "stars": 0,
-      "starsUpdated": "2026-08-23",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-session-insights",
       "tags": [
-        "capabilities"
-      ],
-      "pushedAt": "2026-08-16"
+        "observability",
+        "memory"
+      ]
     },
     {
       "name": "dsh-plugin-message-edit-spookysandwich",
@@ -175240,6 +175239,62 @@
       "verifiedAgainst": "0.1.1-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle"
+    },
+    {
+      "name": "dsh-plugin-no-workspace",
+      "repo": "SpookySandwich/dsh-plugin-no-workspace",
+      "description": "Standalone workspace-free conversations with lossless detach and direct sidebar rendering in the native DSH Web UI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-23",
+      "lastVerified": "2026-08-23",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-plugin-no-workspace",
+      "stars": 0,
+      "starsUpdated": "2026-08-23",
+      "tags": [
+        "memory",
+        "ui"
+      ],
+      "pushedAt": "2026-08-23"
+    },
+    {
+      "name": "dsh-invoice-downloader",
+      "repo": "EthanYoQ/Invoice-Downloader",
+      "path": "plugins/dsh-invoice-downloader",
+      "npm": "@ethanyoq/dsh-invoice-downloader",
+      "description": "Local IMAP invoice download, OCR, archival, and Excel reimbursement summaries through a DSH profile bundle.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-22",
+      "lastVerified": "2026-08-22",
+      "verifiedAgainst": "0.1.0-rc.5",
+      "status": "verified",
+      "evidence": "plugins/dsh-invoice-downloader/package.json#dsh.bundle",
+      "tags": [
+        "capabilities",
+        "ui"
+      ]
+    },
+    {
+      "name": "plugin-contract-unification",
+      "repo": "zhang123liang/plugin-contract-unification",
+      "description": "One contract for every capability. Foundation for AI coding assistant skill systems and enterprise plugin systems.",
+      "category": "skill",
+      "official": false,
+      "added": "2026-08-21",
+      "lastVerified": "2026-08-21",
+      "verifiedAgainst": "0.1.0-rc.8",
+      "status": "verified",
+      "evidence": "SKILL.md#frontmatter",
+      "stars": 0,
+      "starsUpdated": "2026-08-23",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-16"
     },
     {
       "name": "dsh-memory-safe",
