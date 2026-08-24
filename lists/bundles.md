@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-85 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+86 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -93,3 +93,4 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-invoice-downloader | - | [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader/tree/HEAD/plugins/dsh-invoice-downloader) · [npm](https://www.npmjs.com/package/@ethanyoq/dsh-invoice-downloader) | Local IMAP invoice download, OCR, archival, and Excel reimbursement summaries through a DSH profile bundle. | 0.1.0-rc.5 (2026-08-22) |
 | dsh-memory-safe | - | [seriousz158/dsh-memory](https://github.com/seriousz158/dsh-memory) · [npm](https://www.npmjs.com/package/dsh-git-memory) | Local Git-backed long-term memory for DeepSeek Harness with cited context, usage-aware read tools, safe sync, preview, and rollback. | 0.1.0-rc.7 (2026-08-21) |
+| dsh-session-insights | - | [GreenLv/dsh-session-insights](https://github.com/GreenLv/dsh-session-insights) · [npm](https://www.npmjs.com/package/dsh-session-insights) | Local-first session retrospectives for DeepSeek Harness, with deterministic or model-assisted bilingual reports and privacy-preserving sessionQuery ingestion. | 0.1.1-rc.1 (2026-08-22) |
