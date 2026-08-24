@@ -181180,18 +181180,19 @@
     {
       "name": "dsh-ego-browser-dshworks",
       "repo": "dshworks/dsh-ego-browser",
+      "npm": "@dshworks/dsh-ego-browser",
       "description": "ego lite in dsh with a persistent site-skill memory: recall what was learned about a site, promote a script that worked into a reusable tool, hand the keyboard to the user for real.",
       "category": "plugin",
+      "tags": [
+        "capabilities",
+        "memory"
+      ],
       "official": false,
       "added": "2026-08-24",
       "lastVerified": "2026-08-24",
       "verifiedAgainst": "0.1.1-rc.2",
       "status": "verified",
-      "evidence": "package.json#dsh.bundle",
-      "tags": [
-        "capabilities",
-        "memory"
-      ]
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
