@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-08-21",
+  "checked": "2026-08-23",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 358,
+  "count": 359,
   "packages": [
     {
       "repo": "shililinghu/dsh-file-upload-deepseek-harness-plug-in",
@@ -370,6 +370,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "yhyfhgs/dsh-providers-extension",
+      "npm": "@fhxgs/dsh-providers-extension",
+      "why": "no such package",
+      "since": "2026-08-22"
+    },
+    {
       "repo": "781316853/dsh-provider-quota",
       "npm": "@guyunli/dsh-provider-quota",
       "why": "no such package",
@@ -380,6 +386,13 @@
       "npm": "@hiro-nikaitou/dsh-ocg-billing",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Howe829/dsh-runtime",
+      "path": "packages/dsh-runtime",
+      "npm": "@howardchan/dsh-runtime",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-08-22"
     },
     {
       "repo": "lsz-asd/dsh-plugin-device-info",
@@ -477,6 +490,12 @@
       "repo": "Neplich/dsh_plugin",
       "path": "packages/dsh-preset-dev",
       "npm": "@neplich/dsh-preset-dev",
+      "why": "no such package",
+      "since": "2026-08-21"
+    },
+    {
+      "repo": "omdsh-dev/fabric",
+      "npm": "@oh-my-dsh/cordis-fabric-pack",
       "why": "no such package",
       "since": "2026-08-21"
     },
@@ -1252,13 +1271,13 @@
       "repo": "lifensame/dsh-plugin",
       "npm": "dsh-memory",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-21"
+      "since": "2026-08-23"
     },
     {
       "repo": "BayInl/dsh-memory",
       "npm": "dsh-memory",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-21"
+      "since": "2026-08-23"
     },
     {
       "repo": "solknight48/dsh-memoryhub",
@@ -1313,6 +1332,12 @@
       "npm": "dsh-music-plugin",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "WSL043/dsh-native-session-delete",
+      "npm": "dsh-native-session-delete",
+      "why": "published by wsl043/dsh-native-session-manager",
+      "since": "2026-08-22"
     },
     {
       "repo": "666489/dsh-nature-papers",
@@ -1413,12 +1438,6 @@
     {
       "repo": "Civitasv/dsh-plugin-diff-review",
       "npm": "dsh-plugin-diff-review",
-      "why": "no such package",
-      "since": "2026-08-21"
-    },
-    {
-      "repo": "initialencounter/dsh-plugin-drone",
-      "npm": "dsh-plugin-drone",
       "why": "no such package",
       "since": "2026-08-21"
     },
@@ -1702,13 +1721,13 @@
       "repo": "sulfide2085/dsh-skill-manager",
       "npm": "dsh-skill-manager",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-21"
+      "since": "2026-08-23"
     },
     {
       "repo": "ZzzzzzzLL/dsh-skill-manager",
       "npm": "dsh-skill-manager",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-08-21"
+      "since": "2026-08-23"
     },
     {
       "repo": "YTxue/dsh-skill-manager-ytxue",
@@ -1756,12 +1775,6 @@
     {
       "repo": "shaoeric/dsh-suggest",
       "npm": "dsh-suggest",
-      "why": "no such package",
-      "since": "2026-08-21"
-    },
-    {
-      "repo": "jinhuang712/dsh-survey",
-      "npm": "dsh-survey",
       "why": "no such package",
       "since": "2026-08-21"
     },
@@ -2116,12 +2129,6 @@
     {
       "repo": "WolfGenerals/ncm-player",
       "npm": "ncm-player",
-      "why": "no such package",
-      "since": "2026-08-21"
-    },
-    {
-      "repo": "YYTbit/oh-my-deepseek-harness",
-      "npm": "oh-my-deepseek-harness",
       "why": "no such package",
       "since": "2026-08-21"
     },
