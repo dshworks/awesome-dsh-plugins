@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "rejected": [
     {
       "repo": "0326/dsh-plugin-market",
@@ -61,6 +61,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "1210316560/dsh-lark-bridge",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "123WP-a/deepseek-harness-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-24",
@@ -77,6 +83,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "18126295767-cell/deepseek-harness-macos-app",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "18126295767-cell/deepseek-harness-ultimate",
@@ -103,9 +115,21 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "1clickreport/dsh-1clickreport",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "1cyberlangke1/tokkit",
       "reason": "general tokenizer library that ships DeepSeek vocabularies; not a dsh extension",
       "date": "2026-08-15"
+    },
+    {
+      "repo": "1frank-art/occurrence-development-logic",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "1lyygit/dsh-launcher",
@@ -154,6 +178,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "263311487-ux/imprint-pdf",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "270027qw/deepseek-dsh-NX",
@@ -270,6 +300,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "929nz6jshw-spec/DeepSeekHarness",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "9daynight/dsh-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -280,6 +316,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "9Rebels/relay-mask",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "a1141171521/dsh-plugin-conflict-guard",
@@ -304,6 +346,24 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-18",
       "recheckAfter": "2026-09-08"
+    },
+    {
+      "repo": "ABccgh/dsh-github-plugin-tools",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "ABccgh/dsh-ima-plugin",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "ABccgh/dsh-plugin-dev",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "ABccgh/imakb",
@@ -395,10 +455,22 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "ai-dynamo/dynamo",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "ai/nanoid",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "ai4paper/ipaper",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "aibinghezzz-stack/deepseek-harness-macos",
@@ -452,6 +524,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "alanpaul1969/a2a-flutter-demo",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "alanzhao0128/dsh-desktop",
@@ -511,6 +589,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "alibaba/page-agent",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Alice-P197/dsh-companion-kit",
@@ -621,6 +705,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "androidx/androidx",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Andy294753951/dsh-plugin-qwen-web-bridge",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -692,6 +782,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "ANVIWA/dsh-launcher",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "anweat/dsh-plugin-dev-guide",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -714,6 +810,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "apdc111/deepseek-harness-web-Upgrade",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "apexingai/deepseek-harness-desktop",
@@ -842,6 +944,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "Asher-Xuv/DeepSeek-Balance-Badge",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "ashuai/dsh-ui-wrapper",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -858,6 +966,12 @@
       "reason": "source clone of the harness itself",
       "date": "2026-08-15",
       "recheckAfter": "2026-11-13"
+    },
+    {
+      "repo": "asuramaya/osiris",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "AtlasCloudAI/atlas-cloud-skills",
@@ -949,10 +1063,22 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "B1lli/dsh-plugin-bench",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "baihejiangnan/dsh-plugin-pack",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "baihejiangnan/dsh-plugin-pack-ai-share-template",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "baihejiangnan/dsh-plugin-pack-web",
@@ -1027,6 +1153,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "baochaofan0404/gpt-dsh-bridge",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "baptisteArno/typebot.io",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -1081,6 +1213,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "BettyXu2001/how-deepseek-harness-works",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "BeyondXinXin/deepseek-harness-box",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -1103,6 +1241,24 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "bigfurma-bot/dsh-attention",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "bigfurma-bot/dsh-todos",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "bigfurma-bot/dsh-voice-dictation",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "bigsongeth/dsh-events",
@@ -1159,6 +1315,12 @@
       "recheckAfter": "2026-09-08"
     },
     {
+      "repo": "Biugbiug/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "bluecobaltum/dsh-lan-proxy",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -1195,16 +1357,16 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "bolloplayer/affinity-mcp-setup",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "boscochuck6812/DeepseekPet",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
-    },
-    {
-      "repo": "BotonJ/dsh-plugin-sentinel",
-      "reason": "repo tree unreadable at sweep time",
-      "date": "2026-08-15",
-      "recheckAfter": "2026-08-22"
     },
     {
       "repo": "boundless2619/dsh-paste-path",
@@ -1225,6 +1387,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "Boy-Grid/deepseek-harness-desktop-for-macos",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "BoyangRaul/DeepSeekHarness-tiny-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -1243,10 +1411,22 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "broken-star1999/deepseek-harness-up",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "broody-cascarillabark100/DeepSeek-Harness-Desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "BrowserWorks/waterfox",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "bruc3van/awesome-dsh-plugin",
@@ -1398,6 +1578,18 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "ChanceFlow/deepseek-harness-app",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "change979666/ox-alpha-dsh",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "ChangedenCZD/dsh-minimal-turbo",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -1500,16 +1692,34 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "chenjie1129/deepseek-harness-macos-use",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "ChenSheg/knowledge-from-literature-and-bilibili",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "ChenSiyun1234/dsh-tray-windows",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "chentao326/dsh-gui",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "chenyedamw/dropshipping-product-scout",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "chenyinrusi/dsh-engineering-skills",
@@ -1536,6 +1746,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "ChenyuHeee/dsh-remote",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "chenzhexii/obsidian-dsh",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -1558,6 +1774,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "chijichan/dsh-heus",
+      "reason": "empty repo: no package.json, no README, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Chinesezjc/dsh-plugin-census",
@@ -1698,6 +1920,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "cloudflare/computer",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "cloudyview/dsh-tutorial",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -1763,6 +1991,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "coeasy/dsh-go",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "cofy-x/axern",
       "reason": "agent sandbox platform, no dsh install path; topic-riding",
       "date": "2026-08-13"
@@ -1796,12 +2030,6 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
-    },
-    {
-      "repo": "cookiespiggy/deepseek-harness-stair-cookbook",
-      "reason": "repo tree unreadable at sweep time",
-      "date": "2026-08-15",
-      "recheckAfter": "2026-08-22"
     },
     {
       "repo": "coolbat/awesome-dsh-plugins",
@@ -1966,10 +2194,28 @@
       "recheckAfter": "2026-09-08"
     },
     {
+      "repo": "dabaicai001/star-dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "daha1216/dsh-plugin-collection",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-24",
       "recheckAfter": "2026-09-14"
+    },
+    {
+      "repo": "Dalailalama/zen-proxy",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "danbao/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "darker2016/dsh-feedetail",
@@ -1978,10 +2224,28 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "dat-lequoc/codesk",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "DavidRm1911/dsh-subscription-gateway",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "dawrf/dsh-workplace-writing-skill",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "DaXiGua732/start-dsh",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "dd2673/dsh-remote-control",
@@ -2026,6 +2290,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "DecresLuna/DSH-Service",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "DeeJ6126/whale-girl-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -2050,10 +2320,28 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "Delta-Water/dsh-conservative-anchor",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Demogorgon314/dsh-desktop-mac",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "deng7112/web2cli",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "DESTINYwang0428/dsh-clarify",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "DESTINYwang0428/dsh-conversation-export",
@@ -2084,6 +2372,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "dfzjb/whalemaid-desktop-pet",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "dhj-l/dsh-git-review",
@@ -2170,6 +2464,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "dongsheng123132/u-dsh-deepseek-harness-portable",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "dorisaimpatient855/awesome-dsh-plugin",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -2216,6 +2516,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "DreamRift/dsh-hub",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "dretylin/dsh-desktop",
@@ -2278,10 +2584,22 @@
       "recheckAfter": "2026-09-08"
     },
     {
+      "repo": "dsh-tui-ecosystem/dsh-tui-site",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "dshbox/cordis-rs",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "DSHCorrectover/ccs-runtime-verifier",
+      "reason": "SKILL.md present but dsh would ignore it: frontmatter must open on line 1 with `---` and set a kebab-case `name` plus a `description` (packages/skill/skill-filesystem/src/index.ts)",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "DshMarketPlace/dsh-plugin-radar",
@@ -2350,6 +2668,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "du-u-uck/DSH-token-usage-web-view",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "DuJunxi1993/dsh-swiftUI",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -2366,6 +2690,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "dvlinzh/DeepSeek-harness-mindboard",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "dwefwevfe/dsh-jarvis-pet",
@@ -2439,6 +2769,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "elastic/kibana",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Electricitysheep/dsh-handbook",
       "reason": "documentation/PDF handbook, not an installable extension",
       "date": "2026-08-13"
@@ -2460,6 +2796,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "elmaxid/dsh-manage",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Elohia/pi-mm-vision",
@@ -2496,6 +2838,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "EpicenterHQ/epicenter",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "EquentR/dsh_plugins",
@@ -2570,6 +2918,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "Ever0330/universal-vision",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "EverMind-AI/EverOS",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-18",
@@ -2580,6 +2934,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "every-app/open-seo",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "evil7/deepSea",
@@ -2803,6 +3163,12 @@
       "recheckAfter": "2026-09-14"
     },
     {
+      "repo": "flutter/flutter",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "flysheep-ai/learn_deepseek_harness",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -2839,10 +3205,22 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "fplj-fplj/dsh-ua-headers",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "FQXCS/web-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "frankfika/dsh-desktop-macos",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "frankstanmonster/dsh-overlay_companion",
@@ -2917,6 +3295,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "fwfuuu-design/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "fyjgtddco/DSH-SW-and-CAD",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -2983,6 +3367,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "Gcd1949/dsh-tools",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Gcsimple/Emoji_Desktop_Pet",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -3011,6 +3401,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "geohotstan/dsh-tabula-rasa-preset",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "gezi6603-rgb/tavern-launcher",
@@ -3053,6 +3449,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "gitcore/dsh-docker",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "GitRuozhi/dsh-mini-win",
@@ -3151,6 +3553,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "GrazianoGuiducci/maios-project-kernel",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "great-man2096/dsh-launcher",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -3217,6 +3625,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "guoan1tang/deepseek-ui-agent-sky",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "guobinmengxiang-rgb/awesome-dsh",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -3245,6 +3659,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-18",
       "recheckAfter": "2026-09-08"
+    },
+    {
+      "repo": "guyuefangyuanl/Deeperian",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "gyg9006/DSH-Desktop",
@@ -3588,6 +4008,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "HarnessRouter/harnessrouter",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Harris1121/awesome-deepseek-harness",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -3598,6 +4024,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "Harzva/dsh-plugin-registry",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "hashgraph-online/hol-guard",
@@ -3960,6 +4392,12 @@
       "recheckAfter": "2026-09-08"
     },
     {
+      "repo": "huermi/dsh-JEPA-adapter",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "huifer/deepseek-harness-sourcecode-analyze",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -4030,6 +4468,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "hyci3/obsidian-dsh-tab",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Hyggetxc/dsh-web-launcher",
@@ -4120,6 +4564,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "iloosercontrol/dsh-remote-access",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "ilps2/avis-dsh-plugin",
@@ -4218,6 +4668,12 @@
       "recheckAfter": "2026-09-08"
     },
     {
+      "repo": "Itailang2333/workspace-batch-manager",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "ItBayMax/deepseek-harness-atlas",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -4314,6 +4770,18 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "jeffkxt/lcrd-agent-figma-lite",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "jeffkxt/lcrd-agent-self-learning-experiment",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "jeffrey950404/deepseek-harness-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -4360,6 +4828,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "JetBrains/intellij-community",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Jett-Wu/deepseek-harness-launcher",
@@ -4414,6 +4888,18 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "JimmyWesley/MonkeyLLM",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "JimyuAn-98/dsh-console-aio",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "jinganwushideng/deepseek-harness-desktop",
@@ -4488,6 +4974,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "jlsupero/To-Know-What-You-Read",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "jmjmj009gt/vision-toolkit-for-dsh-v0.1-maybe-",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -4524,6 +5016,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "jony5933/codex-dsh-bridge",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "joshuadavidthomas/django-language-server",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -4554,6 +5052,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "Jstn-1g/dsh-guarded-hcl",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "jswbiubiu/primary-english-helper",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -4570,6 +5074,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "JularDepick/dsh-plugin-dev-agent-template",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "juleide/deepseek-chat",
@@ -4606,6 +5116,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "Junhousheng-Serena/celtic-adventure-skin",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "JustGenius-s/DSH-Desktop",
@@ -4770,6 +5286,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "Kindlylol/dsh-tray-launcher",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "kingselyjoe/legal-research-dsh",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -4816,6 +5338,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "kkaktus463/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "kline-dev/furina-dsh-pet",
@@ -4914,6 +5442,12 @@
       "recheckAfter": "2026-09-14"
     },
     {
+      "repo": "KyuuR1/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "L-mimimi/LiveCaptionsTranslator-VoiceInput",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -4954,6 +5488,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "langfuse/langfuse",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "lanshuye123/DSH-Terminal",
@@ -5081,6 +5621,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "leonardoxr/dsh-native",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Lesleyshi1015/timeweave-harness-plugin",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -5201,6 +5747,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "lilightspeed/dsh-seekbuddy",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "limbo947/DSH-Console",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -5285,6 +5837,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "linxuhao/AItelier",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "lisongjianustc/dsh-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -5345,6 +5903,12 @@
       "recheckAfter": "2026-09-14"
     },
     {
+      "repo": "lixiaoshuang79/dsh-helm",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Lixxx1/dsh-vscode",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -5391,6 +5955,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "logan-suu/Agora",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "logebyones/dsh-api-router-notes",
@@ -5561,6 +6131,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "lw-storm/dsh-plugin-version-management",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "lwmxiaobei/dsh-plugins",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -5591,6 +6167,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "M47E1/DSH-windows-launcher",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Maayk/opencode-cortex-mode",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -5601,6 +6183,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "MaimoryLab/BootAgent",
@@ -5705,6 +6293,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "masknull/dsh-local-shell",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "maskshell/solidforge-dsh",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -5775,6 +6369,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "menotbobbybrown/create-dsh-app",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Meredith2328/dsh-hotkey",
@@ -5855,6 +6455,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "microsoft/vscode",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "MicroSpotlight/openharness-plugins",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-18",
@@ -5873,6 +6479,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "milisp/keke-agent",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Minara-AI/minara-skills",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -5885,6 +6497,12 @@
       "recheckAfter": "2026-09-08"
     },
     {
+      "repo": "ming-14/dsh-forwarder",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Mingbing-get/holdRein",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-18",
@@ -5895,6 +6513,36 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "Minglink/DeepSeek-Harness-Hub",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "Minglink/dsh-better-sidebar",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "Minglink/dsh-deep-whale",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "Minglink/dsh-plugin-agent-workflow",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "Minglink/modlens",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "minorsnownight/dsh-launcher",
@@ -5921,6 +6569,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "ML-QSeek/SurvX",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "mmx0071/novel-agents",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -5937,6 +6591,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "Modellix/dsh-modellix",
+      "reason": "empty repo: no package.json, no README, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "modred522/dsh-manager",
@@ -5957,6 +6617,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "moeru-ai/airi",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "momo-gen/deepseek-model-router",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -5967,6 +6633,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "momo-gen/dsh-canvas",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Momojie-S/deepseek-harness-101",
@@ -6071,6 +6743,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "moshecomparative3821/Symlink-Manager-Tools",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "motu001/dsh-phone-bridge",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -6099,6 +6777,18 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "mozilla-firefox/firefox",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "Mpaperlee/dsh-hub",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "mrbbbaixue/dsh-desktop",
@@ -6185,6 +6875,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "Mutton-hub/adatile-mcp",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "mwbimh/dsh-atelier",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -6263,6 +6959,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "naodeng/30-day-qa-deepseek-learning-plan",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "narevai/ai-billing",
       "reason": "multi-provider billing library with a DeepSeek adapter; no dsh install path",
       "date": "2026-08-15"
@@ -6286,6 +6988,18 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "nemosr/dsh-personal-plugins",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "neoiw0/dsh-retry-enhance",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Neumannzc/dsh-native-session-split",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -6296,6 +7010,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "NevermindZZT/dsh-manager",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "nexpeakcore/deepseek-harness-pr-review",
@@ -6356,6 +7076,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "ningmengxr/dsh-rescue-toolbox",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "niobium617/prompt-reverse-engineer-skill",
@@ -6439,6 +7165,12 @@
       "repo": "nutshellai-tech/mobius",
       "reason": "standalone agent OS; skills are mobius-internal; topic-riding",
       "date": "2026-08-13"
+    },
+    {
+      "repo": "Nya-Poka/One-click-installer-launcher-for-DeepSeek-Harness-dsh-on-Windows",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "nzl153/dsh-preflight",
@@ -6600,6 +7332,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "onderkygz/contradiction-resolver",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "oneincase/dsh-minecraft-skin",
@@ -6857,6 +7595,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "penglai-doll/LocalWhale-macOS",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "pengpengyi92/dsh-quant-ui",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -7012,6 +7756,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "plwslpld-arch/agent-harness-internals",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "plwslpld-arch/deepseek-harness-internals",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -7087,6 +7837,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "ptrel1/maibot_dsh_bridge",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "pulseaiclub/phi",
@@ -7172,6 +7928,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "qingshanyuluo/dsh-mobile-ux",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "qingzhuo-cn/agent-fix",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -7194,6 +7956,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "qiuqiukof-oss/Hesi-web-use",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "qiyuequkanhaiba/localharness",
@@ -7284,6 +8052,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "Ragnoryok1/deepseek-harness-guide-ru",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Rainflymadrilene370/Deepseek-Harness-EAC",
@@ -7466,6 +8240,18 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "robauto-ai/dsh-growth",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "robauto-ai/robauto-agenthub",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Robin-fang611/world-sage",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-24",
@@ -7591,6 +8377,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "sam-midlight/dsh-loop-rescue",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Sameisbest/dsh-skills",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -7621,6 +8413,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "sandbaseai/dsh101",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "sandbaseai/sandbase-skills",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -7637,6 +8435,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "SaptodeepSarkar/dsh-qa-box",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "SC0321/harnessbay",
@@ -7723,6 +8527,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "SeireiA/dsh-plugin-rtk",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Selinefieldcrop975/awesome-deepseek-agent",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
@@ -7730,9 +8540,9 @@
     },
     {
       "repo": "Semidia/dsh-friendly-errors",
-      "reason": "repo tree unreadable at sweep time",
-      "date": "2026-08-15",
-      "recheckAfter": "2026-08-22"
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "SenmuuuuW/dsh-group-photo",
@@ -7799,6 +8609,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-24",
       "recheckAfter": "2026-09-14"
+    },
+    {
+      "repo": "shangshuo1/DSH-Virtual",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "shangzongyu/deepseek-harness-desktop",
@@ -7957,6 +8773,12 @@
       "recheckAfter": "2026-09-11"
     },
     {
+      "repo": "Shizuku-keop/dsh-micro-inversion-standard",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "showjiangnan/dsh-specs",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -7985,6 +8807,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "sidleo/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "siemens/ix",
@@ -8077,6 +8905,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "siweimofang/dsh-plugin-zhishe-common",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "sjh9714/cover-my-repo",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -8129,6 +8963,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "slaoda/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "sleep2agi/DeepSeek-Harness-Desktop",
@@ -8185,10 +9025,22 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "SoberReport-AI/DeepGuard",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Socialist-Sister/dsh-deck",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "sol5766/dshm",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "songoao25/dsh-auto-compact",
@@ -8293,6 +9145,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "sqs404/dsh-client-ui-beautify",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "sqs404/dsh-portable",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -8383,6 +9241,12 @@
       "recheckAfter": "2026-09-14"
     },
     {
+      "repo": "sujiu0616-art/DSH-CustomWallpapers-Glassmorphism-Theme",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "SummerSec/AI-Inner-Os",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -8467,6 +9331,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "swaylq/human-harness",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "sweven-tears/DshDesktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -8533,6 +9403,18 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "taishan1994/DeepSeek-Harness-RAG",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "takasurazeem/dsh-plugins",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "TalkingRainTuT/dsh-VoiceChat",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-24",
@@ -8572,6 +9454,12 @@
       "repo": "taptap/instant-games-open-mcp",
       "reason": "TapTap MCP server; MCP is harness-agnostic, no dsh install path",
       "date": "2026-08-15"
+    },
+    {
+      "repo": "taskschd1145/deepseek-harness-clean",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "tatuke/Asian-Parents_agent-style",
@@ -8626,6 +9514,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "Thang1710/subagent-mcp",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Thanksgiver233/dsh-mobile",
@@ -8760,6 +9654,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "Timsunzhuping/PluginWorld",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "tingly-dev/tingly-box",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-18",
@@ -8830,6 +9730,24 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "TOBYCAI/dsh-patch-reasoning",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "TOBYCAI/dsh-upgrade-toolkit",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "TOBYCAI/image-mcp",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "TohsakaRIN521/dsh-academic-skill",
@@ -8916,6 +9834,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "tscodeplus/dsh-desktop",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "tsrigo/dsh-from-scratch",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -8944,6 +9868,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "tuofangzhe/dsh-plugins",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "TuringCorp-net/dsh-boot-restore",
@@ -9066,6 +9996,30 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "uckkk/dsh-future-cbdc",
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "uckkk/dsh-future-fusion",
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "uckkk/dsh-future-longevity",
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "uckkk/dsh-gift-etiquette",
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "uckkk/dsh-golden-ratio",
       "reason": "repo tree unreadable at triage time",
       "date": "2026-08-17",
@@ -9156,6 +10110,18 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "uckkk/dsh-k2c",
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "uckkk/dsh-kenya",
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "uckkk/dsh-lorem",
       "reason": "repo tree unreadable at triage time",
       "date": "2026-08-17",
@@ -9184,6 +10150,12 @@
       "reason": "repo tree unreadable at triage time",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "uckkk/dsh-palau",
+      "reason": "repo tree unreadable at triage time",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "uckkk/dsh-percentage",
@@ -9377,6 +10349,18 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "viethoang35/dsh-chat-bridge",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "vimalinx/Dsh-dev",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "VincentPhoton/SeekBalance",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-18",
@@ -9387,6 +10371,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "viphzz/whale-girl-assistant",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "VitaTsui/agent-virtualization",
@@ -9471,6 +10461,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-17",
       "recheckAfter": "2026-09-07"
+    },
+    {
+      "repo": "Wanbinyu/dsh-launcher",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Wanbinyu/dsh-plugins",
@@ -9825,6 +10821,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "willianangelomn-spec/deepseek-harness-ptbr",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "WindLX/paper_plane_x",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -9859,6 +10861,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "withastro/astro",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "wj2514939573-ui/dsh-security-gate",
@@ -9981,6 +10989,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "wpc725562-dotcom/zsb-agent-kit",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "wqzhellohhwy/dsh-c-root-workspace",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
@@ -10039,6 +11053,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "Wuxie233/dsh-plugin-enter-newline",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "wuxingyuyouxing/DeepSeek-Harness-Manager",
@@ -10113,6 +11133,12 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "xhqm-xyz/mira_live2d",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Xiangbingyu/life-distiller",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
@@ -10147,6 +11173,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "xiaobeicn/harness-learn",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "xiaobright/dsh-anchored-standard",
@@ -10437,6 +11469,18 @@
       "recheckAfter": "2026-09-05"
     },
     {
+      "repo": "Y-46/agent-artifacts",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "Ya-MiC/hermes",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "Yaing-Yan/dsh-better-status",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -10465,6 +11509,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-21",
       "recheckAfter": "2026-09-11"
+    },
+    {
+      "repo": "yangkunlun/dsh-fairy",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "yanhua1010/dsh-harness-tutorial",
@@ -10742,6 +11792,12 @@
       "recheckAfter": "2026-09-07"
     },
     {
+      "repo": "YunlongL-byte/dsh-launcher",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "YunTaiHua/illusion-agent",
       "reason": "standalone agent platform, not a dsh extension; topic-riding",
       "date": "2026-08-13"
@@ -10824,6 +11880,12 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "YYDW-1211/safe-agent-mcp",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "YYTbit/awesome-dsh-bridges",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
@@ -10834,6 +11896,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "yzfly/awesome-dsh-skills",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "yzlnew/infra-skills",
@@ -10864,6 +11932,12 @@
       "reason": "source clone of the harness itself",
       "date": "2026-08-15",
       "recheckAfter": "2026-11-13"
+    },
+    {
+      "repo": "ZalmoraDev/deepseek-harness-containerized",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "ZavionWang/exam-knowledge-base",
@@ -10924,6 +11998,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "zengfr/AutoCoding",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "Zero0-A/dshquick",
@@ -11070,10 +12150,40 @@
       "recheckAfter": "2026-09-10"
     },
     {
+      "repo": "zhulianxing/dsh-clawpay",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "zhulianxing/dsh-kankan-mail",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "zhulianxing/dsh-lookhere",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
+      "repo": "zhulianxing/dsh-starstack",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
+    },
+    {
       "repo": "zink-ning-lkr/dsh-desktop",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-20",
       "recheckAfter": "2026-09-10"
+    },
+    {
+      "repo": "ziouf/omarchy-dsh-agent",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "ziphow/deepseekharness-audio-notifier",
@@ -11254,6 +12364,12 @@
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
       "date": "2026-08-15",
       "recheckAfter": "2026-09-05"
+    },
+    {
+      "repo": "zx0003147/EVE-Map-Assistant",
+      "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md",
+      "date": "2026-08-25",
+      "recheckAfter": "2026-09-15"
     },
     {
       "repo": "zzhang82/Agent-Memory-Bridge",

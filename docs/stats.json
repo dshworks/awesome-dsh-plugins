@@ -1,24 +1,50 @@
 {
   "updated": "2026-08-25",
-  "plugins": 9660,
-  "authors": 5706,
+  "plugins": 10866,
+  "authors": 6419,
   "npm": 2010,
   "categories": {
     "bundle": 86,
-    "plugin": 9444,
-    "skill": 125,
+    "plugin": 10603,
+    "skill": 172,
     "theme": 2,
     "tool": 3
   },
   "tags": 17,
-  "rejected": 1883,
-  "rejectedRecheck": 1851,
+  "rejected": 2069,
+  "rejectedRecheck": 2037,
   "coverage": {
-    "measured": "2026-08-21",
-    "topic": 11011,
-    "decided": 10377,
-    "rejected": 1883,
-    "noInstallPath": 1758
+    "measured": "2026-08-25",
+    "topic": 12810,
+    "decided": 12630,
+    "rejected": 2069,
+    "noInstallPath": 1936
   },
-  "verifiedAgainst": "0.1.1-rc.2"
+  "verifiedAgainst": "0.1.0-rc.8",
+  "verifiedSpread": [
+    {
+      "version": "0.1.0-rc.8",
+      "count": 10635
+    },
+    {
+      "version": "0.1.0-rc.6",
+      "count": 216
+    },
+    {
+      "version": "0.1.0-rc.5",
+      "count": 9
+    },
+    {
+      "version": "0.1.1-rc.2",
+      "count": 4
+    },
+    {
+      "version": "0.1.1-rc.1",
+      "count": 1
+    },
+    {
+      "version": "0.1.0-rc.7",
+      "count": 1
+    }
+  ]
 }

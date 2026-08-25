@@ -642,6 +642,15 @@ const admitted = [];
 const rejects = [];
 const held = [];
 const routed = [];
+// Rejections that this pass overturned. A repo that was unreadable a week ago
+// and proves an install path today is one decision, not two: the reject path
+// already re-dates a prior row when the verdict repeats, and this is the
+// missing other half. Without it the repo lands in plugins.json while its old
+// rejection stays put, and `validate` finds it in both files -- which is how
+// BotonJ/dsh-plugin-sentinel and cookiespiggy/deepseek-harness-stair-cookbook
+// turned up on 2026-08-25, both rejected on 2026-08-15 for "repo tree
+// unreadable at sweep time" with a recheck that came due.
+const overturned = new Set();
 
 for (const d of decided) {
   const c = d.candidate;
@@ -682,6 +691,9 @@ for (const d of decided) {
     continue;
   }
 
+  // Admitted, so any rejection on file for this repo has been overturned.
+  if (alreadyRejected.has(c.repo.toLowerCase())) overturned.add(c.repo.toLowerCase());
+
   const category = d.evidence.includes("SKILL.md") ? "skill" : "plugin";
   admitted.push(ordered({
     name: nameFor(c.repo, takenNames),
@@ -705,6 +717,7 @@ for (const d of decided) {
 console.error([
   `triage: ${admitted.length} admitted, ${rejects.length} rejected,`,
   `${recheckedRejections} rejection(s) re-dated,`,
+  `${overturned.size} rejection(s) overturned,`,
   `${held.length} held for review, ${routed.length} routed to themes (api ${apiCalls})`,
 ].join(" "));
 
@@ -723,7 +736,9 @@ write("data/plugins.json", { ...registry, updated: TODAY, plugins: nextPlugins }
 write("data/rejected.json", {
   ...rejectedFile,
   updated: rejects.length ? TODAY : rejectedFile.updated,
-  rejected: [...rejectedFile.rejected, ...rejects].sort((a, b) => a.repo.localeCompare(b.repo)),
+  rejected: [...rejectedFile.rejected, ...rejects]
+    .filter((r) => !overturned.has(r.repo.toLowerCase()))
+    .sort((a, b) => a.repo.localeCompare(b.repo)),
 });
 // What stays in the queue is what a machine should not have decided: the
 // close calls, the theme routing, and the entries with nothing to quote.
