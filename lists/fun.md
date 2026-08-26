@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-399 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+400 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -369,6 +369,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-rick | 0 | [xxxrickymorty-dev/dsh-rick](https://github.com/xxxrickymorty-dev/dsh-rick) | C-137 skin for DeepSeek Harness: 28 Rick and Morty posters, custom scenes, and overlay pets (Rick, Morty, portal gun). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-senior-pet | 0 | [uckkk/dsh-senior-pet](https://github.com/uckkk/dsh-senior-pet) | seniorpet：老年宠物：按参数返回宠物健康营养方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-showrunner | 0 | [gqy20/dsh-showrunner](https://github.com/gqy20/dsh-showrunner) | Deterministic show/game engine on top of DeepSeek Harness: scenario packs, machine-adjudicated matches, replayable event logs | 0.1.0-rc.8 (2026-08-20) |
+| dsh-skill-slash-fuzzy | 0 | [NecromanAlbert/dsh-skill-slash-fuzzy](https://github.com/NecromanAlbert/dsh-skill-slash-fuzzy) | Resolve unique kebab-case skill substrings in DeepSeek Harness slash tokens, so /oneshot can load game-package-oneshot. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-slackoff | 0 | [zhangCzhe/dsh-slackoff](https://github.com/zhangCzhe/dsh-slackoff/tree/HEAD/dsh) · [npm](https://www.npmjs.com/package/dsh-slackoff) | DSH 摸鱼伴侣 —— AI 工作时自动弹出视频小窗播放，中断/询问时自动暂停 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tencent-music | 0 | [L-1124/dsh-tencent-music](https://github.com/L-1124/dsh-tencent-music) | DeepSeek Harness 的音乐播放器插件：支持搜歌、个性化推荐、电台、导入歌单与排行榜、Agent 点歌与原生设置集成。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-token-meter-mood | 0 | [firekula/dsh-token-meter-mood](https://github.com/firekula/dsh-token-meter-mood) | Per-turn token usage and mood emoji row under each assistant reply for the DeepSeek Harness web GUI | 0.1.0-rc.8 (2026-08-25) |

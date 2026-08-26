@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-145 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+149 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -114,7 +114,9 @@ Building, testing, and publishing plugins.
 | deepseek-harness-app-alexmen9 | 0 | [Alexmen97/deepseek-harness-app](https://github.com/Alexmen97/deepseek-harness-app/tree/HEAD/apps/desktop-agent-pkg) | Dependency-only deploy root defining the desktop runtime executable closure; pnpm deploy materializes this manifest and node_modules for the single-executable build | 0.1.0-rc.8 (2026-08-21) |
 | deepseek-harness-plugin-skill | 0 | [chenshutian9610/deepseek-harness-plugin-skill](https://github.com/chenshutian9610/deepseek-harness-plugin-skill/tree/HEAD/references/deepseek-harness/packages/bundle/web-app) | DeepSeek Harness 插件开发 Skill | broken against 0.1.0-rc.6 |
 | dev-workbench | 0 | [cnskycn/dev-workbench](https://github.com/cnskycn/dev-workbench) | DSH (DeepSeek Harness) 插件开发工作台：草稿验证 → 一键发布 → 一键回滚/停用/卸载，防止坏插件阻塞启动 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-build-hermeticity-proof | 0 | [dongsheng123132/dsh-build-hermeticity-proof](https://github.com/dongsheng123132/dsh-build-hermeticity-proof) | Offline content-addressed proof that a recorded build stayed within declared inputs and outputs | 0.1.1-rc.2 (2026-08-26) |
 | dsh-chaingate-wallet-plugin | 0 | [king-bcolor/dsh-chaingate-wallet-plugin](https://github.com/king-bcolor/dsh-chaingate-wallet-plugin) | DeepSeek Harness wallet plugin powered by the ChainGate TypeScript SDK. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-chat-rail-shao01te | 0 | [shao-01-test/dsh-chat-rail](https://github.com/shao-01-test/dsh-chat-rail) | DeepSeek Harness Web 聊天右侧导航拉条插件：按「提问→回答」轮次显示彩色节点，状态区分（绿/黄/红/蓝），点击跳转提问与回答段落；悬停展开状态面板，刚回答完有闪光动画，关键词提炼为短句。 | 0.1.1-rc.2 (2026-08-26) |
 | dsh-client-ui-board | 0 | [LaoQianwocao/dsh-client-ui-board](https://github.com/LaoQianwocao/dsh-client-ui-board) | Multi-layer project whiteboard view: a mind-map of boxes and connectors over layers, registered into the conversation view ring (no service). 发布为 DSH 客户端插件，可 GitHub / npm / tarball 分发。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-code-review-mario036 | 0 | [mario03690/dsh-code-review](https://github.com/mario03690/dsh-code-review) | Pre-commit polish for coding agents: strict code review, test-case generation, README/changelog/commit-message drafting — the highest-frequency thing a coding harness does. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-desktop-sjscy05 | 0 | [sjscy05/dsh-desktop](https://github.com/sjscy05/dsh-desktop/tree/HEAD/engine) | Single-file Windows launcher for DeepSeek Harness (pkg --sea build) | 0.1.0-rc.8 (2026-08-20) |
@@ -141,6 +143,7 @@ Building, testing, and publishing plugins.
 | dsh-publish-plugin | 0 | [liulei237136/dsh-publish-plugin](https://github.com/liulei237136/dsh-publish-plugin) | Publish a DeepSeek Harness plugin to npm and GitHub in one flow: /publish-dsh-plugin command + publish_plugin tool. 一键把 DSH 插件发布到 npm 与 GitHub（双平台必发）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-publish-skill | 0 | [WonderfulEdge/dsh-publish-skill](https://github.com/WonderfulEdge/dsh-publish-skill) | User-invocable XDSP frontend release skill for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-release-guardian | 0 | [XiaoSong1223/dsh-release-guardian](https://github.com/XiaoSong1223/dsh-release-guardian) | Local, deterministic release risk checks for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-reproducible-build-proof | 0 | [dongsheng123132/dsh-reproducible-build-proof](https://github.com/dongsheng123132/dsh-reproducible-build-proof) | Offline content-addressed proof that independent builds reproduced byte-identical specified artifacts | 0.1.1-rc.2 (2026-08-26) |
 | dsh-selfup | 0 | [geokkjer/dsh-selfup](https://github.com/geokkjer/dsh-selfup) | DeepSeek Harness self-update and deployment tools: git pull + pnpm install + build, dsh launcher install (local or Arch package), and a systemd user service for dsh web. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sim-restart | 0 | [tkwkeven/dsh-sim-restart](https://github.com/tkwkeven/dsh-sim-restart) | Simulated-restart test plugin for DeepSeek Harness: validates that a plugin survives a process restart (module eval → shape → apply → smoke run → dispose → clean exit) in an isolated subprocess | 0.1.0-rc.8 (2026-08-25) |
 | dsh-socrates | 0 | [Paloma966/dsh-socrates](https://github.com/Paloma966/dsh-socrates) | 苏格拉底诘问式开发伴侣：提示闸门（实现意图模糊时强制澄清）+ 高危操作闸门（不可逆命令前提问）+ socratic 技能 + 苏格拉底审查者 persona preset。让 AI 不再顺从，让实现恰好是你想要的。 | 0.1.0-rc.8 (2026-08-20) |
@@ -153,3 +156,4 @@ Building, testing, and publishing plugins.
 | dsh-tool-tdd | 0 | [Xiaooooo434680/dsh-tool-tdd](https://github.com/Xiaooooo434680/dsh-tool-tdd) | TDD test runner tool for DeepSeek Harness: run test commands, parse structured failures (Jest/Vitest/Pytest/Go/Rust/TAP/tsc), and drive a red-green loop | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-test-runner | 0 | [gxinxing/dsh-tool-test-runner](https://github.com/gxinxing/dsh-tool-test-runner) | Model-facing test runner tool for discovering, executing, analyzing, and reporting test results across jest/vitest/pytest/mocha/playwright. | 0.1.0-rc.8 (2026-08-25) |
 | gamify-edu | 0 | [BinLe1988/gamify-edu](https://github.com/BinLe1988/gamify-edu) | A modern, gamified educational platform built with React, TypeScript, and Vite | 0.1.0-rc.8 (2026-08-20) |
+| whiteboat-dsh | 0 | [Circleyan/whiteboat-dsh](https://github.com/Circleyan/whiteboat-dsh) | Whiteboat for DeepSeek Harness. The first release begins with a quiet water surface. | 0.1.1-rc.2 (2026-08-26) |

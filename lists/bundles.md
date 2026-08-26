@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-86 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+87 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -81,6 +81,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-web-search-duckduckgo | 2 | [qwased/dsh-web-search-duckduckgo](https://github.com/qwased/dsh-web-search-duckduckgo/tree/HEAD/packages/dsh-web-search-duckduckgo-bundle) | Free DuckDuckGo search provider and web_search_ddg tool for the DeepSeek Harness web capability seam. | unverified |
 | keyringseam | 2 | [fieldnote-ops/keyringseam](https://github.com/fieldnote-ops/keyringseam) | macOS Keychain credential provider for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | otto-dsh | 2 | [ottotheagent/otto-dsh](https://github.com/ottotheagent/otto-dsh) | Book flights, hotels, and cars from DeepSeek Harness through the Otto travel MCP connector. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-agent-team | 1 | [wowyuarm/dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) | Help humans organize tasks and let agents collaborate - a Team plugin for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
 | dsh-bundle-updater | 1 | [hyls9527/dsh-bundle-updater](https://github.com/hyls9527/dsh-bundle-updater) | Profile bundle manager for checking, searching, adding, and removing DeepSeek Harness plugins. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-deepseek-billing-xiaoxiao | 1 | [xiao-xiao-bai-ya/dsh-deepseek-billing](https://github.com/xiao-xiao-bai-ya/dsh-deepseek-billing) | Draggable DeepSeek balance overlay showing account balance, last-turn spend, and current-turn cost. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-go-balance-show | 1 | [TheMyceliumOfAntan/dsh-go-balance-show](https://github.com/TheMyceliumOfAntan/dsh-go-balance-show) | OpenCode Go usage ring next to the send button, shown while an opencode-go model is selected. | 0.1.0-rc.8 (2026-08-20) |
