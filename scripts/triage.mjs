@@ -59,13 +59,23 @@ const CONCURRENCY = 12;
 // prover has been re-checked against it — not automatically, or the field
 // starts asserting compatibility nobody looked at.
 //
-// Re-checked against 0.1.0-rc.8 (released 2026-08-19) before this bump:
-// docs/user/develop/basic/publish.md is byte-identical to rc.7, and the only
-// `dsh` manifest keys in the harness tree are still `bundle` and `client`. The
-// two install paths this prover reads did not move. rc.8's new surfaces —
-// Profile Bundles and the experimental `ctx.agentTeams` service — ride on
-// `dsh.bundle`, so they need no new proof shape.
-const DSH_VERSION = process.env.DSH_VERSION ?? "0.1.0-rc.8";
+// Re-checked against 0.1.1-rc.2 (npm `latest` since 2026-08-21) before this
+// bump, by diffing the harness tree tag-to-tag rather than trusting the
+// release notes:
+//
+//   apps/cli/src/plugin.ts            byte-identical to rc.8
+//   packages/boot/app-boot/src/profile.ts   byte-identical to rc.8
+//
+// Those two files are the whole `dsh.bundle.patch` install path, and they did
+// not move. packages/client/modules/src/index.ts did change, but only in how
+// it wires the boot-manifest injection internally; the key it reads is still
+// `pkg.dsh?.client`. packages/skill/skill-filesystem/src/ is unchanged, so
+// the SKILL.md frontmatter contract this prover ports is still the loader's.
+//
+// The version this stamps is a claim about *the install-path contract*, not
+// about having booted the harness -- so it may only move when that contract
+// has been re-read at the new version, which is what the diff above is.
+const DSH_VERSION = process.env.DSH_VERSION ?? "0.1.1-rc.2";
 
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
 const write = (rel, value) => writeFileSync(join(ROOT, rel), `${JSON.stringify(value, null, 2)}\n`);
