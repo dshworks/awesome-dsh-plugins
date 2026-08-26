@@ -355,6 +355,36 @@ async function proveDeep(repo) {
     }
   }
 
+  // The flat lane. dsh mounts a skill root and walks its entries: a directory
+  // becomes `<dir>/SKILL.md`, and *any top-level file ending in `.md`* is a
+  // skill in its own right --
+  //
+  //   packages/skill/skill-filesystem/src/index.ts (0.1.1-rc.2)
+  //     :725  ? { path: join(entry.path, 'SKILL.md'), directory: entry.path }
+  //     :726  : entry.type === 'file' && entry.name.endsWith('.md')
+  //
+  // CONTRIBUTING has documented both shapes since the frontmatter fix ("flat
+  // `<name>.md`"), but this prover only ever matched files literally named
+  // SKILL.md, so a repo that ships its skill as `how-to-thing.md` proved
+  // nothing and was rejected for having "no SKILL.md" -- about a file dsh
+  // would have loaded. Same failure as the frontmatter regex: the registry
+  // was refusing work it had already found.
+  //
+  // No name filter beyond `.md`, deliberately: the frontmatter gate is the
+  // filter, and it is dsh's, not ours. A README without `---` on line 1, a
+  // kebab-case `name` and a `description` is not a skill to dsh and is not one
+  // here either.
+  const flat = paths.filter((p) => !p.includes("/") && /\.md$/i.test(p) && !/^SKILL\.md$/i.test(p));
+  for (const p of flat) {
+    const text = await raw(repo, p);
+    if (text && SKILL_FRONTMATTER.test(text)) {
+      return {
+        proof: { evidence: `${p}#frontmatter`, why: "flat top-level <name>.md skill" },
+        facts: { tree: paths.length },
+      };
+    }
+  }
+
   const patch = paths.find((p) => /cordis\.patch\.ya?ml$/i.test(p));
   if (patch) {
     return {
@@ -704,7 +734,11 @@ for (const d of decided) {
   // Admitted, so any rejection on file for this repo has been overturned.
   if (alreadyRejected.has(c.repo.toLowerCase())) overturned.add(c.repo.toLowerCase());
 
-  const category = d.evidence.includes("SKILL.md") ? "skill" : "plugin";
+  // A skill proves itself through frontmatter, whatever the file is called:
+  // `SKILL.md#frontmatter` for the directory lane, `<name>.md#frontmatter` for
+  // the flat one. Keying on the filename alone filed every flat skill as a
+  // "plugin".
+  const category = d.evidence.endsWith("#frontmatter") ? "skill" : "plugin";
   admitted.push(ordered({
     name: nameFor(c.repo, takenNames),
     repo: c.repo,
