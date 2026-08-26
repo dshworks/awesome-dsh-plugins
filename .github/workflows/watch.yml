@@ -24,6 +24,9 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  # A failed scheduled run is a red square on a page nobody opens. The sweep
+  # says so in an issue instead.
+  issues: write
 
 env:
   DISCOVERY_BRANCH: bot/discovery
@@ -44,6 +47,7 @@ jobs:
           node-version: 22
 
       - name: Discover candidates
+        id: discover
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
@@ -53,6 +57,38 @@ jobs:
           # and a topic that went quiet produce the same candidate count, and
           # only one of them is fine.
           grep -E '^discover: (topic:|[0-9]+ .*over the)' /tmp/discover.log > /tmp/coverage.txt || true
+
+      # discover.mjs exits non-zero when the topic sweep itself failed, because
+      # a run that could not read the ecosystem and a quiet ecosystem produce
+      # the same empty queue. Nobody watches the Actions tab on a schedule, so
+      # the red square gets a voice: one reused issue, reopened rather than
+      # duplicated, closed by hand once a sweep lands clean again.
+      - name: Say so when the sweep could not read the ecosystem
+        if: failure() && steps.discover.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TITLE="watch: the discovery sweep could not read the ecosystem"
+          BODY="The scheduled sweep failed on $(date -u +%F' '%T) UTC. The queue and
+          \`data/coverage.json\` are unchanged, which means this run has **no opinion**
+          about the ecosystem — it does not mean the ecosystem is quiet.
+
+          \`\`\`
+          $(tail -20 /tmp/discover.log 2>/dev/null || echo 'no log captured')
+          \`\`\`
+
+          [Run log](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})
+
+          Usually a GitHub search rate limit; an exhaustive sweep is ~110 search
+          calls against a 30/min budget. Close this once a sweep lands clean."
+          EXISTING=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --repo "$GITHUB_REPOSITORY" --body "$BODY"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body "$BODY"
+          fi
 
       # Read every queued repo and say what it is, without writing anything.
       # A queue of bare slugs is work nobody does; a queue that already says
@@ -68,6 +104,35 @@ jobs:
 
       - name: Validate
         run: node scripts/validate.mjs
+
+      # coverage.json is a measurement, not a queue, and it is what the README
+      # prints as its headline. It belongs on main for the same reason
+      # stars/pushedAt do: a fact about the outside world, checked rather than
+      # judged. It used to be staged nowhere -- the sweep measured the topic
+      # universe, wrote the file, and the next step committed only
+      # candidates.json, so the measurement was thrown away on every run. The
+      # denominator froze at whatever a human last committed by hand while
+      # triage.mjs kept advancing the numerator, and the published figure
+      # ratcheted toward a fake 100%. Staging it onto the triage branch would
+      # not fix it either: that branch is rebuilt from main, not merged.
+      - name: Publish the measurement to main
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/coverage.json; then
+            echo "topic universe unchanged since the last sweep"
+            exit 0
+          fi
+          # The README headline reads coverage.json, and ci.yml runs
+          # `render.mjs --check` on every push to main.
+          node scripts/render.mjs
+          node scripts/validate.mjs
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- data/coverage.json README.md lists docs
+          git commit -m "coverage: the sweep re-measured the topic universe"
+          # main can move under us while the sweep runs; rebase rather than fail
+          git pull --rebase origin main
+          git push origin main
 
       - name: Publish to the reused triage PR
         env:

@@ -351,6 +351,7 @@ const settledElsewhere = file.candidates.length - queue.size;
 if (settledElsewhere) console.error(`discover: dropped ${settledElsewhere} queued repo(s) now decided in a sibling registry`);
 
 const found = [];
+const failed = [];
 for (const [name, fn] of [
   ["github-topic", fromTopics],
   ["npm-search", fromNpm],
@@ -361,7 +362,27 @@ for (const [name, fn] of [
     found.push(...(await fn()));
   } catch (err) {
     console.error(`discover: ${name} failed: ${err.message}`);
+    failed.push(name);
   }
+}
+
+// A sweep that could not read the ecosystem and a quiet ecosystem both end
+// here with nothing new to queue, and until now both exited 0 and read green:
+// three "failed:" lines on stderr, then "no changes", then a green check. On
+// 2026-08-26 every one of the three search sources gave up under a rate limit
+// and the run still reported success.
+//
+// github-topic is not one lane among four. It is the only one that measures
+// the denominator the README publishes, so losing it means this run has no
+// opinion about the ecosystem at all -- not that the ecosystem is unchanged.
+// Fail the run rather than let it certify silence. The auxiliary lanes are
+// supplementary: say they broke, but a bad npm day is not a failed sweep.
+if (failed.includes("github-topic")) {
+  console.error(`discover: FATAL the topic sweep failed, so this run measured nothing; the queue and data/coverage.json are unchanged and must not be read as "the ecosystem is quiet"`);
+  process.exit(1);
+}
+if (failed.length) {
+  console.error(`discover: degraded — ${failed.join(", ")} failed; the topic sweep carried the run`);
 }
 
 // When the per-run cap binds it must keep the most substantial finds, not

@@ -759,19 +759,28 @@ write("data/candidates.json", {
 // Every candidate carrying `github-topic` came from that sweep, so deciding
 // one moves the numerator by exactly one. Seeds and npm-search finds do not
 // count: they were never in the topic denominator.
-const queued = new Map(queue.map((c) => [c.repo.toLowerCase(), c]));
+const queuedBefore = new Map(queue.map((c) => [c.repo.toLowerCase(), c]));
 const fromTopic = (repo) =>
-  (queued.get(repo.toLowerCase())?.sources ?? []).includes("github-topic");
+  (queuedBefore.get(repo.toLowerCase())?.sources ?? []).includes("github-topic");
 const decidedNow = [...admitted, ...rejects].filter((row) => fromTopic(row.repo)).length;
+// What stayed behind is knowable exactly, so count it rather than subtract it:
+// a queue that grew since the sweep made `queued - decidedNow` drift below the
+// rows actually sitting there, and `queued: 0` next to a queue holding 151
+// undecided repos is the same lie as a 100% denominator.
+const stillQueued = [...held, ...routed].filter((c) => (c.sources ?? []).includes("github-topic")).length;
 if (decidedNow) {
   try {
     const coverage = read("data/coverage.json");
-    write("data/coverage.json", {
-      ...coverage,
-      decided: Math.min(coverage.decided + decidedNow, coverage.unique),
-      queued: Math.max(coverage.queued - decidedNow, 0),
-    });
-    console.error(`triage: coverage ${coverage.decided} -> ${coverage.decided + decidedNow} of ${coverage.unique}`);
+    const raw = coverage.decided + decidedNow;
+    const decided = Math.min(raw, coverage.unique);
+    write("data/coverage.json", { ...coverage, decided, queued: stillQueued });
+    console.error(`triage: coverage ${coverage.decided} -> ${decided} of ${coverage.unique}, ${stillQueued} still queued`);
+    // The numerator outrunning the denominator is not a rounding artifact: it
+    // means `unique` is older than the registry. Clamping silently is how a
+    // stale sweep becomes a published 100%, so say it out loud.
+    if (raw > coverage.unique) {
+      console.error(`triage: WARNING coverage denominator is stale — decided ${raw} exceeds the ${coverage.measured} sweep's ${coverage.unique}; re-run \`npm run discover\` before publishing`);
+    }
   } catch {
     // No sweep has run yet; there is no figure to keep honest.
   }
