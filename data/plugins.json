@@ -134551,21 +134551,22 @@
     {
       "name": "dsh-wewrite",
       "repo": "jerryjiao/dsh-wewrite",
-      "description": "WeChat official account AI writing pipeline as a DeepSeek Harness (DSH) plugin",
+      "description": "WeChat official account AI writing pipeline: six-step article runs, per-item hot-topic AI digests, RRULE scheduling, workbench UI, chat tools, and fail-closed draft push approval.",
       "category": "plugin",
       "official": false,
       "added": "2026-08-20",
-      "lastVerified": "2026-08-20",
-      "verifiedAgainst": "0.1.0-rc.8",
+      "lastVerified": "2026-08-26",
+      "verifiedAgainst": "0.1.1-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-wewrite",
       "stars": 2,
       "starsUpdated": "2026-08-26",
       "tags": [
         "channels",
         "agents"
       ],
-      "pushedAt": "2026-08-24"
+      "pushedAt": "2026-08-26"
     },
     {
       "name": "dsh-paste-path",
