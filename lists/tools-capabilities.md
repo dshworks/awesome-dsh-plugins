@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-2962 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+2961 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -2733,7 +2733,6 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-tire-pressure | 0 | [uckkk/dsh-tire-pressure](https://github.com/uckkk/dsh-tire-pressure) | tirepressure：胎压建议：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-tire-wear | 0 | [uckkk/dsh-tire-wear](https://github.com/uckkk/dsh-tire-wear) | tirewear：轮胎磨损判断：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-title-length | 0 | [uckkk/dsh-title-length](https://github.com/uckkk/dsh-title-length) | titlelength：标题字数建议：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
-| dsh-tmux-cc | 0 | [adrianleb/dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) | A persistent tmux control-mode cockpit for DeepSeek Harness Web. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-toddler-height | 0 | [uckkk/dsh-toddler-height](https://github.com/uckkk/dsh-toddler-height) | toddlerheight：幼儿身高标准：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-togo | 0 | [uckkk/dsh-togo](https://github.com/uckkk/dsh-togo) | countryinfo：返回 多哥（Togo）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-toilet-train | 0 | [uckkk/dsh-toilet-train](https://github.com/uckkk/dsh-toilet-train) | toilettrain：如厕训练：按参数返回行为纠正建议。 | 0.1.0-rc.8 (2026-08-21) |

@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-879 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+880 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -844,6 +844,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-thumb | 0 | [AliceLJY/dsh-thumb](https://github.com/AliceLJY/dsh-thumb) | A phone shell for the DeepSeek Harness web GUI: sidebar becomes an overlay drawer, tapping a session closes it, settings goes full-screen single column. Zero host class hashes. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-tide-ui | 0 | [SoDaZilla-zzz/dsh-tide-ui](https://github.com/SoDaZilla-zzz/dsh-tide-ui) · [npm](https://www.npmjs.com/package/dsh-tide-ui) | Hot-pluggable tide liquid-glass skin for the dsh web GUI: dynamic aurora/tide backdrop, floating workspace window, deep-tinted liquid-glass panels, deep-sea caustics, animated SVG waves, a draggable | 0.1.0-rc.8 (2026-08-21) |
 | dsh-timeline-enhance | 0 | [lianginx/dsh-timeline-enhance](https://github.com/lianginx/dsh-timeline-enhance) | DSH Web UI plugin: auto-fold chat timeline processes and Deep diving fun tips | 0.1.0-rc.8 (2026-08-25) |
+| dsh-tmux-cc | 0 | [adrianleb/dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) | A persistent tmux control-mode cockpit for DeepSeek Harness Web. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-todo-panel | 0 | [1479650473/dsh-todo-panel](https://github.com/1479650473/dsh-todo-panel) | A persistent to-do panel for DeepSeek Harness: a header toggle opens a floating task panel fed by the todos projection, alongside the stock composer strip | 0.1.0-rc.8 (2026-08-20) |
 | dsh-token-panel-zhubaodi | 0 | [zhubaodian1027/dsh-token-panel](https://github.com/zhubaodian1027/dsh-token-panel) | DSH Web GUI 右侧 Token 面板：上栏额度剩余（内置 Token Harbor 额度查询引擎，Kimi Coding/DeepSeek/Codex Plus），下栏合并 token 用量（cc-switch 代理流量 + Codex/Kimi Code/Pi/Hermes 本地记录增量同步 + DSH 实时记录），按模型分类、按时间截取、无价格。无需额外启动本地服务。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-toolkit-chou109 | 0 | [chou109/dsh-toolkit](https://github.com/chou109/dsh-toolkit/tree/HEAD/components/archives/plugin/dsh-archives) | Show archived sessions at the bottom of the sidebar, grouped by workspace. | 0.1.0-rc.8 (2026-08-20) |
