@@ -209869,6 +209869,24 @@
         "usage"
       ],
       "pushedAt": "2026-08-15"
+    },
+    {
+      "name": "dsh-pr-checks",
+      "repo": "pauloapoloni/dsh-pr-checks",
+      "description": "DSH plugin (host + web client): status and progress of GitHub Actions checks of the open PRs, grouped by workspace/project, in the sidebar footer.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-08-26",
+      "lastVerified": "2026-08-26",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "pushedAt": "2026-08-26",
+      "tags": [
+        "ui",
+        "observability"
+      ]
     }
   ]
 }
