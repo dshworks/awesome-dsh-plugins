@@ -77,6 +77,27 @@ const CONCURRENCY = 12;
 // The version this stamps is a claim about *the install-path contract*, not
 // about having booted the harness -- so it may only move when that contract
 // has been re-read at the new version, which is what the diff above is.
+// 2026-08-28: `dsh-v0.1.2-alpha.1` was tagged in the harness repo at 00:57
+// +0800 and is NOT on npm -- `@deepseek-ai/dsh` still resolves both `latest`
+// and `next` to 0.1.1-rc.2. This constant tracks what a reader would actually
+// install, so it does not move for a tag nobody can `npm i`.
+//
+// It is worth knowing what is coming, though, because it lands on exactly the
+// file this registry's evidence depends on. Diffed rc.2 -> 0.1.2-alpha.1:
+//
+//   packages/boot/app-boot/src/profile.ts   +497/-56   <- half the bundle path
+//   apps/cli/src/plugin.ts                  +6/-1      <- PROFILE_TEMPLATES now
+//                                                         carries {bundles,
+//                                                         patchReload}
+//   packages/skill/skill-filesystem/...     +1/-1      <- a comment; the
+//                                                         default providerName
+//                                                         is documented as
+//                                                         `filesystem`, was
+//                                                         `local`
+//
+// 6,421 files and 25 new packages in total. Re-read profile.ts before this
+// constant moves; a bump without that is the thing this comment exists to
+// prevent.
 const DSH_VERSION = process.env.DSH_VERSION ?? "0.1.1-rc.2";
 
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
