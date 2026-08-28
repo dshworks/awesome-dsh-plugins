@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-2961 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3315 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -63,6 +63,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-preset-plus | 40 | [Rain-kl/dsh-preset-plus](https://github.com/Rain-kl/dsh-preset-plus) | DeepSeek Harness universal preset enhancement plugin: an editable preset editor (system/user/assistant entries + camouflage model output prepopulation) | 0.1.0-rc.8 (2026-08-25) |
 | dsh-wsl-workspace | 39 | [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) · [npm](https://www.npmjs.com/package/dsh-wsl-workspace) | Add a WSL workspace from the Web GUI and run the agent session inside the WSL distribution, no extra dsh install required. | 0.1.0-rc.8 (2026-08-20) |
 | opencues | 39 | [opencues/opencues](https://github.com/opencues/opencues/tree/HEAD/integrations/dsh) · [npm](https://www.npmjs.com/package/@opencues/dsh) | OpenCues for DeepSeek Harness — LLM word alternatives and `_`-gated blank fill-ins in the dsh composer. | 0.1.0-rc.8 (2026-08-20) |
+| deepseek-harness-book | 38 | [Prism-Shadow/deepseek-harness-book](https://github.com/Prism-Shadow/deepseek-harness-book/tree/HEAD/demo/chapter14-cordis/14-2-lifecycle) | 《从零开始玩转 DeepSeek Harness》——DeepSeek Harness 实战指南 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-remote | 38 | [flymysql/dsh-remote](https://github.com/flymysql/dsh-remote) · [npm](https://www.npmjs.com/package/dsh-remote) | Remote-work assistant for DeepSeek Harness: connect SSH (password or key), pick a remote workspace, operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec / rw_sync tools, and. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-oil-sticky-prompt | 36 | [oil-oil/dsh-oil-sticky-prompt](https://github.com/oil-oil/dsh-oil-sticky-prompt) | Pin the nearest user prompt to the top of a DeepSeek Harness transcript | 0.1.0-rc.8 (2026-08-20) |
 | dsh-interconnect | 34 | [Chinesezjc/dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | Cross-instance message/event handoff plugins for DeepSeek Harness (DSH): interconnect service + model-facing tools | 0.1.0-rc.8 (2026-08-20) |
@@ -80,6 +81,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-anchored-standard | 24 | [Jungod1121/dsh-anchored-standard](https://github.com/Jungod1121/dsh-anchored-standard) | Two-phase DeepSeek Harness agent preset: Minimal-aligned bootstrap (bash+read on the first request), then the full Standard tool catalog after the first tool call or reply. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-custom-tool | 24 | [omdsh-dev/dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) | Create and manage sandboxed JavaScript tools with a Monaco editor and a model-driven tool lifecycle | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tether | 24 | [zexadev/dsh-tether](https://github.com/zexadev/dsh-tether) | Reach the DeepSeek Harness on your dev machine from your phone — across networks, through no server at all (iroh P2P) | 0.1.0-rc.8 (2026-08-20) |
+| acryl | 23 | [acryldev/acryl](https://github.com/acryldev/acryl/tree/HEAD/acryl-control) | Host-neutral Cordis control plane for ACRYL | 0.1.1-rc.2 (2026-08-28) |
 | dsh_kline | 23 | [FTShare-Lab/dsh_kline](https://github.com/FTShare-Lab/dsh_kline) | Standalone DeepSeek Harness K-line MCP powered by FTShare. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-agency-agents | 23 | [MichengAI/dsh-agency-agents](https://github.com/MichengAI/dsh-agency-agents) · [npm](https://www.npmjs.com/package/@michengai/dsh-agency-agents) | Agency Experts — a summonable domain-expert roster for DSH (expert mode) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-computer-use-zrui | 23 | [ZRui-C/dsh-computer-use](https://github.com/ZRui-C/dsh-computer-use) | Text-first browser and background macOS control for DeepSeek Harness, targeting the right process and window without grabbing the pointer. | 0.1.0-rc.8 (2026-08-20) |
@@ -109,6 +111,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | deepseek-peak | 15 | [YMRYMR/deepseek-peak](https://github.com/YMRYMR/deepseek-peak/tree/HEAD/harness-plugin) | Live DeepSeek V4 API peak/off-peak status widget in the conversation input dock strip. Browser computes phase from the clock; host face proxies the platform's /user/balance with the harness | unverified |
 | dsh-surfing-plugin-cyijun | 15 | [cyijun/dsh-surfing-plugin](https://github.com/cyijun/dsh-surfing-plugin) | SearXNG search and Crawl4AI fetch providers for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-with-pencil | 15 | [IWAIBAOLI/dsh-with-pencil](https://github.com/IWAIBAOLI/dsh-with-pencil) · [npm](https://www.npmjs.com/package/dsh-with-pencil) | Session-aware Pencil integration for DeepSeek Harness with official MCP tools and an on-demand browser canvas. | 0.1.0-rc.8 (2026-08-20) |
+| nekro-nxt | 15 | [NekroAI/nekro-nxt](https://github.com/NekroAI/nekro-nxt/tree/HEAD/apps/server) | NekroNXT 长期运行 Server 宿主 | 0.1.1-rc.2 (2026-08-28) |
 | deepseek-harness-action | 14 | [Lixiaoyiao/deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) | DeepSeek Harness for GitHub - AI Code Review, CI Diagnosis, Auto Fix, and Issue to PR | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-mount | 14 | [acefun29/dsh-file-mount](https://github.com/acefun29/dsh-file-mount) | DeepSeek Harness plugin: incremental file mounting with read dedupe, version-aware invalidation, and a mounted-files view (host half + web client half) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-flowglass | 14 | [Iwctwbh/dsh-flowglass](https://github.com/Iwctwbh/dsh-flowglass) · [npm](https://www.npmjs.com/package/dsh-flowglass) | 流镜（DSH 原生静态插件） | 0.1.0-rc.8 (2026-08-20) |
@@ -197,6 +200,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-ssh-dshssh | 7 | [dsh-ssh/dsh-ssh](https://github.com/dsh-ssh/dsh-ssh/tree/HEAD/packages/dsh-ssh) · [npm](https://www.npmjs.com/package/@dsh-ssh/dsh-ssh) | SSH remote workspace for DeepSeek Harness: host plugin bundle (M2a ssh-core+settings, M2b settings-page UI + testConnection remote) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tensorlake-sandbox | 7 | [tensorlakeai/dsh-tensorlake-sandbox](https://github.com/tensorlakeai/dsh-tensorlake-sandbox) | Tensorlake sandbox execution providers for DeepSeek Harness filesystem and subprocess tools. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-trail | 7 | [ayahunter/dsh-trail](https://github.com/ayahunter/dsh-trail/tree/HEAD/packages/bundle) | Patch bundle that mounts dsh-trail and disables the shipped trajectory view. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-visualizer-abidhmuh | 7 | [abidhmuhsin/dsh-visualizer](https://github.com/abidhmuhsin/dsh-visualizer) | Visualizer plugin for DeepSeek Harness: the `visualizer` tool streams a self-contained HTML document into the chat as it is written, live-previewed by a sandboxed inline frame. One package ships both | 0.1.1-rc.2 (2026-08-28) |
 | dsh-weather | 7 | [sunshine-lang/dsh-weather](https://github.com/sunshine-lang/dsh-weather) · [npm](https://www.npmjs.com/package/dsh-weather) | Weather tool for DeepSeek Harness: current conditions and multi-day forecasts via Open-Meteo. | 0.1.0-rc.8 (2026-08-20) |
 | graphlint | 7 | [AngelosZou/graphlint](https://github.com/AngelosZou/graphlint/tree/HEAD/integrations/dsh) · [npm](https://www.npmjs.com/package/dsh-graphlint) | DeepSeek Harness plugin bundle: graphlint dead-code detection tools for agents (graphlint_query / graphlint_build / graphlint_config + graphlint skill). | 0.1.0-rc.8 (2026-08-20) |
 | mattpocock-skills-dsh | 7 | [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) · [npm](https://www.npmjs.com/package/mattpocock-skills-dsh) | Matt Pocock's skills for the DeepSeek Harness: grilling, writing-for-agents, wait-what and more — adapted from https://github.com/mattpocock/skills | 0.1.0-rc.8 (2026-08-20) |
@@ -217,6 +221,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-plugin-anydoc | 6 | [beancookie/dsh-plugin-anydoc](https://github.com/beancookie/dsh-plugin-anydoc) | DSH plugin: convert documents to GitHub-Flavored Markdown via @firecrawl/anydoc | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-j-space | 6 | [kolawong/dsh-plugin-j-space](https://github.com/kolawong/dsh-plugin-j-space) | J-Space Cognition Suite V3.6 - Inference-time cognitive control and deep reasoning for DeepSeek models | 0.1.0-rc.8 (2026-08-20) |
 | dsh-restart | 6 | [anweat/dsh-restart](https://github.com/anweat/dsh-restart) · [npm](https://www.npmjs.com/package/dsh-restart) | DSH 重启插件：可配置的重启方式（Node 原生 / 旧 PowerShell 适配）、重启后自动继续的提示词、可选看门狗自动拉起。 | 0.1.0-rc.8 (2026-08-20) |
+| DSH-RolePlay-riemannr | 6 | [RiemannRe3/DSH-RolePlay](https://github.com/RiemannRe3/DSH-RolePlay) | DSH-native Tavern character-card, opening and worldbook runtime. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-selection-ask | 6 | [lzbaclz/dsh-selection-ask](https://github.com/lzbaclz/dsh-selection-ask) | ChatGPT-style text selection helper for DeepSeek Harness: select text in a conversation and a floating 「询问 DeepSeek」 button appears; click it to quote the selection into the composer. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-serial-console | 6 | [InfinitePersistence/dsh-serial-console](https://github.com/InfinitePersistence/dsh-serial-console) · [npm](https://www.npmjs.com/package/@infinitepersistence/dsh-serial-console) | Auditable serial console for DeepSeek Harness with shared user and AI access | 0.1.0-rc.8 (2026-08-20) |
 | dsh-smarthome | 6 | [YLifeOnlyOnce/dsh-smarthome](https://github.com/YLifeOnlyOnce/dsh-smarthome) | Home Assistant control behind an approval gate: read entity states, query history, and call services. | 0.1.0-rc.8 (2026-08-20) |
@@ -316,6 +321,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-plugin-clarify | 4 | [Hilbert-beinghappy/dsh-plugin-clarify](https://github.com/Hilbert-beinghappy/dsh-plugin-clarify) | Off-transcript clarification Host plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-24) |
 | dsh-plugin-vetting | 4 | [truelove-dreamer/dsh-plugin-vetting](https://github.com/truelove-dreamer/dsh-plugin-vetting) · [npm](https://www.npmjs.com/package/dsh-plugin-vetting) | DeepSeek Harness plugin: heuristic vetting of installed third-party plugins — static code scan for exfiltration, credential access, obfuscation, and persistence patterns, plus an optional runtime | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-xiaomi-mimo-tts | 4 | [ppy-web/dsh-plugin-xiaomi-mimo-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) · [npm](https://www.npmjs.com/package/dsh-xiaomi-tts) | Xiaomi MiMo text-to-speech controls for DeepSeek Harness Web assistant messages | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugins-marvekg | 4 | [MarvekG/dsh-plugins](https://github.com/MarvekG/dsh-plugins) | Out-of-tree DSH plugin collection (compatibility fixes and enhancements) | 0.1.1-rc.2 (2026-08-28) |
 | dsh-powershell-check | 4 | [chaggle/dsh-powershell-check](https://github.com/chaggle/dsh-powershell-check) | Native DeepSeek Harness plugin: gates every pwsh tool call against the PowerShell pitfalls from the blog post 'PowerShell 实战踩坑大全' via the official tools/pre-execute interception point, and bundles | 0.1.0-rc.8 (2026-08-20) |
 | dsh-prompt-enhancer-lcq1024 | 4 | [LCQ-1024/dsh-prompt-enhancer](https://github.com/LCQ-1024/dsh-prompt-enhancer) | DSH 输入框提示词增强按钮：一键优化未发送的草稿，可选择采用或拒绝。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-prompt-rewrite | 4 | [c4pt0r/dsh-prompt-rewrite](https://github.com/c4pt0r/dsh-prompt-rewrite) | Persistent prompt rewrite rules for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
@@ -415,6 +421,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-llm-verifier-web0926 | 3 | [Web0926/dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) | Best-of-3/5 orchestration and LLM-as-a-Verifier selection for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mask | 3 | [PerryLink/dsh-mask](https://github.com/PerryLink/dsh-mask) · [npm](https://www.npmjs.com/package/dsh-mask) | PII masking middleware for DeepSeek Harness: anonymize names, phones, emails, ID cards, bank cards, keys, and addresses to placeholders before they reach the model, restore them at the display layer | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mcp-apps | 3 | [sugarforever/dsh-mcp-apps](https://github.com/sugarforever/dsh-mcp-apps) · [npm](https://www.npmjs.com/package/@sugarforever/dsh-mcp-apps) | MCP Apps host plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| dsh-mcp-diff | 3 | [Fakek0f3sT/dsh-mcp-diff](https://github.com/Fakek0f3sT/dsh-mcp-diff) | Diff cards in the DeepSeek Harness web chat for MCP filesystem tool calls (edit_file, write_file) — same rendering as the built-in edit/write tools. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-mediacrawler | 3 | [xwh-01/dsh-mediacrawler](https://github.com/xwh-01/dsh-mediacrawler) | Installable DeepSeek Harness profile bundle for a separately installed MediaCrawler checkout | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mobile-wikechi | 3 | [Wike-CHI/dsh-mobile](https://github.com/Wike-CHI/dsh-mobile) | Mobile device capability for DeepSeek Harness: a MobileService capability seam (definition -> provider -> tool consumers), mock/mobile-mcp providers, agent tools | 0.1.0-rc.8 (2026-08-25) |
 | dsh-multiroot-workspace | 3 | [Blackoutta/dsh-multiroot-workspace](https://github.com/Blackoutta/dsh-multiroot-workspace) · [npm](https://www.npmjs.com/package/dsh-multiroot-workspace) | Multi-root logical Workspaces for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
@@ -570,6 +577,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-checkdigit | 2 | [TYEclipse/dsh-checkdigit](https://github.com/TYEclipse/dsh-checkdigit) | Check-digit mathematics toolbox for DeepSeek Harness (dsh): generate, validate and detect check digits for Luhn, Verhoeff, Damm, ISBN-10/13, EAN-8/13, UPC-A, ISIN, CUSIP and IBAN — zero runtime | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cite | 2 | [STARDUSTLC666/dsh-cite](https://github.com/STARDUSTLC666/dsh-cite) · [npm](https://www.npmjs.com/package/dsh-cite) | DSH 参考文献工具插件：cite_lookup/cite_format/cite_bibtex/cite_check 四工具，Crossref 元数据查询（含 DOI 精确解析与并发校验），GB/T 7714 / APA / MLA / Chicago 格式化，零运行时依赖。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cli-workspaces | 2 | [qingkong143/dsh-cli-workspaces](https://github.com/qingkong143/dsh-cli-workspaces) | dsh profile bundle: workspace-switching one-shot CLI mode — dsh --profile cli -w <workspace> -c <task>, plus `ws` management subcommands. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-client-ui-brand | 2 | [ningbonb/dsh-client-ui-brand](https://github.com/ningbonb/dsh-client-ui-brand) | Non-invasive product name and logo branding for DeepSeek Harness Web | 0.1.1-rc.2 (2026-08-28) |
 | dsh-client-ui-shortcuts | 2 | [hytime/dsh-client-ui-shortcuts](https://github.com/hytime/dsh-client-ui-shortcuts) | Profile-aware keyboard shortcuts for the DeepSeek Harness Web Client | 0.1.0-rc.8 (2026-08-24) |
 | dsh-cloakbrowser | 2 | [SJF-ECNU/dsh-cloakbrowser](https://github.com/SJF-ECNU/dsh-cloakbrowser) | Native CloakBrowser tools for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cloudflare | 2 | [try-works/dsh-cloudflare](https://github.com/try-works/dsh-cloudflare/tree/HEAD/packages/dsh-cloudflare) · [npm](https://www.npmjs.com/package/@try-works/dsh-cloudflare) | DeepSeek Harness plugin providing 1:1 parity with the Codex Cloudflare plugin (skills + slash commands + Cloudflare API MCP) | 0.1.0-rc.8 (2026-08-20) |
@@ -629,6 +637,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-github-connect | 2 | [Moon-shiyue/dsh-github-connect](https://github.com/Moon-shiyue/dsh-github-connect) | 便携式 GitHub 连接插件：在对话框左下角一键让 DeepSeek 等 AI 连接你的 GitHub 账号（OAuth 设备流 / Personal Access Token），连接后 AI 可通过 github_api 工具直接操作你的 GitHub。 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-github-mcp | 2 | [GitRuozhi/dsh-github-mcp](https://github.com/GitRuozhi/dsh-github-mcp) | GitHub official MCP server bridge for DeepSeek Harness: registers mcp__github__* native tools via @deepseek-ai/dsh-mcp-client, plus a github_file_read tool that reads file contents over REST (fills | 0.1.0-rc.8 (2026-08-20) |
 | dsh-github-reviewer | 2 | [Xinlong-Wu/dsh-github-reviewer](https://github.com/Xinlong-Wu/dsh-github-reviewer) · [npm](https://www.npmjs.com/package/dsh-github-reviewer) | DeepSeek Harness plugin: automated GitHub PR review bot ported from LingoBridge | 0.1.0-rc.8 (2026-08-20) |
+| dsh-github-router | 2 | [AngelosZou/dsh-github-router](https://github.com/AngelosZou/dsh-github-router) | DeepSeek Harness plugin: read-only GitHub access for agents (github_probe / github_pr / github_issue / github_file / github_api). Routes every request inside the tool — api.github.com (direct or | 0.1.1-rc.2 (2026-08-28) |
 | dsh-graph-miuzel | 2 | [miuzel/dsh-graph](https://github.com/miuzel/dsh-graph/tree/HEAD/dsh-graph-host) | dsh-graph 单包（host+client 合并，g-116）：把 dsh-graph 核心层包装为 DSH cordis 插件，同时提供 graph_* 目标生命周期工具（建卡/判据/迁移/派发/评审/交付）、/api/dsh-graph REST 端点与浏览器二维泳道看板（conversation.view）。包名 = repo 名（负责人定案）；内部 host 插件 id 保留 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-greet-plugin-luxiu666 | 2 | [luxiu666/dsh-greet-plugin](https://github.com/luxiu666/dsh-greet-plugin) | A greet tool plugin for DeepSeek Harness (dsh). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-gsv | 2 | [TaoruiLiu19/dsh-gsv](https://github.com/TaoruiLiu19/dsh-gsv) | DSH plugin for GSV-TTS-Lite: voice presets, auto-read, and engine setup assistant | 0.1.0-rc.8 (2026-08-25) |
@@ -662,6 +671,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-meow-cachebilling | 2 | [Phant0Meow/dsh-meow-cachebilling](https://github.com/Phant0Meow/dsh-meow-cachebilling) | 喵账单：输入框下方一行实时读数——本轮请求的缓存命中/未命中/输出各花多少钱，峰谷自动计价，专治『缓存命中率 100% 却越用越贵』 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-message-annotator | 2 | [Theoz001/dsh-message-annotator](https://github.com/Theoz001/dsh-message-annotator) | Message Annotator for DeepSeek Harness: stage numbered quote+comment annotations on assistant messages (selection floating trigger + per-message action), then send them aligned and together to the | 0.1.0-rc.8 (2026-08-20) |
 | dsh-message-copy-enhance | 2 | [Asianfleet/dsh-message-copy-enhance](https://github.com/Asianfleet/dsh-message-copy-enhance) · [npm](https://www.npmjs.com/package/dsh-message-copy-enhance) | Copy dsh assistant output as Markdown, preserving links, LaTeX sources and code fences. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-mic-dictation | 2 | [Kilganon725/dsh-mic-dictation](https://github.com/Kilganon725/dsh-mic-dictation) | DeepSeek Harness client plugin: a microphone dictation button to the left of the Full access control in the web composer. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-mihome | 2 | [loki888666/dsh-mihome](https://github.com/loki888666/dsh-mihome) · [npm](https://www.npmjs.com/package/dsh-mihome) | Control Xiaomi/Mijia smart-home devices from DeepSeek Harness, bridged through Home Assistant | 0.1.0-rc.8 (2026-08-20) |
 | dsh-minimal-first-turn | 2 | [ZRui-C/dsh-minimal-first-turn](https://github.com/ZRui-C/dsh-minimal-first-turn) · [npm](https://www.npmjs.com/package/dsh-minimal-first-turn) | Minimal first-turn conditioning for DeepSeek Harness Web sessions, with a persistent UI toggle. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-minimal-ptc | 2 | [STARDUSTLC666/dsh-minimal-ptc](https://github.com/STARDUSTLC666/dsh-minimal-ptc) · [npm](https://www.npmjs.com/package/dsh-minimal-ptc) | Minimal prompt x full PTC tools for DeepSeek Harness - aligned with the Project2 we/let's trajectory (Minimal 99/96). | 0.1.0-rc.8 (2026-08-20) |
@@ -711,6 +721,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-postmortem | 2 | [zzh-newlearner/dsh-postmortem](https://github.com/zzh-newlearner/dsh-postmortem) · [npm](https://www.npmjs.com/package/@huichangzz/dsh-postmortem) | Local-first failure postmortems for DeepSeek Harness sessions. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-power-button | 2 | [huasheng33991/dsh-power-button](https://github.com/huasheng33991/dsh-power-button) | One-click start/stop (restart) button for DeepSeek Harness, pinned to the window's bottom-right corner. · DeepSeek Harness 一键启停按钮，固定在窗口右下角。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-profile-lab | 2 | [young-tim/dsh-profile-lab](https://github.com/young-tim/dsh-profile-lab) | Reproducible local experiment matrices for DSH profiles | 0.1.0-rc.8 (2026-08-20) |
+| dsh-progressive-tools-everclea | 2 | [everclear077/dsh-progressive-tools](https://github.com/everclear077/dsh-progressive-tools) | Cache-stable progressive tool discovery and dispatch for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-project-file-explorer | 2 | [BillionSeniors/dsh-project-file-explorer](https://github.com/BillionSeniors/dsh-project-file-explorer) | DeepSeek Harness 项目文件浏览器：右侧停靠文件树 + 点击文件在主区打开预览标签（代码/文本/图片/音视频/PDF），新增工作区自动停靠，窄屏响应式抽屉。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-project-prompt | 2 | [imroc/dsh-project-prompt](https://github.com/imroc/dsh-project-prompt) | Private, per-project system-prompt rules for DeepSeek Harness — matched by git remote URL, repo path, or cwd prefix; worktree-aware; never committed to the repository. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-prompt-presets-zhangdon | 2 | [zhangdong456/dsh-prompt-presets](https://github.com/zhangdong456/dsh-prompt-presets) | Reusable prompt presets for DeepSeek Harness: manage a preset library in Settings and inject any preset at the start of the composer draft with one click. / DeepSeek Harness 提示词预设库：设置页管理、对话框一键注入。 | 0.1.0-rc.8 (2026-08-24) |
@@ -824,10 +835,12 @@ New things the model can do: search, browser, files, databases, devices, media.
 | mosaic_compress | 2 | [TuringCorp-net/mosaic-memory-compress](https://github.com/TuringCorp-net/mosaic-memory-compress/tree/HEAD/dsh-module) | Natural forgetting-curve compaction backend for DeepSeek Harness (prototype) | 0.1.0-rc.8 (2026-08-20) |
 | muxiva-dsh-voice | 2 | [PiyotaHu/muxiva-dsh-voice](https://github.com/PiyotaHu/muxiva-dsh-voice) · [npm](https://www.npmjs.com/package/@muxiva/dsh-voice) | Local-first, full-duplex voice for DeepSeek Harness, orchestrated by Muxiva | 0.1.0-rc.8 (2026-08-20) |
 | noatmark-dsh-plugin | 2 | [ylwl1997/noatmark-dsh-plugin](https://github.com/ylwl1997/noatmark-dsh-plugin) | NoAtMark text hygiene as a DeepSeek Harness (dsh) plugin — sanitize untrusted text, scan invisible characters, clean LLM formatting, and escape CSV formula injection. | 0.1.0-rc.8 (2026-08-20) |
+| obsidian-plugin-deepshian | 2 | [zhenghaoyang24/obsidian-plugin-deepshian](https://github.com/zhenghaoyang24/obsidian-plugin-deepshian/tree/HEAD/dsh-profile/deepshian) | Sidebar AI chat powered by the local DeepSeek Harness (dsh): streaming replies, tool calls, and real vault file edits. | 0.1.1-rc.2 (2026-08-28) |
 | oh-my-dsh-coeasy | 2 | [coeasy/oh-my-dsh](https://github.com/coeasy/oh-my-dsh/tree/HEAD/plugins/embedded-client) | Cordis bundle: lock webserver to 127.0.0.1:0 and write a ready file for client shells. | 0.1.0-rc.8 (2026-08-20) |
 | oh-my-ticket | 2 | [rqwj/oh-my-ticket](https://github.com/rqwj/oh-my-ticket) | DSH ticket management plugin: Epic/Story/Ticket hierarchy backed by SQLite + Markdown | 0.1.0-rc.8 (2026-08-20) |
 | omdsh-runtime | 2 | [omdsh-dev/omdsh-runtime](https://github.com/omdsh-dev/omdsh-runtime) · [npm](https://www.npmjs.com/package/@ohmydsh/runtime) | Lightweight OMDSH Runtime and Profile Pack toolkit for auditable DSH composition, signing, candidate installs, and rollback | 0.1.0-rc.8 (2026-08-20) |
 | peaklow | 2 | [Linux-System-0/peaklow](https://github.com/Linux-System-0/peaklow) | 高峰/低峰自动调度宿主插件（DeepSeek Harness / Cordis）+ 浏览器端 client 状态卡 | 0.1.0-rc.8 (2026-08-24) |
+| ProgressTarget | 2 | [02TJS/ProgressTarget](https://github.com/02TJS/ProgressTarget) | Persistent, quality-gated, resource-aware execution plans for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | qcc-mcp-legal-oauth | 2 | [duhu2000/qcc-mcp-legal-oauth](https://github.com/duhu2000/qcc-mcp-legal-oauth) · [npm](https://www.npmjs.com/package/qcc-dsh-mcp-legal-oauth) | DeepSeek Harness 插件：一键 OAuth 授权连接企查查（Qichacha）法律数据 MCP（法律产品：法规/reg 案例） / One-click OAuth connect to Qichacha Legal MCP (regulation & case) | 0.1.0-rc.8 (2026-08-20) |
 | remotion-video-plugin | 2 | [chenjie1129/remotion-video-plugin](https://github.com/chenjie1129/remotion-video-plugin) | Remotion video creation and verified rendering plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-24) |
 | review-quote-sh | 2 | [Nothree-code/review-quote-sh](https://github.com/Nothree-code/review-quote-sh) | Message review (multi-model cross review) + quote (Q&A chips) for the DSH conversation UI | 0.1.0-rc.8 (2026-08-20) |
@@ -886,12 +899,15 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-a-share-screener | 1 | [Gaines-cz/dsh-a-share-screener](https://github.com/Gaines-cz/dsh-a-share-screener) | A-share stock screening plugin for DeepSeek Harness (dsh): pluggable strategies on a free Eastmoney data source, behind an extensible data-source abstraction. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-ab-sample | 1 | [uckkk/dsh-ab-sample](https://github.com/uckkk/dsh-ab-sample) | A/B测试样本量 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-about-updater | 1 | [archyciao/dsh-about-updater](https://github.com/archyciao/dsh-about-updater) | About section for dsh: shows the version, checks for updates, and can auto-update + restart | 0.1.0-rc.8 (2026-08-20) |
+| dsh-abs | 1 | [uckkk/dsh-abs](https://github.com/uckkk/dsh-abs) | 绝对值 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ac-size | 1 | [uckkk/dsh-ac-size](https://github.com/uckkk/dsh-ac-size) | acsize：空调匹数选择：按参数精确计算，返回详细结果（行业经验估算）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ac-trouble | 1 | [uckkk/dsh-ac-trouble](https://github.com/uckkk/dsh-ac-trouble) | actrouble：空调故障排查：按参数返回排查步骤（电路燃气请找专业）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-access-mode | 1 | [ddll8023/dsh-access-mode](https://github.com/ddll8023/dsh-access-mode) | Standalone DeepSeek Harness access-mode plugin with Default, No Edit, and Auto modes | 0.1.0-rc.8 (2026-08-20) |
 | dsh-accessibility | 1 | [omdsh-dev/dsh-accessibility](https://github.com/omdsh-dev/dsh-accessibility) | Screen-reader guidance and in-app accessibility diagnostics for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
 | dsh-accounting-cert | 1 | [uckkk/dsh-accounting-cert](https://github.com/uckkk/dsh-accounting-cert) | accountingcert：会计证书要求：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-accounts | 1 | [kangshifu1/dsh-accounts](https://github.com/kangshifu1/dsh-accounts) · [npm](https://www.npmjs.com/package/dsh-accounts) | DSH 多租户账户与授权插件：PostgreSQL 存储 + admin 管理 API + 每账户独立工作目录（独立插件，不改 DSH 核心） | 0.1.0-rc.8 (2026-08-20) |
+| dsh-acre2ha | 1 | [uckkk/dsh-acre2ha](https://github.com/uckkk/dsh-acre2ha) | 英亩转公顷 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-actinium | 1 | [uckkk/dsh-actinium](https://github.com/uckkk/dsh-actinium) | 锕元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-active-listening | 1 | [uckkk/dsh-active-listening](https://github.com/uckkk/dsh-active-listening) | activelistening：有效倾听：按场景返回结构化方法。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-acupoint | 1 | [uckkk/dsh-acupoint](https://github.com/uckkk/dsh-acupoint) | acupoint：穴位保健：按参数返回中医养生方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ad-bid | 1 | [uckkk/dsh-ad-bid](https://github.com/uckkk/dsh-ad-bid) | adbid：广告出价上限：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
@@ -900,6 +916,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-adaptive-reasoning | 1 | [zhuifengqug/dsh-adaptive-reasoning](https://github.com/zhuifengqug/dsh-adaptive-reasoning) · [npm](https://www.npmjs.com/package/dsh-adaptive-reasoning) | Capability-aware reasoning effort slider for the DeepSeek Harness web model selector. | 0.1.0-rc.8 (2026-08-21) |
 | dsh-adhd-friendly | 1 | [satan9394/dsh-adhd-friendly](https://github.com/satan9394/dsh-adhd-friendly) | ADHD 友好输出：行动先行、步骤编号、抑制离题、每轮重申状态、具体时间估计、让进展可见、就事论事错误、列表上限 5 项、无开场白/总结/结尾语。受 ayghri/i-have-adhd（22.3k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-adult-vaccine | 1 | [uckkk/dsh-adult-vaccine](https://github.com/uckkk/dsh-adult-vaccine) | adultvaccine：成人疫苗：按参数精确计算，返回健康建议（请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-afghanistan | 1 | [uckkk/dsh-afghanistan](https://github.com/uckkk/dsh-afghanistan) | 阿富汗国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-age-calc | 1 | [uckkk/dsh-age-calc](https://github.com/uckkk/dsh-age-calc) | 年龄计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-age-edu | 1 | [uckkk/dsh-age-edu](https://github.com/uckkk/dsh-age-edu) | ageedu：分龄教育：按参数返回亲子教育方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-agent-browser | 1 | [jonah791/dsh-agent-browser](https://github.com/jonah791/dsh-agent-browser) | 浏览器工具插件：client 捕获 console/全局错误上报宿主，agent 用 browser_console 工具读取——自己看 F12 Console。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-agent-shell | 1 | [PastSheep/dsh-agent-shell](https://github.com/PastSheep/dsh-agent-shell) | Agent shell tools (bash via Git Bash, cmd) with a live shell-record feed: every execution is recorded and served to the right-drawer Shell drawer over a loopback RPC channel. 对话右侧 Shell | 0.1.0-rc.8 (2026-08-20) |
@@ -914,18 +932,24 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-air-plant | 1 | [uckkk/dsh-air-plant](https://github.com/uckkk/dsh-air-plant) | airplant：室内绿植：按参数返回家居空气质量方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-air-purifier | 1 | [uckkk/dsh-air-purifier](https://github.com/uckkk/dsh-air-purifier) | airpurifier：空气净化器选购：按参数返回家居空气质量方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-airport-time | 1 | [uckkk/dsh-airport-time](https://github.com/uckkk/dsh-airport-time) | airporttime：机场提前时间：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-albania | 1 | [uckkk/dsh-albania](https://github.com/uckkk/dsh-albania) | 阿尔巴尼亚国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-aldehyde-control | 1 | [uckkk/dsh-aldehyde-control](https://github.com/uckkk/dsh-aldehyde-control) | aldehydecontrol：甲醛治理：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-algeria | 1 | [uckkk/dsh-algeria](https://github.com/uckkk/dsh-algeria) | 阿尔及利亚国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-algo-compare | 1 | [uckkk/dsh-algo-compare](https://github.com/uckkk/dsh-algo-compare) | algocompare：算法耗时对比：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-algorithmic-art | 1 | [satan9394/dsh-algorithmic-art](https://github.com/satan9394/dsh-algorithmic-art) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-all-gitbash | 1 | [liceses/dsh-all-gitbash](https://github.com/liceses/dsh-all-gitbash) | DeepSeek Harness plugin: routes every pwsh command execution on Windows through Git for Windows bash — the pwsh and bash tools actually run git bash, so the model writes bash natively. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-altitude | 1 | [uckkk/dsh-altitude](https://github.com/uckkk/dsh-altitude) | altitude：海拔高反：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-altitude-sick | 1 | [uckkk/dsh-altitude-sick](https://github.com/uckkk/dsh-altitude-sick) | altitudesick：高反预防：按参数返回徒步登山方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-aluminium | 1 | [uckkk/dsh-aluminium](https://github.com/uckkk/dsh-aluminium) | 铝元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-amb-light | 1 | [uckkk/dsh-amb-light](https://github.com/uckkk/dsh-amb-light) | amblight：氛围照明：按参数返回家居灯光设计方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ambiguity-handling | 1 | [changlianxiya-139/dsh-ambiguity-handling](https://github.com/changlianxiya-139/dsh-ambiguity-handling) | Append ambiguity-handling rules to dsh system prompt | 0.1.0-rc.8 (2026-08-20) |
+| dsh-americium | 1 | [uckkk/dsh-americium](https://github.com/uckkk/dsh-americium) | 镅元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-amount-calc | 1 | [uckkk/dsh-amount-calc](https://github.com/uckkk/dsh-amount-calc) | amountcalc：火锅分量计算：按参数返回火锅聚餐方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-anal-gland | 1 | [uckkk/dsh-anal-gland](https://github.com/uckkk/dsh-anal-gland) | analgland：肛门腺护理：按参数返回护理建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-anchor | 1 | [Wang-Lin-Chang/dsh-anchor](https://github.com/Wang-Lin-Chang/dsh-anchor) | Session Anchor Protocol plugin for DeepSeek Harness: pre-committed intents + immediate reconciliation on every tool action. Crash, rescan the anchor tree, adopt, continue - the filesystem is the | 0.1.0-rc.8 (2026-08-20) |
+| dsh-andorra | 1 | [uckkk/dsh-andorra](https://github.com/uckkk/dsh-andorra) | 安道尔国 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-android-sandbox | 1 | [Snail-Turbo/dsh-android-sandbox](https://github.com/Snail-Turbo/dsh-android-sandbox/tree/HEAD/userspace-bash) | User-space bash executor for hosts without a usable kernel runner: advertises a sandbox mode (so permission-presets and tool escalation surfaces work) but never confines — file-effect enforcement is | 0.1.0-rc.8 (2026-08-20) |
+| dsh-angola | 1 | [uckkk/dsh-angola](https://github.com/uckkk/dsh-angola) | 安哥拉国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-anima-tags | 1 | [jonah791/dsh-anima-tags](https://github.com/jonah791/dsh-anima-tags) | 封装 danbooru-tags.exe 为 DSH 工具面（硬锚点校验/随机抽卡/批量），支撑 Anima 生图 prompt 组装 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-anniversary | 1 | [uckkk/dsh-anniversary](https://github.com/uckkk/dsh-anniversary) | anniversary：纪念日计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-annual-leave | 1 | [uckkk/dsh-annual-leave](https://github.com/uckkk/dsh-annual-leave) | annualleave：年假计算器：按参数精确计算，返回详细结果与说明。 | 0.1.0-rc.8 (2026-08-20) |
@@ -934,6 +958,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-anti-theft | 1 | [uckkk/dsh-anti-theft](https://github.com/uckkk/dsh-anti-theft) | antitheft：防盗措施：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-antibiotic | 1 | [uckkk/dsh-antibiotic](https://github.com/uckkk/dsh-antibiotic) | antibiotic：抗生素使用：按参数精确计算，返回用药建议（用药请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-antigua | 1 | [uckkk/dsh-antigua](https://github.com/uckkk/dsh-antigua) | 安提瓜和巴布达国 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-antimony | 1 | [uckkk/dsh-antimony](https://github.com/uckkk/dsh-antimony) | 锑元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-anxiety-check | 1 | [uckkk/dsh-anxiety-check](https://github.com/uckkk/dsh-anxiety-check) | anxietycheck：焦虑自评：按参数返回明确建议（心理健康内容仅供参考）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-anydrop | 1 | [babutiger/dsh-anydrop](https://github.com/babutiger/dsh-anydrop) | Drop-anything plugin for DeepSeek Harness: immutable per-message attachment IDs, streaming binary uploads, idempotent batch synchronization, restart-safe manifests, chunked large-file reads, and. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-anywhere-web | 1 | [CsBpRd/dsh-anywhere-web](https://github.com/CsBpRd/dsh-anywhere-web) | dsh web 任意入口访问增强：注入 crypto.randomUUID polyfill 并放行 0.0.0.0/私网/隧道域名的 privileged API | 0.1.0-rc.8 (2026-08-20) |
@@ -967,11 +992,14 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-back-care | 1 | [uckkk/dsh-back-care](https://github.com/uckkk/dsh-back-care) | backcare：腰背护理：按参数返回明确建议（康复建议仅供参考）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-backup-a9030672 | 1 | [a903067276-rgb/dsh-backup](https://github.com/a903067276-rgb/dsh-backup) | Automated backups of DSH sessions, config and custom directories — scheduled or manual, packed as tgz with rotation | 0.1.0-rc.8 (2026-08-20) |
 | dsh-backup-sync | 1 | [csiroqa/dsh-backup-sync](https://github.com/csiroqa/dsh-backup-sync) | DSH 备份/恢复与跨机同步插件：本地快照、WebDAV 增量推送/拉取、自动备份与失效归档清理 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-bahamas | 1 | [uckkk/dsh-bahamas](https://github.com/uckkk/dsh-bahamas) | 巴哈马国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-bahrain | 1 | [uckkk/dsh-bahrain](https://github.com/uckkk/dsh-bahrain) | 巴林国 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-baijiu-pick | 1 | [uckkk/dsh-baijiu-pick](https://github.com/uckkk/dsh-baijiu-pick) | baijiupick：白酒选择：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bake-fix | 1 | [uckkk/dsh-bake-fix](https://github.com/uckkk/dsh-bake-fix) | bakefix：烘焙失败排查：按参数返回烘焙实操方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-balcony-care | 1 | [uckkk/dsh-balcony-care](https://github.com/uckkk/dsh-balcony-care) | balconycare：浇水施肥：按参数返回阳台种菜方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-balcony-make | 1 | [uckkk/dsh-balcony-make](https://github.com/uckkk/dsh-balcony-make) | balconymake：阳台改造：按参数返回小户型空间利用方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bangkok-city | 1 | [uckkk/dsh-bangkok-city](https://github.com/uckkk/dsh-bangkok-city) | cityinfo：返回 曼谷市（Bangkok）的undefined信息。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-bangladesh | 1 | [uckkk/dsh-bangladesh](https://github.com/uckkk/dsh-bangladesh) | 孟加拉国国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-baoyu-skills | 1 | [GongYuanCaiJi/dsh-baoyu-skills](https://github.com/GongYuanCaiJi/dsh-baoyu-skills) | 宝玉技能库（移植自 JimLiu/baoyu-skills） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-baozi-steam | 1 | [uckkk/dsh-baozi-steam](https://github.com/uckkk/dsh-baozi-steam) | baozisteam：蒸制时间：按参数返回面食制作方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-barbados | 1 | [uckkk/dsh-barbados](https://github.com/uckkk/dsh-barbados) | countryinfo：返回 巴巴多斯（Barbados）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-21) |
@@ -994,9 +1022,12 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-bike-fit | 1 | [uckkk/dsh-bike-fit](https://github.com/uckkk/dsh-bike-fit) | bikefit：车座调整：按参数返回骑行运动方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bike-gear | 1 | [uckkk/dsh-bike-gear](https://github.com/uckkk/dsh-bike-gear) | bikegear：骑行装备：按参数返回骑行运动方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bin-pick | 1 | [uckkk/dsh-bin-pick](https://github.com/uckkk/dsh-bin-pick) | binpick：收纳盒选购：按参数返回家庭收纳方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-bismuth | 1 | [uckkk/dsh-bismuth](https://github.com/uckkk/dsh-bismuth) | 铋元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-blame-avoid | 1 | [uckkk/dsh-blame-avoid](https://github.com/uckkk/dsh-blame-avoid) | blameavoid：防背锅：按参数返回结构化方法。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-blockchain-web3 | 1 | [satan9394/dsh-blockchain-web3](https://github.com/satan9394/dsh-blockchain-web3) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-bohrium | 1 | [uckkk/dsh-bohrium](https://github.com/uckkk/dsh-bohrium) | 𬭛元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-boron | 1 | [uckkk/dsh-boron](https://github.com/uckkk/dsh-boron) | elementinfo：返回硼元素（Boron）完整资料：名称、元素符号、原子序数、相对原子质量、类别、族、周期、常温状态、电子构型。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-bosnia | 1 | [uckkk/dsh-bosnia](https://github.com/uckkk/dsh-bosnia) | 波黑国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-botswana | 1 | [uckkk/dsh-botswana](https://github.com/uckkk/dsh-botswana) | countryinfo：返回 博茨瓦纳（Botswana）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-boundary | 1 | [uckkk/dsh-boundary](https://github.com/uckkk/dsh-boundary) | boundary：设定界限：按场景返回结构化方法。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-branch-review | 1 | [chouyong/dsh-branch-review](https://github.com/chouyong/dsh-branch-review) | Track human decisions for related DeepSeek Harness conversation branches. | 0.1.0-rc.8 (2026-08-20) |
@@ -1004,15 +1035,19 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-brand-guidelines | 1 | [satan9394/dsh-brand-guidelines](https://github.com/satan9394/dsh-brand-guidelines) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-brand-landingpage | 1 | [satan9394/dsh-brand-landingpage](https://github.com/satan9394/dsh-brand-landingpage) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-brave-search | 1 | [high0/dsh-brave-search](https://github.com/high0/dsh-brave-search) | DeepSeek Harness bundle providing a unified Brave Search API tool | 0.1.0-rc.8 (2026-08-20) |
+| dsh-brazil | 1 | [uckkk/dsh-brazil](https://github.com/uckkk/dsh-brazil) | 巴西国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-breath-tech | 1 | [uckkk/dsh-breath-tech](https://github.com/uckkk/dsh-breath-tech) | breathtech：呼吸法指导：按参数返回瑜伽拉伸方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-breathing | 1 | [uckkk/dsh-breathing](https://github.com/uckkk/dsh-breathing) | breathing：呼吸练习：按参数返回明确建议（心理健康内容仅供参考）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-bromine | 1 | [uckkk/dsh-bromine](https://github.com/uckkk/dsh-bromine) | 溴元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-browser-control-pangyimi | 1 | [PangYiMing/dsh-browser-control](https://github.com/PangYiMing/dsh-browser-control) | DSH plugin for controlling browsers (CDP / Playwright) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-browser-duyefeng | 1 | [duyefeng/dsh-browser](https://github.com/duyefeng/dsh-browser) | Playwright-backed browser automation bundle for DeepSeek Harness — drives the installed Microsoft Edge directly (no CDP endpoint, no MCP server) and exposes browser_* tools to the agent. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-browser-statemli | 1 | [statem-li/dsh-browser](https://github.com/statem-li/dsh-browser) | AI 浏览器操作：CDP 直连 Chrome，文本 snapshot+ref 主感知，截图走辅助视觉兜底 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-browser-testing | 1 | [satan9394/dsh-browser-testing](https://github.com/satan9394/dsh-browser-testing) | 浏览器测试与 UI 验证：用真实浏览器验证 DOM/控制台/网络/性能，替代猜测。受 addyosmani/agent-skills（88k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-browser-use | 1 | [zoahdev/dsh-browser-use](https://github.com/zoahdev/dsh-browser-use) · [npm](https://www.npmjs.com/package/dsh-browser-use) | Browser Use bridge for DeepSeek Harness: let your dsh agent run real web tasks (open pages, click, type, fill forms, extract data) through the Browser Use Cloud API. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-brunei | 1 | [uckkk/dsh-brunei](https://github.com/uckkk/dsh-brunei) | 文莱国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-brushing-time | 1 | [uckkk/dsh-brushing-time](https://github.com/uckkk/dsh-brushing-time) | brushingtime：刷牙时长：按参数精确计算，返回明确建议（医疗内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-buenos-aires-city | 1 | [uckkk/dsh-buenos-aires-city](https://github.com/uckkk/dsh-buenos-aires-city) | 布宜诺斯艾利斯市 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-bulgaria | 1 | [uckkk/dsh-bulgaria](https://github.com/uckkk/dsh-bulgaria) | 保加利亚国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-bundle-calc | 1 | [uckkk/dsh-bundle-calc](https://github.com/uckkk/dsh-bundle-calc) | bundlecalc：套餐设计：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-burkina-faso | 1 | [uckkk/dsh-burkina-faso](https://github.com/uckkk/dsh-burkina-faso) | countryinfo：返回 布基纳法索（Burkina Faso）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-burundi | 1 | [uckkk/dsh-burundi](https://github.com/uckkk/dsh-burundi) | countryinfo：返回 布隆迪（Burundi）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1037,6 +1072,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-chinese-search | 1 | [xzy-jason/dsh-chinese-search](https://github.com/xzy-jason/dsh-chinese-search) | Chinese full-text search for DeepSeek Harness memory plugins using jieba segmentation | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ci-context | 1 | [lucas-ward/dsh-ci-context](https://github.com/lucas-ward/dsh-ci-context) | Privacy-focused CI execution context for DeepSeek Harness agents | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cinematography | 1 | [uckkk/dsh-cinematography](https://github.com/uckkk/dsh-cinematography) | 电影运镜与镜头语言参考 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-cli-anything-bluechon | 1 | [BlueChonk/dsh-cli-anything](https://github.com/BlueChonk/dsh-cli-anything) | CLI-Anything integration for DSH - browse, install, and launch CLI-Anything harnesses | 0.1.1-rc.2 (2026-08-28) |
 | dsh-client-connection-authz | 1 | [sperictao/dsh-client-connection-authz](https://github.com/sperictao/dsh-client-connection-authz) | Auth-capable drop-in replacement for the DeepSeek Harness web connection | 0.1.0-rc.8 (2026-08-20) |
 | dsh-client-ui-details-host | 1 | [cherrchen/dsh-client-ui-details-host](https://github.com/cherrchen/dsh-client-ui-details-host) | Portable DSH client plugin that hosts one active details surface in the AppFrame details column | 0.1.1-rc.2 (2026-08-26) |
 | dsh-client-ui-filesystem | 1 | [dsh-mixxed/dsh-client-ui-filesystem](https://github.com/dsh-mixxed/dsh-client-ui-filesystem) · [npm](https://www.npmjs.com/package/@dsh-mixxed/dsh-client-ui-filesystem) | Out-of-tree dsh plugin: '@' project file/directory suggestions and plain-text references in the chat composer. | 0.1.0-rc.8 (2026-08-20) |
@@ -1048,14 +1084,19 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-cloud-gateway | 1 | [MrLukezy/dsh-cloud-gateway](https://github.com/MrLukezy/dsh-cloud-gateway) | Login wall and public gateway for DeepSeek Harness cloud deploys. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cloudflare-browser-run | 1 | [RealAlexandreAI/dsh-cloudflare-browser-run](https://github.com/RealAlexandreAI/dsh-cloudflare-browser-run) · [npm](https://www.npmjs.com/package/dsh-cloudflare-browser-run) | DeepSeek Harness plugin: web browsing tools (markdown / screenshot / pdf) powered by Cloudflare Browser Run — real headless Chrome with JS rendering, login sessions and WebMCP support. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cnwrite | 1 | [guozede12593312/dsh-cnwrite](https://github.com/guozede12593312/dsh-cnwrite) | 中文写作助手：自动排版（中英文之间加空格、修正标点、清理多余空行）+ 写作统计（字数、阅读时长、段落结构） | 0.1.0-rc.8 (2026-08-20) |
+| dsh-cobalt | 1 | [uckkk/dsh-cobalt](https://github.com/uckkk/dsh-cobalt) | 钴元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-code-pipeline | 1 | [ErrorLst/dsh-code-pipeline](https://github.com/ErrorLst/dsh-code-pipeline) | DSH bundle plugin: 为 code-pipeline 预设（PTC 流水线）动态注入阶段子代理工具（subagent_plan / subagent_impl / subagent_review），各阶段 provider/model/思考等级可在设置页（Settings → 代码流水线）实时配置并持久化到 settings.yaml；预设文件随项目在 preset/ 目录维护 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-code-scan | 1 | [xiaohuang-zaianlian/dsh-code-scan](https://github.com/xiaohuang-zaianlian/dsh-code-scan) · [npm](https://www.npmjs.com/package/dsh-code-scan) | DeepSeek Harness 插件：为 Agent 增加 code_scan 工具，用 semgrep 扫描代码并输出按文件/行号/严重级别分组的中文报告 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-code-server-app | 1 | [jinsiyu/dsh-code-server-app](https://github.com/jinsiyu/dsh-code-server-app) | Integrate code-server (VS Code in the browser) into DSH Web: floating ball entry + fullscreen overlay, host-side process lifecycle over a /code-server JSON API (motion-based spring window animations). | 0.1.1-rc.2 (2026-08-28) |
 | dsh-codeact-tools | 1 | [lyuwen/dsh-codeact-tools](https://github.com/lyuwen/dsh-codeact-tools) | Self-contained minimal AI coding tool set for DeepSeek Harness: execute_bash + finish beside the shipped str_replace_editor, plus the vendored persistent-shell core. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-codebase-memory-andyfan1 | 1 | [andyfan1094/dsh-codebase-memory](https://github.com/andyfan1094/dsh-codebase-memory) | DSH bundle that bridges the Codebase Memory MCP code knowledge graph into DSH and can keep indexed repositories fresh with an optional debounced filesystem watcher. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-codebase-scanner | 1 | [satan9394/dsh-codebase-scanner](https://github.com/satan9394/dsh-codebase-scanner) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-coding-remote-kit | 1 | [lninghaha/dsh-coding-remote-kit](https://github.com/lninghaha/dsh-coding-remote-kit) · [npm](https://www.npmjs.com/package/dsh-coding-remote-kit) | DeepSeek Harness mobile pairing remote plugin: E2EE companion over a dual-plane allowlisted RPC (LAN / Tailscale / optional Cloudflare Quick Tunnel or self-hosted rendezvous). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cohub-board | 1 | [kjx-talesofai/dsh-cohub-board](https://github.com/kjx-talesofai/dsh-cohub-board) | Cohub Board agent tools (draw/read/clear/export) for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cold-drink | 1 | [uckkk/dsh-cold-drink](https://github.com/uckkk/dsh-cold-drink) | colddrink：冰饮制作：按参数返回饮品制作方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-collatz | 1 | [uckkk/dsh-collatz](https://github.com/uckkk/dsh-collatz) | 考拉兹序列 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-colombia | 1 | [uckkk/dsh-colombia](https://github.com/uckkk/dsh-colombia) | 哥伦比亚国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-combination | 1 | [uckkk/dsh-combination](https://github.com/uckkk/dsh-combination) | 组合数 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-command-delete | 1 | [wang122818/dsh-command-delete](https://github.com/wang122818/dsh-command-delete) | Slash commands to delete sessions and workspaces (projects) in DSH | 0.1.0-rc.8 (2026-08-20) |
 | dsh-command-palette | 1 | [hajimixiaojie/dsh-command-palette](https://github.com/hajimixiaojie/dsh-command-palette) · [npm](https://www.npmjs.com/package/@dsh-community/dsh-command-palette) | A searchable command palette for DeepSeek Harness and its plugins | 0.1.0-rc.8 (2026-08-20) |
 | dsh-commit-message | 1 | [satan9394/dsh-commit-message](https://github.com/satan9394/dsh-commit-message) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1079,31 +1120,44 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-conversation-navigator-wang1228 | 1 | [wang122818/dsh-conversation-navigator](https://github.com/wang122818/dsh-conversation-navigator) | Turn-based navigation rail for DeepSeek Harness Web conversations. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-conversation-tree | 1 | [Unintendedz/dsh-conversation-tree](https://github.com/Unintendedz/dsh-conversation-tree) | DSH web plugin for immutable regenerate/edit branches, inline switching, and a message-level conversation tree | 0.1.0-rc.8 (2026-08-25) |
 | dsh-convmap | 1 | [GeekRicardo/dsh-convmap](https://github.com/GeekRicardo/dsh-convmap) | DeepSeek Harness web 插件：在主对话区左缘中部渲染「对话地图」刻度（每条 = 一轮用户提问），hover 梯度展开并预览该轮提问/回复摘要，点击跳转（未渲染的老轮次自动分页加载后再跳），滚动时当前轮次自动高亮。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-copernicium | 1 | [uckkk/dsh-copernicium](https://github.com/uckkk/dsh-copernicium) | 鎶元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-copper | 1 | [uckkk/dsh-copper](https://github.com/uckkk/dsh-copper) | 铜元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-copy-pick | 1 | [uckkk/dsh-copy-pick](https://github.com/uckkk/dsh-copy-pick) | copypick：字帖选择：按参数返回书法学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cordis-mcp | 1 | [GeekRicardo/dsh-cordis-mcp](https://github.com/GeekRicardo/dsh-cordis-mcp) | DeepSeek Harness 插件：把 DSH 的动态 Cordis 工具集（inspect/define/run/stop/undefine）以 MCP 暴露给 Claude Code。端点强制身份认证，token 可在 DSH 设置页配置。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-correlation | 1 | [uckkk/dsh-correlation](https://github.com/uckkk/dsh-correlation) | 相关系数 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-costa-rica | 1 | [uckkk/dsh-costa-rica](https://github.com/uckkk/dsh-costa-rica) | 哥斯达黎加国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-council | 1 | [fufengyuan/dsh-council](https://github.com/fufengyuan/dsh-council) | Council of High Intelligence for dsh web — config UI, DAG progress, council toggle | 0.1.1-rc.2 (2026-08-28) |
 | dsh-couple-talk | 1 | [uckkk/dsh-couple-talk](https://github.com/uckkk/dsh-couple-talk) | coupletalk：伴侣沟通：按场景返回结构化方法。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-covariance | 1 | [uckkk/dsh-covariance](https://github.com/uckkk/dsh-covariance) | 协方差 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-cpr | 1 | [uckkk/dsh-cpr](https://github.com/uckkk/dsh-cpr) | cpr：心肺复苏：按参数返回家庭急救方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cpr-guide | 1 | [uckkk/dsh-cpr-guide](https://github.com/uckkk/dsh-cpr-guide) | cprguide：CPR急救：按场景返回关键处置步骤（急救内容请以专业培训为准）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-croatia | 1 | [uckkk/dsh-croatia](https://github.com/uckkk/dsh-croatia) | 克罗地亚国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-crochet | 1 | [uckkk/dsh-crochet](https://github.com/uckkk/dsh-crochet) | crochet：钩针基础：按参数返回手工DIY方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-csp-runtime | 1 | [helibeiqi/dsh-csp-runtime](https://github.com/helibeiqi/dsh-csp-runtime) | Cognitive State Protocol (CSP) v0.1 — the cross-framework interop layer that makes AI thinking state serializable, persistable, and transferable. Host-side Cordis plugin for the DSH ecosystem. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-ctf-collaborate | 1 | [fyfhcgch/dsh-ctf-collaborate](https://github.com/fyfhcgch/dsh-ctf-collaborate/tree/HEAD/dsh-ctf-team) | Persistent CTF collaboration board plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| dsh-cuba | 1 | [uckkk/dsh-cuba](https://github.com/uckkk/dsh-cuba) | 古巴国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-culture-boardgames | 1 | [uckkk/dsh-culture-boardgames](https://github.com/uckkk/dsh-culture-boardgames) | listboardgame：列出 桌游 条目。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-culture-festivals | 1 | [uckkk/dsh-culture-festivals](https://github.com/uckkk/dsh-culture-festivals) | listfestival：列出 世界节日 条目。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-culture-movies | 1 | [uckkk/dsh-culture-movies](https://github.com/uckkk/dsh-culture-movies) | listmovie：列出 电影类型 条目。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-culture-sports-events | 1 | [uckkk/dsh-culture-sports-events](https://github.com/uckkk/dsh-culture-sports-events) | listsportevent：列出 体育赛事 条目。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cupping | 1 | [uckkk/dsh-cupping](https://github.com/uckkk/dsh-cupping) | cupping：杯测品鉴：按参数返回咖啡冲煮方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-curium | 1 | [uckkk/dsh-curium](https://github.com/uckkk/dsh-curium) | 锔元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-curling | 1 | [uckkk/dsh-curling](https://github.com/uckkk/dsh-curling) | curling：卷发造型：按参数返回发型打理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-currency-tips | 1 | [uckkk/dsh-currency-tips](https://github.com/uckkk/dsh-currency-tips) | currencytips：货币使用提示：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-custom-enter-key | 1 | [aberter0x3f/dsh-custom-enter-key](https://github.com/aberter0x3f/dsh-custom-enter-key) | Standalone composer plugin that configures Enter, Ctrl/Cmd+Enter, and Shift+Enter independently (newline, queue send, or interject send) and replaces the built-in busy-Enter preference | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cutting-guide | 1 | [uckkk/dsh-cutting-guide](https://github.com/uckkk/dsh-cutting-guide) | cuttingguide：扦插繁殖指南：按参数返回植物养护方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cybernetics | 1 | [boomzikazita/dsh-cybernetics](https://github.com/boomzikazita/dsh-cybernetics) | DeepSeek Harness (dsh) Cordis plugin: observer/feedforward/feedback control loop, stability valve, controllability check | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cycle-water | 1 | [uckkk/dsh-cycle-water](https://github.com/uckkk/dsh-cycle-water) | cyclewater：养水流程：按参数返回水族养护方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-cyprus | 1 | [uckkk/dsh-cyprus](https://github.com/uckkk/dsh-cyprus) | 塞浦路斯国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-czechia | 1 | [uckkk/dsh-czechia](https://github.com/uckkk/dsh-czechia) | 捷克国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-daily-plan | 1 | [uckkk/dsh-daily-plan](https://github.com/uckkk/dsh-daily-plan) | dailyplan：每日练习：按参数返回书法学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-dance-basic | 1 | [uckkk/dsh-dance-basic](https://github.com/uckkk/dsh-dance-basic) | dancebasic：舞蹈基本功：按参数返回舞蹈学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-dance-plan | 1 | [uckkk/dsh-dance-plan](https://github.com/uckkk/dsh-dance-plan) | danceplan：学舞规划：按参数返回舞蹈学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-dance-warmup | 1 | [uckkk/dsh-dance-warmup](https://github.com/uckkk/dsh-dance-warmup) | dancewarmup：舞蹈热身：按参数返回舞蹈学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-danmaku | 1 | [BiggerMax/dsh-danmaku](https://github.com/BiggerMax/dsh-danmaku) | 将轨迹功能输出以弹幕形式显示在对话页面 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-darmstadtium | 1 | [uckkk/dsh-darmstadtium](https://github.com/uckkk/dsh-darmstadtium) | 𫟼元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-data-engineering | 1 | [satan9394/dsh-data-engineering](https://github.com/satan9394/dsh-data-engineering) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-data-extractor | 1 | [jetheaven/dsh-data-extractor](https://github.com/jetheaven/dsh-data-extractor) | 结构化数据提取：从非结构化文本中提取指定字段并输出JSON/CSV/表格 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-data-mode | 1 | [tieveto666-code/dsh-data-mode](https://github.com/tieveto666-code/dsh-data-mode) | DSH 数据模式插件：在原版 DeepSeek Harness 上增加只读问数。连接数据库或上传 CSV/Excel，用自然语言查数。不改标准/PTC/极简/创造。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-database-design | 1 | [satan9394/dsh-database-design](https://github.com/satan9394/dsh-database-design) | 数据库表设计：主键/规范化/索引/数据类型/约束/性能模式，PostgreSQL 重点 + 通用规范。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dataset-curation | 1 | [satan9394/dsh-dataset-curation](https://github.com/satan9394/dsh-dataset-curation) | 数据集整理：清洗、质量筛选、多样性、拆分与标注，LLM 微调前置。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1117,6 +1171,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-delete-message | 1 | [viplocco/dsh-delete-message](https://github.com/viplocco/dsh-delete-message) | Per-message delete for DeepSeek Harness — a trash icon beside the copy button on every chat message that removes that message from the derived model context (and the visible transcript) via the | 0.1.0-rc.8 (2026-08-25) |
 | dsh-delhi-city | 1 | [uckkk/dsh-delhi-city](https://github.com/uckkk/dsh-delhi-city) | cityinfo：返回 德里市（Delhi）的undefined信息。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-deliverables-toggle | 1 | [zheng16965/dsh-deliverables-toggle](https://github.com/zheng16965/dsh-deliverables-toggle) | Experimental DeepSeek Harness plugin plan for expandable produced-file lists in finished turns. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-denmark | 1 | [uckkk/dsh-denmark](https://github.com/uckkk/dsh-denmark) | 丹麦国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-dep-vuln-scan | 1 | [988hj7tczd-oss/dsh-dep-vuln-scan](https://github.com/988hj7tczd-oss/dsh-dep-vuln-scan) | Scan project lockfiles (npm/pnpm/yarn/pip/go/cargo/maven/gradle/...) against the free OSV API and report confirmed dependency vulnerabilities with fix versions and remediation commands. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-depguard | 1 | [DeLightor/dsh-depguard](https://github.com/DeLightor/dsh-depguard) | DeepSeek Harness plugin: predict (pre-install) and detect (post-install) duplicate @deepseek-ai/dsh-* copies, version drift, and vendored core services to prevent Symbol-key crashes like "Cannot read | 0.1.0-rc.8 (2026-08-20) |
 | dsh-deployment-validation | 1 | [satan9394/dsh-deployment-validation](https://github.com/satan9394/dsh-deployment-validation) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1140,8 +1195,10 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-distributed-debugging | 1 | [satan9394/dsh-distributed-debugging](https://github.com/satan9394/dsh-distributed-debugging) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-djibouti | 1 | [uckkk/dsh-djibouti](https://github.com/uckkk/dsh-djibouti) | countryinfo：返回 吉布提（Djibouti）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-doc-quick | 1 | [Entity-Him/dsh-doc-quick](https://github.com/Entity-Him/dsh-doc-quick) | 文档快处插件: 拖拽文档进 Web 对话框 → Agent 直接读取处理 → 完成时右侧弹出侧栏展示产出与文件路径。host 端直读本地文件系统(支持 PDF/Word/PPT/EPUB/Notebook/Markdown/文本),提供 doc_list / doc_read / doc_complete 工具与任务侧栏。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-doc-quick-qinpanwa | 1 | [QinpanWan/dsh-doc-quick](https://github.com/QinpanWan/dsh-doc-quick) | 文档快处插件: 拖拽文档进 Web 对话框 → Agent 直接读取处理 → 完成时右侧弹出侧栏展示产出与文件路径。host 端直读本地文件系统(支持 PDF/Word/PPT/EPUB/Notebook/Markdown/文本),提供 doc_list / doc_read / doc_complete 工具与任务侧栏。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-doc-share | 1 | [dawsondx/dsh-doc-share](https://github.com/dawsondx/dsh-doc-share) · [npm](https://www.npmjs.com/package/dsh-doc-share) | DSH 对话报告化分享插件：生成带封面、摘要统计与章节排版的精美报告，导出为 PNG 图片 / 单 HTML 文件 / PDF。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dock | 1 | [mattismegevand/dsh-dock](https://github.com/mattismegevand/dsh-dock) · [npm](https://www.npmjs.com/package/@mattismegevand/dsh-dock) | A workbench-quality docking system for DeepSeek Harness Web plugins | 0.1.0-rc.8 (2026-08-20) |
+| dsh-doctor | 1 | [d86e/dsh-doctor](https://github.com/d86e/dsh-doctor) | dsh-doctor: self-healing watchdog for the DeepSeek Harness web profile. Recovers from plugin-induced boot failures within 60s, captures every tool error, and watches all live sessions for stuck turns. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-document-generation | 1 | [satan9394/dsh-document-generation](https://github.com/satan9394/dsh-document-generation) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-document-parser | 1 | [miaobuao/dsh-document-parser](https://github.com/miaobuao/dsh-document-parser) | A DeepSeek Harness document parsing tool powered by LiteParse | 0.1.0-rc.8 (2026-08-20) |
 | dsh-document-reader | 1 | [Yun-tech123/dsh-document-reader](https://github.com/Yun-tech123/dsh-document-reader) | DeepSeek Harness (DSH) web plugin: read PDF / Word .docx / PPT .pptx / plain-text & code files straight into the composer via upload or drag-and-drop | 0.1.0-rc.8 (2026-08-20) |
@@ -1170,10 +1227,12 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-fetch-data | 1 | [2672243194/dsh-fetch-data](https://github.com/2672243194/dsh-fetch-data) | DeepSeek Harness plugin: intercept a page's real data APIs (XHR/fetch JSON) and return structured fields — comments, rankings, prices, tables — with token-efficient field extraction. Requires | 0.1.0-rc.8 (2026-08-20) |
 | dsh-fetch-file | 1 | [ZhijiangTang/dsh-fetch-file](https://github.com/ZhijiangTang/dsh-fetch-file) | DSH plugin: download URLs to workspace files — path-fenced, streamed, 200MB cap | 0.1.0-rc.8 (2026-08-20) |
 | dsh-fetch-url | 1 | [lansi-ai/dsh-fetch-url](https://github.com/lansi-ai/dsh-fetch-url) | DSH plugin that registers a fetch_url tool: fetch any URL (direct for domestic targets, HTTP CONNECT proxy for overseas) and return a bounded text/JSON summary. Reuses the battle-tested Node TLS | 0.1.0-rc.8 (2026-08-25) |
+| dsh-fibonacci | 1 | [uckkk/dsh-fibonacci](https://github.com/uckkk/dsh-fibonacci) | 斐波那契 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-browser | 1 | [Clearchenpro/dsh-file-browser](https://github.com/Clearchenpro/dsh-file-browser) | DSH plugin: right-side whole-disk file browser panel with name/size/mtime sorting and drag-into-chat | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-conversion | 1 | [satan9394/dsh-file-conversion](https://github.com/satan9394/dsh-file-conversion) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-drop-tianleyi | 1 | [tianleyitian/dsh-file-drop](https://github.com/tianleyitian/dsh-file-drop) | 文件拖拽：把文件拖到 DSH 窗口，真实路径瞬间写入输入框（本地透明窗截获，零内容传输） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-mention-ohoyour | 1 | [ohoyour/dsh-file-mention](https://github.com/ohoyour/dsh-file-mention) | Monorepo for the @file/@directory mention plugin (host + web client + bundle) for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-file-quote | 1 | [Sunday2Mo/dsh-file-quote](https://github.com/Sunday2Mo/dsh-file-quote) | Unified quoting for DeepSeek Harness Web: select file-editor text or chat messages → annotate → 「引用#N」chip → the AI receives a formatted quote block with file path and exact line range (source line | 0.1.1-rc.2 (2026-08-28) |
 | dsh-files-tab | 1 | [dzwalker/dsh-files-tab](https://github.com/dzwalker/dsh-files-tab) | A DSH conversation 'Files' tab plugin: open, read (Markdown + TOC) and edit (Monaco) workspace files without leaving the chat. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-finger-train | 1 | [uckkk/dsh-finger-train](https://github.com/uckkk/dsh-finger-train) | fingertrain：手指训练：按参数返回乐器练习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-fire-escape | 1 | [uckkk/dsh-fire-escape](https://github.com/uckkk/dsh-fire-escape) | fireescape：火灾逃生：按场景返回关键处置步骤（急救内容请以专业培训为准）。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1181,8 +1240,10 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-fish-pick | 1 | [uckkk/dsh-fish-pick](https://github.com/uckkk/dsh-fish-pick) | fishpick：观赏鱼选择：按参数返回水族养护方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-fish-weather | 1 | [uckkk/dsh-fish-weather](https://github.com/uckkk/dsh-fish-weather) | fishweather：出钓天气判断：按参数返回钓鱼实战方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-flash-gn | 1 | [uckkk/dsh-flash-gn](https://github.com/uckkk/dsh-flash-gn) | flashgn：闪光灯GN计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-flatten | 1 | [uckkk/dsh-flatten](https://github.com/uckkk/dsh-flatten) | 数组扁平化 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-fmt | 1 | [ZhijiangTang/dsh-fmt](https://github.com/ZhijiangTang/dsh-fmt) | DSH plugin: format/validate JSON, YAML, TOML and SQL text. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-folded-chat | 1 | [xingyingyuzhui/dsh-folded-chat](https://github.com/xingyingyuzhui/dsh-folded-chat) | Two-level fold for DeepSeek Harness chat: collapse think+tools as a process, then fold tool rows separately. Official cards stay intact. 聊天主视图两层折叠：过程一层、工具一层，不替换官方卡片。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-font-plugin | 1 | [wtksana/dsh-font-plugin](https://github.com/wtksana/dsh-font-plugin) | DSH dual-face plugin: font family / ligatures / weight / size controls. Host half registers a settings namespace; browser half renders the config card in Settings > Plugins and applies the fonts | 0.1.1-rc.2 (2026-08-28) |
 | dsh-forge-maxmilia | 1 | [maxmilian/dsh-forge](https://github.com/maxmilian/dsh-forge) | DeepSeek Harness tools for self-hosted Gitea and Forgejo instances. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-forge-mkiea | 1 | [mkiea/dsh-forge](https://github.com/mkiea/dsh-forge) | Plugin-combination analysis for the DeepSeek Harness: dependency trees, conflict detection, risk scoring with prediction, visualization, and combination simulation. | 0.1.0-rc.8 (2026-08-21) |
 | dsh-fork-diff | 1 | [chouyong/dsh-fork-diff](https://github.com/chouyong/dsh-fork-diff) | Read-only side-by-side comparison for related DeepSeek Harness conversation forks. | 0.1.0-rc.8 (2026-08-20) |
@@ -1197,6 +1258,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-gif-creator | 1 | [satan9394/dsh-gif-creator](https://github.com/satan9394/dsh-gif-creator) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-git-branch | 1 | [hanyueqiang/dsh-git-branch](https://github.com/hanyueqiang/dsh-git-branch) · [npm](https://www.npmjs.com/package/dsh-git-branch) | Show the current workspace git branch beside the composer mode controls, with focus/visibility-driven refresh | 0.1.0-rc.8 (2026-08-20) |
 | dsh-git-guardrails | 1 | [satan9394/dsh-git-guardrails](https://github.com/satan9394/dsh-git-guardrails) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-git-tools | 1 | [Shyboy0499/dsh-git-tools](https://github.com/Shyboy0499/dsh-git-tools) | Local git tools for DeepSeek Harness: git_status, git_diff, git_log, git_commit | 0.1.1-rc.2 (2026-08-28) |
 | dsh-github-integration | 1 | [KryptonGao/dsh-github-integration](https://github.com/KryptonGao/dsh-github-integration) | Workspace-bound GitHub integration bundle for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-github-oauth | 1 | [SwordSifu/dsh-github-oauth](https://github.com/SwordSifu/dsh-github-oauth) | DSH 常驻插件：GitHub OAuth 设备码登录 + 仓库 / Issues / 文件操作（设置面板 + 10 个 Agent 工具），凭据持久化，重启后自动恢复登录。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-github-tool | 1 | [H-table/dsh-github-tool](https://github.com/H-table/dsh-github-tool) | Persistent GitHub access plugin for DeepSeek Harness: visual settings, credential-backed API calls, and file/project upload tools. | 0.1.0-rc.8 (2026-08-20) |
@@ -1225,19 +1287,25 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-ide-panels | 1 | [AIRIKE1/dsh-ide-panels](https://github.com/AIRIKE1/dsh-ide-panels) | DSH 客户端布局插件：仿 VS Code 的 IDE 外壳——中间标签工具区（编辑器/文档/终端/浏览器/代码变更，可多开）、右侧栏（资源管理器/搜索/源代码管理/远程/扩展/设置/Agent）、底部面板（终端/调试控制台/输出，可拉伸），真实 PowerShell 终端 + 本地代码变更对比 + Git 源码管理 + SSH/WSL 远程，全部可开关，状态持久化。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-identity-control | 1 | [orpheus0829/dsh-identity-control](https://github.com/orpheus0829/dsh-identity-control) | DSH 自定义人设控制插件：在对话输入栏旁填写人设文本，开启后新对话自动带上，可随时开关。 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-input-rewriter | 1 | [feiertu/dsh-input-rewriter](https://github.com/feiertu/dsh-input-rewriter) · [npm](https://www.npmjs.com/package/dsh-input-rewriter) | DeepSeek Harness 插件：发送前用提示词工程 playbook 自动改写用户输入为更优 prompt。官方 bundle 插件，dsh plugin --profile web add | 0.1.0-rc.8 (2026-08-20) |
+| dsh-instruction-bubble | 1 | [Ary66101/dsh-instruction-bubble](https://github.com/Ary66101/dsh-instruction-bubble) | DSH web plugin: a floating bubble at the top of the conversation showing the last user instruction that scrolled out of view. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-internal-comms | 1 | [satan9394/dsh-internal-comms](https://github.com/satan9394/dsh-internal-comms) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-interrupt-send | 1 | [Hyna-hla/dsh-interrupt-send](https://github.com/Hyna-hla/dsh-interrupt-send) | DeepSeek Harness client plugin: a tool-row button in the composer that aborts the running turn and immediately sends the current draft as the next turn (opt-in — normal Enter still queues). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-invoice-tools | 1 | [988hj7tczd-oss/dsh-invoice-tools](https://github.com/988hj7tczd-oss/dsh-invoice-tools) | DSH 原生发票解析/报销单生成工具：读取工作区发票 PDF（XML 附件优先、文本层正则兜底），结构化 JSON + 金额勾稽校验，多张汇总生成报销单（Markdown / xlsx）。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-ip-https | 1 | [qiufengcrl/dsh-ip-https](https://github.com/qiufengcrl/dsh-ip-https) | DeepSeek Harness plugin: remote settings + Let's Encrypt IP certificates. No domain, no login. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-iris | 1 | [RangeKing/dsh-iris](https://github.com/RangeKing/dsh-iris) · [npm](https://www.npmjs.com/package/dsh-iris) | Progressive capability disclosure for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-issue-tracker | 1 | [xxiaoxiong/dsh-issue-tracker](https://github.com/xxiaoxiong/dsh-issue-tracker) | Jira Cloud issue-tracker service and model-facing tools for DeepSeek Harness | broken against 0.1.0-rc.6 |
 | dsh-issue-triage | 1 | [satan9394/dsh-issue-triage](https://github.com/satan9394/dsh-issue-triage) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-jingle | 1 | [rxh1999/dsh-jingle](https://github.com/rxh1999/dsh-jingle) | Play sounds on dsh events — a sound-effects plugin for the DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-juice-mix | 1 | [uckkk/dsh-juice-mix](https://github.com/uckkk/dsh-juice-mix) | juicemix：果汁搭配：按参数返回饮品制作方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-jumping-fix | 1 | [uckkk/dsh-jumping-fix](https://github.com/uckkk/dsh-jumping-fix) | jumpingfix：扑人纠正：按参数返回行为纠正建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-jupiter | 1 | [uckkk/dsh-jupiter](https://github.com/uckkk/dsh-jupiter) | 纯 Node 实现，无网络依赖。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-k12-substrate | 1 | [qiuyiwu1989-star/dsh-k12-substrate](https://github.com/qiuyiwu1989-star/dsh-k12-substrate) | K12 capability substrate for DeepSeek Harness: 143 objectively-decidable capability anchors and 6,091 list items extracted from China's MOE 2022 curriculum standards, with local-only learner profiles | 0.1.0-rc.8 (2026-08-20) |
 | dsh-karpathy-methodology | 1 | [satan9394/dsh-karpathy-methodology](https://github.com/satan9394/dsh-karpathy-methodology) · [npm](https://www.npmjs.com/package/dsh-karpathy-methodology) | Karpathy 编码方法论：先想后写、简单优先、外科手术式改动、目标驱动验证。受 andrej-karpathy-skills（203k ）启发的 DSH 原创改编。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-kazakhstan | 1 | [uckkk/dsh-kazakhstan](https://github.com/uckkk/dsh-kazakhstan) | 哈萨克斯坦国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-kiribati | 1 | [uckkk/dsh-kiribati](https://github.com/uckkk/dsh-kiribati) | countryinfo：返回 基里巴斯（Kiribati）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-krypton | 1 | [uckkk/dsh-krypton](https://github.com/uckkk/dsh-krypton) | 氪元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-kubernetes-operations | 1 | [satan9394/dsh-kubernetes-operations](https://github.com/satan9394/dsh-kubernetes-operations) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-kuwait | 1 | [uckkk/dsh-kuwait](https://github.com/uckkk/dsh-kuwait) | 科威特国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-lab-s2p2 | 1 | [S2P2/dsh-lab](https://github.com/S2P2/dsh-lab/tree/HEAD/packages/dsh-ask-card) | Rich transcript card for DSH's stock ask_user_question tool: shadows the generic IN/OUT tool row with a question/answer card when expanded. Collapsed-row behavior and the pending-question composer | 0.1.0-rc.8 (2026-08-25) |
 | dsh-lan-pass | 1 | [x2802490130-prog/dsh-lan-pass](https://github.com/x2802490130-prog/dsh-lan-pass) · [npm](https://www.npmjs.com/package/dsh-lan-pass) | DSH 局域网密码门禁：手机/平板输密钥直连 3080，内置 randomUUID polyfill 与移动端登录页。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-launcher-nasbaye | 1 | [Nasbaye/dsh-launcher](https://github.com/Nasbaye/dsh-launcher) | One-click start/restart for the DeepSeek Harness web service: /api/launcher/status and /api/launcher/restart. | 0.1.0-rc.8 (2026-08-25) |
@@ -1248,6 +1316,9 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-lesotho | 1 | [uckkk/dsh-lesotho](https://github.com/uckkk/dsh-lesotho) | countryinfo：返回 莱索托（Lesotho）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-liang-transformer-vote | 1 | [water2004/dsh-liang-transformer-vote](https://github.com/water2004/dsh-liang-transformer-vote) | DeepSeek Harness Web plugin for 滑动变祖器 daily voting and trends. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-liberia | 1 | [uckkk/dsh-liberia](https://github.com/uckkk/dsh-liberia) | countryinfo：返回 利比里亚（Liberia）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-libya | 1 | [uckkk/dsh-libya](https://github.com/uckkk/dsh-libya) | 利比亚国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-liechtenstein | 1 | [uckkk/dsh-liechtenstein](https://github.com/uckkk/dsh-liechtenstein) | 列支敦士登国 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-lithuania | 1 | [uckkk/dsh-lithuania](https://github.com/uckkk/dsh-lithuania) | 立陶宛国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-live-stats | 1 | [Proton1917/dsh-live-stats](https://github.com/Proton1917/dsh-live-stats) | Live token estimates and generation throughput for DSH Web | 0.1.0-rc.8 (2026-08-20) |
 | dsh-live2d | 1 | [hacxy/dsh-live2d](https://github.com/hacxy/dsh-live2d) | DSH web plugin: show a Live2D character at the bottom corner of the DeepSeek Harness web page, with a load progress bar and a settings section that controls the whole widget behavior (model URL | 0.1.0-rc.8 (2026-08-20) |
 | dsh-llm-aimux | 1 | [arcships/dsh-llm-aimux](https://github.com/arcships/dsh-llm-aimux) | DeepSeek Harness (dsh) LLM adapter backed by aimux — one Rust engine, 325+ providers as dsh model routes. | 0.1.0-rc.8 (2026-08-20) |
@@ -1281,6 +1352,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-mcp-ui | 1 | [quan-v/dsh-mcp-ui](https://github.com/quan-v/dsh-mcp-ui) | MCP 服务器可视化配置插件：在 DSH Web 设置界面管理 MCP 服务器（stdio / streamable-http / SSE），保存即生效，无需手改配置文件。｜ Visual MCP server management for DeepSeek Harness: configure stdio / HTTP / SSE servers from the settings UI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mcphub-dongvict | 1 | [dong-victor/dsh-mcphub](https://github.com/dong-victor/dsh-mcphub) | MCPHub 桥接插件（DSH Web GUI）：把本地 MCPHub（http://localhost:3000，@samanhappy/mcphub）聚合暴露的全部 MCP server 工具桥接进 DSH。宿主侧以 MCP Streamable HTTP 客户端连接 MCPHub 聚合端点 /mcp（或 /mcp/<group> 分组端点），把发现到的工具以 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mdbox | 1 | [Chi-hong22/dsh-mdbox](https://github.com/Chi-hong22/dsh-mdbox) | DeepSeek Harness Web composer markdown editing helper: Shift+Enter list continuation with ordered-list auto-renumbering and Tab indent | 0.1.0-rc.8 (2026-08-20) |
+| dsh-meeting-notes | 1 | [jetheaven/dsh-meeting-notes](https://github.com/jetheaven/dsh-meeting-notes) | 会议纪要智能生成：从会议转写文本中提取决议、待办、负责人、截止时间和风险 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-memoria-extra | 1 | [jiayan-xu/dsh-memoria-extra](https://github.com/jiayan-xu/dsh-memoria-extra) | memoria advanced tools for dsh: memoria_context / recent_decisions / health / allowed_ns / graph / entity_search. Companion to @dsh-external/dsh-memoria (base 4 tools). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-memoryleak | 1 | [warmwine/dsh-memoryleak](https://github.com/warmwine/dsh-memoryleak) | Notes and todos as plain Markdown in your DSH workspace: /ml jots into today's journal, todos come in deadline/sleep-until/anytime flavors with auto-wakeup, /ml view fuzzy-opens any file — zero-token | 0.1.0-rc.8 (2026-08-20) |
 | dsh-merge-conflicts | 1 | [satan9394/dsh-merge-conflicts](https://github.com/satan9394/dsh-merge-conflicts) · [npm](https://www.npmjs.com/package/dsh-merge-conflicts) | 解决 git 合并/变基冲突：看清现状→找到各方意图→逐块解决→跑自动化检查→完成合并。受 mattpocock/skills（223k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1312,10 +1384,12 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-notebook-younthin | 1 | [Younthing/dsh-notebook](https://github.com/Younthing/dsh-notebook) | Development workspace for the standalone Jupyter notebook plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
 | dsh-notifications | 1 | [Ycet/dsh-notifications](https://github.com/Ycet/dsh-notifications) | DeepSeek Harness web notifications for approvals, structured questions, and task outcomes. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-notify-ikashana | 1 | [ikashana/dsh-notify](https://github.com/ikashana/dsh-notify) | DeepSeek Harness (dsh) 任务监控通知插件：turn 结束 / 需人工确认 / 确认超时 / 模型主动 notify 工具四种触发，经 HTTP webhook（QQ机器人/serverchan/钉钉/企微/ntfy）、A2A agent、MCP 工具与 Windows SAPI 语音通道推送。纯 Node、零运行时依赖、免构建 bundle。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-notion-skill | 1 | [Zhiyi-Zhao/dsh-notion-skill](https://github.com/Zhiyi-Zhao/dsh-notion-skill) | DSH Notion skill: read and write Notion workspaces via the official REST API | 0.1.1-rc.2 (2026-08-28) |
 | dsh-novel-reader-10244839 | 1 | [1024483906-pixel/dsh-novel-reader](https://github.com/1024483906-pixel/dsh-novel-reader) | Read imported .txt novels in a draggable floating window while the model works. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-nuke-plugin | 1 | [beijingwahw/dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) | 强力卸载 DSH 插件 — 策略分级 · 批量原子 · 指纹快照 · 健康检查 · 并发锁 · 报告导出 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-nuphus-mcp | 1 | [jiayan-xu/dsh-nuphus-mcp](https://github.com/jiayan-xu/dsh-nuphus-mcp) | nuphus-mcp bridge for dsh: desktop + browser automation (36 tools) via a persistent stdio MCP child process. Tools registered from static data generated from the server's tools/list. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-octopus-launch | 1 | [ljnljn2005/dsh-octopus-launch](https://github.com/ljnljn2005/dsh-octopus-launch) | DSH plugin: launch a background process (e.g. octopus LLM gateway) automatically when dsh starts. Idempotent: skips if already running. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-odoo | 1 | [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) | Read-only Odoo tools for DeepSeek Harness, with an opt-in restricted draft-create tool. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-off-peak-schedule-widget | 1 | [BaiLiang-233/dsh-off-peak-schedule-widget](https://github.com/BaiLiang-233/dsh-off-peak-schedule-widget) | 价格时段输入队列调度 Harness 插件（dsh-plugin）：价格高峰拦截输入进入休眠区，低谷按队列投递到目标对话；以 bundle 形式随 Harness 自启动 | 0.1.1-rc.2 (2026-08-26) |
 | dsh-office-cli-satan939 | 1 | [satan9394/dsh-office-cli](https://github.com/satan9394/dsh-office-cli) | 为 AI agent 设计的 Office 套件：单二进制无 Office 安装控制 Word/Excel/PowerPoint，HTML 渲染引擎给 AI 眼睛（render→look→fix 闭环）、live preview 实时反馈、路径选择器精确定位元素、outline/HTML/JSON 多视图。受 iOfficeAI/OfficeCLI（28.8k Apache-2.0）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-open-in-finder | 1 | [moduqishi/dsh-open-in-finder](https://github.com/moduqishi/dsh-open-in-finder) | Persistent 'open in Finder' header icon: webServer API route + browser button. | 0.1.0-rc.8 (2026-08-20) |
@@ -1423,6 +1497,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-readcache | 1 | [yongshuai0314/dsh-readcache](https://github.com/yongshuai0314/dsh-readcache) | 为 DSH read 工具提供版本令牌校验的进程内结果缓存：未变更文件的重复读取跳过文件 I/O 与重渲染，并附带 readcache 工具查看统计与清空缓存。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-reasoning-cn | 1 | [William123666/dsh-reasoning-cn](https://github.com/William123666/dsh-reasoning-cn) · [npm](https://www.npmjs.com/package/dsh-reasoning-cn) | DeepSeek Harness plugin that steers reasoning toward Simplified Chinese and translates eligible reasoning blocks. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-reasoning-effort-byxumi | 1 | [byxumi/dsh-reasoning-effort](https://github.com/byxumi/dsh-reasoning-effort) | DSH reasoning effort plugin — enables reasoning effort selection in the official model selector. Installable via `dsh plugin --profile web add` | 0.1.0-rc.8 (2026-08-21) |
+| dsh-reasoning-slider-wsl043 | 1 | [WSL043/dsh-reasoning-slider](https://github.com/WSL043/dsh-reasoning-slider) | A model-aware reasoning slider with polished light, dark, and per-model colors for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-recipe | 1 | [863683348/dsh-recipe](https://github.com/863683348/dsh-recipe) | Scenario bundles of dsh plugins ('插件界的 dotfiles'): a recipe tool that lists, searches, applies and composes ready-made plugin environments with ordered install sequences | 0.1.0-rc.8 (2026-08-20) |
 | dsh-recover-context | 1 | [dygin/dsh-recover-context](https://github.com/dygin/dsh-recover-context) | DSH web plugin: roll back to before any of your questions, or edit the last one and resubmit, restoring the workspace files the discarded turns produced. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-recovery | 1 | [Tangtang232/dsh-recovery](https://github.com/Tangtang232/dsh-recovery) | Keep DSH Web available and repair broken optional plugins | 0.1.1-rc.2 (2026-08-26) |
@@ -1446,11 +1521,14 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-seedance2 | 1 | [synmindai/dsh-seedance2](https://github.com/synmindai/dsh-seedance2) · [npm](https://www.npmjs.com/package/dsh-seedance2) | Generate images and Seedance videos in DeepSeek Harness through the Seedance 2 AI API | 0.1.0-rc.8 (2026-08-20) |
 | dsh-selection-followup | 1 | [zzx-dear/dsh-selection-followup](https://github.com/zzx-dear/dsh-selection-followup) | Select any text in a DSH chat reply to get a floating Follow-up / Copy pill — one click turns the selection into a follow-up question in the composer. · 选中聊天回复中的任意文字，浮出「追问/复制」气泡，一键把选中内容变成追问填入输入框。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-selection-tools | 1 | [hjthjt4210/dsh-selection-tools](https://github.com/hjthjt4210/dsh-selection-tools) | Select conversation text and attach it as native composer annotations or copy it to the clipboard. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-sentry | 1 | [maxmilian/dsh-sentry](https://github.com/maxmilian/dsh-sentry) | Read-only Sentry issue and event tools for DeepSeek Harness. | 0.1.1-rc.2 (2026-08-28) |
+| dsh-seo-writer | 1 | [jetheaven/dsh-seo-writer](https://github.com/jetheaven/dsh-seo-writer) | SEO文章生成器：给定关键词和语言，生成搜索引擎友好的完整文章 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-service-mesh | 1 | [satan9394/dsh-service-mesh](https://github.com/satan9394/dsh-service-mesh) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-settings-about | 1 | [sha2kyou/dsh-settings-about](https://github.com/sha2kyou/dsh-settings-about) | dsh Settings → About: runtime version, env, and installed plugin inventory (requires @deepseek-ai/dsh@0.1.1-rc.1) | 0.1.0-rc.8 (2026-08-24) |
 | dsh-setup-wizard | 1 | [satan9394/dsh-setup-wizard](https://github.com/satan9394/dsh-setup-wizard) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shareone-plugin | 1 | [sudoprivacy/dsh-shareone-plugin](https://github.com/sudoprivacy/dsh-shareone-plugin) · [npm](https://www.npmjs.com/package/dsh-shareone-plugin) | ShareOne tools for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shell-termux | 1 | [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) | Android/Termux service provider for the bash capability seam: explicit Termux environment injection, probe diagnostics, honest app-domain sandbox declaration | 0.1.0-rc.8 (2026-08-20) |
+| dsh-shopify-plugins | 1 | [sakthiveltofficial/dsh-shopify-plugins](https://github.com/sakthiveltofficial/dsh-shopify-plugins) | Shopify plugin for the DeepSeek Harness: 210+ model-facing tools over the Shopify Admin REST and GraphQL APIs (products, orders, customers, inventory, fulfillments, discounts, content, webhooks | 0.1.1-rc.2 (2026-08-28) |
 | dsh-skill-browser | 1 | [charleswin7/dsh-skill-browser](https://github.com/charleswin7/dsh-skill-browser) | DSH web plugin: a Skills page in Settings that lists every installed skill (global + per-workspace) and opens its folder. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-switch | 1 | [hzthzt/dsh-skill-switch](https://github.com/hzthzt/dsh-skill-switch) | Windows Junction-based global Skill switcher for DeepSeek Harness Web. | 0.1.0-rc.8 (2026-08-24) |
 | dsh-slo | 1 | [satan9394/dsh-slo](https://github.com/satan9394/dsh-slo) | SLI/SLO/错误预算：定义可衡量的可靠性目标、错误预算告警、SRE 实践。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1464,6 +1542,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-sql-optimization | 1 | [satan9394/dsh-sql-optimization](https://github.com/satan9394/dsh-sql-optimization) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ssh-bridge | 1 | [lance-kanglu/dsh-ssh-bridge](https://github.com/lance-kanglu/dsh-ssh-bridge) · [npm](https://www.npmjs.com/package/dsh-ssh-bridge) | Local SSH bridge for the DeepSeek Harness (DSH): user types the router password in a browser page, agent runs commands via a localhost API — the password never enters the chat. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ssh-dmz29229 | 1 | [dmz2922990/dsh-ssh](https://github.com/dmz2922990/dsh-ssh) | DSH plugin: managed SSH hosts + remote bash execution (ssh_bash tools and ssh.hosts service) | 0.1.0-rc.8 (2026-08-20) |
+| dsh-ssh-forge | 1 | [trrrrrryg/dsh-ssh-forge](https://github.com/trrrrrryg/dsh-ssh-forge) | DSH SSH Forge — secure SSH-backed remote workspaces for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-starter-pack | 1 | [Dariandai/dsh-starter-pack](https://github.com/Dariandai/dsh-starter-pack) | One-click curated plugin starter pack for DeepSeek Harness — install & configure the most useful community plugins in a batch. · DSH 精选插件包：一键批量安装并配置最值得装的社区插件。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-starter-zh | 1 | [863683348/dsh-starter-zh](https://github.com/863683348/dsh-starter-zh) | DSH 新手入门包：安装即得欢迎语、从 0 到 1 学习路径、按场景推荐插件、新手自查清单，并与 dsh-handbook-zh 中文教程联动。Starter pack for DeepSeek Harness beginners (Chinese). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-stcardwriter | 1 | [bychv/dsh-stcardwriter](https://github.com/bychv/dsh-stcardwriter) | DeepSeek Harness rc8 authoring mode for SillyTavern character cards, lorebooks, and presets. | 0.1.0-rc.8 (2026-08-21) |
@@ -1491,6 +1570,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | DSH-Temporary-Chat | 1 | [ToBeWin/DSH-Temporary-Chat](https://github.com/ToBeWin/DSH-Temporary-Chat) · [npm](https://www.npmjs.com/package/@tobewin/dsh-temporary-chat) | Workspace-free temporary conversations for DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
 | dsh-terraform | 1 | [satan9394/dsh-terraform](https://github.com/satan9394/dsh-terraform) | Terraform 模块库：模块设计、变量/输出约定、版本管理、IaC 最佳实践。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-terraform-wode2550 | 1 | [WODE25500/dsh-terraform](https://github.com/WODE25500/dsh-terraform) | Infrastructure as Code (Terraform) integration for DeepSeek Harness: plan/apply/diff, state inspection, output querying and resource listing. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-text-diff-jetheave | 1 | [jetheaven/dsh-text-diff](https://github.com/jetheaven/dsh-text-diff) | AI智能文本对比：找出两段文字的差异、语义变化和潜在风险点 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-think-phrases | 1 | [deathbook/dsh-think-phrases](https://github.com/deathbook/dsh-think-phrases) | Top-right widget counting 'let me' / 'we' / 'let's' / 'I'll' across all reasoning chains of the current conversation. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-think-translate | 1 | [onfire-07/dsh-think-translate](https://github.com/onfire-07/dsh-think-translate) | DeepSeek Harness (DSH) Web 插件:点击聊天中的 Think 思考行时弹出浮动窗口,把思考步骤的英文实时同步翻译成中文 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-thinking-language-zh | 1 | [ayanJava111/dsh-thinking-language-zh](https://github.com/ayanJava111/dsh-thinking-language-zh) | Force DeepSeek Harness agents to think, reason, and reply in Chinese — a one-section dsh bundle | 0.1.0-rc.8 (2026-08-20) |
@@ -1500,6 +1580,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-time-travel | 1 | [helibeiqi/dsh-time-travel](https://github.com/helibeiqi/dsh-time-travel) | DeepSeek Harness (DSH) 插件：可逆时间旅行与审计。为工具副作用建立「前状态快照 → 执行 → 补偿」链路，提供 rewindTo(turnId) 按轮次倒序恢复工作区，内置审计规则引擎。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tmuxctl | 1 | [Jesse-njx/dsh-tmuxctl](https://github.com/Jesse-njx/dsh-tmuxctl) | dsh-tmuxctl — the control plane for tmux: list, drive, capture, split, swap, run, and watch the panes you already have open, with safety by default | 0.1.0-rc.8 (2026-08-20) |
 | dsh-to-questionnaire | 1 | [satan9394/dsh-to-questionnaire](https://github.com/satan9394/dsh-to-questionnaire) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-todo-enhancer | 1 | [EmptyCollin/dsh-todo-enhancer](https://github.com/EmptyCollin/dsh-todo-enhancer) | DeepSeek Harness 插件：Host 半区向系统提示词注入规则，要求 LLM 把需要用户决策的内容用 <!-- dsh-todo:start -->…<!-- dsh-todo:end --> 成对标记包裹（渲染不可见）；Client 半区仅对标记块在输入框上方显示带复选框的表格增强 UI，支持单行/整体编辑与「直接发送」「填入对话框」「关闭」，任意操作完成后关闭。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-todo-list | 1 | [perry-ai/dsh-todo-list](https://github.com/perry-ai/dsh-todo-list) · [npm](https://www.npmjs.com/package/dsh-todo-list) | DSH 待办清单插件:把通知、公告、邮件等文字转成带截止日期的待办,提供 todo_* 模型工具、/api/todo REST 接口与侧栏 To Do List 入口。A DSH todo-list plugin: converts notices, announcements, and emails into dated todos, with todo_* agent tools, a | 0.1.0-rc.8 (2026-08-20) |
 | dsh-todolist | 1 | [HZ-JasonLin/dsh-todolist](https://github.com/HZ-JasonLin/dsh-todolist) · [npm](https://www.npmjs.com/package/@hz-jasonlin/dsh-todolist) | An independent todo board for DeepSeek Harness: list/board/calendar/week/project views, AI tools (todolist / todolist_suggest), and a self-contained storage backend. Registers a top-level Todos tab | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-adb | 1 | [lijiajia96/dsh-tool-adb](https://github.com/lijiajia96/dsh-tool-adb) | Model-facing Android Debug Bridge (adb) tools: device management, shell, install/uninstall, screenshot, file transfer, logcat | unverified |
@@ -1515,10 +1596,12 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-tool-workspace | 1 | [wangxing-git/dsh-tool-workspace](https://github.com/wangxing-git/dsh-tool-workspace) | DeepSeek Harness 工作区管理工具集：查看、创建注册、重命名、删除工作区记录（纯注册，不触碰磁盘目录）；破坏性操作（删除注册、改注册路径）走用户审批 fail-closed。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-wsl | 1 | [jonah791/dsh-tool-wsl](https://github.com/jonah791/dsh-tool-wsl) | WSL 命令行工具：在 WSL（Ubuntu）环境执行 bash 命令（wsl.exe -d <distro> -- bash -c），Windows 上取代 dsh-tool-bash | 0.1.0-rc.8 (2026-08-24) |
 | dsh-toolbox | 1 | [ldchaowin/dsh-toolbox](https://github.com/ldchaowin/dsh-toolbox) · [npm](https://www.npmjs.com/package/dsh-toolbox) | DSH 工具箱插件:股票盯盘(东方财富行情)+ 本地 txt 小说阅读器(UTF-8/GBK 自动识别、进度保存) | 0.1.0-rc.8 (2026-08-20) |
+| dsh-tools-lokiggo | 1 | [LoKiGGo/dsh-tools](https://github.com/LoKiGGo/dsh-tools) | DSH web plugin: personal toolbox with per-feature toggles, task-done corner notification, and one-click dsh web restart. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-tools-qq137686 | 1 | [qq1376868542-lang/dsh-tools](https://github.com/qq1376868542-lang/dsh-tools) | DSH web plugin: personal toolbox with per-feature toggles, task-done corner notification, and one-click dsh web restart. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tps | 1 | [Small-tailqwq/dsh-tps](https://github.com/Small-tailqwq/dsh-tps) | Running-turn TPS badge for DSH Web: live tokens-per-second inside the Deep diving status row | 0.1.0-rc.8 (2026-08-20) |
 | dsh-track-driven-dev | 1 | [satan9394/dsh-track-driven-dev](https://github.com/satan9394/dsh-track-driven-dev) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-translate-perrylin | 1 | [PerryLink/dsh-translate](https://github.com/PerryLink/dsh-translate) · [npm](https://www.npmjs.com/package/dsh-translate) | Vendor parameter translation and deterministic JSON repair for DeepSeek Harness: the /translate command maps temperature/top_p/max_tokens/stop/system across 11 vendors, and the tools/post-execute | 0.1.0-rc.8 (2026-08-20) |
+| dsh-translate-pro-jetheave | 1 | [jetheaven/dsh-translate-pro](https://github.com/jetheaven/dsh-translate-pro) | 专业翻译：支持术语一致、专业领域选择与语气调整，附带术语对照表 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-translator | 1 | [SiYue-ZO/dsh-translator](https://github.com/SiYue-ZO/dsh-translator) | A native, streaming translation workspace for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-trapstreet | 1 | [trapstreet/dsh-trapstreet](https://github.com/trapstreet/dsh-trapstreet) · [npm](https://www.npmjs.com/package/@trapstreet/dsh-trapstreet) | Check which DeepSeek Harness plugins actually loaded, and look up public evaluation boards on trapstreet.run | 0.1.0-rc.8 (2026-08-20) |
 | dsh-trashbin | 1 | [SUJIElearning/dsh-trashbin](https://github.com/SUJIElearning/dsh-trashbin) | DSH 回收站（删除冷静区）：归档的对话进入回收站，支持恢复、立即移除、7 天自动清理 | 0.1.0-rc.8 (2026-08-25) |
@@ -1582,12 +1665,14 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-writing-shape | 1 | [satan9394/dsh-writing-shape](https://github.com/satan9394/dsh-writing-shape) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wsl-env | 1 | [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) | Inject WSL/Windows path and shell facts into the DeepSeek Harness system prompt. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wsl-net | 1 | [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) | DeepSeek Harness tool: diagnose WSL/Windows proxy, Node 24 fetch, and DeepSeek/npm reachability. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-wsl-open | 1 | [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) | Open WSL Linux paths from DeepSeek Harness chat in Windows Explorer or the default Windows app. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-wsl-workspace-picker | 1 | [WilliamShi666/dsh-wsl-workspace-picker](https://github.com/WilliamShi666/dsh-wsl-workspace-picker) · [npm](https://www.npmjs.com/package/dsh-wsl-workspace-picker) | Enhanced workspace directory browser for the dsh web UI: quick access to /mnt Windows drives, full breadcrumb ancestry from the filesystem root, and an always-visible path input. | 0.1.0-rc.8 (2026-08-20) |
 | DSH-WX-Msg-Tool | 1 | [yauntyour/DSH-WX-Msg-Tool](https://github.com/yauntyour/DSH-WX-Msg-Tool) | DSH 微信消息工具插件：微信 iLink(ClawBot) 协议扫码登录与消息收发，设置页扫码登录并保存 api-token | 0.1.0-rc.8 (2026-08-20) |
 | dsh-xray-plugin | 1 | [unStone/dsh-xray-plugin](https://github.com/unStone/dsh-xray-plugin) | Look up what a DeepSeek Harness plugin can actually do, from inside dsh. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-zh-labels | 1 | [Xingkong42/dsh-zh-labels](https://github.com/Xingkong42/dsh-zh-labels) | DSH 界面中文标签持久化插件：每次启动时自动将 client 模块中的英文工具/状态标签修补为中文，升级 DSH 后自动恢复，无需手动改文件。 | 0.1.0-rc.8 (2026-08-25) |
 | DSHAIKanBan | 1 | [InformationDS/DSHAIKanBan](https://github.com/InformationDS/DSHAIKanBan/tree/HEAD/AIKanBan/aikanban-package) | AIKanBan for DSH: persistent Trello-style kanban plugin with host tools, JSON API, and conversation.view board UI. | 0.1.0-rc.8 (2026-08-21) |
 | dshp-skill-panel | 1 | [KuramiWan/dshp-skill-panel](https://github.com/KuramiWan/dshp-skill-panel) | DSHP session-scoped skill control and plugin management: session_skill_* tools, /skill-* commands, and a browser panel for skills, session MCP, and host-composition plugins (enable/disable | 0.1.0-rc.8 (2026-08-25) |
+| fdtree | 1 | [musclePatrickStar/fdtree](https://github.com/musclePatrickStar/fdtree) | 工作区文件树 + 实时红绿 Diff 面板（DeepSeek Harness web 插件）— workspace file tree with live red/green diff for dsh web. | 0.1.1-rc.2 (2026-08-28) |
 | file-planning | 1 | [JohnXu22786/file-planning](https://github.com/JohnXu22786/file-planning) | 磁盘持久化的执行规划插件：以 .trail 目录承载里程碑/步骤状态机、依赖标注、审计事件与复盘纪要，提供 dsh 工具、CLI 与技能三种接口 | 0.1.0-rc.8 (2026-08-20) |
 | frida_dsh_plugin | 1 | [mang0cola/frida_dsh_plugin](https://github.com/mang0cola/frida_dsh_plugin) | Frida device instrumentation tools for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | function-testing | 1 | [addxing/function-testing](https://github.com/addxing/function-testing) | DeepSeek Harness skill bundle: function-testing (loads SKILL.md). | 0.1.0-rc.8 (2026-08-20) |
@@ -1597,6 +1682,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | isingq-toolkit | 1 | [ising-tech/isingq-toolkit](https://github.com/ising-tech/isingq-toolkit/tree/HEAD/packages/dsh-plugin) · [npm](https://www.npmjs.com/package/@ising-tech/isingq-dsh-plugin) | Native DeepSeek Harness plugin for IsingQ guided QUBO modeling and solving | 0.1.0-rc.8 (2026-08-20) |
 | kaleidosphere-dsh-plugin | 1 | [JoFe2/kaleidosphere-dsh-plugin](https://github.com/JoFe2/kaleidosphere-dsh-plugin) | Native KaleidoSphere database-analysis tools for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | kic-ai-cn | 1 | [AlloyPlane/kic-ai-cn](https://github.com/AlloyPlane/kic-ai-cn/tree/HEAD/dsh-kicad-mcp) | DeepSeek Harness 插件：把 KiCad MCP 服务器（KiCAD-MCP-Server / Konnect）注册为 agent 工具 | unverified |
+| KISS_Law-DSH | 1 | [Shaky77/KISS_Law-DSH](https://github.com/Shaky77/KISS_Law-DSH) | KISS's Law (Weiwen's Law) universal causal engine (white-box presentation). DeepSeek Harness (Cordis) plugin implementation. | 0.1.1-rc.2 (2026-08-28) |
 | lazeword | 1 | [xczhanjun/lazeword](https://github.com/xczhanjun/lazeword) · [npm](https://www.npmjs.com/package/dsh-lazeword) | 躺着背单词 lazeword — cozy offline vocabulary & subject learning for DeepSeek Harness (dsh): 15,000 words (EDB math/science/geography, Oxford 5000, Chinese classics, engineers' words), FSRS-5 scheduling | 0.1.0-rc.8 (2026-08-20) |
 | luxueliu-reasoning-efforts | 1 | [luxueliu/luxueliu-reasoning-efforts](https://github.com/luxueliu/luxueliu-reasoning-efforts) | Reasoning-effort ladders for every non-ds model on a local LLM gateway route in DeepSeek Harness: declares selectable thinking levels (off/low/medium/high/xhigh/max) for hand-declared gateway models | 0.1.0-rc.8 (2026-08-24) |
 | mermaid2aichat-dsh | 1 | [supergameboy/mermaid2aichat-dsh](https://github.com/supergameboy/mermaid2aichat-dsh) · [npm](https://www.npmjs.com/package/mermaid2aichat-dsh) | mermaid2aichat-dsh — Mermaid 可视化编辑器，DeepSeek Harness 浏览器插件：右侧可关闭面板 + 画布/Mermaid 代码双向同步 + Agent 工具通道（flowchart / sequenceDiagram / classDiagram / erDiagram） | 0.1.0-rc.8 (2026-08-20) |
@@ -1613,6 +1699,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | PocketCode | 1 | [M1ssbe4r/PocketCode](https://github.com/M1ssbe4r/PocketCode/tree/HEAD/packages/standalone-runtime) | Phase A source-faithful 0.1.1-rc.2 standalone dsh runtime probe, bundled for the Node 24 Android sidecar. | 0.1.1-rc.2 (2026-08-26) |
 | powershell-fix | 1 | [GuTianshuo/powershell-fix](https://github.com/GuTianshuo/powershell-fix) | DeepSeek Harness (DSH) host-layer plugin: detects and auto-fixes Windows PowerShell command syntax mistakes — bash constructs, broken line continuations, pasted prompts, CRLF pollution — then | 0.1.0-rc.8 (2026-08-20) |
 | prompt-optimizer-goodie19 | 1 | [goodie1972/prompt-optimizer](https://github.com/goodie1972/prompt-optimizer/tree/HEAD/tools/dsh/npm) | ZCode / DeepSeek Harness prompt optimizer: /optimize command and optimize_prompt MCP tool, refine prompts via LLM to be clearer, more specific, more actionable. | 0.1.1-rc.2 (2026-08-26) |
+| quantskills-dsh-plugin | 1 | [quantskills/quantskills-dsh-plugin](https://github.com/quantskills/quantskills-dsh-plugin) | Installable QuantSkills application plugin for the DSH Web host | 0.1.1-rc.2 (2026-08-28) |
 | rejection-check | 1 | [maike-china/rejection-check](https://github.com/maike-china/rejection-check) | 标书废标项检查工具（DeepSeek Harness 插件）：解析招标/投标文件，提取无效投标与废标项，三轮风险检查，错别字与逻辑谬误检查，生成 PDF/HTML/Markdown 检查报告。无需外部 API Key。 | 0.1.0-rc.8 (2026-08-20) |
 | rss-digest | 1 | [JohnXu22786/rss-digest](https://github.com/JohnXu22786/rss-digest) · [npm](https://www.npmjs.com/package/dsh-rss-digest) | RSS/Atom feed subscription, scheduled fetching, deduplication, LLM-powered summarization, and daily Markdown digests — as a dsh (DeepSeek Harness) bundle. | 0.1.0-rc.8 (2026-08-20) |
 | search2chart-mcp | 1 | [iqingyoung/search2chart-mcp](https://github.com/iqingyoung/search2chart-mcp/tree/HEAD/dsh) | 原生 DSH 插件：结构化数据 → 对话内联图表（零依赖 SVG + localhost HTTP 服务） | 0.1.0-rc.8 (2026-08-20) |
@@ -1625,9 +1712,11 @@ New things the model can do: search, browser, files, databases, devices, media.
 | ui-muyu | 1 | [TongY1n/ui-muyu](https://github.com/TongY1n/ui-muyu) | 一个赛博木鱼：可拖拽、点击敲击、累积功德的 Web 悬浮小摆件 | 0.1.0-rc.8 (2026-08-20) |
 | vibe-intent-compiler | 1 | [Shhaaawwww/vibe-intent-compiler](https://github.com/Shhaaawwww/vibe-intent-compiler) | A conservative intent compiler for Vibe Coders in DeepSeek Harness: clarify messy drafts without inventing details, then fill the result back into the composer. | 0.1.1-rc.2 (2026-08-26) |
 | web-search-opencode-responses | 1 | [bailynlove/web-search-opencode-responses](https://github.com/bailynlove/web-search-opencode-responses) | dsh WebSearchProvider over the OpenCode Zen Go Responses API server-side web_search tool | 0.1.0-rc.8 (2026-08-24) |
+| weiwen-law-dsh | 1 | [Shaky77/weiwen-law-dsh](https://github.com/Shaky77/weiwen-law-dsh) | 唯稳律（Weiwen's Law）通用因果引擎（白箱呈现）—— DeepSeek Harness (Cordis) 插件实现 | 0.1.1-rc.2 (2026-08-28) |
 | workloom-im | 1 | [geniusdapeng-collab/workloom-im](https://github.com/geniusdapeng-collab/workloom-im/tree/HEAD/packages/runtime/dsh-gate) | E6 · dsh headless 回归门禁（D13①）：锁版 dsh 运行时 + 脚本化用例 + H-5 kill -9 重放验收 | 0.1.0-rc.8 (2026-08-21) |
 | xiwen | 1 | [kaiwangleo/xiwen](https://github.com/kaiwangleo/xiwen/tree/HEAD/plugins/dsh-xiwen) · [npm](https://www.npmjs.com/package/@kaiwangleo/dsh-xiwen) | Semantic-layer analytics tool for DeepSeek Harness backed by the Xiwen service | 0.1.0-rc.8 (2026-08-20) |
 | zhaoyu-restart | 1 | [SUJIElearning/zhaoyu-restart](https://github.com/SUJIElearning/zhaoyu-restart) | One-click silent DSH restart button in the composer input bar. DeepSeek Harness plugin (dsh-plugin). | 0.1.0-rc.8 (2026-08-25) |
+| bench | 0 | [MauricioPerera/bench](https://github.com/MauricioPerera/bench) | Plugin de composición para DeepSeek Harness (dsh) que expone una Tool para comparar latencia y tokens/segundo entre modelos, en el mismo prompt: benchrun. | 0.1.1-rc.2 (2026-08-28) |
 | CazzPatent | 0 | [YangCazz/CazzPatent](https://github.com/YangCazz/CazzPatent/tree/HEAD/plugin) | CazzPatent DeepSeek Harness plugin: deterministic tools wrapping the patent disclosure Python scripts. Runtime deps (@deepseek-ai/dsh-tools, dsh-shell, cordis, schemastery) are provided by the dsh | 0.1.0-rc.8 (2026-08-20) |
 | clustr-trading-console | 0 | [0xEryx/clustr-trading-console](https://github.com/0xEryx/clustr-trading-console) · [npm](https://www.npmjs.com/package/@clustrai/trading-console) | Clustr Trading Console for DeepSeek Harness: secure, multi-exchange tools and an AI trader cockpit. | 0.1.0-rc.8 (2026-08-21) |
 | convertible-bond-intel | 0 | [Wangxian111/convertible-bond-intel](https://github.com/Wangxian111/convertible-bond-intel) | 转债情报局 Convertible Bond Intel：可转债 Skill + DeepSeek Harness 插件。npm 包：@wxmark/dsh-tool-cb-intel | 0.1.0-rc.8 (2026-08-20) |
@@ -1637,18 +1726,21 @@ New things the model can do: search, browser, files, databases, devices, media.
 | deepseek-harness-enterprise-suite | 0 | [mickymultani/deepseek-harness-enterprise-suite](https://github.com/mickymultani/deepseek-harness-enterprise-suite) | Open-source enterprise plugins, governance controls, and connector templates for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | deepseek-harness-flake | 0 | [luochen1990/deepseek-harness-flake](https://github.com/luochen1990/deepseek-harness-flake/tree/HEAD/npm) | nix flake for dsh | 0.1.0-rc.8 (2026-08-21) |
 | DeepSeek-Harness-Mobile-Remote | 0 | [weimeng8888/DeepSeek-Harness-Mobile-Remote](https://github.com/weimeng8888/DeepSeek-Harness-Mobile-Remote/tree/HEAD/overlay/packages/bundle/web-app) | DeepSeek Harness 手机端适配 + FRP 公网穿透：手机响应式 UI、局域网/远程访问、源码级补丁教程。Mobile UI + FRP remote access adapter for DeepSeek Harness (source-level patch, steps included). | 0.1.0-rc.8 (2026-08-21) |
+| deepseek-harness-novel-studio | 0 | [qinpeizhan77/deepseek-harness-novel-studio](https://github.com/qinpeizhan77/deepseek-harness-novel-studio) | AI 小说创作工作台：在对话中管理大纲、章节、人物关系、世界观、时间线、禁写规则与一致性，让长篇小说越写越不乱。 | 0.1.1-rc.2 (2026-08-28) |
 | deepseek-harness-plugins-vladpatr | 0 | [VladPatr96/deepseek-harness-plugins](https://github.com/VladPatr96/deepseek-harness-plugins) | A host-first starter for durable DeepSeek Harness plugins | 0.1.1-rc.2 (2026-08-26) |
 | deepseek-harness-pocket | 0 | [monster-echo/deepseek-harness-pocket](https://github.com/monster-echo/deepseek-harness-pocket/tree/HEAD/packages/bridge) · [npm](https://www.npmjs.com/package/@deepseek-harness-pocket/bridge) | deepseek-harness-pocket 电脑端：DeepSeek Harness 桥接插件（mobile/v1 协议服务端）+ dshc Worker CLI | 0.1.0-rc.8 (2026-08-21) |
 | deepseek-harness-voice-input | 0 | [wkfedor/deepseek-harness-voice-input](https://github.com/wkfedor/deepseek-harness-voice-input) | Local voice typing and speech-to-text plugin for the DeepSeek Harness (dsh) Web UI, powered by multilingual Whisper. | 0.1.0-rc.8 (2026-08-25) |
 | deepseek-harness-voice-mode | 0 | [yankihue/deepseek-harness-voice-mode](https://github.com/yankihue/deepseek-harness-voice-mode/tree/HEAD/packages/client) | deepseek-voice-mode browser surface: power toggle, live pill with captions and thread cards, push-to-talk | 0.1.0-rc.8 (2026-08-25) |
 | deepseek-harness-voice-plugin | 0 | [yikeyili-studio/deepseek-harness-voice-plugin](https://github.com/yikeyili-studio/deepseek-harness-voice-plugin) | Voice input (mic transcription) + Edge TTS read-aloud plugin for the DeepSeek Harness Web GUI | 0.1.0-rc.8 (2026-08-25) |
 | dsh_AutoLoad_workflow | 0 | [MFWTW/dsh_AutoLoad_workflow](https://github.com/MFWTW/dsh_AutoLoad_workflow/tree/HEAD/dsh-workflow-loader) | 加载我们本地自己写的插件 | 0.1.0-rc.8 (2026-08-20) |
+| dsh_chat_index | 0 | [Barry-Liu-001/dsh_chat_index](https://github.com/Barry-Liu-001/dsh_chat_index) | DeepSeek Harness (DSH) conversation index plugin: a dot rail on the right edge of the chat — each dot is a user message; hover shows an abbreviation, click jumps to it. | 0.1.1-rc.2 (2026-08-28) |
 | dsh_plugins-zizaiwo | 0 | [zizaiwo/dsh_plugins](https://github.com/zizaiwo/dsh_plugins/tree/HEAD/dsh-session-categories) | zizaiwo 的 DeepSeek Harness 插件集合——开箱即用、全部可一键 npm 安装的 dsh 插件。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-a2u-analysis | 0 | [Leonx01/dsh-a2u-analysis](https://github.com/Leonx01/dsh-a2u-analysis/tree/HEAD/packages/a2ui-host) | 在 DeepSeek Harness（dsh web）上构建的 A2U 数据分析模式：agent 使用工具分析数据，并以 A2UI v0.9 协议将结果以交互式图表/表格推送到浏览器侧边面板。 | 0.1.1-rc.2 (2026-08-26) |
 | dsh-add-image-button | 0 | [Yaya716/dsh-add-image-button](https://github.com/Yaya716/dsh-add-image-button) | 持久化「添加图片」按钮：在对话输入栏工具行左侧补充系统文件选择入口（accept=image/*，多选），选中的图片走官方 draft 附件管线（conversation.input.left 加法式座位）。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-advanced-sidebar | 0 | [navid-kianfar/dsh-advanced-sidebar](https://github.com/navid-kianfar/dsh-advanced-sidebar) | Advanced sidebar operations for the DeepSeek Harness Web Client: git changes, a terminal, a file browser, background tasks, Open in, Archive and Delete, on the sidebar foot and the session header | 0.1.1-rc.2 (2026-08-26) |
 | dsh-adversarial-review | 0 | [mario03690/dsh-adversarial-review](https://github.com/mario03690/dsh-adversarial-review) | Adversarial review for code, MCP configs and system prompts — every finding carries a repro path and confidence; unreproducible ones are marked suspected, never confirmed. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-agentmemory-yogioo | 0 | [Yogioo/dsh-agentmemory](https://github.com/Yogioo/dsh-agentmemory) | Agent-plane tool plugin: connects dsh to the agentmemory REST API (search / remember / forget / health) | 0.1.0-rc.8 (2026-08-20) |
+| dsh-always-apply | 0 | [oThTJx/dsh-always-apply](https://github.com/oThTJx/dsh-always-apply) | Inject skills marked alwaysApply into DeepSeek Harness sessions without a skill tool load | 0.1.1-rc.2 (2026-08-28) |
 | dsh-anchored-standard-profile | 0 | [guopeifeng1688/dsh-anchored-standard-profile](https://github.com/guopeifeng1688/dsh-anchored-standard-profile/tree/HEAD/config/profile-web) | AGENTS.md profile for DeepSeek Harness: Anchored Standard + PowerShell 7 + busybox, boosting deepseek-v4-pro at MAX | 0.1.0-rc.8 (2026-08-20) |
 | dsh-animal-bear | 0 | [uckkk/dsh-animal-bear](https://github.com/uckkk/dsh-animal-bear) | animalinfo：返回 棕熊（Brown Bear）的类别、栖息地与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-animal-cow | 0 | [uckkk/dsh-animal-cow](https://github.com/uckkk/dsh-animal-cow) | animalinfo：返回 牛（Cow）的类别、栖息地与寿命。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1662,16 +1754,27 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-animal-wolf | 0 | [uckkk/dsh-animal-wolf](https://github.com/uckkk/dsh-animal-wolf) | animalinfo：返回 狼（Wolf）的类别、栖息地与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-antigravity-auth | 0 | [UE-DND/dsh-antigravity-auth](https://github.com/UE-DND/dsh-antigravity-auth) | DeepSeek Hardness plugin for using models provided by Antigravity within DSH. | broken against 0.1.0-rc.6 |
 | dsh-apply-patch | 0 | [fonlan/dsh-apply-patch](https://github.com/fonlan/dsh-apply-patch) · [npm](https://www.npmjs.com/package/@fonlan/dsh-apply-patch) | DSH plugin: a codex-style apply_patch tool (*** Begin Patch / *** Update File / *** Add File / *** Delete File) injected into the model toolset through DSH's built-in sandbox, with a settings card to | 0.1.0-rc.8 (2026-08-20) |
+| dsh-argentina | 0 | [uckkk/dsh-argentina](https://github.com/uckkk/dsh-argentina) | 阿根廷国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-argon | 0 | [uckkk/dsh-argon](https://github.com/uckkk/dsh-argon) | 氩元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-arithmetic-series | 0 | [uckkk/dsh-arithmetic-series](https://github.com/uckkk/dsh-arithmetic-series) | 等差数列 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-armenia | 0 | [uckkk/dsh-armenia](https://github.com/uckkk/dsh-armenia) | 亚美尼亚国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-arsenic | 0 | [uckkk/dsh-arsenic](https://github.com/uckkk/dsh-arsenic) | 砷元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-artifact-promotion-proof | 0 | [dongsheng123132/dsh-artifact-promotion-proof](https://github.com/dongsheng123132/dsh-artifact-promotion-proof) | Offline content-addressed proof that one immutable artifact followed a declared promotion chain | 0.1.1-rc.2 (2026-08-26) |
 | dsh-ascii | 0 | [uckkk/dsh-ascii](https://github.com/uckkk/dsh-ascii) | ASCII 转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ask-leader | 0 | [uckkk/dsh-ask-leader](https://github.com/uckkk/dsh-ask-leader) | askleader：向上沟通：按参数返回结构化方法。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-asr-voice | 0 | [bitterSmilezzz/dsh-asr-voice](https://github.com/bitterSmilezzz/dsh-asr-voice) | 开口即成文 · Speak-to-prompt for DeepSeek Harness：云端 ASR 语音识别 + 提示词优化 + 填入草稿/自动发送，跨平台 macOS / Windows。 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-astatine | 0 | [uckkk/dsh-astatine](https://github.com/uckkk/dsh-astatine) | 砹元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-at-file-misright | 0 | [MisRightW/dsh-at-file](https://github.com/MisRightW/dsh-at-file) | Workspace file references for DeepSeek Harness: pick a file with '@' and inject its content into the model context | 0.1.0-rc.8 (2026-08-20) |
 | dsh-atbash | 0 | [uckkk/dsh-atbash](https://github.com/uckkk/dsh-atbash) | Atbash 密码 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-attachment-s3 | 0 | [guaguasong/dsh-attachment-s3](https://github.com/guaguasong/dsh-attachment-s3) · [npm](https://www.npmjs.com/package/@guaguasong/dsh-attachment-s3) | Content-addressed S3 attachment storage for the DeepSeek Harness attachment seam | 0.1.0-rc.8 (2026-08-21) |
 | dsh-attachment-s3-qiniu | 0 | [qiniu/dsh-attachment-s3](https://github.com/qiniu/dsh-attachment-s3) | Content-addressed S3 attachment storage for the DeepSeek Harness attachment seam | 0.1.1-rc.2 (2026-08-26) |
 | dsh-audio-bitrate | 0 | [uckkk/dsh-audio-bitrate](https://github.com/uckkk/dsh-audio-bitrate) | audiobitrate：音频比特率：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-australia | 0 | [uckkk/dsh-australia](https://github.com/uckkk/dsh-australia) | 澳大利亚国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-austria | 0 | [uckkk/dsh-austria](https://github.com/uckkk/dsh-austria) | 奥地利国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-auto-coding | 0 | [facai0316/dsh-auto-coding](https://github.com/facai0316/dsh-auto-coding/tree/HEAD/packages/cm-flow) | Host-only dsh plugin: requirements persistence + state machine over the pg-mas `cm` database, exposed to the browser as a Typert Remote namespace `requirements` | 0.1.0-rc.8 (2026-08-20) |
 | dsh-autocount-cloud | 0 | [teckyuen/dsh-autocount-cloud](https://github.com/teckyuen/dsh-autocount-cloud) | DeepSeek Harness tools for AutoCount Cloud connector commands. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-average | 0 | [uckkk/dsh-average](https://github.com/uckkk/dsh-average) | 平均值 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-azerbaijan | 0 | [uckkk/dsh-azerbaijan](https://github.com/uckkk/dsh-azerbaijan) | 阿塞拜疆国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-baby-clothes | 0 | [uckkk/dsh-baby-clothes](https://github.com/uckkk/dsh-baby-clothes) | babyclothes：婴儿衣物尺码：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-baby-milk | 0 | [uckkk/dsh-baby-milk](https://github.com/uckkk/dsh-baby-milk) | babymilk：宝宝奶量估算：按参数精确计算，返回详细结果（估算值，非医疗建议）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-baby-weight | 0 | [uckkk/dsh-baby-weight](https://github.com/uckkk/dsh-baby-weight) | babyweight：宝宝体重标准：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1680,6 +1783,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-bait-pick | 0 | [uckkk/dsh-bait-pick](https://github.com/uckkk/dsh-bait-pick) | baitpick：鱼饵选择：按参数返回钓鱼实战方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bandwidth | 0 | [uckkk/dsh-bandwidth](https://github.com/uckkk/dsh-bandwidth) | bandwidth：带宽需求估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bang-shell | 0 | [ClausYang/dsh-bang-shell](https://github.com/ClausYang/dsh-bang-shell) | Run !-prefixed commands directly from the DeepSeek Harness Web composer without sending them to the model. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-bar2psi | 0 | [uckkk/dsh-bar2psi](https://github.com/uckkk/dsh-bar2psi) | 巴转 PSI | 0.1.1-rc.2 (2026-08-28) |
+| dsh-barium | 0 | [uckkk/dsh-barium](https://github.com/uckkk/dsh-barium) | 钡元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-base16 | 0 | [uckkk/dsh-base16](https://github.com/uckkk/dsh-base16) | Base16 编码 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-base32 | 0 | [uckkk/dsh-base32](https://github.com/uckkk/dsh-base32) | Base32 编解码（RFC 4648） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-base36 | 0 | [uckkk/dsh-base36](https://github.com/uckkk/dsh-base36) | Base36 编码 | 0.1.0-rc.8 (2026-08-20) |
@@ -1689,19 +1794,27 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-battery-check | 0 | [uckkk/dsh-battery-check](https://github.com/uckkk/dsh-battery-check) | batterycheck：电瓶寿命：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-battery-health | 0 | [uckkk/dsh-battery-health](https://github.com/uckkk/dsh-battery-health) | batteryhealth：电池健康：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-battery-life | 0 | [uckkk/dsh-battery-life](https://github.com/uckkk/dsh-battery-life) | batterylife：电池续航估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-bbl2l | 0 | [uckkk/dsh-bbl2l](https://github.com/uckkk/dsh-bbl2l) | 桶转升 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-bcrypt | 0 | [uckkk/dsh-bcrypt](https://github.com/uckkk/dsh-bcrypt) | 密码哈希（PBKDF2/scrypt） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-beijing-city | 0 | [uckkk/dsh-beijing-city](https://github.com/uckkk/dsh-beijing-city) | cityinfo：返回 北京市（Beijing）的undefined信息。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-belarus | 0 | [uckkk/dsh-belarus](https://github.com/uckkk/dsh-belarus) | 白俄罗斯国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-belgium | 0 | [uckkk/dsh-belgium](https://github.com/uckkk/dsh-belgium) | 比利时国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-belize | 0 | [uckkk/dsh-belize](https://github.com/uckkk/dsh-belize) | 伯利兹国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-benchup | 0 | [Muredsa/dsh-benchup](https://github.com/Muredsa/dsh-benchup) | Reproducible benchmark runner and observer plugin for DeepSeek Harness. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-benin | 0 | [uckkk/dsh-benin](https://github.com/uckkk/dsh-benin) | countryinfo：返回 贝宁（Benin）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-berkelium | 0 | [uckkk/dsh-berkelium](https://github.com/uckkk/dsh-berkelium) | 锫元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-berlin-city | 0 | [uckkk/dsh-berlin-city](https://github.com/uckkk/dsh-berlin-city) | cityinfo：返回 柏林市（Berlin）的undefined信息。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-beryllium | 0 | [uckkk/dsh-beryllium](https://github.com/uckkk/dsh-beryllium) | elementinfo：返回铍元素（Beryllium）完整资料：名称、元素符号、原子序数、相对原子质量、类别、族、周期、常温状态、电子构型。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-markdown-statemli | 0 | [statem-li/dsh-better-markdown](https://github.com/statem-li/dsh-better-markdown) | DeepSeek Harness Web plugin that renders streamed assistant Markdown with markstream-react. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-model-picker-taot | 0 | [taot/dsh-better-model-picker](https://github.com/taot/dsh-better-model-picker) | A composable model picker for the DeepSeek Harness Web composer: filters the model list by name or id. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-overleaf | 0 | [Hoemr/dsh-better-overleaf](https://github.com/Hoemr/dsh-better-overleaf) | Overleaf tab for dsh-better-sidebar: account login via direct-CDP browsers (third-party Chromium supported), project list/switch, workspace mirrors under <workspace>/overleaf/, git/API sync, and file | 0.1.0-rc.8 (2026-08-25) |
+| dsh-bhutan | 0 | [uckkk/dsh-bhutan](https://github.com/uckkk/dsh-bhutan) | 不丹国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-bib | 0 | [youyli03/dsh-bib](https://github.com/youyli03/dsh-bib/tree/HEAD/plugin-pkg) | DSH 内嵌浏览器：真实标签页 CDP 代理（browser_* 工具 + AX 树 + 单标签锁定） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-bili-asr | 0 | [rudyz666/dsh-bili-asr](https://github.com/rudyz666/dsh-bili-asr) | B站视频脚本提取插件：解析链接，优先取字幕轨，无字幕用本地 whisper (large-v3-turbo) 转写，导出 SRT/TXT/JSON。跨平台（Windows/macOS/Linux）。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-bili-publisher | 0 | [EIGHTfs/dsh-bili-publisher](https://github.com/EIGHTfs/dsh-bili-publisher) | B站动态发布插件：扫码登录（QR）+ 发纯文本/图文动态 + 删动态 + 验证。登录态持久化，提供 bili_status / bili_publish / bili_delete 工具与 HTTP API。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-bilibili-live | 0 | [uckkk/dsh-bilibili-live](https://github.com/uckkk/dsh-bilibili-live) | bilibililive：B站视频信息：联网实时拉取最新数据。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-binary | 0 | [uckkk/dsh-binary](https://github.com/uckkk/dsh-binary) | 二进制转换 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-binomial-pmf | 0 | [uckkk/dsh-binomial-pmf](https://github.com/uckkk/dsh-binomial-pmf) | 二项分布 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-bird-albatross | 0 | [uckkk/dsh-bird-albatross](https://github.com/uckkk/dsh-bird-albatross) | birdinfo：返回鸟类 信天翁（Albatross）的栖息地与特点。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-bird-crane | 0 | [uckkk/dsh-bird-crane](https://github.com/uckkk/dsh-bird-crane) | birdinfo：返回鸟类 鹤（Crane）的栖息地与特点。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-bird-crow | 0 | [uckkk/dsh-bird-crow](https://github.com/uckkk/dsh-bird-crow) | birdinfo：返回鸟类 乌鸦（Crow）的栖息地与特点。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1729,6 +1842,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-bmi | 0 | [uckkk/dsh-bmi](https://github.com/uckkk/dsh-bmi) | bmi：BMI计算器：按参数精确计算，返回详细结果（估算值，非医疗建议）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-body-care | 0 | [uckkk/dsh-body-care](https://github.com/uckkk/dsh-body-care) | bodycare：身体护理：按参数返回护理建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-body-type | 0 | [uckkk/dsh-body-type](https://github.com/uckkk/dsh-body-type) | bodytype：中医体质辨识：按参数返回中医养生方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-bolivia | 0 | [uckkk/dsh-bolivia](https://github.com/uckkk/dsh-bolivia) | 玻利维亚国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-bone-aid | 0 | [uckkk/dsh-bone-aid](https://github.com/uckkk/dsh-bone-aid) | boneaid：骨折扭伤：按参数返回家庭急救方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bone-check | 0 | [uckkk/dsh-bone-check](https://github.com/uckkk/dsh-bone-check) | bonecheck：骨密度筛查：按参数精确计算，返回健康建议（请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-book-pick | 0 | [uckkk/dsh-book-pick](https://github.com/uckkk/dsh-book-pick) | bookpick：选书方法：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1745,33 +1859,49 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-browser-lexmount | 0 | [lexmount/dsh-browser](https://github.com/lexmount/dsh-browser) · [npm](https://www.npmjs.com/package/@lexmount/dsh-browser) | Lexmount cloud browser tools for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-browser-tool | 0 | [mtaech/dsh-browser-tool](https://github.com/mtaech/dsh-browser-tool) | DSH browser tool: drive Chromium tabs (headless / CDP-attached / spawned apps / user's real Chrome via the OMP-style Browser Relay) with an open-close-run + tab scripting API, ported from oh-my-pi. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-brush-pick | 0 | [uckkk/dsh-brush-pick](https://github.com/uckkk/dsh-brush-pick) | brushpick：化妆刷具：按参数返回日常化妆方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-btu2kj | 0 | [uckkk/dsh-btu2kj](https://github.com/uckkk/dsh-btu2kj) | BTU 转千焦 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-btw-13615533 | 0 | [136155330/dsh-btw](https://github.com/136155330/dsh-btw) | /btw slash command for DeepSeek Harness: ask a context-aware side question without touching the main conversation | 0.1.0-rc.8 (2026-08-20) |
 | dsh-bulb-buy | 0 | [uckkk/dsh-bulb-buy](https://github.com/uckkk/dsh-bulb-buy) | bulbbuy：灯泡选购：按参数返回家居灯光设计方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-burn-aid | 0 | [uckkk/dsh-burn-aid](https://github.com/uckkk/dsh-burn-aid) | burnaid：烫伤急救：按参数返回家庭急救方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-burn-first-aid | 0 | [uckkk/dsh-burn-first-aid](https://github.com/uckkk/dsh-burn-first-aid) | burnfirstaid：烫伤急救：按参数返回急救步骤（急救请以专业培训为准）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-business-days | 0 | [uckkk/dsh-business-days](https://github.com/uckkk/dsh-business-days) | 工作日计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-buy-check | 0 | [uckkk/dsh-buy-check](https://github.com/uckkk/dsh-buy-check) | buycheck：购买前判断：按参数返回断舍离极简方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-byte-size | 0 | [uckkk/dsh-byte-size](https://github.com/uckkk/dsh-byte-size) | 字节大小格式化：把任意字节数换算为 B/KB/MB/GB/TB 等人类可读格式，支持二进制与十进制前缀（Byte size formatting tool for DeepSeek Harness） | 0.1.0-rc.8 (2026-08-20) |
+| dsh-c2f | 0 | [uckkk/dsh-c2f](https://github.com/uckkk/dsh-c2f) | 摄氏转华氏 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-c2k | 0 | [uckkk/dsh-c2k](https://github.com/uckkk/dsh-c2k) | 摄氏转开尔文 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-cable-power | 0 | [uckkk/dsh-cable-power](https://github.com/uckkk/dsh-cable-power) | cablepower：充电功率计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cache-aware-compaction | 0 | [SeptTpes/dsh-cache-aware-compaction](https://github.com/SeptTpes/dsh-cache-aware-compaction/tree/HEAD/dsh-compaction-cache-aware) | Cache-aware compaction engine: replay-based summarization when the prefix cache is warm, transcript-based summarization when it is cold | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cad-roymina | 0 | [roymina/dsh-cad](https://github.com/roymina/dsh-cad) | DeepSeek Harness tools for inspecting, extracting and previewing CAD files. | 0.1.0-rc.8 (2026-08-21) |
+| dsh-cadmium | 0 | [uckkk/dsh-cadmium](https://github.com/uckkk/dsh-cadmium) | 镉元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-caesar | 0 | [uckkk/dsh-caesar](https://github.com/uckkk/dsh-caesar) | 纯 Node 实现，无网络、无外部服务。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-caesium | 0 | [uckkk/dsh-caesium](https://github.com/uckkk/dsh-caesium) | 铯元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-cafe-order | 0 | [uckkk/dsh-cafe-order](https://github.com/uckkk/dsh-cafe-order) | cafeorder：咖啡馆点单：按参数返回咖啡冲煮方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cafe-start | 0 | [uckkk/dsh-cafe-start](https://github.com/uckkk/dsh-cafe-start) | cafestart：咖啡店启动测算：按参数返回小店经营测算结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-caffeine | 0 | [uckkk/dsh-caffeine](https://github.com/uckkk/dsh-caffeine) | caffeine：咖啡因半衰期：按参数精确计算，返回明确建议（医疗内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cairo-city | 0 | [uckkk/dsh-cairo-city](https://github.com/uckkk/dsh-cairo-city) | cityinfo：返回 开罗市（Cairo）的undefined信息。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cake-pan | 0 | [uckkk/dsh-cake-pan](https://github.com/uckkk/dsh-cake-pan) | cakepan：蛋糕模具换算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-cake-recipe | 0 | [uckkk/dsh-cake-recipe](https://github.com/uckkk/dsh-cake-recipe) | cakerecipe：蛋糕配方：按参数返回烘焙实操方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-cal2j | 0 | [uckkk/dsh-cal2j](https://github.com/uckkk/dsh-cal2j) | 卡路里转焦耳 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-calcium | 0 | [uckkk/dsh-calcium](https://github.com/uckkk/dsh-calcium) | 钙元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-californium | 0 | [uckkk/dsh-californium](https://github.com/uckkk/dsh-californium) | 锎元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-cambodia | 0 | [uckkk/dsh-cambodia](https://github.com/uckkk/dsh-cambodia) | 柬埔寨国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-camelcase | 0 | [uckkk/dsh-camelcase](https://github.com/uckkk/dsh-camelcase) | 驼峰命名 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-cameroon | 0 | [uckkk/dsh-cameroon](https://github.com/uckkk/dsh-cameroon) | 喀麦隆国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-camp-food | 0 | [uckkk/dsh-camp-food](https://github.com/uckkk/dsh-camp-food) | campfood：露营食物准备：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-camp-gear | 0 | [uckkk/dsh-camp-gear](https://github.com/uckkk/dsh-camp-gear) | campgear：露营装备清单：按参数返回露营实战方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-camp-site | 0 | [uckkk/dsh-camp-site](https://github.com/uckkk/dsh-camp-site) | campsite：营地选址：按参数返回露营实战方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-canada | 0 | [uckkk/dsh-canada](https://github.com/uckkk/dsh-canada) | 加拿大国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-candle-make | 0 | [uckkk/dsh-candle-make](https://github.com/uckkk/dsh-candle-make) | candlemake：香薰蜡烛配方：按参数返回香氛精油方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-capability-resolver | 0 | [striveh/dsh-capability-resolver](https://github.com/striveh/dsh-capability-resolver) | Read-only local capability and community plugin discovery for DeepSeek Harness Web | 0.1.0-rc.8 (2026-08-25) |
 | dsh-cape-verde | 0 | [uckkk/dsh-cape-verde](https://github.com/uckkk/dsh-cape-verde) | countryinfo：返回 佛得角（Cape Verde）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-capitalize | 0 | [uckkk/dsh-capitalize](https://github.com/uckkk/dsh-capitalize) | 首字母大写 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-car | 0 | [uckkk/dsh-car](https://github.com/uckkk/dsh-car) | countryinfo：返回 中非共和国（Central African Republic）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-car-loan | 0 | [uckkk/dsh-car-loan](https://github.com/uckkk/dsh-car-loan) | carloan：车贷月供计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-carbon | 0 | [uckkk/dsh-carbon](https://github.com/uckkk/dsh-carbon) | elementinfo：返回碳元素（Carbon）完整资料：名称、元素符号、原子序数、相对原子质量、类别、族、周期、常温状态、电子构型。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-catalan | 0 | [uckkk/dsh-catalan](https://github.com/uckkk/dsh-catalan) | 卡塔兰数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ccfddl | 0 | [sshhhll002/dsh-ccfddl](https://github.com/sshhhll002/dsh-ccfddl) | CCF 会议截稿倒计时侧栏组件:数据由服务器进程拉取 ccfddl.com,浏览器经连接 API 获取;localStorage 持久化设置,红绿灯紧急度。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ccswitch-sync | 0 | [yu969774/dsh-ccswitch-sync](https://github.com/yu969774/dsh-ccswitch-sync) | Sync CC Switch (cc-switch) providers and models into DeepSeek Harness custom providers (llm-pi-ai) | 0.1.0-rc.8 (2026-08-25) |
+| dsh-cerium | 0 | [uckkk/dsh-cerium](https://github.com/uckkk/dsh-cerium) | 铈元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-cet-pass | 0 | [uckkk/dsh-cet-pass](https://github.com/uckkk/dsh-cet-pass) | cetpass：四六级过线判断：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cet-score | 0 | [uckkk/dsh-cet-score](https://github.com/uckkk/dsh-cet-score) | cetscore：四六级估分：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-chad | 0 | [uckkk/dsh-chad](https://github.com/uckkk/dsh-chad) | countryinfo：返回 乍得（Chad）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1789,8 +1919,13 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-chess-pick | 0 | [uckkk/dsh-chess-pick](https://github.com/uckkk/dsh-chess-pick) | chesspick：棋类入门选择：按参数返回棋类学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-chess-plan | 0 | [uckkk/dsh-chess-plan](https://github.com/uckkk/dsh-chess-plan) | chessplan：棋类练习规划：按参数返回棋类学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-chicago-city | 0 | [uckkk/dsh-chicago-city](https://github.com/uckkk/dsh-chicago-city) | cityinfo：返回 芝加哥市（Chicago）的undefined信息。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-chile | 0 | [uckkk/dsh-chile](https://github.com/uckkk/dsh-chile) | 智利国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-china | 0 | [uckkk/dsh-china](https://github.com/uckkk/dsh-china) | countryinfo：返回中国国家（China）完整资料：名称、首都、人口(万)、面积(万平方公里)、货币代码、官方语言、电话区号、顶级域名、大洲、国旗。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-chlorine | 0 | [uckkk/dsh-chlorine](https://github.com/uckkk/dsh-chlorine) | 氯元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-choke-aid | 0 | [uckkk/dsh-choke-aid](https://github.com/uckkk/dsh-choke-aid) | chokeaid：气道梗阻：按参数返回家庭急救方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-chromium | 0 | [uckkk/dsh-chromium](https://github.com/uckkk/dsh-chromium) | 铬元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-chunk | 0 | [uckkk/dsh-chunk](https://github.com/uckkk/dsh-chunk) | 数组分块 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-circle | 0 | [uckkk/dsh-circle](https://github.com/uckkk/dsh-circle) | 圆计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-circuit-plan | 0 | [uckkk/dsh-circuit-plan](https://github.com/uckkk/dsh-circuit-plan) | circuitplan：电路回路规划：按参数精确计算，返回详细结果（行业经验估算）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-city-budapest-city | 0 | [uckkk/dsh-city-budapest-city](https://github.com/uckkk/dsh-city-budapest-city) | cityinfo：返回 布达佩斯（Budapest）的国家与人口。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-city-copenhagen-city | 0 | [uckkk/dsh-city-copenhagen-city](https://github.com/uckkk/dsh-city-copenhagen-city) | cityinfo：返回 哥本哈根（Copenhagen）的国家与人口。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1807,6 +1942,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-city-zurich-city | 0 | [uckkk/dsh-city-zurich-city](https://github.com/uckkk/dsh-city-zurich-city) | cityinfo：返回 苏黎世（Zurich）的国家与人口。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-civil-exam | 0 | [uckkk/dsh-civil-exam](https://github.com/uckkk/dsh-civil-exam) | civilexam：行测答题节奏：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-claim | 0 | [uckkk/dsh-claim](https://github.com/uckkk/dsh-claim) | claim：理赔流程：按参数返回家庭保险规划方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-clamp | 0 | [uckkk/dsh-clamp](https://github.com/uckkk/dsh-clamp) | 数值限幅 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-clay-craft | 0 | [uckkk/dsh-clay-craft](https://github.com/uckkk/dsh-clay-craft) | claycraft：黏土手工：按参数返回手工DIY方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-clean-freq | 0 | [uckkk/dsh-clean-freq](https://github.com/uckkk/dsh-clean-freq) | cleanfreq：清洁频率：按参数返回居家清洁方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-clean-tools | 0 | [uckkk/dsh-clean-tools](https://github.com/uckkk/dsh-clean-tools) | cleantools：清洁工具：按参数返回洗衣清洁管理方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1817,10 +1953,12 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-client-ui-elasticsearch | 0 | [SaitoAsuka1121/dsh-client-ui-elasticsearch](https://github.com/SaitoAsuka1121/dsh-client-ui-elasticsearch) | Elasticsearch connection settings for DeepSeek Harness: shared settings section (URIs/username/password) plus the es_query_logs model tool | 0.1.0-rc.8 (2026-08-25) |
 | dsh-client-ui-filesystem-manager | 0 | [dsh-mixxed/dsh-client-ui-filesystem-manager](https://github.com/dsh-mixxed/dsh-client-ui-filesystem-manager) · [npm](https://www.npmjs.com/package/@dsh-mixxed/dsh-client-ui-filesystem-manager) | Out-of-tree dsh plugin: a 'Files' tab in the conversation window with a VSCode-style file tree and viewer over the session workspace. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-client-ui-period-hint | 0 | [aqiane/dsh-client-ui-period-hint](https://github.com/aqiane/dsh-client-ui-period-hint/tree/HEAD/packages/client/ui-period-hint) | 在输入栏显示当前dsAPI价格时段 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-client-ui-rtl | 0 | [haythamat/dsh-client-ui-rtl](https://github.com/haythamat/dsh-client-ui-rtl) | Right-to-left text direction for the DeepSeek Harness Web client. Marks Arabic, Hebrew, Persian, Urdu and Syriac content as RTL by script dominance, leaving Latin content untouched. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-client-ui-selection-add | 0 | [pangzi-club/dsh-client-ui-selection-add](https://github.com/pangzi-club/dsh-client-ui-selection-add) | Web selection-add feature: float an 'Add to conversation' button over a text selection in the conversation body and prefill the composer draft | 0.1.0-rc.8 (2026-08-25) |
 | dsh-client-ui-settings-model-advanced | 0 | [Asuta/dsh-client-ui-settings-model-advanced](https://github.com/Asuta/dsh-client-ui-settings-model-advanced) | DSH web plugin: schema-driven advanced model settings page (settings.section 'model-advanced'). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-client-ui-side-chat | 0 | [Rookiecom/dsh-client-ui-side-chat](https://github.com/Rookiecom/dsh-client-ui-side-chat) | Side Chat branch action contributed to assistant turn tails in the Web conversation | 0.1.0-rc.8 (2026-08-20) |
 | dsh-client-ui-vibecontroller | 0 | [squirrelbullet/dsh-client-ui-vibecontroller](https://github.com/squirrelbullet/dsh-client-ui-vibecontroller) | Floating DualSense controller overlay for the DeepSeek Harness web surface: lights up pressed buttons and fires bound vibe-coding instructions. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-cloudflare-access | 0 | [Luawig/dsh-cloudflare-access](https://github.com/Luawig/dsh-cloudflare-access) | Cloudflare Access JWT verification and remote DSH privileged authorization | 0.1.1-rc.2 (2026-08-28) |
 | dsh-club-ajax | 0 | [uckkk/dsh-club-ajax](https://github.com/uckkk/dsh-club-ajax) | clubinfo：返回足球俱乐部 阿贾克斯（Ajax）的国家、城市与主场。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-club-bayern | 0 | [uckkk/dsh-club-bayern](https://github.com/uckkk/dsh-club-bayern) | clubinfo：返回足球俱乐部 拜仁慕尼黑（Bayern Munich）的国家、城市与主场。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-club-benfica | 0 | [uckkk/dsh-club-benfica](https://github.com/uckkk/dsh-club-benfica) | clubinfo：返回足球俱乐部 本菲卡（Benfica）的国家、城市与主场。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1847,6 +1985,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-color-name | 0 | [uckkk/dsh-color-name](https://github.com/uckkk/dsh-color-name) | 颜色名称识别：输入十六进制颜色，返回常见中文/英文颜色名称（Color name lookup tool for DeepSeek Harness） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-color-theory | 0 | [uckkk/dsh-color-theory](https://github.com/uckkk/dsh-color-theory) | 色彩理论与配色方案参考 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-color-uckkk | 0 | [uckkk/dsh-color](https://github.com/uckkk/dsh-color) | 颜色工具：hex/rgb/hsl 互转，计算补色、明暗与前景对比度 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-column | 0 | [uckkk/dsh-column](https://github.com/uckkk/dsh-column) | 列格式化 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-comfy-video-studio | 0 | [a1303845406/dsh-comfy-video-studio](https://github.com/a1303845406/dsh-comfy-video-studio) | Full-screen MiniMax H3 video studio for DeepSeek Harness backed by a local ComfyUI server | 0.1.1-rc.2 (2026-08-28) |
 | dsh-command-quarantine | 0 | [sutimee/dsh-command-quarantine](https://github.com/sutimee/dsh-command-quarantine) | DSH command-line tool quarantine zone: intercept direct shell execution, route every command through submit/review/execute-by-id with full audit | 0.1.0-rc.8 (2026-08-20) |
 | dsh-command-vscode | 0 | [foxi-ui/dsh-command-vscode](https://github.com/foxi-ui/dsh-command-vscode) · [npm](https://www.npmjs.com/package/@foxi-ai/dsh-command-vscode) | DeepSeek Harness slash command: open the current workspace (or a given path) in Visual Studio Code | 0.1.0-rc.8 (2026-08-20) |
 | dsh-commands | 0 | [EtbyStudio/dsh-commands](https://github.com/EtbyStudio/dsh-commands) · [npm](https://www.npmjs.com/package/@etby-studio/dsh-commands) | Filesystem slash-command discovery for DeepSeek Harness UIs | 0.1.0-rc.8 (2026-08-20) |
@@ -1861,6 +2001,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-compound-interest | 0 | [uckkk/dsh-compound-interest](https://github.com/uckkk/dsh-compound-interest) | compoundinterest：复利计算器：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-compressio | 0 | [zhaoyaqi18/dsh-compressio](https://github.com/zhaoyaqi18/dsh-compressio) | Image compression/conversion tools for DeepSeek Harness via api.compressio.cc MCP | 0.1.0-rc.8 (2026-08-20) |
 | dsh-concurrency | 0 | [uckkk/dsh-concurrency](https://github.com/uckkk/dsh-concurrency) | concurrency：并发需求估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-cone | 0 | [uckkk/dsh-cone](https://github.com/uckkk/dsh-cone) | 圆锥计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-config | 0 | [isomoes/dsh-config](https://github.com/isomoes/dsh-config/tree/HEAD/profiles/web) | DeepSeek Harness (dsh) configuration | 0.1.0-rc.8 (2026-08-20) |
 | dsh-config-atri10 | 0 | [Atri10/dsh-config](https://github.com/Atri10/dsh-config/tree/HEAD/config/profiles/web) | Deep seek harness configuration | 0.1.0-rc.8 (2026-08-21) |
 | dsh-config-form | 0 | [begonia599/dsh-config-form](https://github.com/begonia599/dsh-config-form) · [npm](https://www.npmjs.com/package/dsh-config-form) | One settings page for every plugin that opts in: declare fields, get a rendered form | 0.1.0-rc.8 (2026-08-20) |
@@ -1876,6 +2017,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-cool-ui | 0 | [Lee-mx/dsh-cool-ui](https://github.com/Lee-mx/dsh-cool-ui) | Original mecha-command visual layer for the DeepSeek Harness Web profile | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cordis-emotion-engine | 0 | [Army1900/dsh-cordis-emotion-engine](https://github.com/Army1900/dsh-cordis-emotion-engine) | 情绪引擎：DSH Cordis 插件，感知用户情绪并驱动全局动态配色、水波悬浮球与系统提示词注入。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cosmetics-shelf | 0 | [uckkk/dsh-cosmetics-shelf](https://github.com/uckkk/dsh-cosmetics-shelf) | cosmeticsshelf：化妆品保质期：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-countdown | 0 | [uckkk/dsh-countdown](https://github.com/uckkk/dsh-countdown) | 倒计时 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-counter-height | 0 | [uckkk/dsh-counter-height](https://github.com/uckkk/dsh-counter-height) | counterheight：台面高度：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-coupon-opt | 0 | [uckkk/dsh-coupon-opt](https://github.com/uckkk/dsh-coupon-opt) | couponopt：优惠券判断：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-coupon-profit | 0 | [uckkk/dsh-coupon-profit](https://github.com/uckkk/dsh-coupon-profit) | couponprofit：优惠券后毛利：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
@@ -1889,16 +2031,23 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-ctr-split | 0 | [uckkk/dsh-ctr-split](https://github.com/uckkk/dsh-ctr-split) | ctrsplit：点击率拆解：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ctrl-enter-submit | 0 | [SA1992X/dsh-ctrl-enter-submit](https://github.com/SA1992X/dsh-ctrl-enter-submit) | DeepSeek Harness 插件：将对话框提交快捷键改为 Ctrl/Cmd+Enter，普通 Enter 换行，可在设置中随时开关。 / A DSH plugin that makes Enter insert a newline and Ctrl/Cmd+Enter submit, toggleable in settings. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-cuadrive-mac | 0 | [aa2246740/dsh-cuadrive-mac](https://github.com/aa2246740/dsh-cuadrive-mac) | macOS-only DeepSeek Harness bundle for a private Cua Driver computer-use runtime. | 0.1.1-rc.2 (2026-08-26) |
+| dsh-cube | 0 | [uckkk/dsh-cube](https://github.com/uckkk/dsh-cube) | 立方体计算 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-cuid | 0 | [uckkk/dsh-cuid](https://github.com/uckkk/dsh-cuid) | CUID 生成 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-cup2ml | 0 | [uckkk/dsh-cup2ml](https://github.com/uckkk/dsh-cup2ml) | 杯转毫升 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-currency | 0 | [uckkk/dsh-currency](https://github.com/uckkk/dsh-currency) | 货币格式化与换算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-current-calc | 0 | [uckkk/dsh-current-calc](https://github.com/uckkk/dsh-current-calc) | currentcalc：电流计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-curtain-pick | 0 | [uckkk/dsh-curtain-pick](https://github.com/uckkk/dsh-curtain-pick) | curtainpick：窗帘选择：按参数返回家居软装搭配方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-custom-context-menu | 0 | [sulfide2085/dsh-custom-context-menu](https://github.com/sulfide2085/dsh-custom-context-menu) | DSH Web 自定义右键菜单：全局拦截 contextmenu，提供可扩展菜单框架，并内置“打开工作区文件夹”功能 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-custom-models | 0 | [codehz/dsh-custom-models](https://github.com/codehz/dsh-custom-models) | DSH custom model providers with per-model reasoning defaults and settings UI | 0.1.0-rc.8 (2026-08-20) |
+| dsh-custom-prompt | 0 | [johnvictorio/dsh-custom-prompt](https://github.com/johnvictorio/dsh-custom-prompt) | DSH plugin that injects an editable section into the global system prompt, with a settings page to customize it. | 0.1.1-rc.2 (2026-08-28) |
+| dsh-cylinder | 0 | [uckkk/dsh-cylinder](https://github.com/uckkk/dsh-cylinder) | 圆柱计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-daily-calorie | 0 | [uckkk/dsh-daily-calorie](https://github.com/uckkk/dsh-daily-calorie) | dailycalorie：每日热量需求：按参数精确计算，返回详细结果（估算值，非医疗建议）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dance-pick | 0 | [uckkk/dsh-dance-pick](https://github.com/uckkk/dsh-dance-pick) | dancepick：舞种选择：按参数返回舞蹈学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-dashscope-tool-adapter | 0 | [Uersx/dsh-dashscope-tool-adapter](https://github.com/Uersx/dsh-dashscope-tool-adapter) | DSH plugin: adapts DashScope/闂傚倸鍟锟犲闯闁垮顩查柟瀵稿У椤忋儵鏌?DeepSeek endpoints that lack native tool calling by converting tool definitions to prompt text and parsing model responses for tool calls. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-data-rate | 0 | [uckkk/dsh-data-rate](https://github.com/uckkk/dsh-data-rate) | datarate：网速换算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-data-use | 0 | [uckkk/dsh-data-use](https://github.com/uckkk/dsh-data-use) | datause：流量管理：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-date-format | 0 | [uckkk/dsh-date-format](https://github.com/uckkk/dsh-date-format) | 日期格式化 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-day-of-year | 0 | [uckkk/dsh-day-of-year](https://github.com/uckkk/dsh-day-of-year) | 年内第几天 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-daybook | 0 | [franksong2702/dsh-daybook](https://github.com/franksong2702/dsh-daybook) | Intelligent, local-first Markdown journal writing assistant for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-db-migration | 0 | [uckkk/dsh-db-migration](https://github.com/uckkk/dsh-db-migration) | 数据库迁移生成：对比两个 SQL DDL 文件（CREATE TABLE），检测新增/删除/变更的表与列，生成 ALTER TABLE 迁移 SQL | 0.1.0-rc.8 (2026-08-20) |
 | dsh-debt-plan | 0 | [uckkk/dsh-debt-plan](https://github.com/uckkk/dsh-debt-plan) | debtplan：债务管理：按参数返回家庭财务规划方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1906,6 +2055,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-declutter-decide | 0 | [uckkk/dsh-declutter-decide](https://github.com/uckkk/dsh-declutter-decide) | declutterdecide：断舍离决策：按参数返回断舍离极简方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-deed-tax | 0 | [uckkk/dsh-deed-tax](https://github.com/uckkk/dsh-deed-tax) | deedtax：契税计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-deep-clean | 0 | [uckkk/dsh-deep-clean](https://github.com/uckkk/dsh-deep-clean) | deepclean：开荒保洁：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-deep-clone | 0 | [uckkk/dsh-deep-clone](https://github.com/uckkk/dsh-deep-clone) | 深拷贝 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-deep-equal | 0 | [uckkk/dsh-deep-equal](https://github.com/uckkk/dsh-deep-equal) | 深比较 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-deeppilot | 0 | [Mars-Sea/dsh-deeppilot](https://github.com/Mars-Sea/dsh-deeppilot) | DeepPilot companion plugin for DeepSeek Harness: use DSH from a native iPhone app over an authenticated, direct connection to your own Mac. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-deepseek-balance-wanyanti | 0 | [WanYanTianDe/dsh-deepseek-balance](https://github.com/WanYanTianDe/dsh-deepseek-balance) | DeepSeek account balance query: a deepseek_balance model tool plus a browser header button. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dehumid-pick | 0 | [uckkk/dsh-dehumid-pick](https://github.com/uckkk/dsh-dehumid-pick) | dehumidpick：除湿机选择：按参数返回居家防霉除湿方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1916,14 +2067,20 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-dest-check | 0 | [uckkk/dsh-dest-check](https://github.com/uckkk/dsh-dest-check) | destcheck：目的地清单：按参数返回旅行规划方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-diaper-size | 0 | [uckkk/dsh-diaper-size](https://github.com/uckkk/dsh-diaper-size) | diapersize：纸尿裤尺码：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-diff-vis | 0 | [roushanyyzz/dsh-diff-vis](https://github.com/roushanyyzz/dsh-diff-vis) | DSH plugin: show a git-style file diff right inside the chat whenever the AI calls write/edit tools. Unified (top-bottom) and split (side-by-side) views with inline word highlighting, view-preference | 0.1.0-rc.8 (2026-08-20) |
+| dsh-difference | 0 | [uckkk/dsh-difference](https://github.com/uckkk/dsh-difference) | 集合差集 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-diffgeom | 0 | [hatter123/dsh-diffgeom](https://github.com/hatter123/dsh-diffgeom) | Differential-geometry symbolic computation for DeepSeek Harness via SymPy.diffgeom | 0.1.0-rc.8 (2026-08-20) |
 | dsh-diffstream | 0 | [F-Light/dsh-diffstream](https://github.com/F-Light/dsh-diffstream) | Show code changes in the dsh web GUI conversation: inline line-level diff inside edit/write tool cards with a streaming reveal animation, plus a per-turn file-change summary card (git-first | 0.1.0-rc.8 (2026-08-20) |
+| dsh-digital-root | 0 | [uckkk/dsh-digital-root](https://github.com/uckkk/dsh-digital-root) | 数字根 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-disclosure-tweaks | 0 | [Cinnamobot/dsh-disclosure-tweaks](https://github.com/Cinnamobot/dsh-disclosure-tweaks) | Auto-expand / collapse the DSH conversation UI disclosure rows (Think reasoning, tool calls, todo, queue) from Settings. 思考・ツールコールなどの折りたたみを設定から選べるようにするプラグイン。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-dish-margin | 0 | [uckkk/dsh-dish-margin](https://github.com/uckkk/dsh-dish-margin) | dishmargin：菜品毛利计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-distance-2d | 0 | [uckkk/dsh-distance-2d](https://github.com/uckkk/dsh-distance-2d) | 两点距离 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-divisor-count | 0 | [uckkk/dsh-divisor-count](https://github.com/uckkk/dsh-divisor-count) | 因子个数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-docflow | 0 | [mario03690/dsh-docflow](https://github.com/mario03690/dsh-docflow) | Ship what humans actually asked for: markdown → docx / pptx / pdf / epub; PDFs merged, split, watermarked — one call each. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-docker-services | 0 | [ch3vr0n5/dsh-docker-services](https://github.com/ch3vr0n5/dsh-docker-services/tree/HEAD/packages/plugin) | Guarded service and deployment controls for DeepSeek Harness Docker controllers | 0.1.1-rc.2 (2026-08-28) |
 | dsh-doctor-windows | 0 | [sublatesublate-design/dsh-doctor-windows](https://github.com/sublatesublate-design/dsh-doctor-windows) | Windows environment diagnostics for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-doctor-windows-xianfanw | 0 | [xianfanwindy/dsh-doctor-windows](https://github.com/xianfanwindy/dsh-doctor-windows) | Read-only Windows startup diagnostics for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-document | 0 | [jiaoqsh/dsh-document](https://github.com/jiaoqsh/dsh-document) · [npm](https://www.npmjs.com/package/@jiaoqsh/dsh-document) | DeepSeek Harness bundle: the read_document tool reads Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF files as Markdown for the model | 0.1.0-rc.8 (2026-08-20) |
+| dsh-domain | 0 | [uckkk/dsh-domain](https://github.com/uckkk/dsh-domain) | 域名解析 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dotenv | 0 | [uckkk/dsh-dotenv](https://github.com/uckkk/dsh-dotenv) | env 解析与序列化 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-doubao-voice | 0 | [Vorpal-poem/dsh-doubao-voice](https://github.com/Vorpal-poem/dsh-doubao-voice) | DSH WebUI 语音输入插件（火山引擎流式 ASR / 豆包 Seed ASR）：输入框麦克风按钮（Alt+V）→ 浏览器采集 16kHz PCM → 经宿主 WebSocket 中继到豆包流式识别 → 实时回填（跟随光标/Proma 式输出，失败兜底剪贴板）。协议实现源自 Proma 桌面端调研复刻。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-double | 0 | [Junkrat9527/dsh-double](https://github.com/Junkrat9527/dsh-double) | Self-management & self-evolution for DeepSeek Harness: health snapshots, config pre-check, blue-green evolve with auto-rollback, and an on-demand standby supervisor — let dsh manage itself. | 0.1.0-rc.8 (2026-08-20) |
@@ -1938,15 +2095,21 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-duration | 0 | [uckkk/dsh-duration](https://github.com/uckkk/dsh-duration) | 时长格式化：把毫秒/秒等时长转换为人类可读的 X 小时 Y 分钟 Z 秒，支持多种单位（Duration formatter tool for DeepSeek Harness） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dynamic-assembler | 0 | [QLM1234/dsh-dynamic-assembler](https://github.com/QLM1234/dsh-dynamic-assembler) · [npm](https://www.npmjs.com/package/dsh-plugin-dynamic-assembler) | Natural-language driven dynamic assembler for DeepSeek Harness (dsh): discovers plugins at runtime (official-first, third-party optional), generates assembly plans, and loads them via Cordis — with | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dynasty-match | 0 | [uckkk/dsh-dynasty-match](https://github.com/uckkk/dsh-dynasty-match) | dynastymatch：朝代搭配：按参数返回汉服穿搭方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-e2e-dev-sdd | 0 | [Army1900/dsh-e2e-dev-sdd](https://github.com/Army1900/dsh-e2e-dev-sdd) | Five-stage specification-driven development workbenches for DeepSeek Harness Web. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-earthquake | 0 | [uckkk/dsh-earthquake](https://github.com/uckkk/dsh-earthquake) | earthquake：地震避险：按场景返回关键处置步骤（急救内容请以专业培训为准）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-easy-galgame | 0 | [isirin1131/dsh-easy-galgame](https://github.com/isirin1131/dsh-easy-galgame) | Easy Galgame mode：一个文件 = 角色卡 + 世界书 + 剧本 + 规则 + 状态 的 all-in-one 提示词。DSH 插件提供 galgame_read / galgame_write / galgame_ask 三个工具与 Galgame 模式系统提示词：先加载文件，用户选择开玩或编辑；游戏结束（或不玩）后进入编辑模式，由 agent 修改整串提示词并写回状态。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-eat-out | 0 | [uckkk/dsh-eat-out](https://github.com/uckkk/dsh-eat-out) | eatout：外食选择：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-echo | 0 | [bleakbelladonnals/dsh-echo](https://github.com/bleakbelladonnals/dsh-echo) | Record MCP once. Replay it safely inside DeepSeek Harness. | 0.1.1-rc.2 (2026-08-28) |
+| dsh-edex-jarvis-ui | 0 | [ph4310822/dsh-edex-jarvis-ui](https://github.com/ph4310822/dsh-edex-jarvis-ui/tree/HEAD/packages/bundle) | eDEX-UI style shell over the web surface: system telemetry left bar, network/world-view right bar, filesystem browser bottom-left, original UI centered | 0.1.1-rc.2 (2026-08-28) |
 | dsh-edit-photo | 0 | [uckkk/dsh-edit-photo](https://github.com/uckkk/dsh-edit-photo) | editphoto：照片后期：按参数返回摄影构图方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-editor-launcher | 0 | [904915452/dsh-editor-launcher](https://github.com/904915452/dsh-editor-launcher) | DeepSeek Harness plugin: open the current workspace in a detected editor (VS Code, GoLand, PhpStorm, HBuilderX, …) from a header dropdown | 0.1.0-rc.8 (2026-08-20) |
 | dsh-effort-bars | 0 | [imdeniil/dsh-effort-bars](https://github.com/imdeniil/dsh-effort-bars) | Effort bars for DeepSeek Harness — click signal-style sticks next to the model button to switch the reasoning effort instantly; the model menu opens straight to the searchable list. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-egg-size | 0 | [uckkk/dsh-egg-size](https://github.com/uckkk/dsh-egg-size) | eggsize：鸡蛋大小：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ego-browser-dshworks | 0 | [dshworks/dsh-ego-browser](https://github.com/dshworks/dsh-ego-browser) · [npm](https://www.npmjs.com/package/@dshworks/dsh-ego-browser) | ego lite in dsh with a persistent site-skill memory: recall what was learned about a site, promote a script that worked into a reusable tool, hand the keyboard to the user for real. | 0.1.1-rc.2 (2026-08-24) |
 | dsh-electricity-bill | 0 | [uckkk/dsh-electricity-bill](https://github.com/uckkk/dsh-electricity-bill) | electricitybill：阶梯电费计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-electro-lab | 0 | [curtainsmall/dsh-electro-lab](https://github.com/curtainsmall/dsh-electro-lab) | DSH plugin: electrical & electronics problem solving | 0.1.1-rc.2 (2026-08-28) |
+| dsh-ellipse | 0 | [uckkk/dsh-ellipse](https://github.com/uckkk/dsh-ellipse) | 椭圆面积 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-ellipsis | 0 | [uckkk/dsh-ellipsis](https://github.com/uckkk/dsh-ellipsis) | 省略缩写 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-emergency-fund | 0 | [uckkk/dsh-emergency-fund](https://github.com/uckkk/dsh-emergency-fund) | emergencyfund：应急金规划：按参数返回家庭财务规划方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-emergency-kit | 0 | [uckkk/dsh-emergency-kit](https://github.com/uckkk/dsh-emergency-kit) | emergencykit：应急包清单：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-emotion-guide | 0 | [uckkk/dsh-emotion-guide](https://github.com/uckkk/dsh-emotion-guide) | emotionguide：情绪引导：按参数返回亲子教育方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1960,6 +2123,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-esc-stop | 0 | [ClausYang/dsh-esc-stop](https://github.com/ClausYang/dsh-esc-stop) | DeepSeek Harness Web plugin: press Escape in the composer to stop the active task | 0.1.0-rc.8 (2026-08-20) |
 | dsh-espresso | 0 | [uckkk/dsh-espresso](https://github.com/uckkk/dsh-espresso) | espresso：意式萃取：按参数返回咖啡冲煮方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ess-proposal | 0 | [AlanHuang168/dsh-ess-proposal](https://github.com/AlanHuang168/dsh-ess-proposal) | DSH plugin: Generate solar + energy storage proposals from electricity bills | 0.1.0-rc.8 (2026-08-20) |
+| dsh-essentials-bundle | 0 | [lussey820/dsh-essentials-bundle](https://github.com/lussey820/dsh-essentials-bundle) | DSH 基础核心全家桶（All-in-one essentials pack）：聊天壁纸 + Token 用量 + 会话管理 + 每轮撤销（带产物回退）+ 文件浏览器/编辑器。零依赖，只注入 CSS/设置项/插槽/只读路由，不覆盖核心模块。 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-euler-totient | 0 | [uckkk/dsh-euler-totient](https://github.com/uckkk/dsh-euler-totient) | 欧拉函数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ev-range | 0 | [uckkk/dsh-ev-range](https://github.com/uckkk/dsh-ev-range) | evrange：电动车续航估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-evo-vis | 0 | [simplosophy/dsh-evo-vis](https://github.com/simplosophy/dsh-evo-vis) | DeepSeek Harness 组件生态实时可视化：把 harness 的每一个组件变成深海生物圈里的一颗生命，实时观察、实时进化。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-evolution-console | 0 | [yu-xin-c/dsh-evolution-console](https://github.com/yu-xin-c/dsh-evolution-console) | Creator-native candidate capture, isolated evaluation, promotion, rollback, and visual lineage for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
@@ -1972,6 +2137,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-extension-workbook | 0 | [GongYuanCaiJi/dsh-extension-workbook](https://github.com/GongYuanCaiJi/dsh-extension-workbook) | Excel / 工作簿读写 - @firstpick/pi-extension-workbook 的 dsh 移植 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-eye-makeup | 0 | [uckkk/dsh-eye-makeup](https://github.com/uckkk/dsh-eye-makeup) | eyemakeup：眼妆基础：按参数返回日常化妆方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-fabric-care | 0 | [uckkk/dsh-fabric-care](https://github.com/uckkk/dsh-fabric-care) | fabriccare：面料护理：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-factorial | 0 | [uckkk/dsh-factorial](https://github.com/uckkk/dsh-factorial) | 纯 Node 实现，无网络依赖。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-family-contact | 0 | [uckkk/dsh-family-contact](https://github.com/uckkk/dsh-family-contact) | familycontact：家庭应急联络：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-family-gather | 0 | [uckkk/dsh-family-gather](https://github.com/uckkk/dsh-family-gather) | familygather：家庭聚会：按参数返回家庭节庆筹备方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-fatigue | 0 | [uckkk/dsh-fatigue](https://github.com/uckkk/dsh-fatigue) | fatigue：疲劳自测：按参数返回家庭健康自检结果。 | 0.1.0-rc.8 (2026-08-21) |
@@ -1982,6 +2148,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-file-bridge | 0 | [fengs2021/dsh-file-bridge](https://github.com/fengs2021/dsh-file-bridge) | DSH 文件收发桥： 附件按钮上传（图片原生预览条/文件链接）+ send_files 工具下发 + /dsh-files 静态服务 + 反引号路径一键调起侧边栏 explorer。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-checksum | 0 | [yan9651688/dsh-file-checksum](https://github.com/yan9651688/dsh-file-checksum) | Raw-file SHA-256 and SHA-512 verification tool for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-confirm | 0 | [hfh1999/dsh-file-confirm](https://github.com/hfh1999/dsh-file-confirm) · [npm](https://www.npmjs.com/package/dsh-file-confirm) | 文件改动确认机制（双面插件）：write/edit/str_replace_editor 写入前弹出确认条，内嵌 GitHub 风格 diff（行号 + 红删绿增），允许本次 / 拒绝。File-change confirmation with inline diff for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-file-download | 0 | [kivensteven8-eng/dsh-file-download](https://github.com/kivensteven8-eng/dsh-file-download) | DSH 插件：把会话工作区文件变成浏览器直接下载的 HTTP 通道，为 iPad 等局域网设备设计。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-file-drop-eac | 0 | [jing-hy/dsh-file-drop-eac](https://github.com/jing-hy/dsh-file-drop-eac) | 拖入文件/文件夹到对话（Deepseek Harness EAC 特化版，替代已弃用的 dsh-file-drop）：文本/代码文件内容自动注入输入框（体积上限内），二进制/超大文件注入完整路径提示；去掉对图片的接管（交给视觉桥避免重复注入冲突）；新增对文件夹的接管（识别并给出可操作降级提示）。纯客户端实现（host 半边 no-op）。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-file-drop-nafiygon | 0 | [Nafiygond/dsh-file-drop](https://github.com/Nafiygond/dsh-file-drop) · [npm](https://www.npmjs.com/package/dsh-file-drop) | DSH 桌面版插件：把 PDF / Python(.py) / Excel(.xlsx) / CSV 文件直接拖入对话框，输入框上方显示格式卡片，发送时自动附带引用，模型通过 read_file_attachment 工具读取内容进行分析。零运行时依赖，纯 ESM，无需构建。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-file-edit | 0 | [justarook1e/dsh-file-edit](https://github.com/justarook1e/dsh-file-edit) | Workspace file browser with agent-change review (accept/reject + undo), full user editing (undo/redo, save, auto-save), diff view and rendered markdown (static host+client plugin) | 0.1.0-rc.8 (2026-08-20) |
@@ -2013,8 +2180,11 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-formalin | 0 | [uckkk/dsh-formalin](https://github.com/uckkk/dsh-formalin) | formalin：甲醛治理：按参数返回家居空气质量方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-formula-stage | 0 | [uckkk/dsh-formula-stage](https://github.com/uckkk/dsh-formula-stage) | formulastage：奶粉段位：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-frame-rate | 0 | [uckkk/dsh-frame-rate](https://github.com/uckkk/dsh-frame-rate) | framerate：帧率选择：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-free-model | 0 | [jsoncode/dsh-free-model](https://github.com/jsoncode/dsh-free-model) | OpenRouter free-models browser plugin (dual-face): fetch OpenRouter models, filter the free ones (price 0 or :free), list them newest-first in a Settings tab with local search and full model info | 0.1.1-rc.2 (2026-08-28) |
+| DSH-freeweb-explorer | 0 | [ExplorerZYzhou/DSH-freeweb](https://github.com/ExplorerZYzhou/DSH-freeweb) | DSH 免费联网搜索插件（Parallel 后端，零依赖） | 0.1.1-rc.2 (2026-08-28) |
 | dsh-fridge-buy | 0 | [uckkk/dsh-fridge-buy](https://github.com/uckkk/dsh-fridge-buy) | fridgebuy：冰箱选购：按参数返回厨房家电选购方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-fs-deny-policy | 0 | [vladlearns/dsh-fs-deny-policy](https://github.com/vladlearns/dsh-fs-deny-policy) | DeepSeek Harness plugin: a deployment deny list of filesystem roots the model may never touch - fences read, write, search, and shell tool calls at tools/pre-execute | 0.1.0-rc.8 (2026-08-25) |
+| dsh-full-access-switch | 0 | [xtd1145/dsh-full-access-switch](https://github.com/xtd1145/dsh-full-access-switch) | DSH Full access 一次性开关：新工作区/新对话默认 full access，不再逐个确认（可安装 bundle + 补丁工具） | 0.1.1-rc.2 (2026-08-28) |
 | dsh-full-reduction | 0 | [uckkk/dsh-full-reduction](https://github.com/uckkk/dsh-full-reduction) | fullreduction：满减设计：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-function-plot | 0 | [kirineko/dsh-function-plot](https://github.com/kirineko/dsh-function-plot) · [npm](https://www.npmjs.com/package/dsh-function-plot) | 2D teaching plots and standalone SVG cards for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-furniture-care | 0 | [uckkk/dsh-furniture-care](https://github.com/uckkk/dsh-furniture-care) | furniturecare：家具防潮：按参数返回居家防霉除湿方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2036,17 +2206,27 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-future-synthetic-food | 0 | [uckkk/dsh-future-synthetic-food](https://github.com/uckkk/dsh-future-synthetic-food) | listsynfood：列出 合成食品 条目。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-fx-live | 0 | [uckkk/dsh-fx-live](https://github.com/uckkk/dsh-fx-live) | fxlive：实时汇率换算：联网实时拉取最新数据。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-gabon | 0 | [uckkk/dsh-gabon](https://github.com/uckkk/dsh-gabon) | countryinfo：返回 加蓬（Gabon）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-gadolinium | 0 | [uckkk/dsh-gadolinium](https://github.com/uckkk/dsh-gadolinium) | 钆元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-gal2l | 0 | [uckkk/dsh-gal2l](https://github.com/uckkk/dsh-gal2l) | 加仑转升 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-gallium | 0 | [uckkk/dsh-gallium](https://github.com/uckkk/dsh-gallium) | 镓元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-gambia | 0 | [uckkk/dsh-gambia](https://github.com/uckkk/dsh-gambia) | countryinfo：返回 冈比亚（Gambia）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-gaokao-split | 0 | [uckkk/dsh-gaokao-split](https://github.com/uckkk/dsh-gaokao-split) | gaokaosplit：备考时间拆解：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-gcd | 0 | [uckkk/dsh-gcd](https://github.com/uckkk/dsh-gcd) | 最大公约数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-gdi-art-plugins | 0 | [sqs404/dsh-gdi-art-plugins](https://github.com/sqs404/dsh-gdi-art-plugins/tree/HEAD/dsh-client-ui-pixel-art) | Pixel Art / GDI+ Drawing plugin card for Settings → Plugins → Plugin configuration (enables the draw_gdi tool, tunes the default canvas size, previews recent images) plus the inline conversation | unverified |
 | dsh-gear-list | 0 | [uckkk/dsh-gear-list](https://github.com/uckkk/dsh-gear-list) | gearlist：新手装备清单：按参数返回钓鱼实战方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-geo-viewer | 0 | [naivemap/dsh-geo-viewer](https://github.com/naivemap/dsh-geo-viewer) | DSH geo visualization plugin: the geo_view tool detects geographic data in CSV/XLSX tables, GeoJSON, and address lists, then renders an interactive MapLibre map card in the conversation. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-geography-mountains | 0 | [uckkk/dsh-geography-mountains](https://github.com/uckkk/dsh-geography-mountains) | listmountain：列出 世界高峰 条目。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-geography-oceans | 0 | [uckkk/dsh-geography-oceans](https://github.com/uckkk/dsh-geography-oceans) | listocean：列出 五大洋 条目。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-geography-rivers | 0 | [uckkk/dsh-geography-rivers](https://github.com/uckkk/dsh-geography-rivers) | listriver：列出 世界大河 条目。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-geometric-mean | 0 | [uckkk/dsh-geometric-mean](https://github.com/uckkk/dsh-geometric-mean) | 几何平均数 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-geometric-series | 0 | [uckkk/dsh-geometric-series](https://github.com/uckkk/dsh-geometric-series) | 等比数列 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-georgia | 0 | [uckkk/dsh-georgia](https://github.com/uckkk/dsh-georgia) | 格鲁吉亚国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-germanium | 0 | [uckkk/dsh-germanium](https://github.com/uckkk/dsh-germanium) | 锗元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-germany | 0 | [uckkk/dsh-germany](https://github.com/uckkk/dsh-germany) | 德国国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-gestalt | 0 | [uckkk/dsh-gestalt](https://github.com/uckkk/dsh-gestalt) | 格式塔视觉感知原则参考 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-gesture-mouse | 0 | [zfu691531-hash/dsh-gesture-mouse](https://github.com/zfu691531-hash/dsh-gesture-mouse) | DSH plugin that drives a local macOS camera gesture mouse helper. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-gh-plugin | 0 | [king-bcolor/dsh-gh-plugin](https://github.com/king-bcolor/dsh-gh-plugin) | DeepSeek Harness plugin wrapping the GitHub CLI (gh) with a browser settings UI. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-ghana | 0 | [uckkk/dsh-ghana](https://github.com/uckkk/dsh-ghana) | 加纳国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-gift-money | 0 | [uckkk/dsh-gift-money](https://github.com/uckkk/dsh-gift-money) | giftmoney：份子钱参考：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-git-graph-devvikin | 0 | [DevViking-Persike/dsh-git-graph](https://github.com/DevViking-Persike/dsh-git-graph) | DeepSeek Harness plugin: a Git commit-graph view with lanes, refs, and worktree management, beside the chat input | 0.1.1-rc.2 (2026-08-26) |
 | dsh-git-status | 0 | [weiyuou-chowbus/dsh-git-status](https://github.com/weiyuou-chowbus/dsh-git-status) | DSH web composer tool-row git branch indicator with branch switching | 0.1.0-rc.8 (2026-08-20) |
@@ -2061,26 +2241,37 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-global-proxy | 0 | [TTsdzb/dsh-global-proxy](https://github.com/TTsdzb/dsh-global-proxy) | DSH plugin: route every fetch/http/https request of the DSH process (model endpoints, web search, MCP) through an HTTP proxy. Follows *_proxy environment variables or manual settings; configured from | 0.1.0-rc.8 (2026-08-25) |
 | dsh-go-rules | 0 | [uckkk/dsh-go-rules](https://github.com/uckkk/dsh-go-rules) | gorules：围棋规则：按参数返回棋类学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-godot-preview | 0 | [baiyuscc13724-max/dsh-godot-preview](https://github.com/baiyuscc13724-max/dsh-godot-preview) | Lightweight, independently installable Godot preview plugin for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
+| dsh-gold | 0 | [uckkk/dsh-gold](https://github.com/uckkk/dsh-gold) | 金元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-gold-clean | 0 | [uckkk/dsh-gold-clean](https://github.com/uckkk/dsh-gold-clean) | goldclean：珠宝清洗：按参数返回手表珠宝保养方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-gold-live | 0 | [uckkk/dsh-gold-live](https://github.com/uckkk/dsh-gold-live) | goldlive：实时金价：联网实时拉取最新数据。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-goldbach | 0 | [uckkk/dsh-goldbach](https://github.com/uckkk/dsh-goldbach) | 哥德巴赫分解 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-golden-hour | 0 | [uckkk/dsh-golden-hour](https://github.com/uckkk/dsh-golden-hour) | goldenhour：黄金时刻：按参数返回拍摄建议。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-gongfu-steps | 0 | [uckkk/dsh-gongfu-steps](https://github.com/uckkk/dsh-gongfu-steps) | gongfusteps：泡茶步骤：按参数返回茶艺方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-gongjijin | 0 | [uckkk/dsh-gongjijin](https://github.com/uckkk/dsh-gongjijin) | gongjijin：公积金贷款月供：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-gpa-calc | 0 | [uckkk/dsh-gpa-calc](https://github.com/uckkk/dsh-gpa-calc) | gpacalc：GPA换算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-gradient | 0 | [uckkk/dsh-gradient](https://github.com/uckkk/dsh-gradient) | 渐变色 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-graduate-exam | 0 | [uckkk/dsh-graduate-exam](https://github.com/uckkk/dsh-graduate-exam) | graduateexam：考研过线判断：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-greece | 0 | [uckkk/dsh-greece](https://github.com/uckkk/dsh-greece) | 希腊国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-greet-plugin | 0 | [ShiXiangYu2/dsh-greet-plugin](https://github.com/ShiXiangYu2/dsh-greet-plugin) | A DeepSeek Harness plugin that registers a greet tool callable by the model. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-grenada | 0 | [uckkk/dsh-grenada](https://github.com/uckkk/dsh-grenada) | countryinfo：返回 格林纳达（Grenada）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-grocery-list | 0 | [uckkk/dsh-grocery-list](https://github.com/uckkk/dsh-grocery-list) | grocerylist：食材采购：按参数返回家庭聚餐待客方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-grok-xsearch | 0 | [GooDAnDReaDY/dsh-grok-xsearch](https://github.com/GooDAnDReaDY/dsh-grok-xsearch) | Grok x_search tool for DeepSeek Harness via separate SuperGrok OAuth account. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-gross-margin | 0 | [uckkk/dsh-gross-margin](https://github.com/uckkk/dsh-gross-margin) | grossmargin：毛利率计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-group | 0 | [uckkk/dsh-group](https://github.com/uckkk/dsh-group) | 数组分组 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-group-buy | 0 | [uckkk/dsh-group-buy](https://github.com/uckkk/dsh-group-buy) | groupbuy：拼单团购：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-group-by | 0 | [uckkk/dsh-group-by](https://github.com/uckkk/dsh-group-by) | 按键分组 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-guangzhou-city | 0 | [uckkk/dsh-guangzhou-city](https://github.com/uckkk/dsh-guangzhou-city) | cityinfo：返回 广州市（Guangzhou）的undefined信息。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-guatemala | 0 | [uckkk/dsh-guatemala](https://github.com/uckkk/dsh-guatemala) | 危地马拉国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-guest-table | 0 | [uckkk/dsh-guest-table](https://github.com/uckkk/dsh-guest-table) | guesttable：婚宴桌数：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-guid | 0 | [uckkk/dsh-guid](https://github.com/uckkk/dsh-guid) | GUID 生成 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-guinea-bissau | 0 | [uckkk/dsh-guinea-bissau](https://github.com/uckkk/dsh-guinea-bissau) | countryinfo：返回 几内亚比绍（Guinea-Bissau）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-guitar-chord | 0 | [uckkk/dsh-guitar-chord](https://github.com/uckkk/dsh-guitar-chord) | guitarchord：吉他调性和弦：按参数返回乐器练习方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-guyana | 0 | [uckkk/dsh-guyana](https://github.com/uckkk/dsh-guyana) | 圭亚那国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-guzheng-basic | 0 | [uckkk/dsh-guzheng-basic](https://github.com/uckkk/dsh-guzheng-basic) | guzhengbasic：古筝基础：按参数返回民族乐器学习方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-ha2acre | 0 | [uckkk/dsh-ha2acre](https://github.com/uckkk/dsh-ha2acre) | 公顷转英亩 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-habit-anchor | 0 | [uckkk/dsh-habit-anchor](https://github.com/uckkk/dsh-habit-anchor) | habitanchor：习惯叠加：按参数返回仪式建议。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-hackernews-reader | 0 | [jo32/dsh-hackernews-reader](https://github.com/jo32/dsh-hackernews-reader) | A standalone Hacker News reader with app-scoped AI conversations for DeepDeck | 0.1.0-rc.8 (2026-08-25) |
+| dsh-hafnium | 0 | [uckkk/dsh-hafnium](https://github.com/uckkk/dsh-hafnium) | 铪元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-hair-care | 0 | [uckkk/dsh-hair-care](https://github.com/uckkk/dsh-hair-care) | haircare：护发建议：按参数返回护理建议。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-hair-dryer | 0 | [uckkk/dsh-hair-dryer](https://github.com/uckkk/dsh-hair-dryer) | hairdryer：吹风机选择：按参数精确计算，返回选购建议。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-hair-issue | 0 | [uckkk/dsh-hair-issue](https://github.com/uckkk/dsh-hair-issue) | hairissue：问题发质：按参数返回发型打理方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2088,6 +2279,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-hair-pick | 0 | [uckkk/dsh-hair-pick](https://github.com/uckkk/dsh-hair-pick) | hairpick：发型选择：按参数返回发型打理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hair-wash | 0 | [uckkk/dsh-hair-wash](https://github.com/uckkk/dsh-hair-wash) | hairwash：洗头频率：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hair-wash-care | 0 | [uckkk/dsh-hair-wash-care](https://github.com/uckkk/dsh-hair-wash-care) | hairwashcare：洗发护发：按参数返回发型打理方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-haiti | 0 | [uckkk/dsh-haiti](https://github.com/uckkk/dsh-haiti) | 海地国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-hamming-weight | 0 | [uckkk/dsh-hamming-weight](https://github.com/uckkk/dsh-hamming-weight) | 汉明重量 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-hamster-cage | 0 | [uckkk/dsh-hamster-cage](https://github.com/uckkk/dsh-hamster-cage) | hamstercage：仓鼠笼养：按参数返回小宠养护方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hamster-diet | 0 | [uckkk/dsh-hamster-diet](https://github.com/uckkk/dsh-hamster-diet) | hamsterdiet：仓鼠饮食：按参数返回小宠养护方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hamster-pick | 0 | [uckkk/dsh-hamster-pick](https://github.com/uckkk/dsh-hamster-pick) | hamsterpick：仓鼠选择：按参数返回小宠养护方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2097,7 +2290,10 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-hanfu-size | 0 | [uckkk/dsh-hanfu-size](https://github.com/uckkk/dsh-hanfu-size) | hanfusize：汉服尺码计算：按参数返回汉服穿搭方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hanfu-style | 0 | [uckkk/dsh-hanfu-style](https://github.com/uckkk/dsh-hanfu-style) | hanfustyle：汉服形制选择：按参数返回汉服穿搭方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hanfu-wash | 0 | [uckkk/dsh-hanfu-wash](https://github.com/uckkk/dsh-hanfu-wash) | hanfuwash：汉服清洗保养：按参数返回汉服穿搭方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-harmonic | 0 | [uckkk/dsh-harmonic](https://github.com/uckkk/dsh-harmonic) | 调和级数 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-hashid | 0 | [uckkk/dsh-hashid](https://github.com/uckkk/dsh-hashid) | 纯 Node 实现，无网络依赖。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-hashline-edittool | 0 | [hyperion2144/dsh-hashline-edittool](https://github.com/hyperion2144/dsh-hashline-edittool) | Line-anchored read/edit/batch_edit/grep/undo_last_edit tools for DeepSeek Harness (dsh). Every line is addressed by `<line>#<hash>` so chained edits skip a re-read; stale or ambiguous anchors are | 0.1.0-rc.8 (2026-08-25) |
+| dsh-hassium | 0 | [uckkk/dsh-hassium](https://github.com/uckkk/dsh-hassium) | 𬭶元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-header-clock | 0 | [yangweigao/dsh-header-clock](https://github.com/yangweigao/dsh-header-clock/tree/HEAD/static) | DeepSeek Harness header clock plugin: live date/time at top center of the page | 0.1.0-rc.8 (2026-08-20) |
 | dsh-heart-rate | 0 | [uckkk/dsh-heart-rate](https://github.com/uckkk/dsh-heart-rate) | heartrate：运动心率区间：按参数精确计算，返回详细结果（估算值，非医疗建议）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-heart-zone | 0 | [uckkk/dsh-heart-zone](https://github.com/uckkk/dsh-heart-zone) | heartzone：心率区间：按参数返回家庭健康自检结果。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2117,8 +2313,11 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-hike-gear | 0 | [uckkk/dsh-hike-gear](https://github.com/uckkk/dsh-hike-gear) | hikegear：徒步装备：按参数返回徒步登山方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hike-train | 0 | [uckkk/dsh-hike-train](https://github.com/uckkk/dsh-hike-train) | hiketrain：登山训练：按参数返回徒步登山方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hike-water | 0 | [uckkk/dsh-hike-water](https://github.com/uckkk/dsh-hike-water) | hikewater：徒步饮水量：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-holmium | 0 | [uckkk/dsh-holmium](https://github.com/uckkk/dsh-holmium) | 钬元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-homework | 0 | [uckkk/dsh-homework](https://github.com/uckkk/dsh-homework) | homework：作业辅导：按参数返回亲子教育方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-homework-help | 0 | [uckkk/dsh-homework-help](https://github.com/uckkk/dsh-homework-help) | homeworkhelp：作业辅导：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-honduras | 0 | [uckkk/dsh-honduras](https://github.com/uckkk/dsh-honduras) | 洪都拉斯国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-hong-kong | 0 | [uckkk/dsh-hong-kong](https://github.com/uckkk/dsh-hong-kong) | 香港国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-hongbao | 0 | [uckkk/dsh-hongbao](https://github.com/uckkk/dsh-hongbao) | hongbao：红包计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hongkong-city | 0 | [uckkk/dsh-hongkong-city](https://github.com/uckkk/dsh-hongkong-city) | cityinfo：返回 香港市（Hong Kong）的undefined信息。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-host-drink | 0 | [uckkk/dsh-host-drink](https://github.com/uckkk/dsh-host-drink) | hostdrink：待客饮品：按参数返回饮品制作方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2126,6 +2325,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-hot-drink | 0 | [uckkk/dsh-hot-drink](https://github.com/uckkk/dsh-hot-drink) | hotdrink：热饮养生：按参数返回饮品制作方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hotel-tax | 0 | [uckkk/dsh-hotel-tax](https://github.com/uckkk/dsh-hotel-tax) | hoteltax：酒店税费计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-hotkeys-platform | 0 | [whitewatercn/dsh-hotkeys-platform](https://github.com/whitewatercn/dsh-hotkeys-platform) | DSH web plugin: 快捷键设定平台 —— ctx.hotkeys 注册表服务，插件注册动作、统一配置快捷键 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-hp2kw | 0 | [uckkk/dsh-hp2kw](https://github.com/uckkk/dsh-hp2kw) | 马力转千瓦 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-html-decode | 0 | [uckkk/dsh-html-decode](https://github.com/uckkk/dsh-html-decode) | HTML 反转义 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-html-escape | 0 | [uckkk/dsh-html-escape](https://github.com/uckkk/dsh-html-escape) | HTML 实体编解码：转义/反转义 HTML 特殊字符与常用实体 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-html-parse | 0 | [uckkk/dsh-html-parse](https://github.com/uckkk/dsh-html-parse) | HTML 解析：从 HTML 提取标题/meta/标题层级/链接/表格/纯文本等结构化数据 | 0.1.0-rc.8 (2026-08-20) |
@@ -2136,9 +2336,11 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-http-uckkk | 0 | [uckkk/dsh-http-uckkk](https://github.com/uckkk/dsh-http-uckkk) | HTTP 请求工具：发起请求返回状态码/响应头/响应体/耗时（Node fetch） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-humidity | 0 | [uckkk/dsh-humidity](https://github.com/uckkk/dsh-humidity) | humidity：湿度参考：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-humidity-comfort | 0 | [uckkk/dsh-humidity-comfort](https://github.com/uckkk/dsh-humidity-comfort) | humiditycomfort：湿度舒适度：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-hungary | 0 | [uckkk/dsh-hungary](https://github.com/uckkk/dsh-hungary) | 匈牙利国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-hydrogen | 0 | [uckkk/dsh-hydrogen](https://github.com/uckkk/dsh-hydrogen) | elementinfo：返回氢元素（Hydrogen）完整资料：名称、元素符号、原子序数、相对原子质量、类别、族、周期、常温状态、电子构型。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-hydroponics | 0 | [uckkk/dsh-hydroponics](https://github.com/uckkk/dsh-hydroponics) | hydroponics：水培营养液配比：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-IamDeepSeekV4ga | 0 | [XuezuoYS/dsh-IamDeepSeekV4ga](https://github.com/XuezuoYS/dsh-IamDeepSeekV4ga) | DeepSeek Harness plugin: injects an [IMPORTANT] chain-of-thought rule block at the very top of the system prompt of every model request (English CoT starting with I'm, no 'Let me', direct verbs). | 0.1.0-rc.8 (2026-08-20) |
+| dsh-iceland | 0 | [uckkk/dsh-iceland](https://github.com/uckkk/dsh-iceland) | 冰岛国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-id-renew | 0 | [uckkk/dsh-id-renew](https://github.com/uckkk/dsh-id-renew) | idrenew：身份证换证：返回办理流程与要点。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-idapro | 0 | [O3SET/dsh-idapro](https://github.com/O3SET/dsh-idapro) | DeepSeek Harness 插件: 连接本地 IDA Pro, 提供静态分析 (函数枚举 / Hex-Rays 反编译 / 反汇编 / 交叉引用 / 字符串 / 导入导出 / 改名 / 注释 / 补丁) 与动态调试 (启动 / 附加 / 单步 / 断点 / 寄存器 / 内存 / 模块 / 线程) 工具 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-idea-jar | 0 | [wanghaonan3333-web/dsh-idea-jar](https://github.com/wanghaonan3333-web/dsh-idea-jar) | A floating idea jar for DeepSeek Harness that generates, organizes, edits, optimizes, copies, imports/exports, expands into next steps, and persistently saves creative ideas. | 0.1.0-rc.8 (2026-08-20) |
@@ -2147,13 +2349,19 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-imgpt | 0 | [xianyu-ya/dsh-imgpt](https://github.com/xianyu-ya/dsh-imgpt/tree/HEAD/client/imgpt-web) | imgpt 图片→路径 常驻 Client 半体 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-importer | 0 | [PrismScopes/dsh-importer](https://github.com/PrismScopes/dsh-importer) | DSH plugin: sync chat.deepseek.com sessions into DSH as context — settings page, auto sync, per-session fetch, and a 'send' button that stages a file-reference prompt into the composer. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-in-depth | 0 | [Luxuzhou/dsh-in-depth](https://github.com/Luxuzhou/dsh-in-depth/tree/HEAD/labs/lab02-greet-tool) | 深入理解 DeepSeek Harness：源码架构、插件生态与工程实践开源书 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-in2cm | 0 | [uckkk/dsh-in2cm](https://github.com/uckkk/dsh-in2cm) | 英寸转厘米 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-indent | 0 | [uckkk/dsh-indent](https://github.com/uckkk/dsh-indent) | 缩进文本 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-index-live | 0 | [uckkk/dsh-index-live](https://github.com/uckkk/dsh-index-live) | indexlive：大盘指数行情：联网实时拉取最新数据。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-india | 0 | [uckkk/dsh-india](https://github.com/uckkk/dsh-india) | countryinfo：返回印度国家（India）完整资料：名称、首都、人口(万)、面积(万平方公里)、货币代码、官方语言、电话区号、顶级域名、大洲、国旗。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-indium | 0 | [uckkk/dsh-indium](https://github.com/uckkk/dsh-indium) | 铟元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-indonesia | 0 | [uckkk/dsh-indonesia](https://github.com/uckkk/dsh-indonesia) | countryinfo：返回印度尼西亚国家（Indonesia）完整资料：名称、首都、人口(万)、面积(万平方公里)、货币代码、官方语言、电话区号、顶级域名、大洲、国旗。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-ingredient | 0 | [uckkk/dsh-ingredient](https://github.com/uckkk/dsh-ingredient) | ingredient：成分识别：按参数返回面部护肤方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-inhg2hpa | 0 | [uckkk/dsh-inhg2hpa](https://github.com/uckkk/dsh-inhg2hpa) | 英寸汞柱转百帕 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-ini | 0 | [uckkk/dsh-ini](https://github.com/uckkk/dsh-ini) | INI ↔ JSON 转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-init-command | 0 | [LittleFishStars/dsh-init-command](https://github.com/LittleFishStars/dsh-init-command) | DSH plugin: /init slash command that generates an AGENTS.md guide for the current project with a two-stage model call | 0.1.0-rc.8 (2026-08-20) |
+| dsh-initials | 0 | [uckkk/dsh-initials](https://github.com/uckkk/dsh-initials) | 首字母缩写 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ink-tools | 0 | [uckkk/dsh-ink-tools](https://github.com/uckkk/dsh-ink-tools) | inktools：笔墨纸砚：按参数返回书法学习方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-inline-comments-zenverta | 0 | [zenvertao/dsh-inline-comments](https://github.com/zenvertao/dsh-inline-comments) | GPT 式 inline 注释：在 DSH 对话中选中助手文本，就地加批注（无语音）。交互：选中文字→+添加注释→编辑器→保存后高亮+编号气泡+N 条注胶囊。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-input-enhancement | 0 | [Triple3h/dsh-input-enhancement](https://github.com/Triple3h/dsh-input-enhancement) | DeepSeek Harness plugin: input enhancement — paste text collapse, file/folder attachment paste/drag-drop, bubble attachment folding, message fold; attachment management & cleanup. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-input-polish | 0 | [llyyhh0487/dsh-input-polish](https://github.com/llyyhh0487/dsh-input-polish) | DeepSeek Harness dual-face plugin: a sparkles button beside the model selector that polishes the current draft with the selected model, plus a settings section for style | 0.1.0-rc.8 (2026-08-25) |
 | dsh-inspection | 0 | [uckkk/dsh-inspection](https://github.com/uckkk/dsh-inspection) | inspection：年检周期：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2169,14 +2377,31 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-interview-forge | 0 | [Co-Kyo/dsh-interview-forge](https://github.com/Co-Kyo/dsh-interview-forge) | InterviewForge 速练：标准 DSH 宿主插件 bundle（出题→对话内答题→归因→雷达报告）。host 半区注册 forge_* 工具与 ForgeGateway Remote 服务，client 半区注册 速练浮层 UI。随 dsh 启动加载、重启不丢。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-interview-prep | 0 | [uckkk/dsh-interview-prep](https://github.com/uckkk/dsh-interview-prep) | interviewprep：面试准备：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-inventory-turnover | 0 | [uckkk/dsh-inventory-turnover](https://github.com/uckkk/dsh-inventory-turnover) | inventoryturnover：库存周转：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-iodine | 0 | [uckkk/dsh-iodine](https://github.com/uckkk/dsh-iodine) | 碘元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-ip-live | 0 | [uckkk/dsh-ip-live](https://github.com/uckkk/dsh-ip-live) | iplive：公网IP归属地：联网实时拉取最新数据。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-iran | 0 | [uckkk/dsh-iran](https://github.com/uckkk/dsh-iran) | 伊朗国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-iraq | 0 | [uckkk/dsh-iraq](https://github.com/uckkk/dsh-iraq) | 伊拉克国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-ireland | 0 | [uckkk/dsh-ireland](https://github.com/uckkk/dsh-ireland) | 爱尔兰国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-iridium | 0 | [uckkk/dsh-iridium](https://github.com/uckkk/dsh-iridium) | 铱元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-iron | 0 | [uckkk/dsh-iron](https://github.com/uckkk/dsh-iron) | 铁元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-iron-temp | 0 | [uckkk/dsh-iron-temp](https://github.com/uckkk/dsh-iron-temp) | irontemp：熨烫温度：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-is-coprime | 0 | [uckkk/dsh-is-coprime](https://github.com/uckkk/dsh-is-coprime) | 互质判断 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-is-perfect | 0 | [uckkk/dsh-is-perfect](https://github.com/uckkk/dsh-is-perfect) | 完全数判断 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-is-power-of-two | 0 | [uckkk/dsh-is-power-of-two](https://github.com/uckkk/dsh-is-power-of-two) | 2 的幂判断 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-is-square | 0 | [uckkk/dsh-is-square](https://github.com/uckkk/dsh-is-square) | 平方数判断 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-iso8601 | 0 | [uckkk/dsh-iso8601](https://github.com/uckkk/dsh-iso8601) | ISO8601 转换 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-israel | 0 | [uckkk/dsh-israel](https://github.com/uckkk/dsh-israel) | 以色列国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-istanbul-city | 0 | [uckkk/dsh-istanbul-city](https://github.com/uckkk/dsh-istanbul-city) | cityinfo：返回 伊斯坦布尔市（Istanbul）的undefined信息。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-italy | 0 | [uckkk/dsh-italy](https://github.com/uckkk/dsh-italy) | 意大利国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-item-route | 0 | [uckkk/dsh-item-route](https://github.com/uckkk/dsh-item-route) | itemroute：旧物处理去向：按参数返回断舍离极简方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-itranslation | 0 | [Yisan0429/dsh-itranslation](https://github.com/Yisan0429/dsh-itranslation/tree/HEAD/packages/itranslation/bundle) | Itranslation whole-book translation preset as a DSH profile bundle (host client UI + tool dependencies) | 0.1.1-rc.2 (2026-08-28) |
+| dsh-ivory-coast | 0 | [uckkk/dsh-ivory-coast](https://github.com/uckkk/dsh-ivory-coast) | 科特迪瓦国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-jamaica | 0 | [uckkk/dsh-jamaica](https://github.com/uckkk/dsh-jamaica) | 牙买加国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-japan | 0 | [uckkk/dsh-japan](https://github.com/uckkk/dsh-japan) | countryinfo：返回日本国家（Japan）完整资料：名称、首都、人口(万)、面积(万平方公里)、货币代码、官方语言、电话区号、顶级域名、大洲、国旗。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-jetlag | 0 | [uckkk/dsh-jetlag](https://github.com/uckkk/dsh-jetlag) | jetlag：时差调整：按参数返回旅行规划方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-jimeng | 0 | [Quqing-future/dsh-jimeng](https://github.com/Quqing-future/dsh-jimeng) | 即梦(火山方舟 Seedream)文生图/图生图插件:模型工具 generate_image / image_to_image + 设置面板可编辑 API 配置 + 手动生图面板 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-jj | 0 | [LosEcher/dsh-jj](https://github.com/LosEcher/dsh-jj) | DSH bundle: jj (Jujutsu) version control via a zero-dependency MCP stdio server — exposes jj status/log/diff/describe/new/commit/edit/abandon/undo/rebase/fetch/push/bookmark as mcp__jj__* tools. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-jordan | 0 | [uckkk/dsh-jordan](https://github.com/uckkk/dsh-jordan) | 约旦国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-json-csv | 0 | [uckkk/dsh-json-csv](https://github.com/uckkk/dsh-json-csv) | CSV ↔ JSON 转换：JSON 对象数组转 CSV，CSV 解析为 JSON | 0.1.0-rc.8 (2026-08-20) |
 | dsh-json-flatten | 0 | [uckkk/dsh-json-flatten](https://github.com/uckkk/dsh-json-flatten) | JSON 扁平化：嵌套 JSON ↔ 点号扁平键互转（支持数组索引） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-json-merge | 0 | [uckkk/dsh-json-merge](https://github.com/uckkk/dsh-json-merge) | JSON 深合并：递归合并多个 JSON 对象，支持数组策略与冲突处理（Deep JSON merge tool for DeepSeek Harness） | 0.1.0-rc.8 (2026-08-20) |
@@ -2189,34 +2414,51 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-jsonl | 0 | [uckkk/dsh-jsonl](https://github.com/uckkk/dsh-jsonl) | JSONL 转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-jwt-uckkk | 0 | [uckkk/dsh-jwt](https://github.com/uckkk/dsh-jwt) | JWT 解码：解析 header/payload，判断过期（不验签） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-jwt-uckkk-uckkk | 0 | [uckkk/dsh-jwt-uckkk](https://github.com/uckkk/dsh-jwt-uckkk) | JWT 解码：解析 header/payload，判断过期（不验签） | 0.1.0-rc.8 (2026-08-20) |
+| dsh-kebabcase | 0 | [uckkk/dsh-kebabcase](https://github.com/uckkk/dsh-kebabcase) | 短横线命名 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-key-by | 0 | [uckkk/dsh-key-by](https://github.com/uckkk/dsh-key-by) | 按键索引 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-keyword-extract | 0 | [uckkk/dsh-keyword-extract](https://github.com/uckkk/dsh-keyword-extract) | 关键词提取 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-kg2lb | 0 | [uckkk/dsh-kg2lb](https://github.com/uckkk/dsh-kg2lb) | 千克转磅 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-kidney-func | 0 | [uckkk/dsh-kidney-func](https://github.com/uckkk/dsh-kidney-func) | kidneyfunc：肾功能解读：按参数解读结果（仅供参考，请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-kids-swim | 0 | [uckkk/dsh-kids-swim](https://github.com/uckkk/dsh-kids-swim) | kidsswim：儿童游泳建议：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-kimi-webbridge-bernardx | 0 | [Bernardxu123/dsh-kimi-webbridge](https://github.com/Bernardxu123/dsh-kimi-webbridge) | Kimi WebBridge for DeepSeek Harness: drive the user's real browser (navigate, click, fill, snapshot, screenshot, evaluate, network, upload, PDF) through the local Kimi WebBridge daemon | 0.1.0-rc.8 (2026-08-20) |
 | dsh-kit-sandbase | 0 | [sandbaseai/dsh-kit](https://github.com/sandbaseai/dsh-kit/tree/HEAD/packages/3d-gen-hunyuan) | DSH Cordis plugin: Generate 3D models from text or images using Tencent Hunyuan3D. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-kitchen-exhaust | 0 | [uckkk/dsh-kitchen-exhaust](https://github.com/uckkk/dsh-kitchen-exhaust) | kitchenexhaust：烟灶选购：按参数返回厨房家电选购方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-kitchen-org | 0 | [uckkk/dsh-kitchen-org](https://github.com/uckkk/dsh-kitchen-org) | kitchenorg：厨房收纳：按参数返回家庭收纳方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-km2mi | 0 | [uckkk/dsh-km2mi](https://github.com/uckkk/dsh-km2mi) | 公里转英里 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-kn2km | 0 | [uckkk/dsh-kn2km](https://github.com/uckkk/dsh-kn2km) | 海里/时转公里/时 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-knife-skill | 0 | [uckkk/dsh-knife-skill](https://github.com/uckkk/dsh-knife-skill) | knifeskill：切配刀工：按参数返回家常菜烹饪方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-knit-intro | 0 | [uckkk/dsh-knit-intro](https://github.com/uckkk/dsh-knit-intro) | knitintro：编织入门：按参数返回手工DIY方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-knj-menu | 0 | [yangdongzhen590/dsh-knj-menu](https://github.com/yangdongzhen590/dsh-knj-menu) | 第三方菜单管理器：统一收纳第三方插件的新增菜单入口，提供常驻/折叠 + 固定（DeepSeek Harness） | 0.1.0-rc.8 (2026-08-25) |
+| dsh-knot2kph | 0 | [uckkk/dsh-knot2kph](https://github.com/uckkk/dsh-knot2kph) | 节转公里/时 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-kpa2psi | 0 | [uckkk/dsh-kpa2psi](https://github.com/uckkk/dsh-kpa2psi) | 千帕转 PSI | 0.1.1-rc.2 (2026-08-28) |
 | dsh-kph2mph | 0 | [uckkk/dsh-kph2mph](https://github.com/uckkk/dsh-kph2mph) | 公里/时转英里/时 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-kpi-reach | 0 | [uckkk/dsh-kpi-reach](https://github.com/uckkk/dsh-kpi-reach) | kpireach：KPI缺口拆解：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-kuajing | 0 | [mario03690/dsh-kuajing](https://github.com/mario03690/dsh-kuajing) | Cross-border commerce: HS codes, customs invoices, mainland reachability. HS/HTS code lookup and classification, commercial invoices, live exchange rates, IBAN and EAN/UPC checks, amount-in-English | 0.1.0-rc.8 (2026-08-25) |
 | dsh-kungfu | 0 | [kungfu-systems/dsh-kungfu](https://github.com/kungfu-systems/dsh-kungfu) · [npm](https://www.npmjs.com/package/@kungfu-tech/dsh-kungfu) | Typed, read-only DeepSeek Harness tools for installed Kungfu Projects and Work. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-kwh2mj | 0 | [uckkk/dsh-kwh2mj](https://github.com/uckkk/dsh-kwh2mj) | 千瓦时转兆焦 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-kyrgyzstan | 0 | [uckkk/dsh-kyrgyzstan](https://github.com/uckkk/dsh-kyrgyzstan) | 吉尔吉斯斯坦国家 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-l2gal | 0 | [uckkk/dsh-l2gal](https://github.com/uckkk/dsh-l2gal) | 升转加仑 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-lab | 0 | [pengkodam/dsh-lab](https://github.com/pengkodam/dsh-lab/tree/HEAD/plugins/dsh-worktree) | Read-only Git worktree discovery, status, and comparison tools for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lab-check | 0 | [uckkk/dsh-lab-check](https://github.com/uckkk/dsh-lab-check) | labcheck：体检指标：按参数返回家庭健康自检结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-lagos-city | 0 | [uckkk/dsh-lagos-city](https://github.com/uckkk/dsh-lagos-city) | cityinfo：返回 拉各斯市（Lagos）的undefined信息。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-lamp-count | 0 | [uckkk/dsh-lamp-count](https://github.com/uckkk/dsh-lamp-count) | lampcount：灯具数量：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-landscape-uckkk | 0 | [uckkk/dsh-landscape](https://github.com/uckkk/dsh-landscape) | landscape：风光拍摄：按参数返回摄影构图方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-lanthanum | 0 | [uckkk/dsh-lanthanum](https://github.com/uckkk/dsh-lanthanum) | 镧元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-laos | 0 | [uckkk/dsh-laos](https://github.com/uckkk/dsh-laos) | 老挝国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-latency-pct | 0 | [uckkk/dsh-latency-pct](https://github.com/uckkk/dsh-latency-pct) | latencypct：延迟百分位：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-latvia | 0 | [uckkk/dsh-latvia](https://github.com/uckkk/dsh-latvia) | 拉脱维亚国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-laundry-room | 0 | [uckkk/dsh-laundry-room](https://github.com/uckkk/dsh-laundry-room) | laundryroom：洗衣房规划：按参数返回洗衣清洁管理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-laundry-sort | 0 | [uckkk/dsh-laundry-sort](https://github.com/uckkk/dsh-laundry-sort) | laundrysort：衣物分类：按参数返回洗衣清洁管理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-laundry-temp | 0 | [uckkk/dsh-laundry-temp](https://github.com/uckkk/dsh-laundry-temp) | laundrytemp：洗涤水温：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-lawrencium | 0 | [uckkk/dsh-lawrencium](https://github.com/uckkk/dsh-lawrencium) | 铹元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-layer-match | 0 | [uckkk/dsh-layer-match](https://github.com/uckkk/dsh-layer-match) | layermatch：产品选择：按参数返回面部护肤方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-lazy-skill | 0 | [lihuu/dsh-lazy-skill](https://github.com/lihuu/dsh-lazy-skill) | Lazy-load skill bundles for DeepSeek Harness: a bundle box holds a root skill and sub-skills, loaded by metadata (`loadSubskills`) or by model decision from body text. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-lb2kg | 0 | [uckkk/dsh-lb2kg](https://github.com/uckkk/dsh-lb2kg) | 磅转千克 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-lcm | 0 | [uckkk/dsh-lcm](https://github.com/uckkk/dsh-lcm) | 最小公倍数 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-leap-year | 0 | [uckkk/dsh-leap-year](https://github.com/uckkk/dsh-leap-year) | 闰年判断 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-learning-plugin | 0 | [fengyufengzi/dsh-learning-plugin](https://github.com/fengyufengzi/dsh-learning-plugin) | A small DeepSeek Harness tool plugin for learning the Cordis extension model | 0.1.0-rc.8 (2026-08-20) |
 | dsh-leave-days | 0 | [uckkk/dsh-leave-days](https://github.com/uckkk/dsh-leave-days) | leavedays：年假天数：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-lebanon | 0 | [uckkk/dsh-lebanon](https://github.com/uckkk/dsh-lebanon) | 黎巴嫩国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-led-circuit | 0 | [uckkk/dsh-led-circuit](https://github.com/uckkk/dsh-led-circuit) | ledcircuit：照明回路计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-license-period | 0 | [uckkk/dsh-license-period](https://github.com/uckkk/dsh-license-period) | licenseperiod：驾驶证换证：按参数精确计算，返回明确结果。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-lift-form | 0 | [uckkk/dsh-lift-form](https://github.com/uckkk/dsh-lift-form) | liftform：动作教学：按参数返回力量训练方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2228,14 +2470,17 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-lithium | 0 | [uckkk/dsh-lithium](https://github.com/uckkk/dsh-lithium) | elementinfo：返回锂元素（Lithium）完整资料：名称、元素符号、原子序数、相对原子质量、类别、族、周期、常温状态、电子构型。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-live | 0 | [fore-vip/dsh-live](https://github.com/fore-vip/dsh-live) | DeepSeek Harness（DSH）多平台直播推流插件：摄像头/麦克风采集、屏幕选区直播、画中画（PiP）、多平台多选同步推流（视频号/抖音/快手/斗鱼/B站/YY/虎牙/CC/自定义 RTMP）、ffmpeg 引擎真实推流。Cordis bundle 插件。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-live-bitrate | 0 | [uckkk/dsh-live-bitrate](https://github.com/uckkk/dsh-live-bitrate) | livebitrate：直播码率：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-live-perf-gauges | 0 | [TnzGit/dsh-live-perf-gauges](https://github.com/TnzGit/dsh-live-perf-gauges) | Live tok/s, TTFT, and prefill-speed gauges for DeepSeek Harness Web. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-live-stream | 0 | [uckkk/dsh-live-stream](https://github.com/uckkk/dsh-live-stream) | livestream：直播带货拆解：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-liver-func | 0 | [uckkk/dsh-liver-func](https://github.com/uckkk/dsh-liver-func) | liverfunc：肝功能解读：按参数解读结果（仅供参考，请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-livermorium | 0 | [uckkk/dsh-livermorium](https://github.com/uckkk/dsh-livermorium) | 鉝元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-liya-workspace | 0 | [feverZHONG/dsh-liya-workspace](https://github.com/feverZHONG/dsh-liya-workspace) | 工作区档案速览设置页插件：在 WebUI 设置里新增「莉娅工作区」子设置页，展示 FILE-MAP 摘要、memory/records/diary 统计、最近日记。工作区根目录可配置（设置页填写，即时生效）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-llm-assistant | 0 | [NOirBRight/dsh-llm-assistant](https://github.com/NOirBRight/dsh-llm-assistant) | Resident DeepSeek assistant seat for DeepSeek Harness: chat, reminders, and on-demand read-only task reference | 0.1.0-rc.8 (2026-08-20) |
 | dsh-llm-bounded-retry | 0 | [911218sky/dsh-llm-bounded-retry](https://github.com/911218sky/dsh-llm-bounded-retry) | Bounded all-error request retry plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-llm-capabilities | 0 | [bamboostrip/dsh-llm-capabilities](https://github.com/bamboostrip/dsh-llm-capabilities) | DSH plugin: auto-detect and configure model capabilities (reasoningEfforts + input modalities) for llm-pi-ai. Successor to dsh-reasoning-efforts. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-llm-injection-filter | 0 | [XiaoYuOvO/dsh-llm-injection-filter](https://github.com/XiaoYuOvO/dsh-llm-injection-filter) | DSH LLM response-stream injection/pollution filter: hard-block rare Unicode scripts (Track A) and score-based disposal of control chars / protocol markers / script mixing / spam keywords (Track B) on | 0.1.0-rc.8 (2026-08-20) |
 | dsh-llm-mimo | 0 | [GuanxuJi/dsh-llm-mimo](https://github.com/GuanxuJi/dsh-llm-mimo) | Xiaomi MiMo v2.5 adapter for DeepSeek Harness LLM seam with thinking chain support | 0.1.0-rc.8 (2026-08-20) |
+| dsh-llm-mimo-dfhxxc66 | 0 | [dfhxxc666/dsh-llm-mimo](https://github.com/dfhxxc666/dsh-llm-mimo) | Xiaomi MiMo v2.5 adapter for DeepSeek Harness LLM seam with thinking chain support | 0.1.1-rc.2 (2026-08-28) |
 | dsh-llm-oauth-snailvs | 0 | [snail-vs/dsh-llm-oauth](https://github.com/snail-vs/dsh-llm-oauth) | Out-of-tree DSH plugin for OAuth login with subscription LLM accounts, without API keys. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-llm-rate-limit | 0 | [Asong6824/dsh-llm-rate-limit](https://github.com/Asong6824/dsh-llm-rate-limit) · [npm](https://www.npmjs.com/package/dsh-llm-rate-limit) | LLM API rate limiting, concurrency control, queuing, and adaptive cooldown for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-llm-sampling | 0 | [kuma-loong/dsh-llm-sampling](https://github.com/kuma-loong/dsh-llm-sampling) | Exact-model sampling policy bundle for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
@@ -2246,8 +2491,10 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-locale-de | 0 | [Kompetenzteam/dsh-locale-de](https://github.com/Kompetenzteam/dsh-locale-de) | Deutsche UI-Übersetzung für DeepSeek Harness: registriert alle Locale-Namespaces auf Deutsch und aktiviert die deutsche Oberfläche (Locale "de"). | 0.1.0-rc.8 (2026-08-25) |
 | dsh-lockstep | 0 | [da-beda/dsh-lockstep](https://github.com/da-beda/dsh-lockstep) | Pin-aware updater for DeepSeek Harness: check lockfile drift, plan pin bumps, never float to latest. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-loop-doctor | 0 | [Hubert-hwk/dsh-loop-doctor](https://github.com/Hubert-hwk/dsh-loop-doctor/tree/HEAD/packages/loop-doctor/advisor) | Turns loop-doctor detour signals into human-reviewable optimization suggestions (change prompt / add tool / tune skill) with deterministic replay verification. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-lowercase | 0 | [uckkk/dsh-lowercase](https://github.com/uckkk/dsh-lowercase) | 小写转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-luggage-size | 0 | [uckkk/dsh-luggage-size](https://github.com/uckkk/dsh-luggage-size) | luggagesize：行李箱尺寸：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-luggage-weight | 0 | [uckkk/dsh-luggage-weight](https://github.com/uckkk/dsh-luggage-weight) | luggageweight：行李超重计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-luminance | 0 | [uckkk/dsh-luminance](https://github.com/uckkk/dsh-luminance) | 相对亮度 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-makeup-steps | 0 | [uckkk/dsh-makeup-steps](https://github.com/uckkk/dsh-makeup-steps) | makeupsteps：妆容步骤：按参数返回日常化妆方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-mandarin-grade | 0 | [uckkk/dsh-mandarin-grade](https://github.com/uckkk/dsh-mandarin-grade) | mandaringrade：普通话等级：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-marathon-pace | 0 | [uckkk/dsh-marathon-pace](https://github.com/uckkk/dsh-marathon-pace) | marathonpace：马拉松配速：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2258,6 +2505,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-mate | 0 | [RevolutionLA/dsh-mate](https://github.com/RevolutionLA/dsh-mate/tree/HEAD/packages/dsh-mate) | DSH Mate（求索伴侣）电脑端桥插件：为鸿蒙 App 提供配对、移动 REST API 与事件推送，远程查看与操作 DeepSeek Harness。 | unverified |
 | dsh-matlab | 0 | [weijianguizhou/dsh-matlab](https://github.com/weijianguizhou/dsh-matlab) | DeepSeek Harness plugin: matlab.run tool — run MATLAB code via matlab -batch and return output plus saved figures. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mauritius | 0 | [uckkk/dsh-mauritius](https://github.com/uckkk/dsh-mauritius) | countryinfo：返回 毛里求斯（Mauritius）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-max | 0 | [uckkk/dsh-max](https://github.com/uckkk/dsh-max) | 最大值 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mcp-list | 0 | [dmz2922990/dsh-mcp-list](https://github.com/dmz2922990/dsh-mcp-list) | DSH web plugin: an MCP settings page listing mounted MCP servers, per-tool call counts, and a shortcut to open the MCP patch config | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mcp-manager-14185638 | 0 | [14185638/dsh-mcp-manager](https://github.com/14185638/dsh-mcp-manager) | MCP 服务器管理(Streamable HTTP / stdio):mcp_manage 模型工具 + Web 设置页「MCP管理」界面,host 与 client 双面合一。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mcp-servers | 0 | [meltartica/dsh-mcp-servers](https://github.com/meltartica/dsh-mcp-servers) · [npm](https://www.npmjs.com/package/dsh-mcp-servers) | DeepSeek Harness bundle that exposes Model Context Protocol (MCP) servers — stdio, streamable HTTP and legacy SSE — as native Harness tools, with a settings UI, live status, auto-reconnect, and | 0.1.0-rc.8 (2026-08-20) |
@@ -2267,19 +2515,24 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-md2wechat | 0 | [geekjourneyx/dsh-md2wechat](https://github.com/geekjourneyx/dsh-md2wechat) | Run the md2wechat CLI from the matching platform package. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-meal-plan | 0 | [uckkk/dsh-meal-plan](https://github.com/uckkk/dsh-meal-plan) | mealplan：减脂餐搭配：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-media-gen | 0 | [AtlasCloudAI/dsh-media-gen](https://github.com/AtlasCloudAI/dsh-media-gen) | Plan and execute Atlas Cloud image, video, audio, and 3D workflows in DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-median | 0 | [uckkk/dsh-median](https://github.com/uckkk/dsh-median) | 中位数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-meeting-prep | 0 | [uckkk/dsh-meeting-prep](https://github.com/uckkk/dsh-meeting-prep) | meetingprep：会前准备：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-meeting-talk | 0 | [uckkk/dsh-meeting-talk](https://github.com/uckkk/dsh-meeting-talk) | meetingtalk：会议发言：按场景返回结构化方法与建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-meme-deep-dive | 0 | [HackenLeung/dsh-meme-deep-dive](https://github.com/HackenLeung/dsh-meme-deep-dive) | 为 DeepSeek Harness Web 提供可自定义 GIF 表情互动的 DSH 插件，支持发送消息和 Deep diving 状态动画。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-menu-plan | 0 | [uckkk/dsh-menu-plan](https://github.com/uckkk/dsh-menu-plan) | menuplan：菜单规划：按参数返回家庭聚餐待客方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-menu-pricing | 0 | [uckkk/dsh-menu-pricing](https://github.com/uckkk/dsh-menu-pricing) | menupricing：菜单定价：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-mermaid-gongyuan | 0 | [GongYuanCaiJi/dsh-mermaid](https://github.com/GongYuanCaiJi/dsh-mermaid) | Mermaid 流程图渲染（移植自 pi-mermaid） | 0.1.0-rc.8 (2026-08-20) |
+| dsh-message-navigator-yxyinhe | 0 | [yx-yinhe/dsh-message-navigator](https://github.com/yx-yinhe/dsh-message-navigator) | A ChatGPT-style message navigator with hover previews for DeepSeek Harness conversations. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-metronome | 0 | [uckkk/dsh-metronome](https://github.com/uckkk/dsh-metronome) | metronome：节拍练习：按参数返回乐器练习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-microwave-time | 0 | [uckkk/dsh-microwave-time](https://github.com/uckkk/dsh-microwave-time) | microwavetime：微波时间换算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-microwave2 | 0 | [uckkk/dsh-microwave2](https://github.com/uckkk/dsh-microwave2) | microwave2：微波炉进阶：按参数返回厨房小家电使用方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-midpoint | 0 | [uckkk/dsh-midpoint](https://github.com/uckkk/dsh-midpoint) | 中点计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-migrate-bot | 0 | [royenheart/dsh-migrate-bot](https://github.com/royenheart/dsh-migrate-bot/tree/HEAD/container/profile) | Containerized GitHub Action that migrates third-party DeepSeek Harness plugins across harness releases. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-milk-coffee | 0 | [uckkk/dsh-milk-coffee](https://github.com/uckkk/dsh-milk-coffee) | milkcoffee：奶咖配方：按参数返回咖啡冲煮方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-milk-tea | 0 | [uckkk/dsh-milk-tea](https://github.com/uckkk/dsh-milk-tea) | milktea：奶茶配方：按参数返回饮品制作方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-mimo-plugin | 0 | [YYfather/dsh-mimo-plugin](https://github.com/YYfather/dsh-mimo-plugin/tree/HEAD/pkg/dsh-mimo-plugin) | MiMo (Xiaomi) tools as a DSH profile plugin: web search, image/audio/video understanding, ASR transcription, TTS, voice design and voice cloning — native agent tools with a Settings page for the API | 0.1.0-rc.8 (2026-08-25) |
+| dsh-min | 0 | [uckkk/dsh-min](https://github.com/uckkk/dsh-min) | 最小值 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-mindmap-chat | 0 | [DeepVite/dsh-mindmap-chat](https://github.com/DeepVite/dsh-mindmap-chat) | Chat branch tree plugin for DeepSeek Harness: mind-map of conversation branches, group folders, archiving and compaction preview. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-mindsee | 0 | [123cdxcc/dsh-mindsee](https://github.com/123cdxcc/dsh-mindsee) · [npm](https://www.npmjs.com/package/dsh-mindsee) | DeepSeek Harness 插件：以 MindSee 为后端，为 DeepSeek 提供图片相关能力 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-minimal-rules | 0 | [sd1g1/dsh-minimal-rules](https://github.com/sd1g1/dsh-minimal-rules) | DSH 插件：在极简模式（minimal / minimal-fast）下按 global / global+project / all+creative 模式自动注入规则内容，并提供可持久化的输入框下拉菜单。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-missher-evolution | 0 | [Missher12/dsh-missher-evolution](https://github.com/Missher12/dsh-missher-evolution) | Privacy-bounded self-improvement plugin for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
@@ -2289,13 +2542,17 @@ New things the model can do: search, browser, files, databases, devices, media.
 | DSH-Mobile-daetzcod | 0 | [daetz-coder/DSH-Mobile](https://github.com/daetz-coder/DSH-Mobile/tree/HEAD/plugins/dsh-web-mobile) | 尽可能的使dsh适配竖屏等移动端设备 | 0.1.1-rc.2 (2026-08-26) |
 | dsh-mobile-plugin | 0 | [april-jk/dsh-mobile-plugin](https://github.com/april-jk/dsh-mobile-plugin) | Installable DSH bundle and remote companion for mobile access | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mobile-sync-tctrlweb | 0 | [T-ctrl-web/dsh-mobile-sync](https://github.com/T-ctrl-web/dsh-mobile-sync/tree/HEAD/packages/dsh-mobile-sync-plugin) | DSH Cordis 插件：手机远程控制 DeepSeek Harness（扫码配对 + /m 移动端页面 + 实时流） | 0.1.0-rc.8 (2026-08-21) |
+| dsh-mobius | 0 | [uckkk/dsh-mobius](https://github.com/uckkk/dsh-mobius) | 莫比乌斯函数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mobUI | 0 | [richards878/dsh-mobUI](https://github.com/richards878/dsh-mobUI) | 让deepseek-harness的web移动端更方便查看 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-mode | 0 | [uckkk/dsh-mode](https://github.com/uckkk/dsh-mode) | 纯 Node 实现，无网络依赖。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-model-deploy | 0 | [lhwwxy/dsh-model-deploy](https://github.com/lhwwxy/dsh-model-deploy) | DeepSeek Harness plugin: LLM model selection & deployment analysis (deployability, VRAM, TTFT, latency, throughput, power for 38 models × 20 GPUs/NPUs) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-model-ocean-selector | 0 | [jiaoTaiLang404/dsh-model-ocean-selector](https://github.com/jiaoTaiLang404/dsh-model-ocean-selector) | A DeepSeek Harness plugin with a vertical model list and an animated Three.js particle reasoning-effort control. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-model-retry-settings | 0 | [y2zyyr/dsh-model-retry-settings](https://github.com/y2zyyr/dsh-model-retry-settings) · [npm](https://www.npmjs.com/package/@y2zyyr/dsh-model-retry-settings) | Configurable model-request retry limit for DeepSeek Harness (Settings → General). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-model-toggle | 0 | [xiaozhiaixue/dsh-model-toggle](https://github.com/xiaozhiaixue/dsh-model-toggle/tree/HEAD/package) | 在DSH中一键切换Flash/Pro，都是MAX | 0.1.0-rc.8 (2026-08-25) |
 | dsh-mojian | 0 | [shuaixiangzi/dsh-mojian](https://github.com/shuaixiangzi/dsh-mojian/tree/HEAD/plugins/dsh-novel-studio) | 墨间 · DeepSeek Harness 小说工坊插件。列出稿件、读取设定柜与提示词。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-monaco | 0 | [uckkk/dsh-monaco](https://github.com/uckkk/dsh-monaco) | 摩纳哥国 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-monaco-devvikin | 0 | [DevViking-Persike/dsh-monaco](https://github.com/DevViking-Persike/dsh-monaco) | DeepSeek Harness plugin: serves the Monaco editor distribution over a host HTTP route, so an editor plugin needs no CDN and no extra bundler outputs | 0.1.0-rc.8 (2026-08-25) |
+| dsh-month-name | 0 | [uckkk/dsh-month-name](https://github.com/uckkk/dsh-month-name) | 月份名称 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-morse | 0 | [uckkk/dsh-morse](https://github.com/uckkk/dsh-morse) | 摩尔斯电码编解码 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mortgage-equal-installment | 0 | [uckkk/dsh-mortgage-equal-installment](https://github.com/uckkk/dsh-mortgage-equal-installment) | 等额本息房贷计算器 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mortgage-equal-principal | 0 | [uckkk/dsh-mortgage-equal-principal](https://github.com/uckkk/dsh-mortgage-equal-principal) | 等额本金房贷计算器 | 0.1.0-rc.8 (2026-08-20) |
@@ -2308,6 +2565,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-multi-furniture | 0 | [uckkk/dsh-multi-furniture](https://github.com/uckkk/dsh-multi-furniture) | multifurniture：多功能家具：按参数返回小户型空间利用方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-muscle-diet | 0 | [uckkk/dsh-muscle-diet](https://github.com/uckkk/dsh-muscle-diet) | musclediet：增肌饮食：按参数返回力量训练方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-muse-total-tps | 0 | [sd1g1/dsh-muse-total-tps](https://github.com/sd1g1/dsh-muse-total-tps) | DeepSeek Harness Web 插件：Muse Spark 使用包含 TTFT 的总生成时间计算 TPS | 0.1.0-rc.8 (2026-08-25) |
+| dsh-muv-table | 0 | [chen731215-dev/dsh-muv-table](https://github.com/chen731215-dev/dsh-muv-table) | MUV Variable Table Editor - tavern companion plugin for DeepSeek Harness: structured table editing for UpdateVariable blocks, PolyForm-Noncommercial-Copyleft-1.0.0 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-nail-issue | 0 | [uckkk/dsh-nail-issue](https://github.com/uckkk/dsh-nail-issue) | nailissue：问题甲处理：按参数返回美甲护理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-nail-shape | 0 | [uckkk/dsh-nail-shape](https://github.com/uckkk/dsh-nail-shape) | nailshape：甲型选择：按参数返回美甲护理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-nail-steps | 0 | [uckkk/dsh-nail-steps](https://github.com/uckkk/dsh-nail-steps) | nailsteps：美甲流程：按参数返回美甲护理方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2324,12 +2582,15 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-new-year-menu | 0 | [uckkk/dsh-new-year-menu](https://github.com/uckkk/dsh-new-year-menu) | newyearmenu：年夜饭菜单：按参数返回家庭节庆筹备方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-new-year-shop | 0 | [uckkk/dsh-new-year-shop](https://github.com/uckkk/dsh-new-year-shop) | newyearshop：年货采购：按参数返回家庭节庆筹备方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-newborn-care | 0 | [uckkk/dsh-newborn-care](https://github.com/uckkk/dsh-newborn-care) | newborncare：新生儿护理：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-next-prime | 0 | [uckkk/dsh-next-prime](https://github.com/uckkk/dsh-next-prime) | 下一个素数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-nga-reader | 0 | [jo32/dsh-nga-reader](https://github.com/jo32/dsh-nga-reader) | Persistent NGA reader with app-scoped AI conversations for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-nitrogen | 0 | [uckkk/dsh-nitrogen](https://github.com/uckkk/dsh-nitrogen) | elementinfo：返回氮元素（Nitrogen）完整资料：名称、元素符号、原子序数、相对原子质量、类别、族、周期、常温状态、电子构型。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-no-main-light | 0 | [uckkk/dsh-no-main-light](https://github.com/uckkk/dsh-no-main-light) | nomainlight：无主灯方案：按参数返回家居灯光设计方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-noncompete-pay | 0 | [uckkk/dsh-noncompete-pay](https://github.com/uckkk/dsh-noncompete-pay) | noncompetepay：竞业限制补偿：按参数精确计算，返回详细结果与法条依据。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-noodle-cook | 0 | [uckkk/dsh-noodle-cook](https://github.com/uckkk/dsh-noodle-cook) | noodlecook：煮面时间：按参数返回面食制作方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-npm-live | 0 | [uckkk/dsh-npm-live](https://github.com/uckkk/dsh-npm-live) | npm包最新版本 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-nth-prime | 0 | [uckkk/dsh-nth-prime](https://github.com/uckkk/dsh-nth-prime) | 第 N 个素数 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-nth-root | 0 | [uckkk/dsh-nth-root](https://github.com/uckkk/dsh-nth-root) | N 次方根 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-number-format | 0 | [uckkk/dsh-number-format](https://github.com/uckkk/dsh-number-format) | 数字格式化：千分位、小数位、货币符号、百分比 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-number-words | 0 | [uckkk/dsh-number-words](https://github.com/uckkk/dsh-number-words) | 数字转大写：阿拉伯数字转中文大写（金额/票据场景），支持小数与负数（Number to Chinese uppercase words tool for DSH） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-nushell | 0 | [daief/dsh-nushell](https://github.com/daief/dsh-nushell) · [npm](https://www.npmjs.com/package/dsh-nushell) | Run DeepSeek Harness's bash tool with Nushell | 0.1.0-rc.8 (2026-08-20) |
@@ -2338,12 +2599,14 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-objectid | 0 | [uckkk/dsh-objectid](https://github.com/uckkk/dsh-objectid) | ObjectId 生成 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-objection | 0 | [uckkk/dsh-objection](https://github.com/uckkk/dsh-objection) | objection：异议处理：按场景返回结构化方法与建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-obsidian-jackie86 | 0 | [Jackie86Zou/dsh-obsidian](https://github.com/Jackie86Zou/dsh-obsidian/tree/HEAD/dsh-plugins/dsh-client-ui-obsidian) | Browser half of the Obsidian vault bridge for the DSH web GUI: left resizable dock (vault file tree + CodeMirror Obsidian-style editor, autosave with conflict handling) registered into shell.overlay | 0.1.0-rc.8 (2026-08-21) |
+| dsh-octal | 0 | [uckkk/dsh-octal](https://github.com/uckkk/dsh-octal) | 八进制转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-odor-removal | 0 | [uckkk/dsh-odor-removal](https://github.com/uckkk/dsh-odor-removal) | odorremoval：异味去除：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-office-comm | 0 | [uckkk/dsh-office-comm](https://github.com/uckkk/dsh-office-comm) | officecomm：职场沟通：按参数返回沟通礼仪方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-office-jiazekan | 0 | [jiazekang/dsh-office](https://github.com/jiazekang/dsh-office/tree/HEAD/packages/dsh-office) | Office document tools for DSH: read .xlsx cell grids, precisely edit cells via exceljs, and drag & drop / paste office files (xlsx/docx/pptx/csv) into the chat — shown as removable attachment chips | 0.1.0-rc.8 (2026-08-20) |
 | dsh-official-document-mode | 0 | [ESxyzbil/dsh-official-document-mode](https://github.com/ESxyzbil/dsh-official-document-mode) | DSH 公文模式：助手回复渲染为公文格式（题头/称谓/标题/正文/落款），发送时临时附加正式公文文风约束，输入区圈阅反馈（画圈=同意，画叉=不同意，自动写入并发送）。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-oil-change | 0 | [uckkk/dsh-oil-change](https://github.com/uckkk/dsh-oil-change) | oilchange：换油周期：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-okr-split | 0 | [uckkk/dsh-okr-split](https://github.com/uckkk/dsh-okr-split) | okrsplit：OKR目标拆解：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-omit | 0 | [uckkk/dsh-omit](https://github.com/uckkk/dsh-omit) | 忽略字段 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-one-rep-max | 0 | [uckkk/dsh-one-rep-max](https://github.com/uckkk/dsh-one-rep-max) | onerepmax：1RM估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-open-in-editor-shaoming | 0 | [shaomingbo/dsh-open-in-editor](https://github.com/shaomingbo/dsh-open-in-editor) | Open DSH Web produced files in a configurable local macOS IDE. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-open-workspace-folder | 0 | [Hanihahaha/dsh-open-workspace-folder](https://github.com/Hanihahaha/dsh-open-workspace-folder) | Add a Show in File Explorer action to each DeepSeek Harness workspace menu | 0.1.0-rc.8 (2026-08-20) |
@@ -2360,10 +2623,15 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-paint-care | 0 | [uckkk/dsh-paint-care](https://github.com/uckkk/dsh-paint-care) | paintcare：漆面养护：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-paint-scratch | 0 | [uckkk/dsh-paint-scratch](https://github.com/uckkk/dsh-paint-scratch) | paintscratch：划痕处理：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-paint-tint | 0 | [uckkk/dsh-paint-tint](https://github.com/uckkk/dsh-paint-tint) | painttint：乳胶漆调色：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-pakistan | 0 | [uckkk/dsh-pakistan](https://github.com/uckkk/dsh-pakistan) | 巴基斯坦国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-palladium | 0 | [uckkk/dsh-palladium](https://github.com/uckkk/dsh-palladium) | 钯元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-panama | 0 | [uckkk/dsh-panama](https://github.com/uckkk/dsh-panama) | 巴拿马国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-paper-checker | 0 | [YFlaga/dsh-paper-checker](https://github.com/YFlaga/dsh-paper-checker) | 检查学术期刊投稿审稿状态并定时汇报：Editorial Manager 期刊走确定性 Playwright 抓取，其他投稿系统回退给 AI 用浏览器工具处理。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-paperclip-runfali | 0 | [runfali/dsh-paperclip](https://github.com/runfali/dsh-paperclip) | Zero-intrusion DeepSeek Harness bundle: upload button with pending popover, read_document multi-format tool (txt/pdf/docx/xlsx/json/md/ini/conf), Settings → General toggle. Standard Cordis bundle, no | 0.1.0-rc.8 (2026-08-25) |
 | dsh-papua-guinea | 0 | [uckkk/dsh-papua-guinea](https://github.com/uckkk/dsh-papua-guinea) | 巴布亚新几内亚国家 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-paraguay | 0 | [uckkk/dsh-paraguay](https://github.com/uckkk/dsh-paraguay) | 巴拉圭国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-paris-city | 0 | [uckkk/dsh-paris-city](https://github.com/uckkk/dsh-paris-city) | cityinfo：返回 巴黎市（Paris）的undefined信息。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-pascalcase | 0 | [uckkk/dsh-pascalcase](https://github.com/uckkk/dsh-pascalcase) | 帕斯卡命名 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-pass-strength | 0 | [uckkk/dsh-pass-strength](https://github.com/uckkk/dsh-pass-strength) | passstrength：密码强度：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-password-uckkk | 0 | [uckkk/dsh-password-uckkk](https://github.com/uckkk/dsh-password-uckkk) | 密码工具：生成强随机密码、检测密码强度与信息熵 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-paste-file | 0 | [lhh666-6/dsh-paste-file](https://github.com/lhh666-6/dsh-paste-file) | Paste or drop files into the DSH composer: saves them under the current workspace and inserts the paths into your draft. | 0.1.0-rc.8 (2026-08-25) |
@@ -2374,9 +2642,16 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-pdf-reader | 0 | [ralfsqual/dsh-pdf-reader](https://github.com/ralfsqual/dsh-pdf-reader) | DSH PDF 读取插件：注册 read_pdf 工具，用 pdfjs-dist 提取 PDF 文本（路径限定工作区内，纯本地解析）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-pdfslim | 0 | [zhaoyaqi18/dsh-pdfslim](https://github.com/zhaoyaqi18/dsh-pdfslim) | PDF compression tools for DeepSeek Harness via api.pdfslim.app MCP | 0.1.0-rc.8 (2026-08-20) |
 | dsh-peak | 0 | [geokkjer/dsh-peak](https://github.com/geokkjer/dsh-peak) | DeepSeek API peak/off-peak pricing indicator: a live composer pill (red during peak, green off-peak) with a countdown to the next switch, plus a dsh_peak_status tool the agent can call to warn about | 0.1.0-rc.8 (2026-08-20) |
+| dsh-percent-encode | 0 | [uckkk/dsh-percent-encode](https://github.com/uckkk/dsh-percent-encode) | 百分号编码 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-percentile | 0 | [uckkk/dsh-percentile](https://github.com/uckkk/dsh-percentile) | 百分位数 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-permutation | 0 | [uckkk/dsh-permutation](https://github.com/uckkk/dsh-permutation) | 排列数 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-peru | 0 | [uckkk/dsh-peru](https://github.com/uckkk/dsh-peru) | 秘鲁国家 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-philippines | 0 | [uckkk/dsh-philippines](https://github.com/uckkk/dsh-philippines) | 菲律宾国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-phone-cleanup | 0 | [uckkk/dsh-phone-cleanup](https://github.com/uckkk/dsh-phone-cleanup) | phonecleanup：手机清理：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-phone-et | 0 | [uckkk/dsh-phone-et](https://github.com/uckkk/dsh-phone-et) | phoneet：电话礼仪：按参数返回沟通礼仪方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-phone-photo | 0 | [uckkk/dsh-phone-photo](https://github.com/uckkk/dsh-phone-photo) | phonephoto：手机摄影：按参数返回摄影构图方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-phosphorus | 0 | [uckkk/dsh-phosphorus](https://github.com/uckkk/dsh-phosphorus) | 磷元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-pick | 0 | [uckkk/dsh-pick](https://github.com/uckkk/dsh-pick) | 挑选字段 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-pickdom | 0 | [xiaobaiyg09/dsh-pickdom](https://github.com/xiaobaiyg09/dsh-pickdom) | PickDOM：DSH 侧边栏双引擎 Browser，像 Cursor 一样框选本地 HTML 与 http/https 页面元素交给 Agent；本地文件支持可视化编辑并写回源码。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-pickle-intro | 0 | [uckkk/dsh-pickle-intro](https://github.com/uckkk/dsh-pickle-intro) | pickleintro：腌菜入门：按参数返回腌制泡菜方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pickle-recipe | 0 | [uckkk/dsh-pickle-recipe](https://github.com/uckkk/dsh-pickle-recipe) | picklerecipe：泡菜配方：按参数返回腌制泡菜方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2387,7 +2662,9 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-pizza-size | 0 | [uckkk/dsh-pizza-size](https://github.com/uckkk/dsh-pizza-size) | pizzasize：披萨尺寸换算：按参数精确计算，返回详细结果（经验参考）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plateau | 0 | [uckkk/dsh-plateau](https://github.com/uckkk/dsh-plateau) | plateau：减脂平台期：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-platform-fee | 0 | [uckkk/dsh-platform-fee](https://github.com/uckkk/dsh-platform-fee) | platformfee：外卖平台抽成：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-platinum | 0 | [uckkk/dsh-platinum](https://github.com/uckkk/dsh-platinum) | 铂元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-play-revenue | 0 | [uckkk/dsh-play-revenue](https://github.com/uckkk/dsh-play-revenue) | playrevenue：播放收益估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-pluck | 0 | [uckkk/dsh-pluck](https://github.com/uckkk/dsh-pluck) | 提取字段 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plug-type | 0 | [uckkk/dsh-plug-type](https://github.com/uckkk/dsh-plug-type) | plugtype：电源插头查询：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-plugin-abtest | 0 | [Morriaty-The-Murderer/dsh-plugin-abtest](https://github.com/Morriaty-The-Murderer/dsh-plugin-abtest) | Paired experiments and promotion gates for DSH plugins. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-advisor-haveanot | 0 | [haveanote06/dsh-plugin-advisor](https://github.com/haveanote06/dsh-plugin-advisor) | Plugin advisor for DeepSeek Harness: senses a need, checks locally installed plugins first, searches the dsh-plugin ecosystem with multi-signal quality scoring, and installs the best pick after user | 0.1.0-rc.8 (2026-08-20) |
@@ -2436,29 +2713,41 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-plugin-workbench-ghbhiee | 0 | [ghbhiee/dsh-plugin-workbench](https://github.com/ghbhiee/dsh-plugin-workbench) | Web terminal, file browser and file preview for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-workspace-multi | 0 | [Skylarking/dsh-plugin-workspace-multi](https://github.com/Skylarking/dsh-plugin-workspace-multi) | Add multiple project folders to one DeepSeek Harness workspace | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-workspace-skill | 0 | [Sparrived/dsh-plugin-workspace-skill](https://github.com/Sparrived/dsh-plugin-workspace-skill) | DSH Cordis plugin: a skill-create authoring guide plus workspace-level skill isolation for .dsh/skills. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-plugin-youridol | 0 | [youridol/dsh-plugin](https://github.com/youridol/dsh-plugin/tree/HEAD/self/dsh-sess) | DeepSeek Harness 插件收录总库：收录遵循 Cordis 框架、经官方 profile 机制挂载的 DSH 插件。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-plugin-zhishe-zaojia-gusuan | 0 | [siweimofang/dsh-plugin-zhishe-zaojia-gusuan](https://github.com/siweimofang/dsh-plugin-zhishe-zaojia-gusuan) | 知设装修造价估算插件 - 装修总价智能估算(20城基准价×户型/风格/面积段系数+分项拆解) | 0.1.0-rc.8 (2026-08-25) |
 | dsh-plugins-apkawa | 0 | [Apkawa/dsh-plugins](https://github.com/Apkawa/dsh-plugins/tree/HEAD/packages/dsh-model-settings) | Auto-capture llama.cpp context window from /props into dsh model settings | 0.1.0-rc.8 (2026-08-21) |
+| dsh-plugins-dennisro | 0 | [dennisrongo/dsh-plugins](https://github.com/dennisrongo/dsh-plugins/tree/HEAD/plugins/dsh-git) | Git source-control tab for DeepSeek Harness (dsh) — view, stage, AI-commit and sync a workspace's changes | 0.1.1-rc.2 (2026-08-28) |
 | dsh-plugins-jochenya | 0 | [JochenYang/dsh-plugins](https://github.com/JochenYang/dsh-plugins/tree/HEAD/packages/dsh-git-conventions) | Model-facing git convention validation tool bundle for DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
 | dsh-plugins-onchainy | 0 | [onchainyaotoshi/dsh-plugins](https://github.com/onchainyaotoshi/dsh-plugins) | Monorepo plugin DeepSeek Harness (satu repo, banyak paket npm). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugins-pengyong | 0 | [pengyonglei/dsh-plugins](https://github.com/pengyonglei/dsh-plugins/tree/HEAD/dsh-balance-view) | Out-of-tree dsh bundle: portable DeepSeek account-balance viewer (same-origin page + JSON API) with a floating GUI-shell badge (client half). | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugins-plusqi | 0 | [PlusQi/dsh-plugins](https://github.com/PlusQi/dsh-plugins) | 个人 DSH 扩展集：单轮 token 消耗预告（tokprev）等浏览器 UI 插件的集合包 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-plugins-riesbri | 0 | [riesbri/dsh-plugins](https://github.com/riesbri/dsh-plugins) | Personal DeepSeek Harness plugin bundle | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugins-ryanyuja | 0 | [ryanyujazz-dev/dsh-plugins](https://github.com/ryanyujazz-dev/dsh-plugins/tree/HEAD/bundles/execflow-chat) | ExecFlow chat bundle: replaces the stock conversation and tool UI packages with the ExecFlow execution view (single-slot tool runs, drafting rows, Think dual forms with clamp/masks, directional | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugins-wryyyds7 | 0 | [wryyyds7/dsh-plugins](https://github.com/wryyyds7/dsh-plugins) | Community plugins for DeepSeek Harness (dsh) | 0.1.0-rc.8 (2026-08-20) |
+| dsh-pluto | 0 | [uckkk/dsh-pluto](https://github.com/uckkk/dsh-pluto) | 冥王星 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-plutonium | 0 | [uckkk/dsh-plutonium](https://github.com/uckkk/dsh-plutonium) | 钚元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-poison-aid | 0 | [uckkk/dsh-poison-aid](https://github.com/uckkk/dsh-poison-aid) | poisonaid：中毒急救：按参数返回家庭急救方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-poisson-pmf | 0 | [uckkk/dsh-poisson-pmf](https://github.com/uckkk/dsh-poisson-pmf) | 泊松分布 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-poland | 0 | [uckkk/dsh-poland](https://github.com/uckkk/dsh-poland) | 波兰国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-policy-waiver-proof | 0 | [dongsheng123132/dsh-policy-waiver-proof](https://github.com/dongsheng123132/dsh-policy-waiver-proof) | Offline content-addressed proof that a temporary policy waiver stayed within approved bounds | 0.1.1-rc.2 (2026-08-26) |
 | dsh-polish-pick | 0 | [uckkk/dsh-polish-pick](https://github.com/uckkk/dsh-polish-pick) | polishpick：甲油选择：按参数返回美甲护理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-polish-prompts | 0 | [SkySheep1999/dsh-polish-prompts](https://github.com/SkySheep1999/dsh-polish-prompts) | DeepSeek Harness Web plugin that adds a button beside the composer send control to polish the current prompt with a chosen model. | broken against 0.1.0-rc.6 |
+| dsh-polonium | 0 | [uckkk/dsh-polonium](https://github.com/uckkk/dsh-polonium) | 钋元素 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-port | 0 | [uckkk/dsh-port](https://github.com/uckkk/dsh-port) | 端口检查 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-portrait | 0 | [uckkk/dsh-portrait](https://github.com/uckkk/dsh-portrait) | portrait：人像拍摄：按参数返回摄影构图方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-portugal | 0 | [uckkk/dsh-portugal](https://github.com/uckkk/dsh-portugal) | 葡萄牙国家 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-pose-pick | 0 | [uckkk/dsh-pose-pick](https://github.com/uckkk/dsh-pose-pick) | posepick：瑜伽体式选择：按参数返回瑜伽拉伸方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-post-frequency | 0 | [uckkk/dsh-post-frequency](https://github.com/uckkk/dsh-post-frequency) | postfrequency：更新频率建议：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-posture | 0 | [uckkk/dsh-posture](https://github.com/uckkk/dsh-posture) | posture：执笔坐姿：按参数返回书法学习方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-posture-check | 0 | [uckkk/dsh-posture-check](https://github.com/uckkk/dsh-posture-check) | posturecheck：体态自评：按参数返回瑜伽拉伸方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pot-base | 0 | [uckkk/dsh-pot-base](https://github.com/uckkk/dsh-pot-base) | potbase：火锅锅底选择：按参数返回火锅聚餐方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pot-pick | 0 | [uckkk/dsh-pot-pick](https://github.com/uckkk/dsh-pot-pick) | potpick：容器选择：按参数返回阳台种菜方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-potassium | 0 | [uckkk/dsh-potassium](https://github.com/uckkk/dsh-potassium) | 钾元素 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-potting-mix | 0 | [uckkk/dsh-potting-mix](https://github.com/uckkk/dsh-potting-mix) | pottingmix：配土方案：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pouch | 0 | [moon16u/dsh-pouch](https://github.com/moon16u/dsh-pouch) · [npm](https://www.npmjs.com/package/@moon16u/dsh-pouch) | A collection of small, beautiful, and practical plugins for DeepSeek Harness (DSH) | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pour-over | 0 | [uckkk/dsh-pour-over](https://github.com/uckkk/dsh-pour-over) | pourover：手冲参数：按参数返回咖啡冲煮方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-power-awake | 0 | [Bole1001/dsh-power-awake](https://github.com/Bole1001/dsh-power-awake) · [npm](https://www.npmjs.com/package/dsh-power-awake) | Prevent the computer from sleeping while Harness is running. Toggle at runtime through a model-facing tool. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-power-mod | 0 | [uckkk/dsh-power-mod](https://github.com/uckkk/dsh-power-mod) | 纯 Node 实现，无网络依赖。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-power-outage | 0 | [uckkk/dsh-power-outage](https://github.com/uckkk/dsh-power-outage) | poweroutage：停电应对：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-power-saving | 0 | [uckkk/dsh-power-saving](https://github.com/uckkk/dsh-power-saving) | powersaving：省电技巧：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ppt-pages | 0 | [uckkk/dsh-ppt-pages](https://github.com/uckkk/dsh-ppt-pages) | pptpages：PPT页数建议：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2469,11 +2758,14 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-prenatal-nutrition | 0 | [uckkk/dsh-prenatal-nutrition](https://github.com/uckkk/dsh-prenatal-nutrition) | prenatalnutrition：孕期营养：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pressure-cooker | 0 | [uckkk/dsh-pressure-cooker](https://github.com/uckkk/dsh-pressure-cooker) | pressurecooker：压力锅：按参数返回厨房小家电使用方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-preview-ui | 0 | [xusuyang030218/dsh-preview-ui](https://github.com/xusuyang030218/dsh-preview-ui) | DSH (DeepSeek Harness) file preview & editor plugin: in-browser workspace file tree, multi-format preview (code, Markdown, PDF, image, Office, HTML), online editing with version history, and | 0.1.0-rc.8 (2026-08-25) |
+| dsh-prime | 0 | [uckkk/dsh-prime](https://github.com/uckkk/dsh-prime) | 素数判断 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-prime-factors | 0 | [uckkk/dsh-prime-factors](https://github.com/uckkk/dsh-prime-factors) | 质因数分解 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-principal-binding-proof | 0 | [dongsheng123132/dsh-principal-binding-proof](https://github.com/dongsheng123132/dsh-principal-binding-proof) | Offline content-addressed proof of pseudonymous authority binding across DSH execution surfaces | 0.1.1-rc.2 (2026-08-26) |
 | dsh-print-dpi | 0 | [uckkk/dsh-print-dpi](https://github.com/uckkk/dsh-print-dpi) | printdpi：打印尺寸计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-privacy-check | 0 | [uckkk/dsh-privacy-check](https://github.com/uckkk/dsh-privacy-check) | privacycheck：隐私自查：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-probation-period | 0 | [uckkk/dsh-probation-period](https://github.com/uckkk/dsh-probation-period) | probationperiod：试用期上限：按参数精确计算，返回详细结果与法条依据。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-produced-file-paths | 0 | [flyhigao/dsh-produced-file-paths](https://github.com/flyhigao/dsh-produced-file-paths) | Show and copy absolute paths for files produced by DSH turns. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-project-ops | 0 | [Missher12/dsh-project-ops](https://github.com/Missher12/dsh-project-ops) | Monorepo-aware execution planning, Harness Jobs handoff, and verification gates for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-project-schedule | 0 | [uckkk/dsh-project-schedule](https://github.com/uckkk/dsh-project-schedule) | projectschedule：项目排期估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-project-skill-paths | 0 | [NeoRrrr/dsh-project-skill-paths](https://github.com/NeoRrrr/dsh-project-skill-paths) | Project-scoped custom SKILL roots for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-prometheus-plugin | 0 | [HuckOps/dsh-prometheus-plugin](https://github.com/HuckOps/dsh-prometheus-plugin) | PromQL plugin for dsh (experimental) | 0.1.0-rc.8 (2026-08-20) |
@@ -2487,6 +2779,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-pypi-live | 0 | [uckkk/dsh-pypi-live](https://github.com/uckkk/dsh-pypi-live) | PyPI包最新版本 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-qnav | 0 | [lin-nanxing/dsh-qnav](https://github.com/lin-nanxing/dsh-qnav) | DSH web plugin: a slim right-edge question-navigation rail for long conversations — every real user question gets a hoverable tick on the right edge; click to jump straight to that turn, current | 0.1.0-rc.8 (2026-08-20) |
 | dsh-qps-calc | 0 | [uckkk/dsh-qps-calc](https://github.com/uckkk/dsh-qps-calc) | qpscalc：峰值QPS估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-quadratic | 0 | [uckkk/dsh-quadratic](https://github.com/uckkk/dsh-quadratic) | 二次方程 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-quartiles | 0 | [uckkk/dsh-quartiles](https://github.com/uckkk/dsh-quartiles) | 四分位数 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-query-string | 0 | [uckkk/dsh-query-string](https://github.com/uckkk/dsh-query-string) | 查询字符串 ↔ 对象 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-question-asking | 0 | [uckkk/dsh-question-asking](https://github.com/uckkk/dsh-question-asking) | questionasking：职场提问：按场景返回结构化方法与建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-question-index | 0 | [lijinhao315/dsh-question-index](https://github.com/lijinhao315/dsh-question-index) | Question index surface: an ordered, collapsible list of the user's asked questions floating on the right side of the conversation, with click-to-jump into the flow | 0.1.0-rc.8 (2026-08-25) |
@@ -2495,21 +2789,27 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-quick-recipes | 0 | [uckkk/dsh-quick-recipes](https://github.com/uckkk/dsh-quick-recipes) | quickrecipes：家常菜谱：按参数返回家常菜烹饪方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-quicklook | 0 | [Hoemr/dsh-quicklook](https://github.com/Hoemr/dsh-quicklook) | QuickLook-style space-key large preview for dsh-better-sidebar: press Space on the active file tab for an instant image / PDF / text overlay | 0.1.0-rc.8 (2026-08-25) |
 | dsh-quote | 0 | [EdwardoStarks/dsh-quote](https://github.com/EdwardoStarks/dsh-quote) | ChatGPT-style text quote for DSH web: select a sentence in a message, click 引用, and a faint quote line appears above the composer. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-quote-uckkk | 0 | [uckkk/dsh-quote](https://github.com/uckkk/dsh-quote) | 添加引号 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-quote-zysftd | 0 | [zysftd/dsh-quote](https://github.com/zysftd/dsh-quote) | DSH web plugin: select AI-generated content in chat and quote it into the input box (GitHub-style quote-reply), plus a per-message quote action. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-qwen-mm | 0 | [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM capabilities as runtime-fetched Agent Skills and strict MCP tool servers | 0.1.0-rc.8 (2026-08-20) |
+| dsh-railfence | 0 | [uckkk/dsh-railfence](https://github.com/uckkk/dsh-railfence) | 栅栏密码 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-raise-request | 0 | [uckkk/dsh-raise-request](https://github.com/uckkk/dsh-raise-request) | raiserequest：涨薪谈判：按参数返回结构化方法。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-randomuuid-polyfill | 0 | [Lehmaning/dsh-randomuuid-polyfill](https://github.com/Lehmaning/dsh-randomuuid-polyfill) | dsh client plugin that installs crypto.randomUUID on insecure origins (plain HTTP over a LAN address) | 0.1.0-rc.8 (2026-08-20) |
+| dsh-range | 0 | [uckkk/dsh-range](https://github.com/uckkk/dsh-range) | 生成范围 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-reader | 0 | [Wodexinhaoleng-Kasssa/dsh-reader](https://github.com/Wodexinhaoleng-Kasssa/dsh-reader) | DSH Web GUI 的在线小说阅读器：左侧边栏「阅读器」入口，在线书源搜索/抓取/整本下载到本地（TXT），阅读界面伪装成聊天对话框（小说章节以对话消息呈现）。宿主侧通过 node fetch 抓取书源网页（规避浏览器 CORS），浏览器侧同源调用 /api/dsh-reader。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-reading-light | 0 | [uckkk/dsh-reading-light](https://github.com/uckkk/dsh-reading-light) | readinglight：阅读灯光：按参数返回家居灯光设计方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-reading-time | 0 | [uckkk/dsh-reading-time](https://github.com/uckkk/dsh-reading-time) | 阅读时间 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-readme | 0 | [uckkk/dsh-readme](https://github.com/uckkk/dsh-readme) | README 生成：扫描项目（package.json、目录结构、技术栈、脚本、许可证），自动生成结构化 README.md | 0.1.0-rc.8 (2026-08-20) |
 | dsh-reasoning-depth | 0 | [Elysiaqwq/dsh-reasoning-depth](https://github.com/Elysiaqwq/dsh-reasoning-depth) | DeepSeek Harness per-model thinking-depth (reasoning effort) configurator: a settings-page section that auto-reads the configured models from llm-pi-ai and applies a per-model thinking level through | 0.1.0-rc.8 (2026-08-25) |
 | dsh-reasoning-effort-triple3h | 0 | [Triple3h/dsh-reasoning-effort](https://github.com/Triple3h/dsh-reasoning-effort) | Per-model reasoning-effort editor with embedded slider for DeepSeek Harness custom providers. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-reasoning-efforts | 0 | [Vitaaoshi/dsh-reasoning-efforts](https://github.com/Vitaaoshi/dsh-reasoning-efforts) | Make every model connected to DeepSeek Harness expose its thinking-level (reasoningEfforts) options: per-family empirical ladders, optional live gateway probing, timestamped backups, one sync tool. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-reasoning-lanqin99 | 0 | [LanQin996/dsh-reasoning](https://github.com/LanQin996/dsh-reasoning) · [npm](https://www.npmjs.com/package/dsh-plugin-reasoning-effort) | Configure model input capabilities and reasoning efforts for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| dsh-rectangle | 0 | [uckkk/dsh-rectangle](https://github.com/uckkk/dsh-rectangle) | 矩形计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-red-packet | 0 | [uckkk/dsh-red-packet](https://github.com/uckkk/dsh-red-packet) | redpacket：红包礼仪：按参数返回家庭节庆筹备方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-reddit-radar | 0 | [reddapidev/dsh-reddit-radar](https://github.com/reddapidev/dsh-reddit-radar) · [npm](https://www.npmjs.com/package/@reddapi/dsh-reddit-radar) | dsh plugin: periodic Reddit lead radar backed by reddapi.dev | unverified |
 | dsh-refpics | 0 | [Ghz114514/dsh-refpics](https://github.com/Ghz114514/dsh-refpics) | Reference-image search for the dsh web GUI: a model-facing search_refs tool that queries Openverse (keyless) or Pexels / Pixabay / Unsplash (API key) for design reference images, plus a browser half | 0.1.0-rc.8 (2026-08-20) |
 | dsh-refusal | 0 | [uckkk/dsh-refusal](https://github.com/uckkk/dsh-refusal) | refusal：得体拒绝：按场景返回结构化方法与建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-regular-polygon | 0 | [uckkk/dsh-regular-polygon](https://github.com/uckkk/dsh-regular-polygon) | 正多边形 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-remote-access-blueligh | 0 | [bluelightgit/dsh-remote-access](https://github.com/bluelightgit/dsh-remote-access) · [npm](https://www.npmjs.com/package/@greenonion/dsh-remote-access) | DSH web plugin for LAN and Tailscale remote access through Caddy with API access policies. | 0.1.0-rc.8 (2026-08-21) |
 | DSH-remote-console | 0 | [ZSLsherly/DSH-remote-console](https://github.com/ZSLsherly/DSH-remote-console) · [npm](https://www.npmjs.com/package/@wahu/dsh-mobile) | Secure mobile companion bundle for the DeepSeek Harness Web profile | 0.1.0-rc.8 (2026-08-20) |
 | dsh-remote-exec | 0 | [moreWax/dsh-remote-exec](https://github.com/moreWax/dsh-remote-exec) | Run DeepSeek Harness locally, execute on your server — ssh / mosh / sam transports with remote file and shell tools | 0.1.0-rc.8 (2026-08-25) |
@@ -2519,6 +2819,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-rent-vs-buy | 0 | [uckkk/dsh-rent-vs-buy](https://github.com/uckkk/dsh-rent-vs-buy) | rentvsbuy：租还是买：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-rental-insurance | 0 | [uckkk/dsh-rental-insurance](https://github.com/uckkk/dsh-rental-insurance) | rentalinsurance：租车保险建议：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-rental-yield | 0 | [uckkk/dsh-rental-yield](https://github.com/uckkk/dsh-rental-yield) | rentalyield：租金回报率：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-repeat | 0 | [uckkk/dsh-repeat](https://github.com/uckkk/dsh-repeat) | 重复字符串 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-repo-analyzer | 0 | [tkr520521/dsh-repo-analyzer](https://github.com/tkr520521/dsh-repo-analyzer) | Local repository intelligence for DeepSeek Harness: stack detection, dependency maps, and module-reference analysis 鈥?no extra services, everything runs on your filesystem. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-repo-health | 0 | [uckkk/dsh-repo-health](https://github.com/uckkk/dsh-repo-health) | 项目体检：检查仓库的 README/LICENSE/.gitignore/测试/CI/锁文件/脚本等最佳实践，返回体检报告卡与修复建议 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-repo-map | 0 | [MkaliezZ/dsh-repo-map](https://github.com/MkaliezZ/dsh-repo-map) · [npm](https://www.npmjs.com/package/@mkaliezz/dsh-repo-map) | DSH plugin: dsh-repo-map | 0.1.0-rc.8 (2026-08-20) |
@@ -2558,6 +2859,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-rice | 0 | [Nocehi/dsh-rice](https://github.com/Nocehi/dsh-rice) | Presentation experiments for DeepSeek Harness Web | 0.1.0-rc.8 (2026-08-20) |
 | dsh-rice-cooker | 0 | [uckkk/dsh-rice-cooker](https://github.com/uckkk/dsh-rice-cooker) | ricecooker：电饭煲：按参数返回厨房小家电使用方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-rice-water | 0 | [uckkk/dsh-rice-water](https://github.com/uckkk/dsh-rice-water) | ricewater：煮饭米水比：按参数精确计算，返回详细结果（经验参考）。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-rich-context | 0 | [savageops/dsh-rich-context](https://github.com/savageops/dsh-rich-context) | Subagent personas for DeepSeek Harness: each ~/.dsh/agents/*.toml becomes its own subagent tool — the persona file is the child system prompt, the route is pinned, output returns inline. | 0.1.1-rc.2 (2026-08-28) |
+| dsh-rich-tracking | 0 | [savageops/dsh-rich-tracking](https://github.com/savageops/dsh-rich-tracking) | Percent-progress scoreboard for DeepSeek Harness: the tracking_write/tracking_checkpoint tools plus a docked board below the todo pill — rows with live percents derived from artifact truth | 0.1.1-rc.2 (2026-08-28) |
 | dsh-ride-train | 0 | [uckkk/dsh-ride-train](https://github.com/uckkk/dsh-ride-train) | ridetrain：骑行训练：按参数返回骑行运动方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-rig-pick | 0 | [uckkk/dsh-rig-pick](https://github.com/uckkk/dsh-rig-pick) | rigpick：钓组搭配：按参数返回钓鱼实战方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-right-drawer | 0 | [PastSheep/dsh-right-drawer](https://github.com/PastSheep/dsh-right-drawer) | Right-side drawer host for Web: every registered entry becomes a full-height drawer with its own edge tab (auto-stacked and group-centered), width resizable. Content plugins register via the | 0.1.0-rc.8 (2026-08-20) |
@@ -2565,7 +2868,9 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-robot-setup | 0 | [uckkk/dsh-robot-setup](https://github.com/uckkk/dsh-robot-setup) | robotsetup：扫地机器人：按参数返回家庭清洁电器方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-roman | 0 | [uckkk/dsh-roman](https://github.com/uckkk/dsh-roman) | 罗马数字转换：阿拉伯数字与罗马数字互转（Roman numeral converter tool for DeepSeek Harness） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-room-light | 0 | [uckkk/dsh-room-light](https://github.com/uckkk/dsh-room-light) | roomlight：房间色温：按参数返回家居灯光设计方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-rot | 0 | [uckkk/dsh-rot](https://github.com/uckkk/dsh-rot) | 字母位移 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-rot13 | 0 | [uckkk/dsh-rot13](https://github.com/uckkk/dsh-rot13) | ROT13 位移 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-round | 0 | [uckkk/dsh-round](https://github.com/uckkk/dsh-round) | 四舍五入 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-route-fence-linter | 0 | [Vladimir-Kryshchenko/dsh-route-fence-linter](https://github.com/Vladimir-Kryshchenko/dsh-route-fence-linter) | Static linter: every plugin HTTP route must carry a browser-trust fence (loopback Host pin before Origin / sec-fetch-site). | 0.1.0-rc.8 (2026-08-25) |
 | dsh-route-plan | 0 | [uckkk/dsh-route-plan](https://github.com/uckkk/dsh-route-plan) | routeplan：路线规划：按参数返回徒步登山方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-routine | 0 | [uckkk/dsh-routine](https://github.com/uckkk/dsh-routine) | routine：护肤步骤流程：按参数返回面部护肤方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2584,6 +2889,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-safe-download-files | 0 | [Apoze/dsh-safe-download-files](https://github.com/Apoze/dsh-safe-download-files) | Safe public HTTP(S) file downloader tool for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
 | dsh-salary-deduction-limit | 0 | [uckkk/dsh-salary-deduction-limit](https://github.com/uckkk/dsh-salary-deduction-limit) | salarydeductionlimit：工资扣除限额：按参数精确计算，返回详细结果与法条依据。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-salary-per-hour | 0 | [uckkk/dsh-salary-per-hour](https://github.com/uckkk/dsh-salary-per-hour) | salaryperhour：时薪计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-san-marino | 0 | [uckkk/dsh-san-marino](https://github.com/uckkk/dsh-san-marino) | 圣马力诺国 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-saving-goal | 0 | [uckkk/dsh-saving-goal](https://github.com/uckkk/dsh-saving-goal) | savinggoal：储蓄目标：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-scalp-issue | 0 | [uckkk/dsh-scalp-issue](https://github.com/uckkk/dsh-scalp-issue) | scalpissue：头皮问题：按参数返回头皮脱发护理方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-scalp-massage | 0 | [uckkk/dsh-scalp-massage](https://github.com/uckkk/dsh-scalp-massage) | scalpmassage：头皮按摩：按参数返回头皮脱发护理方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2623,18 +2929,23 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-settings-mcp-skills | 0 | [w123456789zy/dsh-settings-mcp-skills](https://github.com/w123456789zy/dsh-settings-mcp-skills) | MCP Servers and Skills settings pages for the dsh web UI: mounts the official DeepSeek tool-settings plugins into your web profile. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-severance-pay | 0 | [uckkk/dsh-severance-pay](https://github.com/uckkk/dsh-severance-pay) | severancepay：经济补偿金计算：按参数精确计算，返回详细结果与说明。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-seychelles | 0 | [uckkk/dsh-seychelles](https://github.com/uckkk/dsh-seychelles) | countryinfo：返回 塞舌尔（Seychelles）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-shade | 0 | [uckkk/dsh-shade](https://github.com/uckkk/dsh-shade) | 颜色加深 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shadow-mind | 0 | [winterhuan/dsh-shadow-mind](https://github.com/winterhuan/dsh-shadow-mind) · [npm](https://www.npmjs.com/package/@winterchenhuan/dsh-shadow-mind) | Parallel cognitive runtime for DeepSeek Harness, ported from pi-shadow-mind | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shadow-mind-dandibbe | 0 | [dandibbert/dsh-shadow-mind](https://github.com/dandibbert/dsh-shadow-mind) | Persistent cognitive-role scheduler for DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
+| dsh-shallow-clone | 0 | [uckkk/dsh-shallow-clone](https://github.com/uckkk/dsh-shallow-clone) | 浅拷贝 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shell-wsl | 0 | [kaixinyujue/dsh-shell-wsl](https://github.com/kaixinyujue/dsh-shell-wsl) · [npm](https://www.npmjs.com/package/dsh-shell-wsl) | Docker-container (WSL2 backend) shell executor for the DeepSeek Harness bash capability seam on Windows: every bash tool call runs in a disposable Linux container with the workspace bind-mounted. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shipping-fee | 0 | [uckkk/dsh-shipping-fee](https://github.com/uckkk/dsh-shipping-fee) | shippingfee：运费计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shoe-rack | 0 | [uckkk/dsh-shoe-rack](https://github.com/uckkk/dsh-shoe-rack) | shoerack：鞋柜规划：按参数返回家庭收纳方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-shoe-size | 0 | [uckkk/dsh-shoe-size](https://github.com/uckkk/dsh-shoe-size) | shoesize：童鞋尺码：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-shortid | 0 | [uckkk/dsh-shortid](https://github.com/uckkk/dsh-shortid) | 短 ID 生成 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-show-diff | 0 | [kaiarvin/dsh-show-diff](https://github.com/kaiarvin/dsh-show-diff) | Expanded color-coded diff tool cards for the edit/write tools | 0.1.0-rc.8 (2026-08-20) |
 | dsh-shower-size | 0 | [uckkk/dsh-shower-size](https://github.com/uckkk/dsh-shower-size) | showersize：淋浴房尺寸：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-shuffle | 0 | [uckkk/dsh-shuffle](https://github.com/uckkk/dsh-shuffle) | 数组洗牌 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sick-leave-pay | 0 | [uckkk/dsh-sick-leave-pay](https://github.com/uckkk/dsh-sick-leave-pay) | sickleavepay：病假工资：按参数精确计算，返回详细结果与法条依据。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sidecar | 0 | [Srien11/dsh-sidecar](https://github.com/Srien11/dsh-sidecar) | Persistent side conversations for DeepSeek Harness without leaving the main thread. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sidechat | 0 | [Mintcolour/dsh-sidechat](https://github.com/Mintcolour/dsh-sidechat) | Side chat drawer for DeepSeek Harness Web | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sierra-leone | 0 | [uckkk/dsh-sierra-leone](https://github.com/uckkk/dsh-sierra-leone) | countryinfo：返回 塞拉利昂（Sierra Leone）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-sign | 0 | [uckkk/dsh-sign](https://github.com/uckkk/dsh-sign) | 符号判断 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-silent-pwsh | 0 | [chengyimingvb/dsh-silent-pwsh](https://github.com/chengyimingvb/dsh-silent-pwsh) | Self-healing DeepSeek-Harness plugin: keeps confined pwsh/bash console windows invisible (SW_HIDE) on Windows — no black console flash on every sandboxed command. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-silly-plugin | 0 | [xiagaogaozi/dsh-silly-plugin](https://github.com/xiagaogaozi/dsh-silly-plugin) | DSH 酒馆模式：导入 SillyTavern 角色卡（PNG/JSON），自动拆分世界书/正则/脚本并创建同名工作区，设置页管理。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sillytavern | 0 | [buhayi/dsh-sillytavern](https://github.com/buhayi/dsh-sillytavern) | SillyTavern feature port for DeepSeek Harness: character cards, world info (lorebook), and generation presets as prompt sections, runtime context, request overrides, and slash commands | 0.1.0-rc.8 (2026-08-20) |
@@ -2650,19 +2961,25 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-sleep-hygiene | 0 | [uckkk/dsh-sleep-hygiene](https://github.com/uckkk/dsh-sleep-hygiene) | sleephygiene：睡眠卫生：按参数返回明确建议（心理健康内容仅供参考）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-sleep-score | 0 | [uckkk/dsh-sleep-score](https://github.com/uckkk/dsh-sleep-score) | sleepscore：睡眠评估：按参数返回家庭健康自检结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-sleeping-bag | 0 | [uckkk/dsh-sleeping-bag](https://github.com/uckkk/dsh-sleeping-bag) | sleepingbag：睡袋温标：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-slope | 0 | [uckkk/dsh-slope](https://github.com/uckkk/dsh-slope) | 斜率计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-slugify | 0 | [uckkk/dsh-slugify](https://github.com/uckkk/dsh-slugify) | URL slug 生成器 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-small-fix | 0 | [uckkk/dsh-small-fix](https://github.com/uckkk/dsh-small-fix) | smallfix：水电小修：按参数返回家庭工具维修方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-snakecase | 0 | [uckkk/dsh-snakecase](https://github.com/uckkk/dsh-snakecase) | 蛇形命名 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-snowflake | 0 | [uckkk/dsh-snowflake](https://github.com/uckkk/dsh-snowflake) | 雪花 ID | 0.1.0-rc.8 (2026-08-20) |
 | dsh-social-insurance | 0 | [uckkk/dsh-social-insurance](https://github.com/uckkk/dsh-social-insurance) | socialinsurance：五险一金计算：按参数精确计算，返回详细结果与说明。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-socket-count | 0 | [uckkk/dsh-socket-count](https://github.com/uckkk/dsh-socket-count) | socketcount：开关插座数量：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-soft-color | 0 | [uckkk/dsh-soft-color](https://github.com/uckkk/dsh-soft-color) | softcolor：色彩搭配：按参数返回家居软装搭配方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-soft-style | 0 | [uckkk/dsh-soft-style](https://github.com/uckkk/dsh-soft-style) | softstyle：软装风格：按参数返回家居软装搭配方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-software-pick | 0 | [uckkk/dsh-software-pick](https://github.com/uckkk/dsh-software-pick) | softwarepick：软件推荐：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-solid-food | 0 | [uckkk/dsh-solid-food](https://github.com/uckkk/dsh-solid-food) | solidfood：辅食添加指南：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-sort | 0 | [uckkk/dsh-sort](https://github.com/uckkk/dsh-sort) | 数组排序 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-sort-unique | 0 | [uckkk/dsh-sort-unique](https://github.com/uckkk/dsh-sort-unique) | 排序去重 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sow-time | 0 | [uckkk/dsh-sow-time](https://github.com/uckkk/dsh-sow-time) | sowtime：播种时间：按参数返回阳台种菜方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-space-plan2 | 0 | [uckkk/dsh-space-plan2](https://github.com/uckkk/dsh-space-plan2) | spaceplan2：空间规划：按参数返回小户型空间利用方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-spark-input | 0 | [hyizhou/dsh-spark-input](https://github.com/hyizhou/dsh-spark-input) | Input spark particles: golden-orange glowing particles burst at the caret position on every keystroke, following the caret as you type | 0.1.0-rc.8 (2026-08-20) |
 | dsh-spec | 0 | [rongyishuaige7/dsh-spec](https://github.com/rongyishuaige7/dsh-spec) | Spec-Driven Development 三件套技能（Spec New / Spec Implement / Spec Validate）DSH 组合包：把模糊 Idea 收敛成 specs/ 三件套，按规格有序实现，并对照验收标准验收。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-specify | 0 | [904915452/dsh-specify](https://github.com/904915452/dsh-specify) | DeepSeek Harness plugin: the Specify (Spec-Kit) spec-driven development skill suite | 0.1.0-rc.8 (2026-08-20) |
+| dsh-sphere | 0 | [uckkk/dsh-sphere](https://github.com/uckkk/dsh-sphere) | 球体计算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-spirit-guide | 0 | [uckkk/dsh-spirit-guide](https://github.com/uckkk/dsh-spirit-guide) | spiritguide：烈酒种类：按参数返回威士忌烈酒方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-split-bill | 0 | [uckkk/dsh-split-bill](https://github.com/uckkk/dsh-split-bill) | splitbill：AA分摊：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-split-plan | 0 | [uckkk/dsh-split-plan](https://github.com/uckkk/dsh-split-plan) | splitplan：分化训练：按参数返回力量训练方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2687,6 +3004,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-star-procyon | 0 | [uckkk/dsh-star-procyon](https://github.com/uckkk/dsh-star-procyon) | starinfo：返回亮星 南河三（Procyon）的星座、视星等与距离。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-star-spica | 0 | [uckkk/dsh-star-spica](https://github.com/uckkk/dsh-star-spica) | starinfo：返回亮星 角宿一（Spica）的星座、视星等与距离。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-status-bar-config | 0 | [leonardoxr/dsh-status-bar-config](https://github.com/leonardoxr/dsh-status-bar-config) | Configurable conversation statistics row for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
+| dsh-stddev | 0 | [uckkk/dsh-stddev](https://github.com/uckkk/dsh-stddev) | 标准差 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-steam-mop | 0 | [uckkk/dsh-steam-mop](https://github.com/uckkk/dsh-steam-mop) | steammop：蒸汽拖把：按参数返回家庭清洁电器方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-step-goal | 0 | [uckkk/dsh-step-goal](https://github.com/uckkk/dsh-step-goal) | stepgoal：步数步幅计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-stock-level | 0 | [uckkk/dsh-stock-level](https://github.com/uckkk/dsh-stock-level) | stocklevel：再订货点：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2698,13 +3016,17 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-stt | 0 | [jackuh105/dsh-stt](https://github.com/jackuh105/dsh-stt) | DSH plugin: speech-to-text input via microphone or file upload, transcribed through an OpenAI-compatible /v1/audio/transcriptions endpoint. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-study | 0 | [puji4810/dsh-study](https://github.com/puji4810/dsh-study/tree/HEAD/packages/dsh-mermaid) | Mermaid code-fence renderer for the DeepSeek Harness web client | 0.1.0-rc.8 (2026-08-20) |
 | dsh-study-plan | 0 | [uckkk/dsh-study-plan](https://github.com/uckkk/dsh-study-plan) | studyplan：备考时间分配：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-sum | 0 | [uckkk/dsh-sum](https://github.com/uckkk/dsh-sum) | 纯 Node 实现，无网络依赖。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-sum-of-divisors | 0 | [uckkk/dsh-sum-of-divisors](https://github.com/uckkk/dsh-sum-of-divisors) | 因子之和 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sunscreen-spf | 0 | [uckkk/dsh-sunscreen-spf](https://github.com/uckkk/dsh-sunscreen-spf) | sunscreenspf：防晒SPF选择：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-superpower | 0 | [pai535Huang/dsh-superpower](https://github.com/pai535Huang/dsh-superpower) | DeepSeek Harness preset adapter for obra/superpowers | 0.1.0-rc.8 (2026-08-20) |
 | dsh-superpowers-zh | 0 | [GongYuanCaiJi/dsh-superpowers-zh](https://github.com/GongYuanCaiJi/dsh-superpowers-zh) | DeepSeek Harness 插件：中文版 Superpowers 技能包，20 个中文 AI 编程 skills（移植自 superpowers-zh） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-superpowers-zh-fatherpl | 0 | [fatherplus/dsh-superpowers-zh](https://github.com/fatherplus/dsh-superpowers-zh) | Core Superpowers-zh engineering skills for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-svw-waveform | 0 | [svcomplex-dev/dsh-svw-waveform](https://github.com/svcomplex-dev/dsh-svw-waveform) | Native SVW waveform rendering plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
+| dsh-swapcase | 0 | [uckkk/dsh-swapcase](https://github.com/uckkk/dsh-swapcase) | 大小写互换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-swarmforge | 0 | [c2j/dsh-swarmforge](https://github.com/c2j/dsh-swarmforge) | SwarmForge migrate as a DeepSeek Harness Plugin | 0.1.0-rc.8 (2026-08-25) |
 | dsh-swim-pace | 0 | [uckkk/dsh-swim-pace](https://github.com/uckkk/dsh-swim-pace) | swimpace：游泳配速：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-syllable | 0 | [uckkk/dsh-syllable](https://github.com/uckkk/dsh-syllable) | 音节估算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-synology-calendar | 0 | [fatatalia/dsh-synology-calendar](https://github.com/fatatalia/dsh-synology-calendar) | dsh calendar plugin: Synology Calendar via CalDAV (8 tools, ported from OpenClaw synology-calendar). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-synomega | 0 | [zbc0315/dsh-synomega](https://github.com/zbc0315/dsh-synomega) | Organic reaction prediction for DeepSeek Harness: retrosynthesis, forward prediction, route planning, SynScore, and multi-component evolution, with in-chat molecule/reaction/route visualisation | 0.1.1-rc.2 (2026-08-26) |
 | dsh-tables | 0 | [mario03690/dsh-tables](https://github.com/mario03690/dsh-tables) | Messy CSV in, checkable table out: dedupe, merge, reshape, diff two tables on a key, reconcile ledgers in integer cents — every count/money result carries an in-code arithmetic proof. | 0.1.0-rc.8 (2026-08-20) |
@@ -2733,12 +3055,15 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-thesis | 0 | [haoyuan-sjtu/dsh-thesis](https://github.com/haoyuan-sjtu/dsh-thesis) | dsh-thesis governed local thesis context bundle for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-think-expand | 0 | [BrianHIO-x/dsh-think-expand](https://github.com/BrianHIO-x/dsh-think-expand) | Auto-expand every Think row, including after switching sessions. Header switch to turn it on or off. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-thinking-level-slider | 0 | [Richardcoder849/dsh-thinking-level-slider](https://github.com/Richardcoder849/dsh-thinking-level-slider) | Permanent thinking-level (reasoning effort) slider in the composer input bar for DeepSeek Harness web. | 0.1.0-rc.8 (2026-08-21) |
+| dsh-timezone | 0 | [uckkk/dsh-timezone](https://github.com/uckkk/dsh-timezone) | 时区查询 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-timezone-diff | 0 | [uckkk/dsh-timezone-diff](https://github.com/uckkk/dsh-timezone-diff) | timezonediff：时差换算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-timor-leste | 0 | [uckkk/dsh-timor-leste](https://github.com/uckkk/dsh-timor-leste) | countryinfo：返回 东帝汶（Timor-Leste）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-tint | 0 | [uckkk/dsh-tint](https://github.com/uckkk/dsh-tint) | 颜色提亮 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tip-calc | 0 | [uckkk/dsh-tip-calc](https://github.com/uckkk/dsh-tip-calc) | tipcalc：小费计算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-tire-pressure | 0 | [uckkk/dsh-tire-pressure](https://github.com/uckkk/dsh-tire-pressure) | tirepressure：胎压建议：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-tire-wear | 0 | [uckkk/dsh-tire-wear](https://github.com/uckkk/dsh-tire-wear) | tirewear：轮胎磨损判断：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-title-length | 0 | [uckkk/dsh-title-length](https://github.com/uckkk/dsh-title-length) | titlelength：标题字数建议：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-titlecase | 0 | [uckkk/dsh-titlecase](https://github.com/uckkk/dsh-titlecase) | 标题格式 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-toddler-height | 0 | [uckkk/dsh-toddler-height](https://github.com/uckkk/dsh-toddler-height) | toddlerheight：幼儿身高标准：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-togo | 0 | [uckkk/dsh-togo](https://github.com/uckkk/dsh-togo) | countryinfo：返回 多哥（Togo）的首都、人口（万）、货币与大洲。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-toilet-train | 0 | [uckkk/dsh-toilet-train](https://github.com/uckkk/dsh-toilet-train) | toilettrain：如厕训练：按参数返回行为纠正建议。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2746,6 +3071,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-toml | 0 | [uckkk/dsh-toml](https://github.com/uckkk/dsh-toml) | TOML ↔ JSON 转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-app-verify | 0 | [dmsobtl/dsh-tool-app-verify](https://github.com/dmsobtl/dsh-tool-app-verify) | DSH plugin: browser & Electron UI operation and verification — actions, assertions, and visual regression testing. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-council | 0 | [vinoth4v/dsh-tool-council](https://github.com/vinoth4v/dsh-tool-council) | DeepSeek Harness plugin: a model-facing `council` tool that puts one question to several models on different providers at once, then reports where they agree and where they split | 0.1.0-rc.8 (2026-08-20) |
+| dsh-tool-council-starsinc | 0 | [starsinc1708/dsh-tool-council](https://github.com/starsinc1708/dsh-tool-council) | Map-reduce council of subagents for the DeepSeek Harness: one task fans out to independent members, their findings are deduplicated, verified by a separate panel, and reduced to a quorum report | 0.1.1-rc.2 (2026-08-28) |
 | dsh-tool-describe-image-soli0x4e | 0 | [soli0x4ea/dsh-tool-describe-image](https://github.com/soli0x4ea/dsh-tool-describe-image) | 本地视觉工具 — 图片路径 → LM Studio 视觉模型（qwen3vl4b）→ 文字描述，供主模型理解图片。微信图片、截图识别皆可。 | unverified |
 | dsh-tool-doc | 0 | [zhangjiabo522/dsh-tool-doc](https://github.com/zhangjiabo522/dsh-tool-doc) | Model-facing document tools for DeepSeek Harness: read/create/edit PDF, DOCX, XLSX, PPTX, CSV and Markdown files (read_document, create_document, edit_document) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-docx | 0 | [BroBFG/dsh-tool-docx](https://github.com/BroBFG/dsh-tool-docx) | Model-facing MS Word (.docx) tools: read documents as Markdown or structured blocks, create documents from Markdown, and edit documents round-trip; ships binary fs providers (writeBytes, incl. a | 0.1.0-rc.8 (2026-08-20) |
@@ -2758,6 +3084,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-tool-kit | 0 | [uckkk/dsh-tool-kit](https://github.com/uckkk/dsh-tool-kit) | toolkit：家庭工具清单：按参数返回家庭工具维修方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-tool-markitdown | 0 | [jiavenzhong/dsh-tool-markitdown](https://github.com/jiavenzhong/dsh-tool-markitdown) | DSH plugin: convert user-sent non-text files (PDF/DOCX/XLSX/PPTX/HTML/CSV/EPUB/…) into LLM-friendly Markdown with Microsoft MarkItDown — composer file button + model-facing markitdown tool + | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-playwright | 0 | [cheng-nan01/dsh-tool-playwright](https://github.com/cheng-nan01/dsh-tool-playwright) | Playwright browser automation tools for DeepSeek Harness — a native port of microsoft/playwright-mcp | 0.1.0-rc.8 (2026-08-20) |
+| dsh-tool-plus | 0 | [xiaoso456/dsh-tool-plus](https://github.com/xiaoso456/dsh-tool-plus) | Oh My Pi bash runtime ported as a deepseek-harness tool plugin: persistent shell session, output minimizer, managed background jobs, command interception | 0.1.1-rc.2 (2026-08-28) |
 | dsh-tool-repair | 0 | [monotykamary/dsh-tool-repair](https://github.com/monotykamary/dsh-tool-repair) | Schema-guided tool-call repair for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-tool-result-guard | 0 | [may3rr/dsh-tool-result-guard](https://github.com/may3rr/dsh-tool-result-guard) | Zero-loss tool-result pruning for the DeepSeek Harness (DSH): oversized tool results are spilled to a file first, then pruned with exact elided-span offsets and a recovery locator. A dsh-plugin. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-tool-runseal | 0 | [runseal-labs/dsh-tool-runseal](https://github.com/runseal-labs/dsh-tool-runseal) · [npm](https://www.npmjs.com/package/dsh-tool-runseal) | RunSeal sandbox provider plugin for DeepSeek Harness (dsh) — OS-native policy enforcement for bash and subprocess execution via runseal rpc | 0.1.0-rc.8 (2026-08-20) |
@@ -2770,11 +3097,17 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-trade-in | 0 | [uckkk/dsh-trade-in](https://github.com/uckkk/dsh-trade-in) | tradein：换房置换：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-trading212 | 0 | [Kevoyuan/dsh-trading212](https://github.com/Kevoyuan/dsh-trading212) | Read-only Trading 212 portfolio workspace for dsh | 0.1.0-rc.8 (2026-08-25) |
 | dsh-train-refund | 0 | [uckkk/dsh-train-refund](https://github.com/uckkk/dsh-train-refund) | trainrefund：火车票退改费：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-trapezoid | 0 | [uckkk/dsh-trapezoid](https://github.com/uckkk/dsh-trapezoid) | 梯形面积 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-travel-insurance | 0 | [uckkk/dsh-travel-insurance](https://github.com/uckkk/dsh-travel-insurance) | travelinsurance：旅行险价格估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-travel-med | 0 | [uckkk/dsh-travel-med](https://github.com/uckkk/dsh-travel-med) | travelmed：旅行药品清单：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-treasury-yield | 0 | [uckkk/dsh-treasury-yield](https://github.com/uckkk/dsh-treasury-yield) | treasuryyield：国债收益率：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-tree | 0 | [uckkk/dsh-tree](https://github.com/uckkk/dsh-tree) | 树形展示 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-triangle | 0 | [uckkk/dsh-triangle](https://github.com/uckkk/dsh-triangle) | 三角形计算 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-trim | 0 | [uckkk/dsh-trim](https://github.com/uckkk/dsh-trim) | 去除空白 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-trip-insure | 0 | [uckkk/dsh-trip-insure](https://github.com/uckkk/dsh-trip-insure) | tripinsure：旅行保险：按参数返回旅行规划方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-trip-itinerary | 0 | [uckkk/dsh-trip-itinerary](https://github.com/uckkk/dsh-trip-itinerary) | tripitinerary：行程规划：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-truncate | 0 | [uckkk/dsh-truncate](https://github.com/uckkk/dsh-truncate) | 截断文本 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-tsv | 0 | [uckkk/dsh-tsv](https://github.com/uckkk/dsh-tsv) | TSV 转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tts-player | 0 | [BakaCirno233/dsh-tts-player](https://github.com/BakaCirno233/dsh-tts-player) | TTS 语音播放插件:为 DSH 聊天界面添加语音朗读功能,支持配置本地 TTS 服务,每条助手消息可朗读,AI 可调用 tts-speak 工具发送语音。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-tui-mcp-manager | 0 | [0N3-0/dsh-tui-mcp-manager](https://github.com/0N3-0/dsh-tui-mcp-manager) | Native file-backed MCP server manager for dsh-TUI | 0.1.1-rc.2 (2026-08-26) |
 | dsh-tune-guide | 0 | [uckkk/dsh-tune-guide](https://github.com/uckkk/dsh-tune-guide) | tuneguide：乐器调音：按参数返回乐器练习方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2792,6 +3125,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-ulid | 0 | [uckkk/dsh-ulid](https://github.com/uckkk/dsh-ulid) | ULID 生成/解析（时间可排序 ID） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-unemployment-period | 0 | [uckkk/dsh-unemployment-period](https://github.com/uckkk/dsh-unemployment-period) | unemploymentperiod：失业金领取期限：按参数精确计算，返回详细结果与法条依据。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-unicode | 0 | [uckkk/dsh-unicode](https://github.com/uckkk/dsh-unicode) | Unicode 编解码 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-union | 0 | [uckkk/dsh-union](https://github.com/uckkk/dsh-union) | 集合并集 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-unique | 0 | [uckkk/dsh-unique](https://github.com/uckkk/dsh-unique) | 数组去重 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-unit | 0 | [uckkk/dsh-unit](https://github.com/uckkk/dsh-unit) | 单位换算：长度/重量/温度/数据量/时间单位换算 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-upcycle | 0 | [uckkk/dsh-upcycle](https://github.com/uckkk/dsh-upcycle) | upcycle：旧物改造：按参数返回手工DIY方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-update | 0 | [ADDD1118/dsh-update](https://github.com/ADDD1118/dsh-update) | DeepSeek Harness (dsh) check-for-updates UI + host update / auto-update on close. 右上角检查更新按钮，含玻璃提示、更新弹窗与关闭后自动升级。 | 0.1.0-rc.8 (2026-08-25) |
@@ -2799,25 +3134,35 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-update-radar | 0 | [Equinox7379/dsh-update-radar](https://github.com/Equinox7379/dsh-update-radar) | Update radar for DSH: compares every installed link: plugin against its git upstream and reports which are behind. Read-only, zero runtime deps. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-updater-jxyhy | 0 | [Jxy-hy/dsh-updater](https://github.com/Jxy-hy/dsh-updater) | DSH web plugin: check the local DeepSeek Harness version against the official latest and update the installation checkout while preserving user configuration (~/.dsh is never touched). Settings page | 0.1.0-rc.8 (2026-08-20) |
 | dsh-upload-file | 0 | [OctKwong30/dsh-upload-file](https://github.com/OctKwong30/dsh-upload-file) | 让 dsh Web GUI 支持把任意文件上传进对话：composer 附件按钮（SVG 图标 + 多选）+ 待发送文件条（类图片上传）+ OS 文件拖拽上传 + 会话内文件卡片（方案 B）+ 宿主端持久化存储 + read_uploaded_file 模型工具（无需构建，纯 JS）。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-uppercase | 0 | [uckkk/dsh-uppercase](https://github.com/uckkk/dsh-uppercase) | 大写转换 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-uric-acid | 0 | [uckkk/dsh-uric-acid](https://github.com/uckkk/dsh-uric-acid) | uricacid：尿酸解读：按参数解读结果（仅供参考，请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-url | 0 | [uckkk/dsh-url](https://github.com/uckkk/dsh-url) | URL 工具：解析 URL 为结构化成分，或用参数构造 URL | 0.1.0-rc.8 (2026-08-20) |
+| dsh-url-decode | 0 | [uckkk/dsh-url-decode](https://github.com/uckkk/dsh-url-decode) | URL 解码 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-user-language | 0 | [DoiiarX/dsh-user-language](https://github.com/DoiiarX/dsh-user-language) | DeepSeek Harness 应答语言插件：Web 设置页「用户语言」小节 + 系统提示词语言注入，避免中文提问得英文回复 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-user-prompt | 0 | [MDAwMg/dsh-user-prompt](https://github.com/MDAwMg/dsh-user-prompt) | User-editable system prompt section: assemble your own prompt text together with the default DSH system prompt, configurable in the Web settings UI. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-vaccine-boost | 0 | [uckkk/dsh-vaccine-boost](https://github.com/uckkk/dsh-vaccine-boost) | vaccineboost：疫苗加强：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-vaccine-schedule | 0 | [uckkk/dsh-vaccine-schedule](https://github.com/uckkk/dsh-vaccine-schedule) | vaccineschedule：疫苗接种时间表：按参数返回明确建议（医学内容请遵医嘱）。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-vacuum-buy | 0 | [uckkk/dsh-vacuum-buy](https://github.com/uckkk/dsh-vacuum-buy) | vacuumbuy：吸尘器选购：按参数返回家庭清洁电器方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-validate | 0 | [mario03690/dsh-validate](https://github.com/mario03690/dsh-validate) | Offline identifier checks and Chinese money/tax arithmetic. Checksum-verified identifiers (mainland ID, USCC, bank card, plate, VIN, ISBN, IMEI, IBAN, EAN/UPC) plus amount-in-words, IIT, VAT | 0.1.0-rc.8 (2026-08-25) |
+| dsh-variance | 0 | [uckkk/dsh-variance](https://github.com/uckkk/dsh-variance) | 纯 Node 实现，无网络依赖。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-vase-ratio | 0 | [uckkk/dsh-vase-ratio](https://github.com/uckkk/dsh-vase-ratio) | vaseratio：瓶花比例：按参数返回插花花艺方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-vatican | 0 | [uckkk/dsh-vatican](https://github.com/uckkk/dsh-vatican) | 梵蒂冈国 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-vault-plugin | 0 | [robbin810130/dsh-vault-plugin](https://github.com/robbin810130/dsh-vault-plugin/tree/HEAD/plugin) | DSH 保险箱插件：项目与对话的前台隐私锁 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-veg-pest | 0 | [uckkk/dsh-veg-pest](https://github.com/uckkk/dsh-veg-pest) | vegpest：病虫害防治：按参数返回阳台种菜方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-veggie-pick | 0 | [uckkk/dsh-veggie-pick](https://github.com/uckkk/dsh-veggie-pick) | veggiepick：阳台菜品种：按参数返回阳台种菜方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ventilate | 0 | [uckkk/dsh-ventilate](https://github.com/uckkk/dsh-ventilate) | ventilate：通风换气：按参数返回家居空气质量方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-vertical-org | 0 | [uckkk/dsh-vertical-org](https://github.com/uckkk/dsh-vertical-org) | verticalorg：垂直收纳：按参数返回小户型空间利用方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-vibegap | 0 | [ktao732084-arch/dsh-vibegap](https://github.com/ktao732084-arch/dsh-vibegap) | Self-contained vocabulary flashcards for DeepSeek Harness web sessions | 0.1.1-rc.2 (2026-08-28) |
 | dsh-video-length | 0 | [uckkk/dsh-video-length](https://github.com/uckkk/dsh-video-length) | videolength：视频时长建议：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-video-size | 0 | [uckkk/dsh-video-size](https://github.com/uckkk/dsh-video-size) | videosize：视频文件大小：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-vidfetch | 0 | [anaksunamu/dsh-vidfetch](https://github.com/anaksunamu/dsh-vidfetch) | dsh-vidfetch — a DeepSeek Harness plugin to download videos. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-vigenere | 0 | [uckkk/dsh-vigenere](https://github.com/uckkk/dsh-vigenere) | 维吉尼亚密码 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-visual-acceptance | 0 | [PolinniZhong/dsh-visual-acceptance](https://github.com/PolinniZhong/dsh-visual-acceptance) | Local-first visual acceptance and regression workbench for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-visualization | 0 | [shaomingbo/dsh-visualization](https://github.com/shaomingbo/dsh-visualization) | Secure Mermaid, data-table, and Vega-Lite visualization bundle for DeepSeek Harness Web. | 0.1.0-rc.8 (2026-08-21) |
+| dsh-vmic | 0 | [Calvin451970353/dsh-vmic](https://github.com/Calvin451970353/dsh-vmic) | Voice input plugin for DeepSeek Harness: a mic button in the chat composer with real-time spectrum animation, 16kHz WAV recording, ASR via pluggable providers (Xiaomi MiMo, Volcengine Doubao live | 0.1.1-rc.2 (2026-08-28) |
 | dsh-vn-biz | 0 | [mikegabyte/dsh-vn-biz](https://github.com/mikegabyte/dsh-vn-biz) | Vietnam business utilities for DeepSeek Harness (dsh): VietQR quick-link, tax-code (MST) lookup, amount-to-Vietnamese-words. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-voice-agent | 0 | [WayneYu430/dsh-voice-agent](https://github.com/WayneYu430/dsh-voice-agent/tree/HEAD/packages/ui-voice) | Browser microphone and speech playback control for the voice profile | 0.1.0-rc.8 (2026-08-25) |
+| dsh-voice-announcer | 0 | [flashyiyi/dsh-voice-announcer](https://github.com/flashyiyi/dsh-voice-announcer) | 对话结束语音播报：会话名+轮数+结果（edge-tts 流式 / SAPI） | 0.1.1-rc.2 (2026-08-28) |
 | dsh-voice-charliep | 0 | [charlie-pan/dsh-voice](https://github.com/charlie-pan/dsh-voice) | 语音转文字插件（DeepSeek Harness / dsh）：输入框右下角麦克风按钮，三种识别引擎（浏览器自带 / 讯飞 / 本地 Whisper）可切换。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-voice-chat-maoyuchi | 0 | [maoyuching/dsh-voice-chat](https://github.com/maoyuching/dsh-voice-chat) | 豆包式语音对话客户端插件：聊天框麦克风按钮（按住说话）→ 语音转文字发送 → 回复自动朗读。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-voice-harzva | 0 | [Harzva/dsh-voice](https://github.com/Harzva/dsh-voice) | dsh-voice — turn-based voice loop for DeepSeek Harness: pluggable Qwen / MiMo / local ASR+TTS engines, agent-driven speak/listen tools and browser PTT UI, built for interviewer presets | 0.1.0-rc.8 (2026-08-25) |
@@ -2857,6 +3202,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-weather-plugin | 0 | [shenmy-git/dsh-weather-plugin](https://github.com/shenmy-git/dsh-weather-plugin) | 天气查询工具 + 根据天气自动切换应用主题的 UI 增强插件（DSH plugin marketplace） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-weather-xckjacks | 0 | [XCKjacksparrow/dsh-weather](https://github.com/XCKjacksparrow/dsh-weather) | Weather forecast for the DeepSeek Harness web GUI: a draggable floating weather card plus a model-callable weather tool, with playful easter eggs. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-weave | 0 | [baixianger/dsh-weave](https://github.com/baixianger/dsh-weave) · [npm](https://www.npmjs.com/package/dsh-weave) | A private, peer-to-peer weave protocol for connecting DeepSeek Harness nodes across machines. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-web-access-qipengli | 0 | [qipenglin/dsh-web-access](https://github.com/qipenglin/dsh-web-access) | Optional loopback token and Cookie authentication for DeepSeek Harness Web profiles | 0.1.1-rc.2 (2026-08-28) |
 | dsh-web-fetch | 0 | [runfali/dsh-web-fetch](https://github.com/runfali/dsh-web-fetch) | Generic Web content fetcher plugin for DeepSeek Harness with dual pluggable data sources (CDP browser + Tavily). Each data source is registered as its own tool so the LLM can pick | 0.1.0-rc.8 (2026-08-20) |
 | dsh-web-fetch-local | 0 | [Apoze/dsh-web-fetch-local](https://github.com/Apoze/dsh-web-fetch-local) | Secure local Readability provider for the DeepSeek Harness web_fetch tool | 0.1.1-rc.2 (2026-08-26) |
 | dsh-web-mermaid | 0 | [vtxf/dsh-web-mermaid](https://github.com/vtxf/dsh-web-mermaid) · [npm](https://www.npmjs.com/package/dsh-web-mermaid) | DeepSeek Harness (DSH) Web 插件：把聊天 Markdown 中的 ```mermaid 围栏代码块离线渲染为 Mermaid 图表（SVG）。mermaid 运行时随插件内置，不依赖任何在线 CDN。 | 0.1.0-rc.8 (2026-08-20) |
@@ -2874,6 +3220,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-web-workbench | 0 | [yth1120/dsh-web-workbench](https://github.com/yth1120/dsh-web-workbench/tree/HEAD/packages/bundle/web-app) | Public mirror for the dsh-external/dsh-web-workbench plugin suite; canonical organization repository is private by org policy. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-websearch-mcp | 0 | [bigfurma-bot/dsh-websearch-mcp](https://github.com/bigfurma-bot/dsh-websearch-mcp) | Local web search for DeepSeek Harness via MCP — Bing/Brave/DuckDuckGo scraping, no API keys, agent-installable | 0.1.0-rc.8 (2026-08-25) |
 | dsh-wedding-timeline | 0 | [uckkk/dsh-wedding-timeline](https://github.com/uckkk/dsh-wedding-timeline) | weddingtimeline：婚礼时间线：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-week-number | 0 | [uckkk/dsh-week-number](https://github.com/uckkk/dsh-week-number) | 周数计算 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-weekday-name | 0 | [uckkk/dsh-weekday-name](https://github.com/uckkk/dsh-weekday-name) | 星期名称 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-weekly-plan | 0 | [uckkk/dsh-weekly-plan](https://github.com/uckkk/dsh-weekly-plan) | weeklyplan：跑量规划：按参数返回跑步训练方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-weekly-report | 0 | [uckkk/dsh-weekly-report](https://github.com/uckkk/dsh-weekly-report) | weeklyreport：周报写法：按参数返回结构化方法。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-weight-pick | 0 | [uckkk/dsh-weight-pick](https://github.com/uckkk/dsh-weight-pick) | weightpick：重量选择：按参数返回力量训练方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2910,11 +3258,13 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-xiaoyuzhou | 0 | [jerryqx/dsh-xiaoyuzhou](https://github.com/jerryqx/dsh-xiaoyuzhou) | DeepSeek Harness 小宇宙播客插件：Host 侧免登录解析小宇宙播客/单集并代理音频流（Range/seek），浏览器侧提供播放条/订阅/搜索（登录解锁）/shownotes 阅读的播放面板，并注册 podcast_play 模型工具 | 0.1.1-rc.2 (2026-08-26) |
 | dsh-ximalaya | 0 | [jerryqx/dsh-ximalaya](https://github.com/jerryqx/dsh-ximalaya) | DeepSeek Harness 喜马拉雅播客插件：Host 端代理喜马拉雅搜索/专辑/曲目/收藏声音/订阅专辑/关注主播接口并解析播放地址（免费曲直链 + 登录态 baseInfo 解锁已购/VIP 内容），浏览器侧提供播放条与搜索/专辑/主播/我的面板，并注册 ximalaya_play 模型工具 | 0.1.1-rc.2 (2026-08-26) |
 | dsh-xml | 0 | [uckkk/dsh-xml](https://github.com/uckkk/dsh-xml) | XML ↔ JSON 转换 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-xor-cipher | 0 | [uckkk/dsh-xor-cipher](https://github.com/uckkk/dsh-xor-cipher) | XOR 加密 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-yap | 0 | [zoahdev/dsh-yap](https://github.com/zoahdev/dsh-yap) | 废话文学生成器：给 DeepSeek Harness 加一个 yap 工具，用最正确但最没用的职场黑话把任何话题说成三百字。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-yoga-timing | 0 | [uckkk/dsh-yoga-timing](https://github.com/uckkk/dsh-yoga-timing) | yogatiming：练瑜伽时机：按参数返回瑜伽拉伸方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-youtube-bilingual-subtitles | 0 | [yun-zhi-dao/dsh-youtube-bilingual-subtitles](https://github.com/yun-zhi-dao/dsh-youtube-bilingual-subtitles) | Natural bilingual YouTube captions powered by DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ytdlp | 0 | [tkwkeven/dsh-ytdlp](https://github.com/tkwkeven/dsh-ytdlp) | 视频/音频下载工具插件（基于 yt-dlp）：查询视频信息、下载视频/提取音频，返回本地文件路径供会话渠道（含飞书）发送 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-yzj | 0 | [GuoxinShan/dsh-yzj](https://github.com/GuoxinShan/dsh-yzj) | 云之家 (Yunzhijia) plugin bundle for DeepSeek Harness: yzj-cli bridge, model-facing tools, robot channel, memory vault, model defaults, and a browser UI (rich tool cards + workspace panel) — monobundle | 0.1.0-rc.8 (2026-08-20) |
+| dsh-zentao | 0 | [haoyu-qi/dsh-zentao](https://github.com/haoyu-qi/dsh-zentao/tree/HEAD/packages/bundle/zentao) | Installable DSH Web customization and personal ZenTao floating work center for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-zgit | 0 | [zukunftsholz/dsh-zgit](https://github.com/zukunftsholz/dsh-zgit) | Zero-git: fetch source code and binary releases from git hosts over plain HTTPS — no git binary, no clone. Simulates git for the DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-zh-hant-tw | 0 | [chiyulogg-commits/dsh-zh-hant-tw](https://github.com/chiyulogg-commits/dsh-zh-hant-tw) | Taiwan Traditional Chinese wording for DeepSeek Harness (設置 → 設定, 智能體 → 代理, 保存 → 儲存, …) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-zone-clean | 0 | [uckkk/dsh-zone-clean](https://github.com/uckkk/dsh-zone-clean) | zoneclean：分区清洁：按参数返回居家清洁方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -2922,6 +3272,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | framefactory-plugin | 0 | [anywhere-labs/framefactory-plugin](https://github.com/anywhere-labs/framefactory-plugin) | A runnable DeepSeek Harness plugin for FrameFactory content workflows. | 0.1.0-rc.8 (2026-08-20) |
 | fs-mcp | 0 | [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) | 面向 agent 的本地文件系统工具集：读 / 写 / 检索 / 目录操作，全部被约束在可配置的「围场」目录内，以 MCP stdio server 形式运行，零运行时依赖，可被 dsh 等插件化 harness 加载 | broken against 0.1.0-rc.6 |
 | function-extraction | 0 | [addxing/function-extraction](https://github.com/addxing/function-extraction) | DeepSeek Harness skill bundle: function-extraction (loads SKILL.md). | 0.1.0-rc.8 (2026-08-20) |
+| gh-discussions | 0 | [MauricioPerera/gh-discussions](https://github.com/MauricioPerera/gh-discussions) | Plugin de composición para DeepSeek Harness (dsh) que expone GitHub Discussions como Tools nativas del modelo: ghdiscussionsearch, ghdiscussioncreate, ghdiscussioncomment. | 0.1.1-rc.2 (2026-08-28) |
 | ghost-refresh | 0 | [ZomiCC/ghost-refresh](https://github.com/ZomiCC/ghost-refresh) | Ghost Refresh (鬼影提神) — a friendly ghost drifts across the page to keep you awake. Adjustable speed / opacity / size / frequency, persisted per browser. | 0.1.1-rc.2 (2026-08-26) |
 | go-stock-mcp | 0 | [WJS-WEB/go-stock-mcp](https://github.com/WJS-WEB/go-stock-mcp) | 把 go-stock 的股票行情、K 线、 财务、资金流、新闻和研报能力，以只读 stdio MCP Server 的形式提供给 DeepSeek Harness 及其他 MCP Client | 0.1.0-rc.8 (2026-08-21) |
 | harness-plugin-tutorial | 0 | [ret-c1/harness-plugin-tutorial](https://github.com/ret-c1/harness-plugin-tutorial/tree/HEAD/harness-plugin-lib/plugins/asset-management) | Read-only asset-management tools for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
@@ -2931,6 +3282,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | jarvis | 0 | [gh503/jarvis](https://github.com/gh503/jarvis) · [npm](https://www.npmjs.com/package/jarvis) | Local-first Jarvis MVP for macOS, powered by DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
 | JARVIS-Mission-Control-DeepSeek | 0 | [Asif2BD/JARVIS-Mission-Control-DeepSeek](https://github.com/Asif2BD/JARVIS-Mission-Control-DeepSeek/tree/HEAD/integrations/deepseek-harness/dsh-plugin-mission-control) · [npm](https://www.npmjs.com/package/dsh-plugin-mission-control) | DeepSeek-Harness (dsh) plugin that streams sessions, turns, and tool activity to a JARVIS Mission Control board | 0.1.0-rc.8 (2026-08-21) |
 | jspace-harness | 0 | [2006spy/jspace-harness](https://github.com/2006spy/jspace-harness) · [npm](https://www.npmjs.com/package/@spy2006/dsh-jspace-harness) | Harness-native J-Space cognition preset with cache-stable scoped prompt control. | 0.1.0-rc.8 (2026-08-21) |
+| kdd-gates | 0 | [MauricioPerera/kdd-gates](https://github.com/MauricioPerera/kdd-gates) | KDD methodology gates as DeepSeek Harness (dsh) plugin tools | 0.1.1-rc.2 (2026-08-28) |
 | kgraph-plugin | 0 | [lzhphantom/kgraph-plugin](https://github.com/lzhphantom/kgraph-plugin) | DSH bundle (组合包): read-only project knowledge graph — modules, tech stack, architecture layers, file-level import graphs, observations. Provides /kgraph command, project_kgraph model tool and a | 0.1.0-rc.8 (2026-08-20) |
 | lawstar-dsh-mcp | 0 | [law-star-cn/lawstar-dsh-mcp](https://github.com/law-star-cn/lawstar-dsh-mcp) | DeepSeek Harness 插件：一键 API Key 接入法律之星 MCP（语义检索/法条调取/法规列表/批量识别/幻觉校验/批量引用） / One-click API Key connect to LawStar legal-data MCP for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | leppy-loop-deepseek | 0 | [aleleppy/leppy-loop-deepseek](https://github.com/aleleppy/leppy-loop-deepseek) | Checklist-driven isolated worker loop for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
@@ -2962,8 +3314,10 @@ New things the model can do: search, browser, files, databases, devices, media.
 | sdlc-harness | 0 | [brunodantas/sdlc-harness](https://github.com/brunodantas/sdlc-harness) | A DeepSeek Harness bundle that runs an engineering practice against a locally served model | 0.1.0-rc.8 (2026-08-21) |
 | sebastian-kitchen-board | 0 | [penguinpanda/sebastian-kitchen-board](https://github.com/penguinpanda/sebastian-kitchen-board/tree/HEAD/sebastian-kitchen-board) | Kitchen & life assistant board for DeepSeek Harness: an official profile bundle adding webServer host routes and a dsh.client browser board with a five-step init wizard and a configurable working | 0.1.0-rc.8 (2026-08-20) |
 | suanlayu-dsh-plugins | 0 | [suanlayu666/suanlayu-dsh-plugins](https://github.com/suanlayu666/suanlayu-dsh-plugins/tree/HEAD/plugins/dsh-file-upload) | File upload plugin for the dsh web profile: POST /file-upload host route with text extraction (txt/md/code, PDF/DOCX/XLSX via optional parsers), plus a browser client adding an attach button and | 0.1.0-rc.8 (2026-08-20) |
+| vibegap | 0 | [ktao732084-arch/vibegap](https://github.com/ktao732084-arch/vibegap/tree/HEAD/vibegap/adapters/dsh/plugin) | Self-contained vocabulary flashcards for DeepSeek Harness web sessions | 0.1.1-rc.2 (2026-08-28) |
 | voice_for_dsh | 0 | [junarch/voice_for_dsh](https://github.com/junarch/voice_for_dsh/tree/HEAD/packages/dsh-plugin-voice) | DSH web plugin: read aloud each DeepSeek turn output after spoken-style transcription (code/table/markdown aware), with per-message manual read buttons and an auto-read toggle. | 0.1.0-rc.8 (2026-08-25) |
 | voice-interview-coach | 0 | [hTangle/voice-interview-coach](https://github.com/hTangle/voice-interview-coach) | Voice Interview Coach — a DSH (DeepSeek Harness) plugin that runs a natural-language-graded, voice-based mock interview using the candidate's project, language, resume and target role, then produces | 0.1.0-rc.8 (2026-08-20) |
+| voice-plugin | 0 | [dusbin/voice-plugin](https://github.com/dusbin/voice-plugin) | DeepSeek Harness 语音输入输出插件（Web 端）：长按空格键语音输入（Web Speech Recognition）+ 助手文章输出朗读（speechSynthesis）。 | 0.1.1-rc.2 (2026-08-28) |
 | voice-stt-dsh | 0 | [vTRKA/voice-stt-dsh](https://github.com/vTRKA/voice-stt-dsh) | Offline Parakeet voice input for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | VoiceLens | 0 | [EthanHuangEbor/VoiceLens](https://github.com/EthanHuangEbor/VoiceLens) | Voice input and audio transcription for DeepSeek Harness and any skill-reading agent: a composer mic button (browser speech), a transcribe_audio tool, and a harness-agnostic `voicelens` CLI with | 0.1.0-rc.8 (2026-08-20) |
 | Weave-for-DSH | 0 | [Quan-Chan/Weave-for-DSH](https://github.com/Quan-Chan/Weave-for-DSH) | Weave node-graph editor as a fixed DeepSeek Harness plugin: embeds the single-file editor as a page view, registers the `weave` AI tool that directly controls the page JS, and ships an AI-teaching | 0.1.0-rc.8 (2026-08-25) |

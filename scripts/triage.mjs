@@ -24,6 +24,7 @@
 //   node scripts/triage.mjs                drain data/candidates.json
 //   node scripts/triage.mjs --dry-run      decide everything, write nothing
 //   node scripts/triage.mjs --prove        re-prove entries already listed
+//   node scripts/triage.mjs --redescribe   re-derive descriptions the gates refuse
 //   node scripts/triage.mjs --limit 50     stop after 50 repos
 //   node scripts/triage.mjs --report f.json  write the full per-repo trace
 //
@@ -45,6 +46,7 @@ const opt = (flag, fallback) => {
 };
 const DRY = has("--dry-run");
 const PROVE = has("--prove");
+const REDESCRIBE = has("--redescribe");
 const LIMIT = Number(opt("--limit", Infinity));
 const REPORT = opt("--report", null);
 
@@ -269,21 +271,43 @@ function ledeFromReadme(text) {
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/```[\s\S]*?```/g, "")
     .replace(/<[^>]+>/g, " ");
+  const strip = (line) => line
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ") // images
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1") // links keep their text
+    .replace(/[*_`]+/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // `# dsh-trim · 去除空白` is the repo name and then the subject, which is the
+  // commonest Chinese README opening in this ecosystem. Skipping every heading
+  // threw the subject away and let the loop walk on to the install section.
+  // Only the part after the separator is taken, and only when it is not just
+  // the repo name again.
+  const subtitle = (line) => {
+    const m = line.replace(/^#{1,6}\s+/, "").split(/\s+[·|—–-]\s+|\s+[:：]\s*/);
+    if (m.length < 2) return null;
+    const tail = strip(m.slice(1).join(" · "));
+    return tail && displayWidth(tail) >= 8 ? tail : null;
+  };
+
+  let headingSubject = null;
   for (let line of body.split(/\r?\n/)) {
     line = line.trim();
     if (!line) continue;
-    if (/^#{1,6}\s/.test(line)) continue; // the title repeats the repo name
+    if (/^#{1,6}\s/.test(line)) {
+      headingSubject ??= subtitle(line);
+      continue;
+    }
     if (/^[-*_]{3,}$/.test(line)) continue;
     if (/^[[!|>]/.test(line) && !/[.。！!？?]/.test(line)) continue; // badge wall, TOC, language switcher
-    line = line
-      .replace(/!\[[^\]]*\]\([^)]*\)/g, " ") // images
-      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1") // links keep their text
-      .replace(/[*_`]+/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
-    if (line.length >= 20) return line;
+    line = strip(line);
+    // 20 `String.length` is a bar for Latin prose. `纯 Node 实现，无网络依赖。`
+    // is 17 and a full sentence; the install line below it is exactly 20 and
+    // says nothing -- which is how 164 rows ended up describing installation
+    // rather than the plugin. Width counts a CJK glyph as the morpheme it is.
+    if (displayWidth(line) >= 20) return line;
   }
-  return null;
+  return headingSubject;
 }
 
 // Root read: three free file fetches, which settles most repos.
@@ -405,7 +429,7 @@ async function proveDeep(repo) {
   return { proof: null, facts: { tree: paths.length } };
 }
 
-const NO_PATH = "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no SKILL.md";
+const NO_PATH = "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no top-level .md carrying skill frontmatter";
 
 async function triage(repo, { deep = true } = {}) {
   const root = await proveRoot(repo);
@@ -460,6 +484,29 @@ const STAR_BEG = /[【\[(]\s*(求[⭐★*]+|求star|please\s*star|star\s*me|点�
 const EMOJI = /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}\u{2B00}-\u{2BFF}]/gu;
 const MOJIBAKE = /\?{4,}|�/;
 
+// "After installing, call the tool this plugin registers" describes the act of
+// installing, not the plugin. 164 rows carried this one sentence verbatim --
+// it clears every length gate and tells a reader nothing, which is the exact
+// failure the gates exist to catch. Refusing it here lets the next lane (the
+// repo's own blurb, then the README lede) supply a real one.
+const INSTALL_BOILERPLATE = /^安装后.{0,12}(调用|使用).{0,16}(工具|插件|命令).{0,6}$/;
+
+// A minimum length written in `String.length` is a minimum written for Latin.
+// `波黑国家` is four characters and a complete description ("Bosnia and
+// Herzegovina country info"); `dsh plugin` is ten and says nothing. A CJK
+// glyph is a morpheme, so it is weighted as one -- the same bilingual
+// assumption TAG_RULES below is already built on.
+//
+// The weight is 3, not 2, because 2 was still Latin-shaped: it set the floor
+// at four glyphs and kept refusing `协方差` (covariance) and `锕元素`
+// (actinium). Measured against the queue: weight 2 recovered 92 of the 146
+// proven repos parked as "no usable description" and left 54; weight 3
+// recovers 51 of those 54, every one of them a precise three-glyph noun
+// phrase. Two glyphs stays refused -- that is where a fragment starts.
+const CJK = /[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF\u3040-\u30FF\uAC00-\uD7AF]|[\u{20000}-\u{2FFFF}]/u;
+const CJK_WEIGHT = 3;
+const displayWidth = (s) => [...s].reduce((n, ch) => n + (CJK.test(ch) ? CJK_WEIGHT : 1), 0);
+
 function cleanDescription(input) {
   if (!input) return null;
   let s = String(input)
@@ -470,7 +517,8 @@ function cleanDescription(input) {
     .replace(/^[\s|·•\-—:：,，.。]+/, "")
     .trim();
   if (MOJIBAKE.test(s)) return null; // arrives destroyed; passing it on helps nobody
-  if (s.length < 8) return null;
+  if (INSTALL_BOILERPLATE.test(s)) return null;
+  if (displayWidth(s) < 8) return null;
   if (s.length > 200) {
     const cut = s.slice(0, 200);
     const at = Math.max(
@@ -478,7 +526,7 @@ function cleanDescription(input) {
       cut.lastIndexOf(", "), cut.lastIndexOf(" · "), cut.lastIndexOf(" "));
     s = (at > 120 ? cut.slice(0, at) : cut.slice(0, 197)).replace(/[\s,;·、，。]+$/, "");
   }
-  return s.length >= 8 ? s : null;
+  return displayWidth(s) >= 8 ? s : null;
 }
 
 // Functional areas, matching data/schema.json's tag enum. Bilingual because
@@ -665,6 +713,71 @@ if (PROVE) {
   process.exit(0);
 }
 
+// --- mode: --redescribe -----------------------------------------------------
+// Repair listed rows whose stored description the gates now refuse. This does
+// not rewrite descriptions the registry is happy with, and it still never
+// writes one: it re-runs the same three author-owned lanes (package.json, the
+// repo blurb, the README lede) against the repo as it stands today.
+//
+// It exists because the gates were Latin-shaped. A CJK blurb of four glyphs
+// was refused as "too short" and the loop fell through to the README, where a
+// 20-character bar walked past two real sentences and landed on the install
+// section -- so 164 rows described how to install a plugin instead of what it
+// does, all of them carrying the identical sentence. Fixing the gate only
+// helps rows admitted after the fix; these were admitted before it.
+
+if (REDESCRIBE) {
+  const broken = registry.plugins.filter(
+    (p) => !p.official && !cleanDescription(p.description),
+  );
+  console.error(`triage: ${broken.length} listed row(s) carry a description the gates refuse`);
+
+  const results = await pooled(broken, async (p) => {
+    const [pkgText, readme, meta] = await Promise.all([
+      raw(p.repo, p.path ? `${p.path}/package.json` : "package.json"),
+      raw(p.repo, p.path ? `${p.path}/README.md` : "README.md"),
+      gh(`/repos/${p.repo}`),
+    ]);
+    const description = cleanDescription(parse(pkgText)?.description)
+      ?? cleanDescription(meta?.description)
+      ?? cleanDescription(ledeFromReadme(readme));
+    // `was` is captured here, not read back at report time: the writeback
+    // below mutates the very row `entry` points at, so a report that reads
+    // `entry.description` shows the new value in both columns and silently
+    // claims every repair was a no-op.
+    return { entry: p, was: p.description, description, gone: meta?.__missing === true };
+  }, "redescribe");
+
+  const fixed = results.filter((r) => r.description);
+  const stuck = results.filter((r) => !r.description && !r.gone);
+  const gone = results.filter((r) => r.gone);
+  console.error(
+    `triage: ${fixed.length} redescribed, ${stuck.length} still have nothing upstream, ${gone.length} now 404`,
+  );
+  for (const g of gone) console.error(`  - 404: ${g.entry.repo} (${g.entry.name})`);
+
+  const byName = new Map(fixed.map((r) => [r.entry.name, r.description]));
+  for (const p of registry.plugins) {
+    const d = byName.get(p.name);
+    if (!d) continue;
+    p.description = d;
+    p.tags = tagsFor(`${p.repo} ${d}`);
+  }
+
+  if (REPORT) {
+    writeFileSync(REPORT, `${JSON.stringify(results.map((r) => ({
+      repo: r.entry.repo, name: r.entry.name, was: r.was, now: r.description ?? null, gone: r.gone,
+    })), null, 2)}\n`);
+  }
+  if (!DRY) {
+    write("data/plugins.json", { ...registry, updated: TODAY, plugins: registry.plugins.map(ordered) });
+    console.error(`triage: rewrote data/plugins.json, ${fixed.length} description(s) re-derived`);
+  } else {
+    console.error("triage: --dry-run, nothing written");
+  }
+  process.exit(0);
+}
+
 // --- mode: drain the queue --------------------------------------------------
 
 const takenNames = new Set(registry.plugins.map((p) => p.name.toLowerCase()));
@@ -790,6 +903,38 @@ write("data/candidates.json", {
   updated: TODAY,
   candidates: [...held, ...routed].sort((a, b) => a.repo.localeCompare(b.repo)),
 });
+
+// The routing had no receiving end. Every sweep since 2026-08-15 has said
+// "N routed to themes" and then left them sitting in this repo's queue, where
+// the next run re-decides them and routes them again -- a finding printed
+// daily and acted on never. awesome-dsh-themes reads this file off
+// raw.githubusercontent, which costs no API budget, so the handoff is a fact
+// on disk rather than a line in a log. Repos accumulate: a theme dropped here
+// stays until the sibling has decided it, and the sibling is what decides.
+const routedFile = (() => {
+  try { return read("data/routed-to-themes.json"); } catch { return { repos: [] }; }
+})();
+const routedKnown = new Map((routedFile.repos ?? []).map((r) => [r.repo.toLowerCase(), r]));
+for (const c of routed) {
+  if (routedKnown.has(c.repo.toLowerCase())) continue;
+  routedKnown.set(c.repo.toLowerCase(), {
+    repo: c.repo,
+    description: c.description ?? undefined,
+    stars: c.stars,
+    routed: TODAY,
+    note: c.note,
+  });
+}
+write("data/routed-to-themes.json", {
+  _comment: "Repos this registry decided belong to dshworks/awesome-dsh-themes, not here. "
+    + "Written by scripts/triage.mjs; read by the sibling repo's discover step as a source. "
+    + "A row stays after the sibling admits it -- this file records the routing decision, "
+    + "not the sibling's queue.",
+  updated: TODAY,
+  count: routedKnown.size,
+  repos: [...routedKnown.values()].sort((a, b) => a.repo.localeCompare(b.repo)),
+});
+console.error(`triage: ${routedKnown.size} repo(s) on the themes routing list`);
 
 // Keep the published coverage figure honest between sweeps.
 //

@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-149 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+153 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -97,6 +97,7 @@ Building, testing, and publishing plugins.
 | dsh-plugin-reloader | 1 | [deepforce/dsh-plugin-reloader](https://github.com/deepforce/dsh-plugin-reloader) | Hot-reload installed DeepSeek Harness plugins without restarting dsh web: watches plugin bundles, reloads changed plugins in place, and restarts on dependency changes | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-riffkit | 1 | [riffkit/dsh-plugin](https://github.com/riffkit/dsh-plugin) · [npm](https://www.npmjs.com/package/@riffkit/dsh-plugin) | Riff winning short videos — give one source (a TikTok link, an uploaded video, or an analyzed template) and the backend riffs its emotion formula into your own AI video (post-ready short-form or | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-skill-tree | 1 | [nfz/dsh-plugin-skill-tree](https://github.com/nfz/dsh-plugin-skill-tree) | Shared public and profession-core capability trees for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-teamflow | 1 | [MichaelShii/dsh-plugin-teamflow](https://github.com/MichaelShii/dsh-plugin-teamflow) | TeamFlow 团队研发流水线（TypeScript）：需求→PRD→设计→架构→技术方案→并行开发→QA→验收；backlog 持久化 + 断点续跑 + 完成汇报 + 防假交付；Web 团队工作台（conversation.view tab + 拖拽看板） | 0.1.1-rc.2 (2026-08-28) |
 | dsh-ponytail-dev | 1 | [satan9394/dsh-ponytail-dev](https://github.com/satan9394/dsh-ponytail-dev) | 懒人高级开发哲学：YAGNI 阶梯（能不建就不建→复用→标准库→一行搞定）+ 根因修复 + 极简纪律。受 DietrichGebert/ponytail（105k ）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-prompt-engineering | 1 | [satan9394/dsh-prompt-engineering](https://github.com/satan9394/dsh-prompt-engineering) | 提示词工程模式：结构化推理（CoT/ToT）、few-shot、模板变量、生产级提示词优化。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-publisher | 1 | [SongYuhui14/dsh-publisher](https://github.com/SongYuhui14/dsh-publisher) | DSH plugin: one-click publish planner for skills/plugins — validate project completeness, generate repo description, awesome-list entry, and PR commands. 技能/插件一键发布助手。 | 0.1.0-rc.8 (2026-08-20) |
@@ -133,6 +134,7 @@ Building, testing, and publishing plugins.
 | dsh-plugin-conflict-checker | 0 | [kid-tea/dsh-plugin-conflict-checker](https://github.com/kid-tea/dsh-plugin-conflict-checker) | DeepSeek Harness plugin conflict checker: pre-flight duplicate-id detection and optional real startup smoke test. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-dev | 0 | [baihejiangnan/dsh-plugin-dev](https://github.com/baihejiangnan/dsh-plugin-dev) | 本地插件开发管理面板：主动登记通过 file:/link: 安装的真实路径项目，并通过带风险确认的工作区会话协助开发与发布。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-dev-ligaoc | 0 | [ligaoc/dsh-plugin-dev](https://github.com/ligaoc/dsh-plugin-dev/tree/HEAD/template) | A DeepSeek Harness (dsh) plugin. Rename before publishing. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-easyppt | 0 | [HenryPhoebe/dsh-plugin-easyppt](https://github.com/HenryPhoebe/dsh-plugin-easyppt) | Automated PPT generation for DeepSeek Harness (dsh-plugin): outline + illustrations → editable 16:9 .pptx, HTML preview and structured manifest. 10 built-in visual themes, custom .pptx template | 0.1.1-rc.2 (2026-08-28) |
 | dsh-plugin-scaffold | 0 | [skyzhao1223/dsh-plugin-scaffold](https://github.com/skyzhao1223/dsh-plugin-scaffold) | Minimal runnable DeepSeek Harness plugin scaffold: one model-facing tool registered through ctx.tools. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-scaffold-tianbaid | 0 | [Tianbaidi/dsh-plugin-scaffold](https://github.com/Tianbaidi/dsh-plugin-scaffold) | Scaffold for a DeepSeek Harness plugin: config, tools, UI cards, and hooks in one template | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-template-elonnzha | 0 | [elonnzhang/dsh-plugin-template](https://github.com/elonnzhang/dsh-plugin-template) | DeepSeek Harness (dsh) 插件开发模版：最小化模版 + 全能力模版 | 0.1.0-rc.8 (2026-08-25) |
@@ -155,5 +157,7 @@ Building, testing, and publishing plugins.
 | dsh-tool-git-gxinxing | 0 | [gxinxing/dsh-tool-git](https://github.com/gxinxing/dsh-tool-git) | Intelligent Git operations: commit messages, diff summaries, changelogs, conflict risk, and release prep | 0.1.0-rc.8 (2026-08-25) |
 | dsh-tool-tdd | 0 | [Xiaooooo434680/dsh-tool-tdd](https://github.com/Xiaooooo434680/dsh-tool-tdd) | TDD test runner tool for DeepSeek Harness: run test commands, parse structured failures (Jest/Vitest/Pytest/Go/Rust/TAP/tsc), and drive a red-green loop | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-test-runner | 0 | [gxinxing/dsh-tool-test-runner](https://github.com/gxinxing/dsh-tool-test-runner) | Model-facing test runner tool for discovering, executing, analyzing, and reporting test results across jest/vitest/pytest/mocha/playwright. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-workbuddy-ppt | 0 | [SuperstructureJH/dsh-workbuddy-ppt](https://github.com/SuperstructureJH/dsh-workbuddy-ppt) | Self-contained editable PPTX generation, deterministic scene QA, template workflows, and local delivery for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | gamify-edu | 0 | [BinLe1988/gamify-edu](https://github.com/BinLe1988/gamify-edu) | A modern, gamified educational platform built with React, TypeScript, and Vite | 0.1.0-rc.8 (2026-08-20) |
+| kdd-scaffold | 0 | [MauricioPerera/kdd-scaffold](https://github.com/MauricioPerera/kdd-scaffold) | Plugin de composición para DeepSeek Harness (dsh) que expone una Tool para generar un contrato de tarea KDD nuevo: kddscaffold. | 0.1.1-rc.2 (2026-08-28) |
 | whiteboat-dsh | 0 | [Circleyan/whiteboat-dsh](https://github.com/Circleyan/whiteboat-dsh) | Whiteboat for DeepSeek Harness. The first release begins with a quiet water surface. | 0.1.1-rc.2 (2026-08-26) |

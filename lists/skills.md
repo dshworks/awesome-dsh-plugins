@@ -4,7 +4,7 @@
 
 Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no nested discovery, kebab-case names only).
 
-184 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+188 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -25,6 +25,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | find-plugins | 169 | [Nagi-ovo/dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | Skill that discovers and installs dsh plugins from the GitHub dsh-plugin topic, verifying install method from repo manifests; copy skills/find-plugins into a skill root | unverified |
 | pinelab-vendure-plugins | 136 | [Pinelab-studio/pinelab-vendure-plugins](https://github.com/Pinelab-studio/pinelab-vendure-plugins/tree/HEAD/.agents/skills) | Monorepo for different Vendure plugins developed by Pinelab | 0.1.1-rc.2 (2026-08-26) |
 | argo | 111 | [taxueseek/argo](https://github.com/taxueseek/argo) · [npm](https://www.npmjs.com/package/argo-search) | Agent-first multilingual search and evidence-verification skill routing 120+ engines with vertical sources and MCP entry points; SKILL.md at repo root | 0.1.0-rc.8 (2026-08-20) |
+| photo-abstract-editorial | 84 | [kwhi6693-web/photo-abstract-editorial](https://github.com/kwhi6693-web/photo-abstract-editorial) | Photo-to-editorial Skill with Original (Codex) and V3 Adaptive editions. Scene-aware layouts, creative controls, Strict Fidelity composition, structured QA, and a validated DeepSeek Harness capability | 0.1.1-rc.2 (2026-08-28) |
 | mstar-harness | 57 | [btspoony/mstar-harness](https://github.com/btspoony/mstar-harness) | Morning Star skill-driven engineering workflow (roles, phase gates, plan conventions) shipped as twenty SKILL.md units; copy skills/* into a dsh skill root | 0.1.0-rc.8 (2026-08-20) |
 | PatentRadar | 57 | [yuc16/PatentRadar](https://github.com/yuc16/PatentRadar/tree/HEAD/skills/patentradar) | 专利侵权分析系统 —— 输入专利公开号，产出竞品侵权分析报告；同时打包成 skill，可被任意 agent（codex，claude code 等） 调用。 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-plugin-dev-skills | 39 | [zimodzh/dsh-plugin-dev-skills](https://github.com/zimodzh/dsh-plugin-dev-skills) | An Agent Skills skill for developing DeepSeek Harness (DSH) plugins（开发 DSH 插件的 Agent Skill）——插件/服务/事件/工具/LLM 适配器/打包安装的标准。Works with Claude Code, Codex, DSH, VS Code Copilot & any compatible agent. | 0.1.0-rc.8 (2026-08-21) |
@@ -87,6 +88,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | dsh-plugin-starter-lansiai | 1 | [lansi-ai/dsh-plugin-starter](https://github.com/lansi-ai/dsh-plugin-starter) | DSH plugin development starter: a loadable skill (SKILL.md) plus copy-paste templates for building dual-face (Host + Client) DSH plugins | 0.1.0-rc.8 (2026-08-25) |
 | dsh-plugins-bittersm | 1 | [bitterSmilezzz/dsh-plugins](https://github.com/bitterSmilezzz/dsh-plugins/tree/HEAD/external/browser-skill) | DSH 插件伞仓库 — 承载插件契约 + 校验自有插件（scripts/validate-plugin.mjs + GitHub Actions） | 0.1.0-rc.8 (2026-08-25) |
 | dsh-preset-superpowers | 1 | [dsh-mixxed/dsh-preset-superpowers](https://github.com/dsh-mixxed/dsh-preset-superpowers/tree/HEAD/skills/writing-skills) | DeepSeek Harness's "Superpowers" agent presets. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-strategy-deployment-review | 1 | [Nzssm1/dsh-strategy-deployment-review](https://github.com/Nzssm1/dsh-strategy-deployment-review/tree/HEAD/skills/strategy-live-deployment-testing) | A DeepSeek Harness (DSH) agent preset for rigorous strategy live-deployment testing/evaluation: backtest credibility audit, OOS/WFA robustness, overfitting quantification (PBO/DSR) | 0.1.1-rc.2 (2026-08-28) |
 | DSH-Vision-Unblock | 1 | [xiaohui5206/DSH-Vision-Unblock](https://github.com/xiaohui5206/DSH-Vision-Unblock) | 针对DSH：添加第三方模型时，模型被默认没有视觉能力的问题（DeepSeek Harness小完善计划其三 · DSH视觉封禁解禁）· Agent Skill 维修手册 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-web-launcher-lvsugars | 1 | [LVSUGARS/dsh-web-launcher](https://github.com/LVSUGARS/dsh-web-launcher/tree/HEAD/skills/dsh-web-launcher-release) | Windows desktop launcher for DeepSeek Harness (DSH) Web: install the official CLI, manage local workspaces, and safely start, stop, and update DSH. | 0.1.0-rc.8 (2026-08-25) |
 | ecg-research-skill | 1 | [kvuvuv/ecg-research-skill](https://github.com/kvuvuv/ecg-research-skill) | A DeepSeek Harness research skill for ECG signal processing, experiment design, reproducibility, scientific visualization and paper writing. | 0.1.0-rc.8 (2026-08-21) |
@@ -95,6 +97,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | find-image-prompt-skill | 1 | [jasonliu119/find-image-prompt-skill](https://github.com/jasonliu119/find-image-prompt-skill) | Open AI-agent skill and DeepSeek function-calling adapter for turning ideas and public reference images into production-ready image prompts. | 0.1.0-rc.8 (2026-08-24) |
 | firmware-forge | 1 | [Fz2hOpenSource/firmware-forge](https://github.com/Fz2hOpenSource/firmware-forge/tree/HEAD/arm-cortex-expert) | 基于 DSH 的 AI 嵌入式固件工程工作台，覆盖固件设计、协议设计、测试验证、编译、烧录与调试闭环。 | 0.1.1-rc.2 (2026-08-26) |
 | goal-work | 1 | [905397165-dotcom/goal-work](https://github.com/905397165-dotcom/goal-work) | 苟活 · 高效工作法：洞察真实需求，用最少投入完成工作。 | 0.1.0-rc.8 (2026-08-21) |
+| Guid-traince | 1 | [Washington5533/Guid-traince](https://github.com/Washington5533/Guid-traince/tree/HEAD/skills/guardian-mcp) | > 一行命令，训练脚本零行改动，获得完整守护能力。 | 0.1.1-rc.2 (2026-08-28) |
 | kubemd | 1 | [guiyi-labs/kubemd](https://github.com/guiyi-labs/kubemd) | Evidence-first Kubernetes runtime diagnosis with case memory — a DSH skill (+ aiops CLI twin). | 0.1.0-rc.8 (2026-08-21) |
 | mathmodel-agent | 1 | [ubggyhjb/mathmodel-agent](https://github.com/ubggyhjb/mathmodel-agent/tree/HEAD/skills/0intake-assets) | 数学建模竞赛 Agent（DeepSeek Harness preset）：头脑风暴→分析→建模→代码图表→论文→六门验收，含 17 套中英文 Typst/LaTeX 模板 | 0.1.0-rc.8 (2026-08-24) |
 | multi-skilled-repository | 1 | [High-cla/multi-skilled-repository](https://github.com/High-cla/multi-skilled-repository/tree/HEAD/skills/customize-dsh) | AI Agent Skills 合集 — CMD+PowerShell 避坑指南 · CLI 优先决策矩阵 · 更多技能持续添加 | 0.1.0-rc.8 (2026-08-20) |
@@ -124,6 +127,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | de-ai-writer | 0 | [jiawood2006/de-ai-writer](https://github.com/jiawood2006/de-ai-writer) | Rewrite AI-generated copy into natural human tone. AI文案去AI味，自然化改写。 | 0.1.0-rc.8 (2026-08-21) |
 | deepfable5 | 0 | [boxiaolanya2008/deepfable5](https://github.com/boxiaolanya2008/deepfable5) | Make DeepSeek as good as Claude Fable 5 in terms of writing and storytelling. | 0.1.0-rc.8 (2026-08-25) |
 | deepseek-harness-ui-customizer-skill | 0 | [ck9847/deepseek-harness-ui-customizer-skill](https://github.com/ck9847/deepseek-harness-ui-customizer-skill) | A DeepSeek Harness skill for safe themes, typography, animated backgrounds, movable UI, and guarded conversation controls. | 0.1.0-rc.8 (2026-08-21) |
+| Design-Agent | 0 | [haohaiHuang/Design-Agent](https://github.com/haohaiHuang/Design-Agent/tree/HEAD/skills/design-references) | DSH 设计 Agent 完整可复现包：design-references 路由技能（DSH 适配）+ design-router 确定性工具插件 + my-agent 预设 | 0.1.1-rc.2 (2026-08-28) |
 | doc-ocr | 0 | [jiawood2006/doc-ocr](https://github.com/jiawood2006/doc-ocr) | Local OCR for PDFs/scans/images using macOS Vision. 本地OCR文档识别。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-agent-builder | 0 | [ABccgh/dsh-agent-builder](https://github.com/ABccgh/dsh-agent-builder/tree/HEAD/skills/cordis-plugin-development) | 一个专用于在 DeepSeek Harness 上设计、创建、校验 DSH 智能体（agent preset） 的预设：自带 preset 创作工具集、插件/技能脚手架、静态审查与差异对比、默认预设控制，以及运行时内省工具；具备标准模式（standard）的全部能力（shell、文件、作业、目标、计划、压缩、子代理、工作流、技能）。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-agent-kit | 0 | [wpc725562-dotcom/dsh-agent-kit](https://github.com/wpc725562-dotcom/dsh-agent-kit/tree/HEAD/skills/academic-figure-skill) | 自用 Agent 工具集：DSH Desktop 插件/MCP/Skills/预设的一键部署套件 | 0.1.0-rc.8 (2026-08-25) |

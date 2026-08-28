@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-400 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+402 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -289,9 +289,10 @@ Games, pets, memes, ambience. The reef has coral.
 | deepseek-haeness-pet | 0 | [z15692312501/deepseek-haeness-pet](https://github.com/z15692312501/deepseek-haeness-pet/tree/HEAD/packages/client/ui-pet) | Whale pet surface: a floating shell.overlay mascot showing the live agent/tool execution status from the pet Remote | unverified |
 | deepseek-harness-pet-plugin | 0 | [raydez/dsh-pet-plugin](https://github.com/raydez/dsh-pet-plugin) | Desktop pet overlay plugin for the deepseek-harness web UI — a Cordis overlay with zero runtime dependencies. | 0.1.0-rc.8 (2026-08-20) |
 | deepseek-harness-pet-plugin-clen1 | 0 | [clen1/deepseek-harness-pet-plugin](https://github.com/clen1/deepseek-harness-pet-plugin/tree/HEAD/packages/dsh-desktop-pet-plugin) | DeepSeek Harness lifecycle bridge and local installer for Codex-compatible desktop pets. | 0.1.0-rc.8 (2026-08-25) |
+| drool-whale-pet-for-dsh | 0 | [yunxiiQwQ/drool-whale-pet-for-dsh](https://github.com/yunxiiQwQ/drool-whale-pet-for-dsh) | Standalone animated whale desktop companion for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-animal-cat | 0 | [uckkk/dsh-animal-cat](https://github.com/uckkk/dsh-animal-cat) | animalinfo：返回 猫（Cat）的类别、栖息地与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-animal-dog | 0 | [uckkk/dsh-animal-dog](https://github.com/uckkk/dsh-animal-dog) | animalinfo：返回 狗（Dog）的类别、栖息地与寿命。 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-animal-whale | 0 | [uckkk/dsh-animal-whale](https://github.com/uckkk/dsh-animal-whale) | 安装后在会话中调用该插件注册的工具即可。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-animal-whale | 0 | [uckkk/dsh-animal-whale](https://github.com/uckkk/dsh-animal-whale) | 安装后在会话中调用该插件注册的工具即可。 | broken against 0.1.0-rc.8 |
 | dsh-bird-diet | 0 | [uckkk/dsh-bird-diet](https://github.com/uckkk/dsh-bird-diet) | birddiet：鸟食搭配：按参数返回宠物鸟养护方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bird-health | 0 | [uckkk/dsh-bird-health](https://github.com/uckkk/dsh-bird-health) | birdhealth：健康观察：按参数返回宠物鸟养护方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-bird-pick | 0 | [uckkk/dsh-bird-pick](https://github.com/uckkk/dsh-bird-pick) | birdpick：鸟种选择：按参数返回宠物鸟养护方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -309,15 +310,15 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-desktop-pet-wjkdot | 0 | [wjk-dot/dsh-desktop-pet](https://github.com/wjk-dot/dsh-desktop-pet/tree/HEAD/plugin) | DeepSeek 桌宠对话插件：独立置顶悬浮窗口桌宠，无需打开 DSH 聊天界面，点击桌宠即可与 DeepSeek 对话，回复以头顶气泡流式呈现 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-dog-age | 0 | [uckkk/dsh-dog-age](https://github.com/uckkk/dsh-dog-age) | dogage：狗龄换算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-dog-beagle | 0 | [uckkk/dsh-dog-beagle](https://github.com/uckkk/dsh-dog-beagle) | doginfo：返回犬种 比格犬（Beagle）的原产地、体型与寿命。 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-dog-bulldog | 0 | [uckkk/dsh-dog-bulldog](https://github.com/uckkk/dsh-dog-bulldog) | 安装后在会话中调用该插件注册的工具即可。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-dog-bulldog | 0 | [uckkk/dsh-dog-bulldog](https://github.com/uckkk/dsh-dog-bulldog) | 安装后在会话中调用该插件注册的工具即可。 | broken against 0.1.0-rc.8 |
 | dsh-dog-chihuahua | 0 | [uckkk/dsh-dog-chihuahua](https://github.com/uckkk/dsh-dog-chihuahua) | doginfo：返回犬种 吉娃娃（Chihuahua）的原产地、体型与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dog-chow-chow | 0 | [uckkk/dsh-dog-chow-chow](https://github.com/uckkk/dsh-dog-chow-chow) | doginfo：返回犬种 松狮（Chow Chow）的原产地、体型与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dog-corgi | 0 | [uckkk/dsh-dog-corgi](https://github.com/uckkk/dsh-dog-corgi) | doginfo：返回犬种 柯基（Welsh Corgi）的原产地、体型与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dog-food | 0 | [uckkk/dsh-dog-food](https://github.com/uckkk/dsh-dog-food) | dogfood：狗粮喂食量：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
-| dsh-dog-french-bulldog | 0 | [uckkk/dsh-dog-french-bulldog](https://github.com/uckkk/dsh-dog-french-bulldog) | 安装后在会话中调用该插件注册的工具即可。 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-dog-german-shepherd | 0 | [uckkk/dsh-dog-german-shepherd](https://github.com/uckkk/dsh-dog-german-shepherd) | 安装后在会话中调用该插件注册的工具即可。 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-dog-golden | 0 | [uckkk/dsh-dog-golden](https://github.com/uckkk/dsh-dog-golden) | 安装后在会话中调用该插件注册的工具即可。 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-dog-labrador | 0 | [uckkk/dsh-dog-labrador](https://github.com/uckkk/dsh-dog-labrador) | 安装后在会话中调用该插件注册的工具即可。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-dog-french-bulldog | 0 | [uckkk/dsh-dog-french-bulldog](https://github.com/uckkk/dsh-dog-french-bulldog) | 安装后在会话中调用该插件注册的工具即可。 | broken against 0.1.0-rc.8 |
+| dsh-dog-german-shepherd | 0 | [uckkk/dsh-dog-german-shepherd](https://github.com/uckkk/dsh-dog-german-shepherd) | 安装后在会话中调用该插件注册的工具即可。 | broken against 0.1.0-rc.8 |
+| dsh-dog-golden | 0 | [uckkk/dsh-dog-golden](https://github.com/uckkk/dsh-dog-golden) | 安装后在会话中调用该插件注册的工具即可。 | broken against 0.1.0-rc.8 |
+| dsh-dog-labrador | 0 | [uckkk/dsh-dog-labrador](https://github.com/uckkk/dsh-dog-labrador) | 安装后在会话中调用该插件注册的工具即可。 | broken against 0.1.0-rc.8 |
 | dsh-dog-poodle | 0 | [uckkk/dsh-dog-poodle](https://github.com/uckkk/dsh-dog-poodle) | doginfo：返回犬种 贵宾犬（Poodle）的原产地、体型与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dog-pug | 0 | [uckkk/dsh-dog-pug](https://github.com/uckkk/dsh-dog-pug) | doginfo：返回犬种 巴哥（Pug）的原产地、体型与寿命。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dog-rottweiler | 0 | [uckkk/dsh-dog-rottweiler](https://github.com/uckkk/dsh-dog-rottweiler) | doginfo：返回犬种 罗威纳（Rottweiler）的原产地、体型与寿命。 | 0.1.0-rc.8 (2026-08-20) |
@@ -375,6 +376,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-token-meter-mood | 0 | [firekula/dsh-token-meter-mood](https://github.com/firekula/dsh-token-meter-mood) | Per-turn token usage and mood emoji row under each assistant reply for the DeepSeek Harness web GUI | 0.1.0-rc.8 (2026-08-25) |
 | dsh-toy-age | 0 | [uckkk/dsh-toy-age](https://github.com/uckkk/dsh-toy-age) | toyage：玩具适龄推荐：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-traebao | 0 | [susirial/dsh-traebao](https://github.com/susirial/dsh-traebao) | Conversation-aware TRAE Bao digital pet for DeepSeek Harness Desktop | 0.1.0-rc.8 (2026-08-25) |
+| dsh-ui-liteglass | 0 | [mumuer1024/dsh-ui-liteglass](https://github.com/mumuer1024/dsh-ui-liteglass) | A lightweight appearance plugin for DeepSeek Harness: custom wallpaper, glass-like panel transparency, and accent color. Ships a host half plus a web client half in one npm package. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-ui-pet | 0 | [hanyudong1994/dsh-ui-pet](https://github.com/hanyudong1994/dsh-ui-pet) · [npm](https://www.npmjs.com/package/dsh-ui-pet) | DeepSeek Harness desktop pet browser plugin: a floating cat over the conversation that reacts to current-session activity | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ui-pet-nkjv2 | 0 | [Nkjv2/dsh-ui-pet](https://github.com/Nkjv2/dsh-ui-pet) | A canvas sprite-sheet pet that follows the pointer, rendered in the dsh web shell.overlay slot. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-vaccine | 0 | [uckkk/dsh-vaccine](https://github.com/uckkk/dsh-vaccine) | vaccine：疫苗管理：按参数返回宠物常见病与驱虫方案。 | 0.1.0-rc.8 (2026-08-21) |

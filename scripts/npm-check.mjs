@@ -328,17 +328,31 @@ if (contested.length) {
   console.error(`npm-check: ${contested.length} entr(ies) parked for claiming a name another entry also declares`);
 }
 
+// `since` answers "how long has this name been unavailable", so it may only be
+// stamped the first time an entry is parked for a given reason. A contested
+// entry goes round this loop on every run -- it is parked, the next run finds
+// its package resolvable and restores it, the contested check re-parks it --
+// and stamping TODAY each lap made four names that have been contested for
+// days read as discovered this morning. Nothing failed; the field just stopped
+// measuring anything.
+const priorSince = new Map(
+  (unpublishedFile.packages ?? []).map((p) => [`${p.repo}#${p.path ?? ""}#${p.npm}#${p.why}`, p.since]),
+);
+
 const stillParked = [
   ...(unpublishedFile.packages ?? []).filter((p) => !restoredKeys.has(`${p.repo}#${p.path ?? ""}`)),
-  ...strip.map((r) => ({
-    repo: r.repo,
-    ...(r.path ? { path: r.path } : {}),
-    npm: r.npm,
-    why: r.state === "missing" ? "no such package"
+  ...strip.map((r) => {
+    const why = r.state === "missing" ? "no such package"
       : r.state === "contested" ? `${r.claimants} listed repos declare this name and the package states no repository`
-        : `published by ${r.owner}`,
-    since: TODAY,
-  })),
+        : `published by ${r.owner}`;
+    return {
+      repo: r.repo,
+      ...(r.path ? { path: r.path } : {}),
+      npm: r.npm,
+      why,
+      since: priorSince.get(`${r.repo}#${r.path ?? ""}#${r.npm}#${why}`) ?? TODAY,
+    };
+  }),
 ].sort((a, b) => a.npm.localeCompare(b.npm));
 
 const count = (state) => strip.filter((r) => r.state === state).length;
