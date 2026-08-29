@@ -453,7 +453,7 @@
         "agents",
         "marketplace"
       ],
-      "pushedAt": "2026-08-29"
+      "pushedAt": "2026-08-23"
     },
     {
       "name": "agent-dispatch-cli",
@@ -131530,20 +131530,21 @@
     {
       "name": "dsh-product-subagent-console",
       "repo": "Jokasa7/dsh-product-subagent-console",
-      "description": "Plan, run, and compare multi-Agent work inside DeepSeek Harness conversations",
+      "description": "Designs multi-Agent plans, observes real child-session trees, maps approved tasks to runtime attempts, and prepares evidence-backed recovery inside DSH conversations",
       "category": "plugin",
       "official": false,
       "added": "2026-08-24",
-      "lastVerified": "2026-08-24",
-      "verifiedAgainst": "0.1.0-rc.8",
+      "lastVerified": "2026-08-29",
+      "verifiedAgainst": "0.1.1-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
       "stars": 1,
       "starsUpdated": "2026-08-29",
       "tags": [
-        "agents"
+        "agents",
+        "observability"
       ],
-      "pushedAt": "2026-08-23"
+      "pushedAt": "2026-08-29"
     },
     {
       "name": "dsh-profile-lab",
