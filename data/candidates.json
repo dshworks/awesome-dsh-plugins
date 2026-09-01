@@ -1,35 +1,6 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-09-01",
   "candidates": [
-    {
-      "repo": "a1303845406/dsh-sakura-theme",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 0,
-      "description": "DeepSeek Harness 的晴樱与夜樱主题插件",
-      "discovered": "2026-08-27",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "aze0695/dsh-crimson-theme",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 0,
-      "discovered": "2026-08-27",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "cherrchen/dsh-theme-studio",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 1,
-      "description": "可移植的 DSH/Cordis 主题插件：内置配色浏览、预览、应用与持久化；DeepSeek Harness Desktop 预装。 / Portable DSH/Cordis theme overlay plugin with builtin palettes, preview, apply, and persistence; pre-installed in DeepSeek Harness ",
-      "discovered": "2026-08-27",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
     {
       "repo": "cityge/llm-ratelimit-plugin",
       "sources": [
@@ -40,6 +11,16 @@
       "note": "install path proven, but no usable description upstream"
     },
     {
+      "repo": "dingyi580/dsh-plugin-gemini-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "A Gemini-styled skin for the DeepSeek Harness web client",
+      "discovered": "2026-08-31",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "Elinpf/dsh-ops-plugins",
       "sources": [
         "github-topic"
@@ -47,26 +28,6 @@
       "stars": 1,
       "discovered": "2026-08-25",
       "note": "install path proven, but no usable description upstream"
-    },
-    {
-      "repo": "exoticknight/dsh-theme-eink-retro",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 0,
-      "description": "A paper-and-ink client-side theme for DeepSeek Harness with Balanced and Immersive modes.",
-      "discovered": "2026-08-27",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "fishfromsky/dsh-march7th-skin",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 0,
-      "description": "崩坏星穹铁道三月七主题的deepseek harness皮肤插件",
-      "discovered": "2026-08-27",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "hanhan1137/theme-coach-dsh",
@@ -79,33 +40,23 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
-      "repo": "henrychenhao/dsh-skin-argentina",
+      "repo": "iasiv5/skins",
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
-      "description": "梅西 阿根廷皮肤",
-      "discovered": "2026-08-27",
+      "stars": 1,
+      "description": "换肤如换季，归真只一键 —— DeepSeek Harness Web 多皮肤切换器：明暗双态、中英双语、SHA 校验自动更新。Hot-swappable brand skins for DeepSeek Harness Web.",
+      "discovered": "2026-08-31",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
-      "repo": "keman-ai/dsh-skin-market",
+      "repo": "luckzhangfengbo/dsh-web-theme",
       "sources": [
         "github-topic"
       ],
-      "stars": 8,
-      "description": "Skin marketplace for DeepSeek Harness — search and install community skins from dsh.a2hmarket.ai right in the settings page",
-      "discovered": "2026-08-26",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "keman-ai/dsh-skin-pack",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 5,
-      "description": "A full set of skins for DeepSeek Harness — one repository, each theme installable on its own",
-      "discovered": "2026-08-26",
+      "stars": 2,
+      "description": "deepseek harness 背景主题插件",
+      "discovered": "2026-08-31",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -117,6 +68,16 @@
       "description": "A cute cat meme desktop pet plugin for DSH (DeepSeek Harness) ",
       "discovered": "2026-08-20",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "makajo/dsh-gemini-m3e-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Gemini-style Material 3 Expressive theme for DeepSeek Harness Web (persistent client bundle)",
+      "discovered": "2026-08-31",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "menotbobbybrown/dsh-plugin-browser",
@@ -149,63 +110,43 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
-      "repo": "QinpanWan/dsh-skin-prts",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 3,
-      "description": "明日方舟 PRTS 终端皮肤 for DeepSeek Harness Web UI — 深色工业终端 / 航空控制台，直角面板 + 硬阴影 + 青强调色 #11AFCF。纯 CSS client 侧皮肤。CC BY-SA 4.0",
-      "discovered": "2026-08-27",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "QinpanWan/dsh-sky-skin",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 2,
-      "description": "Sky: Children of the Light themed skin for DeepSeek Harness web UI - light children on a glowing star map, candlelight gold and starry night. 光遇·遇境主题皮肤。",
-      "discovered": "2026-08-27",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "tiger0012/dsh-we-wallpaper-sync",
+      "repo": "mykeura/dsh-minimalist-themes",
       "sources": [
         "github-topic"
       ],
       "stars": 0,
-      "description": "Reusable skill: browse/search/download Wallpaper Engine (Steam 431960) workshop wallpapers and wire them into the DSH skin center, bypassing the Steam HTTP block and region-mismatch sign-in block.",
-      "discovered": "2026-08-27",
+      "description": "18 minimalist color themes for DeepSeek Harness. Pick one with a single click — it's just another plugin.",
+      "discovered": "2026-08-31",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
-      "repo": "xiaoxingyuemiao/dsh-bg-plugin",
+      "repo": "RexCue/dsh-wallpaper",
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
-      "description": "DSH 自定义背景插件：为 DSH Web GUI 应用远程/本地图片背景，支持清晰度、压暗、模糊调节，设置面板保持默认外观。",
-      "discovered": "2026-08-27",
+      "stars": 4,
+      "description": "Wallpaper skin for the DeepSeek Harness (dsh) web UI: image background with opacity, mask and blur controls.",
+      "discovered": "2026-08-31",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
-      "repo": "xmnathan/dsh-skin-galactic-opera",
+      "repo": "Sh1wu0814/dsh-chat-background",
       "sources": [
         "github-topic"
       ],
       "stars": 1,
-      "description": "Unofficial cinematic space-opera dark skin bundle for the DSH Web GUI.",
-      "discovered": "2026-08-27",
+      "description": "Chat background plugin for DeepSeek Harness - set an image as the chat view background, inspired by VSCode background extension.",
+      "discovered": "2026-08-31",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
-      "repo": "Yyyyyylor/dsh-asuka-school-theme",
+      "repo": "taoser258/dsh-client-ui-skin-qingxiao",
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
-      "description": "Theme-Asuka — An unofficial Asuka-inspired theme plugin for DeepSeek Harness Web UI, featuring time-of-day wallpapers, adaptive palette transitions, and restrained EVA-02 visual details.",
-      "discovered": "2026-08-27",
+      "stars": 1,
+      "description": "清宵 · 弦凝清霄 —— DeepSeek Harness (DSH) Web 界面美化皮肤：以《鸣潮》角色清宵为灵感的冰蓝·青碧·月白·玄夜调色板，含可换背景画卷、剑气流光粒子、磨砂玻璃面板与新会话迎宾页。A Qingxiao (Wuthering Waves) themed client UI skin for the DSH web GUI.",
+      "discovered": "2026-08-31",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     }
   ]

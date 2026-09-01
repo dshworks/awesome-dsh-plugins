@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-232 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+238 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -69,6 +69,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-cc-connect | 3 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | Bridge a running cc-connect instance into DeepSeek Harness: push messages to Feishu/WeChat/Telegram sessions and discover projects via cc_connect_send / cc_connect_list tools. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dingtalk | 3 | [sliverp/DeepSeek-harness-dingtalk](https://github.com/sliverp/DeepSeek-harness-dingtalk) | DingTalk Stream text, image, and file channel bridge for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-discord | 3 | [suuuuuu-1/dsh-discord](https://github.com/suuuuuu-1/dsh-discord) | Bidirectional Discord bridge and remote controller for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| dsh-discord-addozhan | 3 | [addozhang/dsh-discord](https://github.com/addozhang/dsh-discord) | Discord-first adapter for DeepSeek Harness | 0.1.1-rc.2 (2026-09-01) |
 | dsh-feishu-bridge-plugin | 3 | [21hbguo/dsh-feishu-bridge-plugin](https://github.com/21hbguo/dsh-feishu-bridge-plugin) | 飞书机器人 ↔ DSH 对话桥：进程内驱动 DSH 会话，流式卡片回复 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feishu-notifier | 3 | [blooming-fang/dsh-feishu-notifier](https://github.com/blooming-fang/dsh-feishu-notifier) | Send DeepSeek Harness interaction and turn notifications to a Feishu bot | 0.1.0-rc.8 (2026-08-20) |
 | dsh-im-bridge-shaobeic | 3 | [shaobeichen/dsh-im-bridge](https://github.com/shaobeichen/dsh-im-bridge) | 统一 IM 桥插件家族（monorepo）：核心 dsh-im + 渠道适配器（telegram / feishu）。让 DeepSeek Harness 通过 IM 可指挥、可通知、可审批。 | 0.1.0-rc.8 (2026-08-20) |
@@ -84,6 +85,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-plugin-wechat-official | 3 | [echo-lgtm/dsh-plugin-wechat-official](https://github.com/echo-lgtm/dsh-plugin-wechat-official) | DeepSeek Harness 微信 ClawBot 渠道插件：通过腾讯官方 iLink 接口让用户在个人微信中与 DSH Agent 对话（官方通道，非逆向/非Hook） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-relay | 3 | [nicecx/dsh-relay](https://github.com/nicecx/dsh-relay) | DSH 远程诉求中转插件：把需要授权（approval）或开发建议（ask_user_question）的诉求按编号推送到 iMessage / Email / 微信等可配置通道，在通道内回复批准/拒绝/回答，并支持通过通道开启/关闭功能与按会话配置启用范围。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-rss-daily | 3 | [shangjian2023/dsh-rss-daily](https://github.com/shangjian2023/dsh-rss-daily) | dsh plugin: daily RSS news digest from 46 curated sources, LLM-edited via the model already configured in dsh, delivered to your IM via webhook (ServerChan / PushDeer / WeCom / Telegram / Bark / | 0.1.0-rc.8 (2026-08-25) |
+| dsh-telegram-kevin66z | 3 | [Kevin66Z0/dsh-telegram](https://github.com/Kevin66Z0/dsh-telegram) | Telegram remote-control surface for dsh sessions: whitelisted chats list, read, prompt, and stop dsh sessions through the host ApiProxy | 0.1.1-rc.2 (2026-09-01) |
 | dsh-wechat-gateway | 3 | [Carl-5535/dsh-wechat-gateway](https://github.com/Carl-5535/dsh-wechat-gateway) | In-process DeepSeek Harness plugin: chat with your DSH agent directly in WeChat | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wecom | 3 | [TtTRz/dsh-wecom](https://github.com/TtTRz/dsh-wecom) · [npm](https://www.npmjs.com/package/dsh-wecom) | dsh-wecom: a WeCom AI Bot channel for DeepSeek Harness — each chat runs a persistent, preset-backed agent over the official long connection. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-weixin-skylar | 3 | [skylar-fei/dsh-wechat-maid](https://github.com/skylar-fei/dsh-wechat-maid/tree/HEAD/packages/dsh-weixin) | DSH Web 插件合集：微信机器人（连接 + 主动消息/定时推送）+ 深蓝女仆桌宠，两个插件共享构建预设的单仓库。 | unverified |
@@ -92,6 +94,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | SKILLS-featherh | 3 | [FeatherHunter/SKILLS](https://github.com/FeatherHunter/SKILLS/tree/HEAD/dsh-plugin/dsh-feishu-link/package) | DSH 插件 — Agent 接入飞书/Lark IM（动态 + npm 安装 双形态）。 | unverified |
 | boss-watch-agent | 2 | [ZeroMadLife/boss-watch-agent](https://github.com/ZeroMadLife/boss-watch-agent/tree/HEAD/packages/dsh-plugin) | Approval-gated job, application, and Feishu projection tools for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | chicheng-peak | 2 | [534119219/chicheng-peak](https://github.com/534119219/chicheng-peak) | DSH 峰谷提醒插件：依据 DeepSeek 官方峰谷定价时段（高峰 09:00–12:00 / 14:00–18:00，其余为低峰），在网页边缘渲染带呼吸、流光效果的橙色（高峰）/ 蓝色（低峰）边框，并可在到达高峰/低峰前按自定义提前量，通过消息推送渠道（Server酱 / Bark / 钉钉 / TG / 飞书 / Webhook…）或消息平台发送自定义标题与内容的提醒。 | 0.1.0-rc.8 (2026-08-20) |
+| dingtalk-dsh-assistant | 2 | [HiQ-AI/dingtalk-dsh-assistant](https://github.com/HiQ-AI/dingtalk-dsh-assistant) | 在 DeepSeek Harness 中运行的钉钉群聊个人助理与任务看板 | 0.1.1-rc.2 (2026-09-01) |
 | dsh-agentmail | 2 | [agentmail-to/dsh-agentmail](https://github.com/agentmail-to/dsh-agentmail) · [npm](https://www.npmjs.com/package/dsh-agentmail) | Give a DeepSeek Harness agent its own email inbox, with inbound mail bound to per-thread sessions. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-connect | 2 | [IvanWu2015/dsh-connect](https://github.com/IvanWu2015/dsh-connect/tree/HEAD/packages/connect-feishu) · [npm](https://www.npmjs.com/package/dsh-connect-feishu) | Feishu/Lark channel adapter for dsh-connect: long-connection event intake, message normalization, streaming replies, and work summary cards | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dingtalk-channel | 2 | [ttmouse/dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) · [npm](https://www.npmjs.com/package/dsh-dingtalk-channel) | DingTalk IM bot channel for DeepSeek Harness: each chat drives its own agent, replies and thinking come back as messages over the Stream-mode long connection. | 0.1.0-rc.8 (2026-08-20) |
@@ -131,6 +134,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-weixin-clawbot | 2 | [xiixiixixi/dsh-weixin-clawbot](https://github.com/xiixiixixi/dsh-weixin-clawbot) | DeepSeek Harness 微信远程控制插件：用微信消息远程对话/控制运行中的 DSH agent | 0.1.0-rc.8 (2026-08-20) |
 | dsh-weixin-stukatom | 2 | [Stu-KatoMegumi/dsh-weixin](https://github.com/Stu-KatoMegumi/dsh-weixin) | 微信 iLink 通道与 DSH 的流式智能代理插件 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-weixin-wendayua | 2 | [wendayuan/dsh-weixin](https://github.com/wendayuan/dsh-weixin) | DeepSeek Harness 微信通道插件：用手机微信直接对话 DSH agent（上下文连续、扫码登录、随 DSH 常驻） | 0.1.0-rc.8 (2026-08-20) |
+| dsh-zhihu-tools | 2 | [leolee9086/dsh-zhihu-tools](https://github.com/leolee9086/dsh-zhihu-tools) | 知乎数据开放平台插件：17 个工具 + 本地设置页 + 精美卡片。反馈 QQ 群 1017854502: https://qm.qq.com/q/RAHJuyhQQ | 0.1.1-rc.2 (2026-09-01) |
 | super-wechat-bridge | 2 | [Qshuai0213/super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) | 微信 iLink ClawBot 远程桥接插件（DeepSeek Harness）—— 官方 iLink 协议直连，带 Web 设置界面（扫码登录/模型/预设/权限/会话管理）与 24h 自动续期 | 0.1.0-rc.8 (2026-08-20) |
 | weread-export | 2 | [zhengjy01/weread-export](https://github.com/zhengjy01/weread-export) | 微信读书 (WeChat Reading) integration for DeepSeek Harness: connect the official WeRead Skills Agent Gateway with a wrk- API key, then browse your bookshelf, export highlights & thoughts, query reading | 0.1.0-rc.8 (2026-08-25) |
 | zhihu-tools | 2 | [leolee9086/zhihu-tools](https://github.com/leolee9086/zhihu-tools) | 知乎数据开放平台插件：17 个工具 + 本地设置页 + 精美卡片。反馈 QQ 群 1017854502: https://qm.qq.com/q/RAHJuyhQQ | 0.1.1-rc.2 (2026-08-28) |
@@ -185,6 +189,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-qq-agent-mail | 1 | [AtomerCore/dsh-qq-agent-mail](https://github.com/AtomerCore/dsh-qq-agent-mail) | Tencent QQ Agent Mail integration for DeepSeek Harness with a Service, event stream, Web settings, OAuth, and 14 structured tools. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-qq-bot-sindos | 1 | [sindo-s/dsh-qq-bot](https://github.com/sindo-s/dsh-qq-bot) | DeepSeek Harness plugin bridging QQ official Bot API to dsh agents without a third-party bot framework. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-qqbot-cafeawa | 1 | [cafeawa/dsh-qqbot](https://github.com/cafeawa/dsh-qqbot) | Open-source DeepSeek Harness (dsh) QQ Bot IM plugin | 0.1.0-rc.8 (2026-08-20) |
+| dsh-rss-monitor | 1 | [hgl011091/dsh-rss-monitor](https://github.com/hgl011091/dsh-rss-monitor) | RSS 订阅监控插件：定时检查 RSS 源、关键词过滤、邮件通知，并以原生设置页接入 DeepSeek Harness。 Monitor RSS feeds on a schedule, filter by keywords, and get email notifications, as a native DeepSeek Harness settings page. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-self-improving-agent | 1 | [satan9394/dsh-self-improving-agent](https://github.com/satan9394/dsh-self-improving-agent) | 自改进 AI agent：内置学习回路——从经验自动创建技能、使用时改进、FTS5 会话搜索+LLM 摘要跨会话回忆、Honcho 辩证用户建模、跨平台网关（Telegram/Discord/Slack）、调度自动化、子代理并行、serverless 休眠唤醒。受 NousResearch/hermes-agent（154k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-telegram-bridge | 1 | [JxaMe/dsh-telegram-bridge](https://github.com/JxaMe/dsh-telegram-bridge) | 将 Telegram 私聊与 DeepSeek Harness（dsh）Agent 会话连接起来的桥接插件。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-telegram-bridge-classlu | 1 | [CLASSLU/dsh-telegram-bridge](https://github.com/CLASSLU/dsh-telegram-bridge) | Telegram bot bridge for DeepSeek Harness (dsh): chat with your DSH agent from Telegram, with access control, skills, and workspace browsing. | 0.1.0-rc.8 (2026-08-25) |
@@ -203,6 +208,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | pocket-dsh | 1 | [LOrz-3/pocket-dsh](https://github.com/LOrz-3/pocket-dsh/tree/HEAD/dsh-plugin) | QQ bridge launcher: start/stop the external pocket-dsh bridge from dsh settings | unverified |
 | qqbot-clawbot | 1 | [twinsant/qqbot-clawbot](https://github.com/twinsant/qqbot-clawbot) | QQ Open Platform protocol driver that forwards inbound C2C messages into a per-day DeepSeek Harness session | 0.1.0-rc.8 (2026-08-21) |
 | wechat-clawbot | 1 | [Alphainfix/wechat-clawbot](https://github.com/Alphainfix/wechat-clawbot) | Connect DeepSeek Harness to WeChat via the official WeChat ClawBot (Tencent iLink) bridge — a DSH plugin bundle. | 0.1.0-rc.8 (2026-08-25) |
+| deepseek-harness-messenger | 0 | [syncended/deepseek-harness-messenger](https://github.com/syncended/deepseek-harness-messenger) | Messenger bridge plugin for DeepSeek Harness, starting with Telegram | 0.1.1-rc.2 (2026-09-01) |
 | dsh-channel-feishu-seaskybl | 0 | [seaskyblue/dsh-channel-feishu](https://github.com/seaskyblue/dsh-channel-feishu/tree/HEAD/plugin) | Feishu (Lark) channel plugin for DeepSeek Harness: bridges Feishu bot messages into the DSH agent runtime, giving the bot the full native agent capability (tools, filesystem, commands) — independent | unverified |
 | dsh-chatops | 0 | [ZhuoSir/dsh-chatops](https://github.com/ZhuoSir/dsh-chatops) | Personal-WeChat bot bridge for DeepSeek Harness: scan a login QR once, then drive every workspace and session from your phone WeChat (filehelper chat), with completion push and remote approval. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-email-length | 0 | [uckkk/dsh-email-length](https://github.com/uckkk/dsh-email-length) | emaillength：邮件字数建议：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
