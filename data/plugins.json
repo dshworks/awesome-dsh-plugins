@@ -218847,6 +218847,26 @@
         "ui",
         "observability"
       ]
+    },
+    {
+      "name": "dsh-completion-guard",
+      "repo": "GreenLv/dsh-completion-guard",
+      "description": "Helps DSH agents remember your requirements during long tasks and, after a session resumes, checks the key conditions and saved results again so partial work is not reported as complete.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-08-29",
+      "lastVerified": "2026-08-29",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-completion-guard",
+      "stars": 0,
+      "starsUpdated": "2026-08-29",
+      "tags": [
+        "safety",
+        "capabilities"
+      ],
+      "pushedAt": "2026-08-28"
     }
   ]
 }

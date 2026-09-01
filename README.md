@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 11,690 entries from 6,808 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 11,691 entries from 6,808 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -715,7 +715,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-codex-port | 8 | [STARDUSTLC666/dsh-codex-port](https://github.com/STARDUSTLC666/dsh-codex-port) · [npm](https://www.npmjs.com/package/dsh-codex-port) | One-command port of Codex plugins from ~/.codex into DeepSeek Harness skills, with frontmatter conversion. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-model-usage | 8 | [AKS1st/model-usage-plugin](https://github.com/AKS1st/model-usage-plugin) | Model token usage stats, cost estimates, and account balance for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 87. **[all 87 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 88. **[all 88 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Skills
 
