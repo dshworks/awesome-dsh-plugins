@@ -1,13 +1,20 @@
 {
   "_comment": "Repos this registry decided belong to dshworks/awesome-dsh-themes, not here. Written by scripts/triage.mjs; read by the sibling repo's discover step as a source. A row stays after the sibling admits it -- this file records the routing decision, not the sibling's queue.",
-  "updated": "2026-09-01",
-  "count": 23,
+  "updated": "2026-09-02",
+  "count": 27,
   "repos": [
     {
       "repo": "a1303845406/dsh-sakura-theme",
       "description": "DeepSeek Harness 的晴樱与夜樱主题插件",
       "stars": 0,
       "routed": "2026-08-28",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "ash-qw/dsh-theme-prts",
+      "description": "Unofficial personal non-commercial Arknights P.R.T.S. fan UI for DeepSeek Harness",
+      "stars": 0,
+      "routed": "2026-09-02",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -63,6 +70,12 @@
       "description": "换肤如换季，归真只一键 —— DeepSeek Harness Web 多皮肤切换器：明暗双态、中英双语、SHA 校验自动更新。Hot-swappable brand skins for DeepSeek Harness Web.",
       "stars": 1,
       "routed": "2026-09-01",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "imcp-pro/dsh-client-background",
+      "stars": 0,
+      "routed": "2026-09-02",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -143,6 +156,13 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "Waldsatte/dsh-theme-taojian",
+      "description": "Taojian (陶笺) — Claude-inspired DSH theme",
+      "stars": 0,
+      "routed": "2026-09-02",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "xiaoxingyuemiao/dsh-bg-plugin",
       "description": "DSH 自定义背景插件：为 DSH Web GUI 应用远程/本地图片背景，支持清晰度、压暗、模糊调节，设置面板保持默认外观。",
       "stars": 0,
@@ -161,6 +181,13 @@
       "description": "Theme-Asuka — An unofficial Asuka-inspired theme plugin for DeepSeek Harness Web UI, featuring time-of-day wallpapers, adaptive palette transitions, and restrained EVA-02 visual details.",
       "stars": 0,
       "routed": "2026-08-28",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "zhangguiping-xydt/dsh-skin-studio",
+      "description": "A visual, local-first skin authoring studio for DeepSeek Harness Web.",
+      "stars": 0,
+      "routed": "2026-09-02",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     }
   ]
