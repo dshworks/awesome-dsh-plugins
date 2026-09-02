@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-212 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+216 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -100,6 +100,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-windows-readiness-proof | 2 | [dongsheng123132/dsh-windows-readiness-proof](https://github.com/dongsheng123132/dsh-windows-readiness-proof) | Content-addressed readiness proof for sanitized DeepSeek Harness observations on managed Windows hosts | 0.1.0-rc.8 (2026-08-20) |
 | ironlaw | 2 | [Porphyrioon/ironlaw](https://github.com/Porphyrioon/ironlaw/tree/HEAD/packages/adapter-dsh) | IronLaw governance and evidence plugin for DeepSeek Harness (DSH): records tool-call evidence, blocks destructive actions in enforcer mode, and gates turn completion on verifiable evidence. | 0.1.0-rc.8 (2026-08-20) |
 | llmtrim-stats-plugin | 2 | [Zenjibad/llmtrim-stats-plugin](https://github.com/Zenjibad/llmtrim-stats-plugin) | Live llmtrim savings dashboard inside the DeepSeek Harness (DSH) Web UI: a settings dashboard plus a rotating carousel stats strip under the composer. | 0.1.0-rc.8 (2026-08-20) |
+| betterlearn-for-dsh | 1 | [Zer0Rin/betterlearn-for-dsh](https://github.com/Zer0Rin/betterlearn-for-dsh) | Local knowledge extraction and evidence review plugin for DeepSeek Harness | 0.1.1-rc.2 (2026-09-02) |
 | deepseek-status-monitor | 1 | [rison114514/deepseek-status-monitor](https://github.com/rison114514/deepseek-status-monitor) | DSH 对话页时段状态显示器：根据当前时段（低谷/过渡/高峰）在对话页浮层显示对应插画，引导用户在低谷时段使用。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-academic-research | 1 | [userInner/dsh-academic-research](https://github.com/userInner/dsh-academic-research) | Evidence-grounded bilingual research tools and workflows for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-bisect-debug | 1 | [PangYiMing/dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) | Bisect bug root causes in three modes: code / boundary / commit (git bisect run) | 0.1.0-rc.8 (2026-08-20) |
@@ -177,6 +178,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-log-volume | 0 | [uckkk/dsh-log-volume](https://github.com/uckkk/dsh-log-volume) | logvolume：日志量估算：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-logbook | 0 | [d3vmeh/dsh-logbook](https://github.com/d3vmeh/dsh-logbook) | DeepSeek Harness plugin: /logs command and a stderr log exporter, so ctx.logger output is actually visible | 0.1.1-rc.2 (2026-09-01) |
 | dsh-lsp | 0 | [mook-wenyu/dsh-lsp](https://github.com/mook-wenyu/dsh-lsp) | LSP 客户端插件（DeepSeek Harness / Cordis）：为 AI 代理提供语言服务器协议能力——悬停、跳转定义、查找引用、诊断、文档符号、调用层级 | 0.1.1-rc.2 (2026-09-01) |
+| dsh-luban | 0 | [yin52133/dsh-luban](https://github.com/yin52133/dsh-luban) | Custom workbench plugin suite for DeepSeek Harness (DSH) — LAN auth, task board, SSH + tmux keep-alive, shared Windows/Ubuntu sessions, context HUD & serial/debug tooling. Built for embedded devs: | 0.1.1-rc.2 (2026-09-02) |
 | dsh-model-probe | 0 | [AGSQ11/dsh-model-probe](https://github.com/AGSQ11/dsh-model-probe) | Native DeepSeek Harness model health monitor with persistent Alive/Dead state, runtime failure verification, scheduled rechecks, and health-aware searchable model pickers. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-monitor-ppi | 0 | [uckkk/dsh-monitor-ppi](https://github.com/uckkk/dsh-monitor-ppi) | monitorppi：显示器PPI：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-mood-log | 0 | [uckkk/dsh-mood-log](https://github.com/uckkk/dsh-mood-log) | moodlog：情绪日志：按参数返回明确建议（心理健康内容仅供参考）。 | 0.1.0-rc.8 (2026-08-21) |
@@ -197,6 +199,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-shipcheck | 0 | [guo6x/dsh-shipcheck](https://github.com/guo6x/dsh-shipcheck) | Evidence-first frontend release checks for DSH: real browser inspection, user flows, visual baselines, and reproducible reports. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-skill-trace | 0 | [PolinniZhong/dsh-skill-trace](https://github.com/PolinniZhong/dsh-skill-trace) | Local-first Skill load evidence, learning cards, and iteration preparation for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-socrates-crucifor | 0 | [Cruciforms/dsh-socrates](https://github.com/Cruciforms/dsh-socrates) · [npm](https://www.npmjs.com/package/dsh-socrates) | Socratic clarify-first deep research plugin for DeepSeek Harness: adaptive multi-round research with evidence-closed cited reports, cross-verification, and citation auditing. | 0.1.0-rc.8 (2026-08-21) |
+| dsh-spring-widget | 0 | [wrw-dev/dsh-spring-widget](https://github.com/wrw-dev/dsh-spring-widget) | Spring Boot 后端服务管理器：顶栏 IDEA 式启动/停止/日志控制台（源码直启，无需打包） | 0.1.1-rc.2 (2026-09-02) |
 | dsh-system-monitor-plugin | 0 | [JularDepick/dsh-system-monitor-plugin](https://github.com/JularDepick/dsh-system-monitor-plugin) | 监控 dsh 进程及其子进程的资源占用,提供进程句柄汇报工具与 UI 面板展示 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-task-watcher-plugin | 0 | [YeqingTang/dsh-task-watcher-plugin](https://github.com/YeqingTang/dsh-task-watcher-plugin) · [npm](https://www.npmjs.com/package/@yeqingtang/dsh-task-watcher-plugin) | Windows tray monitor for DeepSeek Harness tasks: deploys and launches DshTaskWatcher (standalone PowerShell tray app) from the plugin bundle. Status/start/stop via loopback API. The watcher runs | 0.1.0-rc.8 (2026-08-21) |
 | dsh-test | 0 | [hrhgit/dsh-test](https://github.com/hrhgit/dsh-test) | Standalone CLI for isolated, evidence-backed DeepSeek Harness testing | 0.1.1-rc.2 (2026-09-01) |
@@ -212,6 +215,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-windows-settlement-proof | 0 | [dongsheng123132/dsh-windows-settlement-proof](https://github.com/dongsheng123132/dsh-windows-settlement-proof) | Offline content-addressed evidence that an approved Windows control-plane change settled across required surfaces | 0.1.1-rc.2 (2026-08-26) |
 | dsh-wisp-science-lab | 0 | [xuzhougeng/dsh-wisp-science-lab](https://github.com/xuzhougeng/dsh-wisp-science-lab) | DSH plugin: laboratory PI for local Wisp Science projects. Read-only snapshots, evidence-backed advice, no fake experiments. / 实验室 PI：只读查看本机 Wisp Science 课题进展，按快照给意见，不编造实验。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-workspace-file-view | 0 | [UsamiRenkorin/dsh-workspace-file-view](https://github.com/UsamiRenkorin/dsh-workspace-file-view/tree/HEAD/plugin) | Standalone workspace file view for the DSH sidebar: browse workspace directories, run/debug scripts in an embedded TTY, with extension-based interpreter resolution and simplified Python breakpoints. | unverified |
+| dsh-zhinet | 0 | [XY1998-debug/dsh-zhinet](https://github.com/XY1998-debug/dsh-zhinet/tree/HEAD/packages/bundle/zhinet) | Project fact graph, read-only workbench, role coordination, and portable migration for DeepSeek Harness | 0.1.1-rc.2 (2026-09-02) |
 | fusion-symphony | 0 | [devmom/fusion-symphony](https://github.com/devmom/fusion-symphony) | Multi-Model Fusion Orchestrator (MoA) over registered DeepSeek Harness LLM providers: conductor-led fan-out, evidence ledger, verify/synthesize loop, zero training. | 0.1.1-rc.2 (2026-08-26) |
 | GovernLoop-DSH | 0 | [liangzhipengdamon-maker/GovernLoop-DSH](https://github.com/liangzhipengdamon-maker/GovernLoop-DSH/tree/HEAD/governloop-dsh) | Thin DeepSeek Harness plugin connecting DSH agents to GovernLoop's independent ChatGPT review with checkpoints and evidence (BEFORE_DESTRUCTIVE_ACTION vertical slice). | 0.1.0-rc.8 (2026-08-25) |
 | harness-github | 0 | [988hj7tczd-oss/harness-github](https://github.com/988hj7tczd-oss/harness-github) | DeepSeek Harness GitHub plugin: review PRs, triage issues, debug Actions CI, handle review feedback, and prepare code changes for review — via gh CLI or REST, no extra sign-in required. | 0.1.0-rc.8 (2026-08-25) |

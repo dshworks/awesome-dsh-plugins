@@ -4,7 +4,7 @@
 
 Image understanding for text-only models.
 
-453 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+456 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -336,6 +336,7 @@ Image understanding for text-only models.
 | dsh-docker-devvikin | 0 | [DevViking-Persike/dsh-docker](https://github.com/DevViking-Persike/dsh-docker) | DeepSeek Harness plugin: Docker container, image, log, and Compose tools for the agent, over the local Docker CLI | 0.1.0-rc.8 (2026-08-25) |
 | dsh-docs-protocti | 0 | [protoctistmoses143/dsh-docs](https://github.com/protoctistmoses143/dsh-docs) | Local PDF, Office, image, and OCR document intelligence for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-drag-path | 0 | [Rudyy898/dsh-drag-path](https://github.com/Rudyy898/dsh-drag-path) | Drag non-image files/folders into DeepSeek Harness web and insert their real absolute paths into the composer — no more "only images allowed". 拖拽工程文件/文件夹进 DSH，自动定位真实绝对路径插入输入框。 | 0.1.1-rc.2 (2026-08-28) |
+| dsh-file-manager-toooooo6 | 0 | [toooooo-6/dsh-file-manager](https://github.com/toooooo-6/dsh-file-manager) | DSH web file manager: workspace tree with semantic icons, preview (text / image / markdown / syntax highlight / large-file head), in-preview edit+save, create, delete, panel width drag and | 0.1.1-rc.2 (2026-09-02) |
 | dsh-image | 0 | [uckkk/dsh-image](https://github.com/uckkk/dsh-image) | 图片处理：读取图片尺寸/格式、缩放与格式转换（内置 ffmpeg，跨平台） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-image-amnesia | 0 | [Choco-Zz/dsh-image-amnesia](https://github.com/Choco-Zz/dsh-image-amnesia) | Keep native vision, drop historical images before they hit relay providers. Global DeepSeek Harness bundle for every agent. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-image-conatiner | 0 | [aa2246740/dsh-image-conatiner](https://github.com/aa2246740/dsh-image-conatiner) | Codex-style generated-image gallery and lightbox for DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
@@ -365,6 +366,7 @@ Image understanding for text-only models.
 | dsh-llm-vision-router | 0 | [dmsobtl/dsh-llm-vision-router](https://github.com/dmsobtl/dsh-llm-vision-router) | DSH plugin: auto-route to a multimodal model when messages contain images, stay on the cheap model otherwise. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-local-ocr | 0 | [littlewrite/dsh-local-ocr](https://github.com/littlewrite/dsh-local-ocr) | A local OCR library and DeepSeek Harness plugin for macOS and Windows. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-maclens | 0 | [Harzva/dsh-maclens](https://github.com/Harzva/dsh-maclens) | Bridge Apple's on-device Vision framework (macOS) into DeepSeek Harness: OCR, image classification, face detection, and document layout as local dsh tools. No network, no API key, no daemon. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-math-input | 0 | [xiaxi626/dsh-math-input](https://github.com/xiaxi626/dsh-math-input) | Zero-token offline math input for DeepSeek Harness: handwriting recognition, screenshot OCR, LaTeX editor, and inline LaTeX rendering. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-mermaid-smooth | 0 | [gitByteFree/dsh-mermaid-smooth](https://github.com/gitByteFree/dsh-mermaid-smooth) | Render mermaid fences in dsh web chat as diagrams by default with smooth zoom/pan, per-fence diagram/code toggle at top-right, persisted per-fence preference, dark-mode follow, and full offline | 0.1.1-rc.2 (2026-09-01) |
 | dsh-mermaid-zoom | 0 | [evanfang0054/dsh-mermaid-zoom](https://github.com/evanfang0054/dsh-mermaid-zoom) · [npm](https://www.npmjs.com/package/dsh-mermaid-zoom) | Mermaid diagram enhancement for the DeepSeek Harness (DSH) web GUI: Ctrl/Cmd+wheel zoom, drag to pan, double-click reset, hover toolbar with zoom controls and 2x PNG copy. Pure client-side DOM | 0.1.0-rc.8 (2026-08-20) |
 | dsh-minimax-image | 0 | [Jack-sun-learner/dsh-minimax-image](https://github.com/Jack-sun-learner/dsh-minimax-image) | MiniMax 文生图插件：把一句话画面描述生成图片并保存到工作区，作为 `image-gen` 工具提供给模型调用。 | 0.1.0-rc.8 (2026-08-20) |
@@ -394,6 +396,7 @@ Image understanding for text-only models.
 | dsh-plugin-local-vision | 0 | [linktao159357/dsh-plugin-local-vision](https://github.com/linktao159357/dsh-plugin-local-vision) | DeepSeek Harness 本地视觉插件：通过 LM Studio 本地视觉模型描述图片/截图，全本地、无云端依赖。提供 vision_describe 工具（Node 原生后端，可选 Python 压缩后端）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-multimodal-bridge | 0 | [avaritiachaos/dsh-plugin-multimodal-bridge](https://github.com/avaritiachaos/dsh-plugin-multimodal-bridge) · [npm](https://www.npmjs.com/package/@shion-lab/dsh-plugin-multimodal-bridge) | Dynamic multimodal-to-text projection and cross-model vision bridge for DeepSeek Harness (dsh), allowing seamless hot-switching between vision models (Gemini/Claude) and text-only models (DeepSeek). | 0.1.0-rc.8 (2026-08-21) |
 | dsh-plugin-qiuchunh | 0 | [qiuchunhuimax/dsh-plugin](https://github.com/qiuchunhuimax/dsh-plugin) | Workspace-confined PaddleOCR tool and /ocr command for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-show-image | 0 | [justhalfbit/dsh-plugin-show-image](https://github.com/justhalfbit/dsh-plugin-show-image) | Render local image files inline in the DSH conversation via a global show_image tool. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-plugin-vision-bridge | 0 | [lcb522/dsh-plugin-vision-bridge](https://github.com/lcb522/dsh-plugin-vision-bridge) | Vision bridge: read_image is transparently served by a configurable vision model (default zai/glm-4.6v) when the session model is text-only; the description returns as text and the session keeps its | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-vision-coelly | 0 | [co-Elly/dsh-plugin-vision](https://github.com/co-Elly/dsh-plugin-vision) | Vision capability plugin for DeepSeek Harness — enables pure-text LLMs to analyze images via GLM-4V-Flash | 0.1.0-rc.8 (2026-08-25) |
 | dsh-plugin-vision-qizhen20 | 0 | [qizhen2021/dsh-plugin-vision](https://github.com/qizhen2021/dsh-plugin-vision) | The see tool for the DeepSeek Harness: offline OCR with positions (macOS Vision) + ASCII layout art (PIL) + vision-model semantic description (mimo-v2.5 via the opencode-go gateway). Works with any | 0.1.0-rc.8 (2026-08-20) |

@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-420 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+424 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -300,9 +300,11 @@ Permission tiers, gates, redaction, protection.
 | dsh-checkout-guard | 0 | [LeslieWylie/dsh-checkout-guard](https://github.com/LeslieWylie/dsh-checkout-guard) | Pre-flight guard for git working copies: is the checkout you are about to write to the one you think it is? Branch identity, drift from the remote and how stale that figure is, the identity your next | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cli-mode | 0 | [lcgash/dsh-cli-mode](https://github.com/lcgash/dsh-cli-mode) | 把 DeepSeek Harness 会话变成终端可交互的 CLI:终端直接与 agent 对话、切换会话/模型/模式/权限模式、审批桥接、codex 式工作区。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-client-open-in-vscode | 0 | [quei4r/dsh-client-open-in-vscode](https://github.com/quei4r/dsh-client-open-in-vscode) | Click a file path in the chat UI to open it in the running VS Code window owning the matching workspace; Edit/Write rows open a diff of that exact change (webview-safe host route behind the | 0.1.0-rc.8 (2026-08-20) |
+| dsh-compactor | 0 | [lionwill/dsh-compactor](https://github.com/lionwill/dsh-compactor) | Context Compaction plugin for DeepSeek Harness: tool-result pruning, LLM or offline-rule summarization with a user-facing compression report, dead-loop guard, and /restore rollback. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-dependency-audit | 0 | [uckkk/dsh-dependency-audit](https://github.com/uckkk/dsh-dependency-audit) | 依赖安全审计：扫描项目依赖的已知漏洞（OSV.dev）并检测过期依赖（npm registry），返回漏洞严重级/修复版本与升级幅度 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-disk-cleaner | 0 | [L3n3L/dsh-disk-cleaner](https://github.com/L3n3L/dsh-disk-cleaner) | Windows disk space analysis and safe cleanup plugin for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-dlp | 0 | [CharlotteN7/dsh-dlp](https://github.com/CharlotteN7/dsh-dlp) · [npm](https://www.npmjs.com/package/dsh-dlp) | Data-loss-prevention plugin for DeepSeek Harness: a non-configurable tool guard floor, tool-result redaction, and fail-closed telemetry redaction | 0.1.0-rc.8 (2026-08-20) |
+| dsh-dolphin-security | 0 | [ccr-wer/dsh-dolphin-security](https://github.com/ccr-wer/dsh-dolphin-security) | 此为 DSH 生态插件。Dolphin - 主动巡检型安全防御插件，支持本地扫描与远程 SSH 巡逻。将渗透测试方法论（信息收集→漏洞探测→利用验证→报告）转化为主动防御巡检流程：基于 Semgrep 的扫描层与基于 SSH 的执行层相融合，可对本地目录做静态扫描，也可将扫描命令经 SSH 下发至远程主机执行并回收结构化结果。 | 0.1.1-rc.2 (2026-09-02) |
 | dsh-dros-vajraclaw | 0 | [Top-Celestial-Company-Ltd/dsh-dros-vajraclaw](https://github.com/Top-Celestial-Company-Ltd/dsh-dros-vajraclaw) · [npm](https://www.npmjs.com/package/dsh-plugin-vajraclaw) | Deterministic Runtime Execution Governance & Security Circuit-Breaker for DSH Agents | 0.1.0-rc.8 (2026-08-21) |
 | dsh-edit-guardian | 0 | [LWLAymh/dsh-edit-guardian](https://github.com/LWLAymh/dsh-edit-guardian) | DSH plugin: file-change diff bar with keep/undo summary, and a dangerous-command approval gate with red highlighting for bash/pwsh | 0.1.1-rc.2 (2026-09-01) |
 | dsh-egress-guard | 0 | [LKRCharon/dsh-egress-guard](https://github.com/LKRCharon/dsh-egress-guard) | Local, zero-network, fail-closed secret preflight for DeepSeek Harness model requests. | 0.1.0-rc.8 (2026-08-20) |
@@ -326,6 +328,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-install-guard | 0 | [niaccky/dsh-install-guard](https://github.com/niaccky/dsh-install-guard) | Guard DeepSeek Harness npm installs with vulnerability, license, bundle-size, and package-health audits. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-iphone-mode | 0 | [johndfowler/dsh-iphone-mode](https://github.com/johndfowler/dsh-iphone-mode) | Mobile/touch optimizations for the DSH Web GUI: iOS input-zoom fix, safe-area insets, touch targets, and viewport clamps for stock dialogs on narrow screens. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-ironbound-policy | 0 | [shizhanyu13/dsh-ironbound-policy](https://github.com/shizhanyu13/dsh-ironbound-policy) | Ironbound hard-gate guard plugin for the DeepSeek Harness (DSH). Blocks dangerous shell commands before they reach a tool, with a double-layer degrade counter over the tools/execute seam. Part of the | 0.1.1-rc.2 (2026-08-26) |
+| dsh-kit-foyonacz | 0 | [FoyonaCZY/dsh-kit](https://github.com/FoyonaCZY/dsh-kit) | Quality-of-life plugins for DeepSeek Harness: workspace rewind, desktop notifications, auto-format, live git context, secret redaction, and a done-means-green verify gate. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-lan-gate | 0 | [maxesisnclaw/dsh-lan-gate](https://github.com/maxesisnclaw/dsh-lan-gate) · [npm](https://www.npmjs.com/package/dsh-lan-gate) | Password + CIDR gate for DeepSeek Harness web / DeepSeek Harness 局域网密码门禁 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-latex-guard | 0 | [Flan246/dsh-latex-guard](https://github.com/Flan246/dsh-latex-guard) | LaTeX compile check and BibTeX lint/fill/audit tools for DeepSeek Harness and any agent. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-llm-repetition-guard | 0 | [filantropo17/dsh-llm-repetition-guard](https://github.com/filantropo17/dsh-llm-repetition-guard) | Degenerate-output repetition guard for the DeepSeek Harness | unverified |
@@ -371,6 +374,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-review-squad | 0 | [luomeii/dsh-review-squad](https://github.com/luomeii/dsh-review-squad) | 并行多角色代码评审小队：/review 一条命令派出安全/正确性/测试/风格四名只读评审员子代理（每人可单独指定模型与思考强度），汇总为按严重度分组的结构化报告。Parallel multi-role code review squad: /review dispatches security/correctness/tests/style reviewer subagents (each on | 0.1.1-rc.2 (2026-09-01) |
 | dsh-risk-guard | 0 | [shuxue6662-a11y/dsh-risk-guard](https://github.com/shuxue6662-a11y/dsh-risk-guard) · [npm](https://www.npmjs.com/package/dsh-risk-guard) | Zero-interruption audit + fuse blocking for DeepSeek Harness. / 零打扰 Agent 审计与保险丝拦截插件。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-role-delegation | 0 | [LZMW/dsh-role-delegation](https://github.com/LZMW/dsh-role-delegation/tree/HEAD/packages/dsh-role-guard) | Host-level TOOL / MCP / SKILL permission guard for role-directed team delegation in DSH. Enforces role frontmatter fields (tools / disallowedTools / mcp_servers / skills) at the tools/pre-execute | 0.1.1-rc.2 (2026-09-01) |
+| dsh-safe-delete-nattocb | 0 | [NattoCB/dsh-safe-delete](https://github.com/NattoCB/dsh-safe-delete) | Intercepts `rm` commands issued by any DSH agent session (GUI, automation runs, headless bridges) at the tools guard layer and moves the targets to the macOS Trash instead of deleting them. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-safe-gate | 0 | [quan-v/dsh-safe-gate](https://github.com/quan-v/dsh-safe-gate/tree/HEAD/dsh-plugin) | dsh 插件:装前守门工具的安全配置面板 — 查看守门状态 + 历史拦截日志 | 0.1.1-rc.2 (2026-08-26) |
 | dsh-safe-install | 0 | [goodaiaiai/dsh-safe-install](https://github.com/goodaiaiai/dsh-safe-install) | 装插件全流程自动化:四重安全检查(版本/patch/工具名/供应链)+ 自动安装 + 自动重启 DSH \| Safe one-shot DSH plugin installs: four checks + auto install + auto restart | 0.1.1-rc.2 (2026-09-01) |
 | dsh-safe-restart | 0 | [McKayGONG/dsh-safe-restart](https://github.com/McKayGONG/dsh-safe-restart) | A macOS-only DSH host plugin that safely restarts the DSH process from inside | 0.1.0-rc.8 (2026-08-25) |
