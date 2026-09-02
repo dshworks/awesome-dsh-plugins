@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-251 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+253 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -135,6 +135,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-weixin-stukatom | 2 | [Stu-KatoMegumi/dsh-weixin](https://github.com/Stu-KatoMegumi/dsh-weixin) | 微信 iLink 通道与 DSH 的流式智能代理插件 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-weixin-wendayua | 2 | [wendayuan/dsh-weixin](https://github.com/wendayuan/dsh-weixin) | DeepSeek Harness 微信通道插件：用手机微信直接对话 DSH agent（上下文连续、扫码登录、随 DSH 常驻） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-zhihu-tools | 2 | [leolee9086/dsh-zhihu-tools](https://github.com/leolee9086/dsh-zhihu-tools) | 知乎数据开放平台插件：17 个工具 + 本地设置页 + 精美卡片。反馈 QQ 群 1017854502: https://qm.qq.com/q/RAHJuyhQQ | 0.1.1-rc.2 (2026-09-01) |
+| gzhflow | 2 | [Andiii208/gzhflow](https://github.com/Andiii208/gzhflow) | Six-stage WeChat Official Account content-publishing workflow with quality-gate tools and a bundled skill, installable as a DeepSeek Harness (DSH) plugin | 0.1.1-rc.2 (2026-09-02) |
 | super-wechat-bridge | 2 | [Qshuai0213/super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) | 微信 iLink ClawBot 远程桥接插件（DeepSeek Harness）—— 官方 iLink 协议直连，带 Web 设置界面（扫码登录/模型/预设/权限/会话管理）与 24h 自动续期 | 0.1.0-rc.8 (2026-08-20) |
 | weread-export | 2 | [zhengjy01/weread-export](https://github.com/zhengjy01/weread-export) | 微信读书 (WeChat Reading) integration for DeepSeek Harness: connect the official WeRead Skills Agent Gateway with a wrk- API key, then browse your bookshelf, export highlights & thoughts, query reading | 0.1.0-rc.8 (2026-08-25) |
 | zhihu-tools | 2 | [leolee9086/zhihu-tools](https://github.com/leolee9086/zhihu-tools) | 知乎数据开放平台插件：17 个工具 + 本地设置页 + 精美卡片。反馈 QQ 群 1017854502: https://qm.qq.com/q/RAHJuyhQQ | 0.1.1-rc.2 (2026-08-28) |
@@ -226,6 +227,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-feishu-remote-luolin92 | 0 | [LUOLIN926/dsh-feishu-remote](https://github.com/LUOLIN926/dsh-feishu-remote) | 通过飞书私聊安全地远程控制本机 DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-group-chat-view | 0 | [tang-zhilei/dsh-group-chat-view](https://github.com/tang-zhilei/dsh-group-chat-view) | DSH group chat style conversation view plugin — renders AI conversations as a WeChat-like group chat interface | 0.1.0-rc.8 (2026-08-25) |
 | dsh-hermes-bridge | 0 | [dsh-pulse/dsh-hermes-bridge](https://github.com/dsh-pulse/dsh-hermes-bridge) · [npm](https://www.npmjs.com/package/@dsh-pulse/dsh-hermes-bridge) | DSH ↔ WeChat bridge: inbound dispatch (WeChat → DSH agent, persistent per-cwd session pool) + outbound push (task progress → WeChat via hermes send, zero-LLM). 微信 ↔ DSH 双向桥：入站调度 + 出站推送，常驻会话复用。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-im-bridge-sprogxhy | 0 | [sprog-xhy/dsh-im-bridge](https://github.com/sprog-xhy/dsh-im-bridge/tree/HEAD/plugins/dsh-feishu) | dsh-feishu: bridge DeepSeek Harness to Feishu (飞书) app bot as a Cordis plugin | 0.1.1-rc.2 (2026-09-02) |
 | dsh-lark-tkwkeven | 0 | [tkwkeven/dsh-lark](https://github.com/tkwkeven/dsh-lark) | Feishu/Lark channel for DeepSeek Harness: prefix-created task sessions, thread routing, streaming thinking cards, interactive questions, media delivery, lifecycle notices, runtime policies, and a Web | 0.1.0-rc.8 (2026-08-25) |
 | dsh-matrix-agent | 0 | [evlon/dsh-matrix-agent](https://github.com/evlon/dsh-matrix-agent) | Matrix agent bridge for DeepSeek Harness (dsh): multi-twin per-room agent sessions, in-chat approval, media/rich-text/reply/edit-aware message intake | 0.1.1-rc.2 (2026-09-01) |
 | dsh-notify-lubaoshu | 0 | [Lubaoshuai/dsh-notify](https://github.com/Lubaoshuai/dsh-notify) | Push notifications for DeepSeek Harness: an agent-callable notify_send tool plus external delivery (Telegram, Slack, Discord, 飞书, 钉钉, Bark, ntfy, generic webhook) for schedule reminders. DSH plugin. | 0.1.1-rc.2 (2026-09-01) |

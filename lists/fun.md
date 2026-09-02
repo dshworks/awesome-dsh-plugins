@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-433 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+435 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -132,6 +132,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-plugin-audiolib | 3 | [yangyue1974/dsh-plugin-audiolib](https://github.com/yangyue1974/dsh-plugin-audiolib) | Ambient soundtrack for DeepSeek Harness, driven by agent state and powered by AudioLib.ai. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-finder-memedog | 3 | [meme-dog/dsh-plugin-finder](https://github.com/meme-dog/dsh-plugin-finder) | Find and audit DeepSeek Harness (DSH) plugins inside the agent — live `dsh-plugin` topic search + source audit with trial-to-production install plans. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-running-liang | 3 | [skiuniverse/dsh-running-liang](https://github.com/skiuniverse/dsh-running-liang) · [npm](https://www.npmjs.com/package/dsh-running-liang) | A Chrome dino-run style mini-game for DeepSeek Harness Web: play while waiting for the agent, score from 梁子 to 梁圣. / 为 DeepSeek Harness Web 打造的等待小游戏：agent 回复时玩一把恐龙快跑，得分从「梁子」冲向「梁圣」。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-token-pet-jimmy012 | 3 | [Jimmy0123-ux/dsh-token-pet](https://github.com/Jimmy0123-ux/dsh-token-pet) | DeepSeek Harness Desktop 用量小宠物：用逐帧角色动作反馈运行状态，并展示上下文、终身 Token 用量与历史趋势。 | 0.1.1-rc.2 (2026-09-02) |
 | dsh-webUI-pets | 3 | [pineapple880066/dsh-webUI-pets](https://github.com/pineapple880066/dsh-webUI-pets/tree/HEAD/packages/client/ui-desktop-pet) | Codex-style draggable desktop pets for the DeepSeek Harness Web UI / 类似 Codex 的 DeepSeek Harness Web UI 可拖拽桌宠 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-whale-arcade | 3 | [jitengfei/dsh-whale-arcade](https://github.com/jitengfei/dsh-whale-arcade) · [npm](https://www.npmjs.com/package/dsh-whale-arcade) | floating whale arcade for DeepSeek Harness with three browser-local games | 0.1.0-rc.8 (2026-08-20) |
 | DSH-Whale-Balance-Widget | 3 | [liangbai250/DSH-Whale-Balance-Widget](https://github.com/liangbai250/DSH-Whale-Balance-Widget) | DeepSeek Harness EAC balance whale widget with DeepSeek and Sub2API support. | 0.1.0-rc.8 (2026-08-25) |
@@ -397,6 +398,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-token-meter-mood | 0 | [firekula/dsh-token-meter-mood](https://github.com/firekula/dsh-token-meter-mood) | Per-turn token usage and mood emoji row under each assistant reply for the DeepSeek Harness web GUI | 0.1.0-rc.8 (2026-08-25) |
 | dsh-toy-age | 0 | [uckkk/dsh-toy-age](https://github.com/uckkk/dsh-toy-age) | toyage：玩具适龄推荐：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-traebao | 0 | [susirial/dsh-traebao](https://github.com/susirial/dsh-traebao) | Conversation-aware TRAE Bao digital pet for DeepSeek Harness Desktop | 0.1.0-rc.8 (2026-08-25) |
+| DSH-Transparent-UI-Plugin-duuuck | 0 | [du-u-uck/DSH-Transparent-UI-Plugin](https://github.com/du-u-uck/DSH-Transparent-UI-Plugin) | Aqua: a highly customizable glassmorphism theme for the Web surface — adjustable blur, frost, fluid or wallpaper backdrop, unified corners, and motion | 0.1.1-rc.2 (2026-09-02) |
 | dsh-tu4-notification | 0 | [zehenk/dsh-tu4-notification](https://github.com/zehenk/dsh-tu4-notification) | DSH notification plugin: shows a dark WinForms toast (DSH black whale logo) when an agent operation awaits approval; msg dialog fallback. Never blocks the approval flow. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-ui-pet | 0 | [hanyudong1994/dsh-ui-pet](https://github.com/hanyudong1994/dsh-ui-pet) · [npm](https://www.npmjs.com/package/dsh-ui-pet) | DeepSeek Harness desktop pet browser plugin: a floating cat over the conversation that reacts to current-session activity | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ui-pet-nkjv2 | 0 | [Nkjv2/dsh-ui-pet](https://github.com/Nkjv2/dsh-ui-pet) | A canvas sprite-sheet pet that follows the pointer, rendered in the dsh web shell.overlay slot. | 0.1.0-rc.8 (2026-08-25) |

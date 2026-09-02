@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-205 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+209 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -82,6 +82,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-ui-notifications | 2 | [pany0593/dsh-ui-notifications](https://github.com/pany0593/dsh-ui-notifications) | System notifications for the DeepSeek Harness web GUI — OS-level popups for finished turns and pending interactions (approvals, questions, plan reviews). · DSH Web 界面系统通知：回合结束、待处理授权/提问/计划审核时弹出系统级提醒。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-update-notifier | 2 | [arvin-yd/dsh-update-notifier](https://github.com/arvin-yd/dsh-update-notifier) | Red-dot update checker for DeepSeek Harness: warns in the sidebar footer when a newer @deepseek-ai/dsh release exists on npm. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wending-git-workbench | 2 | [dd2673/dsh-wending-git-workbench](https://github.com/dd2673/dsh-wending-git-workbench) | Codex-style Git workbench for DSH: workspace-scoped changes, diff, stage, commit, guarded branch operations, graph history, fetch, fast-forward pull, and upstream push through official plugin APIs. | 0.1.0-rc.8 (2026-08-20) |
+| cau-portal-open | 1 | [ZBber-lab/cau-portal-open](https://github.com/ZBber-lab/cau-portal-open) | 农大门户 —— DeepSeek Harness 客户端插件：中国农业大学通知公告聚合、AI 摘要与对话查询 | 0.1.1-rc.2 (2026-09-02) |
 | ds-turn-notify-reimucre | 1 | [reimu-create/ds-turn-notify](https://github.com/reimu-create/ds-turn-notify) | DSH 会话完成或索要权限时后台提醒 + 提示音（Windows） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-agent-board-21hbguo | 1 | [21hbguo/dsh-agent-board](https://github.com/21hbguo/dsh-agent-board) | Agent 实时看板：子代理停滞检测器（自动 notice 提醒）+ 树形看板（悬浮窗/停靠右侧面板双形态，可切换/并存/设置开关） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-agent-sound-alert | 1 | [moonlin1213/dsh-agent-sound-alert](https://github.com/moonlin1213/dsh-agent-sound-alert) | Agent 停止音效提醒：监听会话事件 firehose，在完成、审批询问和异常中断时播放 macOS 系统音效 | 0.1.1-rc.2 (2026-09-01) |
@@ -156,6 +157,8 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-client-ui-notifications | 0 | [huangDouP/dsh-client-ui-notifications](https://github.com/huangDouP/dsh-client-ui-notifications) | DSH Web 等待/完成通知插件：浏览器系统通知、Tab 标题闪烁、favicon 红点、原生 Windows toast 与设置页（zh/en） | 0.1.1-rc.2 (2026-09-01) |
 | dsh-client-ui-notify-joeytisa | 0 | [Joeytisaly/dsh-client-ui-notify](https://github.com/Joeytisaly/dsh-client-ui-notify) · [npm](https://www.npmjs.com/package/@joeytisaly/dsh-client-ui-notify) | Notification sound for DeepSeek Harness web: an audible cue when a user-decision interaction (approval / plan review / question) appears, plus a General-settings row (enable, background-only, volume | 0.1.0-rc.8 (2026-08-20) |
 | dsh-client-ui-turn-chime | 0 | [liuyun847/dsh-client-ui-turn-chime](https://github.com/liuyun847/dsh-client-ui-turn-chime) | DSH Web 客户端插件:每次 AI 回复完成(会话快照 running 由 true 变 false)时在浏览器播放一声双音提示音 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-danger-guard | 0 | [czhzz/dsh-danger-guard](https://github.com/czhzz/dsh-danger-guard) | DSH 危险命令守卫：通过 tools/pre-execute 门禁拦截 bash/pwsh 高危命令（rm -rf /、mkfs、dd 写设备、管道执行脚本、git push --force 等），支持分级策略（极高危始终拒绝 / 中危跟随全局 deny/ask/log）、用户自定义规则与白名单。 | 0.1.1-rc.2 (2026-09-02) |
+| dsh-done-pill | 0 | [statem-li/dsh-done-pill](https://github.com/statem-li/dsh-done-pill) | DSH 对话完成胶囊：顶部悬浮消息胶囊（原 webui done-pill 拆出）——任一会话回合完成提醒、点击跳会话、悬停查看记录全文、可拖拽定位、健康提醒与字体/缩放设置。零 DSH 源码改动，可与 dsh-webui 并存（webui 关闭 donePill 模块即可）。 | 0.1.1-rc.2 (2026-09-02) |
 | DSH-end-notify | 0 | [PuLuShen/DSH-end-notify](https://github.com/PuLuShen/DSH-end-notify) | Bottom-right toast + chime in the web client whenever a session turn finishes | unverified |
 | dsh-git-conventions | 0 | [CN-WenYu/dsh-git-conventions](https://github.com/CN-WenYu/dsh-git-conventions) | Enforce configurable git commit / push / PR conventions for DeepSeek Harness agents | 0.1.0-rc.8 (2026-08-20) |
 | dsh-git-easytz | 0 | [EasyTZ/dsh-git](https://github.com/EasyTZ/dsh-git) | Visual Git panel: changed files, staging, commits, push, branches, and per-commit detail | 0.1.1-rc.2 (2026-08-28) |
@@ -174,6 +177,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-notify-tarssnai | 0 | [TARS-snail/dsh-notify](https://github.com/TARS-snail/dsh-notify) | Desktop notifications for DeepSeek Harness sessions: task completion and user questions, only while you are away | 0.1.1-rc.2 (2026-08-26) |
 | dsh-office-helper | 0 | [jstudio1024/dsh-office-helper](https://github.com/jstudio1024/dsh-office-helper) · [npm](https://www.npmjs.com/package/dsh-office-helper) | DSH web plugin: 办公助手 - 工作时间追踪、喝水提醒、休息提醒 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-peak-reminder | 0 | [lsakira/dsh-peak-reminder](https://github.com/lsakira/dsh-peak-reminder) | 峰谷提示器：DeepSeek Harness 高峰时段提醒插件（模式指示灯 / 高峰前提醒 / 余额卡片） | 0.1.0-rc.8 (2026-08-25) |
+| dsh-plugin-noticeme | 0 | [lw-storm/dsh-plugin-noticeme](https://github.com/lw-storm/dsh-plugin-noticeme) | Notify me when DSH needs me: desktop notification (with tab-title fallback) when an approval prompt or an ask-user-question card appears while the page is in the background. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-plugin-notification-sounds | 0 | [Heldea-xianmiao/dsh-plugin-notification-sounds](https://github.com/Heldea-xianmiao/dsh-plugin-notification-sounds) | DSH 提示音插件（原生常驻版）：为开始运行、成功完成、异常中断、需要审批、子代理完成等事件分别设置提示音，支持逐事件上传本地音频文件。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-onebot | 0 | [kun2-5code/dsh-plugin-onebot](https://github.com/kun2-5code/dsh-plugin-onebot) | DeepSeek Harness (dsh) plugin: notify OneBot users/groups when a task completes, via WS long-connection (server mode) + OneBot HTTP API actions. Config editable in the web GUI (Settings → Plugins → | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-updater | 0 | [Alyosha28/dsh-plugin-updater](https://github.com/Alyosha28/dsh-plugin-updater) | DSH 插件更新中心：自动追踪所有插件版本，比对 npm/GitHub 最新版，一键下载→完整性校验→替换→热重启，定期自动检查并站内通知（界面参考 CC Switch 版本更新组件样式）。 | 0.1.0-rc.8 (2026-08-20) |

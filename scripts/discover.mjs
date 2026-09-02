@@ -77,6 +77,14 @@ const TOPICS = [
 // Fetched rather than vendored so it cannot go stale; a failed fetch degrades
 // to "queue them and let triage catch it", never to a wrong rejection.
 const THEMES_REGISTRY = "https://raw.githubusercontent.com/dshworks/awesome-dsh-themes/main/data/themes.json";
+// The lane back. This registry routes anything theme-shaped to the themes
+// registry by name (data/routed-to-themes.json); when a human over there opens
+// it and finds a launcher, a palette board or a skin *authoring* tool -- a
+// plugin wearing a skin's name -- they write that decision to
+// data/routed-to-plugins.json and it comes back here as a candidate that
+// triage must not route away again. Until 2026-09-02 that verdict had nowhere
+// to go, and the repo sat in both queues forever.
+const ROUTED_TO_PLUGINS = "https://raw.githubusercontent.com/dshworks/awesome-dsh-themes/main/data/routed-to-plugins.json";
 const SEARCH_CAP = 1000; // GitHub returns at most this many results per query
 const EPOCH = "2020-01-01"; // no dsh repo predates this; keeps the first slice cheap
 
@@ -292,6 +300,20 @@ async function fromCodeSearch() {
 // Keep the `via` field categorical. Seeds get their provenance from private
 // places sometimes; a slug is a public fact, and who said it in which room is
 // not ours to publish.
+async function fromRoutedThemes() {
+  const res = await fetch(ROUTED_TO_PLUGINS, { signal: AbortSignal.timeout(20000) });
+  if (res.status === 404) return []; // the sibling has not written one yet
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const { repos = [] } = await res.json();
+  console.error(`discover: ${repos.length} repo(s) routed here by the themes registry`);
+  return repos.map((r) => ({
+    repo: r.repo,
+    source: "routed-from-themes",
+    description: r.description ?? null,
+    ...(r.stars !== undefined ? { stars: r.stars } : {}),
+  }));
+}
+
 function fromSeeds() {
   let file;
   try {
@@ -357,6 +379,7 @@ for (const [name, fn] of [
   ["npm-search", fromNpm],
   ["code-search", fromCodeSearch],
   ["seed", fromSeeds],
+  ["routed-from-themes", fromRoutedThemes],
 ]) {
   try {
     found.push(...(await fn()));

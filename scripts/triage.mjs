@@ -860,7 +860,11 @@ for (const d of decided) {
     held.push({ ...c, note: "install path proven, but no usable description upstream" });
     continue;
   }
-  if (isTheme(c.repo, description)) {
+  // A row the themes registry sent back has been opened by a human over there
+  // and found to be a plugin wearing a skin's name. Routing it again by that
+  // name would bounce it between the two queues forever.
+  const sentBack = (c.sources ?? []).includes("routed-from-themes");
+  if (!sentBack && isTheme(c.repo, description)) {
     routed.push({ ...c, note: "looks like a theme; belongs in awesome-dsh-themes" });
     continue;
   }
@@ -936,6 +940,10 @@ const routedFile = (() => {
   try { return read("data/routed-to-themes.json"); } catch { return { repos: [] }; }
 })();
 const routedKnown = new Map((routedFile.repos ?? []).map((r) => [r.repo.toLowerCase(), r]));
+// The sibling sent these back, so they are no longer routed there.
+for (const c of queue) {
+  if ((c.sources ?? []).includes("routed-from-themes")) routedKnown.delete(c.repo.toLowerCase());
+}
 for (const c of routed) {
   if (routedKnown.has(c.repo.toLowerCase())) continue;
   routedKnown.set(c.repo.toLowerCase(), {
