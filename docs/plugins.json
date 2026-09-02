@@ -242539,6 +242539,25 @@
       ]
     },
     {
+      "name": "dsh-palm",
+      "repo": "Eternalloveone/dsh-palm",
+      "path": "packages/dsh-palm",
+      "description": "掌上 dsh — the standalone mobile surface for the dsh web GUI: scan-to-pair device trust, the /m/ phone UI, the /m/api RPC channel with realtime SSE mux bridge, and a polished desktop pairing panel.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-02",
+      "lastVerified": "2026-09-02",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "packages/dsh-palm/package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-09-02",
+      "tags": [
+        "ui",
+        "interop"
+      ]
+    },
+    {
       "name": "dsh-llm-proxy-fan56",
       "repo": "fan56/dsh-llm-proxy",
       "description": "dsh plugin: SYSTEM proxy (env) + LLM traffic-splitting proxy via a process-global undici routing dispatcher",

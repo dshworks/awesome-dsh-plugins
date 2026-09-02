@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 13,058 entries from 7,494 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 13,059 entries from 7,495 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -101,7 +101,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-12732 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-09-02.
+12733 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-09-02.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -137,7 +137,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-tavern-chen7312 | 40 | [chen731215-dev/dsh-tavern](https://github.com/chen731215-dev/dsh-tavern) | DeepSeek 酒馆 - embed the tavern into DeepSeek Harness Web UI as a native management panel: multiple character cards, multiple worldbooks, switchable presets, deep-light theme, auto-dismiss. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-passwords | 38 | [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) · [npm](https://www.npmjs.com/package/dsh-passwords) | dsh-passwords: a login gateway (password door) + dsh settings plugin for DeepSeek Harness web UI — first-run setup, SQLite auth with at-rest encryption, rate-limit, audit log, TLS + 80-to-443 redirect | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 989. **[all 989 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 990. **[all 990 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Terminals & desktop
 
