@@ -244171,6 +244171,40 @@
       "tags": [
         "capabilities"
       ]
+    },
+    {
+      "name": "dsh-skin-studio-zhanggui",
+      "repo": "zhangguiping-xydt/dsh-skin-studio",
+      "description": "A visual, local-first skin authoring studio for DeepSeek Harness Web.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-02",
+      "lastVerified": "2026-09-02",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-09-02",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "dsh-plugin-palette-board",
+      "repo": "zhm20001/dsh-plugin-palette-board",
+      "description": "2D Palette Board & Application Drawer for DeepSeek Harness (dsh): a Raycast/Launchpad-style floating application grid, with the paletteHub service open to all client plugins",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-02",
+      "lastVerified": "2026-09-02",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-09-02",
+      "tags": [
+        "capabilities"
+      ]
     }
   ]
 }
