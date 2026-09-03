@@ -4,15 +4,21 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-09-02",
+  "checked": "2026-09-03",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 377,
+  "count": 380,
   "packages": [
     {
       "repo": "shililinghu/dsh-file-upload-deepseek-harness-plug-in",
       "npm": "@agent-hub/dsh-workspace-file-upload",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "mapan0424/deepseek-harness-insights",
+      "npm": "@anarkhgatsby/deepseek-harness-insights",
+      "why": "published by mapan0424/deepseek-harness-plugins",
+      "since": "2026-09-03"
     },
     {
       "repo": "cyj0920/dsh-jlink-plugin",
@@ -1050,6 +1056,12 @@
       "npm": "dsh-credential-handoff",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Gaq152/dsh-credits",
+      "npm": "dsh-credits",
+      "why": "published by anlifex/dsh-credits",
+      "since": "2026-09-03"
     },
     {
       "repo": "kyya/dsh-deepseek-balance",
@@ -2139,6 +2151,12 @@
       "npm": "dsh-xiaohongshu-viral-note",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "kangjinghang/dsh-xueqiu",
+      "npm": "dsh-xueqiu",
+      "why": "published by wanderer-yk/dsh-xueqiu",
+      "since": "2026-09-03"
     },
     {
       "repo": "Argonaut790/dsh-zh-hant-hk",
