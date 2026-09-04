@@ -1,14 +1,24 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-04",
   "candidates": [
     {
-      "repo": "ash-qw/dsh-theme-prts",
+      "repo": "10086ggqq/dsh_theme_Minecraft",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 2,
+      "description": "把 DeepSeek Harness 变成 Minecraft Java Edition 风格——WebGL 旋转全景主菜单、存档式会话选择、四种游戏模式对应 Agent 预设、世界内 HUD 聊天台、像素风工具卡片与审批面板、AI 思考时触发跑酷小游戏、8-bit 合成音效与自定义背景音乐、五类互动桌宠与红石粒子特效。零侵入 DSH 核心源码，经典界面一键切回。",
+      "discovered": "2026-09-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "123twtd/dsh-skin-manager",
       "sources": [
         "github-topic"
       ],
       "stars": 0,
-      "description": "Unofficial personal non-commercial Arknights P.R.T.S. fan UI for DeepSeek Harness",
-      "discovered": "2026-09-01",
+      "description": "DeepSeek Harness (dsh) 可切换皮肤包管理器：皮肤包发现/激活/ZIP 导入，适配 0.1.x，含爱弥斯示例皮肤",
+      "discovered": "2026-09-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -21,6 +31,36 @@
       "note": "install path proven, but no usable description upstream"
     },
     {
+      "repo": "dshworks/dshthemes",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "dshthemes.com — every DeepSeek Harness theme, in its own colours. A reader of dshworks/awesome-dsh-themes.",
+      "discovered": "2026-09-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "FourTow/dsh-theme-win98",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Windows 98 theme plugin for DeepSeek Harness web",
+      "discovered": "2026-09-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "frank-fan-818/dsh-f1-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "An F1 Race Control themed skin for the DeepSeek Harness Web UI — Red Bull, Ferrari, McLaren & Mercedes team themes, broadcast-photo backdrops, and a native settings panel, in dark and light.",
+      "discovered": "2026-09-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "hanhan1137/theme-coach-dsh",
       "sources": [
         "github-topic"
@@ -31,12 +71,22 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
-      "repo": "imcp-pro/dsh-client-background",
+      "repo": "JefferyShaw/dsh-stardew-theme",
       "sources": [
         "github-topic"
       ],
       "stars": 0,
-      "discovered": "2026-09-01",
+      "discovered": "2026-09-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "kdzhang-hub/dsh-wallpaper",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 3,
+      "description": "Wallpaper Engine integration for DeepSeek Harness and Windows desktop customization.",
+      "discovered": "2026-09-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -48,6 +98,16 @@
       "description": "A cute cat meme desktop pet plugin for DSH (DeepSeek Harness) ",
       "discovered": "2026-08-20",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "marcemira/dsh-theme-nier-automata",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "NieR:Automata-inspired YoRHa theme for DeepSeek Harness web",
+      "discovered": "2026-09-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "menotbobbybrown/dsh-plugin-browser",
@@ -80,16 +140,6 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
-      "repo": "mykeura/dsh-minimalist-themes",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 0,
-      "description": "18 minimalist color themes for DeepSeek Harness. Pick one with a single click — it's just another plugin.",
-      "discovered": "2026-08-31",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
       "repo": "Sh1wu0814/dsh-chat-background",
       "sources": [
         "github-topic"
@@ -100,13 +150,13 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
-      "repo": "Waldsatte/dsh-theme-taojian",
+      "repo": "victor10035445/dsh-v-theme",
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
-      "description": "Taojian (陶笺) — Claude-inspired DSH theme",
-      "discovered": "2026-09-01",
+      "stars": 1,
+      "description": "theme plugin for deepseek harness by victor",
+      "discovered": "2026-09-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     }
   ]
