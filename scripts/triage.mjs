@@ -24,6 +24,8 @@
 //   node scripts/triage.mjs                drain data/candidates.json
 //   node scripts/triage.mjs --dry-run      decide everything, write nothing
 //   node scripts/triage.mjs --prove        re-prove entries already listed
+//   node scripts/triage.mjs --prove --evidence=@deepseek-ai/cordis
+//                                          re-prove only rows whose receipt matches
 //   node scripts/triage.mjs --redescribe   re-derive descriptions the gates refuse
 //   node scripts/triage.mjs --limit 50     stop after 50 repos
 //   node scripts/triage.mjs --report f.json  write the full per-repo trace
@@ -40,7 +42,13 @@ const TOKEN = process.env.GITHUB_TOKEN ?? "";
 
 const argv = process.argv.slice(2);
 const has = (flag) => argv.includes(flag);
+// Both spellings. `--evidence=@deepseek-ai/cordis` used to parse as an unknown
+// token and silently fall back, which turned a 421-row targeted pass into a
+// 13,376-row one that re-dated the whole registry. An option that quietly
+// means something else than it says is worse than one that errors.
 const opt = (flag, fallback) => {
+  const inline = argv.find((a) => a.startsWith(`${flag}=`));
+  if (inline) return inline.slice(flag.length + 1) || fallback;
   const i = argv.indexOf(flag);
   return i >= 0 && argv[i + 1] ? argv[i + 1] : fallback;
 };
@@ -48,6 +56,10 @@ const DRY = has("--dry-run");
 const PROVE = has("--prove");
 const REDESCRIBE = has("--redescribe");
 const LIMIT = Number(opt("--limit", Infinity));
+// A rule change usually invalidates a nameable slice of the registry, not all
+// of it. Re-proving 13k rows to fix 421 wastes an hour and re-dates rows the
+// change never touched, so --prove can be pointed at the receipts in question.
+const EVIDENCE_FILTER = opt("--evidence", null);
 const REPORT = opt("--report", null);
 
 // A rejection for absence of evidence is a snapshot, not a verdict: the repo
@@ -268,12 +280,23 @@ function vendoredFrom(pkg, repo) {
 
 // A package.json is a proof if it names dsh in a way dsh itself reads — and if
 // it is this repo's own file rather than a copy of somebody else's.
+// `@deepseek-ai/` is not one thing. `dsh-tools` is the harness; `cordis` is the
+// DI container the harness happens to be built on and `schemastery` is a schema
+// library, both published standalone and usable by anything. Depending on those
+// proves you use a DeepSeek library, not that dsh loads you.
+const HARNESS_DEP = /^@deepseek-ai\/dsh(-|$)/;
+
 function proveFromPackage(pkg, path, repo) {
   if (!pkg) return null;
   if (vendoredFrom(pkg, repo)) return null;
   if (pkg.dsh?.bundle) return { evidence: `${path}#dsh.bundle`, why: "dsh.bundle manifest" };
   if (pkg.dsh) return { evidence: `${path}#dsh.${Object.keys(pkg.dsh).join("+")}`, why: "dsh manifest" };
-  const ds = depsOf(pkg).filter(([, d]) => d.startsWith("@deepseek-ai/"));
+  // Take the harness dep, not merely the first `@deepseek-ai/` one. `ds[0]` was
+  // an alphabetical accident: `cordis` and `schemastery` both sort ahead of
+  // every `dsh-*`, so a package.json naming both got the receipt that proves
+  // the least. 421 listed rows cited a generic library; 27 of 30 hand-checked
+  // had a real harness dep in the very same file.
+  const ds = depsOf(pkg).filter(([, d]) => HARNESS_DEP.test(d));
   if (ds.length) {
     const [section, name] = ds[0];
     return { evidence: `${path}#${section}.${name}`, why: `depends on ${name}` };
@@ -344,7 +367,9 @@ async function proveRoot(repo) {
     pkgName: pkg?.name ?? null,
     pkgDesc: pkg?.description ?? null,
     private: pkg?.private === true,
-    cordis: depsOf(pkg).some(([, d]) => d === "cordis" || d.startsWith("cordis-")),
+    cordis: depsOf(pkg).some(([, d]) => d === "cordis" || d.startsWith("cordis-")
+      || d === "@deepseek-ai/cordis" || d.startsWith("@deepseek-ai/cordis-")
+      || d === "@deepseek-ai/schemastery"),
     hasSkill: !!skill,
     skillFrontmatter: skill ? SKILL_FRONTMATTER.test(skill) : false,
     hasReadme: !!readme,
@@ -649,7 +674,10 @@ const candidatesFile = read("data/candidates.json");
 // checked one. This turns that claim into a citation, or removes it.
 
 if (PROVE) {
-  const targets = registry.plugins.filter((p) => !p.official).slice(0, LIMIT);
+  const targets = registry.plugins
+    .filter((p) => !p.official)
+    .filter((p) => !EVIDENCE_FILTER || (p.evidence ?? "").includes(EVIDENCE_FILTER))
+    .slice(0, LIMIT);
   console.error(`triage: proving ${targets.length} listed entries (skipping ${registry.plugins.length - targets.length} first-party/limited)`);
   const results = await pooled(targets, async (p) => {
     // An entry with a `path` names its own subdirectory: prove that, not the
