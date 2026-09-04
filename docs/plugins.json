@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -244374,6 +244374,26 @@
         "capabilities"
       ],
       "pushedAt": "2026-08-31"
+    },
+    {
+      "name": "dsh-plugin-auto-review",
+      "repo": "delef/dsh-plugin-auto-review",
+      "description": "Provider-backed automatic approval review for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-04",
+      "lastVerified": "2026-09-04",
+      "verifiedAgainst": "0.1.2-alpha.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-plugin-auto-review",
+      "stars": 1,
+      "starsUpdated": "2026-09-04",
+      "tags": [
+        "safety",
+        "models"
+      ],
+      "pushedAt": "2026-09-03"
     }
   ]
 }

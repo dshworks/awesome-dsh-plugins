@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-424 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+425 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -227,6 +227,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-perm-guard | 1 | [a903067276-rgb/dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) | 权限管理插件：DSH 会话权限档位管理与守卫（开发中） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plan-approval | 1 | [guillaumemeyer/dsh-plan-approval](https://github.com/guillaumemeyer/dsh-plan-approval) | Fullscreen, Grok-Build-style DSH plan-review overlay with vim navigation, inline search, inline comments, and comment integration into the plan. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-plugin-auth-guard | 1 | [lijx122/dsh-plugin-auth-guard](https://github.com/lijx122/dsh-plugin-auth-guard) | Enterprise-grade Zero-Trust Authentication, LAN/Public Access Control & Security Gate Plugin for DeepSeek Harness (DSH). | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-auto-review | 1 | [delef/dsh-plugin-auto-review](https://github.com/delef/dsh-plugin-auto-review) · [npm](https://www.npmjs.com/package/dsh-plugin-auto-review) | Provider-backed automatic approval review for DeepSeek Harness. | 0.1.2-alpha.3 (2026-09-04) |
 | dsh-plugin-code-review | 1 | [YYTbit/dsh-plugin-code-review](https://github.com/YYTbit/dsh-plugin-code-review) · [npm](https://www.npmjs.com/package/dsh-plugin-code-review) | Structured code review skill for DeepSeek Harness -- bugs, security, performance, style | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-daifuyan | 1 | [daifuyang/dsh-plugin](https://github.com/daifuyang/dsh-plugin/tree/HEAD/plugins/auth) | Optional auth layer for dsh: login overlay for the Web GUI and /login, /logout, /whoami commands + a tools/pre-execute permission gate (POC). | unverified |
 | dsh-plugin-dedup | 1 | [lordship12138-crypto/dsh-plugin-dedup](https://github.com/lordship12138-crypto/dsh-plugin-dedup) | Review duplicate dynamic Cordis plugins and produce merge plans for DeepSeek Harness (DSH). Detects content-similar packages (token Jaccard/containment), clusters duplicates, and yields safe merge | 0.1.0-rc.8 (2026-08-20) |
