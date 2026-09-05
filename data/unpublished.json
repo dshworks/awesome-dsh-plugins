@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-09-04",
+  "checked": "2026-09-05",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 379,
+  "count": 381,
   "packages": [
     {
       "repo": "shililinghu/dsh-file-upload-deepseek-harness-plug-in",
@@ -376,6 +376,12 @@
       "since": "2026-08-22"
     },
     {
+      "repo": "oThTJx/dsh-skill-always-apply",
+      "npm": "@firefly0621/dsh-skill-always-apply",
+      "why": "no such package",
+      "since": "2026-09-05"
+    },
+    {
       "repo": "oThTJx/dsh-skill-impeccable",
       "npm": "@firefly0621/dsh-skill-impeccable",
       "why": "no such package",
@@ -404,6 +410,12 @@
       "npm": "@gamegeek-saikel/dsh-coding-agent-preset",
       "why": "published by saikel-orado-liu/dsh-coding-agent-preset",
       "since": "2026-08-24"
+    },
+    {
+      "repo": "GooDAnDReaDY/dsh-im-hub-media",
+      "npm": "@goodandready/dsh-im-hub-media",
+      "why": "no such package",
+      "since": "2026-09-05"
     },
     {
       "repo": "781316853/dsh-provider-quota",
