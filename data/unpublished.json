@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-09-05",
+  "checked": "2026-09-06",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 381,
+  "count": 382,
   "packages": [
     {
       "repo": "shililinghu/dsh-file-upload-deepseek-harness-plug-in",
@@ -2230,6 +2230,12 @@
       "npm": "hermes-to-dsh",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "jingzhao-l/iterate-plugin",
+      "npm": "iterate-plugin",
+      "why": "published by jingzhao-l/iterate-skill",
+      "since": "2026-09-06"
     },
     {
       "repo": "fieldnote-ops/keyringseam",
