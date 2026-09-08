@@ -250278,6 +250278,134 @@
         "marketplace"
       ],
       "pushedAt": "2026-09-04"
+    },
+    {
+      "name": "dsh-clinebot",
+      "repo": "GooDAnDReaDY/dsh-clinebot",
+      "description": "ClineBot and ClinePass integration for DeepSeek Harness with a settings page, live quota dashboard, in-UI key saving, model selection, and a /cline command.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-08",
+      "lastVerified": "2026-09-08",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-clinebot",
+      "stars": 0,
+      "starsUpdated": "2026-09-08",
+      "tags": [
+        "models"
+      ]
+    },
+    {
+      "name": "dsh-cost-meter",
+      "repo": "GooDAnDReaDY/dsh-cost-meter",
+      "description": "Session cost chip in the DeepSeek Harness conversation header showing live token usage by bucket, peak/off-peak tariff pricing, and a countdown to the next tariff switch.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-08",
+      "lastVerified": "2026-09-08",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-cost-meter",
+      "stars": 0,
+      "starsUpdated": "2026-09-08",
+      "tags": [
+        "usage"
+      ]
+    },
+    {
+      "name": "dsh-cron",
+      "repo": "GooDAnDReaDY/dsh-cron",
+      "description": "Scheduled cron tasks, background automation and agent execution for DeepSeek Harness.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-08",
+      "lastVerified": "2026-09-08",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-cron",
+      "stars": 0,
+      "starsUpdated": "2026-09-08",
+      "tags": [
+        "agents",
+        "automation"
+      ]
+    },
+    {
+      "name": "dsh-dsml-artifact-guard",
+      "repo": "GooDAnDReaDY/dsh-dsml-artifact-guard",
+      "description": "Sanitizes leaked DeepSeek DSML closing tags from model text streams.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-08",
+      "lastVerified": "2026-09-08",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-dsml-artifact-guard",
+      "stars": 0,
+      "starsUpdated": "2026-09-08",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "name": "dsh-goal",
+      "repo": "GooDAnDReaDY/dsh-goal",
+      "description": "Goal mode and autonomous execution plugin for DeepSeek Harness with a sticky top banner, milestone task breakdown, live elapsed timer, and interactive controls.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-08",
+      "lastVerified": "2026-09-08",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-goal",
+      "stars": 0,
+      "starsUpdated": "2026-09-08",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
+      "name": "dsh-moa",
+      "repo": "GooDAnDReaDY/dsh-moa",
+      "description": "Mixture-of-Agents plugin for DeepSeek Harness with a /moa slash command, parallel model proposals, sandbox file isolation, and frontier judge synthesis.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-08",
+      "lastVerified": "2026-09-08",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-moa",
+      "stars": 1,
+      "starsUpdated": "2026-09-08",
+      "tags": [
+        "agents",
+        "models"
+      ]
+    },
+    {
+      "name": "dsh-session-control",
+      "repo": "GooDAnDReaDY/dsh-session-control",
+      "description": "Session management for the DeepSeek Harness sidebar with pinning, content search, archived transcripts, and noise hiding.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-08",
+      "lastVerified": "2026-09-08",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-session-control",
+      "stars": 0,
+      "starsUpdated": "2026-09-08",
+      "tags": [
+        "memory"
+      ]
     }
   ]
 }
