@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -19575,6 +19575,23 @@
         "safety"
       ],
       "pushedAt": "2026-08-20"
+    },
+    {
+      "name": "dsh-alpha",
+      "repo": "songofhawk/dsh-alpha",
+      "description": "Multi-machine, multi-agent control plane for DSH: discovers Agents and workspaces, routes tasks by machine, repository, capability and load, streams progress and approvals, and recovers after outages.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.0-rc.8",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-alpha",
+      "tags": [
+        "agents",
+        "interop"
+      ]
     },
     {
       "name": "dsh-alpha-desk",
