@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-1092 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1093 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -836,6 +836,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-agent-plugin-bridge | 0 | [dubeno/dsh-agent-plugin-bridge](https://github.com/dubeno/dsh-agent-plugin-bridge) | Generic Agent Plugins 1.0 → DeepSeek Harness bridge: discovers plugin.json packages, registers skills and MCP servers. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-agent-skill-manager | 0 | [ArkFishingLab/dsh-agent-skill-manager](https://github.com/ArkFishingLab/dsh-agent-skill-manager) | Agent & Skill management UI for DeepSeek Harness: list agent presets and skills from Settings. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-agent-teams-misright | 0 | [MisRightW/dsh-agent-teams](https://github.com/MisRightW/dsh-agent-teams) | Standalone maintenance workspace for the dsh-agent-teams plugin family (host engine + model-facing team tool + web role-board node) | 0.1.0-rc.8 (2026-08-21) |
+| dsh-alpha | 0 | [songofhawk/dsh-alpha](https://github.com/songofhawk/dsh-alpha) · [npm](https://www.npmjs.com/package/dsh-alpha) | 主控 agent 统一编排：dsh 插件形式的多机多 agent 指挥层 | 0.1.1-rc.2 (2026-09-09) |
 | dsh-audit-missing | 0 | [baiyang123/dsh-audit-missing](https://github.com/baiyang123/dsh-audit-missing) | 任务遗漏审核：提交前扫描当前工作空间未提交改动 + 读设计文档，派 DSH 默认模型做「设计文档承诺 vs 实际实现」的差集比对，输出遗漏清单，并提供独立可视化视图（独立插件，装在 ~/.dsh，升级核心不覆盖） | 0.1.1-rc.2 (2026-09-01) |
 | dsh-automation-alpacach | 0 | [alpacachen/dsh-automation](https://github.com/alpacachen/dsh-automation) | Durable agent-created automations for DeepSeek Harness | 0.1.1-rc.2 (2026-09-01) |
 | dsh-b2us-schedule | 0 | [changyinliangbaikai/dsh-b2us-schedule](https://github.com/changyinliangbaikai/dsh-b2us-schedule) | Durable conversational and Web-managed scheduled Agent, shell, and system-notification tasks for DeepSeek Harness. | 0.1.1-rc.2 (2026-09-01) |

@@ -9283,7 +9283,6 @@
       "verifiedAgainst": "0.1.0-rc.8",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
-      "npm": "@anarkhgatsby/deepseek-harness-insights",
       "stars": 2,
       "starsUpdated": "2026-09-08",
       "tags": [
@@ -253502,6 +253501,24 @@
       "starsUpdated": "2026-09-09",
       "tags": [
         "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-alpha",
+      "repo": "songofhawk/dsh-alpha",
+      "description": "主控 agent 统一编排：dsh 插件形式的多机多 agent 指挥层",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-alpha",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "agents"
       ]
     }
   ]
