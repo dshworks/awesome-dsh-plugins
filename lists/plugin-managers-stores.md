@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-473 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+475 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -58,6 +58,7 @@ In-UI stores, installers, skill managers.
 | dsh-mcp | 12 | [ArvinQi/dsh-mcp](https://github.com/ArvinQi/dsh-mcp) · [npm](https://www.npmjs.com/package/dsh-mcp) | MCP server 管理插件（独立版）：托管 MCP 服务器注册表（持久化定义、运行时挂载、环境变量注入、连接探测）+ Web 设置管理页。由 deepseek-harness 仓库内的 mcp-manager / ui-settings-mcp / web-mcp 迁移合并而来。MCP server registry with WebUI management for DeepSeek | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-manager-ytxue | 12 | [YTxue/dsh-skill-manager-ytxue](https://github.com/YTxue/dsh-skill-manager-ytxue) | Settings-sidebar skill manager: list and toggle, folder import, DSH-spec check and auto-fix. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-manager-sulfide2085 | 11 | [sulfide2085/dsh-skill-manager](https://github.com/sulfide2085/dsh-skill-manager) | DSH 设置页技能管理器：展示全部已加载 skill（含调用策略/来源/状态），支持启用/停用热开关 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-stream-market | 11 | [Minglink/dsh-stream-market](https://github.com/Minglink/dsh-stream-market) | DeepSeek Harness 内置可视化插件市场 — 浏览、搜索、一键安装、热切换与全生命周期管理 | 0.1.1-rc.2 (2026-09-09) |
 | dsh-a2a | 10 | [dpskh/dsh-a2a](https://github.com/dpskh/dsh-a2a) | Agent2Agent interop for the DeepSeek Harness in one package — the realtime mesh hub (project registry, immutable message history, WebSocket presence) and mesh client (per-agent connections, serial | 0.1.0-rc.8 (2026-08-20) |
 | dsh-hot-installer | 9 | [KYinCode/dsh-hot-installer](https://github.com/KYinCode/dsh-hot-installer) · [npm](https://www.npmjs.com/package/dsh-hot-installer) | Hot-install, hot-remove, hot-update and replay-protected profile bundles for DeepSeek Harness: install once, restart once, and every later `dsh plugin add` / `remove` / `update` takes effect live — | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-market-springbr | 9 | [springbrand-lab/dsh-plugin-market](https://github.com/springbrand-lab/dsh-plugin-market) · [npm](https://www.npmjs.com/package/@springbrand/dsh-plugin-marketplace) | A visual plugin marketplace for DeepSeek Harness profiles. | 0.1.0-rc.8 (2026-08-20) |
@@ -73,6 +74,7 @@ In-UI stores, installers, skill managers.
 | dsh-crew-stuarthu | 7 | [stuarthu/dsh-crew](https://github.com/stuarthu/dsh-crew) · [npm](https://www.npmjs.com/package/dsh-crew) | DeepSeek Harness (dsh) plugin: run work as a small crew of role agents (product manager, engineer, code reviewer) that talk through files on disk, with the PM as the only voice to the user. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-desktop-safe-market | 7 | [bruc3van/dsh-desktop-safe-market](https://github.com/bruc3van/dsh-desktop-safe-market) · [npm](https://www.npmjs.com/package/dsh-desktop-safe-market) | A safety-first plugin marketplace for the DeepSeek Harness web GUI: a curated community shortlist, and an install that starts with a security review | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-manager-nonentit | 7 | [nonentity303/dsh-plugin-manager](https://github.com/nonentity303/dsh-plugin-manager) · [npm](https://www.npmjs.com/package/dsh-plugin-manager-pro) | 本地插件管理器：分类折叠、更新源一键更新（npm/GitHub/插件超市）、浏览器下载优先、下载目录自动安装、救砖与启动前自检 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-manager-pelydeng | 7 | [PelyDeng/dsh-plugin-manager](https://github.com/PelyDeng/dsh-plugin-manager/tree/HEAD/packages/plugin-kit) | Optional identity, HTTP and tool integration for DSH plugins | 0.1.1-rc.2 (2026-09-09) |
 | dsh-plugins-store-dshmarke | 7 | [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) · [npm](https://www.npmjs.com/package/dshmarketplace-plugin) | Browse and install DeepSeek Harness plugins from inside DSH, in English or Chinese. | 0.1.0-rc.8 (2026-08-20) |
 | dexthemes | 6 | [daeshawnballard/dexthemes](https://github.com/daeshawnballard/dexthemes/tree/HEAD/packages/deepseek-harness-plugin) · [npm](https://www.npmjs.com/package/@dexthemes/deepseek-harness-plugin) | Discover, preview, apply, restore, and revert themes in DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-accessory-hub | 6 | [Eidosiny/dsh-accessory-hub](https://github.com/Eidosiny/dsh-accessory-hub) | 配件中心：DSH Web GUI 悬浮卡片，聚合插件/预设/技能卡片，支持自定义显示名与颜色、彩色关系连线，并可一键在输入框注入“请使用xxx”前缀 | 0.1.0-rc.8 (2026-08-20) |

@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-214 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+215 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -20,6 +20,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-clawbot-cryjkd | 7 | [cryjkd/dsh-clawbot](https://github.com/cryjkd/dsh-clawbot) | 微信官方 ilink 机器人网关绑定+通知+监听（ClawBot）：扫码绑定、微信在线/断线状态、自动通知开关、批准/选择提醒、微信消息监听并自动处理 | 0.1.1-rc.2 (2026-09-04) |
 | dsh-lark-meeting-notifier | 7 | [yeruizhi/dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier) | Feishu meeting reminder dock: flash when it is time to leave the agent and join a human meeting. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-notify-center | 7 | [SingleOne/dsh-notify-center](https://github.com/SingleOne/dsh-notify-center) | Unified native desktop and webhook notifications for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-notify-windows | 7 | [SeverusZh/dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) | DeepSeek Harness (DSH) 插件：任务完成 / 等待审批 / 等待回答时发送 Windows 系统桌面通知 | 0.1.1-rc.2 (2026-09-09) |
 | dsh-task-notify-linxin | 7 | [ltao0829/dsh-task-notify](https://github.com/ltao0829/dsh-task-notify) · [npm](https://www.npmjs.com/package/@ltao0829/dsh-task-notify) | Task-completion reminder for DeepSeek Harness: in-page toast, OS notification, and sound when an agent turn or background job finishes | 0.1.0-rc.8 (2026-08-20) |
 | dsh-complete-notify | 6 | [kaixinbaba/dsh-complete-notify](https://github.com/kaixinbaba/dsh-complete-notify) · [npm](https://www.npmjs.com/package/dsh-complete-notify) | 任务完成时播放提示音并弹出小通知（页面内 toast + 后台时系统通知），按结果状态着色（完成/阻塞等待反馈/中断/失败），附带一句话小结（recap）与运行统计（时长/tokens/步骤）。纯浏览器方案，零系统依赖，跨 Windows/macOS/Linux。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-call-me | 6 | [radres/dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) | Your DeepSeek Harness agent rings your phone: it asks out loud, you answer out loud, and what you said steers the run. | 0.1.0-rc.8 (2026-08-20) |

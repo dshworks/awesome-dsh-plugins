@@ -4,7 +4,7 @@
 
 Research workbenches, RAG, learning modes.
 
-446 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+448 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -44,6 +44,7 @@ Research workbenches, RAG, learning modes.
 | dsh-search-mcp | 12 | [gxpppp/dsh-search-mcp](https://github.com/gxpppp/dsh-search-mcp) | Replace dsh's built-in web search with search MCP servers (Tavily / Brave / Exa / Perplexity / DuckDuckGo / custom), configured from the web Settings page. When this plugin is enabled the built-in | 0.1.0-rc.8 (2026-08-20) |
 | dsh-kb-rag-breeze13 | 11 | [Breeze136/dsh-kb-rag](https://github.com/Breeze136/dsh-kb-rag/tree/HEAD/npm-package) · [npm](https://www.npmjs.com/package/dsh-kb-rag) | Local literature knowledge-base RAG tools for DSH: hybrid retrieval + rerank + cited answers over a SQLite index (bundled Python engine). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-zotero-hongchen | 10 | [Hongcheng-LI/dsh-zotero](https://github.com/Hongcheng-LI/dsh-zotero) | Zotero tools for DeepSeek Harness: search your library, read item metadata, list collections and attachments, download PDFs and attach notes via the Zotero local API. | 0.1.0-rc.8 (2026-08-20) |
+| movo | 10 | [himovo/movo](https://github.com/himovo/movo/tree/HEAD/services/chat-api/dsh/runtime-host) | Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research, content generation, vibe coding, browser automation, governance, and admin controls. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-plugin-miliastra-toolbox | 9 | [1475505/dsh-plugin-miliastra-toolbox](https://github.com/1475505/dsh-plugin-miliastra-toolbox) | DeepSeek Harness plugin: 千星沙箱知识库（节点/指南/教程/FAQ）查询工具与技能 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-science-workbench | 9 | [poplarity/dsh-science-workbench](https://github.com/poplarity/dsh-science-workbench) · [npm](https://www.npmjs.com/package/dsh-science-workbench) | Reproducible science workbench: agent-driven cells, inline figures, provenance, and environment snapshots. | 0.1.0-rc.8 (2026-08-20) |
 | snapgrep | 9 | [Owen718/snapgrep](https://github.com/Owen718/snapgrep) · [npm](https://www.npmjs.com/package/snapgrep) | An in-process trigram index that makes code search in Pi and DeepSeek Harness 20-90x faster than ripgrep, with identical results. | 0.1.0-rc.8 (2026-08-20) |
@@ -62,6 +63,7 @@ Research workbenches, RAG, learning modes.
 | dsh-ecc | 6 | [gongyijie85/dsh-ecc](https://github.com/gongyijie85/dsh-ecc) · [npm](https://www.npmjs.com/package/dsh-ecc-skills) | ECC (227k-star operator system) skills for DeepSeek Harness — progressive port: v0.1 ships 20 curated single-file skills (agentic engineering, evaluation, testing, patterns, docs); 270+ more follow. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-obsidian-math | 6 | [maple110011/dsh-obsidian-math](https://github.com/maple110011/dsh-obsidian-math/tree/HEAD/dsh/profile) | Obsidian side-panel math memory agent for DeepSeek Harness: layered long-term memory, idea memo with proactive review reminders, dedicated note search/create/backlink tools. Ships as both a dsh | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-wiki-tools | 6 | [Lion-1209/dsh-plugin-wiki-tools](https://github.com/Lion-1209/dsh-plugin-wiki-tools) · [npm](https://www.npmjs.com/package/dsh-plugin-wiki-tools) | Native DeepSeek Harness tools for an Obsidian wiki vault: wiki_query, wiki_write, and wiki_lint implement the mechanical core (path routing, delta tracking, index/log bookkeeping, health checks) of | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugins-sugarfor | 6 | [sugarforever/dsh-plugins](https://github.com/sugarforever/dsh-plugins/tree/HEAD/dsh-zvec-grep) | Alibaba zvec-grep workspace search integration for DeepSeek Harness | 0.1.1-rc.2 (2026-09-09) |
 | academic-research-graph | 5 | [watericetangcw/academic-research-graph](https://github.com/watericetangcw/academic-research-graph) | DeepSeek Harness bundle for the Academic Research Graph Skill | 0.1.0-rc.8 (2026-08-20) |
 | dsh-client-ui-writing | 5 | [x2802490130-prog/dsh-client-ui-writing](https://github.com/x2802490130-prog/dsh-client-ui-writing) · [npm](https://www.npmjs.com/package/dsh-client-ui-writing) | Client-side writing panel for the DeepSeek Harness: project volumes, library, search, and evolution tab with inline version-chain diff and SVG thread graph. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-context7 | 5 | [Nrxous/dsh-context7](https://github.com/Nrxous/dsh-context7) · [npm](https://www.npmjs.com/package/dsh-context7) | Context7 up-to-date library documentation for DSH: context7_search / context7_get_docs model tools backed by the Context7 Public API v2 (context7.com). | 0.1.0-rc.8 (2026-08-20) |

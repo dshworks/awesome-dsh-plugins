@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-179 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+182 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -36,11 +36,13 @@ Building, testing, and publishing plugins.
 | dsh-director-toolkit | 7 | [lhmd/dsh-director-toolkit](https://github.com/lhmd/dsh-director-toolkit) | DeepSeek Harness plugin that turns a 3D idea into a shootable scene brief and publish-ready showcase copy. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-doctor-zoahdev | 7 | [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) | Health checks for DeepSeek Harness: plugin manifest/patch/entry/build/pack/install verification, model-callable plugin_check, profile host-shadowing detection, and environment diagnostics | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-template-kun25cod | 7 | [kun2-5code/dsh-plugin-template](https://github.com/kun2-5code/dsh-plugin-template) | A starter template for DeepSeek Harness (dsh) plugins: GUI-editable config, tools, events, services, hooks, and a browser client half in one installable bundle. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-envoy | 6 | [KhalilYamber/dsh-envoy](https://github.com/KhalilYamber/dsh-envoy/tree/HEAD/bundled) | DSH Envoy bundled 腿的官方 SDK runtime 配置项目（依赖清单 = 官方 examples/jsonrpc-agent/cordis.yml 的全部 bare plugin + SDK runtime bin + SDK client，0.1.0 发布线对齐）。 | 0.1.1-rc.2 (2026-09-09) |
 | dsh-plugin-doctor-whitesan | 6 | [white-sand-grand/dsh-plugin-doctor](https://github.com/white-sand-grand/dsh-plugin-doctor) | DSH plugin doctor: community search, similarity analysis, and install/dedupe/build-it-yourself decisions for the dsh-plugin ecosystem. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-template-sunshine | 6 | [sunshine-lang/dsh-plugin-template](https://github.com/sunshine-lang/dsh-plugin-template) | {{DESCRIPTION}} | 0.1.0-rc.8 (2026-08-20) |
 | dsh-prompt | 6 | [FeatherHunter/dsh-prompt](https://github.com/FeatherHunter/dsh-prompt) | DSH prompt 工具箱：预制 + 自定义 prompt 模板，点击即插入当前对话输入框（v1 常规模式 + v1.1 智能模式悬浮卡） \| Prompt toolbox for DeepSeek Harness: preset + custom prompt templates, one-click insert into the conversation. | 0.1.0-rc.8 (2026-08-20) |
 | Succinix | 6 | [CJackHwang/Succinix](https://github.com/CJackHwang/Succinix) | POC: Lifo (Unix-in-TypeScript) running inside WebContainer, sharing the container filesystem via node:fs mount. | unverified |
 | veripower | 6 | [chipweaver/veripower](https://github.com/chipweaver/veripower) | AI-assisted IC design flow skills — specification, RTL, lint/CDC, simulation, synthesis, timing analysis, and signoff | 0.1.0-rc.8 (2026-08-25) |
+| dsh-fylar-office-editor | 5 | [FylarOpen/dsh-fylar-office-editor](https://github.com/FylarOpen/dsh-fylar-office-editor) | Fylar Office Editor integration for the DeepSeek Harness Web profile, powered by Fylar Office SDK | 0.1.1-rc.2 (2026-09-09) |
 | dsh-plugin-design | 5 | [huabai-flowerwhite/dsh-plugin-design](https://github.com/huabai-flowerwhite/dsh-plugin-design) | dsh plugin design — DH-TP-SDK 第三方插件规范适配与自动修改元插件 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-test-drive | 5 | [PerryLink/dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) · [npm](https://www.npmjs.com/package/dsh-test-drive) | Isolated install-and-smoke test drives for DeepSeek Harness plugins: installs a repo or npm package into a throwaway DSH_HOME profile, verifies the bundle patch layer and boot logs, records a | 0.1.0-rc.8 (2026-08-20) |
 | fylar-office-editor | 5 | [FylarOpen/fylar-office-editor](https://github.com/FylarOpen/fylar-office-editor) | Fylar Office Editor integration for the DeepSeek Harness Web profile, powered by Fylar Office SDK | 0.1.1-rc.2 (2026-09-04) |
@@ -55,6 +57,7 @@ Building, testing, and publishing plugins.
 | dsh-shutdown | 3 | [knlght/DSH-shutdown](https://github.com/knlght/DSH-shutdown) · [npm](https://www.npmjs.com/package/dsh-shutdown) | DeepSeek Harness 关机插件：Settings 增加「关机」页，一键优雅退出 DSH 服务（先响应页面再退出进程）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sonarqube | 3 | [maxmilian/dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) | Read-only SonarQube Community Build tools for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-testgen | 3 | [bujue600-arch/dsh-testgen](https://github.com/bujue600-arch/dsh-testgen) | Automated unit-test generation for DeepSeek Harness: a /testgen command and generate_tests tool that scaffold, run, and fix tests until they pass. | 0.1.0-rc.8 (2026-08-20) |
+| DSHBox-wskbuild | 3 | [WSK-build/DSHBox](https://github.com/WSK-build/DSHBox/tree/HEAD/app/src/main/assets/plugins/dsh-mobile-adapt/plugin) | Run DeepSeek Harness locally on Android phones and tablets. One APK with Debian, Node.js, DSH, and WebView — no root or Termux required. 在安卓手机和平板上本机运行完整 DSH。 | 0.1.1-rc.2 (2026-09-09) |
 | gitee-ai-employee | 3 | [wangbobo-coder/gitee-ai-employee](https://github.com/wangbobo-coder/gitee-ai-employee) | Gitee/GitHub AI 员工：在 issue 里 @ 机器人，它自动克隆仓库、按你指定的分支开发并提交 PR（可自动合并、自动关闭 issue）。An issue-driven AI developer for DeepSeek Harness (Gitee & GitHub): @ the bot on an issue, it clones the repo, implements | 0.1.0-rc.8 (2026-08-25) |
 | deepseek-harness-desktop-antonyji | 2 | [Antony-Jia/deepseek-harness-desktop](https://github.com/Antony-Jia/deepseek-harness-desktop/tree/HEAD/dsh-plugin-template) | DSH 插件模板：复制此目录后改成你自己的包（宿主 + 浏览器双半） | 0.1.0-rc.8 (2026-08-21) |
 | deepseek-rust-harness | 2 | [leemiracle/deepseek-rust-harness](https://github.com/leemiracle/deepseek-rust-harness) · [npm](https://www.npmjs.com/package/deepseek-rust-harness) | Rust dev domain plugin for DeepSeek Harness (dsh): verification pyramid fmt→clippy→build+test→miri+audit(+semver) as model-facing tools + graph-layer governance (anti-Goodhart 8 rules incl. #[allow] | 0.1.0-rc.8 (2026-08-20) |

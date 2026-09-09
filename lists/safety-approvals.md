@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-440 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+442 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -40,6 +40,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-multi-folder | 8 | [AngelosZou/dsh-multi-folder](https://github.com/AngelosZou/dsh-multi-folder) · [npm](https://www.npmjs.com/package/dsh-multi-folder) | DeepSeek Harness plugin: secondary working directories for a project. The agent keeps the primary workspace as cwd, gains equal write/exec permissions on configured secondary directories under workspa | 0.1.0-rc.8 (2026-08-20) |
 | dsh-multi-tenant | 8 | [GuoMonth/dsh-multi-tenant](https://github.com/GuoMonth/dsh-multi-tenant) | Multi-tenant SaaS extension for DeepSeek Harness (DSH): tenant identity, session ownership, authorization boundaries, tenant-aware MCP, and audit. | unverified |
 | dsh-ponytail-mengyuil | 8 | [MengYuil/dsh-ponytail](https://github.com/MengYuil/dsh-ponytail) | Lazy senior dev mode for DeepSeek Harness: always-on minimal-code ruleset, intensity switching, and short review/audit/debt/gain/help skills | 0.1.0-rc.8 (2026-08-25) |
+| dsh-runtime-goatliam | 8 | [goatliamia/dsh-runtime](https://github.com/goatliamia/dsh-runtime/tree/HEAD/core/runtime-circuit) | Policy layer (consumer of dsh-runtime-progress): stalled x N -> circuit -> guard deny. Semantics: repeated failure with NO effect progress (execution=failed, effect=stalled), evidenced by the | 0.1.1-rc.2 (2026-09-09) |
 | dsh-runtime-react | 8 | [goatliamia/dsh-runtime-react](https://github.com/goatliamia/dsh-runtime-react/tree/HEAD/core/runtime-circuit) | Policy layer (consumer of dsh-runtime-progress): stalled x N -> circuit -> guard deny. Semantics: repeated failure with NO effect progress (execution=failed, effect=stalled), evidenced by the | 0.1.1-rc.2 (2026-09-04) |
 | dsh-webui-auth | 8 | [Yuuz12/dsh-webui-auth](https://github.com/Yuuz12/dsh-webui-auth) · [npm](https://www.npmjs.com/package/dsh-webui-auth) | WebUI login gate for DeepSeek Harness: account/password in Settings, then HTTP, bundle, API, and WebSocket require a session cookie. | 0.1.0-rc.8 (2026-08-20) |
 | cue-skills | 7 | [sensedeal/cue-skills](https://github.com/sensedeal/cue-skills/tree/HEAD/dsh/cue-omni-reader-guard) | DSH bundle: a tools/pre-execute guard that blocks SSRF (private/loopback/link-local/metadata) and enforces an allow-list or explicit consent for the Cue Omni Reader parse tool. | 0.1.0-rc.8 (2026-08-25) |
@@ -319,6 +320,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-dlp | 0 | [CharlotteN7/dsh-dlp](https://github.com/CharlotteN7/dsh-dlp) · [npm](https://www.npmjs.com/package/dsh-dlp) | Data-loss-prevention plugin for DeepSeek Harness: a non-configurable tool guard floor, tool-result redaction, and fail-closed telemetry redaction | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dolphin-security | 0 | [ccr-wer/dsh-dolphin-security](https://github.com/ccr-wer/dsh-dolphin-security) | 此为 DSH 生态插件。Dolphin - 主动巡检型安全防御插件，支持本地扫描与远程 SSH 巡逻。将渗透测试方法论（信息收集→漏洞探测→利用验证→报告）转化为主动防御巡检流程：基于 Semgrep 的扫描层与基于 SSH 的执行层相融合，可对本地目录做静态扫描，也可将扫描命令经 SSH 下发至远程主机执行并回收结构化结果。 | 0.1.1-rc.2 (2026-09-02) |
 | dsh-dros-vajraclaw | 0 | [Top-Celestial-Company-Ltd/dsh-dros-vajraclaw](https://github.com/Top-Celestial-Company-Ltd/dsh-dros-vajraclaw) · [npm](https://www.npmjs.com/package/dsh-plugin-vajraclaw) | Deterministic Runtime Execution Governance & Security Circuit-Breaker for DSH Agents | 0.1.0-rc.8 (2026-08-21) |
+| dsh-dsml-artifact-guard | 0 | [GooDAnDReaDY/dsh-dsml-artifact-guard](https://github.com/GooDAnDReaDY/dsh-dsml-artifact-guard) | Sanitizes leaked DeepSeek DSML closing tags from model text streams | 0.1.1-rc.2 (2026-09-09) |
 | dsh-edit-guardian | 0 | [LWLAymh/dsh-edit-guardian](https://github.com/LWLAymh/dsh-edit-guardian) | DSH plugin: file-change diff bar with keep/undo summary, and a dangerous-command approval gate with red highlighting for bash/pwsh | 0.1.1-rc.2 (2026-09-01) |
 | dsh-egress-guard | 0 | [LKRCharon/dsh-egress-guard](https://github.com/LKRCharon/dsh-egress-guard) | Local, zero-network, fail-closed secret preflight for DeepSeek Harness model requests. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-electrical-safety | 0 | [uckkk/dsh-electrical-safety](https://github.com/uckkk/dsh-electrical-safety) | electricalsafety：用电安全：按场景返回关键处置步骤（急救内容请以专业培训为准）。 | 0.1.0-rc.8 (2026-08-21) |

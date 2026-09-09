@@ -4,7 +4,7 @@
 
 Image understanding for text-only models.
 
-468 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+470 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -35,6 +35,7 @@ Image understanding for text-only models.
 | dsh-file-upload-a9030672 | 10 | [a903067276-rgb/dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) | Upload button + drag-and-drop files into DSH conversation as local paths (works with any vision plugin) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mmx-bridge | 10 | [welsione/dsh-mmx-bridge](https://github.com/welsione/dsh-mmx-bridge) | MiniMax multimodal bridge for DeepSeek Harness (DSH). One mmx_bridge tool covers describe/image/video/speech/music/cover/search/quota; optional web_search/read_image takeover; built-in client | 0.1.0-rc.8 (2026-08-20) |
 | dsh-deepseek-vision-siegfly | 9 | [siegfly/dsh-deepseek-vision](https://github.com/siegfly/dsh-deepseek-vision) · [npm](https://www.npmjs.com/package/dsh-deepseek-vision) | Out-of-tree dsh provider plugin: a DeepSeek gateway route that claims image input and transparently describes pasted images through a configured vision-language model (e.g. Qwen-VL) before the | 0.1.0-rc.8 (2026-08-20) |
+| dsh-origin-plugin | 9 | [Fantasality/dsh-origin-plugin](https://github.com/Fantasality/dsh-origin-plugin) | Drive Origin scientific plotting from DeepSeek Harness AI chat via MCP - 28 tools, styled multi-series plots, inline image preview, statistics batch (t/ANOVA/PCA/survival), stable error codes. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-windows-ocr | 9 | [maxwell-feng/dsh-windows-ocr](https://github.com/maxwell-feng/dsh-windows-ocr) · [npm](https://www.npmjs.com/package/@maxwell-feng/dsh-windows-ocr) | dsh plugin: recognize attached images with the built-in Windows OCR engine (Windows.Media.Ocr) and send only the recognized text to the model — image bytes never leave the machine. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-free-vision | 8 | [FuzzySoul/dsh-free-vision](https://github.com/FuzzySoul/dsh-free-vision) · [npm](https://www.npmjs.com/package/dsh-free-vision) | Free vision plugin for DeepSeek Harness (dsh): image understanding for text-only models with free-tier providers (Qwen3-VL-Flash / DeepSeek-OCR / Doubao). 免费视觉插件：纯文本模型看图能力，优先免费模型（通义千问 / 硅基流动 / 豆包）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-highres-vision | 8 | [azwosile/dsh-highres-vision](https://github.com/azwosile/dsh-highres-vision) | DeepSeek Harness vision enhancer: raises image limits to official values and provides high-resolution tiled image reading via a dedicated tool. | 0.1.0-rc.8 (2026-08-25) |
@@ -54,6 +55,7 @@ Image understanding for text-only models.
 | dsh-browser-ben7am1n | 5 | [ben7am1n/dsh-browser](https://github.com/ben7am1n/dsh-browser) · [npm](https://www.npmjs.com/package/dsh-browser) | Browser automation for DeepSeek Harness: Playwright-powered open/click/type/screenshot/eval tools so the agent can drive real web pages. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-codex-tools | 5 | [SPYQWER1/dsh-codex-tools](https://github.com/SPYQWER1/dsh-codex-tools) · [npm](https://www.npmjs.com/package/dsh-codex-tools) | Codex-backed web search, image generation, and image understanding tools for the DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-custom-provider-settings | 5 | [supersealwqas/dsh-custom-provider-settings](https://github.com/supersealwqas/dsh-custom-provider-settings) | Request headers, image input, and reasoning settings for custom DeepSeek Harness providers | 0.1.0-rc.8 (2026-08-20) |
+| dsh-guide-dog | 5 | [AtropinolTT/dsh-guide-dog](https://github.com/AtropinolTT/dsh-guide-dog) | Guide Dog for DSH, powered by MiniMax — multimodal plugin: image/video/music/speech generation, vision inspection tools, voice mode, microphone voice input and real-time voice call mode. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-image-bridge-kbpoyo | 5 | [kbpoyo/dsh-image-bridge](https://github.com/kbpoyo/dsh-image-bridge) · [npm](https://www.npmjs.com/package/@kbpoyo/dsh-image-bridge) | DSH Web plugin that lets text-only models see images: paste images in the chat and send without file paths; the model discovers its own vision tools. Multimodal models pass through natively. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-image-pathify | 5 | [dami9527/dsh-image-pathify](https://github.com/dami9527/dsh-image-pathify) · [npm](https://www.npmjs.com/package/dsh-image-pathify) | DeepSeek Harness plugin: let text-only models receive pasted images, and analyze them with a built-in OpenAI-compatible vision tool | 0.1.0-rc.8 (2026-08-20) |
 | dsh-image-subagent | 5 | [yuqingsh/dsh-image-subagent](https://github.com/yuqingsh/dsh-image-subagent) | 让纯文本主模型（DeepSeek V4 等）也能接收图片附件：图片投影为显式占位文本，由主模型委托视觉子代理经 read_attachment/read_image 读取。零核心补丁，纯插件实现。 | 0.1.0-rc.8 (2026-08-20) |
