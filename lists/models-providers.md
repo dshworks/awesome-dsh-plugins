@@ -4,7 +4,7 @@
 
 Providers, routing, fallbacks, subscription adapters.
 
-827 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+829 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -558,6 +558,8 @@ Providers, routing, fallbacks, subscription adapters.
 | ai-plugin | 0 | [zhangliang0115/ai-plugin](https://github.com/zhangliang0115/ai-plugin/tree/HEAD/dsh-plugin) | DeepSeek Harness bundle that registers the aipx toolkit skills: cross-agent skill authoring, dsh plugin development, Claude Code plugin development, and DeepSeek model cost routing | 0.1.1-rc.2 (2026-09-01) |
 | aifred-dsh-task-ledger | 0 | [qiaoji1990-alt/aifred-dsh-task-ledger](https://github.com/qiaoji1990-alt/aifred-dsh-task-ledger) | Provider-neutral task lifecycle and idempotent event ledger for DeepSeek Harness and Aifred | 0.1.0-rc.8 (2026-08-25) |
 | Chinese-Chess-and-Gomoku | 0 | [vkxkzsp769-cloud/Chinese-Chess-and-Gomoku](https://github.com/vkxkzsp769-cloud/Chinese-Chess-and-Gomoku) | 象棋 & 五子棋 · 在 dsh Web 界面里和 AI 下棋。规则由内置引擎强制保证，AI 模型只从合法走法中选招，另有纯本地引擎兜底。 | 0.1.0-rc.8 (2026-08-25) |
+| deepseek-harness-antigravity-provider-opensaoz | 0 | [opensaozi/deepseek-harness-antigravity-provider](https://github.com/opensaozi/deepseek-harness-antigravity-provider) | Google Anti Gravity and Cloud Code Assist Coding Plan LLM Provider plugin for DeepSeek Harness | 0.1.1-rc.2 (2026-09-09) |
+| deepseek-harness-xai-model-catalog-opensaoz | 0 | [opensaozi/deepseek-harness-xai-model-catalog](https://github.com/opensaozi/deepseek-harness-xai-model-catalog) | xAI and Grok Coding Plan LLM Provider model catalog plugin for DeepSeek Harness | 0.1.1-rc.2 (2026-09-09) |
 | deepseek-harness-zcode_mask | 0 | [magian1127/deepseek-harness-zcode_mask](https://github.com/magian1127/deepseek-harness-zcode_mask) | 将 ZCode 桌面 App 登录的 Coding Plan 模型接入 DeepSeek Harness，请求头与 ZCode 完全一致 — bring ZCode coding-plan models into DeepSeek Harness with byte-identical request headers. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-account-balance-lovstudi | 0 | [lovstudio/dsh-account-balance](https://github.com/lovstudio/dsh-account-balance) | DeepSeek Harness global account-balance card: live session/job status plus GLM / KIMI quota windows and OpenRouter / DeepSeek balances, pinned to the shell overlay bottom-right | 0.1.1-rc.2 (2026-09-01) |
 | dsh-adaptive-effort | 0 | [imkingjh999/dsh-adaptive-effort](https://github.com/imkingjh999/dsh-adaptive-effort) | DSH plugin: auto-select reasoning_effort (low/high/max) per user turn via a MiniMax complexity scorer with heuristic fallback, an effort-router-style token ledger, and a per-reply metadata label | 0.1.1-rc.2 (2026-09-01) |

@@ -318,6 +318,11 @@ function ledeFromReadme(text) {
   const strip = (line) => line
     .replace(/!\[[^\]]*\]\([^)]*\)/g, " ") // images
     .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1") // links keep their text
+    // A one-line blockquote is the commonest way a README states its tagline,
+    // and the loop above keeps it when it reads as a sentence. The marker is
+    // markup like the rest of these; leaving it in published six rows whose
+    // description opened with a literal `> `.
+    .replace(/^>\s*/, "")
     .replace(/[*_`]+/g, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -560,7 +565,7 @@ function cleanDescription(input) {
     .replace(STAR_BEG, " ")
     .replace(EMOJI, " ")
     .replace(/\s+/g, " ")
-    .replace(/^[\s|·•\-—:：,，.。]+/, "")
+    .replace(/^[\s>|·•\-—:：,，.。]+/, "")
     .trim();
   if (MOJIBAKE.test(s)) return null; // arrives destroyed; passing it on helps nobody
   if (INSTALL_BOILERPLATE.test(s)) return null;

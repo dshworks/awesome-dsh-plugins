@@ -4,7 +4,7 @@
 
 Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no nested discovery, kebab-case names only).
 
-308 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+310 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -98,7 +98,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | codex-eyes-hands | 5 | [651002/codex-eyes-hands](https://github.com/651002/codex-eyes-hands) | 专为 DeepSeek Harness 打造：把本机 Codex CLI 变成纯文本 AI agent 的眼睛和手——看图/读文件/画图/监督执行/双通道容灾 | 0.1.1-rc.2 (2026-09-09) |
 | dsh-factor-investing | 5 | [Nzssm1/dsh-factor-investing](https://github.com/Nzssm1/dsh-factor-investing/tree/HEAD/skills/factor-investing-pipeline) | A DeepSeek Harness (DSH) agent preset for institutional multi-factor stock-selection research: a methodology knowledge base plus a deterministic Rust core for factor statistics. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-wanghong-handwritten-ppt | 5 | [tjxj/dsh-wanghong-handwritten-ppt](https://github.com/tjxj/dsh-wanghong-handwritten-ppt) | Wang Hong-inspired Notability academic handwritten PPT skill for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
-| dsh-web-novel-research | 5 | [canghai666x/dsh-web-novel-research](https://github.com/canghai666x/dsh-web-novel-research) | > 如果你觉得这个项目有用，给个 Star 支持一下，就是对我最大的鼓励。 | 0.1.1-rc.2 (2026-09-09) |
+| dsh-web-novel-research | 5 | [canghai666x/dsh-web-novel-research](https://github.com/canghai666x/dsh-web-novel-research) | 如果你觉得这个项目有用，给个 Star 支持一下，就是对我最大的鼓励。 | 0.1.1-rc.2 (2026-09-09) |
 | free-vision-skill | 5 | [niyongsheng/free-vision-skill](https://github.com/niyongsheng/free-vision-skill) | DSH-Plugin for DeepSeek-Harness: fully-local image understanding & OCR powered by macOS Vision Framework | 0.1.0-rc.8 (2026-08-20) |
 | team-orchestration-skill | 5 | [edisonzerolam/team-orchestration-skill](https://github.com/edisonzerolam/team-orchestration-skill) | 多智能体对抗编排引擎 — 五阶段对抗协议(二审终审制) + 40专家团8聚合域 + 动态派数 + 任务级Skill封装（专家池借鉴了 WorkBuddy、QoderWork 的专家功能） | 0.1.0-rc.8 (2026-08-21) |
 | agent-skills | 4 | [octoparse/agent-skills](https://github.com/octoparse/agent-skills/tree/HEAD/skills/octoparse-mcp-setup) | Collection of Octoparse agent skills | 0.1.1-rc.2 (2026-09-09) |
@@ -191,7 +191,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | find-image-prompt-skill | 1 | [jasonliu119/find-image-prompt-skill](https://github.com/jasonliu119/find-image-prompt-skill) | Open AI-agent skill and DeepSeek function-calling adapter for turning ideas and public reference images into production-ready image prompts. | 0.1.0-rc.8 (2026-08-24) |
 | firmware-forge | 1 | [Fz2hOpenSource/firmware-forge](https://github.com/Fz2hOpenSource/firmware-forge/tree/HEAD/arm-cortex-expert) | 基于 DSH 的 AI 嵌入式固件工程工作台，覆盖固件设计、协议设计、测试验证、编译、烧录与调试闭环。 | 0.1.1-rc.2 (2026-08-26) |
 | goal-work | 1 | [905397165-dotcom/goal-work](https://github.com/905397165-dotcom/goal-work) | 苟活 · 高效工作法：洞察真实需求，用最少投入完成工作。 | 0.1.0-rc.8 (2026-08-21) |
-| Guid-traince | 1 | [Washington5533/Guid-traince](https://github.com/Washington5533/Guid-traince/tree/HEAD/skills/guardian-mcp) | > 一行命令，训练脚本零行改动，获得完整守护能力。 | 0.1.1-rc.2 (2026-08-28) |
+| Guid-traince | 1 | [Washington5533/Guid-traince](https://github.com/Washington5533/Guid-traince/tree/HEAD/skills/guardian-mcp) | 一行命令，训练脚本零行改动，获得完整守护能力。 | 0.1.1-rc.2 (2026-08-28) |
 | mathmodel-agent | 1 | [ubggyhjb/mathmodel-agent](https://github.com/ubggyhjb/mathmodel-agent/tree/HEAD/skills/0intake-assets) | 数学建模竞赛 Agent（DeepSeek Harness preset）：头脑风暴→分析→建模→代码图表→论文→六门验收，含 17 套中英文 Typst/LaTeX 模板 | 0.1.0-rc.8 (2026-08-24) |
 | multi-skilled-repository | 1 | [High-cla/multi-skilled-repository](https://github.com/High-cla/multi-skilled-repository/tree/HEAD/skills/customize-dsh) | AI Agent Skills 合集 — CMD+PowerShell 避坑指南 · CLI 优先决策矩阵 · 更多技能持续添加 | 0.1.0-rc.8 (2026-08-20) |
 | Novera-AI-pipeline | 1 | [whaojie797-design/Novera-AI-pipeline](https://github.com/whaojie797-design/Novera-AI-pipeline) | four-agent-pipeline agent skill: Specifier -> Coder -> Refactorer -> Architect. Turn a vague requirement into gate-verified code with Gherkin acceptance specs, steel-cage quality gates (coverage, comp | 0.1.0-rc.8 (2026-08-21) |
@@ -241,6 +241,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | dsh-doc-to-markdown | 0 | [Nico0713520/dsh-doc-to-markdown](https://github.com/Nico0713520/dsh-doc-to-markdown) | Convert PDF/DOCX documents to Markdown. Windows-first, Chinese-doc friendly. dsh / Claude Code / OpenClaw compatible SKILL.md skill package. | 0.1.0-rc.8 (2026-08-21) |
 | dsh-doctor-bruc3van | 0 | [bruc3van/dsh-doctor](https://github.com/bruc3van/dsh-doctor/tree/HEAD/skills/dsh-plugin-upgrade) | Help agents diagnose and upgrade DeepSeek Harness plugins from DSH 0.1.1 to 0.1.2 | 0.1.1-rc.2 (2026-09-01) |
 | dsh-external-access-guide | 0 | [vinokok/dsh-external-access-guide](https://github.com/vinokok/dsh-external-access-guide) | 远程 VPS 上部署 DSH 并通过 HTTPS 安全开放外网访问 \| Deploy DSH on a remote VPS and expose it securely over HTTPS | 0.1.0-rc.8 (2026-08-25) |
+| dsh-forge-r05en1cu | 0 | [r05en1cu/dsh-forge](https://github.com/r05en1cu/dsh-forge/tree/HEAD/skills/dsh-neoforge-migrate) | NeoForge-style standard API layer for DeepSeek Harness plugins: runtime mixins with snapshot/restore + a Cordis-native event bus | 0.1.1-rc.2 (2026-09-09) |
 | dsh-generalized-skills | 0 | [HanZephyr/dsh-generalized-skills](https://github.com/HanZephyr/dsh-generalized-skills/tree/HEAD/skills/archive-decision-records) | 把 deepseek-harness 中的 AI agent skills 通用化改造为平台与仓库无关的可复用技能，适配任意 agent 工具与代码仓库 \| Generalized, tool-agnostic agent skills from deepseek-harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-independence | 0 | [MisterTK/dsh-independence](https://github.com/MisterTK/dsh-independence/tree/HEAD/skills/dsh-independence) | Run deepseek-harness with zero egress except your own LLM providers: lockdown patch + per-upgrade audit + agent skill | 0.1.1-rc.2 (2026-09-01) |
 | DSH-Launcher-moonwell | 0 | [moonwellxh/DSH-Launcher](https://github.com/moonwellxh/DSH-Launcher/tree/HEAD/dsh-launcher Add/batch-files) | DSH 魔偶助手（DSH一键启动托盘）(DeepSeek Harness launcher / tray) | 0.1.1-rc.2 (2026-09-01) |
@@ -290,8 +291,9 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | feedback-loop-dsh | 0 | [hanhan1137/feedback-loop-dsh](https://github.com/hanhan1137/feedback-loop-dsh) | Feedback learning loop skill for DSH: log feedback, keep consistent stances, full persistence chain (DSH-adapted from feedback-loop) | 0.1.0-rc.8 (2026-08-25) |
 | fengge-distill | 0 | [MincongZhou/fengge-distill](https://github.com/MincongZhou/fengge-distill) | 把@峰哥亡命天涯 的 559 条微博 + 2440 条≥30赞评论，蒸馏成可复用的「峰哥语体引擎」：串子、蹭子、装颓、被看穿的自我吹嘘。含语料管道(nodejs)、筛选脚本、统计口径。/ Distilling @fengge's Weibo into a reusable Chinese style-transfer engine (weibo / corpus / nlp). | 0.1.1-rc.2 (2026-09-02) |
 | firecrawl-research-engine | 0 | [hecailiaoPFS/firecrawl-research-engine](https://github.com/hecailiaoPFS/firecrawl-research-engine) | Deep technical research & verification skill for LLM agents: Firecrawl search-first, graceful degradation, anti-hallucination citations. Works with DSH / Claude Code / Codex / Cursor. | 0.1.0-rc.8 (2026-08-25) |
-| food-memory-story-card | 0 | [anjiexu425-alt/food-memory-story-card](https://github.com/anjiexu425-alt/food-memory-story-card) | > 把一张真实美食照片，变成一张可以在浏览器里点击 3D 翻转的数字手帐记忆卡。 | 0.1.0-rc.8 (2026-08-21) |
+| food-memory-story-card | 0 | [anjiexu425-alt/food-memory-story-card](https://github.com/anjiexu425-alt/food-memory-story-card) | 把一张真实美食照片，变成一张可以在浏览器里点击 3D 翻转的数字手帐记忆卡。 | 0.1.0-rc.8 (2026-08-21) |
 | ga-tmwd-browser | 0 | [Zhou-Weixin/ga-tmwd-browser](https://github.com/Zhou-Weixin/ga-tmwd-browser) | Agent 无关的真实浏览器控制：复用 GenericAgent 的 TMWebDriver 与 TMWD CDP Bridge 扩展，让任意 Agent（Claude Code / Codex / DSH 等）经 Chrome 登录态操作真实网页。 | 0.1.1-rc.2 (2026-09-04) |
+| harness-cli | 0 | [rexleimo/harness-cli](https://github.com/rexleimo/harness-cli/tree/HEAD/skill-sources/aios-codemap-ops) | The local-first control plane for long-horizon coding agents. | 0.1.1-rc.2 (2026-09-09) |
 | how-to-make-application | 0 | [Duoasa/how-to-make-application](https://github.com/Duoasa/how-to-make-application) | A portable spec-driven Agent Skill for solo application development with Codex, Claude Code, and DeepSeek Harness. | 0.1.1-rc.2 (2026-08-26) |
 | infoseek | 0 | [GYINT/infoseek](https://github.com/GYINT/infoseek) | 端到端内容智能采集与调研工作流：多源嗅探 → 四维评分门控 → 深度抓取 → 跨源矛盾检测 → 结构化报告 + 长期归档 | 0.1.0-rc.8 (2026-08-21) |
 | kawaii-sticker-skill | 0 | [anjiexu425-alt/kawaii-sticker-skill](https://github.com/anjiexu425-alt/kawaii-sticker-skill) | Universal open-source Kawaii Sticker Skill for Codex / Claude Code / DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |

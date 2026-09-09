@@ -208501,7 +208501,7 @@
     {
       "name": "food-memory-story-card",
       "repo": "anjiexu425-alt/food-memory-story-card",
-      "description": "> 把一张真实美食照片，变成一张可以在浏览器里点击 3D 翻转的数字手帐记忆卡。",
+      "description": "把一张真实美食照片，变成一张可以在浏览器里点击 3D 翻转的数字手帐记忆卡。",
       "category": "skill",
       "official": false,
       "added": "2026-08-21",
@@ -209684,7 +209684,7 @@
       "name": "Guid-traince",
       "repo": "Washington5533/Guid-traince",
       "path": "skills/guardian-mcp",
-      "description": "> 一行命令，训练脚本零行改动，获得完整守护能力。",
+      "description": "一行命令，训练脚本零行改动，获得完整守护能力。",
       "category": "skill",
       "official": false,
       "added": "2026-08-28",
@@ -215127,7 +215127,7 @@
     {
       "name": "oh-my-dsh-mydsh",
       "repo": "my-dsh/oh-my-dsh",
-      "description": "> Fork notice: This repository is a personal fork of deepseek-harness, for private use. On top of upstream it adds a token statistics panel that tracks per-session and cross-session token consumption",
+      "description": "Fork notice: This repository is a personal fork of deepseek-harness, for private use. On top of upstream it adds a token statistics panel that tracks per-session and cross-session token consumption",
       "category": "plugin",
       "official": false,
       "added": "2026-08-17",
@@ -231201,7 +231201,7 @@
       "name": "DSH-Self-evolving-system",
       "repo": "kiwifruit13/DSH-Self-evolving-system",
       "path": "plugins/dsh-self-evolving-agent",
-      "description": "> 一个基于 CQRS 读写分离、由子代理自主进化、由人类锁定根分类骨架的 AI Agent 错误自愈框架。",
+      "description": "一个基于 CQRS 读写分离、由子代理自主进化、由人类锁定根分类骨架的 AI Agent 错误自愈框架。",
       "category": "plugin",
       "official": false,
       "added": "2026-09-01",
@@ -252165,7 +252165,7 @@
     {
       "name": "dsh-web-novel-research",
       "repo": "canghai666x/dsh-web-novel-research",
-      "description": "> 如果你觉得这个项目有用，给个 Star 支持一下，就是对我最大的鼓励。",
+      "description": "如果你觉得这个项目有用，给个 Star 支持一下，就是对我最大的鼓励。",
       "category": "skill",
       "official": false,
       "added": "2026-09-09",
@@ -253325,6 +253325,183 @@
       "tags": [
         "memory",
         "knowledge"
+      ]
+    },
+    {
+      "name": "dsh-skill",
+      "repo": "cocosgt/dsh-skill",
+      "description": "Global skill hub for dsh: aggregates Claude Code, project, and .skill-package skills into ~/.dsh/skills with reference/copy import and slash-menu usage",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "cordis.patch.yml",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "interop",
+        "usage"
+      ]
+    },
+    {
+      "name": "fabric",
+      "repo": "dsh-external/fabric",
+      "description": "Stent/Mixin extension workspace: installable profile bundle carrier over the stent package trio",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "cordis.patch.yml",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-skill-viewer",
+      "repo": "fishquito7/dsh-skill-viewer",
+      "description": "dsh-skill-mcp-panel: manage skills and MCP servers from the DSH web settings UI plus the unified dsh-panel CLI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "ui",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "harness-remote",
+      "repo": "hyna-hla/harness-remote",
+      "path": "dsh-remote-access",
+      "description": "DSH 远程互信认证：配对码快速配对、首次配对确认、已配对设备管理、公网域名信任白名单（v2.5.1，写 connection 行 !!js 拼接 trustedHosts 热生效，兼容 --trusted-host）、主机设备信息、只读目录/文件预览、MCP 枚举、远程通道 Bearer token 鉴权（不含微信桥与 cpolar 隧道）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "dsh-remote-access/package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "capabilities",
+        "channels"
+      ]
+    },
+    {
+      "name": "dsh-undo-plugin-lire1131",
+      "repo": "lire1131/dsh-undo-plugin",
+      "description": "DSH undo/rollback system: snapshot config files on change, undo/redo the last action from the WebUI or by chat, and roll back broken plugin trees without reinstalling. Works even when DSH fails to",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "cordis.patch.yml",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "fabric-omdshdev",
+      "repo": "omdsh-dev/fabric",
+      "description": "Stent/Mixin extension workspace: installable profile bundle carrier over the stent package trio",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "cordis.patch.yml",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "deepseek-harness-antigravity-provider-opensaoz",
+      "repo": "opensaozi/deepseek-harness-antigravity-provider",
+      "description": "Google Anti Gravity and Cloud Code Assist Coding Plan LLM Provider plugin for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "cordis.patch.yml",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "models"
+      ]
+    },
+    {
+      "name": "deepseek-harness-xai-model-catalog-opensaoz",
+      "repo": "opensaozi/deepseek-harness-xai-model-catalog",
+      "description": "xAI and Grok Coding Plan LLM Provider model catalog plugin for DeepSeek Harness",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "cordis.patch.yml",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "models",
+        "marketplace"
+      ]
+    },
+    {
+      "name": "dsh-forge-r05en1cu",
+      "repo": "r05en1cu/dsh-forge",
+      "path": "skills/dsh-neoforge-migrate",
+      "description": "NeoForge-style standard API layer for DeepSeek Harness plugins: runtime mixins with snapshot/restore + a Cordis-native event bus",
+      "category": "skill",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "skills/dsh-neoforge-migrate/SKILL.md#frontmatter",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "harness-cli",
+      "repo": "rexleimo/harness-cli",
+      "path": "skill-sources/aios-codemap-ops",
+      "description": "The local-first control plane for long-horizon coding agents.",
+      "category": "skill",
+      "official": false,
+      "added": "2026-09-09",
+      "lastVerified": "2026-09-09",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "verified",
+      "evidence": "skill-sources/aios-codemap-ops/SKILL.md#frontmatter",
+      "stars": 0,
+      "starsUpdated": "2026-09-09",
+      "tags": [
+        "capabilities"
       ]
     }
   ]

@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-3806 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3809 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -3642,6 +3642,8 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-zh-hant-tw | 0 | [chiyulogg-commits/dsh-zh-hant-tw](https://github.com/chiyulogg-commits/dsh-zh-hant-tw) | Taiwan Traditional Chinese wording for DeepSeek Harness (設置 → 設定, 智能體 → 代理, 保存 → 儲存, …) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-zone-clean | 0 | [uckkk/dsh-zone-clean](https://github.com/uckkk/dsh-zone-clean) | zoneclean：分区清洁：按参数返回居家清洁方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsk.net | 0 | [bmai-BH6BHG/dsk.net](https://github.com/bmai-BH6BHG/dsk.net) | 将 DeepSeek harness 装入 net 框架 | unverified |
+| fabric | 0 | [dsh-external/fabric](https://github.com/dsh-external/fabric) | Stent/Mixin extension workspace: installable profile bundle carrier over the stent package trio | 0.1.1-rc.2 (2026-09-09) |
+| fabric-omdshdev | 0 | [omdsh-dev/fabric](https://github.com/omdsh-dev/fabric) | Stent/Mixin extension workspace: installable profile bundle carrier over the stent package trio | 0.1.1-rc.2 (2026-09-09) |
 | file-diff-pro | 0 | [lzxcs/file-diff-pro](https://github.com/lzxcs/file-diff-pro) | 产物文件点击弹窗查看本轮 diff（代码类文件）；非代码文件维持桌面打开。 | 0.1.1-rc.2 (2026-09-01) |
 | fs-mcp | 0 | [JohnXu22786/fs-mcp](https://github.com/JohnXu22786/fs-mcp) | 面向 agent 的本地文件系统工具集：读 / 写 / 检索 / 目录操作，全部被约束在可配置的「围场」目录内，以 MCP stdio server 形式运行，零运行时依赖，可被 dsh 等插件化 harness 加载 | broken against 0.1.0-rc.6 |
 | fsviewer | 0 | [sunyuhuirong/fsviewer](https://github.com/sunyuhuirong/fsviewer) | Codex-style right-edge workspace for DeepSeek dsh web: file tree + preview, embedded browser (direct/proxy iframe), and side chat via host ctx.llm streaming | 0.1.1-rc.2 (2026-09-01) |
@@ -3650,6 +3652,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | gh-discussions | 0 | [MauricioPerera/gh-discussions](https://github.com/MauricioPerera/gh-discussions) | Plugin de composición para DeepSeek Harness (dsh) que expone GitHub Discussions como Tools nativas del modelo: ghdiscussionsearch, ghdiscussioncreate, ghdiscussioncomment. | 0.1.1-rc.2 (2026-08-28) |
 | ghost-refresh | 0 | [ZomiCC/ghost-refresh](https://github.com/ZomiCC/ghost-refresh) | Ghost Refresh (鬼影提神) — a friendly ghost drifts across the page to keep you awake. Adjustable speed / opacity / size / frequency, persisted per browser. | 0.1.1-rc.2 (2026-08-26) |
 | harness-plugin-tutorial | 0 | [ret-c1/harness-plugin-tutorial](https://github.com/ret-c1/harness-plugin-tutorial/tree/HEAD/harness-plugin-lib/plugins/asset-management) | Read-only asset-management tools for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
+| harness-remote | 0 | [hyna-hla/harness-remote](https://github.com/hyna-hla/harness-remote/tree/HEAD/dsh-remote-access) | DSH 远程互信认证：配对码快速配对、首次配对确认、已配对设备管理、公网域名信任白名单（v2.5.1，写 connection 行 !!js 拼接 trustedHosts 热生效，兼容 --trusted-host）、主机设备信息、只读目录/文件预览、MCP 枚举、远程通道 Bearer token 鉴权（不含微信桥与 cpolar 隧道） | 0.1.1-rc.2 (2026-09-09) |
 | HarnessDock | 0 | [nortonyang/HarnessDock](https://github.com/nortonyang/HarnessDock/tree/HEAD/plugins/harnessdock-pet) | Animated DeepWhale and Marina companions for DeepSeek Harness Web | 0.1.1-rc.2 (2026-09-04) |
 | helmsman | 0 | [kalifun/helmsman](https://github.com/kalifun/helmsman/tree/HEAD/dsh) | helmsman 的 dsh 引擎组合（依赖公开 npm 包 @deepseek-ai/*，锁版本 0.1.0-rc.6） | 0.1.0-rc.8 (2026-08-20) |
 | HistoPilot-DSH | 0 | [solarise94/HistoPilot-DSH](https://github.com/solarise94/HistoPilot-DSH) | DeepSeek Harness tools for running HistoPilot pathology navigation workflows | 0.1.0-rc.8 (2026-08-21) |

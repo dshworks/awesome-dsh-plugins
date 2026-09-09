@@ -4,7 +4,7 @@
 
 Bridges to and from Claude Code, Codex, and other harnesses.
 
-432 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+433 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -403,6 +403,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-session-importer | 0 | [sunzeJAVA/dsh-session-importer](https://github.com/sunzeJAVA/dsh-session-importer) | dsh plugin: import session records from other coding agents (Claude Code, Codex CLI, generic JSONL, Markdown) into the dsh session store | 0.1.1-rc.2 (2026-09-04) |
 | dsh-session-port | 0 | [seth-hg/dsh-session-port](https://github.com/seth-hg/dsh-session-port) | DSH plugin: bundle a session (logs, subagents, referenced media + workspace files) into one ZIP and restore it — GET/wsx/session-pack, POST/wsx/session-pack/import + Session Header Export/Import | 0.1.1-rc.2 (2026-09-04) |
 | dsh-sidebar-enhancement-search | 0 | [mastereal/dsh-sidebar-enhancement-search](https://github.com/mastereal/dsh-sidebar-enhancement-search) | Codex-style file search INSIDE the built-in dsh-better-sidebar Explorer tab (filter box under the workspace folder name), plus per-file-type icons/badges in the explorer tree and editor tabs | 0.1.0-rc.8 (2026-08-20) |
+| dsh-skill | 0 | [cocosgt/dsh-skill](https://github.com/cocosgt/dsh-skill) | Global skill hub for dsh: aggregates Claude Code, project, and .skill-package skills into ~/.dsh/skills with reference/copy import and slash-menu usage | 0.1.1-rc.2 (2026-09-09) |
 | dsh-skill-adapter | 0 | [zp-home/dsh-skill-adapter](https://github.com/zp-home/dsh-skill-adapter) | 把 Claude Code / Codex 生态的 SKILL.md 技能导入或运行时挂载进 DeepSeek Harness：CLI 导入器 + SkillProvider 插件 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-fuzzy | 0 | [ch1bug/dsh-skill-fuzzy](https://github.com/ch1bug/dsh-skill-fuzzy) | Codex-style fuzzy skill search for the DeepSeek Harness Web GUI: /bug, /diag, /regression all find diagnosing-bugs in the / skill menu. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-hub-hskelp95 | 0 | [hskelp9527-pixel/dsh-skill-hub](https://github.com/hskelp9527-pixel/dsh-skill-hub) | Cross-agent skill hub for DeepSeek Harness (DSH) Web settings: scans every local coding agent's skill directory (Claude Code, Codex, OpenCode, Qwen, iFlow, Trae, ...), merges duplicates installed on | 0.1.0-rc.8 (2026-08-20) |

@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 13,550 entries from 7,777 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 13,560 entries from 7,784 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -23,7 +23,7 @@ Each entry carries two orthogonal dimensions: `category` is the form factor (bun
 
 DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of 2026-09-08 it holds 14,029, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
 
-How much filtering that is, measured on 2026-09-08: **15,823** repositories carry a dsh discovery topic and **15,355** of them — 97% — have been opened, read, and decided. 2,306 were rejected, **2,149** of those for having no install path at any depth: no `dsh` manifest in `package.json`, no dsh dependency, no `SKILL.md`. They carry the topic and nothing else. Every rejection is published with its reason and a recheck date in [`data/rejected.json`](data/rejected.json).
+How much filtering that is, measured on 2026-09-08: **15,823** repositories carry a dsh discovery topic and **15,355** of them — 97% — have been opened, read, and decided. 2,310 were rejected, **2,152** of those for having no install path at any depth: no `dsh` manifest in `package.json`, no dsh dependency, no `SKILL.md`. They carry the topic and nothing else. Every rejection is published with its reason and a recheck date in [`data/rejected.json`](data/rejected.json).
 
 That is the number worth comparing. A topic count says how many people typed a tag. **15,355 of 15,823** says how many repositories somebody actually opened.
 
@@ -101,7 +101,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-13149 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-09-09.
+13157 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-09-09.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -137,7 +137,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-open-in-vscode | 53 | [omdsh-dev/dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | Open workspace directories in VS Code directly from the web GUI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-passwords | 46 | [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) · [npm](https://www.npmjs.com/package/dsh-passwords) | dsh-passwords: a login gateway (password door) + dsh settings plugin for DeepSeek Harness web UI — first-run setup, SQLite auth with at-rest encryption, rate-limit, audit log, TLS + 80-to-443 redirect | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 1019. **[all 1019 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 1021. **[all 1021 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Terminals & desktop
 
@@ -205,7 +205,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | acryl | 236 | [acryldev/acryl](https://github.com/acryldev/acryl/tree/HEAD/acryl-control) | Host-neutral Cordis control plane for ACRYL | 0.1.1-rc.2 (2026-08-28) |
 | dsh-evolve-modes | 206 | [GraySilver/dsh-evolve-modes](https://github.com/GraySilver/dsh-evolve-modes) · [npm](https://www.npmjs.com/package/@graysilver/dsh-evolve-modes) | Composable working, reasoning, quality, and human-reviewed self-evolution controls for DeepSeek Harness Web. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 3806. **[all 3806 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 3809. **[all 3809 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Vision
 
@@ -341,7 +341,7 @@ Providers, routing, fallbacks, subscription adapters.
 | dsh-file-upload | 24 | [HongMing-Huang/dsh-file-upload](https://github.com/HongMing-Huang/dsh-file-upload) · [npm](https://www.npmjs.com/package/dsh-file-upload) | DeepSeek Harness dual-face plugin: Claude-style drag-and-drop / paperclip file upload, content sniffing, document-to-Markdown conversion (built-in JS parsers with optional Microsoft MarkItDown CLI) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-web-tools | 24 | [A3Boy/dsh-web-tools](https://github.com/A3Boy/dsh-web-tools) | Unified multi-provider web search and fetch for DeepSeek Harness — BYOK, per-provider credential pools, quota & health monitoring, deterministic fallback, native settings UI, and self-hosted search | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 827. **[all 827 →](lists/models-providers.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 829. **[all 829 →](lists/models-providers.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Interop & migration
 
@@ -375,7 +375,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-plugin-product-subagents | 20 | [shaokeyibb/dsh-plugin-product-subagents](https://github.com/shaokeyibb/dsh-plugin-product-subagents) · [npm](https://www.npmjs.com/package/dsh-plugin-product-subagents) | Role-based Codex / Claude Code / ACP subagent providers for the DeepSeek Harness: continuable children, durable session recovery, per-role product permissions, delegation with a permission ceiling | 0.1.0-rc.8 (2026-08-20) |
 | write-chinese-long-screenplay | 18 | [mudden2380078550-creator/write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) | 中文电影与剧集长剧本写作 skill（SKILL.md）——双输入板块 + 因果—价值内核，保证长篇幅连续性与人物声音；兼容 Codex / Claude Code / DeepSeek Harness (dsh) / zcode | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 432. **[all 432 →](lists/interop-migration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 433. **[all 433 →](lists/interop-migration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Channels & remote
 
@@ -749,7 +749,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | sivtr | 265 | [Ariestar/sivtr](https://github.com/Ariestar/sivtr/tree/HEAD/skills/sivtr-memory) | A unified agent memory workspace for human and agent \| 一个统一的agent记忆工作空间 | 0.1.1-rc.2 (2026-09-09) |
 | tencentmeeting-cli | 236 | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli/tree/HEAD/skills/tmeet-skill) | 腾讯会议 CLI 工具 | 0.1.1-rc.2 (2026-09-09) |
 
-<sub>Showing the 25 most-starred of 308. **[all 308 →](lists/skills.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 310. **[all 310 →](lists/skills.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Themes
 

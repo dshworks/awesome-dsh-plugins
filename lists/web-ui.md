@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-1019 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1021 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -954,6 +954,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-skill-explorer | 0 | [wingsky-1/dsh-skill-explorer](https://github.com/wingsky-1/dsh-skill-explorer) | DSH Web GUI 技能中心：侧边栏入口 + 面板，按来源分级浏览已加载的全部 skill（系统内置 / 项目 / 用户 / 自定义 / 运行时），支持启用/禁用（改写 SKILL.md frontmatter）、创建与删除（移入 .trash）。数据来自文件系统扫描（官方根约定）+ ctx.skills 注册表合并。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-fuzzy-kevoyuan | 0 | [Kevoyuan/dsh-skill-fuzzy](https://github.com/Kevoyuan/dsh-skill-fuzzy) · [npm](https://www.npmjs.com/package/dsh-skill-fuzzy) | Fuzzy skill search for the dsh web UI '/' menu: replaces the prefix-match ui-skill source and adds a description preview panel for the highlighted candidate | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-mcp-bridge | 0 | [cstarc/dsh-skill-mcp-bridge](https://github.com/cstarc/dsh-skill-mcp-bridge) | dsh 项目桥接：自动导入 .claude/.agents/.trae skills，桥接 MCP 服务器（HTTP/SSE + stdio），GUI 开关面板。 | 0.1.1-rc.2 (2026-08-26) |
+| dsh-skill-viewer | 0 | [fishquito7/dsh-skill-viewer](https://github.com/fishquito7/dsh-skill-viewer) | dsh-skill-mcp-panel: manage skills and MCP servers from the DSH web settings UI plus the unified dsh-panel CLI. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-skill-viewer-failingc | 0 | [Failing-coachman563/dsh-skill-viewer](https://github.com/Failing-coachman563/dsh-skill-viewer) | dsh skill viewer: manage skills from the DSH web UI settings panel (hot enable/disable, delete, add, workspace scoping) plus a CLI. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skillui | 0 | [jaikensai888/dsh-skillui](https://github.com/jaikensai888/dsh-skillui) | A DSH plugin that adds a sibling Skill UI tab to dsh-better-sidebar. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-skin-studio-zhanggui | 0 | [zhangguiping-xydt/dsh-skin-studio](https://github.com/zhangguiping-xydt/dsh-skin-studio) | A visual, local-first skin authoring studio for DeepSeek Harness Web. | 0.1.1-rc.2 (2026-09-02) |
@@ -986,6 +987,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-ui-easyfold | 0 | [MrTrujay/dsh-ui-easyfold](https://github.com/MrTrujay/dsh-ui-easyfold) · [npm](https://www.npmjs.com/package/@trujaycc/dsh-ui-easyfold) | Easy-fold plugin for the dsh Web GUI: sticky Think fold row and fold scroll compensation for long expanded content | 0.1.0-rc.8 (2026-08-20) |
 | Dsh-UI-Enhance | 0 | [xjackzenvey/Dsh-UI-Enhance](https://github.com/xjackzenvey/Dsh-UI-Enhance) | Optional Web UI enhancements for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-uisketch | 0 | [chouyulanxia114514/dsh-uisketch](https://github.com/chouyulanxia114514/dsh-uisketch) | 把 ui-sketch-to-ai 画板编辑器嵌入 DSH Web 界面：侧栏开关 + 全屏 iframe 浮层，开箱即用（内置构建产物） | 0.1.1-rc.2 (2026-09-01) |
+| dsh-undo-plugin-lire1131 | 0 | [lire1131/dsh-undo-plugin](https://github.com/lire1131/dsh-undo-plugin) | DSH undo/rollback system: snapshot config files on change, undo/redo the last action from the WebUI or by chat, and roll back broken plugin trees without reinstalling. Works even when DSH fails to | 0.1.1-rc.2 (2026-09-09) |
 | dsh-update-zhucy123 | 0 | [Zhucy123/dsh-update](https://github.com/Zhucy123/dsh-update) | DSH plugin: sidebar footer update button — compares the local deepseek-harness version with the remote, pulls and reinstalls when a newer version exists, with live progress. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-updater-zhuoxuan | 0 | [zhuoxuanliu53-svg/dsh-updater](https://github.com/zhuoxuanliu53-svg/dsh-updater) | Small DSH Web GUI plugin to check and apply official DeepSeek Harness updates from a git checkout: view local vs origin/master, fast-forward to the official latest, and optionally rebuild. Shows an | 0.1.0-rc.8 (2026-08-25) |
 | dsh-utility-plugins | 0 | [WMXS-A/dsh-utility-plugins](https://github.com/WMXS-A/dsh-utility-plugins/tree/HEAD/packages/dsh-skill-cheatsheet) | Skill cheatsheet in the composer: one-click panel listing every available skill with Chinese title, purpose and usage examples, plus a 'new skill pending catalog' notice. / 技能速查：输入框 按钮一键打开技能面板 | 0.1.1-rc.2 (2026-09-04) |
