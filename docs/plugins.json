@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -253699,6 +253699,22 @@
         "agents"
       ],
       "pushedAt": "2026-09-10"
+    },
+    {
+      "name": "dsh-control",
+      "repo": "jacjackai/dsh-control",
+      "description": "Let AI agents operate DSH itself via official HTTP RPC: workspace/session control, task-card dispatch, resident workstations, multi-model fan-out review. 让 AI Agent 操作 DSH 自身",
+      "category": "skill",
+      "official": false,
+      "added": "2026-09-11",
+      "lastVerified": "2026-09-11",
+      "verifiedAgainst": "0.1.1-rc.2",
+      "status": "unverified",
+      "evidence": "SKILL.md#frontmatter",
+      "tags": [
+        "agents",
+        "interop"
+      ]
     }
   ]
 }

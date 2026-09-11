@@ -253703,7 +253703,7 @@
   {
    "name": "dsh-control",
    "repo": "jacjackai/dsh-control",
-   "description": "Let AI agents operate DSH itself via the official HTTP RPC: workspace/session control, task-card dispatch with acceptance criteria, resident workstations with blocking wait, and multi-model fan-out review with per-seat model assignment. 让 AI Agent 操作 DSH 自身",
+   "description": "Let AI agents operate DSH itself via official HTTP RPC: workspace/session control, task-card dispatch, resident workstations, multi-model fan-out review. 让 AI Agent 操作 DSH 自身",
    "category": "skill",
    "official": false,
    "added": "2026-09-11",
@@ -253713,8 +253713,7 @@
    "evidence": "SKILL.md#frontmatter",
    "tags": [
     "agents",
-    "automation",
-    "orchestration"
+    "interop"
    ]
   }
  ]

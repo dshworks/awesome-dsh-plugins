@@ -4,7 +4,7 @@
 
 Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no nested discovery, kebab-case names only).
 
-310 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+311 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -240,6 +240,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | dsh-backup-little3t | 0 | [little3tar/dsh-backup](https://github.com/little3tar/dsh-backup) | 由于 dsh 的自定义范围太大，很难通过一个插件或者程序来完美备份自己的配置，所以我觉得可以通过 ai 来分析哪些配置需要备份、可以备份，以及在新的环境中如何恢复。有了这个 skills 导出的配置文件，任意 agent 都可以帮助恢复 dsh 的配置。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-briefing-skill | 0 | [HiccupGeng/dsh-briefing-skill](https://github.com/HiccupGeng/dsh-briefing-skill) | A zero-dependency, pure-Markdown DeepSeek Harness (DSH) skill that auto-generates daily task briefings (日报) and weekly reports (周报) from DSH session logs: it scans every workspace's | 0.1.1-rc.2 (2026-09-02) |
 | dsh-coding-mode-preset | 0 | [guazixiong/dsh-coding-mode-preset](https://github.com/guazixiong/dsh-coding-mode-preset/tree/HEAD/skills/bugfix-mode) | 为本地 DeepSeek Harness（`@deepseek-ai/dsh`）追加一个**编码模式** Agent Preset：门禁式工程交付流水线，包含三条独立流程——**需求开发**、**Bug 修复**、**功能迭代**。每个阶段的产物由全新上下文的"空白子代理"独立专家评审，通过后须经用户确认才进入下一阶段；最终以用户验收作为任务完结条件。 | 0.1.1-rc.2 (2026-09-01) |
+| dsh-control | - | [jacjackai/dsh-control](https://github.com/jacjackai/dsh-control) | Let AI agents operate DSH itself via official HTTP RPC: workspace/session control, task-card dispatch, resident workstations, multi-model fan-out review. 让 AI Agent 操作 DSH 自身 | unverified |
 | dsh-customization-log | 0 | [Delta-Water/dsh-customization-log](https://github.com/Delta-Water/dsh-customization-log/tree/HEAD/skills/dsh-headless-worker) | DeepSeek Harness 客制化改造日志、补丁与验证记录 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-dev-standards | 0 | [nilnon/dsh-dev-standards](https://github.com/nilnon/dsh-dev-standards) | Scaffold and enforce a full, deepseek-harness-style development standard in any project: AGENTS.md standing orders, a decision-record (ADR) lifecycle, a documentation hierarchy, a prose standard | 0.1.0-rc.8 (2026-08-25) |
 | dsh-development | 0 | [lordqyxz/dsh-development](https://github.com/lordqyxz/dsh-development) | 跨 Agent 通用 DSH 插件开发 Skill（SKILL.md）：Cordis、bundle 安装、工具/UI/排障 | 0.1.1-rc.2 (2026-09-02) |
