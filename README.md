@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 13,561 entries from 7,784 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 13,562 entries from 7,785 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -101,7 +101,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-13158 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-09-10.
+13158 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-09-11.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -749,7 +749,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | sivtr | 267 | [Ariestar/sivtr](https://github.com/Ariestar/sivtr/tree/HEAD/skills/sivtr-memory) | A unified agent memory workspace for human and agent \| 一个统一的agent记忆工作空间 | 0.1.1-rc.2 (2026-09-09) |
 | tencentmeeting-cli | 236 | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli/tree/HEAD/skills/tmeet-skill) | 腾讯会议 CLI 工具 | 0.1.1-rc.2 (2026-09-09) |
 
-<sub>Showing the 25 most-starred of 310. **[all 310 →](lists/skills.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 311. **[all 311 →](lists/skills.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Themes
 
