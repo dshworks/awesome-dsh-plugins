@@ -4,15 +4,21 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-09-08",
+  "checked": "2026-09-12",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 382,
+  "count": 385,
   "packages": [
     {
       "repo": "shililinghu/dsh-file-upload-deepseek-harness-plug-in",
       "npm": "@agent-hub/dsh-workspace-file-upload",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "mapan0424/deepseek-harness-insights",
+      "npm": "@anarkhgatsby/deepseek-harness-insights",
+      "why": "published by mapan0424/deepseek-harness-plugins",
+      "since": "2026-09-09"
     },
     {
       "repo": "cyj0920/dsh-jlink-plugin",
@@ -398,6 +404,12 @@
       "npm": "@firefly0621/dsh-skill-ponytail",
       "why": "no such package",
       "since": "2026-08-27"
+    },
+    {
+      "repo": "oThTJx/dsh-skill-superpowers",
+      "npm": "@firefly0621/dsh-skill-superpowers",
+      "why": "no such package",
+      "since": "2026-09-10"
     },
     {
       "repo": "oThTJx/dsh-skill-taste",
@@ -1465,6 +1477,12 @@
       "npm": "dsh-observation-journal",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "balcoz/dsh-ocr-local",
+      "npm": "dsh-ocr-local",
+      "why": "published by grelvan/dsh-ocr-local",
+      "since": "2026-09-12"
     },
     {
       "repo": "mytianyi0712/dsh-tui-plugin-OhMyPi",
