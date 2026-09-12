@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-3778 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3779 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -3116,6 +3116,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-remote-ios | 0 | [MaxWang714/dsh-remote-ios](https://github.com/MaxWang714/dsh-remote-ios) | DSH Mobile：把 DeepSeek Harness 变成随身控制台。Flutter App（Android + iOS 工程基线）+ 设备级配对。iOS 需 macOS/Xcode 构建，尚未 TestFlight 验收。 | 0.1.1-rc.2 (2026-09-01) |
 | dsh-remote-trust | 0 | [aashizpoudel/dsh-remote-trust](https://github.com/aashizpoudel/dsh-remote-trust) | Open DSH privileged /api methods (settings, credentials, model discovery) to configured remote authorities | 0.1.0-rc.8 (2026-08-20) |
 | dsh-remote-vps | 0 | [AlexisDevos/dsh-remote-vps](https://github.com/AlexisDevos/dsh-remote-vps) | Outils fichiers distants pour DeepSeek Harness : read/write/edit/glob/grep/bash sur des VPS via SSH (Tailscale), connexions multiples gérables dans Settings. Aucune valeur personnelle embarquée. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-remote-workspace-goodandr | 0 | [GooDAnDReaDY/dsh-remote-workspace](https://github.com/GooDAnDReaDY/dsh-remote-workspace) · [npm](https://www.npmjs.com/package/@goodandready/dsh-remote-workspace) | Enterprise Remote Workspace for DeepSeek Harness: SSH2 connection pool, SFTP operations, conflict-aware mirror sync, port forwarding, and native DSH UI. | unverified |
 | dsh-remote-xiaoxiao | 0 | [xiaoxiaohai/dsh-remote](https://github.com/xiaoxiaohai/dsh-remote) | Opt-in mobile access to DeepSeek Harness Web through QR pairing and a managed FRP tunnel. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-rent-vs-buy | 0 | [uckkk/dsh-rent-vs-buy](https://github.com/uckkk/dsh-rent-vs-buy) | rentvsbuy：租还是买：按参数精确计算，返回详细结果。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-rental-insurance | 0 | [uckkk/dsh-rental-insurance](https://github.com/uckkk/dsh-rental-insurance) | rentalinsurance：租车保险建议：按参数返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
