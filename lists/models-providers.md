@@ -4,7 +4,7 @@
 
 Providers, routing, fallbacks, subscription adapters.
 
-829 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+830 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -648,6 +648,7 @@ Providers, routing, fallbacks, subscription adapters.
 | dsh-model-router-andrepon | 0 | [andrepontesmelo/dsh-model-router](https://github.com/andrepontesmelo/dsh-model-router) | DSH plugin: declare VIRTUAL model ids bound to a pluggable routing algorithm (priority, round-robin) over real provider/model candidates; using the virtual id transparently dispatches to a real | 0.1.1-rc.2 (2026-08-28) |
 | dsh-model-router-fonlan | 0 | [fonlan/dsh-model-router](https://github.com/fonlan/dsh-model-router) · [npm](https://www.npmjs.com/package/@fonlan/dsh-model-router) | DSH plugin: a virtual model-router provider that aggregates every configured provider and model, routes each request to the model's currently active provider, and ships a settings page for per-model | 0.1.0-rc.8 (2026-08-20) |
 | dsh-model-search-fanfan6 | 0 | [fanfan6/dsh-model-search](https://github.com/fanfan6/dsh-model-search) | DSH 插件：为模型选择器添加跨平台搜索过滤功能，支持商汤、百炼等所有配置的模型源。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-model-search-goodandr | 0 | [GooDAnDReaDY/dsh-model-search](https://github.com/GooDAnDReaDY/dsh-model-search) · [npm](https://www.npmjs.com/package/@goodandready/dsh-model-search) | Search and select models in the DeepSeek Harness WebUI with a native settings card. | unverified |
 | dsh-model-search-heathhe | 0 | [HeathHe/dsh-model-search](https://github.com/HeathHe/dsh-model-search) · [npm](https://www.npmjs.com/package/dsh-model-search) | Adds a search box to the DSH Web GUI model switcher (the composer model seat), filtering the provider-grouped model list by model name / id / provider while preserving the official selection behavior | 0.1.0-rc.8 (2026-08-20) |
 | dsh-model-select-style | 0 | [qgx1992/dsh-model-select-style](https://github.com/qgx1992/dsh-model-select-style) | DSH web UI 插件：把输入框官方「模型选择」控件替换为两个独立按钮（供应商选择 + 模型选择，两级联动），保留推理等级调节；只动这一处控件，不改 DSH 源码。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-model-selector-bittersm | 0 | [bitterSmilezzz/dsh-model-selector](https://github.com/bitterSmilezzz/dsh-model-selector) | DeepSeek Harness 的增强模型选择器：单层菜单（搜索 + 分组）+ 底部内联推理强度（Effort）滑杆。 | 0.1.1-rc.2 (2026-09-02) |
