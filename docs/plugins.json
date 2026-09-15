@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -253699,6 +253699,21 @@
         "agents"
       ],
       "pushedAt": "2026-09-12"
+    },
+    {
+      "name": "dsh-sidebar-frog",
+      "repo": "zengqingsong/dsh-sidebar-frog",
+      "description": "可弹出侧边栏 · A fork of dsh-popout-sidebar grown into an artifacts and file-tree sidebar: offline previews (code, Markdown, PDF, Office, media), in-place editing, a read-only Git slice, and a pop-out tab.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-15",
+      "lastVerified": "2026-09-15",
+      "verifiedAgainst": "0.1.5-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "ui"
+      ]
     }
   ]
 }
