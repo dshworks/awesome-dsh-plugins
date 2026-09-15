@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-1021 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1022 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -938,6 +938,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-side-dir | 0 | [NonchalantLudens/dsh-side-dir](https://github.com/NonchalantLudens/dsh-side-dir) | Project directory preview panel for the DeepSeek Harness web GUI: lazy directory tree + read-only file preview in the details column, toggled from the sidebar. Data flows through a fenced /dirpreview | 0.1.0-rc.8 (2026-08-25) |
 | dsh-sidebar-auggie24 | 0 | [auggie246/dsh-sidebar](https://github.com/auggie246/dsh-sidebar) | Right-docked modular Sidebar for DSH Web; initial cards provide VS Code-style Source Control and a Commit Graph, with a shared Card Manifest for future cards | 0.1.1-rc.2 (2026-09-01) |
 | dsh-sidebar-enhancement-folder | 0 | [mastereal/dsh-sidebar-enhancement-folder](https://github.com/mastereal/dsh-sidebar-enhancement-folder) | Reveal the containing folder of any file open in a dsh-better-sidebar editor tab (explorer /select), one button per tab | 0.1.0-rc.8 (2026-08-20) |
+| dsh-sidebar-frog | - | [zengqingsong/dsh-sidebar-frog](https://github.com/zengqingsong/dsh-sidebar-frog) | 可弹出侧边栏 · A fork of dsh-popout-sidebar grown into an artifacts and file-tree sidebar: offline previews (code, Markdown, PDF, Office, media), in-place editing, a read-only Git slice, and a pop-out tab. | 0.1.5-rc.2 (2026-09-15) |
 | dsh-sidebar-gdhighlight | 0 | [lrplrplrp/dsh-sidebar-gdhighlight](https://github.com/lrplrplrp/dsh-sidebar-gdhighlight) | DSH plugin: GDScript syntax highlighting for dsh-better-sidebar CodeMirror editor | 0.1.1-rc.2 (2026-09-01) |
 | dsh-sidebar-onlyoffice | 0 | [chendefine/dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) | DSH web plugin: open .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE Document Server (JWT-signed config, in-network document/callback routes, save-back to disk). | 0.1.1-rc.2 (2026-08-28) |
 | dsh-sidebar-open-in-ide | 0 | [gunduziba/dsh-sidebar-open-in-ide](https://github.com/gunduziba/dsh-sidebar-open-in-ide) | Open files in JetBrains IDEA from the DSH web GUI, via the JetBrains MCP stdio server | 0.1.0-rc.8 (2026-08-25) |
