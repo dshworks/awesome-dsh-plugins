@@ -4,7 +4,7 @@
 
 Token accounting, billing, balance, quota.
 
-806 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+807 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -627,6 +627,7 @@ Token accounting, billing, balance, quota.
 | dsh-infra-observability | 0 | [Bryan-cmf/dsh-infra-observability](https://github.com/Bryan-cmf/dsh-infra-observability) | DSH-Plugin: structural observability layer — real tool/skill usage recording (tools/result), skill-catalog audit, and a watchdog with health/error events. No model self-reporting. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-insurance-estimate | 0 | [uckkk/dsh-insurance-estimate](https://github.com/uckkk/dsh-insurance-estimate) | insuranceestimate：车险费用估算：按参数精确计算，返回明确建议。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-keep-running | 0 | [imlishiyuan/dsh-keep-running](https://github.com/imlishiyuan/dsh-keep-running) | Watchdog plugin for DeepSeek Harness: on a 429/quota error, auto-resume the task via a recurring system-reminder until it succeeds. | 0.1.1-rc.2 (2026-09-04) |
+| dsh-key-limits-goodandr | 0 | [GooDAnDReaDY/dsh-key-limits](https://github.com/GooDAnDReaDY/dsh-key-limits) · [npm](https://www.npmjs.com/package/@goodandready/dsh-key-limits) | API key and subscription quota limits with a floating chip, composer bar, and settings UI. | unverified |
 | dsh-lan-sparkwei | 0 | [SparkWeiyang/dsh-lan](https://github.com/SparkWeiyang/dsh-lan) | DSH bundle: expose the Web GUI on the LAN (bind 0.0.0.0) and add a deepseek/balance RPC that queries the official DeepSeek balance with the PC-side credential | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lean | 0 | [sjh9714/dsh-lean](https://github.com/sjh9714/dsh-lean) · [npm](https://www.npmjs.com/package/dsh-lean) | DeepSeek bills peak hours at 2x, and peak is 09-12 and 14-18 Beijing time. npx dsh-lean audit shows what your session paid and what it costs off-peak. DeepSeek 峰时按 2 倍计费，峰时正好是上班时间。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ledger | 0 | [fatatalia/dsh-ledger](https://github.com/fatatalia/dsh-ledger) | dsh 只读记账仪表盘插件：复用 beancount ledger.py，在 web 会话页以「记账」Tab 展示本月收支、账户余额、分类结构与最近交易（只读，不记账操作），Fava 保留做深度分析。 | 0.1.0-rc.8 (2026-08-25) |
