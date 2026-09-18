@@ -110,7 +110,24 @@ const CONCURRENCY = 12;
 // 6,421 files and 25 new packages in total. Re-read profile.ts before this
 // constant moves; a bump without that is the thing this comment exists to
 // prevent.
-const DSH_VERSION = process.env.DSH_VERSION ?? "0.1.1-rc.2";
+//
+// 2026-09-18: re-read at 0.1.5-rc.2 (npm `latest` since 2026-09-10), tag to
+// tag against 0.1.1-rc.2, before moving:
+//
+//   packages/boot/app-boot/src/profile.ts   +621 lines, but the bundle path is
+//     the same code: `dsh.profile.bundles` -> resolveBundleDir ->
+//     `dsh.bundle.patch` joined to the package dir, throw when absent. New:
+//     an optional `dsh.profile.patchReload` ("live" | "startup"), which is a
+//     PROFILE field, not something a plugin declares or this prover reads.
+//   apps/cli/src/plugin.ts                  +6/-1, the template shape above
+//   packages/client/modules/src/index.ts    rewritten around it, still reads
+//     `pkg.dsh.client` (platform/inject/external/immediately) and still needs
+//     a "./client" export
+//   packages/skill/                         source: an import move and one
+//     comment; the frontmatter contract is unchanged
+//
+// So rows proven from here on carry the version a reader actually installs.
+const DSH_VERSION = process.env.DSH_VERSION ?? "0.1.5-rc.2";
 
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
 const write = (rel, value) => writeFileSync(join(ROOT, rel), `${JSON.stringify(value, null, 2)}\n`);
