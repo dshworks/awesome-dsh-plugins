@@ -4,13 +4,14 @@
 
 TUIs, desktop shells, headless runners.
 
-450 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+454 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
 | deepseek-harness-desktop | 27340 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-desktop-anywhere | 27340 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop/tree/HEAD/dsh-plugin-desktop) | DSH Desktop product workspace | 0.1.0-rc.8 (2026-08-25) |
 | dsh-desktop | 7208 | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | A cross-platform desktop shell for DeepSeek Harness. | 0.1.1-rc.2 (2026-09-04) |
+| deepseek-harness-desktop-dshtauri | 2213 | [dsh-tauri/deepseek-harness-desktop](https://github.com/dsh-tauri/deepseek-harness-desktop) | Desktop application for DeepSeek Harness (dsh) — one-click local install and launch, no Node.js setup required. | 0.1.1-rc.2 (2026-09-18) |
 | deepseek-harness-desktop-hairyf | 2213 | [dsh-tauri-desk/deepseek-harness-desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) | Desktop application for DeepSeek Harness (dsh) — one-click local install and launch, no Node.js setup required. | 0.1.0-rc.8 (2026-08-20) |
 | dshcode | 712 | [whitelonng/dshcode](https://github.com/whitelonng/dshcode) | Community desktop companion for DeepSeek Harness — one-click Electron app for macOS and Windows | 0.1.1-rc.2 (2026-09-04) |
 | working-activity | 660 | [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity/tree/HEAD/packages/activity/working-activity) · [npm](https://www.npmjs.com/package/dsh-working-activity) | Live model working-status line: playful copy, running tool, turn elapsed — for TUI prompt and Web UI | 0.1.0-rc.8 (2026-08-20) |
@@ -121,9 +122,11 @@ TUIs, desktop shells, headless runners.
 | dsh-desktop-aqian0 | 3 | [AQian0/dsh-desktop](https://github.com/AQian0/dsh-desktop/tree/HEAD/plugin) | dsh bundle: open the DeepSeek Harness Web surface in a Tauri desktop window | 0.1.0-rc.8 (2026-08-24) |
 | dsh-desktop-kyorakuy | 3 | [kyorakuyk/dsh-desktop](https://github.com/kyorakuyk/dsh-desktop/tree/HEAD/host) | Node host sidecar for dsh-desktop: boots the DeepSeek Harness web profile in-process | 0.1.0-rc.8 (2026-08-20) |
 | dsh-desktop-lansiai | 3 | [lansi-ai/dsh-desktop](https://github.com/lansi-ai/dsh-desktop) | DeepSeek Harness 桌面客户端（Electron 主进程内嵌 Cordis Host，零端口 IPC 载波，官方 Web UI 复用主面） | 0.1.1-rc.2 (2026-08-28) |
+| dsh-desktop-launcher2 | 3 | [H1Kariiiiiii/dsh-desktop-launcher2](https://github.com/H1Kariiiiiii/dsh-desktop-launcher2) | DSH 桌面启动器 + 一键关机：桌面图标创建、Web GUI 启动、优雅退出，适配 dsh 0.1.2-rc.1，移植自 @linxin666/dsh-desktop-launcher 0.2.8 | 0.1.1-rc.2 (2026-09-18) |
 | dsh-desktop-monshiny | 3 | [MonshinYu/dsh-desktop](https://github.com/MonshinYu/dsh-desktop) | A community-maintained desktop client for @deepseek-ai/dsh - wrap the dsh Web UI in a native window, no Node.js or Bun required for end users. | unverified |
 | dsh-Desktop-qinyre | 3 | [qinyre/dsh-Desktop](https://github.com/qinyre/dsh-Desktop/tree/HEAD/desktop) | DSH Desktop — zero-config DeepSeek Harness desktop client | 0.1.1-rc.2 (2026-09-04) |
 | dsh-dock-unknowca | 3 | [UnknowCao/dsh-dock](https://github.com/UnknowCao/dsh-dock) | One-click desktop launcher for DSH Harness: automatically installs a prebuilt native app (DSH Harness.exe, whale icon) on the desktop when the plugin activates (parameters auto-detected from the | 0.1.1-rc.2 (2026-09-09) |
+| dsh-forge-lansiai | 3 | [lansi-ai/dsh-forge](https://github.com/lansi-ai/dsh-forge) | DSH Forge — 把桌面操作系统锻造成 DeepSeek Harness 可插拔能力层的桌面客户端（Electron 主进程内嵌 Cordis Host，零端口 IPC 载波，官方 Web UI 复用主面） | 0.1.1-rc.2 (2026-09-18) |
 | dsh-neotui | 3 | [edabchann/dsh-neotui](https://github.com/edabchann/dsh-neotui/tree/HEAD/app) | dsh-neotui bundle: the terminal surface over dsh-base (mouse-driven TUI + embedded API surface) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-mimi | 3 | [mekos2772/dsh-plugin-mimi](https://github.com/mekos2772/dsh-plugin-mimi) | 鲸鱼娘 Mimi 超级桌面助理：DeepSeek Harness 桌面伴侣，内置 Windows Computer Use，支持观察、点击、输入、滚动与操作后验证。 | 0.1.1-rc.2 (2026-09-04) |
 | dsh-plugin-open-with | 3 | [hyrinx/dsh-plugin-open-with](https://github.com/hyrinx/dsh-plugin-open-with) | Capsule split-button in the dsh web conversation header: open the workspace in VS Code, terminal, or file explorer — extensible to more launchers. | 0.1.0-rc.8 (2026-08-25) |
@@ -148,6 +151,7 @@ TUIs, desktop shells, headless runners.
 | deepwhale-desktop | 2 | [feely0208/deepwhale-desktop](https://github.com/feely0208/deepwhale-desktop) | 深鲸桌面（DeepWhale Desktop）：把 DeepSeek Harness（DSH）Web UI 装进 Electron 原生窗口的跨平台桌面壳，附带背景皮肤、帧动画桌面宠物与用量/额度面板 | 0.1.0-rc.8 (2026-08-20) |
 | desktop-harness | 2 | [citizenll/desktop-harness](https://github.com/citizenll/desktop-harness) | Electron desktop distribution of DeepSeek Harness with source-driven evolution and plugin management. | 0.1.1-rc.2 (2026-09-04) |
 | dfy-dsh-desktop | 2 | [xiaoxiao44443/dfy-dsh-desktop](https://github.com/xiaoxiao44443/dfy-dsh-desktop) | A fast desktop shell for DeepSeek Harness with managed Harness runtime updates. | 0.1.1-rc.2 (2026-09-01) |
+| dotnet-deepseek-harness-desktop | 2 | [ZK-Andy/dotnet-deepseek-harness-desktop](https://github.com/ZK-Andy/dotnet-deepseek-harness-desktop/tree/HEAD/plugins/dsh-desktop-companion) | DeepSeek Harness Desktop 的桌面伴生插件：更新/诊断/桌面设置 UI、托盘事件中继与外部链接失败提示等壳集成能力。Desktop shell companion for dotnet-deepseek-harness-desktop. | 0.1.1-rc.2 (2026-09-18) |
 | DSCoder | 2 | [ztmajor/DSCoder](https://github.com/ztmajor/DSCoder/tree/HEAD/src-tauri/resources/dsh-idelike) | DeepSeek Harness IDE 式插件：右侧文件树（文件夹箭头指示展开）+ 顶部标签栏（聊天为非关闭标签、打开的文件为可关闭可编辑标签）+ 可编辑保存的文件查看 + 底部 Ctrl+` 可切换的终端面板。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-ccTUI | 2 | [agentforce314/dsh-ccTUI](https://github.com/agentforce314/dsh-ccTUI) | Claude-Code-style terminal UI for deepseek-harness, ported from clawcodex ui-tui | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cockpit | 2 | [ethan0084/dsh-cockpit](https://github.com/ethan0084/dsh-cockpit/tree/HEAD/packages/bundle) · [npm](https://www.npmjs.com/package/dsh-cockpit) | A desktop-style project and AI workbench for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |

@@ -4,11 +4,13 @@
 
 Permission tiers, gates, redaction, protection.
 
-442 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+447 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
+| penguin-harness | 2267 | [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness/tree/HEAD/plugins/sandbox-dsh) | DeepSeek Harness sandbox adaptor for PenguinHarness: the DSH local backend chain behind the harness's own sandbox interface. | 0.1.1-rc.2 (2026-09-18) |
 | Aegis | 1207 | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks. | 0.1.0-rc.8 (2026-08-20) |
+| SkillCorpus | 648 | [EverMind-AI/SkillCorpus](https://github.com/EverMind-AI/SkillCorpus/tree/HEAD/skillcorpus_plugin/engine-typescript) | Per-turn skill retrieval for the DeepSeek Harness: fuse local and remote sources, gate by relevance, inject what fits | 0.1.1-rc.2 (2026-09-18) |
 | k8e | 494 | [xiaods/k8e](https://github.com/xiaods/k8e/tree/HEAD/plugins/deepseek-harness/packages/dsh-k8e-sandbox-bundle) | Installable dsh bundle mounting the k8e-sandbox execution world (KIP-20). | 0.1.0-rc.8 (2026-08-20) |
 | DeepSec | 433 | [Unclecheng-li/DeepSec](https://github.com/Unclecheng-li/DeepSec/tree/HEAD/dsh-plugins/deepsec-shield) | DeepSec Shield code-security audit tools for DeepSeek Harness (dsh): L1/L2/L3 scanning, agent-config audit, supply-chain checks and report generation. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-mobile-sayach | 272 | [saya-ch/dsh-mobile](https://github.com/saya-ch/dsh-mobile) · [npm](https://www.npmjs.com/package/dsh-mobile) | DeepSeek Harness 移动端适配与安全局域网访问插件，支持 Android App 和手机浏览器。 | 0.1.0-rc.8 (2026-08-20) |
@@ -94,9 +96,12 @@ Permission tiers, gates, redaction, protection.
 | dsh-plugin-vet | 3 | [wulun811/dsh-plugin-vet](https://github.com/wulun811/dsh-plugin-vet) · [npm](https://www.npmjs.com/package/@jieai/dsh-plugin-vet) | Plugin trust pipeline for deepseek-harness (DSH): deterministic static scan, runtime guard (T1 sentinel + T2 hooks), audit protocol skill, GUI shield. Alarm-only monitor, never an enforcer. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-same-mode-sandbox-noop | 3 | [zhangzujian/dsh-same-mode-sandbox-noop](https://github.com/zhangzujian/dsh-same-mode-sandbox-noop) | DSH compatibility plugin that treats redundant non-escalating sandbox permission fields as a no-op | 0.1.0-rc.8 (2026-08-20) |
 | dsh-solidworks | 3 | [tian-yu200/dsh-solidworks](https://github.com/tian-yu200/dsh-solidworks/tree/HEAD/dsh-integration/plugins/solidworks-policy) | DeepSeek Harness integration for safe, high-level SolidWorks automation, built on SolidPilot. | 0.1.0-rc.8 (2026-08-20) |
+| DSH-SW-and-CAD | 3 | [fyjgtddco/DSH-SW-and-CAD](https://github.com/fyjgtddco/DSH-SW-and-CAD/tree/HEAD/engineering/plugins/dsH-engineering-sw-single-line) | 工程模式 SW单行模式插件：权限预设注册 + 非工程模式发送前确认面板 | 0.1.1-rc.2 (2026-09-18) |
 | dsh-thinking-notifier | 3 | [6-debug-6/dsh-thinking-notifier](https://github.com/6-debug-6/dsh-thinking-notifier) | DeepSeek Harness desktop popup plugin: shows AI thinking status in a bottom-right always-on-top card, alerts on permission requests and completion, with a DeepSeek-style UI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-todo-guard | 3 | [a903067276-rgb/dsh-todo-guard](https://github.com/a903067276-rgb/dsh-todo-guard) | Reliable todo panel for DSH: survives restarts, verifies completion evidence | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tool-git-lxj808624 | 3 | [lxj808624/dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) · [npm](https://www.npmjs.com/package/dsh-tool-git) | Structured, safe Git tool family for DeepSeek Harness: status/diff/log/branch/stage/commit/stash/show/fetch/pull/remote/checkout with a destructive-command guard. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-tunnel-plugin | 3 | [StyleJeke/dsh-tunnel-plugin](https://github.com/StyleJeke/dsh-tunnel-plugin) | DSH 内网穿透：边界代理 + Cloudflare 隧道，在设置里一键启停，把本机 DSH 安全发布到公网 | 0.1.1-rc.2 (2026-09-18) |
+| dsh-write-protect | 3 | [azazo1/dsh-write-protect](https://github.com/azazo1/dsh-write-protect) | DSH sandbox extension: protect declared workspace subpaths (e.g. .git) from writes, and optionally grant extra writable roots under workspace-write, enforced for sandboxed CLI commands and the | 0.1.1-rc.2 (2026-09-18) |
 | dsh-yolo-mode | 3 | [SeverusZh/dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) · [npm](https://www.npmjs.com/package/dsh-yolo-mode) | LLM-powered auto-approval for DeepSeek Harness sandbox privilege prompts, with presets and a settings UI. | 0.1.0-rc.8 (2026-08-20) |
 | beforedone | 2 | [rrrrrredy/beforedone](https://github.com/rrrrrredy/beforedone/tree/HEAD/integrations/deepseek-harness) · [npm](https://www.npmjs.com/package/dsh-beforedone) | DeepSeek Harness community Bundle for the BeforeDone evidence gate | 0.1.0-rc.8 (2026-08-20) |
 | deepseek-harness-blaxel-sandbox | 2 | [blaxel-ai/deepseek-harness-blaxel-sandbox](https://github.com/blaxel-ai/deepseek-harness-blaxel-sandbox) | Blaxel sandbox execution plugin for DeepSeek Harness (DSH) | 0.1.0-rc.8 (2026-08-21) |

@@ -1,23 +1,13 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-18",
   "candidates": [
     {
       "repo": "10086ggqq/dsh_theme_Minecraft",
       "sources": [
         "github-topic"
       ],
-      "stars": 1,
+      "stars": 3,
       "description": "把 DeepSeek Harness 变成 Minecraft Java Edition 风格——WebGL 旋转全景主菜单、存档式会话选择、四种游戏模式对应 Agent 预设、世界内 HUD 聊天台、像素风工具卡片与审批面板、AI 思考时触发跑酷小游戏、8-bit 合成音效与自定义背景音乐、五类互动桌宠与红石粒子特效。零侵入 DSH 核心源码，经典界面一键切回。",
-      "discovered": "2026-09-03",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "123twtd/dsh-skin-manager",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 0,
-      "description": "DeepSeek Harness (dsh) 可切换皮肤包管理器：皮肤包发现/激活/ZIP 导入，适配 0.1.x，含爱弥斯示例皮肤",
       "discovered": "2026-09-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
@@ -26,18 +16,8 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 1,
+      "stars": 0,
       "description": "dshthemes.com — every DeepSeek Harness theme, in its own colours. A reader of dshworks/awesome-dsh-themes.",
-      "discovered": "2026-09-03",
-      "note": "looks like a theme; belongs in awesome-dsh-themes"
-    },
-    {
-      "repo": "frank-fan-818/dsh-f1-skin",
-      "sources": [
-        "github-topic"
-      ],
-      "stars": 1,
-      "description": "An F1 Race Control themed skin for the DeepSeek Harness Web UI — Red Bull, Ferrari, McLaren & Mercedes team themes, broadcast-photo backdrops, and a native settings panel, in dark and light.",
       "discovered": "2026-09-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
@@ -62,6 +42,16 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "online111111/whalechan-dsh-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 4,
+      "description": "Unofficial Whale-chan community fan-art theme for DeepSeek Harness",
+      "discovered": "2026-09-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "Sh1wu0814/dsh-chat-background",
       "sources": [
         "github-topic"
@@ -69,6 +59,16 @@
       "stars": 1,
       "description": "Chat background plugin for DeepSeek Harness - set an image as the chat view background, inspired by VSCode background extension.",
       "discovered": "2026-08-31",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "sz1698/dsh-bg-new",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 20,
+      "description": "DSH 网页界面换背景：侧栏「壁纸」按钮弹出右侧抽屉，支持系统预设/纯色/渐变/图片/视频，滚轮+拖动小图同时管缩放与定位，毛玻璃质感，本地媒体伺服不走云端。DSH web background & wallpaper plugin with drawer UI, glassmorphism and local media serving.",
+      "discovered": "2026-09-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     }
   ]

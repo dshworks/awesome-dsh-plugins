@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-182 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+186 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -51,10 +51,14 @@ Building, testing, and publishing plugins.
 | dsh-plugin-teamflow | 5 | [MichaelShii/dsh-plugin-teamflow](https://github.com/MichaelShii/dsh-plugin-teamflow) | TeamFlow 团队研发流水线（TypeScript）：需求→PRD→设计→架构→技术方案→并行开发→QA→验收；backlog 持久化 + 断点续跑 + 完成汇报 + 防假交付；Web 团队工作台（conversation.view tab + 拖拽看板） | 0.1.1-rc.2 (2026-08-28) |
 | dsh-plugin-template-sunshine | 5 | [sunshine-lang/dsh-plugin-template](https://github.com/sunshine-lang/dsh-plugin-template) | {{DESCRIPTION}} | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ptc-cordis-preset | 5 | [KannaKuron/dsh-ptc-cordis-preset](https://github.com/KannaKuron/dsh-ptc-cordis-preset) | DSH plugin: a Creation-mode preset built on top of PTC mode — every capability of PTC (Code Mode SDK tool presentation), plus the self-referential Cordis toolset, runtime inspection, dynamic-plugin | 0.1.0-rc.8 (2026-08-20) |
+| Agora | 4 | [logan-suu/Agora](https://github.com/logan-suu/Agora) | The digital town square where AI agents (PM/Architect/Coder/Tester) collaborate via group chat, while the human acts as the sole Leader. Built with TypeScript + DeepSeek Harness, featuring true parall | 0.1.1-rc.2 (2026-09-18) |
+| dsh-nonead-universal-robots | 4 | [NoneadChina/dsh-nonead-universal-robots](https://github.com/NoneadChina/dsh-nonead-universal-robots) | 一个让 DSH 用自然语言直接控制 Universal Robots（UR）机械臂的插件，由拓德科技（Nonead）基于自研的 nUR MCP Server 同源逻辑开发。 | 0.1.1-rc.2 (2026-09-18) |
 | dsh-rp-composer | 4 | [wuzhigouno-collab/dsh-rp-composer](https://github.com/wuzhigouno-collab/dsh-rp-composer) | 三段式 RP 输入面板：台词/动作/心理分框填写，按模板组装后发送 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-cc-studio | 3 | [xia-sc/dsh-cc-studio](https://github.com/xia-sc/dsh-cc-studio) | CCv3 角色卡工坊：融合工坊 + CC 模式（LLM Tools 引导）+ 自定义标签，空白模板 | 0.1.0-rc.8 (2026-08-24) |
+| dsh-hold-to-talk | 3 | [wangzhanchao883/dsh-hold-to-talk](https://github.com/wangzhanchao883/dsh-hold-to-talk) | Hold-to-talk voice input for the DeepSeek Harness Web composer: hold the mouse on the input box, speak, see the running transcript float above it, release to insert the text into the draft. | 0.1.1-rc.2 (2026-09-18) |
 | dsh-sonarqube | 3 | [maxmilian/dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) | Read-only SonarQube Community Build tools for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-25) |
 | gitee-ai-employee | 3 | [wangbobo-coder/gitee-ai-employee](https://github.com/wangbobo-coder/gitee-ai-employee) | Gitee/GitHub AI 员工：在 issue 里 @ 机器人，它自动克隆仓库、按你指定的分支开发并提交 PR（可自动合并、自动关闭 issue）。An issue-driven AI developer for DeepSeek Harness (Gitee & GitHub): @ the bot on an issue, it clones the repo, implements | 0.1.0-rc.8 (2026-08-25) |
+| useful-dsh-plugins | 3 | [lishize20040802-rgb/useful-dsh-plugins](https://github.com/lishize20040802-rgb/useful-dsh-plugins) | Community plugins for DeepSeek Harness; source and release tooling. | 0.1.1-rc.2 (2026-09-18) |
 | deepseek-harness-desktop-antonyji | 2 | [Antony-Jia/deepseek-harness-desktop](https://github.com/Antony-Jia/deepseek-harness-desktop/tree/HEAD/dsh-plugin-template) | DSH 插件模板：复制此目录后改成你自己的包（宿主 + 浏览器双半） | 0.1.0-rc.8 (2026-08-21) |
 | deepseek-rust-harness | 2 | [leemiracle/deepseek-rust-harness](https://github.com/leemiracle/deepseek-rust-harness) · [npm](https://www.npmjs.com/package/deepseek-rust-harness) | Rust dev domain plugin for DeepSeek Harness (dsh): verification pyramid fmt→clippy→build+test→miri+audit(+semver) as model-facing tools + graph-layer governance (anti-Goodhart 8 rules incl. #[allow] | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ci-co-pilot | 2 | [temotee2103/dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) | GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes. Everything is a plugin. | 0.1.0-rc.8 (2026-08-20) |

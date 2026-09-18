@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-475 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+478 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -24,6 +24,7 @@ In-UI stores, installers, skill managers.
 | ru-marketplace-mcp | 105 | [Vladimir-Human/ru-marketplace-mcp](https://github.com/Vladimir-Human/ru-marketplace-mcp/tree/HEAD/dsh) | Девять российских маркетплейсов и китайский Taobao как MCP-серверы: Wildberries, Ozon, Яндекс Маркет, Детский мир, Авито, Мегамаркет, Lamoda, DNS, Ситилинк. Плюс сравнение цен по всем сразу. Только чт | 0.1.0-rc.8 (2026-08-20) |
 | dsh-webui-market-plugin | 104 | [Sanqi-normal/dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) · [npm](https://www.npmjs.com/package/@sanqi-normal/dsh-webui-market-plugin) | In-harness community plugin market for the dsh web GUI: browse, install, and uninstall into a profile. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-capability-menu | 85 | [PKUfudawei/dsh-capability-menu](https://github.com/PKUfudawei/dsh-capability-menu) | Unified capability management for the DeepSeek Harness: catalog (registry) + meta_search/meta_invoke + Exposed/Progressive/Blocked projection policy + 能力管理 surface, in one installable bundle. | 0.1.0-rc.8 (2026-08-24) |
+| dsh-plugin-gating-hub | 85 | [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) | DSH plugin management panel & marketplace: one-click enable/disable, multi-source market (GitHub/Gitee/custom), static-index market (500+ plugins / 300 skills), skills, suites, and one-click | 0.1.1-rc.2 (2026-09-18) |
 | dsh-plugin-hub | 85 | [Noob-stupid/dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) | 插件控制台：一键启用/停用插件，浏览并安装 GitHub dsh-plugin 插件 | 0.1.0-rc.8 (2026-08-20) |
 | zat-dsh-engine | 80 | [mishibeikejie/zat-dsh-engine](https://github.com/mishibeikejie/zat-dsh-engine) | Visual plugin marketplace for DeepSeek Harness: browse, search, install, update, and uninstall community plugins. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-web-plugin-manager | 70 | [LX2000WASD/dsh-web-plugin-manager](https://github.com/LX2000WASD/dsh-web-plugin-manager) · [npm](https://www.npmjs.com/package/dsh-web-plugin-manager) | Manage DeepSeek Harness (DSH) plugins from the Web UI: list, enable/disable, install/remove, environments, and a GitHub-awesome-driven marketplace. | 0.1.0-rc.8 (2026-08-20) |
@@ -70,6 +71,7 @@ In-UI stores, installers, skill managers.
 | dsh-plugin-manager-nonentit | 8 | [nonentity303/dsh-plugin-manager](https://github.com/nonentity303/dsh-plugin-manager) · [npm](https://www.npmjs.com/package/dsh-plugin-manager-pro) | 本地插件管理器：分类折叠、更新源一键更新（npm/GitHub/插件超市）、浏览器下载优先、下载目录自动安装、救砖与启动前自检 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-manager-pelydeng | 8 | [PelyDeng/dsh-plugin-manager](https://github.com/PelyDeng/dsh-plugin-manager/tree/HEAD/packages/plugin-kit) | Optional identity, HTTP and tool integration for DSH plugins | 0.1.1-rc.2 (2026-09-09) |
 | dsh-plugins | 8 | [Sakana-yuyu/dsh-plugins](https://github.com/Sakana-yuyu/dsh-plugins) | Star-ranked DeepSeek Harness plugin catalog. Search and install other dsh-plugin repos. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-workbuddy-xdpool | 8 | [aosi526/dsh-workbuddy-xdpool](https://github.com/aosi526/dsh-workbuddy-xdpool) | Merge every locally signed-in WorkBuddy account into DeepSeek Harness as one auto-failing-over model pool (multi-account rotation, live credits, daily check-in and model catalog). | 0.1.1-rc.2 (2026-09-18) |
 | dexthemes | 7 | [daeshawnballard/dexthemes](https://github.com/daeshawnballard/dexthemes/tree/HEAD/packages/deepseek-harness-plugin) · [npm](https://www.npmjs.com/package/@dexthemes/deepseek-harness-plugin) | Discover, preview, apply, restore, and revert themes in DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dizzy-dsh | 7 | [Acidmoon/DIzzy-DSH](https://github.com/Acidmoon/DIzzy-DSH) | Dizzy-DSH 插件合集仓库:git clone 后 dsh plugin add 即装,无需 npm 发布。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-sidebar-lite | 7 | [pixellover1433/dsh-better-sidebar-lite](https://github.com/pixellover1433/dsh-better-sidebar-lite) · [npm](https://www.npmjs.com/package/dsh-better-sidebar-lite) | Right-side tabbed sidebar for DeepSeek Harness web: explorer (workspace file tree) and git (changes, commits) tabs on an extensible tab registry | 0.1.0-rc.8 (2026-08-20) |
@@ -128,6 +130,7 @@ In-UI stores, installers, skill managers.
 | dsh-user-plugins-manager | 3 | [zdjmrq/dsh-pluginmanager](https://github.com/zdjmrq/dsh-pluginmanager) | DSH 用户插件管理器:在“设置 → 插件”中统一管理用户插件——目录散件的挂载/启用/停用/卸载、运行树中部署/包插件的启用/停用、以及 profile 中已安装 npm 插件包的挂载/卸载(写入 cordis.patch.yml 补丁层,HMR 热生效)。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-workshop | 3 | [loguhan/dsh-workshop](https://github.com/loguhan/dsh-workshop) | Steam Workshop style plugin store for DSH Web UI: browse, search and one-click install community plugins with mirror acceleration | 0.1.0-rc.8 (2026-08-20) |
 | harness-hub | 3 | [huihuisire/harness-hub](https://github.com/huihuisire/harness-hub) | DeepSeek Harness (dsh) 桌面端封装 —— 免命令行、双击即用的原生桌面应用，内置插件管理器 | 0.1.0-rc.8 (2026-08-20) |
+| .dsh-plugin-installer | 2 | [zhang66633/.dsh-plugin-installer](https://github.com/zhang66633/.dsh-plugin-installer) | DSH 插件商店 + 安装排障技能一体包：Web GUI「插件商店」页签浏览插件目录（名称/介绍/原链接），一键触发安装；内置 dsh-plugin-installer 技能作为安装后端引擎。 | 0.1.1-rc.2 (2026-09-18) |
 | awesome-ios-sim | 2 | [qubyyang/awesome-ios-sim](https://github.com/qubyyang/awesome-ios-sim) | Simulator State as Code for iOS developers, CI pipelines, MCP clients, and DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | awesome-skills | 2 | [vibe-any/awesome-skills](https://github.com/vibe-any/awesome-skills/tree/HEAD/dsh-plugin-helper/templates/client-plugin) | Scaffold: a dual-face dsh Web UI plugin — host half mounts the loader entry, ./client half runs in the browser (rename to your plugin). | unverified |
 | dsh | 2 | [qomob/dsh](https://github.com/qomob/dsh/tree/HEAD/plugin) | Discover DeepSeek Harness (dsh) community plugins from inside dsh. Ships the plugin_search and plugin_info tools backed by an embedded registry snapshot and the live GitHub ecosystem. | 0.1.0-rc.8 (2026-08-20) |
