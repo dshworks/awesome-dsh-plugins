@@ -257378,6 +257378,66 @@
       "stars": 0,
       "starsUpdated": "2026-09-18",
       "pushedAt": "2026-09-17"
+    },
+    {
+      "name": "dsh-server-monitor",
+      "repo": "GooDAnDReaDY/dsh-server-monitor",
+      "description": "Read-only SSH monitoring for Linux host CPU, memory, disks, processes, containers, network, and listening ports in the DSH sidebar.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-18",
+      "lastVerified": "2026-09-18",
+      "verifiedAgainst": "not verified",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-server-monitor",
+      "tags": [
+        "observability",
+        "capabilities"
+      ],
+      "stars": 0,
+      "starsUpdated": "2026-09-18",
+      "pushedAt": "2026-09-17"
+    },
+    {
+      "name": "dsh-approval-gate-goodandr",
+      "repo": "GooDAnDReaDY/dsh-approval-gate",
+      "description": "Host-only command gate that blocks recognized dangerous operations and requests approval when inspection is inconclusive.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-18",
+      "lastVerified": "2026-09-18",
+      "verifiedAgainst": "not verified",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-approval-gate",
+      "tags": [
+        "safety",
+        "capabilities"
+      ],
+      "stars": 0,
+      "starsUpdated": "2026-09-18",
+      "pushedAt": "2026-09-17"
+    },
+    {
+      "name": "dsh-session-search-goodandr",
+      "repo": "GooDAnDReaDY/dsh-session-search",
+      "description": "Model-facing full-text search over historical DeepSeek Harness sessions via the core FTS index.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-18",
+      "lastVerified": "2026-09-18",
+      "verifiedAgainst": "not verified",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@goodandready/dsh-session-search",
+      "tags": [
+        "memory",
+        "capabilities"
+      ],
+      "stars": 0,
+      "starsUpdated": "2026-09-18",
+      "pushedAt": "2026-09-17"
     }
   ]
 }
