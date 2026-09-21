@@ -68498,6 +68498,23 @@
       "pushedAt": "2026-08-26"
     },
     {
+      "name": "dsh-feishu-beacon",
+      "repo": "jiangdunchun/dsh-feishu-beacon",
+      "description": "DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-09-21",
+      "lastVerified": "2026-09-21",
+      "verifiedAgainst": "0.1.5-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-feishu-beacon",
+      "tags": [
+        "notifications",
+        "channels"
+      ]
+    },
+    {
       "name": "dsh-feishu-bot",
       "repo": "TingRuDeng/dsh-feishu-bot",
       "description": "Feishu (Lark) private-chat frontend for DeepSeek Harness: drive, monitor, and approve local agents from Feishu, sharing sessions with the Web GUI",
