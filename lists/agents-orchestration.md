@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-1115 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1116 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1119,6 +1119,7 @@ Subagents, workflows, cross-session coordination.
 | superpowers-workflow | 0 | [yefei124/superpowers-workflow](https://github.com/yefei124/superpowers-workflow) | Superpowers 风格的 DSH 开发工作流插件:头脑风暴 → 计划 → TDD → 调试,8 个引导工具 + Markdown 总结导出。 | 0.1.1-rc.2 (2026-09-04) |
 | tomilite-dsh-plugin | 0 | [xxwj225-James/tomilite-dsh-plugin](https://github.com/xxwj225-James/tomilite-dsh-plugin) | DeepSeek Harness plugin: give your DSH agent access to your local TomiLite tasks, notes, and project stats | 0.1.0-rc.8 (2026-08-21) |
 | wan3-agent-skills | 0 | [thinkingpeach-sketch/wan3-agent-skills](https://github.com/thinkingpeach-sketch/wan3-agent-skills/tree/HEAD/integrations/deepseek-harness) | Thin DeepSeek Harness bundle that verifies WAN3 portable skill discovery | 0.1.0-rc.8 (2026-08-25) |
+| whale-persona | - | [shenA2024/whale-persona](https://github.com/shenA2024/whale-persona) · [npm](https://www.npmjs.com/package/whale-persona) | 人设引擎：一份 config.json 管住 AI 的自称（可按模型）、对你的称呼、关系立场、性格正文、逐条可开关的工作契约、思维链语言、形象与语气，以及长期记忆——记忆写入由代码把关，AI 只能写候选，人确认后才生效。零运行时依赖、不联网、出厂空白。 | unverified |
 | wsr-execution | 0 | [firestige/wsr-execution](https://github.com/firestige/wsr-execution) | Host-neutral execution boundary for workflow-self-recursive: resolves and validates one exact Workflow Package, binds an immutable Delivery Manifest, coordinates the Delivery, and emits bounded OTLP | 0.1.1-rc.2 (2026-09-01) |
 | xby-hitoshura25-android-playstore-deploy | 0 | [xby-skill/xby-hitoshura25-android-playstore-deploy](https://github.com/xby-skill/xby-hitoshura25-android-playstore-deploy) | 一个帮助开发者设置自动化Google Play商店部署流程的工具，支持项目分析、密钥生成、服务账户配置和GitHub Actions工作流生成。 | 0.1.1-rc.2 (2026-09-01) |
 | xby-text-toolkit | 0 | [xby-skill/xby-text-toolkit](https://github.com/xby-skill/xby-text-toolkit) | 一个提供文本转换、格式化和分析功能的MCP服务器，可直接集成到开发工作流中。 | 0.1.1-rc.2 (2026-09-01) |
