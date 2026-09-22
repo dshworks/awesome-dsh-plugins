@@ -257374,6 +257374,26 @@
       "stars": 0,
       "starsUpdated": "2026-09-22",
       "pushedAt": "2026-09-18"
+    },
+    {
+      "name": "dsh-laya",
+      "repo": "PerryLink/dsh-laya",
+      "description": "Laya typed decisions (noul/choice/score) as a first-class Cordis service plus laya_ask and laya_plan tools; a client of a self-started laya-mcp sidecar, so it installs nothing itself.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-22",
+      "lastVerified": "2026-09-22",
+      "verifiedAgainst": "0.1.7-alpha.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-laya",
+      "stars": 1,
+      "starsUpdated": "2026-09-22",
+      "tags": [
+        "capabilities",
+        "agents"
+      ],
+      "pushedAt": "2026-09-22"
     }
   ]
 }

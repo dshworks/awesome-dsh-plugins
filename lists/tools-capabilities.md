@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-3851 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3852 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1175,6 +1175,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-knj-menu | 1 | [yangdongzhen590/dsh-knj-menu](https://github.com/yangdongzhen590/dsh-knj-menu) | 第三方菜单管理器：统一收纳第三方插件的新增菜单入口，提供常驻/折叠 + 固定（DeepSeek Harness） | 0.1.0-rc.8 (2026-08-25) |
 | dsh-kubernetes-operations | 1 | [satan9394/dsh-kubernetes-operations](https://github.com/satan9394/dsh-kubernetes-operations) | SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lan-share | 1 | [WODE25500/dsh-lan-share](https://github.com/WODE25500/dsh-lan-share) | DSH LAN file share: share the workspace over the local network — phones/tablets/other computers browse, download and upload files via a browser, no DSH login needed. Token gate, path boundary | 0.1.0-rc.8 (2026-08-20) |
+| dsh-laya | 1 | [PerryLink/dsh-laya](https://github.com/PerryLink/dsh-laya) · [npm](https://www.npmjs.com/package/dsh-laya) | Laya typed decisions (noul/choice/score) as a first-class Cordis service plus laya_ask and laya_plan tools; a client of a self-started laya-mcp sidecar, so it installs nothing itself. | 0.1.7-alpha.1 (2026-09-22) |
 | dsh-lazy-skill | 1 | [lihuu/dsh-lazy-skill](https://github.com/lihuu/dsh-lazy-skill) | Lazy-load skill bundles for DeepSeek Harness: a bundle box holds a root skill and sub-skills, loaded by metadata (`loadSubskills`) or by model decision from body text. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-lazy-tools | 1 | [studyzy/dsh-lazy-tools](https://github.com/studyzy/dsh-lazy-tools) | CodeBuddy-style deferred tool loading for DeepSeek Harness: keep tool schemas out of the model context until the model loads them on demand via tool_search / defer_execute_tool. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lens-nexusage | 1 | [NexusAgentX/dsh-lens](https://github.com/NexusAgentX/dsh-lens) · [npm](https://www.npmjs.com/package/dsh-lens) | Real-time code feedback for DeepSeek Harness — LSP, linters, formatters, type-checking, and structural analysis. | 0.1.0-rc.8 (2026-08-20) |
