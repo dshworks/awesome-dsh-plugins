@@ -223796,6 +223796,23 @@
       "pushedAt": "2026-08-19"
     },
     {
+      "name": "whale-persona",
+      "repo": "shenA2024/whale-persona",
+      "description": "人设引擎：一份 config.json 管住 AI 的自称（可按模型）、对你的称呼、关系立场、性格正文、逐条可开关的工作契约、思维链语言、形象与语气，以及长期记忆——记忆写入由代码把关，AI 只能写候选，人确认后才生效。零运行时依赖、不联网、出厂空白。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-22",
+      "lastVerified": "2026-09-22",
+      "verifiedAgainst": "0.1.6-alpha.2",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "whale-persona",
+      "tags": [
+        "agents",
+        "memory"
+      ]
+    },
+    {
       "name": "whale-purse",
       "repo": "Suiwan/whale-purse",
       "description": "鲸鱼娘桌宠 · DeepSeek 余额 + 会话用量/花费监视，直接挂进 DSH Web profile 的组合层（cordis.patch.yml insert，热重载）",
