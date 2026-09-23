@@ -4,11 +4,11 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-221 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+222 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
-| dsh-research-report | 152 | [PerryLink/dsh-research-report](https://github.com/PerryLink/dsh-research-report) · [npm](https://www.npmjs.com/package/dsh-research-report) | Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim ↔ snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a | 0.1.0-rc.8 (2026-08-20) |
+| dsh-research-report | 152 | [PerryLink/dsh-research-report](https://github.com/PerryLink/dsh-research-report) · [npm](https://www.npmjs.com/package/dsh-research-report) | Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim ↔ snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a | 0.1.6-alpha.2 (2026-09-20) |
 | dsh-status-rotator | 88 | [01Virex/dsh-status-rotator](https://github.com/01Virex/dsh-status-rotator) · [npm](https://www.npmjs.com/package/dsh-status-rotator) | Rotates the DSH chat turn-status label ("Deep diving...") through user-defined phrases every few seconds. | 0.1.0-rc.8 (2026-08-20) |
 | PrismFlowAgent | 88 | [justlovemaki/PrismFlowAgent](https://github.com/justlovemaki/PrismFlowAgent/tree/HEAD/integrations/dsh) | Native PrismFlow plugins and one-stop dashboard for DeepSeek Harness | 0.1.1-rc.2 (2026-09-04) |
 | dsh-whale-report | 31 | [SenmuuuuW/dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report) | 鲸鱼记事本 — 你的 Agent 年度/月度/周度/日报：从会话事件日志生成数据新闻官式报告，任意区间、定时生成。 | 0.1.0-rc.8 (2026-08-20) |
@@ -151,6 +151,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-bisect-debug | 0 | [PangYiMing/dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) | Bisect bug root causes in three modes: code / boundary / commit (git bisect run) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-business | 0 | [winyh/dsh-business](https://github.com/winyh/dsh-business) | Evidence-backed business strategy, pricing, profitability, elevator pitches and business plans. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-canary-decision-proof | 0 | [dongsheng123132/dsh-canary-decision-proof](https://github.com/dongsheng123132/dsh-canary-decision-proof) | Offline content-addressed proof that a canary decision follows explicit evidence policy | 0.1.1-rc.2 (2026-09-01) |
+| dsh-cert-mcp | 0 | [PerryLink/dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) · [npm](https://www.npmjs.com/package/dsh-cert-mcp) | Read-only MCP server over the dsh-plugin-certification registry: get_certification, list_certified and certification_spec, so any MCP client can query a plugin certification grade. | 0.1.6-alpha.2 (2026-09-20) |
 | dsh-client-ui-weather | 0 | [mercy719/dsh-client-ui-weather](https://github.com/mercy719/dsh-client-ui-weather) | Weather dashboard overlay for the DeepSeek Harness Web GUI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-config-origin-proof | 0 | [dongsheng123132/dsh-config-origin-proof](https://github.com/dongsheng123132/dsh-config-origin-proof) | Content-addressed evidence for DSH configuration winners and shadowed sources | 0.1.0-rc.8 (2026-08-21) |
 | dsh-consult-dkzhu | 0 | [DK-Zhu/dsh-consult](https://github.com/DK-Zhu/dsh-consult) | Explicit, evidence-first multi-model consultation for DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |

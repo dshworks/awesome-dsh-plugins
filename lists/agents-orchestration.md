@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-1115 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1116 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -67,7 +67,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-advisor | 21 | [omdsh-dev/dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) · [npm](https://www.npmjs.com/package/dsh-advisor) | Per-session reviewer model that watches the primary transcript and injects severity-ranked advice. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-automation-michenga | 19 | [MichengAI/dsh-automation](https://github.com/MichengAI/dsh-automation) · [npm](https://www.npmjs.com/package/@michengai/dsh-automation) | 在独立 DSH Session 中按计划执行编码任务，支持 Web 设置页与 Agent 双入口管理。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-review-tab | 19 | [Lzh3070/dsh-file-review-tab](https://github.com/Lzh3070/dsh-file-review-tab) · [npm](https://www.npmjs.com/package/dsh-file-review-tab) | Review agent-produced file changes (line-level red/green diff + undo) both as a chat turn-tail row and as a dsh-better-sidebar tab; a port of left0ver's dsh-file-review. | 0.1.0-rc.8 (2026-08-20) |
-| dsh-background-agents | 18 | [PerryLink/dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) · [npm](https://www.npmjs.com/package/dsh-background-agents) | Durable continuable child agents: watch progress in the Web UI sidebar, message anytime, and interrupt through the subagent seam. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-background-agents | 18 | [PerryLink/dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) · [npm](https://www.npmjs.com/package/dsh-background-agents) | Durable continuable child agents: watch progress in the Web UI sidebar, message anytime, and interrupt through the subagent seam. | 0.1.6-alpha.2 (2026-09-20) |
 | dsh-continual-evolve | 18 | [ZK-Andy/dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) · [npm](https://www.npmjs.com/package/dsh-continual-evolve) | Continual self-evolution for DeepSeek Harness: versioned, auditable, rollback-safe harness state refined from session trajectories. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-yet-another-subagent | 18 | [HuanLinOTO/dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | Configurable subagent profiles with web UI settings, real-time toolcall/token display, and click-to-navigate child sessions. | 0.1.0-rc.8 (2026-08-20) |
 | oh-my-dsh-gulagala | 18 | [gulagala001/oh-my-dsh](https://github.com/gulagala001/oh-my-dsh) | DSH 工作台：整窗预处理、摘要与详细资料分层、项目摘要时间轴、任务验收与电脑操控。 | 0.1.1-rc.2 (2026-09-18) |
@@ -692,6 +692,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-swarm-prediction | 1 | [satan9394/dsh-swarm-prediction](https://github.com/satan9394/dsh-swarm-prediction) | 群体智能预测引擎：从种子信息（新闻/政策草案/财务信号）构建高保真平行数字世界，数千个有独立人格/长期记忆/行为逻辑的智能体自由互动与社会演化，上帝视角注入变量推演未来——在数字沙盘里预演未来，无数次模拟后赢得决策。受 666ghj/MiroFish（71k ）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-task-notifier-yuansour | 1 | [yuan-source-666/dsh-task-notifier](https://github.com/yuan-source-666/dsh-task-notifier) | DeepSeek Harness community plugin that raises an operating-system notification when one of your tasks finishes: an answered turn, a subagent run, a background job, a completed goal, or a settled | 0.1.1-rc.2 (2026-09-01) |
 | dsh-tdd | 1 | [satan9394/dsh-tdd](https://github.com/satan9394/dsh-tdd) | 测试驱动开发：先写失败测试再写实现，Prove-It 模式，测试即证明。受 addyosmani/agent-skills（88k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-team-rooms | 1 | [PerryLink/dsh-team-rooms](https://github.com/PerryLink/dsh-team-rooms) · [npm](https://www.npmjs.com/package/dsh-team-rooms) | Team rooms for DeepSeek Harness: persistent shared rooms across independent sessions, with a message bus, a shared task board and a timeline. | 0.1.6-alpha.2 (2026-09-20) |
 | dsh-test-workbench | 1 | [dmsobtl/dsh-test-workbench](https://github.com/dmsobtl/dsh-test-workbench) | 测试工作台 Profile for DeepSeek Harness — 组装 UI 验证、会话分析、视觉路由为一体的 QA Agent。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-thinking-summary | 1 | [Rosmarinus-Young/dsh-thinking-summary](https://github.com/Rosmarinus-Young/dsh-thinking-summary) | DSH web plugin: 中文思考摘要 — 在原生 Deep diving 状态右侧显示当前计划，并在每段思考下方插入中文摘要卡片（由 deepseek-v4-flash 生成）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-timer | 1 | [life1996cou/dsh-timer](https://github.com/life1996cou/dsh-timer) | 定时计划任务：左侧栏开关 + 计划时间框 + 错高峰，到点自动在原会话继续任务（full access） | 0.1.0-rc.8 (2026-08-20) |
