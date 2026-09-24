@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-88 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+89 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -96,3 +96,4 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | otto-dsh | 1 | [ottotheagent/otto-dsh](https://github.com/ottotheagent/otto-dsh) | Book flights, hotels, and cars from DeepSeek Harness through the Otto travel MCP connector. | 0.1.0-rc.8 (2026-08-20) |
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-completion-guard | 0 | [GreenLv/dsh-completion-guard](https://github.com/GreenLv/dsh-completion-guard) · [npm](https://www.npmjs.com/package/dsh-completion-guard) | Helps DSH agents remember your requirements during long tasks and, after a session resumes, checks the key conditions and saved results again so partial work is not reported as complete. | 0.1.1-rc.2 (2026-08-29) |
+| dsh-oh-my-claude | - | [lcestou/dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) · [npm](https://www.npmjs.com/package/dsh-oh-my-claude) | Runs your logged-in Claude Code CLI as a dsh model provider: Claude models in the picker, no API key, sessions resume across restarts, English and Chinese UI. | 0.1.7-rc.2 (2026-09-24) |

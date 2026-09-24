@@ -115136,6 +115136,23 @@
       "pushedAt": "2026-09-07"
     },
     {
+      "name": "dsh-oh-my-claude",
+      "repo": "lcestou/dsh-oh-my-claude",
+      "npm": "dsh-oh-my-claude",
+      "description": "Runs your logged-in Claude Code CLI as a dsh model provider: Claude models in the picker, no API key, sessions resume across restarts, English and Chinese UI.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-09-24",
+      "lastVerified": "2026-09-24",
+      "verifiedAgainst": "0.1.7-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "models",
+        "ui"
+      ]
+    },
+    {
       "name": "dsh-oi-workbench",
       "repo": "muyangplus/dsh-oi-workbench",
       "description": "OI 出题工作台：按 NOI 大纲（2025 修订版）与 CSP 2025 真题格式出题，固定 -O2 -std=c++14 -static 评测规范；设计测试点表格、本地评测，打包 Hydro/HOJ 原生题目包，并发布/管理 Hydro 与 HOJ OJ（题目/比赛/训练/用户/团队/公告/评测/UI）。Opt-in skill-first plugin for DeepSeek",
