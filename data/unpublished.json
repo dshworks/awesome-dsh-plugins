@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-09-23",
+  "checked": "2026-09-24",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 389,
+  "count": 392,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -32,6 +32,18 @@
       "npm": "@can/dsh-jlink",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "CH4ACKO3/bites-the-dsh",
+      "npm": "@ch4acko3/bites-the-dsh",
+      "why": "published by memorax-ai/bites-the-dsh",
+      "since": "2026-09-24"
+    },
+    {
+      "repo": "CH4ACKO3/dsh-turn-fold",
+      "npm": "@ch4acko3/dsh-turn-fold",
+      "why": "published by memorax-ai/dsh-turn-fold",
+      "since": "2026-09-24"
     },
     {
       "repo": "CH4ACKO3/dsh-ui-container",
@@ -2353,6 +2365,12 @@
       "npm": "tabbit-browser",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "CH4ACKO3/the-binding-of-dsh",
+      "npm": "the-binding-of-dsh",
+      "why": "published by memorax-ai/the-binding-of-dsh",
+      "since": "2026-09-24"
     },
     {
       "repo": "mishibeikejie/zat-dsh-engine",
