@@ -8,7 +8,7 @@ Building, testing, and publishing plugins.
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
-| dsh-web-zhu10900 | 8013 | [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web/tree/HEAD/market/shell) | Pure-static, browser-only build of DeepSeek Harness (dsh web) — no server, deployable to GitHub Pages | 0.1.1-rc.2 (2026-09-04) |
+| dsh-web-zhu10900 | 8015 | [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web/tree/HEAD/market/shell) | Pure-static, browser-only build of DeepSeek Harness (dsh web) — no server, deployable to GitHub Pages | 0.1.1-rc.2 (2026-09-04) |
 | dsh-ios | 306 | [ZSeven-W/dsh-ios](https://github.com/ZSeven-W/dsh-ios) · [npm](https://www.npmjs.com/package/@zseven-w/dsh-ios) | DeepSeek Harness plugin for the iOS Simulator — build, run, and interact with a live simulator stream inside a conversation. Tested with DSH 0.1.0-rc.6. | 0.1.0-rc.8 (2026-08-21) |
 | dsh-android | 162 | [ZSeven-W/dsh-android](https://github.com/ZSeven-W/dsh-android) | DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb. Tested with DSH 0.1.1-rc.1. | 0.1.0-rc.8 (2026-08-24) |
 | dsh-fylar-office-editor | 114 | [FylarOpen/dsh-fylar-office-editor](https://github.com/FylarOpen/dsh-fylar-office-editor) | Fylar Office Editor integration for the DeepSeek Harness Web profile, powered by Fylar Office SDK | 0.1.1-rc.2 (2026-09-09) |
