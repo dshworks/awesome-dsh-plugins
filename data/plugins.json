@@ -257371,6 +257371,19 @@
       "stars": 0,
       "starsUpdated": "2026-09-26",
       "pushedAt": "2026-09-25"
+    },
+    {
+      "name": "dsh-gemini-pool",
+      "repo": "qikairo7/dsh-gemini-pool",
+      "description": "多账号 Google Gemini 提供商：按剩余额度挑选账号，遇 429 指数退避切换，后台探活已禁用账号。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-09-26",
+      "lastVerified": "2026-09-26",
+      "verifiedAgainst": "0.1.7-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": ["models"]
     }
   ]
 }
