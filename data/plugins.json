@@ -143599,6 +143599,26 @@
       "pushedAt": "2026-08-14"
     },
     {
+      "name": "dsh-prompt-profiles",
+      "repo": "knopki/dsh-prompt-profiles",
+      "description": "DSH bundle adding a per-session prompt-profile axis: named system-prompt sections grouped into profiles with per-section order and scope, sealed into the session prompt.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-09-28",
+      "lastVerified": "2026-09-28",
+      "verifiedAgainst": "0.1.7-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@knopki/dsh-prompt-profiles",
+      "stars": 0,
+      "starsUpdated": "2026-09-28",
+      "tags": [
+        "agents",
+        "ui"
+      ],
+      "pushedAt": "2026-09-28"
+    },
+    {
       "name": "dsh-prompt-rail",
       "repo": "Zzzzkd/dsh-prompt-rail",
       "description": "Vertical prompt quick-jump rail for the DeepSeek Harness web conversation view",
