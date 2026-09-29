@@ -247,7 +247,14 @@ async function gh(path) {
 // root manifest is the strongest claim a repo can make about itself; a
 // stylesheet full of `--dsw-*` overrides is the weakest thing still real.
 const SKIP_PATH = /(^|\/)(node_modules|dist|build|out|vendor|\.git|coverage|fixtures?|examples?|tests?|__tests__)\//;
-const DSW_TOKEN = /--dsw-[a-z0-9-]+/i;
+// An override is a declaration (`--dsw-x:` in a sheet, `"--dsw-x":` in a
+// style object). A mention is `var(--dsw-x)`, which every app that embeds the
+// dsh web UI writes -- desktop shells, launchers, a mobile client, the themes
+// gallery itself. awesome-dsh-themes learned this on 2026-09-02; this prover
+// kept matching the mention. Measured 2026-09-29 over the 74 listed rows whose
+// receipt was `#--dsw-tokens`: 12 declare an override, 48 only consume the
+// tokens, and 14 cite a file that is gone.
+const DSW_OVERRIDE = /--dsw-[a-z0-9-]+"?\s*:/i;
 // dsh's own rule, ported from the rc.8 source rather than approximated:
 // packages/skill/skill-filesystem/src/index.ts `parseFrontmatter` (the first
 // line must be exactly `---`, closed by a later line that is exactly `---`,
@@ -579,7 +586,7 @@ async function proveDeep(repo) {
   // install path for a skin, and the only one a pure-CSS theme has.
   for (const p of paths.filter((x) => /\.(css|scss)$/i.test(x)).slice(0, 6)) {
     const text = await raw(repo, p);
-    if (text && DSW_TOKEN.test(text)) {
+    if (text && DSW_OVERRIDE.test(text)) {
       return { proof: { evidence: `${p}#--dsw-tokens`, why: "dsw token override" }, facts: { tree: paths.length } };
     }
   }

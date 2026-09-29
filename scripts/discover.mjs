@@ -420,7 +420,11 @@ found.sort((a, b) => {
 });
 
 let added = 0;
-let overflow = 0;
+// A set, not a tally. `found` carries one entry per lane hit, and the topic
+// lane alone returns a repo once per topic it wears, so counting entries
+// published "10292 find(s) over the cap" on 2026-09-28 for a backlog the same
+// run's own coverage figure put near 3,500 repos.
+const overflow = new Set();
 for (const c of found) {
   if (!SLUG_RE.test(c.repo ?? "")) continue;
   const slug = c.repo.toLowerCase();
@@ -436,7 +440,7 @@ for (const c of found) {
     continue;
   }
   if (!passesSpamGate(c)) continue;
-  if (added >= MAX_NEW_PER_RUN) { overflow += 1; continue; }
+  if (added >= MAX_NEW_PER_RUN) { overflow.add(slug); continue; }
   queue.set(slug, {
     repo: c.repo,
     ...(c.npm ? { npm: c.npm } : {}),
@@ -452,8 +456,8 @@ const candidates = [...queue.values()].sort((a, b) => a.repo.localeCompare(b.rep
 const next = { updated: file.updated, candidates };
 
 // A cap that truncates quietly reads as "that was everything".
-if (overflow) {
-  console.error(`discover: ${overflow} find(s) over the ${MAX_NEW_PER_RUN}/run cap were NOT queued; raise DISCOVER_MAX_NEW or run again after triage`);
+if (overflow.size) {
+  console.error(`discover: ${overflow.size} find(s) over the ${MAX_NEW_PER_RUN}/run cap were NOT queued; raise DISCOVER_MAX_NEW or run again after triage`);
 }
 
 // Ecosystem size, written whenever a sweep actually measured it. Separate from
@@ -486,5 +490,5 @@ if (JSON.stringify(next.candidates) === JSON.stringify(file.candidates)) {
   writeFileSync(
     join(ROOT, "data/candidates.json"),
     `${JSON.stringify(next, null, 2)}\n`);
-  console.log(`discover: ${added} new, ${candidates.length} total candidates${overflow ? `, ${overflow} held back by the cap` : ""}`);
+  console.log(`discover: ${added} new, ${candidates.length} total candidates${overflow.size ? `, ${overflow.size} held back by the cap` : ""}`);
 }
