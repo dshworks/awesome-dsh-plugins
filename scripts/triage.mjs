@@ -406,10 +406,24 @@ function proveFromPackage(pkg, path, repo) {
   const ds = depsOf(pkg).filter(([, d]) => HARNESS_DEP.test(d));
   if (ds.length) {
     const [section, name] = ds[0];
-    return { evidence: `${path}#${section}.${name}`, why: `depends on ${name}`, refused };
+    return { evidence: `${path}#${section}.${name}`, why: `depends on ${name}`, refused, weak: true, app: embedsHarness(pkg) };
   }
   return null;
 }
+
+// A dependency on the harness is the weakest proof a package.json carries: dsh
+// loads a package for its manifest, not for what it imports. So it is `weak`,
+// and it no longer ends the search. Hand-checking 2026-09-29's admissions off
+// raw.githubusercontent found monorepos proven by their private root's
+// devDependency while the real plugins sat in packages/plugin-*/package.json
+// with their own patch files -- a receipt for the wrong package.
+//
+// The sharpest case is `@deepseek-ai/dsh` itself, the app. A plugin imports
+// harness libraries; an application built on dsh (a desktop shell, a server
+// distribution, a web workspace) depends on the whole harness. Of 678 listed
+// rows proven by a dependency, 157 are a private package depending on the app
+// package; of 17 such proofs in that day's queue, 10.
+const embedsHarness = (pkg) => pkg?.private === true && depsOf(pkg).some(([, d]) => d === "@deepseek-ai/dsh");
 
 // The rejection names the file and the field, because the author is the one
 // person who can fix it, and the fix is one range.
@@ -522,15 +536,17 @@ async function proveDeep(repo) {
     .filter((p) => !SKIP_PATH.test(p));
 
   const nestedPkgs = paths.filter((p) => p.endsWith("package.json") && p !== "package.json").slice(0, 20);
+  let weakNested = null;
   for (const p of nestedPkgs) {
     const pkg = parse(await raw(repo, p));
     const proof = proveFromPackage(pkg, p, repo);
-    if (proof) {
-      return {
-        proof: { ...proof, path: dirname(p), pkgName: pkg.name ?? null, pkgDesc: pkg.description ?? null },
-        facts: { tree: paths.length },
-      };
-    }
+    if (!proof) continue;
+    const found = {
+      proof: { ...proof, path: dirname(p), pkgName: pkg.name ?? null, pkgDesc: pkg.description ?? null },
+      facts: { tree: paths.length },
+    };
+    if (!proof.weak) return found;
+    weakNested ??= found;
   }
 
   const skills = paths.filter((p) => /(^|\/)SKILL\.md$/i.test(p) && p.split("/").length <= 3);
@@ -591,14 +607,30 @@ async function proveDeep(repo) {
     }
   }
 
-  return { proof: null, facts: { tree: paths.length } };
+  return weakNested ?? { proof: null, facts: { tree: paths.length } };
 }
 
 const NO_PATH = "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no top-level .md carrying skill frontmatter";
 
 async function triage(repo, { deep = true } = {}) {
   const root = await proveRoot(repo);
-  if (root.proof) return { repo, verdict: "accept", ...root.proof, facts: root.facts };
+  if (root.proof && !(root.proof.weak && deep)) return { repo, verdict: "accept", ...root.proof, facts: root.facts };
+
+  if (root.proof) {
+    const deepRead = await proveDeep(repo);
+    if (deepRead.proof && !deepRead.proof.weak) {
+      return { repo, verdict: "accept", ...deepRead.proof, facts: { ...root.facts, ...deepRead.facts } };
+    }
+    // Whether an application built on dsh belongs in a registry of things dsh
+    // loads is a maintainer's call, not a regex's, so it waits for one.
+    if (root.proof.app) {
+      return {
+        repo, verdict: "review", facts: root.facts,
+        reason: "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch",
+      };
+    }
+    return { repo, verdict: "accept", ...root.proof, facts: root.facts };
+  }
 
   if (deep) {
     const deepRead = await proveDeep(repo);
