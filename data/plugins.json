@@ -324981,6 +324981,25 @@
         "memory"
       ],
       "pushedAt": "2026-09-29"
+    },
+    {
+      "name": "dsh-butler-git",
+      "repo": "Hercules-debug/butler-git",
+      "description": "git 原生的节点门禁:节点是「意图」,commit 是「证据」。Δ(预期改动)+ P(检测程序)全过才产生 commit —— 把「我改完了」变成可验证的事实。零依赖,只用 node 和 git。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-29",
+      "lastVerified": "2026-09-29",
+      "verifiedAgainst": "0.1.5-rc.2",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle.patch -> ./plugin/cordis.patch.yml (shape_validated)",
+      "stars": 1,
+      "starsUpdated": "2026-09-29",
+      "tags": [
+        "agents",
+        "capabilities"
+      ],
+      "pushedAt": "2026-09-29"
     }
   ]
 }

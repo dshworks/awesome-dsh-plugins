@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-1428 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1429 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -605,6 +605,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-browser-agent-tryworks | 1 | [try-works/dsh-browser-agent](https://github.com/try-works/dsh-browser-agent) · [npm](https://www.npmjs.com/package/@try-works/dsh-browser-agent) | DeepSeek Harness bundle: a Chrome browser for agents (browser_goto / browser_evaluate / browser_screenshot tools) with a live two-way pane inside the DSH Web GUI. The browser engine is a fork of | 0.1.0-rc.8 (2026-08-25) |
 | dsh-browser-ctrl | 1 | [crazy-L118/dsh-browser-ctrl](https://github.com/crazy-L118/dsh-browser-ctrl) · [npm](https://www.npmjs.com/package/dsh-browser-ctrl) | Built-in browser control for dsh (DeepSeek Harness): lets the AI agent open pages, read content, click, type, scroll and take screenshots in a real local browser (Edge/Chrome via the Chrome DevTools | 0.1.7-rc.2 (2026-09-29) |
 | dsh-btw-kezboard | 1 | [kezboardpj/dsh-btw](https://github.com/kezboardpj/dsh-btw) · [npm](https://www.npmjs.com/package/dsh-btw-side) | Ask a quick side question without interrupting the main conversation - a Claude Code /btw port for DeepSeek Harness (dsh). Type /btw <question> while the agent is working. | 0.1.0-rc.8 (2026-08-24) |
+| dsh-butler-git | 1 | [Hercules-debug/butler-git](https://github.com/Hercules-debug/butler-git) | git 原生的节点门禁:节点是「意图」,commit 是「证据」。Δ(预期改动)+ P(检测程序)全过才产生 commit —— 把「我改完了」变成可验证的事实。零依赖,只用 node 和 git。 | unverified |
 | dsh-ca-ref | 1 | [Ansonfishing/dsh-ca-ref](https://github.com/Ansonfishing/dsh-ca-ref) | Clean Architecture 参考库(agent 审查基线): 8 仓钉版 FTS5 搜索 + 断言清单 + 自动审查台账 + 只读观察窗 | 0.1.1-rc.2 (2026-09-01) |
 | dsh-cad-viewer | 1 | [CMoyuer/dsh-cad-viewer](https://github.com/CMoyuer/dsh-cad-viewer) · [npm](https://www.npmjs.com/package/dsh-cad-viewer) | dsh plugin: a 3D model library and a three-cad-viewer workbench in a '3D模型' tab, plus inline model cards and CadQuery agent tools. Models are stored server-side, so the library is shared across | 0.1.7-rc.2 (2026-09-29) |
 | dsh-canvas | 1 | [demxyuanli/dsh-canvas](https://github.com/demxyuanli/dsh-canvas) | DeepSeek Harness project-board plugin: agent-authored .canvas.tsx boards compiled and rendered live in the web GUI, with a host UI kit, action bridge, sidecar state, and agent-readable slices | 0.1.7-rc.2 (2026-09-29) |
