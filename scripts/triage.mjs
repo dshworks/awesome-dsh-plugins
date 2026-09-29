@@ -1177,7 +1177,12 @@ console.error(`triage: ${routedKnown.size} repo(s) on the themes routing list`);
 const queuedBefore = new Map(queue.map((c) => [c.repo.toLowerCase(), c]));
 const fromTopic = (repo) =>
   (queuedBefore.get(repo.toLowerCase())?.sources ?? []).includes("github-topic");
-const decidedNow = [...admitted, ...rejects].filter((row) => fromTopic(row.repo)).length;
+// An overturned rejection was already decided -- discover counts every row
+// in rejected.json, expired or not -- so admitting it moves no numerator.
+// Counting it anyway is how the 2026-09-29 drain, which requeued 1,404
+// expired rejections and overturned 232, read 19,059 decided of 18,931.
+const decidedNow = [...admitted, ...rejects]
+  .filter((row) => fromTopic(row.repo) && !overturned.has(row.repo.toLowerCase())).length;
 // What stayed behind is knowable exactly, so count it rather than subtract it:
 // a queue that grew since the sweep made `queued - decidedNow` drift below the
 // rows actually sitting there, and `queued: 0` next to a queue holding 151
