@@ -19,6 +19,9 @@
     "prove": "node scripts/triage.mjs --prove",
     "npm-check": "node scripts/npm-check.mjs"
   },
+  "dependencies": {
+    "semver": "7.8.5"
+  },
   "engines": {
     "node": ">=20"
   },

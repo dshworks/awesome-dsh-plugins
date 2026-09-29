@@ -39,7 +39,13 @@ must clear this bar:
    checked, not just the GitHub fork flag; generated template spam counts too.
 3. Loads against the dsh version claimed in `verifiedAgainst`, for example
    `dsh --profile <p> --dump-config` succeeds with the package installed, or
-   the skill appears in the skill list.
+   the skill appears in the skill list. Since dsh 0.1.7-rc.1 that includes
+   the peer gate: every `@deepseek-ai/dsh` / `@deepseek-ai/dsh-*` range in the
+   package's own `peerDependencies` must admit that version (prereleases
+   count), or `dsh plugin add` refuses the install and profile startup
+   disables the plugin (`packages/boot/app-boot/src/plugin-compatibility.ts`).
+   The prover checks this and rejects, with a recheck date, a package the
+   registry's dsh version would refuse.
 4. Honest description, no keyword stuffing. Riding the `dsh-plugin` topic
    without extending dsh is exactly what this registry filters out.
 
@@ -57,6 +63,7 @@ The reading is automated; the admitting is not. On every sweep,
 reports what it found in the PR body. A maintainer applies it on a branch:
 
 ```sh
+npm install           # once: the prover uses the semver release dsh pins
 npm run triage:dry    # decide everything, write nothing
 npm run triage        # apply: admit with evidence, reject with a reason
 npm run render && npm run validate
@@ -148,6 +155,11 @@ publish under, not evidence that they had.
 - a listed name that 404s moves to [`data/unpublished.json`](data/unpublished.json)
   and the field is dropped from the entry,
 - a parked name that resolves is restored to the entry it came from,
+- a name the entry's own `package.json` now declares, and npm confirms is
+  that repo's, replaces the old one: authors rename, and `dsh-backup` sat
+  parked from 2026-08-21 while `@xiaoyuyu6420/dsh-backup` named the repo back,
+- entries admitted in the last 30 days are offered the name their
+  `package.json` declares, on the same ownership rule (`--adopt`),
 - a name that times out changes nothing. An unanswered question is not a "no",
   and the run says how many it could not reach.
 

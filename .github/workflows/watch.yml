@@ -100,6 +100,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -o pipefail
+          # The prover ports dsh's peer gate with the semver release dsh pins.
+          npm install --no-audit --no-fund
           node scripts/triage.mjs --dry-run 2>&1 | tail -3 | tee /tmp/triage.txt || true
 
       - name: Validate
@@ -147,7 +149,7 @@ jobs:
           To apply that verdict, on a branch off main:
 
           \`\`\`sh
-          npm run triage && npm run render && npm run validate
+          npm install && npm run triage && npm run render && npm run validate
           \`\`\`
 
           It writes the provable ones into \`data/plugins.json\` with the file
@@ -264,8 +266,15 @@ jobs:
       # back one that resolves, so a contributor who supplies a correct npm
       # name keeps it and one who supplies a wrong name gets told why. A
       # timeout changes nothing, so a bad npm day is a no-op, not a purge.
+      #
+      # --adopt over the last 30 days of admissions: triage only carries an npm
+      # name over from an npm-search hit, and the adopt pass that offers every
+      # row the name its package.json declares had run once, on 2026-08-20. By
+      # 2026-09-29 1,454 rows had earned a name that npm confirms is theirs and
+      # carried none. The window keeps the run to recent rows, and still catches
+      # an author who publishes a few weeks after being listed.
       - name: Check npm names still resolve
-        run: node scripts/npm-check.mjs
+        run: node scripts/npm-check.mjs --adopt --added-since "$(date -u -d '30 days ago' +%F)"
 
       - name: Re-render and validate
         run: |

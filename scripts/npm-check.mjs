@@ -42,7 +42,8 @@
 // package's `repository.url` names the same repo back. That match is what
 // makes it a fact rather than a guess — it is the same rule that refuses a
 // vendored @deepseek-ai/* package as proof in triage.mjs. It is off by default
-// because it costs one raw fetch per entry, and the scheduled job runs 4x/day.
+// because it costs one raw fetch per entry; the scheduled job passes it with
+// --added-since, over the last 30 days of admissions.
 //
 // Usage:
 //   node scripts/npm-check.mjs             verify every npm field, both ways
@@ -142,7 +143,7 @@ async function packument(name) {
 // if the repo's own package.json declares this exact name, then the repo
 // claims the package and npm does not contradict it, which is two independent
 // files agreeing. Nothing else is enough.
-async function check(name, repo, path) {
+async function ownership(name, repo, path) {
   const { state, doc } = await packument(name);
   if (state !== "published") return { state };
   const latest = doc?.["dist-tags"]?.latest;
@@ -150,15 +151,60 @@ async function check(name, repo, path) {
   if (claims === repo.toLowerCase()) return { state: "published" };
   if (claims !== null) return { state: "foreign", owner: claims };
 
-  const manifest = await raw(repo, path ? `${path}/package.json` : "package.json");
-  let declared;
-  try {
-    declared = manifest ? JSON.parse(manifest).name : undefined;
-  } catch {
-    declared = undefined;
-  }
-  if (declared === name) return { state: "published" };
+  if (await declaredName(repo, path) === name) return { state: "published" };
   return { state: "foreign", owner: "nobody — the package states no repository and the repo does not claim the name" };
+}
+
+// The name the repo's own package.json declares today. One raw fetch per
+// entry per run, shared by every question asked about that entry.
+const manifestPath = (path) => (path ? `${path}/package.json` : "package.json");
+const declared = new Map();
+function declaredName(repo, path) {
+  const key = `${repo}#${path ?? ""}`;
+  if (!declared.has(key)) {
+    declared.set(key, raw(repo, manifestPath(path)).then((text) => {
+      try {
+        const name = text ? JSON.parse(text).name : undefined;
+        return typeof name === "string" && name ? name : null;
+      } catch {
+        return null;
+      }
+    }));
+  }
+  return declared.get(key);
+}
+
+// A name is a snapshot of what an author published under, and authors rename.
+// xiaoyuyu6420/dsh-backup was listed as `dsh-backup` on 2026-08-14, the name
+// in its package.json that day. A stranger published an unrelated `dsh-backup`
+// on 08-17; the author moved to `@xiaoyuyu6420/dsh-backup` on 08-19, and that
+// package names the repo back. The 08-20 audit asked npm about the old name
+// only, found a package that was not the repo's, and parked it. The adopt pass
+// in the same run skipped the row because it still carried a name when the
+// pass began; no run has passed --adopt since, and a parked row was only ever
+// re-asked about its parked name. So the name that proves ownership was never
+// looked at, and the parked entry kept saying the row had no package.
+//
+// Measured 2026-09-29 before this change: 33 parked rows (20 scoped) declare a
+// different name that npm confirms is theirs, and 6 listed rows (5 scoped)
+// carry an older name while declaring an owned current one -- three of those
+// old names are deprecated on npm with "moved to" / "renamed to" notes.
+//
+// So every check also asks what the repo declares now, and when npm confirms
+// that name is this repo's, it wins. Only where the entry's evidence lives in
+// that same manifest (or there is no evidence): a monorepo row proven from a
+// subdirectory must not pick up the root package's name. That held for all 39
+// measured cases.
+const citesManifest = (evidence, path) => !evidence || evidence.startsWith(`${manifestPath(path)}#`);
+
+async function check(name, repo, path, evidence) {
+  const verdict = await ownership(name, repo, path);
+  if (verdict.state === "unknown" || !citesManifest(evidence, path)) return verdict;
+  const current = await declaredName(repo, path);
+  if (!current || current === name) return verdict;
+  const next = await ownership(current, repo, path);
+  if (next.state === "published") return { state: "renamed", to: current, was: verdict.state };
+  return verdict;
 }
 
 async function raw(repo, path) {
@@ -228,12 +274,20 @@ const work = [...listed, ...parked].slice(0, LIMIT);
 
 console.error(`npm-check: ${listed.length} listed + ${parked.length} parked = ${work.length} name(s)`);
 
+const evidenceOf = new Map(registry.plugins.map((p) => [`${p.repo}#${p.path ?? ""}`, p.evidence]));
+
 let done = 0;
 const results = await pooled(work, async (row) => {
-  const verdict = await check(row.npm, row.repo, row.path);
+  const verdict = await check(row.npm, row.repo, row.path, evidenceOf.get(`${row.repo}#${row.path}`));
   if (++done % 100 === 0) console.error(`npm-check: ${done}/${work.length}`);
   return { ...row, ...verdict };
 });
+
+// A renamed listed row swaps names in place. A renamed parked row is restored
+// under the name it declares, which also retires its parked entry: that entry
+// said "this row has no package", and it does.
+const renamed = results.filter((r) => r.from === "registry" && r.state === "renamed");
+const renameBy = new Map(renamed.map((r) => [`${r.repo}#${r.path}`, r.to]));
 
 // --- adopt: entries that have earned an npm name and do not carry one -------
 // Keyed by entry, not by name: a name parked against one repo is silent about
@@ -243,32 +297,28 @@ const parkedHere = new Set(
   (unpublishedFile.packages ?? []).map((p) => `${p.repo}#${p.path ?? ""}#${p.npm}`));
 const adopted = [];
 let adoptSkipped = 0;
+const renamedParked = new Set(results
+  .filter((r) => r.from === "unpublished" && r.state === "renamed")
+  .map((r) => `${r.repo}#${r.path}`));
 if (ADOPT) {
   const naked = registry.plugins
     .filter((p) => !p.npm && !p.official)
+    .filter((p) => !renamedParked.has(`${p.repo}#${p.path ?? ""}`))
     .filter((p) => !ADDED_SINCE || (p.added ?? "") >= ADDED_SINCE)
     .slice(0, LIMIT === Infinity ? undefined : LIMIT);
   console.error(`npm-check: --adopt, reading ${naked.length} entr(ies) with no npm name`);
   let seen = 0;
   await pooled(naked, async (p) => {
     if (++seen % 500 === 0) console.error(`npm-check: adopt ${seen}/${naked.length}`);
-    const path = p.path ? `${p.path}/package.json` : "package.json";
-    const text = await raw(p.repo, path);
-    if (!text) return;
-    let name;
-    try {
-      name = JSON.parse(text).name;
-    } catch {
-      return;
-    }
-    if (typeof name !== "string" || !name) return;
+    const name = await declaredName(p.repo, p.path);
+    if (!name) return;
     if (parkedHere.has(`${p.repo}#${p.path ?? ""}#${name}`)) return;
     // The name resolving is not enough. Anyone can publish `dsh-explorer`;
     // only the author of this repo can publish one whose own metadata points
     // back at this repo. On the first full run 1,462 names resolved to someone
     // else's package — more than a third of everything the adopt pass looked
     // at — so this branch is the difference between a field and a guess.
-    const { state, owner } = await check(name, p.repo, p.path);
+    const { state } = await ownership(name, p.repo, p.path);
     if (state !== "published") {
       if (state === "foreign") adoptSkipped++;
       return;
@@ -279,18 +329,20 @@ if (ADOPT) {
 
 const strip = results.filter(
   (r) => r.from === "registry" && (r.state === "missing" || r.state === "foreign"));
-const restore = results.filter((r) => r.from === "unpublished" && r.state === "published");
+const restore = results.filter(
+  (r) => r.from === "unpublished" && (r.state === "published" || r.state === "renamed"));
 const unknown = results.filter((r) => r.state === "unknown");
 
 const key = (r) => `${r.repo}#${r.path}`;
 const stripKeys = new Set(strip.map(key));
 const restoreBy = new Map([
-  ...restore.map((r) => [key(r), r.npm]),
+  ...restore.map((r) => [key(r), r.to ?? r.npm]),
   ...adopted.map((r) => [key(r), r.npm]),
 ]);
 
 const nextPlugins = registry.plugins.map((p) => {
   const k = `${p.repo}#${p.path ?? ""}`;
+  if (renameBy.has(k)) return { ...p, npm: renameBy.get(k) };
   if (stripKeys.has(k)) {
     const { npm, ...rest } = p;
     return rest;
@@ -361,7 +413,8 @@ console.error(
   `${count("missing")} stripped (no such package), ` +
   `${count("foreign")} stripped (published by someone else), ` +
   `${count("contested")} stripped (contested), ` +
-  `${restore.length} restored, ${adopted.length} adopted, ${unknown.length} unknown (left alone)`,
+  `${restore.length} restored (${restore.filter((r) => r.to).length} under a new name), ` +
+  `${renamed.length} renamed, ${adopted.length} adopted, ${unknown.length} unknown (left alone)`,
 );
 for (const r of strip.filter((r) => r.state === "foreign").slice(0, 15)) {
   console.error(`npm-check: ${r.repo} claimed ${r.npm} — published by ${r.owner}`);
@@ -369,7 +422,8 @@ for (const r of strip.filter((r) => r.state === "foreign").slice(0, 15)) {
 if (adoptSkipped) {
   console.error(`npm-check: ${adoptSkipped} name(s) resolve to another repo's package; not adopted`);
 }
-for (const r of restore) console.error(`npm-check: restored ${r.npm} -> ${r.repo}`);
+for (const r of restore) console.error(`npm-check: restored ${r.to ?? r.npm} -> ${r.repo}${r.to ? ` (was parked as ${r.npm})` : ""}`);
+for (const r of renamed) console.error(`npm-check: renamed ${r.npm} -> ${r.to} on ${r.repo} (the name its package.json declares)`);
 if (unknown.length) {
   for (const r of unknown.slice(0, 10)) console.error(`npm-check: unknown ${r.npm}`);
   if (unknown.length > 10) console.error(`npm-check: ...and ${unknown.length - 10} more`);
@@ -379,7 +433,7 @@ if (DRY) {
   console.error("npm-check: --dry-run, nothing written");
   process.exit(0);
 }
-if (!strip.length && !restore.length && !adopted.length) {
+if (!strip.length && !restore.length && !renamed.length && !adopted.length) {
   // Touching the files anyway would rewrite `checked` on a no-op day and make
   // the watch workflow's reused PR noisy, which is what stops people reading it.
   console.error("npm-check: nothing changed");
