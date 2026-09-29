@@ -422,8 +422,9 @@ found.sort((a, b) => {
 let added = 0;
 // A set, not a tally. `found` carries one entry per lane hit, and the topic
 // lane alone returns a repo once per topic it wears, so counting entries
-// published "10292 find(s) over the cap" on 2026-09-28 for a backlog the same
-// run's own coverage figure put near 3,500 repos.
+// published "10292 find(s) over the cap" on 2026-09-28. Lifting the cap the
+// next day queued 4,966 repos: 3,560 never decided, 1,404 expired rejections
+// due a recheck, and the rest from code search.
 const overflow = new Set();
 for (const c of found) {
   if (!SLUG_RE.test(c.repo ?? "")) continue;
