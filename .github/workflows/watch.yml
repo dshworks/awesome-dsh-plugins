@@ -101,7 +101,9 @@ jobs:
         run: |
           set -o pipefail
           # The prover ports dsh's peer gate with the semver release dsh pins.
-          npm install --no-audit --no-fund
+          # Non-fatal like the report itself: a failed install surfaces as the
+          # prover's import error in the PR body, not as a skipped publish.
+          npm install --no-audit --no-fund || true
           node scripts/triage.mjs --dry-run 2>&1 | tail -3 | tee /tmp/triage.txt || true
 
       - name: Validate
