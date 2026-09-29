@@ -369,7 +369,18 @@ for (const p of nextPlugins) {
   if (p.npm) claimants.set(p.npm, (claimants.get(p.npm) ?? 0) + 1);
 }
 const contested = nextPlugins.filter((p) => p.npm && claimants.get(p.npm) > 1);
+// A contested name that adoption only offered this run was never the entry's
+// claim, so there is nothing to park: it is simply not adopted. Parking it put
+// 395 rows into the unpublished ledger on the first full adopt since
+// 2026-08-20 -- 22 of them for `dsh-memory` alone -- and would have re-parked
+// every popular unscoped name on each scheduled run.
+const adoptedKeys = new Set(adopted.map((r) => `${r.repo}#${r.path}`));
+let declined = 0;
 for (const p of contested) {
+  if (adoptedKeys.has(`${p.repo}#${p.path ?? ""}`)) {
+    declined += 1;
+    continue;
+  }
   strip.push({
     repo: p.repo, path: p.path ?? "", npm: p.npm,
     state: "contested", claimants: claimants.get(p.npm),
@@ -377,7 +388,7 @@ for (const p of contested) {
 }
 const contestedKeys = new Set(contested.map((p) => `${p.repo}#${p.path ?? ""}`));
 if (contested.length) {
-  console.error(`npm-check: ${contested.length} entr(ies) parked for claiming a name another entry also declares`);
+  console.error(`npm-check: ${contested.length - declined} entr(ies) parked for claiming a name another entry also declares; ${declined} contested name(s) not adopted`);
 }
 
 // `since` answers "how long has this name been unavailable", so it may only be
