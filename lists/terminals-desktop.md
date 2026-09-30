@@ -4,7 +4,7 @@
 
 TUIs, desktop shells, headless runners.
 
-567 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+571 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -102,6 +102,7 @@ TUIs, desktop shells, headless runners.
 | CETUS-Desktop | 4 | [AvroraCL/CETUS-Desktop](https://github.com/AvroraCL/CETUS-Desktop/tree/HEAD/eng/dsh-runtime) | 基于DeepSeek Harness构建的Windows .NET技术栈桌面客户端 | 0.1.1-rc.2 (2026-09-01) |
 | deepseek-desk-rsi | 4 | [huchunlinnk/deepseek-desk-rsi](https://github.com/huchunlinnk/deepseek-desk-rsi) | Recursive Self-Improvement (RSI) engine for DeepSeek Harness: a bounded perceive → integrate → verify → repair → propose loop that keeps a downstream desktop app in sync with the fast-moving upstream | 0.1.0-rc.8 (2026-08-20) |
 | deepseek-desktop-pwh19920 | 4 | [pwh19920920/deepseek-desktop](https://github.com/pwh19920920/deepseek-desktop/tree/HEAD/dsh-app-desktop) | DeepSeek Harness desktop application | 0.1.0-rc.8 (2026-08-20) |
+| deepseek-harness-desktop-onenight | 4 | [Onenightcarnival/deepseek-harness-desktop](https://github.com/Onenightcarnival/deepseek-harness-desktop/tree/HEAD/plugins/dsh-desktop-directory-picker) | Workspace directory picker for DeepSeek Harness Desktop: the OS folder dialog opened by the Electron shell, parented to the app window. | 0.2.0-rc.2 (2026-09-30) |
 | deepseek-harness-desktop-xxccdl | 4 | [xxccdl/deepseek-harness-desktop](https://github.com/xxccdl/deepseek-harness-desktop) | DeepSeek Harness desktop app — the dsh web surface in a native Electron shell | 0.1.0-rc.8 (2026-08-24) |
 | dsh-community-kamanage | 4 | [kamanager2012/dsh-community](https://github.com/kamanager2012/dsh-community/tree/HEAD/apps/desktop) | Community reconstruction of a desktop shell around official `dsh web`. | 0.1.0-rc.8 (2026-08-20) |
 | DSH-Deeptop | 4 | [Sparrived/DSH-Deeptop](https://github.com/Sparrived/DSH-Deeptop/tree/HEAD/deeptop-bridge) | Deeptop, a lightweight native desktop client for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
@@ -136,6 +137,7 @@ TUIs, desktop shells, headless runners.
 | dsh-forge-lansiai | 3 | [lansi-ai/dsh-forge](https://github.com/lansi-ai/dsh-forge) | DSH Forge — 把桌面操作系统锻造成 DeepSeek Harness 可插拔能力层的桌面客户端（Electron 主进程内嵌 Cordis Host，零端口 IPC 载波，官方 Web UI 复用主面） | 0.1.1-rc.2 (2026-09-18) |
 | dsh-neotui | 3 | [edabchann/dsh-neotui](https://github.com/edabchann/dsh-neotui/tree/HEAD/app) · [npm](https://www.npmjs.com/package/dsh-neotui-app) | dsh-neotui bundle: the terminal surface over dsh-base (mouse-driven TUI + embedded API surface) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-open-with | 3 | [hyrinx/dsh-plugin-open-with](https://github.com/hyrinx/dsh-plugin-open-with) · [npm](https://www.npmjs.com/package/dsh-plugin-open-with) | Capsule split-button in the dsh web conversation header: open the workspace in VS Code, terminal, or file explorer — extensible to more launchers. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-profile-sync | 3 | [wbb316/dsh-profile-sync](https://github.com/wbb316/dsh-profile-sync) | profile 间插件迁移：把网页版（web）profile 的插件集安全地牵引到桌面端（desktop）—— 算差异、预检、生成退出后执行的脚本、重启后核对。绝不把实例配置（端口/坐标/地址）一起抄过去。 | 0.2.0-rc.2 (2026-09-30) |
 | dsh-result-only-view | 3 | [YEYEYEYESHIFU/dsh-result-only-view](https://github.com/YEYEYEYESHIFU/dsh-result-only-view) · [npm](https://www.npmjs.com/package/dsh-result-only-view) | Results-only toggle for the DeepSeek Harness Web GUI: hides thinking and tool-call process nodes so a conversation shows only final answers, while keeping a single live status line (the latest | 0.1.0-rc.8 (2026-08-20) |
 | dsh-traffic-light-yimengde | 3 | [yimeng-dev/dsh-traffic-light](https://github.com/yimeng-dev/dsh-traffic-light) · [npm](https://www.npmjs.com/package/dsh-traffic-light) | Floating desktop traffic lights for multiple DeepSeek Harness sessions | 0.1.1-rc.2 (2026-09-09) |
 | dsh-tui-orriduck | 3 | [orriduck/dsh-tui](https://github.com/orriduck/dsh-tui) | A small, session-aware terminal UI for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
@@ -398,7 +400,7 @@ TUIs, desktop shells, headless runners.
 | dsh_for_mac | 0 | [rogerhorsley/dsh_for_mac](https://github.com/rogerhorsley/dsh_for_mac) | One-click macOS desktop client for DeepSeek Harness | 0.1.1-rc.2 (2026-09-04) |
 | DSH_Shell | 0 | [lionheartjie/DSH_Shell](https://github.com/lionheartjie/DSH_Shell/tree/HEAD/src-tauri/dsh-home/profiles/web) | DeepSeek Harness 的 Rust/Tauri 套壳 | 0.1.0-rc.8 (2026-08-25) |
 | dsh_tui | 0 | [Linductor-alkaid/dsh_tui](https://github.com/Linductor-alkaid/dsh_tui/tree/HEAD/packages/dsh-tui) | Dependency-free dsh profile bundle bridging the native FTXUI DeepSeek Harness terminal surface | 0.1.0-rc.8 (2026-08-20) |
-| dsh-adaptive-plan | 0 | [Yaaaaaaa233/dsh-adaptive-plan](https://github.com/Yaaaaaaa233/dsh-adaptive-plan) | Adaptive planning for official DeepSeek Harness Desktop: configurable executor and planner in one conversation | 0.2.0-rc.2 (2026-09-30) |
+| dsh-adaptive-plan | 0 | [Yaaaaaaa233/dsh-plan-and-execute](https://github.com/Yaaaaaaa233/dsh-plan-and-execute) | P&E for official DeepSeek Harness Desktop: configurable planning and execution models with fast and expert modes | 0.2.0-rc.2 (2026-09-30) |
 | DSH-app-cathode | 0 | [CaT-Hode/DSH-app](https://github.com/CaT-Hode/DSH-app) | DSH desktop plugin for Windows: one Electron window, shared Web sessions and plugins, live startup logs and update recovery. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-app-xwtaidev | 0 | [xwtaidev/dsh-app](https://github.com/xwtaidev/dsh-app) | A Tauri-based desktop app for the DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ask | 0 | [Me-Maped/dsh-ask](https://github.com/Me-Maped/dsh-ask) | Lightweight terminal-scoped streaming ask mode for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
@@ -496,6 +498,7 @@ TUIs, desktop shells, headless runners.
 | dsh-plugin-desktop-plugin-inventory | 0 | [Skylarking/dsh-plugin-desktop-plugin-inventory](https://github.com/Skylarking/dsh-plugin-desktop-plugin-inventory) | Desktop-managed plugin inventory tab for the DSH Web UI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-npm-run-shell | 0 | [sozercaniekosmosa/dsh-plugin-npm-run-shell](https://github.com/sozercaniekosmosa/dsh-plugin-npm-run-shell) · [npm](https://www.npmjs.com/package/dsh-plugin-npm-run-shell) | NPM Scripts Launcher for DeepSeek Harness (DSH) Web GUI with auto workspace detection and live terminal | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-remote | 0 | [siberiah2o/dsh-plugin-remote](https://github.com/siberiah2o/dsh-plugin-remote) · [npm](https://www.npmjs.com/package/dsh-plugin-remote) | Remote access gateway and zero-install Windows desktop projection for the DeepSeek Harness Web GUI. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-sidebar-terminal-tools | 0 | [HuanLinOTO/dsh-plugin-sidebar-terminal-tools](https://github.com/HuanLinOTO/dsh-plugin-sidebar-terminal-tools) | DSH plugin bridging the official sidebar terminal stack to the model: sidebar_terminal_open/send/read/wait_for/close/list drive ctx.terminalController, terminals auto-appear as native sidebar tabs | 0.2.0-rc.2 (2026-09-30) |
 | dsh-plugin-ssh-laoboshi | 0 | [Modole/dsh-plugin-ssh-laoboshi](https://github.com/Modole/dsh-plugin-ssh-laoboshi) | 为劳博士 DSH 桌面客户端提供 SSH 主机、凭据和多会话终端管理。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-ssh-manager | 0 | [ljh220300-eng/dsh-plugin-ssh-manager](https://github.com/ljh220300-eng/dsh-plugin-ssh-manager) | Manage multi-IP DSH instances from one terminal via SSH tunnels · 在一台终端上通过 SSH 隧道管理多 IP 的 DSH | 0.1.1-rc.2 (2026-09-02) |
 | dsh-plugin-terminal-laoboshi | 0 | [Modole/dsh-plugin-terminal-laoboshi](https://github.com/Modole/dsh-plugin-terminal-laoboshi) | 为劳博士 DSH 桌面客户端提供多标签本地终端与 tmux 会话。 | 0.1.0-rc.8 (2026-08-20) |
@@ -530,6 +533,7 @@ TUIs, desktop shells, headless runners.
 | dsh-terminal-startup-bar | 0 | [fishOfOUC/dsh-terminal-startup-bar](https://github.com/fishOfOUC/dsh-terminal-startup-bar) | Terminal startup status bar for DeepSeek Harness (dsh): shows which plugin a boot is loading, for how long, and how far it has gotten. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-tick-loop | 0 | [Lightmaze/dsh-tick-loop](https://github.com/Lightmaze/dsh-tick-loop) | A bounded, auditable DSH loop that submits literal tick time steps after terminal turns. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-titlebar-feed | 0 | [djs326/dsh-titlebar-feed](https://github.com/djs326/dsh-titlebar-feed) | DSH Desktop Windows titlebar assistant: (1) insets the conversation center column so full-column plugins (taskboard, ssh, im, better-sidebar, ...) clear the frameless titlebar (36px drag strip + | 0.1.1-rc.2 (2026-09-01) |
+| dsh-toolset | 0 | [changguo1998/dsh-toolset](https://github.com/changguo1998/dsh-toolset/tree/HEAD/TUI) | DSH (DeepSeek Harness) 进程内集成终端 UI | 0.2.0-rc.2 (2026-09-30) |
 | dsh-top-drag | 0 | [Mo3ter/dsh-top-drag](https://github.com/Mo3ter/dsh-top-drag) | DSH Desktop client plugin (Windows only): keeps the top of the window draggable and clickable at the same time, by replacing the shipped window-drag overlay with a measuring band that yields to | 0.1.7-rc.2 (2026-09-29) |
 | dsh-tray | 0 | [qing3a/dsh-tray](https://github.com/qing3a/dsh-tray) · [npm](https://www.npmjs.com/package/@qing3a/dsh-tray) | Windows 系统托盘插件：托盘图标 + 菜单（打开界面/状态/退出）+ 气泡通知，基于 trayicon（exe 宿主，无 native 编译） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-tray-chenzhao | 0 | [chenzhaoxuan0/dsh-tray](https://github.com/chenzhaoxuan0/dsh-tray/tree/HEAD/plugin) | DeepSeek Harness 托盘与进程控制插件：在设置 -> 插件页面提供「显示托盘图标 / 重启 / 退出」三个功能，驱动独立的 dsh-tray 托盘程序（DshTray.exe）。独立于 dsh-web-ui 全家桶，挂载走 profile bundle 机制。 | 0.1.0-rc.8 (2026-08-20) |

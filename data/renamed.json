@@ -1,7 +1,7 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-09-29",
-  "count": 278,
+  "detected": "2026-09-30",
+  "count": 284,
   "ownerChanged": 76,
   "renames": [
     {
@@ -1690,6 +1690,42 @@
       "to": "x-metheus/clawchat-plugin-connect",
       "ownerChanged": true,
       "name": "clawchat-plugin-connect"
+    },
+    {
+      "from": "vecnode/vn-harness",
+      "to": "vecnode/vncode",
+      "ownerChanged": false,
+      "name": "vn-harness"
+    },
+    {
+      "from": "yukitakasama/better-deepseek-harness",
+      "to": "yukitakasama/better-deepseek-harness-codex",
+      "ownerChanged": false,
+      "name": "better-deepseek-harness-yukitaka"
+    },
+    {
+      "from": "IThinkItsaName/dsh-worklog",
+      "to": "IThinkItsaName/dsh-lore",
+      "ownerChanged": false,
+      "name": "dsh-worklog"
+    },
+    {
+      "from": "songgms/Deepseek-Git-Graph",
+      "to": "songgms/dsh-git-graph",
+      "ownerChanged": false,
+      "name": "Deepseek-Git-Graph"
+    },
+    {
+      "from": "0gl20shk0sbt36/dsh-timer-task",
+      "to": "0gl20shk0sbt36/dsh-deadman",
+      "ownerChanged": false,
+      "name": "dsh-timer-task"
+    },
+    {
+      "from": "Yaaaaaaa233/dsh-adaptive-plan",
+      "to": "Yaaaaaaa233/dsh-plan-and-execute",
+      "ownerChanged": false,
+      "name": "dsh-adaptive-plan"
     }
   ],
   "collisions": {
@@ -1730,8 +1766,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 96,
-    "rowsRemoved": 97,
+    "groupsMerged": 102,
+    "rowsRemoved": 103,
     "leftForTriage": [],
     "merges": [
       {
@@ -2692,6 +2728,66 @@
         "kept": "dsh-free-search-zhouzhen",
         "dropped": [
           "dsh-tavily-search"
+        ],
+        "evidence": "package.json#dsh.bundle"
+      },
+      {
+        "repo": "vecnode/vncode",
+        "path": "packages/dsh-audio",
+        "renamedFrom": "vecnode/vn-harness",
+        "kept": "vn-harness",
+        "dropped": [
+          "vncode"
+        ],
+        "evidence": "packages/dsh-audio/package.json#dsh.bundle"
+      },
+      {
+        "repo": "yukitakasama/better-deepseek-harness-codex",
+        "path": null,
+        "renamedFrom": "yukitakasama/better-deepseek-harness",
+        "kept": "better-deepseek-harness-yukitaka",
+        "dropped": [
+          "better-deepseek-harness-codex"
+        ],
+        "evidence": "package.json#dsh.profile"
+      },
+      {
+        "repo": "IThinkItsaName/dsh-lore",
+        "path": null,
+        "renamedFrom": "IThinkItsaName/dsh-worklog",
+        "kept": "dsh-worklog",
+        "dropped": [
+          "dsh-lore"
+        ],
+        "evidence": "package.json#dsh.bundle"
+      },
+      {
+        "repo": "songgms/dsh-git-graph",
+        "path": null,
+        "renamedFrom": "songgms/Deepseek-Git-Graph",
+        "kept": "Deepseek-Git-Graph",
+        "dropped": [
+          "dsh-git-graph-songgms"
+        ],
+        "evidence": "package.json#dsh.bundle"
+      },
+      {
+        "repo": "0gl20shk0sbt36/dsh-deadman",
+        "path": null,
+        "renamedFrom": "0gl20shk0sbt36/dsh-timer-task",
+        "kept": "dsh-timer-task",
+        "dropped": [
+          "dsh-deadman"
+        ],
+        "evidence": "package.json#dsh.bundle"
+      },
+      {
+        "repo": "Yaaaaaaa233/dsh-plan-and-execute",
+        "path": null,
+        "renamedFrom": "Yaaaaaaa233/dsh-adaptive-plan",
+        "kept": "dsh-adaptive-plan",
+        "dropped": [
+          "dsh-plan-and-execute-yaaaaaaa"
         ],
         "evidence": "package.json#dsh.bundle"
       }

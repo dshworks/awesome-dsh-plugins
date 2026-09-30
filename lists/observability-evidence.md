@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-272 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+273 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -182,6 +182,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-daily-log | 0 | [ShineFree7/dsh-daily-log](https://github.com/ShineFree7/dsh-daily-log) · [npm](https://www.npmjs.com/package/dsh-daily-log) | Daily work log plugin for DeepSeek Harness: /daily scaffold plus daily_log_write (merge-on-write with .bak backups), daily_log_read, and daily_log_list tools; YYYY-MM-DD.md and a theme-aware | 0.1.0-rc.8 (2026-08-25) |
 | dsh-debug-mode-svcgv | 0 | [svcgv/dsh-debug-mode](https://github.com/svcgv/dsh-debug-mode) | Debug Mode bundle for DeepSeek Harness | 0.1.7-rc.2 (2026-09-29) |
 | dsh-deepcanary | 0 | [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) · [npm](https://www.npmjs.com/package/dsh-deepcanary) | Local attention supervision for DeepSeek Harness: evidence-first signals, quiet notifications, and an actionable inbox. | 0.1.1-rc.2 (2026-09-01) |
+| dsh-dev-backup | 0 | [haotian-lu-prog/dsh-dev-backup](https://github.com/haotian-lu-prog/dsh-dev-backup) | Backup freshness monitor for DeepSeek Harness: shows whether your scheduled backup actually ran, right inside the Harness Web UI (DSH 0.2.0-rc.2) | 0.2.0-rc.2 (2026-09-30) |
 | dsh-devloop-ui | 0 | [jhfnetboy/dsh-devloop-ui](https://github.com/jhfnetboy/dsh-devloop-ui) | Sidebar entry and Settings overview for the DevLoop dashboard inside DSH Desktop. | 0.1.7-rc.2 (2026-09-29) |
 | DSH-DevOps-Plugin | 0 | [bigbigtooth/DSH-DevOps-Plugin](https://github.com/bigbigtooth/DSH-DevOps-Plugin) | Remote operations for the DSH Web app: SSH server management, hardware/process/log monitoring, read-only AI inspection, and a Git-to-server deploy loop. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-document-selection-ask | 0 | [HaowenCang/dsh-document-selection-ask](https://github.com/HaowenCang/dsh-document-selection-ask) · [npm](https://www.npmjs.com/package/dsh-document-selection-ask) | DSH client plugin: select content in TXT/Markdown/code/CSV/PDF/DOCX/PPTX/XLSX document previews and append a provenance-aware quote to the current conversation draft. | 0.1.7-rc.2 (2026-09-29) |

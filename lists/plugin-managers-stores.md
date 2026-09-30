@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-552 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+554 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -371,6 +371,7 @@ In-UI stores, installers, skill managers.
 | dsh-disk-manager | 0 | [wangzhanchao883/dsh-disk-manager](https://github.com/wangzhanchao883/dsh-disk-manager) · [npm](https://www.npmjs.com/package/dsh-disk-manager) | [支持 DSH 0.1.7–0.2.x / DSH 0.1.7–0.2.x compatible] C-drive planner for DeepSeek Harness: scan the whole C drive, classify every big item into A/B/C/D/E/P (safe cache / relocatable / junction-movable / | 0.1.7-rc.2 (2026-09-29) |
 | dsh-engineer-tools | 0 | [bycall/dsh-engineer-tools](https://github.com/bycall/dsh-engineer-tools) · [npm](https://www.npmjs.com/package/dsh-engineer-tools) | Engineering work-tools for DeepSeek Harness: a scoped git runner and a package-manager (npm/pnpm/yarn/bun) runner with structured output, plus an easy template to add more tools. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-env-manager | 0 | [uckkk/dsh-env-manager](https://github.com/uckkk/dsh-env-manager) · [npm](https://www.npmjs.com/package/dsh-env-manager) | 环境变量管理：扫描代码引用的环境变量与 .env 比对检测缺失/未使用，并从 .env 生成脱敏的 .env.example | 0.1.0-rc.8 (2026-08-20) |
+| dsh-environment-tray | 0 | [songshuhuoban/dsh-environment-tray](https://github.com/songshuhuoban/dsh-environment-tray) | Environment Variable Manager for DeepSeek Harness. Manage .env files, runtime variables, credentials, and Windows user and system environment variables from the sliders icon at the top right of a new | 0.2.0-rc.2 (2026-09-30) |
 | dsh-experts-fuchao2p | 0 | [fuchao2pku/dsh-experts](https://github.com/fuchao2pku/dsh-experts) | Out-of-tree DSH bundle that brings the Awesome DSH Experts catalog (experts & expert groups) into the Web UI: a Settings → Plugins tab plus an optional composer entry to inject installed expert | 0.1.0-rc.8 (2026-08-20) |
 | dsh-extensions-extensionshub | 0 | [haibala-aii/dsh-extensions-extensionshub](https://github.com/haibala-aii/dsh-extensions-extensionshub) | Haibala DeepSeek Harness extension center: sidebar nav plus a GitHub plugin catalog | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feed | 0 | [863683348/dsh-feed](https://github.com/863683348/dsh-feed) · [npm](https://www.npmjs.com/package/dsh-feed) | Cross-ecosystem aggregation base ('聚合的聚合'): syncs the GitHub dsh-plugin topic + npm registry into one open JSON index, queried by model tools, a CLI (dsh-feed), and a minimal stdio MCP server | 0.1.0-rc.8 (2026-08-20) |
@@ -429,6 +430,7 @@ In-UI stores, installers, skill managers.
 | dsh-plugin-console-jipika | 0 | [jipika/dsh-plugin-console](https://github.com/jipika/dsh-plugin-console) | DSH 插件中心（本地改版）：插件管理/市场额外提升为设置窗口左侧导航的独立分栏（settings.section#plugin-console），原「设置 → 插件」tab 保留。基于上游 0.3.65。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-desktop-installer | 0 | [deronghe/dsh-plugin-desktop-installer](https://github.com/deronghe/dsh-plugin-desktop-installer) | 在设置中添加按地址安装插件（可选 web/desktop profile）、第三方插件管理（启用/停用/卸载/版本检测更新）并一键重启 Desktop 的界面 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-dev-manager | 0 | [QuanQQQ/dsh-plugin-dev-manager](https://github.com/QuanQQQ/dsh-plugin-dev-manager) | Manage isolated DeepSeek Harness instances for safe DSH plugin development. | 0.1.1-rc.2 (2026-08-28) |
+| dsh-plugin-eco-scan | 0 | [121212165/dsh-plugin-eco-scan](https://github.com/121212165/dsh-plugin-eco-scan) | dsh plugin: scan the dsh plugin ecosystem — collect stars/npm downloads/release assets per plugin, segment the market, compute growth deltas from snapshots, and surface high-growth plugins and niches. | 0.2.0-rc.2 (2026-09-30) |
 | dsh-plugin-hotplug | 0 | [zhangnan/dsh-plugin-hotplug](https://github.com/zhangnan/dsh-plugin-hotplug) · [npm](https://www.npmjs.com/package/dsh-plugin-hotplug) | Hot-plug manager and replacement plugin inventory UI for DeepSeek Harness profiles. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-ideas-manager | 0 | [EiffelBS/dsh-plugin-ideas-manager](https://github.com/EiffelBS/dsh-plugin-ideas-manager) · [npm](https://www.npmjs.com/package/dsh-plugin-ideas-manager) | Generic idea manager for the DSH Web GUI: Host-authoritative /api/ideas ledger, capture, 4-column kanban (open / under review / archived / declined), one-click execution launch (mirrored TaskBoard | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-installer-kun25cod | 0 | [kun2-5code/dsh-plugin-installer](https://github.com/kun2-5code/dsh-plugin-installer) | A plugin installer for DeepSeek Harness (dsh) web: install/remove profile plugins straight from the browser GUI, with no-restart hot activation. | 0.1.0-rc.8 (2026-08-20) |

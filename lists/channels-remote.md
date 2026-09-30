@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-333 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+334 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -202,6 +202,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-wechat-bridge | 1 | [zxz9988/dsh-wechat-bridge](https://github.com/zxz9988/dsh-wechat-bridge) · [npm](https://www.npmjs.com/package/@zxz9988/dsh-wechat-bridge) | DSH 插件：把手机微信（腾讯 iLink/ClawBot 官方协议）桥接到 DeepSeek Harness AI 助手 \| DeepSeek Harness WeChat bridge plugin: connect WeChat to DSH AI via Tencent iLink/ClawBot — streaming replies, QR login, cron jobs, web | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wechat-channel | 1 | [Shr-CS/dsh-wechat-channel](https://github.com/Shr-CS/dsh-wechat-channel) | 微信公众号通道插件：在微信里发指令操控 DeepSeek Harness，并把 DSH 的结果推回微信。零运行时依赖。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-wechat-collector | 1 | [bescriptkiddie/dsh-wechat-collector](https://github.com/bescriptkiddie/dsh-wechat-collector) | Collect WeChat Official Account articles in DSH and hand source cards to ContentStudio. | 0.1.1-rc.2 (2026-08-26) |
+| dsh-wechat-ilink | 1 | [ranshaodexiao/dsh-wechat-ilink](https://github.com/ranshaodexiao/dsh-wechat-ilink) | WeChat ClawBot (Tencent iLink) channel for DeepSeek Harness 0.2.0-rc.2 — talk to DSH from WeChat. | 0.2.0-rc.2 (2026-09-30) |
 | dsh-wechat-pro | 1 | [bwhite55/dsh-wechat-pro](https://github.com/bwhite55/dsh-wechat-pro) | DeepSeek Harness 进程内微信 ClawBot 通道插件：扫码连接、工作区/会话切换（与 Web 共享真实 DSH 会话）、/model /thinking、harness 原生命令、工具审批转发微信、过程事件流 + 长文分片输出、媒体收发、24h 自动续连。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wechat-suite | 1 | [PRTS168/dsh-wechat-suite](https://github.com/PRTS168/dsh-wechat-suite) | Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversation node bundle for DeepSeek Harness | 0.1.7-rc.2 (2026-09-29) |
 | dsh-wecom-awol2005 | 1 | [awol2005ex3/dsh-wecom](https://github.com/awol2005ex3/dsh-wecom) | DeepSeek Harness (dsh) plugin: WeCom (WeChat Work) smart-robot integration over the long-connection (WebSocket) API. Per-session agents, idempotent msgid dedup, stream/markdown replies, media | 0.1.7-rc.2 (2026-09-29) |

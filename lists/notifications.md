@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-284 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+287 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -192,11 +192,13 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-knj-version-control | 0 | [yangdongzhen590/dsh-knj-version-control](https://github.com/yangdongzhen590/dsh-knj-version-control) · [npm](https://www.npmjs.com/package/dsh-knj-version-control) | KNJ 版本控制工作台：Git Local Changes / Commit / Update / Push 与安全预览确认（DeepSeek Harness Web）。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-macos-notify | 0 | [CrombastiC/dsh-macos-notify](https://github.com/CrombastiC/dsh-macos-notify) · [npm](https://www.npmjs.com/package/dsh-macos-notify) | Native macOS notifications and configurable sounds for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-macos-notify-wshihan | 0 | [WShihan/dsh-macos-notify](https://github.com/WShihan/dsh-macos-notify) | DeepSeek Harness plugin: native macOS Notification Center banners (osascript) when an agent turn ends or a permission request arrives, with a per-operation sound picker on the web settings page | 0.1.7-rc.2 (2026-09-29) |
+| dsh-mail-notify | 0 | [Cangjier/dsh-mail-notify](https://github.com/Cangjier/dsh-mail-notify) | DeepSeek Harness 插件：agent 每结束一轮回答，就发一封通知邮件。零依赖，只用 Node 内置模块。 | 0.2.0-rc.2 (2026-09-30) |
 | dsh-mobile-kngear | 0 | [knGear/dsh-mobile](https://github.com/knGear/dsh-mobile/tree/HEAD/plugins/mobile-AndroidNotify) | 移动前端安卓通知插件: notify 工具 + 生命周期常驻/横幅 + 通知点击跳转(?session=) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-notif-plugin | 0 | [messageer/dsh-notif-plugin](https://github.com/messageer/dsh-notif-plugin/tree/HEAD/dsh-task-notify) | DSH会话停止/阻塞时提醒：右上角 toast + 提示音（WebAudio）+ 系统通知（Windows/macOS 通知中心，页面失焦时弹）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-notifications-haotianl | 0 | [haotian-lu-prog/dsh-notifications](https://github.com/haotian-lu-prog/dsh-notifications) · [npm](https://www.npmjs.com/package/dsh-notifications) | macOS menu bar activity indicator for DeepSeek Harness (community fork of dsh-notify, compatible with DSH 0.1.7-rc.2 and 0.2.0-rc.1) | 0.2.0-rc.2 (2026-09-30) |
 | dsh-notifier-fqsklm | 0 | [fqsklm/dsh-notifier](https://github.com/fqsklm/dsh-notifier) | DeepSeek Harness 通知器：一轮对话结束、需要审批、或模型用 ask_user_question 问你要选哪个时，由 Chrome 扩展弹出系统通知并显示 DSH 抛出的原文（审批 = 回到对话 / 允许；提问 = 只留一个「回到对话」，选项回网页里选），不产生 PowerShell 闪窗 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-notify-camusuga | 0 | [Camusugar/dsh-notify](https://github.com/Camusugar/dsh-notify) | DSH system notifications (OS toast) while a session waits on user approval, a question, or a plan review | 0.1.7-rc.2 (2026-09-29) |
+| dsh-notify-chongyi | 0 | [chongyi/dsh-notify](https://github.com/chongyi/dsh-notify) | DSH 0.2 桌面消息提醒插件：模型需要你操作（审批/方案确认/提问）或回复完成时，用系统通知 + 提示音 + 标签页标题提醒你；设置页可开关并切换通知语言。Desktop notification & sound alerts for DeepSeek Harness 0.2 web — toast, chime and a tab-title marker when the agent | 0.2.0-rc.2 (2026-09-30) |
 | dsh-notify-coachleo | 0 | [CoachLeong/dsh-notify](https://github.com/CoachLeong/dsh-notify) | DeepSeek Harness plugin: desktop notifications when the model starts, finishes, or needs your input (approval / question / plan review). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-notify-damie | 0 | [Da-Mie/dsh-notify](https://github.com/Da-Mie/dsh-notify) | DSH Web UI plugin: plays a notification sound when the session pauses (a question is asked, a plan is finished) and when a turn/session completes, and shows a pending-notification count badge on the | 0.1.0-rc.8 (2026-08-20) |
 | dsh-notify-dawn3888 | 0 | [Dawn388887/dsh-notify](https://github.com/Dawn388887/dsh-notify) | Desktop toast + remote browser notifications when a DSH agent finishes or errors; /notify command and a Settings tab control it | 0.1.0-rc.8 (2026-08-25) |
@@ -224,6 +226,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-peak-alert | 0 | [zbxzbx98/dsh-peak-alert](https://github.com/zbxzbx98/dsh-peak-alert) | DeepSeek 峰谷定价提示插件：高峰时段（北京 09:00-12:00 / 14:00-18:00）把 DSH Web 输入卡片染成淡红色，并显示当前高峰/空闲时段、价格倍率与下次切换时间 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-peak-reminder | 0 | [lsakira/dsh-peak-reminder](https://github.com/lsakira/dsh-peak-reminder) | 峰谷提示器：DeepSeek Harness 高峰时段提醒插件（模式指示灯 / 高峰前提醒 / 余额卡片） | 0.1.0-rc.8 (2026-08-25) |
 | DSH-peak-valley | 0 | [CreateCN/DSH-peak-valley](https://github.com/CreateCN/DSH-peak-valley) | 峰谷时间提醒悬浮窗（DSH 插件）：按 settings.yaml 配置的峰时/谷时区间，用状态点颜色和文字提醒当前时段 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-pharos | 0 | [Leo-Cjw/dsh-pharos](https://github.com/Leo-Cjw/dsh-pharos) | DSH 桌面守望提醒插件：模型需要你操作（审批/方案确认/提问）或回复在后台完成时，系统通知 + 提示音 + 标题标记提醒你；完成通知带耗时小结，未处理的待办 10 分钟后二次提醒，通知不可用时标题闪烁兜底。Pharos lighthouse for DeepSeek Harness — alerts you when the agent needs your input (approval / | 0.2.0-rc.2 (2026-09-30) |
 | dsh-ping-niobium4 | 0 | [Niobium-41-nb/dsh-ping](https://github.com/Niobium-41-nb/dsh-ping) | Desktop notifications for DeepSeek Harness: a Windows toast (plus console line and optional webhook) the moment a turn finishes, an agent errors, or the agent is waiting on your approval or answer | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-gydmsg | 0 | [gydmsg/dsh-plugin](https://github.com/gydmsg/dsh-plugin/tree/HEAD/packages/dsh-plugin-notify) | DSH 树外插件：Windows 桌面通知（Web Notification API）。DSH 需要用户回答（question/requested）或回答完成（turn/end）时向系统通知中心弹通知，点击聚焦回 DSH 页面。纯客户端逻辑，host 半仅作 loader 行（client-modules 扫描 dsh.client 声明）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-notification-sounds | 0 | [Heldea-xianmiao/dsh-plugin-notification-sounds](https://github.com/Heldea-xianmiao/dsh-plugin-notification-sounds) | DSH 提示音插件（原生常驻版）：为开始运行、成功完成、异常中断、需要审批、子代理完成等事件分别设置提示音，支持逐事件上传本地音频文件。 | 0.1.0-rc.8 (2026-08-20) |

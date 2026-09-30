@@ -4,7 +4,7 @@
 
 Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no nested discovery, kebab-case names only).
 
-604 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+607 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -33,6 +33,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | wesight | 933 | [freestylefly/wesight](https://github.com/freestylefly/wesight/tree/HEAD/SKILLs/article-writer) | AI-Powered WeChat Intelligence | 0.1.1-rc.2 (2026-09-09) |
 | agent-qa | 893 | [vostride/agent-qa](https://github.com/vostride/agent-qa/tree/HEAD/skills/agent-qa-authoring) | Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catche | 0.1.1-rc.2 (2026-09-09) |
 | helloagents | 704 | [hellowind777/helloagents](https://github.com/hellowind777/helloagents/tree/HEAD/skills/_meta) | HelloAGENTS — The orchestration kernel that makes any AI CLI smarter. Adds intelligent routing, unified QA gates, safety guards, and notifications. | 0.1.1-rc.2 (2026-09-09) |
+| hol-guard | 680 | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard/tree/HEAD/docs/guard) | Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime. | 0.2.0-rc.2 (2026-09-30) |
 | Agentkey | 654 | [chainbase-labs/Agentkey](https://github.com/chainbase-labs/Agentkey/tree/HEAD/skills/agentkey) | AgentKey skills for AI agents - real-time web search, social media, and crypto data access | 0.1.1-rc.2 (2026-08-26) |
 | ctx | 587 | [stevesolun/ctx](https://github.com/stevesolun/ctx/tree/HEAD/docs) | Repo-aware recommendations for skills, agents, MCP servers, and model harnesses. Use your own inventory or the shipped 79,958-node graph with 68,494 skills, 467 agents, 10,790 MCPs, and 207 harnesses. | 0.1.7-rc.2 (2026-09-29) |
 | claw-orchestrator | 586 | [Enderfga/claw-orchestrator](https://github.com/Enderfga/claw-orchestrator/tree/HEAD/skills) | Claw Orchestrator — run Claude Code, Codex, Gemini, Cursor Agent, OpenCode and custom coding CLIs as one unified runtime. Drop into Hermes Agent, Claude Desktop, Cursor, Cline, Continue, Zed | 0.1.1-rc.2 (2026-09-18) |
@@ -255,6 +256,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | deepseek-harness-plugin-authoring | 1 | [aerince/deepseek-harness-plugin-authoring](https://github.com/aerince/deepseek-harness-plugin-authoring) | Agent Skill for creating, validating, and publishing DeepSeek Harness plugins. | 0.1.0-rc.8 (2026-08-21) |
 | DeepSeek-Harness-RAG | 1 | [taishan1994/DeepSeek-Harness-RAG](https://github.com/taishan1994/DeepSeek-Harness-RAG/tree/HEAD/skills/grep-first-knowledge-base) | 基于DeepSeek-Harness的知识问答，支持自定义模型、上传图片‘、上传文件等 | 0.1.7-rc.2 (2026-09-29) |
 | deepseek-plugin | 1 | [Wlain/deepseek-plugin](https://github.com/Wlain/deepseek-plugin/tree/HEAD/skills/kling-ai) | Turn every idea into an image or video with Kling AI. In DeepSeek Harness, use natural language for text-to-image, image-to-image, text-to-video, image-to-video, reference-image creation, task | 0.1.1-rc.2 (2026-09-01) |
+| deliverable-qa | 1 | [xuhan242/deliverable-qa](https://github.com/xuhan242/deliverable-qa) | 交付物质检:排版 / AI 腔 / 敏感内容三线检查,面向 AI 协作产出的中文文档。Deliverable QA for Chinese documents: typography, AI-tone and sensitive-content checks. | 0.2.0-rc.2 (2026-09-30) |
 | dev-harness-runtime | 1 | [Dev-Wiki/dev-harness-runtime](https://github.com/Dev-Wiki/dev-harness-runtime/tree/HEAD/skills/run) | dev-harness skill runtime | 0.1.7-rc.2 (2026-09-29) |
 | doc-format-check | 1 | [naisi-alibaba/doc-format-check](https://github.com/naisi-alibaba/doc-format-check) | 中文 Markdown 排版检查与错别字修正的 Agent Skill：A 档机械项自动修，B 档语义项只报不改，产出改前/改后对比记录。同一 bundle 适配 Claude Code / Codex / DeepSeek Harness / WorkBuddy。 | 0.1.7-rc.2 (2026-09-29) |
 | driftlock-agent-docs | 1 | [KairosSignal/driftlock-agent-docs](https://github.com/KairosSignal/driftlock-agent-docs) | Detect stale project docs and keep AI coding agents on current context. Agent skill + dependency-free Python CLI. | 0.1.0-rc.8 (2026-08-21) |
@@ -438,6 +440,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | dsh-game-art-guide | 0 | [yuntaojinghong/dsh-game-art-guide](https://github.com/yuntaojinghong/dsh-game-art-guide/tree/HEAD/skill) | DeepSeek Harness (dsh) skill：游戏美术规范——10 种美术风格配色系统、UI/动画规范、游戏类型建议、中文字体排版，覆盖手机/网页/模组 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-generalized-skills | 0 | [HanZephyr/dsh-generalized-skills](https://github.com/HanZephyr/dsh-generalized-skills/tree/HEAD/skills/archive-decision-records) | 把 deepseek-harness 中的 AI agent skills 通用化改造为平台与仓库无关的可复用技能，适配任意 agent 工具与代码仓库 \| Generalized, tool-agnostic agent skills from deepseek-harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-gpp | 0 | [Uronika/dsh-gpp](https://github.com/Uronika/dsh-gpp/tree/HEAD/skill) | DeepSeek Harness game-programming assistant: a local hybrid-search tool (BM25 + bge-m3 semantic) over Robert Nystrom's Game Programming Patterns, with bilingual metadata for all 19 patterns and Unity | 0.1.7-rc.2 (2026-09-29) |
+| dsh-history-migration | 0 | [ayst-z/dsh-history-migration](https://github.com/ayst-z/dsh-history-migration) | 把 MiMo Studio / VS Code Copilot Chat 的历史对话迁移进 DeepSeek Harness 的技能与工具链 | 0.2.0-rc.2 (2026-09-30) |
 | dsh-independence | 0 | [MisterTK/dsh-independence](https://github.com/MisterTK/dsh-independence/tree/HEAD/skills/dsh-independence) | Run deepseek-harness with zero egress except your own LLM providers: lockdown patch + per-upgrade audit + agent skill | 0.1.1-rc.2 (2026-09-01) |
 | dsh-knowledge-forge-fzs35611 | 0 | [fzs356113-oss/dsh-knowledge-forge](https://github.com/fzs356113-oss/dsh-knowledge-forge/tree/HEAD/skills/knowledge-forge) | 知识熔炉 Knowledge Forge — Karpathy 式「LLM 编译式知识库」的 DeepSeek Harness 原生实现: 编译/链接/代谢/问答归档/体检 5 条纯智能体流水线, 零 Python、零向量库, 检索即思考. | 0.1.7-rc.2 (2026-09-29) |
 | DSH-Launcher-moonwell | 0 | [moonwellxh/DSH-Launcher](https://github.com/moonwellxh/DSH-Launcher/tree/HEAD/dsh-launcher Add/batch-files) | DSH 魔偶助手（DSH一键启动托盘）(DeepSeek Harness launcher / tray) | 0.1.1-rc.2 (2026-09-01) |

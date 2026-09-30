@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-563 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+565 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -360,6 +360,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-color-blindness | 0 | [uckkk/dsh-color-blindness](https://github.com/uckkk/dsh-color-blindness) | 色盲模拟与色盲安全配色 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-compactor | 0 | [lionwill/dsh-compactor](https://github.com/lionwill/dsh-compactor) · [npm](https://www.npmjs.com/package/dsh-compactor) | Context Compaction plugin for DeepSeek Harness: tool-result pruning, LLM or offline-rule summarization with a user-facing compression report, dead-loop guard, and /restore rollback. | 0.1.1-rc.2 (2026-09-02) |
 | dsh-completion-gate | 0 | [AGSQ11/dsh-completion-gate](https://github.com/AGSQ11/dsh-completion-gate) | Evidence-backed production-readiness completion barrier for DeepSeek Harness with persistent operator-configurable control center. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-computer-use-guard | 0 | [MyRemme/dsh-computer-use-guard](https://github.com/MyRemme/dsh-computer-use-guard) | Three-tier (deny / ask / auto) authorization gate for computer-use (cua-driver) tools, built on the official tools/pre-execute and approval/request seams. | 0.2.0-rc.2 (2026-09-30) |
 | dsh-consumer-audit | 0 | [qimen039-code/dsh-consumer-audit](https://github.com/qimen039-code/dsh-consumer-audit) | Audit a DSH profile for capabilities nothing consumes, and record completion claims with the evidence that supports them. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-context-guard | 0 | [kpl0111/dsh-context-guard](https://github.com/kpl0111/dsh-context-guard) · [npm](https://www.npmjs.com/package/dsh-context-guard) | Token-efficient tool-result pruning policy for DeepSeek Harness presets. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cost-audit | 0 | [Pingze-github/dsh-cost-audit](https://github.com/Pingze-github/dsh-cost-audit) | DSH Cost Audit — per-turn and per-session token/CNY cost pills for the DeepSeek Harness Web GUI, including the compaction bill nothing else counts, plus a one-click advisor that re-measures whether | 0.1.7-rc.2 (2026-09-29) |
@@ -558,6 +559,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-workspace-picker-enhance | 0 | [qwertyuiop314/dsh-workspace-picker-enhance](https://github.com/qwertyuiop314/dsh-workspace-picker-enhance) | Enhanced DSH workspace directory picker: cross-drive/root browsing, breadcrumb jumps, and risk/permission visual indicators | 0.1.0-rc.8 (2026-08-20) |
 | dsh-worldsense | 0 | [guhanfei-ai/dsh-worldsense](https://github.com/guhanfei-ai/dsh-worldsense) | A safe, bounded, read-only perception layer for DeepSeek Harness agents: observe administrator-defined JSON APIs with provenance, snapshots and deterministic diffs — never an arbitrary HTTP client. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-wsl-gpufix | 0 | [Jumqyc/dsh-wsl-gpufix](https://github.com/Jumqyc/dsh-wsl-gpufix) | DSH/Cordis host plugin: grant /dev/dxg (+ /proc) to the Landlock sandbox so CUDA works in WSL2 | 0.1.7-rc.2 (2026-09-29) |
+| dsh-zakou-pack | 0 | [Tangcuyu4/dsh-zakou-pack](https://github.com/Tangcuyu4/dsh-zakou-pack) | 雌小鬼方言包 v1.7.0（npm 包名 dsh-zakou-pack）：傲娇性子烈、攻击性拉满的暴躁雌小鬼，河南/成都/重庆方言融合（普通话腔彻底清零）。v1.7.0 核心改：「开局火气闸门」——每轮第一动作先验火气再看需求（先验火气→再看需求→再动手），闸门罢工时需求碰都不碰、直接撂话走人，绝不许先分析需求干到一半才想起查火气；耐心系统同步完善（gate 判定、reset 不生效 bug | 0.2.0-rc.2 (2026-09-30) |
 | eco-dsh-plugins | 0 | [xiejianjun000/eco-dsh-plugins](https://github.com/xiejianjun000/eco-dsh-plugins) | dsh plugins ported from eco-agent: permission gate, audit chain, memory tree | 0.1.0-rc.8 (2026-08-20) |
 | enterprise-compliance | 0 | [xiaoliang2/enterprise-compliance](https://github.com/xiaoliang2/enterprise-compliance) · [npm](https://www.npmjs.com/package/@xiaobanli/dsh-enterprise-compliance) | Enterprise compliance for DeepSeek Harness — SOC2/GDPR automated checks, sensitive-info redaction, and a redacted tool audit trail. · DSH 企业级合规插件：SOC2/GDPR 自动化合规自检、敏感信息拦截与脱敏、操作日志审计追溯。 | 0.1.0-rc.8 (2026-08-20) |
 | orbit-dsh-plugin | 0 | [clawdwan/orbit-dsh-plugin](https://github.com/clawdwan/orbit-dsh-plugin) | Orbit — a reflection layer for DSH: hypothesis→task→result rings with objective done_when, rolling review, track-scoped playbooks, and weekly distillation with review gate. | 0.1.0-rc.8 (2026-08-20) |
