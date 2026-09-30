@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-269 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+271 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -219,6 +219,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-opencode-go-dashboard | 0 | [12398k/dsh-opencode-go-dashboard](https://github.com/12398k/dsh-opencode-go-dashboard) · [npm](https://www.npmjs.com/package/dsh-opencode-go-dashboard) | OpenCode Go 套餐用量面板：支持多 API Key 与网页 Cookie 账号监控，提供设置页管理面板与对话底栏快捷 5h 环形进度条 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-pest-plan | 0 | [uckkk/dsh-pest-plan](https://github.com/uckkk/dsh-pest-plan) | pestplan：病虫害诊断：按参数返回植物养护方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-plugin-amdgpu-inspect | 0 | [yujiaoliang/dsh-plugin-amdgpu-inspect](https://github.com/yujiaoliang/dsh-plugin-amdgpu-inspect) | Structured AMDGPU code-object and ISA inspection for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-error-radar | 0 | [121212165/dsh-plugin-error-radar](https://github.com/121212165/dsh-plugin-error-radar) | dsh plugin: tool failure radar — error rates, retry clusters and slow tail per tool from the tool-trace sidecars. | 0.2.0-rc.2 (2026-09-30) |
 | dsh-plugin-git-context | 0 | [qtjg/dsh-plugin-git-context](https://github.com/qtjg/dsh-plugin-git-context) | A DeepSeek Harness plugin that exposes bounded Git status, diff, and log context to the model. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-plugin-log-forwarder | 0 | [zhaoxuejie/dsh-plugin-log-forwarder](https://github.com/zhaoxuejie/dsh-plugin-log-forwarder) · [npm](https://www.npmjs.com/package/dsh-plugin-log-forwarder) | DeepSeek Harness 实时日志转发插件：将 Agent 运行事件实时转发到 WebSocket / Loki / 本地文件 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-trajectory-tracker | 0 | [hirohana77/dsh-plugin-trajectory-tracker](https://github.com/hirohana77/dsh-plugin-trajectory-tracker) · [npm](https://www.npmjs.com/package/dsh-plugin-trajectory-tracker) | 让你更清楚地了解究竟是什么占据了你的等待耗时的 DSH 时序轨迹追踪插件 | 0.1.7-rc.2 (2026-09-29) |
@@ -230,6 +231,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-pve | 0 | [we39/dsh-pve](https://github.com/we39/dsh-pve) | Proxmox VE (PVE) control for DeepSeek Harness: inspect and manage nodes, VMs, containers, storage, firewall, cluster, Ceph, HA and access via the PVE2 JSON API (API Token auth). | 0.1.7-rc.2 (2026-09-29) |
 | dsh-refix | 0 | [ckk-09/dsh-refix](https://github.com/ckk-09/dsh-refix/tree/HEAD/packages/dsh-refix) | dsh-refix p3.8 — DSH 自诊断·自修复·自迭代插件（静态 profile 层构建） | 0.1.7-rc.2 (2026-09-29) |
 | dsh-reptile-monitor-lizard | 0 | [uckkk/dsh-reptile-monitor-lizard](https://github.com/uckkk/dsh-reptile-monitor-lizard) | reptileinfo：返回巨蜥（Monitor Lizard）完整资料：名称、学名/分类、类别、栖息地、体长、食性、寿命、特点、保护等级、趣闻。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-restart-ajia1206 | 0 | [ajia1206/dsh-restart](https://github.com/ajia1206/dsh-restart) | One-call restart for the running DSH process, with launchd-aware supervision detection, a verifiable restart log, and a bottom-right GUI control. | 0.2.0-rc.2 (2026-09-30) |
 | dsh-retention-settlement-proof | 0 | [dongsheng123132/dsh-retention-settlement-proof](https://github.com/dongsheng123132/dsh-retention-settlement-proof) | Offline body-free retention settlement evidence for DeepSeek Harness | 0.1.1-rc.2 (2026-08-26) |
 | dsh-runtime-nutrition-label | 0 | [biubiukam/dsh-runtime-nutrition-label](https://github.com/biubiukam/dsh-runtime-nutrition-label) · [npm](https://www.npmjs.com/package/dsh-runtime-nutrition-label) | Evidence-backed runtime nutrition labels for DeepSeek Harness plugins and tool namespaces | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sales | 0 | [winyh/dsh-sales](https://github.com/winyh/dsh-sales) | DeepSeek Harness tools for evidence-backed sales qualification, deal progression, closing and revenue expansion. | 0.1.0-rc.8 (2026-08-20) |

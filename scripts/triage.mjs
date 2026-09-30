@@ -176,7 +176,15 @@ const CONCURRENCY = 12;
 // peers; 0.1.7-rc.2 refuses 682 of them, 0.2.0-rc.1 would refuse 3,534. That is
 // the re-verification queue waiting for the day `latest` moves, and the reason
 // this constant tracks `latest` rather than `next`.
-const DSH_VERSION = process.env.DSH_VERSION ?? "0.1.7-rc.2";
+//
+// 2026-09-30: stamped 0.2.0-rc.2 (npm `latest` since 2026-09-29). Tag to tag
+// against 0.2.0-rc.1, every file cited above is byte-identical:
+// plugin-compatibility.ts, compatibility-preflight.ts, profile.ts,
+// plugin-manager/src/operations.ts, client/modules, skill-filesystem. Only
+// apps/cli/src/plugin.ts moved, and only to refuse `--profile desktop` until
+// the desktop app has initialised that profile. The contract is the same; the
+// ranges that miss are the `^0.1.x` ones counted above.
+const DSH_VERSION = process.env.DSH_VERSION ?? "0.2.0-rc.2";
 if (!semver.valid(DSH_VERSION)) throw new Error(`DSH_VERSION ${JSON.stringify(DSH_VERSION)} is not a semantic version`);
 
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));

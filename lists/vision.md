@@ -4,7 +4,7 @@
 
 Image understanding for text-only models.
 
-560 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+561 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -64,6 +64,7 @@ Image understanding for text-only models.
 | dsh-tool-antigravity | 5 | [Jaylor-Wang/dsh-tool-antigravity](https://github.com/Jaylor-Wang/dsh-tool-antigravity) · [npm](https://www.npmjs.com/package/dsh-tool-antigravity) | High-performance, streamlined Antigravity OAuth LLM routing and Nano Banana 2 image generation capability bundle for DeepSeek Harness | 0.1.7-rc.2 (2026-09-29) |
 | dsh-tool-see-image | 5 | [gugu123a/dsh-tool-see-image](https://github.com/gugu123a/dsh-tool-see-image) · [npm](https://www.npmjs.com/package/dsh-tool-see-image) | see_image tool for DSH: route image files to a configurable vision model (OpenAI-compatible API) and relay its description back to a text-only model | 0.1.1-rc.2 (2026-09-04) |
 | macos-computer-use-kit | 5 | [Sur-Cai/macos-computer-use-kit](https://github.com/Sur-Cai/macos-computer-use-kit/tree/HEAD/packages/dsh) · [npm](https://www.npmjs.com/package/dsh-macos-computer-use) | AX-first macOS computer use for DeepSeek Harness: accessibility snapshots with stable refs, background input, Unicode typing, menus, apps, set-of-mark screenshots, on-device OCR, verified actions | 0.1.7-rc.2 (2026-09-29) |
+| canvas-workbench | 4 | [elangan1997-cmyk/canvas-workbench](https://github.com/elangan1997-cmyk/canvas-workbench/tree/HEAD/canvas-workbench) | 本地生图工作台,零订阅费:开自己的 API 生图(任意 OpenAI 兼容接口,零订阅),画布排版+修图/擦除/去背景/OCR/转矢量,可编辑 PSD/AI 交付,Photoshop/Illustrator 图层级双向桥接 | 0.2.0-rc.2 (2026-09-30) |
 | deepseek-harness-desktop-kevph202 | 4 | [KevPH2026/deepseek-harness-desktop](https://github.com/KevPH2026/deepseek-harness-desktop) | A native macOS desktop experience for DeepSeek Harness — multimodal generation, community plugin discovery, safe updates, and bilingual docs. | 0.1.0-rc.8 (2026-08-20) |
 | DeepSeek-harness-wecom | 4 | [sliverp/DeepSeek-harness-wecom](https://github.com/sliverp/DeepSeek-harness-wecom) · [npm](https://www.npmjs.com/package/deepseek-harness-wecom) | WeCom AI Bot text, image, and file channel bridge for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dock-images | 4 | [AKS1st/dock-images](https://github.com/AKS1st/dock-images) · [npm](https://www.npmjs.com/package/dock-images) | Image viewer for the dock file explorer: renders PNG, JPEG, GIF, WebP, BMP, SVG, ICO and AVIF files. | 0.1.0-rc.8 (2026-08-20) |

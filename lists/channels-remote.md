@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-332 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+333 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -252,6 +252,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-lark-bot-tarraenc | 0 | [tarraencompassing61/dsh-lark-bot](https://github.com/tarraencompassing61/dsh-lark-bot) | Bridge DeepSeek Harness (dsh) into Feishu / Lark with streaming cards, project workspaces, approvals and scheduling | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lark-bridge-12103165 | 0 | [1210316560/dsh-lark-bridge](https://github.com/1210316560/dsh-lark-bridge) | Feishu bot bridge to a DeepSeek Harness (DSH) session: real-time chat + operation-approval routing via Feishu interactive cards. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-lark-bridge-chenxin1 | 0 | [chenxin105/dsh-lark-bridge](https://github.com/chenxin105/dsh-lark-bridge) | DeepSeek Harness plugin bridging DSH ↔ Feishu/Lark — outbound tools + optional private-chat inbound (WS long connection) | 0.1.0-rc.8 (2026-08-21) |
+| dsh-lark-chengqia | 0 | [ChengqianHuang/dsh-lark](https://github.com/ChengqianHuang/dsh-lark) | Lark/Feishu bridge bundle: drive dsh sessions from chat messages and reply in chat | 0.2.0-rc.2 (2026-09-30) |
 | dsh-lark-connector | 0 | [4t145/dsh-lark-connector](https://github.com/4t145/dsh-lark-connector) · [npm](https://www.npmjs.com/package/@4t145/lark-connector) | Connect Feishu and Lark chats to DeepSeek Harness sessions | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lark-keepview | 0 | [keepview/dsh-lark](https://github.com/keepview/dsh-lark) | Minimal Lark/Feishu gateway plugin for DeepSeek Harness — chat with your agent from Feishu, one topic = one session | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lark-session-monitor-plugin | 0 | [lifeopsgo/dsh-lark-session-monitor-plugin](https://github.com/lifeopsgo/dsh-lark-session-monitor-plugin) | DSH plugin that watches Feishu (Lark) conversations with your own user identity and forwards new messages into a DeepSeek Harness session. | 0.1.7-rc.2 (2026-09-29) |

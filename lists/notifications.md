@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-281 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+284 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -193,6 +193,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-macos-notify-wshihan | 0 | [WShihan/dsh-macos-notify](https://github.com/WShihan/dsh-macos-notify) | DeepSeek Harness plugin: native macOS Notification Center banners (osascript) when an agent turn ends or a permission request arrives, with a per-operation sound picker on the web settings page | 0.1.7-rc.2 (2026-09-29) |
 | dsh-mobile-kngear | 0 | [knGear/dsh-mobile](https://github.com/knGear/dsh-mobile/tree/HEAD/plugins/mobile-AndroidNotify) | 移动前端安卓通知插件: notify 工具 + 生命周期常驻/横幅 + 通知点击跳转(?session=) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-notif-plugin | 0 | [messageer/dsh-notif-plugin](https://github.com/messageer/dsh-notif-plugin/tree/HEAD/dsh-task-notify) | DSH会话停止/阻塞时提醒：右上角 toast + 提示音（WebAudio）+ 系统通知（Windows/macOS 通知中心，页面失焦时弹）。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-notifications-haotianl | 0 | [haotian-lu-prog/dsh-notifications](https://github.com/haotian-lu-prog/dsh-notifications) | macOS menu bar activity indicator for DeepSeek Harness (community fork of dsh-notify, compatible with DSH 0.1.7-rc.2 and 0.2.0-rc.1) | 0.2.0-rc.2 (2026-09-30) |
 | dsh-notifier-fqsklm | 0 | [fqsklm/dsh-notifier](https://github.com/fqsklm/dsh-notifier) | DeepSeek Harness 通知器：一轮对话结束、需要审批、或模型用 ask_user_question 问你要选哪个时，由 Chrome 扩展弹出系统通知并显示 DSH 抛出的原文（审批 = 回到对话 / 允许；提问 = 只留一个「回到对话」，选项回网页里选），不产生 PowerShell 闪窗 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-notify-camusuga | 0 | [Camusugar/dsh-notify](https://github.com/Camusugar/dsh-notify) | DSH system notifications (OS toast) while a session waits on user approval, a question, or a plan review | 0.1.7-rc.2 (2026-09-29) |
 | dsh-notify-coachleo | 0 | [CoachLeong/dsh-notify](https://github.com/CoachLeong/dsh-notify) | DeepSeek Harness plugin: desktop notifications when the model starts, finishes, or needs your input (approval / question / plan review). | 0.1.0-rc.8 (2026-08-20) |
@@ -273,8 +274,10 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-ui-tweaks-bittersm | 0 | [bitterSmilezzz/dsh-ui-tweaks](https://github.com/bitterSmilezzz/dsh-ui-tweaks) | DeepSeek Harness 的界面增强插件：模型选择器（推理强度滑块）、粘贴/拖拽上传、插件列表增强、请求重试设置、全局快捷键、桌面通知。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-update-checker-harryli7 | 0 | [HarryLi-7/dsh-update-checker](https://github.com/HarryLi-7/dsh-update-checker) | DSH profile plugin: notify in the web sidebar when a newer @deepseek-ai/dsh version is available on npm | 0.1.0-rc.8 (2026-08-20) |
 | dsh-updater-onewilk | 0 | [onewilk/dsh-updater](https://github.com/onewilk/dsh-updater) | DeepSeek Harness 更新检查插件：定时检查新版本，logo 右上角 NEW 角标提醒，并在设置中提供「关于」Tab（版本信息、手动检查、GitHub 加速开关、升级指引）。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-vaultwarden | 0 | [BuvkB/dsh-vaultwarden](https://github.com/BuvkB/dsh-vaultwarden) | Vaultwarden/Bitwarden real-time sync for DeepSeek Harness: WebSocket push notifications, incremental vault sync, read/write tools and an entry browser panel. Independent implementation; see | 0.2.0-rc.2 (2026-09-30) |
 | dsh-vibe | 0 | [lhf6623/dsh-vibe](https://github.com/lhf6623/dsh-vibe) | DeepSeek Harness 输入氛围插件（dsh-vibe）：在输入框上方显示 87 键键盘与鼠标并实时高亮按键/鼠标操作；打字时喷火焰粒子、输入框轻震，AI 回答完成时播放提示音并整页轻震；支持深色模式，提供独立「氛围」设置页。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-voice-alert | 0 | [Roger-Yang-CN/dsh-voice-alert](https://github.com/Roger-Yang-CN/dsh-voice-alert) | Voice alert plugin for DSH: plays voice, shows popup and system notification when a task completes or the agent asks the user | 0.1.0-rc.8 (2026-08-20) |
+| dsh-voice-alert-buglan | 0 | [BUGLAN/dsh-voice-alert](https://github.com/BUGLAN/dsh-voice-alert) | Play a sound when a dsh task finishes and when dsh is waiting for your reply, configurable from a Settings page | 0.2.0-rc.2 (2026-09-30) |
 | dsh-warm-reminder | 0 | [tianhanly/dsh-warm-reminder](https://github.com/tianhanly/dsh-warm-reminder) | DeepSeek Harness 温馨提醒助手：右上角半透明通知（喝水/护眼/休息提醒、深夜关怀、节假日祝福、峰谷时段梗、热门网络梗与随机彩蛋） | 0.1.1-rc.2 (2026-09-01) |
 | dsh-web-extras | 0 | [LimBoo233/dsh-web-extras](https://github.com/LimBoo233/dsh-web-extras) | DeepSeek Harness Web 增强插件：完成/审批/提问提醒（三种事件各有独立音效与立绘弹窗，支持裁剪/翻转/本地持久化）、外观定制（背景图、透明度、输入区折叠），以及按轮次聚合的文件变更页签（行级差异 + 修改前后代码高亮）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-webhook-notifier | 0 | [masknull/dsh-webhook-notifier](https://github.com/masknull/dsh-webhook-notifier) | 回合完成时向 webhook 发送通知，支持 GET/POST、自定义字段、请求头、发送日志 | 0.1.1-rc.2 (2026-09-04) |
