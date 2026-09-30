@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-271 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+272 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -160,6 +160,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | personal-track | 1 | [cup113/personal-track](https://github.com/cup113/personal-track) | DSH 个人习惯追踪插件：右侧栏每日看板 + 主面板统计 | 0.1.7-rc.2 (2026-09-29) |
 | Restart-service-button | 1 | [DeBug-lzy/Restart-service-button](https://github.com/DeBug-lzy/Restart-service-button) | DSH web plugin: a one-click restart-service button in the top-right corner of the GUI, with a settings page to reposition it. The button survives service restarts. | 0.1.0-rc.8 (2026-08-20) |
 | volens | 1 | [funcpn/volens](https://github.com/funcpn/volens) · [npm](https://www.npmjs.com/package/volens-dsh) | Keeps a project's documentation in step with its decisions on DeepSeek Harness: the same append-only decision log and derived design snapshot, kept fresh in-process instead of by a hook process. | 0.1.7-rc.2 (2026-09-29) |
+| butler-git | - | [Hercules-debug/butler-git](https://github.com/Hercules-debug/butler-git) | git 原生的节点门禁:节点是「意图」,commit 是「证据」。Δ(预期改动)+ P(检测程序)全过才产生 commit —— 把「我改完了」变成可验证的事实。零依赖,只用 node 和 git。 \| Git-native node gate: a node is an intent, a commit is the evidence. A version exists only if the | 0.2.0-rc.2 (2026-09-30) |
 | deepseek-status-monitor | 0 | [rison114514/deepseek-status-monitor](https://github.com/rison114514/deepseek-status-monitor) | DSH 对话页时段状态显示器：根据当前时段（低谷/过渡/高峰）在对话页浮层显示对应插画，引导用户在低谷时段使用。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-access-review-proof | 0 | [dongsheng123132/dsh-access-review-proof](https://github.com/dongsheng123132/dsh-access-review-proof) | Offline content-addressed proof for supplied access-review closure evidence | 0.1.1-rc.2 (2026-09-01) |
 | dsh-ai-saas-deal-finder | 0 | [ShenXuAkaEkstasis/dsh-ai-saas-deal-finder](https://github.com/ShenXuAkaEkstasis/dsh-ai-saas-deal-finder) | DeepSeek Harness plugin that finds and ranks region-appropriate AI/SaaS purchase deals using current evidence and deterministic eligibility checks. | 0.1.7-rc.2 (2026-09-29) |

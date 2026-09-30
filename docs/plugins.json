@@ -326941,6 +326941,22 @@
       "tags": [
         "models"
       ]
+    },
+    {
+      "name": "butler-git",
+      "repo": "Hercules-debug/butler-git",
+      "description": "git 原生的节点门禁:节点是「意图」,commit 是「证据」。Δ(预期改动)+ P(检测程序)全过才产生 commit —— 把「我改完了」变成可验证的事实。零依赖,只用 node 和 git。 | Git-native node gate: a node is an intent, a commit is the evidence. A version exists only if the",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-09-30",
+      "lastVerified": "2026-09-30",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "observability",
+        "safety"
+      ]
     }
   ]
 }

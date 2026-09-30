@@ -5541,12 +5541,6 @@
       "recheckAfter": "2026-09-05"
     },
     {
-      "repo": "Hercules-debug/butler-git",
-      "reason": "dsh 0.2.0-rc.2 refuses to install it: package.json peerDependencies {\"@deepseek-ai/dsh-tools\":\"^0.1.5-rc.2\"} exclude 0.2.0-rc.2 (packages/boot/app-boot/src/plugin-compatibility.ts)",
-      "date": "2026-09-30",
-      "recheckAfter": "2026-10-21"
-    },
-    {
       "repo": "Herdeny/awesome-dsh-plugins-2026",
       "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no top-level .md carrying skill frontmatter",
       "date": "2026-09-18",
