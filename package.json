@@ -17,7 +17,8 @@
     "triage": "node scripts/triage.mjs",
     "triage:dry": "node scripts/triage.mjs --dry-run",
     "prove": "node scripts/triage.mjs --prove",
-    "npm-check": "node scripts/npm-check.mjs"
+    "npm-check": "node scripts/npm-check.mjs",
+    "renames": "node scripts/renames.mjs"
   },
   "dependencies": {
     "semver": "7.8.5"

@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
   "detected": "2026-09-30",
-  "count": 284,
-  "ownerChanged": 76,
+  "count": 316,
+  "ownerChanged": 84,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -1726,6 +1726,230 @@
       "to": "Yaaaaaaa233/dsh-plan-and-execute",
       "ownerChanged": false,
       "name": "dsh-adaptive-plan"
+    },
+    {
+      "from": "alibaba/anolisa",
+      "to": "agentic-os-org/ANOLISA",
+      "ownerChanged": true,
+      "name": "anolisa",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "morlay/better-session",
+      "to": "morlay/dsh-plugin",
+      "ownerChanged": false,
+      "name": "better-session",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "GCWing/BitFun",
+      "to": "GCWing/OpenBitFun",
+      "ownerChanged": false,
+      "name": "BitFun",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "anywhere-labs/deepseek-harness-desktop",
+      "to": "anywhere-labs/dsh-desktop",
+      "ownerChanged": false,
+      "name": "deepseek-harness-desktop",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "krystal-cao/deepseek-harness-desktop",
+      "to": "summer-521/deepseek-harness-desktop",
+      "ownerChanged": true,
+      "name": "deepseek-harness-desktop-krystalc",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "Xuxchloris/deepseek-harness-sdr-plugin",
+      "to": "Xuxchloris/Alex",
+      "ownerChanged": false,
+      "name": "deepseek-harness-sdr-plugin",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "GM-HZ/dsh-dag-workflow",
+      "to": "GM-HZ/agent-dag-workflow",
+      "ownerChanged": false,
+      "name": "dsh-dag-workflow",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "CJL-1995/dsh-memory-self-evolution",
+      "to": "CJL-1995/memory-self-evolution",
+      "ownerChanged": false,
+      "name": "dsh-memory-self-evolution",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "LivXue/dsh-plugin-store",
+      "to": "LivXue/dsh-plugin-shop",
+      "ownerChanged": false,
+      "name": "dsh-plugin-store-livxue",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "pirate-608/dsh-plugins",
+      "to": "pirate-608/dsh-multi-tools",
+      "ownerChanged": false,
+      "name": "dsh-plugins-pirate60",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "CH4ACKO3/dsh-render-engine",
+      "to": "memorax-ai/dsh-render-engine",
+      "ownerChanged": true,
+      "name": "dsh-render-engine",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "lijiajia96/dsh-tool-adb",
+      "to": "ToLiveAndLove/dsh-tool-adb",
+      "ownerChanged": true,
+      "name": "dsh-tool-adb",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "zhu1090093659/dsh-web-ui",
+      "to": "zhu1090093659/dsh-web",
+      "ownerChanged": false,
+      "name": "dsh-web-ui",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "jiuge2467/DSH-WhaleDeck",
+      "to": "jiuge2467/DSH-Desktop",
+      "ownerChanged": false,
+      "name": "DSH-WhaleDeck",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "GM-HZ/dsh-workflow",
+      "to": "GM-HZ/agent-dag-workflow",
+      "ownerChanged": false,
+      "name": "dsh-workflow",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "qiannianhuanxiang/DSHA",
+      "to": "DSH-APP/DSHA",
+      "ownerChanged": true,
+      "name": "DSHA",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "nazidada/koishi-plugin-adapter-harness",
+      "to": "FloraAurella/koishi-plugin-adapter-harness",
+      "ownerChanged": true,
+      "name": "koishi-plugin-adapter-harness",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "398894496-arch/runtime36",
+      "to": "398894496-arch/DSH-KRouter",
+      "ownerChanged": false,
+      "name": "runtime36",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "Xiamu-ssr/snowmountain-market",
+      "to": "Xiamu-ssr/dsh-wind-aifin",
+      "ownerChanged": false,
+      "name": "snowmountain-market",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "240xu/tech-lead-skill",
+      "to": "240xu/verdict-engine",
+      "ownerChanged": false,
+      "name": "tech-lead-skill",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "siweimofang/zhishe-a2a",
+      "to": "siweimofang/zhishe-a2a-legacy",
+      "ownerChanged": false,
+      "name": "zhishe-a2a",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "firestige/wsr-dsh",
+      "to": "firestige/crystra-dsh",
+      "ownerChanged": false,
+      "name": "wsr-dsh",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "goatliamia/dsh-runtime-capabilities",
+      "to": "goatliamia/dsh-runtime",
+      "ownerChanged": false,
+      "name": "dsh-runtime-capabilities",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "LamplitIsles/kepos-tts",
+      "to": "LamplitIsles/kepos-speech",
+      "ownerChanged": false,
+      "name": "kepos-tts",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "pgmi-builds/omp-webui",
+      "to": "pgmi-builds/omp-web",
+      "ownerChanged": false,
+      "name": "omp-webui",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "Zer0Rin/betterlearn-for-dsh",
+      "to": "Zer0Rin/betterlearn",
+      "ownerChanged": false,
+      "name": "betterlearn-for-dsh",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "vidgewong/dsh-agent-hub",
+      "to": "vidgewong/dsh-omniloop",
+      "ownerChanged": false,
+      "name": "dsh-agent-hub-vidgewon",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "welltop-jim-wang/nomicore",
+      "to": "nomicore-ai/nomicore",
+      "ownerChanged": true,
+      "name": "nomicore",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "r05en1cu/dsh-forge",
+      "to": "omdsh-dev/dsh-neoforge",
+      "ownerChanged": true,
+      "name": "dsh-forge-r05en1cu",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "rexleimo/harness-cli",
+      "to": "rexleimo/aios",
+      "ownerChanged": false,
+      "name": "harness-cli",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "luobosibing2/deepseek-harness-jev",
+      "to": "luobosibing2/dsh-jev-plugin",
+      "ownerChanged": false,
+      "name": "deepseek-harness-jev",
+      "on": "2026-09-30"
+    },
+    {
+      "from": "coency/dsh-session-delete",
+      "to": "coency/dsh-plugin-session-delete",
+      "ownerChanged": false,
+      "name": "dsh-session-delete-coency",
+      "on": "2026-09-30"
     }
   ],
   "collisions": {
@@ -1753,6 +1977,59 @@
         "hadEvidence": true,
         "note": "Read directly on 2026-08-19 to settle a contradiction: the listing claimed package.json#dependencies.@deepseek-ai/cordis, the 08-18 rejection said no install path. The tree today declares express, http-proxy and @simplewebauthn/server and has no dsh key — the repo was repurposed under its new name, so the evidence was true when taken and false now. The rejection stands and carries a recheckAfter."
       }
+    ],
+    "rowsDropped": [
+      {
+        "repo": "nomicore-ai/nomicore",
+        "name": "nomicore",
+        "status": "unverified",
+        "lastVerified": "2026-09-04",
+        "hadEvidence": false,
+        "rejected": "2026-09-18",
+        "on": "2026-09-30"
+      }
+    ],
+    "rejectionsDropped": [
+      {
+        "repo": "firestige/crystra-dsh",
+        "row": "wsr-dsh",
+        "reason": "dsh 0.1.7-rc.2 refuses to install it: package.json peerDependencies {\"@deepseek-ai/dsh\":\"0.1.1-rc.2\"} exclude 0.1.7-rc.2 (packages/boot/app-boot/src/plugin-compatibility.ts)",
+        "date": "2026-09-29",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "FloraAurella/koishi-plugin-adapter-harness",
+        "row": "koishi-plugin-adapter-harness",
+        "reason": "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no top-level .md carrying skill frontmatter",
+        "date": "2026-09-01",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "memorax-ai/dsh-render-engine",
+        "row": "dsh-render-engine",
+        "reason": "dsh 0.1.7-rc.2 refuses to install it: integration/consumer/package.json peerDependencies {\"@deepseek-ai/dsh-client-runtime\":\"0.1.0-rc.8\",\"@deepseek-ai/dsh-client-ui-conversation\":\"0.1.0-rc.8\",\"@deepseek-ai/dsh-client-ui-slots\":\"0.1.0-rc.8\",\"@deepseek-ai/dsh-commands\":\"0.1.0-rc.8\"} exclude 0.1.7-rc.2 (packages/boot/app-boot/src/plugin-compatibility.ts)",
+        "date": "2026-09-29",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "vidgewong/dsh-omniloop",
+        "row": "dsh-agent-hub-vidgewon",
+        "reason": "dsh 0.1.7-rc.2 refuses to install it: package.json peerDependencies {\"@deepseek-ai/dsh-agent\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-agent-loop\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-invariants\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-llm\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-scope\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-session\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-session-persistence\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-settings\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-subprocess\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-timeout\":\"0.1.2-rc.1\"} exclude 0.1.7-rc.2 (packages/boot/app-boot/src/plugin-compatibility.ts)",
+        "date": "2026-09-29",
+        "on": "2026-09-30"
+      }
+    ],
+    "dequeued": [
+      {
+        "repo": "FloraAurella/koishi-plugin-adapter-harness",
+        "row": "koishi-plugin-adapter-harness",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "ToLiveAndLove/dsh-tool-adb",
+        "row": "dsh-tool-adb",
+        "on": "2026-09-30"
+      }
     ]
   },
   "monorepos": {
@@ -1766,8 +2043,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 102,
-    "rowsRemoved": 103,
+    "groupsMerged": 241,
+    "rowsRemoved": 242,
     "leftForTriage": [],
     "merges": [
       {
@@ -2790,8 +3067,1538 @@
           "dsh-plan-and-execute-yaaaaaaa"
         ],
         "evidence": "package.json#dsh.bundle"
+      },
+      {
+        "repo": "XSakura666/dsh-plugin-ChronoAgent",
+        "path": "dsh-chrono-agent",
+        "renamedFrom": "XSakura666/ChronoAgent",
+        "kept": "ChronoAgent",
+        "dropped": [
+          "dsh-plugin-ChronoAgent"
+        ],
+        "evidence": "dsh-chrono-agent/package.json#peerDependencies.@deepseek-ai/dsh-tools",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "buchylx/create-dsh-content-plugin",
+        "path": "templates/content",
+        "renamedFrom": "blx0102/create-dsh-content-plugin",
+        "kept": "create-dsh-content-plugin",
+        "dropped": [
+          "create-dsh-content-plugin-buchylx"
+        ],
+        "evidence": "templates/content/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "pgmi-builds/better-dsh",
+        "path": "dashr",
+        "renamedFrom": "pgmi-builds/dashr",
+        "kept": "dashr",
+        "dropped": [
+          "better-dsh"
+        ],
+        "evidence": "dashr/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "dsh-tauri/deepseek-harness-desktop",
+        "path": null,
+        "renamedFrom": "dsh-tauri-desk/deepseek-harness-desktop",
+        "kept": "deepseek-harness-desktop-hairyf",
+        "dropped": [
+          "deepseek-harness-desktop-dshtauri"
+        ],
+        "evidence": "packages/dsh-tauri-ssh/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "liguobao/ds-harness-remote",
+        "path": null,
+        "renamedFrom": "liguobao/deepseek-harness-remote",
+        "kept": "deepseek-harness-remote",
+        "dropped": [
+          "ds-harness-remote"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "rayafriandion/dsh-oc-tui",
+        "path": null,
+        "renamedFrom": "rayafriandion/deepseek-harness-tui",
+        "kept": "deepseek-harness-tui-rayafria",
+        "dropped": [
+          "dsh-oc-tui"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "jeffy-Peng/deepseek-harness-usage",
+        "path": null,
+        "renamedFrom": "Arslan-jh/deepseek-harness-usage",
+        "kept": "deepseek-harness-usage",
+        "dropped": [
+          "deepseek-harness-usage-jeffypen"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "ReLuckyLucy/dsh-Rhine-Lab-theme",
+        "path": null,
+        "renamedFrom": "ReLuckyLucy/dsh_Rhine_Lab_theme",
+        "kept": "dsh_Rhine_Lab_theme",
+        "dropped": [
+          "dsh-Rhine-Lab-theme"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "JimChen-g/dsh-action-outbox",
+        "path": null,
+        "renamedFrom": "JimchengChina/dsh-action-outbox",
+        "kept": "dsh-action-outbox",
+        "dropped": [
+          "dsh-action-outbox-jimcheng"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "zhongjie10086/dsh-adaptive-native",
+        "path": null,
+        "renamedFrom": "zhongjie10086/dsh-adaptive-native-standard",
+        "kept": "dsh-adaptive-native-standard",
+        "dropped": [
+          "dsh-adaptive-native"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "AnLifeX/dsh-attention",
+        "path": null,
+        "renamedFrom": "Gaq152/dsh-attention",
+        "kept": "dsh-attention",
+        "dropped": [
+          "dsh-attention-anlifex"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "305037991x-pixel/dsh-account-balance",
+        "path": null,
+        "renamedFrom": "305037991x-pixel/dsh-balance",
+        "kept": "dsh-balance-30503799",
+        "dropped": [
+          "dsh-account-balance-30503799"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "doublemolu/dsh-costometer",
+        "path": null,
+        "renamedFrom": "doublemolu/dsh-balance-dock",
+        "kept": "dsh-balance-dock",
+        "dropped": [
+          "dsh-costometer"
+        ],
+        "evidence": "package.json#dsh.client",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "chendefine/dsh-sidebar-onlyoffice",
+        "path": null,
+        "renamedFrom": "chendefine/dsh-better-sidebar-onlyoffice",
+        "kept": "dsh-better-sidebar-onlyoffice",
+        "dropped": [
+          "dsh-sidebar-onlyoffice"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "MarvekG/dsh-plugins",
+        "path": null,
+        "renamedFrom": "MarvekG/dsh-bug-fix",
+        "kept": "dsh-bug-fix",
+        "dropped": [
+          "dsh-plugins-marvekg"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "kiligzzz/dsh-skill-mcp-manager",
+        "path": null,
+        "renamedFrom": "kiligzzz/dsh-capability-manager",
+        "kept": "dsh-capability-manager",
+        "dropped": [
+          "dsh-skill-mcp-manager-kiligzzz"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "chendefine/dsh-sidebar-cdp-browser",
+        "path": null,
+        "renamedFrom": "chendefine/dsh-cdp-live-view",
+        "kept": "dsh-cdp-live-view",
+        "dropped": [
+          "dsh-sidebar-cdp-browser"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "taikaikaikai-pixel/dsh-tap",
+        "path": null,
+        "renamedFrom": "taikaikaikai-pixel/dsh-codebuddy-plugin",
+        "kept": "dsh-codebuddy-plugin",
+        "dropped": [
+          "dsh-tap"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Cyning12/SpecWave",
+        "path": null,
+        "renamedFrom": "Cyning12/dsh-coding-kit",
+        "kept": "dsh-coding-kit",
+        "dropped": [
+          "SpecWave"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "CJYLZS/dsh-commandcode-provider",
+        "path": null,
+        "renamedFrom": "CJYLZS/dsh-commandcode-plan-autosync",
+        "kept": "dsh-commandcode-plan-autosync",
+        "dropped": [
+          "dsh-commandcode-provider"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "bettermen/xiashuo",
+        "path": null,
+        "renamedFrom": "bettermen/dsh-course-writer",
+        "kept": "dsh-course-writer",
+        "dropped": [
+          "xiashuo"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "AnLifeX/dsh-credits",
+        "path": null,
+        "renamedFrom": "Gaq152/dsh-credits",
+        "kept": "dsh-credits",
+        "dropped": [
+          "dsh-credits-anlifex"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "cofy-x/dsh-cron",
+        "path": null,
+        "renamedFrom": "omdsh-dev/dsh-cron",
+        "kept": "dsh-cron",
+        "dropped": [
+          "dsh-cron-cofyx"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "zerorigin-studio/dsh-deepseek-chat",
+        "path": null,
+        "renamedFrom": "ColdCGH/dsh-deepseek-chat",
+        "kept": "dsh-deepseek-chat-coldcgh",
+        "dropped": [
+          "dsh-deepseek-chat-zerorigi"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "meto-ventus/dsh-deepseek-usage",
+        "path": null,
+        "renamedFrom": "mmzm0808/dsh-deepseek-usage",
+        "kept": "dsh-deepseek-usage-mmzm0808",
+        "dropped": [
+          "dsh-deepseek-usage-metovent"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "DSH-EAC/DSH-Desktop-EAC",
+        "path": "dsh-desktop/assets/plugins/dsh-change-review",
+        "renamedFrom": "zouyuxuan122/DSH-Desktop-EAC",
+        "kept": "DSH-Desktop-EAC",
+        "dropped": [
+          "DSH-Desktop-EAC-dsheac"
+        ],
+        "evidence": "dsh-desktop/assets/plugins/dsh-change-review/package.json#dsh.client",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "lansi-ai/dsh-forge",
+        "path": null,
+        "renamedFrom": "lansi-ai/dsh-desktop",
+        "kept": "dsh-desktop-lansiai",
+        "dropped": [
+          "dsh-forge-lansiai"
+        ],
+        "evidence": "package.json#dependencies.@deepseek-ai/dsh",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Yvesgao/dsh-shortcut-creator",
+        "path": null,
+        "renamedFrom": "Yvesgao/dsh-desktop-launcher",
+        "kept": "dsh-desktop-launcher-yvesgao",
+        "dropped": [
+          "dsh-shortcut-creator"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "QinpanWan/dsh-doc-quick",
+        "path": null,
+        "renamedFrom": "Entity-Him/dsh-doc-quick",
+        "kept": "dsh-doc-quick",
+        "dropped": [
+          "dsh-doc-quick-qinpanwa"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "StabCut/dsh-edit-regenerate",
+        "path": null,
+        "renamedFrom": "ExploringBB/dsh-edit-regenerate",
+        "kept": "dsh-edit-regenerate",
+        "dropped": [
+          "dsh-edit-regenerate-stabcut"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "citrusli2026/dsh-desktop",
+        "path": "manifest/harness",
+        "renamedFrom": "citrusli2026/dsh-electron-shell",
+        "kept": "dsh-electron-shell",
+        "dropped": [
+          "dsh-desktop-citrusli"
+        ],
+        "evidence": "manifest/harness/package.json#dependencies.@deepseek-ai/dsh",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "huaxiren6/DSH-EmailReader",
+        "path": null,
+        "renamedFrom": "huaxiren6/dsh-email-reader",
+        "kept": "dsh-email-reader",
+        "dropped": [
+          "DSH-EmailReader"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Nuomi9/dsh-fgo-chaldea",
+        "path": null,
+        "renamedFrom": "CharlesAQ/dsh-fgo-chaldea",
+        "kept": "dsh-fgo-chaldea",
+        "dropped": [
+          "dsh-fgo-chaldea-nuomi9"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "jsoncode/dsh-model-list",
+        "path": null,
+        "renamedFrom": "jsoncode/dsh-free-model",
+        "kept": "dsh-free-model",
+        "dropped": [
+          "dsh-model-list"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "JimChen-g/dsh-frontier-repro",
+        "path": null,
+        "renamedFrom": "JimchengChina/dsh-frontier-repro",
+        "kept": "dsh-frontier-repro",
+        "dropped": [
+          "dsh-frontier-repro-jimcheng"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "omdsh-dev/dsh-gal",
+        "path": null,
+        "renamedFrom": "william-jin-cmu/dsh-gal",
+        "kept": "dsh-gal",
+        "dropped": [
+          "dsh-gal-omdshdev"
+        ],
+        "evidence": "package.json#peerDependencies.@deepseek-ai/dsh-llm",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "yidapan666-creator/codex-dsh-supervisor",
+        "path": "packages/dsh-supervisor-tools",
+        "renamedFrom": "yidapan666-creator/dsh-gate",
+        "kept": "dsh-gate",
+        "dropped": [
+          "codex-dsh-supervisor"
+        ],
+        "evidence": "packages/dsh-supervisor-tools/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "xlennart/dsh-goal-mode-enhance",
+        "path": null,
+        "renamedFrom": "KarlOfLaw/dsh-goal-mode-enhance",
+        "kept": "dsh-goal-mode-enhance",
+        "dropped": [
+          "dsh-goal-mode-enhance-xlennart"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Jstn-1g/dsh-live-voice",
+        "path": null,
+        "renamedFrom": "Jstn-1g/dsh-guarded-live-voice",
+        "kept": "dsh-guarded-live-voice",
+        "dropped": [
+          "dsh-live-voice"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "yhfgyyf/dsh-audit-mode",
+        "path": null,
+        "renamedFrom": "yhfgyyf/dsh-guardian-mode",
+        "kept": "dsh-guardian-mode",
+        "dropped": [
+          "dsh-audit-mode"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Nyasers/DSHana",
+        "path": null,
+        "renamedFrom": "Nyasers/dsh-hanako",
+        "kept": "dsh-hanako",
+        "dropped": [
+          "DSHana"
+        ],
+        "evidence": "dsh-plugin/dsh-hana-settings/package.json#dsh.client",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "QinpanWan/dsh-harmonyos-market",
+        "path": "plugins/dsh-harmonyos-market",
+        "renamedFrom": "Entity-Him/dsh-harmonyos-market",
+        "kept": "dsh-harmonyos-market",
+        "dropped": [
+          "dsh-harmonyos-market-qinpanwa"
+        ],
+        "evidence": "plugins/dsh-harmonyos-market/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "QinpanWan/dsh-hiboard-push",
+        "path": null,
+        "renamedFrom": "Entity-Him/dsh-hiboard-push",
+        "kept": "dsh-hiboard-push",
+        "dropped": [
+          "dsh-hiboard-push-qinpanwa"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Minglink/dsh-infinite-gen-4",
+        "path": null,
+        "renamedFrom": "Minglink/dsh-infinite-gen-2",
+        "kept": "dsh-infinite-gen-2",
+        "dropped": [
+          "dsh-infinite-gen-4"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Minglink/dsh-infinite-gen-4",
+        "path": null,
+        "renamedFrom": "Minglink/dsh-infinite-gen-3",
+        "kept": "dsh-infinite-gen-2",
+        "dropped": [
+          "dsh-infinite-gen-3"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Axiaohungry/dsh-llm-workbuddy",
+        "path": null,
+        "renamedFrom": "Axiaohungry/dsh-llm-codebuddy",
+        "kept": "dsh-llm-codebuddy-axiaohungry",
+        "dropped": [
+          "dsh-llm-workbuddy-axiaohun"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "yamingmou/dsh-retrace",
+        "path": null,
+        "renamedFrom": "yamingmou/dsh-message-editor",
+        "kept": "dsh-message-editor",
+        "dropped": [
+          "dsh-retrace"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "WSL043/dsh-reasoning-slider",
+        "path": null,
+        "renamedFrom": "WSL043/dsh-native-reasoning-slider",
+        "kept": "dsh-native-reasoning-slider",
+        "dropped": [
+          "dsh-reasoning-slider-wsl043"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "WSL043/dsh-chat-manager",
+        "path": null,
+        "renamedFrom": "WSL043/dsh-native-session-manager",
+        "kept": "dsh-native-session-manager",
+        "dropped": [
+          "dsh-chat-manager-wsl043"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "omdsh-dev/dsh-neoforge",
+        "path": null,
+        "renamedFrom": "r05En1cU/dsh-neoforge",
+        "kept": "dsh-neoforge",
+        "dropped": [
+          "dsh-neoforge-r05en1cu"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "grelvan/dsh-ocr-local",
+        "path": null,
+        "renamedFrom": "balcoz/dsh-ocr-local",
+        "kept": "dsh-ocr-local",
+        "dropped": [
+          "dsh-ocr-local-grelvan"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "open-dsh-plugins/dsh-open-in-app",
+        "path": null,
+        "renamedFrom": "trewvip-arch/dsh-open-in-app",
+        "kept": "dsh-open-in-app",
+        "dropped": [
+          "dsh-open-in-app-opendshp"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Ycet/dsh-session-plus",
+        "path": null,
+        "renamedFrom": "Ycet/dsh-open-workspace",
+        "kept": "dsh-open-workspace",
+        "dropped": [
+          "dsh-session-plus-ycet"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "MST19711/dsh-balance-panel",
+        "path": null,
+        "renamedFrom": "MST19711/dsh-opencode-go-usage",
+        "kept": "dsh-opencode-go-usage-mst19711",
+        "dropped": [
+          "dsh-balance-panel-mst19711"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "qinyre/dsh-plugin-archive-manager",
+        "path": null,
+        "renamedFrom": "qinyre/dsh-plugin-atlas",
+        "kept": "dsh-plugin-atlas",
+        "dropped": [
+          "dsh-plugin-archive-manager-qinyre"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Noob-stupid/dsh-plugin-gating-hub",
+        "path": null,
+        "renamedFrom": "Noob-stupid/dsh-plugin-hub",
+        "kept": "dsh-plugin-hub",
+        "dropped": [
+          "dsh-plugin-gating-hub"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "zhang66633/.dsh-plugin-installer",
+        "path": null,
+        "renamedFrom": "zhang66633/dsh-plugin-installer",
+        "kept": "dsh-plugin-installer",
+        "dropped": [
+          ".dsh-plugin-installer"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "FloraAurella/dsh-plugin-koishi",
+        "path": null,
+        "renamedFrom": "nazidada/dsh-plugin-koishi",
+        "kept": "dsh-plugin-koishi",
+        "dropped": [
+          "dsh-plugin-koishi-floraaur"
+        ],
+        "evidence": "package.json#devDependencies.@deepseek-ai/dsh-agent",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "StabCut/dsh-plugin-restart-desktop",
+        "path": null,
+        "renamedFrom": "ExploringBB/dsh-plugin-restart-desktop",
+        "kept": "dsh-plugin-restart-desktop",
+        "dropped": [
+          "dsh-plugin-restart-desktop-stabcut"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Kaiji-Z/dsh-plugin-stardeck",
+        "path": null,
+        "renamedFrom": "Kaiji-Z/dsh-plugin-warroom",
+        "kept": "dsh-plugin-stardeck",
+        "dropped": [
+          "dsh-plugin-warroom"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Kian-Oraish/dsh-prompt-enchant",
+        "path": null,
+        "renamedFrom": "Kian-Oraish/dsh-prompt-enhance",
+        "kept": "dsh-prompt-enhance-kianorai",
+        "dropped": [
+          "dsh-prompt-enchant"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "harryopo/dsh-cloud-workspaces",
+        "path": null,
+        "renamedFrom": "harryopo/dsh-remote-ide",
+        "kept": "dsh-remote-ide",
+        "dropped": [
+          "dsh-cloud-workspaces"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "huaxiren6/DSH-QrPairing",
+        "path": null,
+        "renamedFrom": "huaxiren6/dsh-remote-qr-button",
+        "kept": "dsh-remote-qr-button",
+        "dropped": [
+          "DSH-QrPairing"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "trrrrrryg/dsh-ssh-forge",
+        "path": null,
+        "renamedFrom": "trrrrrryg/dsh-remote-workspace",
+        "kept": "dsh-remote-workspace-trrrrrry",
+        "dropped": [
+          "dsh-ssh-forge"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "svgop/dsh-rich-context",
+        "path": null,
+        "renamedFrom": "savageops/dsh-rich-context",
+        "kept": "dsh-rich-context",
+        "dropped": [
+          "dsh-rich-context-svgop"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "svgop/dsh-rich-tracking",
+        "path": null,
+        "renamedFrom": "savageops/dsh-rich-tracking",
+        "kept": "dsh-rich-tracking",
+        "dropped": [
+          "dsh-rich-tracking-svgop"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "AI-Scarlett/DSH-Store",
+        "path": null,
+        "renamedFrom": "AI-Scarlett/dsh-safe-plugin-manager",
+        "kept": "dsh-safe-plugin-manager",
+        "dropped": [
+          "DSH-Store-aiscarle"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "HakureiMonika/dsh-sandbox-escalation-fix",
+        "path": null,
+        "renamedFrom": "JUSTMONIKA2022/dsh-sandbox-escalation-fix",
+        "kept": "dsh-sandbox-escalation-fix-justmoni",
+        "dropped": [
+          "dsh-sandbox-escalation-fix-hakureim"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "umineko987/dsh-search-enhance",
+        "path": null,
+        "renamedFrom": "KKKneko/dsh-search-enhance",
+        "kept": "dsh-search-enhance",
+        "dropped": [
+          "dsh-search-enhance-umineko9"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "cyanxi-eb/dsh-self-memory",
+        "path": null,
+        "renamedFrom": "cyanxi69-jpg/dsh-self-memory",
+        "kept": "dsh-self-memory",
+        "dropped": [
+          "dsh-self-memory-cyanxieb"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "PolinniZhong/dsh-session-workbench",
+        "path": null,
+        "renamedFrom": "PolinniZhong/dsh-session-kb",
+        "kept": "dsh-session-kb",
+        "dropped": [
+          "dsh-session-workbench"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "xlennart/dsh-side-chat",
+        "path": null,
+        "renamedFrom": "KarlOfLaw/dsh-side-chat",
+        "kept": "dsh-side-chat-karlofla",
+        "dropped": [
+          "dsh-side-chat-xlennart"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "g-yixuan/dsh-sidenote",
+        "path": null,
+        "renamedFrom": "g-yixuan/dsh-sidechat",
+        "kept": "dsh-sidechat-gyixuan",
+        "dropped": [
+          "dsh-sidenote"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "oThTJx/dsh-always-apply",
+        "path": null,
+        "renamedFrom": "oThTJx/dsh-skill-always-apply",
+        "kept": "dsh-skill-always-apply",
+        "dropped": [
+          "dsh-always-apply"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "yustillrain/dsh-plugin-tool-repository",
+        "path": null,
+        "renamedFrom": "yustillrain/dsh-skill-browser",
+        "kept": "dsh-plugin-tool-repository",
+        "dropped": [
+          "dsh-skill-browser-yustillr"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "oThTJx/dsh-superpowers",
+        "path": null,
+        "renamedFrom": "oThTJx/dsh-skill-superpowers",
+        "kept": "dsh-skill-superpowers",
+        "dropped": [
+          "dsh-superpowers-othtjx"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "huaxiren6/DSH-SmsWebhook",
+        "path": null,
+        "renamedFrom": "huaxiren6/dsh-sms-webhook",
+        "kept": "dsh-sms-webhook",
+        "dropped": [
+          "DSH-SmsWebhook"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "ZincGluxx/dsh-task-toast",
+        "path": null,
+        "renamedFrom": "ZincGluxx/dsh-sound-feedback",
+        "kept": "dsh-sound-feedback",
+        "dropped": [
+          "dsh-task-toast"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "chai1110/dsh-ssh-remote",
+        "path": null,
+        "renamedFrom": "cslht11/dsh-ssh-remote",
+        "kept": "dsh-ssh-remote-cslht11",
+        "dropped": [
+          "dsh-ssh-remote-chai1110"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "dat-lequoc/dsh-opinionated-subagent",
+        "path": null,
+        "renamedFrom": "dat-lequoc/dsh-subagent-model",
+        "kept": "dsh-subagent-model-datlequo",
+        "dropped": [
+          "dsh-opinionated-subagent"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "drscrewdriver/dsh-search-index",
+        "path": null,
+        "renamedFrom": "drscrewdriver/dsh-session-search-toggle",
+        "kept": "dsh-switch-search",
+        "dropped": [
+          "dsh-search-index"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Hou-DL/dsh-token-pulse",
+        "path": null,
+        "renamedFrom": "Hou-DL/dsh-token-heatmap",
+        "kept": "dsh-token-heatmap-houdl",
+        "dropped": [
+          "dsh-token-pulse"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "SoMarkAI/dsh-tool-somark",
+        "path": null,
+        "renamedFrom": "saurtone/dsh-tool-somark",
+        "kept": "dsh-tool-somark",
+        "dropped": [
+          "dsh-tool-somark-somarkai"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "LoKiGGo/dsh-tools",
+        "path": null,
+        "renamedFrom": "qq1376868542-lang/dsh-tools",
+        "kept": "dsh-tools-qq137686",
+        "dropped": [
+          "dsh-tools-lokiggo"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "lamost423/dsh-maze",
+        "path": null,
+        "renamedFrom": "lamost423/dsh-trace-compare",
+        "kept": "dsh-trace-compare",
+        "dropped": [
+          "dsh-maze"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "AwesomeHou/dsh-trace-collapse",
+        "path": null,
+        "renamedFrom": "AwesomeHou/dsh-trajectory-collapse",
+        "kept": "dsh-trajectory-collapse",
+        "dropped": [
+          "dsh-trace-collapse"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Anna-la/dsh-submodel-change",
+        "path": null,
+        "renamedFrom": "Anna-la/dsh-turn-notify",
+        "kept": "dsh-turn-notify-annala",
+        "dropped": [
+          "dsh-submodel-change"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "meto-ventus/dsh-ventus-plugins",
+        "path": null,
+        "renamedFrom": "mmzm0808/dsh-ventus-plugins",
+        "kept": "dsh-ventus-plugins",
+        "dropped": [
+          "dsh-ventus-plugins-metovent"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "meto-ventus/dsh-ventus-search",
+        "path": null,
+        "renamedFrom": "mmzm0808/dsh-ventus-search",
+        "kept": "dsh-ventus-search",
+        "dropped": [
+          "dsh-ventus-search-metovent"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "meto-ventus/dsh-ventus-whale",
+        "path": null,
+        "renamedFrom": "mmzm0808/dsh-ventus-whale",
+        "kept": "dsh-ventus-whale",
+        "dropped": [
+          "dsh-ventus-whale-metovent"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "lhf6623/dsh-thrum",
+        "path": null,
+        "renamedFrom": "lhf6623/dsh-vibe",
+        "kept": "dsh-vibe",
+        "dropped": [
+          "dsh-thrum"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "abiddotdev/dsh-visualizer",
+        "path": null,
+        "renamedFrom": "abidhmuhsin/dsh-visualizer",
+        "kept": "dsh-visualizer-abidhmuh",
+        "dropped": [
+          "dsh-visualizer-abiddotd"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "wisp-science/dsh-wisp-science-lab",
+        "path": null,
+        "renamedFrom": "xuzhougeng/dsh-wisp-science-lab",
+        "kept": "dsh-wisp-science-lab",
+        "dropped": [
+          "dsh-wisp-science-lab-wispscie"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "dsh-wsl-workspace-maintainers/dsh-wsl-workspace",
+        "path": null,
+        "renamedFrom": "6Mikao9/dsh-wsl-workspace",
+        "kept": "dsh-wsl-workspace",
+        "dropped": [
+          "dsh-wsl-workspace-dshwslwo"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "wanderer-yk/dsh-xueqiu",
+        "path": null,
+        "renamedFrom": "kangjinghang/dsh-xueqiu",
+        "kept": "dsh-xueqiu",
+        "dropped": [
+          "dsh-xueqiu-wanderer"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "kaijia323/dsh-sidebar",
+        "path": null,
+        "renamedFrom": "kaijia323/dsh-ymc-sidebar",
+        "kept": "dsh-ymc-sidebar",
+        "dropped": [
+          "dsh-sidebar-kaijia32"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "KuramiWan/dshp-plugin-panel",
+        "path": null,
+        "renamedFrom": "KuramiWan/dshp-skill-panel",
+        "kept": "dshp-skill-panel",
+        "dropped": [
+          "dshp-plugin-panel"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "looput/dsh-finance-lab",
+        "path": null,
+        "renamedFrom": "looput/dsn-finance-lab",
+        "kept": "dsn-finance-lab",
+        "dropped": [
+          "dsh-finance-lab"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Edge-HH/GrokBot_in_DeepseekHerness",
+        "path": null,
+        "renamedFrom": "MEMZ-Edge01/GrokBot_in_DeepseekHerness",
+        "kept": "GrokBot_in_DeepseekHerness",
+        "dropped": [
+          "GrokBot_in_DeepseekHerness-edgehh"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "chumingjun/dsh-harness-one",
+        "path": "dsh-plugins/dsh-ccpg-brand",
+        "renamedFrom": "chumingjun/harness-one",
+        "kept": "harness-one",
+        "dropped": [
+          "dsh-harness-one"
+        ],
+        "evidence": "dsh-plugins/dsh-ccpg-brand/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "834063245-creator/LantaiAgent",
+        "path": "dsh-bundle",
+        "renamedFrom": "834063245-creator/HoloGram",
+        "kept": "HoloGram",
+        "dropped": [
+          "LantaiAgent"
+        ],
+        "evidence": "dsh-bundle/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Tiger3807861189/J-Space-Cognition-Suite",
+        "path": "j-space",
+        "renamedFrom": "Tiger3807861189/J-Space-Cognition-Suite-V3.7",
+        "kept": "J-Space-Cognition-Suite-V3.7",
+        "dropped": [
+          "J-Space-Cognition-Suite"
+        ],
+        "evidence": "j-space/SKILL.md#frontmatter",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Chillizu/mop-plugins",
+        "path": null,
+        "renamedFrom": "Chillizu/MiopIIk",
+        "kept": "MiopIIk",
+        "dropped": [
+          "mop-plugins"
+        ],
+        "evidence": "packages/mop-capabilities/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "zenstory-ai/oh-story-dsh",
+        "path": "packages/dsh-plugin",
+        "renamedFrom": "worldwonderer/oh-story-dsh",
+        "kept": "oh-story-dsh",
+        "dropped": [
+          "oh-story-dsh-zenstory"
+        ],
+        "evidence": "packages/dsh-plugin/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "ZekaiShi/evo-subagent",
+        "path": null,
+        "renamedFrom": "ZekaiShi/smart-subagent",
+        "kept": "smart-subagent",
+        "dropped": [
+          "evo-subagent"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "todayer/todayer-dsh-telegram-bridge",
+        "path": null,
+        "renamedFrom": "todayer/todayer-dsh-telegram-channel",
+        "kept": "todayer-dsh-telegram-channel",
+        "dropped": [
+          "todayer-dsh-telegram-bridge"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "weshopai/weshop-skill-package",
+        "path": "skills/3d-animation-short-generator",
+        "renamedFrom": "weshopai/weshop-skill-pakage",
+        "kept": "weshop-skill-pakage",
+        "dropped": [
+          "weshop-skill-package"
+        ],
+        "evidence": "skills/3d-animation-short-generator/SKILL.md#frontmatter",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "firestige/crystra-execution",
+        "path": null,
+        "renamedFrom": "firestige/wsr-execution",
+        "kept": "execution-system",
+        "dropped": [
+          "wsr-execution"
+        ],
+        "evidence": "package.json#peerDependencies.@deepseek-ai/dsh",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "leolee9086/dsh-zhihu-tools",
+        "path": null,
+        "renamedFrom": "leolee9086/zhihu-tools",
+        "kept": "zhihu-tools",
+        "dropped": [
+          "dsh-zhihu-tools"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "zhengzeyong9527-droid/ai-input-enhancer",
+        "path": null,
+        "renamedFrom": "zhengzeyong9527-droid/zzy-dsh-prompt-optimizer",
+        "kept": "zzy-dsh-prompt-optimizer",
+        "dropped": [
+          "ai-input-enhancer"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Xyanxhu/kilo-zen2dsh",
+        "path": null,
+        "renamedFrom": "Xyanxhu/kilo2dsh",
+        "kept": "kilo2dsh",
+        "dropped": [
+          "kilo-zen2dsh"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "YippeeXuXu/dsh-collab-mode",
+        "path": "skills/dispatch",
+        "renamedFrom": "a1270425803-bit/dsh-collab-mode",
+        "kept": "dsh-collab-mode",
+        "dropped": [
+          "dsh-collab-mode-yippeexu"
+        ],
+        "evidence": "skills/dispatch/SKILL.md#frontmatter",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "benz-ai-x/dsh-research-graph",
+        "path": null,
+        "renamedFrom": "benz-ai-x/dsh-session-graph",
+        "kept": "dsh-session-graph",
+        "dropped": [
+          "dsh-research-graph"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "chemmy-11/dsh-nautilus",
+        "path": null,
+        "renamedFrom": "chemmy-11/dsh-nexus",
+        "kept": "dsh-xuegulin",
+        "dropped": [
+          "dsh-nexus"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "zerorigin-studio/dsh-desktop-shell",
+        "path": null,
+        "renamedFrom": "ColdCGH/dsh-desktop-shell",
+        "kept": "dsh-desktop-shell-coldcgh",
+        "dropped": [
+          "dsh-desktop-shell-zerorigi"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "fan56/dsh-topics-memory",
+        "path": null,
+        "renamedFrom": "fan56/dsh-llmwiki-memory",
+        "kept": "dsh-llmwiki-memory",
+        "dropped": [
+          "dsh-topics-memory"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "leogottadothebest/dsh-plugin-archived-conversations",
+        "path": null,
+        "renamedFrom": "leogottadothebest/DSH-Archived-Delete",
+        "kept": "DSH-Archived-Delete",
+        "dropped": [
+          "dsh-plugin-archived-conversations"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "lazybot114514/dsh-token-budget",
+        "path": null,
+        "renamedFrom": "Zyc20010326/dsh-token-budget",
+        "kept": "dsh-token-budget",
+        "dropped": [
+          "dsh-token-budget-lazybot1"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Aealen/dsh-coding-workspace",
+        "path": null,
+        "renamedFrom": "Aealen/dsh-worktree",
+        "kept": "dsh-worktree-aealen",
+        "dropped": [
+          "dsh-coding-workspace"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "goatliamia/dsh-runtime",
+        "path": "core/runtime-circuit",
+        "renamedFrom": "goatliamia/dsh-runtime-react",
+        "kept": "dsh-runtime-react",
+        "dropped": [
+          "dsh-runtime-goatliam"
+        ],
+        "evidence": "core/runtime-circuit/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "FylarOpen/dsh-fylar-office-editor",
+        "path": null,
+        "renamedFrom": "FylarOpen/fylar-office-editor",
+        "kept": "fylar-office-editor",
+        "dropped": [
+          "dsh-fylar-office-editor"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "DaYanCCC/DSH-Balance-Mini",
+        "path": null,
+        "renamedFrom": "DaYanQLQ/DSH-Balance-Mini",
+        "kept": "DSH-Balance-Mini",
+        "dropped": [
+          "DSH-Balance-Mini-dayanqlq"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "reactive-resume/reactive-resume",
+        "path": "packages/dsh-plugin",
+        "renamedFrom": "amruthpillai/reactive-resume",
+        "kept": "reactive-resume",
+        "dropped": [
+          "reactive-resume-reactive"
+        ],
+        "evidence": "packages/dsh-plugin/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "TNJ2026/promptaflow",
+        "path": null,
+        "renamedFrom": "TNJ2026/orbit-runtime",
+        "kept": "orbit-runtime",
+        "dropped": [
+          "promptaflow"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "CocoSgt/dsh-skills",
+        "path": null,
+        "renamedFrom": "cocosgt/dsh-skill",
+        "kept": "dsh-skill-cocosgt",
+        "dropped": [
+          "dsh-skill"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "omdsh-dev/stent",
+        "path": null,
+        "renamedFrom": "dsh-external/fabric",
+        "kept": "dsh-fabric",
+        "dropped": [
+          "fabric"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Fishquito7/dsh-skill-mcp-panel",
+        "path": null,
+        "renamedFrom": "fishquito7/dsh-skill-viewer",
+        "kept": "dsh-skill-mcp-panel",
+        "dropped": [
+          "dsh-skill-viewer"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Hyna-hla/dsh-remote",
+        "path": "dsh-remote-access",
+        "renamedFrom": "hyna-hla/harness-remote",
+        "kept": "dsh-remote-hynahla",
+        "dropped": [
+          "harness-remote"
+        ],
+        "evidence": "dsh-remote-access/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "lire1131/dsh-undo-savepoint",
+        "path": null,
+        "renamedFrom": "lire1131/dsh-undo-plugin",
+        "kept": "dsh-undo-plugin",
+        "dropped": [
+          "dsh-undo-plugin-lire1131"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "omdsh-dev/stent",
+        "path": null,
+        "renamedFrom": "omdsh-dev/fabric",
+        "kept": "dsh-fabric",
+        "dropped": [
+          "fabric-omdshdev"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "OpenSaozi/dsh-antigravity",
+        "path": null,
+        "renamedFrom": "opensaozi/deepseek-harness-antigravity-provider",
+        "kept": "deepseek-harness-antigravity-provider",
+        "dropped": [
+          "deepseek-harness-antigravity-provider-opensaoz"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "OpenSaozi/dsh-xai-catalog",
+        "path": null,
+        "renamedFrom": "opensaozi/deepseek-harness-xai-model-catalog",
+        "kept": "deepseek-harness-xai-model-catalog",
+        "dropped": [
+          "deepseek-harness-xai-model-catalog-opensaoz"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "chenproton/dsh-history",
+        "path": null,
+        "renamedFrom": "startnewlabs/dsh-history",
+        "kept": "dsh-history-chenprot",
+        "dropped": [
+          "dsh-history-startnew"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Kr-ATG/dsh-chat-plus",
+        "path": null,
+        "renamedFrom": "Kr-ATG/dsh-chat-flow",
+        "kept": "dsh-think-tools",
+        "dropped": [
+          "dsh-chat-flow"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "elangan1997-cmyk/canvas-workbench",
+        "path": "canvas-workbench",
+        "renamedFrom": "elangan1997-cmyk/dsh-canvas-suite",
+        "kept": "dsh-canvas-suite",
+        "dropped": [
+          "canvas-workbench"
+        ],
+        "evidence": "canvas-workbench/package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "HerTa-st/Herta-dsh",
+        "path": null,
+        "renamedFrom": "YUNmengyuan/Herta-dsh",
+        "kept": "Herta-dsh",
+        "dropped": [
+          "Herta-dsh-hertast"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "jijiwu3526/dsh-toolsmith",
+        "path": "plugin",
+        "renamedFrom": "jijiwu3526/dsh-preset-studio",
+        "kept": "dsh-preset-studio",
+        "dropped": [
+          "dsh-toolsmith"
+        ],
+        "evidence": "plugin/cordis.patch.yml",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "Movingelated/DSH-LocalModels-TokenSavior",
+        "path": null,
+        "renamedFrom": "Movingelated/dsh-local-ollama-models",
+        "kept": "dsh-local-ollama-models",
+        "dropped": [
+          "DSH-LocalModels-TokenSavior"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
+      },
+      {
+        "repo": "acdsh4869/dsh-DeepSeek-chat",
+        "path": null,
+        "renamedFrom": "4869acdsh-a11y/dsh-DeepSeek-chat",
+        "kept": "dsh-DeepSeek-chat-4869acds",
+        "dropped": [
+          "dsh-DeepSeek-chat-acdsh486"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-09-30"
       }
     ]
   },
-  "mergedDuplicates": 89
+  "mergedDuplicates": 89,
+  "held": []
 }

@@ -151,8 +151,12 @@ jobs:
           To apply that verdict, on a branch off main:
 
           \`\`\`sh
-          npm install && npm run triage && npm run render && npm run validate
+          npm install && npm run renames && npm run triage && npm run render && npm run validate
           \`\`\`
+
+          \`renames\` goes first: a listed repo that was renamed is queued here
+          under its new name, and triage only skips it once the listed row
+          carries that name.
 
           It writes the provable ones into \`data/plugins.json\` with the file
           each install path was proven in, the unprovable ones into

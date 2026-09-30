@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-537 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+534 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -75,8 +75,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-humanized-deepseek-maid | 7 | [loonai321/dsh-humanized-deepseek-maid](https://github.com/loonai321/dsh-humanized-deepseek-maid) | Gives the DeepSeek Harness agent a configurable humanized whale-girl maid persona (address, self-name, speaking mode), an immersive no-plugin-meta rule, and a lightweight layered memory with | 0.1.0-rc.8 (2026-08-20) |
 | dsh-kujira | 7 | [YuluoY/dsh-kujira](https://github.com/YuluoY/dsh-kujira) | DeepSeek 鲸鱼娘桌宠 —— 独立重写的 DeepSeek Harness Web 插件。零构建依赖：lib/ 里的 JS 就是源码，改完刷新即生效。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-thought-buddy | 7 | [dsh-plugins/dsh-thought-buddy](https://github.com/dsh-plugins/dsh-thought-buddy) · [npm](https://www.npmjs.com/package/@dsh-plugin/dsh-thought-buddy) | DSH web 插件：在「Deep diving...」状态前插入一个动态小表情 —— GrokBot 风格动画头像（纯 SVG + rAF，移植自 nasawz/GrokBot，无任何运行时依赖），也可切换为 emoji 轮播模式 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-ventus-whale | 7 | [mmzm0808/dsh-ventus-whale](https://github.com/mmzm0808/dsh-ventus-whale) | Ventus 虎鲸 3D 桌宠：一个可交互的 DeepSeek 虎鲸 3D 模型浮窗（透明背景），支持拖拽移动/旋转查看/右键菜单，设置页提供大小、灵敏度、显示文字配置。 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-ventus-whale-metovent | 7 | [meto-ventus/dsh-ventus-whale](https://github.com/meto-ventus/dsh-ventus-whale) | Ventus 虎鲸 3D 桌宠：一个可交互的 DeepSeek 虎鲸 3D 模型浮窗（透明背景），支持拖拽移动/旋转查看/右键菜单，设置页提供大小、灵敏度、显示文字配置。 | 0.1.1-rc.2 (2026-09-18) |
+| dsh-ventus-whale | 7 | [meto-ventus/dsh-ventus-whale](https://github.com/meto-ventus/dsh-ventus-whale) | Ventus 虎鲸 3D 桌宠：一个可交互的 DeepSeek 虎鲸 3D 模型浮窗（透明背景），支持拖拽移动/旋转查看/右键菜单，设置页提供大小、灵敏度、显示文字配置。 | 0.1.1-rc.2 (2026-09-18) |
 | rice-loving-whale | 7 | [touche-s/rice-loving-whale](https://github.com/touche-s/rice-loving-whale/tree/HEAD/dsh-pet-launcher) | 鲸鱼娘桌宠启动器 —— DSH 启动时自动拉起桌面桌宠，DSH 退出时自动关闭 | 0.1.0-rc.8 (2026-08-24) |
 | wali-dsh-plugin | 7 | [fuzhengwei/wali-dsh-plugin](https://github.com/fuzhengwei/wali-dsh-plugin) · [npm](https://www.npmjs.com/package/wali-dsh-plugin) | Desktop pet surface: a free-roaming, conversation-aware pet that floats over the whole dsh web UI | 0.1.0-rc.8 (2026-08-21) |
 | dsh-custom-brand | 6 | [baisama-cloud/dsh-custom-brand](https://github.com/baisama-cloud/dsh-custom-brand) | Customizable brand area for the DeepSeek Harness web GUI: replace the whale logo and the DeepSeek wordmark with local images, and edit the HARNESS badge text — double-click to change, right-click to | 0.1.0-rc.8 (2026-08-20) |
@@ -110,8 +109,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-client-ui-pet-qweqwe12 | 4 | [qweqwe12382/dsh-client-ui-pet](https://github.com/qweqwe12382/dsh-client-ui-pet) | Q pet desktop companion overlay for DeepSeek Harness web GUI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-custom-ui-lsaa4 | 4 | [lsaa4/dsh-custom-ui](https://github.com/lsaa4/dsh-custom-ui) | Glassmorphism UI theme for DeepSeek Harness web: frosted-glass surfaces, adjustable opacity/blur, custom fonts, background images & live video wallpapers with carousel, NetEase Cloud Music player | 0.1.0-rc.8 (2026-08-20) |
 | dsh-fun-ticker | 4 | [omdsh-dev/dsh-fun-ticker](https://github.com/omdsh-dev/dsh-fun-ticker) | Ticker tape: user-selected crypto/FX/A-share/index/HK/US quotes in a scrolling strip above the composer, proxied and cached host-side | unverified |
-| dsh-gal | 4 | [william-jin-cmu/dsh-gal](https://github.com/william-jin-cmu/dsh-gal) | Galgame / visual-novel UI for the DeepSeek Harness: a whale-girl companion with animated expressions who speaks the assistant's replies one scene at a time | 0.1.1-rc.2 (2026-09-04) |
-| dsh-gal-omdshdev | 4 | [omdsh-dev/dsh-gal](https://github.com/omdsh-dev/dsh-gal) | Galgame / visual-novel UI for the DeepSeek Harness: a whale-girl companion who is shown doing what the agent does and speaks its replies one scene at a time | 0.1.1-rc.2 (2026-09-18) |
+| dsh-gal | 4 | [omdsh-dev/dsh-gal](https://github.com/omdsh-dev/dsh-gal) | Galgame / visual-novel UI for the DeepSeek Harness: a whale-girl companion who is shown doing what the agent does and speaks its replies one scene at a time | 0.1.1-rc.2 (2026-09-18) |
 | dsh-game-hud | 4 | [guoliyuan97-png/dsh-game-hud](https://github.com/guoliyuan97-png/dsh-game-hud) | Game-style floating HUD for DeepSeek Harness: HP bar (account balance vs ¥20 cap), MP bar (context remaining), official peak/valley pricing with switch countdown, auto-compaction when context < 5% | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lx-music | 4 | [CyberryRe/lx_music-for-dsh](https://github.com/CyberryRe/lx_music-for-dsh) · [npm](https://www.npmjs.com/package/lx-music-for-dsh) | LX Music sidebar player and search_and_play tool for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-music-player | 4 | [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) | 这是一个可以让你边对话边听歌的 DeepSeek Harness 插件：折叠/展开两种可自由拖动的悬浮窗口形态，利用 Meting API 等解析源接入网易云音乐，支持歌单导入和按歌名或歌手搜索单曲导入。dsh-MusicPlayer: chat and listen at the same time. | 0.1.0-rc.8 (2026-08-20) |
@@ -508,8 +506,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-yiyi-pet | 0 | [scubiry-glitch/dsh-yiyi-pet](https://github.com/scubiry-glitch/dsh-yiyi-pet) | 狼兔一一任务宠物：DSH Web 桌面宠物插件，可在狼/兔/一一三个角色间切换，狼兔各有全套 16 个表情、随 Agent 任务状态自动变化，也可手动挑选表情。资源持久化打包，Host 同源路由提供，无需公网。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-yu-pet | 0 | [sundusk/dsh-yu-pet](https://github.com/sundusk/dsh-yu-pet) | Xiaoyu floating web pet plugin for the dsh web GUI: 8x8 sprite-sheet frame animation with per-frame timing, drag-to-run, double-click wave, mood follows session activity (thinking / approval / | 0.1.1-rc.2 (2026-09-01) |
 | fox-pet | 0 | [Alih-b/fox-pet](https://github.com/Alih-b/fox-pet/tree/HEAD/dsh) | Folio the fox — a companion pet for the DeepSeek Harness web UI | 0.1.7-rc.2 (2026-09-29) |
-| GrokBot_in_DeepseekHerness | 0 | [MEMZ-Edge01/GrokBot_in_DeepseekHerness](https://github.com/MEMZ-Edge01/GrokBot_in_DeepseekHerness) | 将GrokBot宠物代入DSH网页端并加入拖拽效果和通知功能 | 0.1.7-rc.2 (2026-09-29) |
-| GrokBot_in_DeepseekHerness-edgehh | 0 | [Edge-HH/GrokBot_in_DeepseekHerness](https://github.com/Edge-HH/GrokBot_in_DeepseekHerness) | 将GrokBot宠物代入DSH网页端并加入拖拽效果和通知功能 | 0.1.7-rc.2 (2026-09-29) |
+| GrokBot_in_DeepseekHerness | 0 | [Edge-HH/GrokBot_in_DeepseekHerness](https://github.com/Edge-HH/GrokBot_in_DeepseekHerness) | 将GrokBot宠物代入DSH网页端并加入拖拽效果和通知功能 | 0.1.7-rc.2 (2026-09-29) |
 | MDSM | 0 | [bauerelizabeth07139/MDSM](https://github.com/bauerelizabeth07139/MDSM) | MDSM (Male DeepSeek Mascot) appearance layer for the DeepSeek Harness web GUI: wears the bundled mascot character as the GUI background (surface-token fade with opacity, blur, scrim and position | 0.2.0-rc.2 (2026-09-30) |
 | mypet | 0 | [qiqikuaidianpao/mypet](https://github.com/qiqikuaidianpao/mypet) · [npm](https://www.npmjs.com/package/mypet) | A tamagotchi-style desktop pet for DeepSeek Harness — lives in your browser, reacts to coding sessions, levels up, collects skins, and more. | 0.1.0-rc.8 (2026-08-20) |
 | nai | 0 | [bauerelizabeth07139/nai](https://github.com/bauerelizabeth07139/nai) | Nai milk-frog mascot appearance layer for the DeepSeek Harness web GUI: wears the bundled milk-frog artwork as the GUI background (surface-token fade with opacity, blur, scrim and position controls) | 0.2.0-rc.2 (2026-09-30) |

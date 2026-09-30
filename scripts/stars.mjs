@@ -95,7 +95,7 @@ for (const p of data.plugins) {
 writeFileSync(FILE, `${JSON.stringify(data, null, 2)}\n`);
 console.log(`stars: refreshed ${touched}/${data.plugins.length} entries (${repos.length} unique repos)`);
 if (renamed.length) {
-  console.error(`stars: ${renamed.length} repo(s) answered under a new name — update the entries:`);
+  console.error(`stars: ${renamed.length} repo(s) answered under a new name — apply with scripts/renames.mjs in a sweep:`);
   for (const line of renamed) console.error(`  - ${line}`);
 }
 if (stalled.length) {
