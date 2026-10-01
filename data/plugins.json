@@ -327259,6 +327259,23 @@
         "knowledge"
       ],
       "pushedAt": "2026-09-30"
+    },
+    {
+      "name": "DSH Subscriptions",
+      "repo": "goodboys-ai/dsh-subscriptions",
+      "description": "Use ChatGPT (Codex), Claude, Grok, Copilot, and Antigravity subscriptions as DSH providers: OAuth login in Settings, live catalogs with effort levels, quota windows in Settings and the composer.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-01",
+      "lastVerified": "2026-10-01",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-subscriptions",
+      "tags": [
+        "models",
+        "usage"
+      ]
     }
   ]
 }
