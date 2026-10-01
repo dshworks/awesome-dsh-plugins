@@ -223337,22 +223337,22 @@
     },
     {
       "name": "vision-exp-tile",
-      "repo": "Nicholas023/vision-exp-tile",
-      "description": "为 deepseek-v4-flash-vision-exp 量身定制的大图智能识图插件：整图预检 → 本地 OCR+像素网格（文字）+ 兴趣点按比例切块（最长边 800）→ 汇总；保留全图 800x800 网格切块模式。不统计 token、不计算费用。v0.4.1：慢机测试自适应（设备档位/可配置OCR池超时/设置页跳过声明/自检入口/安装即优化）。",
+      "repo": "Nicholaskin/vision-exp-tile",
+      "description": "为 deepseek-v4-flash-vision-exp 量身定制的大图智能识图插件：整图预检 → 本地 OCR+像素网格（文字）+ 兴趣点按比例切块（最长边 800）→ 汇总；保留全图 800x800 网格切块模式。不代为统计/不显示 token 与费用，实际计费以 DeepSeek 官方 API 平台账单为准。v0.4.3：仓库元数据修复 / 计费表述诚实化 / 新增隐私与数据说明 /",
       "category": "plugin",
       "official": false,
       "added": "2026-08-24",
-      "lastVerified": "2026-08-24",
-      "verifiedAgainst": "0.1.0-rc.8",
+      "lastVerified": "2026-09-29",
+      "verifiedAgainst": "0.1.7-rc.2",
       "status": "verified",
-      "evidence": "cordis.patch.yml",
-      "stars": 12,
+      "evidence": "package.json#dsh.bundle",
+      "stars": 1,
       "starsUpdated": "2026-10-01",
       "tags": [
         "vision",
         "usage"
       ],
-      "pushedAt": "2026-08-24"
+      "pushedAt": "2026-09-11"
     },
     {
       "name": "vision-translation",
@@ -274759,25 +274759,6 @@
         "ui"
       ],
       "pushedAt": "2026-09-14"
-    },
-    {
-      "name": "vision-exp-tile-nicholas",
-      "repo": "Nicholaskin/vision-exp-tile",
-      "description": "为 deepseek-v4-flash-vision-exp 量身定制的大图智能识图插件：整图预检 → 本地 OCR+像素网格（文字）+ 兴趣点按比例切块（最长边 800）→ 汇总；保留全图 800x800 网格切块模式。不代为统计/不显示 token 与费用，实际计费以 DeepSeek 官方 API 平台账单为准。v0.4.3：仓库元数据修复 / 计费表述诚实化 / 新增隐私与数据说明 /",
-      "category": "plugin",
-      "official": false,
-      "added": "2026-09-29",
-      "lastVerified": "2026-09-29",
-      "verifiedAgainst": "0.1.7-rc.2",
-      "status": "verified",
-      "evidence": "package.json#dsh.bundle",
-      "stars": 1,
-      "starsUpdated": "2026-10-01",
-      "tags": [
-        "vision",
-        "usage"
-      ],
-      "pushedAt": "2026-09-11"
     },
     {
       "name": "dsh-plugin-chatcut",

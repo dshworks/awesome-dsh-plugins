@@ -4,7 +4,7 @@
 
 Image understanding for text-only models.
 
-562 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+561 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -31,7 +31,6 @@ Image understanding for text-only models.
 | dsh-vision-opencode | 13 | [poiuyjie/dsh-vision-opencode](https://github.com/poiuyjie/dsh-vision-opencode) | DeepSeek Harness plugin: configurable vision model with vision_read_image tool, composer-bar vision-model selector, and automatic image-to-text conversion for text-only main models. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-auxiliary-dshplugi | 12 | [dsh-plugins/dsh-auxiliary](https://github.com/dsh-plugins/dsh-auxiliary) · [npm](https://www.npmjs.com/package/@dsh-plugin/dsh-auxiliary) | DeepSeek Harness plugin that uses configured model providers for image analysis and context compaction. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-roleplay | 12 | [chinosk6/dsh-roleplay](https://github.com/chinosk6/dsh-roleplay) · [npm](https://www.npmjs.com/package/dsh-roleplay) | Role-play conversations, character-card authoring and image generation for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
-| vision-exp-tile | 12 | [Nicholas023/vision-exp-tile](https://github.com/Nicholas023/vision-exp-tile) | 为 deepseek-v4-flash-vision-exp 量身定制的大图智能识图插件：整图预检 → 本地 OCR+像素网格（文字）+ 兴趣点按比例切块（最长边 800）→ 汇总；保留全图 800x800 网格切块模式。不统计 token、不计算费用。v0.4.1：慢机测试自适应（设备档位/可配置OCR池超时/设置页跳过声明/自检入口/安装即优化）。 | 0.1.0-rc.8 (2026-08-24) |
 | clawtouch-mcp | 11 | [tinqiao-oss/clawtouch-mcp](https://github.com/tinqiao-oss/clawtouch-mcp/tree/HEAD/adapters/dsh/plugin) · [npm](https://www.npmjs.com/package/dsh-clawtouch) | Real mouse and keyboard for a DeepSeek Harness agent: describe what to click in words, a vision model finds it, a USB HID device clicks it. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-file-upload-a9030672 | 11 | [a903067276-rgb/dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) | Upload button + drag-and-drop files into DSH conversation as local paths (works with any vision plugin) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-mermaid-mrmolabs | 11 | [MrmoLabs/dsh-mermaid](https://github.com/MrmoLabs/dsh-mermaid) · [npm](https://www.npmjs.com/package/dsh-mermaid) | Render Mermaid code blocks in DeepSeek Harness with a diagram/code toggle. | 0.1.0-rc.8 (2026-08-25) |
@@ -320,7 +319,7 @@ Image understanding for text-only models.
 | prismrelay-mcp | 1 | [Arnoldkevin/prismrelay-mcp](https://github.com/Arnoldkevin/prismrelay-mcp) | Vision-first MCP for text-only Agents, using Agnes AI for image understanding with experimental generation and editing. | 0.1.0-rc.8 (2026-08-20) |
 | screenshot-review | 1 | [wenyixiaoqingnian/screenshot-review](https://github.com/wenyixiaoqingnian/screenshot-review) | 截图审阅 dsh skill: 模型自己截图、自己看图、自己改代码，迭代优化前端效果 | 0.1.1-rc.2 (2026-09-01) |
 | slcatwujian-dsh-vision-plugin | 1 | [yan5236/slcatwujian-dsh-vision-plugin](https://github.com/yan5236/slcatwujian-dsh-vision-plugin) | 让不支持图片输入的主模型通过已配置的视觉模型理解图片：自动把消息中的图片替换为带像素坐标系的文字描述，并提供 vision_ask 追问工具与设置页 | 0.1.0-rc.8 (2026-08-20) |
-| vision-exp-tile-nicholas | 1 | [Nicholaskin/vision-exp-tile](https://github.com/Nicholaskin/vision-exp-tile) | 为 deepseek-v4-flash-vision-exp 量身定制的大图智能识图插件：整图预检 → 本地 OCR+像素网格（文字）+ 兴趣点按比例切块（最长边 800）→ 汇总；保留全图 800x800 网格切块模式。不代为统计/不显示 token 与费用，实际计费以 DeepSeek 官方 API 平台账单为准。v0.4.3：仓库元数据修复 / 计费表述诚实化 / 新增隐私与数据说明 / | 0.1.7-rc.2 (2026-09-29) |
+| vision-exp-tile | 1 | [Nicholaskin/vision-exp-tile](https://github.com/Nicholaskin/vision-exp-tile) | 为 deepseek-v4-flash-vision-exp 量身定制的大图智能识图插件：整图预检 → 本地 OCR+像素网格（文字）+ 兴趣点按比例切块（最长边 800）→ 汇总；保留全图 800x800 网格切块模式。不代为统计/不显示 token 与费用，实际计费以 DeepSeek 官方 API 平台账单为准。v0.4.3：仓库元数据修复 / 计费表述诚实化 / 新增隐私与数据说明 / | 0.1.7-rc.2 (2026-09-29) |
 | vision-translation | 1 | [BingL-Li/vision-translation](https://github.com/BingL-Li/vision-translation/tree/HEAD/adapters/dsh) · [npm](https://www.npmjs.com/package/vision-translation-dsh) | Native dsh (DeepSeek Harness) Cordis plugin adapter for vision-translation: grounds images into <vision-context> via the Python CLI (PROTOCOL v1). Spawns cli.py, never re-implements core logic. | 0.1.0-rc.8 (2026-08-20) |
 | vision-use | 1 | [zzy6-a/vision-use](https://github.com/zzy6-a/vision-use) | DSH Computer Use (vision + desktop control, auto-detects Windows native or WSL): see the Windows screen through the agent vision channel, drive mouse/keyboard with a Codex-style blue overlay (Esc to | 0.1.7-rc.2 (2026-09-29) |
 | c-vision | 0 | [cczzyy-cn/c-vision](https://github.com/cczzyy-cn/c-vision) | Vision DSH bundle: give the agent screen/window vision — see tool captures via the bundled Python cvision and returns the image natively | 0.1.0-rc.8 (2026-08-25) |
