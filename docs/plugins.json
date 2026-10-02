@@ -327261,6 +327261,23 @@
         "knowledge"
       ],
       "pushedAt": "2026-09-30"
+    },
+    {
+      "name": "dsh-rub-cost",
+      "repo": "Stmol/dsh-rub-cost",
+      "description": "Shows estimated current-session cost in Russian rubles beside the token counters in the DeepSeek Harness conversation dock.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-02",
+      "lastVerified": "2026-10-02",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "npm": "@stmol/dsh-rub-cost",
+      "tags": [
+        "usage",
+        "ui"
+      ],
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
