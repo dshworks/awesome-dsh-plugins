@@ -327259,6 +327259,54 @@
         "knowledge"
       ],
       "pushedAt": "2026-09-30"
+    },
+    {
+      "name": "dsh-wsl-native",
+      "repo": "Han-1413141/dsh-wsl-native",
+      "description": "Use Windows and native Linux DSH sessions in one Windows window, with WSL environment switching and bidirectional system tools.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-02",
+      "lastVerified": "2026-10-02",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "interop",
+        "terminal"
+      ]
+    },
+    {
+      "name": "dsh-pnpm-build-control",
+      "repo": "Han-1413141/dsh-pnpm-build-control",
+      "description": "Control pnpm build-script approval across DSH profiles from Add Plugin, and repair same-Git-URL updates on DSH 0.2.0-rc.2.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-02",
+      "lastVerified": "2026-10-02",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "devtools",
+        "safety"
+      ]
+    },
+    {
+      "name": "dsh-codex-computer-use",
+      "repo": "Han-1413141/dsh-codex-computer-use",
+      "description": "Let a DSH model inspect and operate Windows applications through an installed Codex Computer Use runtime, with per-session app approval.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-02",
+      "lastVerified": "2026-10-02",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "capabilities",
+        "interop"
+      ]
     }
   ]
 }

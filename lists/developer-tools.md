@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-233 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+234 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -194,6 +194,7 @@ Building, testing, and publishing plugins.
 | dsh-plugin-template-zhijiang | 0 | [ZhijiangTang/dsh-plugin-template](https://github.com/ZhijiangTang/dsh-plugin-template) | DSH bundle-plugin template: scaffold a new tool plugin (the template itself is not published). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-upgrade-015 | 0 | [PerryLink/dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) · [npm](https://www.npmjs.com/package/dsh-plugin-upgrade-015) | Plugin-author upgrade skill for DeepSeek Harness: the merged version-locked 0.1.3-alpha.1 -> 0.1.5-rc.1 corridor card plus a zero-dependency seam scanner over one 20-seam catalog — leg A (V3 session | 0.1.7-rc.2 (2026-09-29) |
 | dsh-pluginHive | 0 | [seanchen88/dsh-pluginHive](https://github.com/seanchen88/dsh-pluginHive/tree/HEAD/packages/example-panel) | Template panel proving the plugin-kit skeleton: a Settings section with no host Remote. Copy this directory to start a new panel. | 0.1.7-rc.2 (2026-09-29) |
+| dsh-pnpm-build-control | - | [Han-1413141/dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) | Control pnpm build-script approval across DSH profiles from Add Plugin, and repair same-Git-URL updates on DSH 0.2.0-rc.2. | unverified |
 | dsh-policy-test | 0 | [MkaliezZ/dsh-policy-test](https://github.com/MkaliezZ/dsh-policy-test) · [npm](https://www.npmjs.com/package/@mkaliezz/dsh-policy-test) | Deterministic regression tests for DSH policy decisions, evaluated without invoking the protected tool body. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-preset-scaffold | 0 | [duyanta123/dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) · [npm](https://www.npmjs.com/package/dsh-preset-scaffold) | DSH (DeepSeek Harness) scaffold plugin & preset: strict 5-phase init runbook, engineering standards, and six runnable starter templates (node-ts / react-vite / python / go / spring-boot / monorepo). | 0.1.7-rc.2 (2026-09-29) |
 | dsh-product | 0 | [winyh/dsh-product](https://github.com/winyh/dsh-product) | DeepSeek Harness tools for product strategy, POC, MVP, beta, PMF, release readiness and growth handoff. | 0.1.0-rc.8 (2026-08-20) |
