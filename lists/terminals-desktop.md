@@ -8,12 +8,12 @@ TUIs, desktop shells, headless runners.
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
-| deepseek-harness-desktop | 29747 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-desktop-anywhere | 29747 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop/tree/HEAD/dsh-plugin-desktop) | DSH Desktop product workspace | 0.1.0-rc.8 (2026-08-25) |
-| dsh-desktop | 11392 | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | A cross-platform desktop shell for DeepSeek Harness. | 0.1.1-rc.2 (2026-09-04) |
-| deepseek-harness-desktop-hairyf | 2924 | [dsh-tauri/deepseek-harness-desktop](https://github.com/dsh-tauri/deepseek-harness-desktop) | Desktop application for DeepSeek Harness (dsh) — one-click local install and launch, no Node.js setup required. | 0.1.7-rc.2 (2026-09-29) |
-| dscode | 1011 | [qiz029/dscode](https://github.com/qiz029/dscode) | Reproducible macOS coding harness: DSH-Code TUI, Chrome MCP, native computer use, skills and compaction | 0.1.7-rc.2 (2026-09-29) |
-| jingyun-dsh | 805 | [jingyunstudio/jingyun-dsh](https://github.com/jingyunstudio/jingyun-dsh) | 基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端 | 0.1.1-rc.2 (2026-09-01) |
+| deepseek-harness-desktop | 29750 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-desktop-anywhere | 29750 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop/tree/HEAD/dsh-plugin-desktop) | DSH Desktop product workspace | 0.1.0-rc.8 (2026-08-25) |
+| dsh-desktop | 11400 | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | A cross-platform desktop shell for DeepSeek Harness. | 0.1.1-rc.2 (2026-09-04) |
+| deepseek-harness-desktop-hairyf | 2932 | [dsh-tauri/deepseek-harness-desktop](https://github.com/dsh-tauri/deepseek-harness-desktop) | Desktop application for DeepSeek Harness (dsh) — one-click local install and launch, no Node.js setup required. | 0.1.7-rc.2 (2026-09-29) |
+| dscode | 1013 | [qiz029/dscode](https://github.com/qiz029/dscode) | Reproducible macOS coding harness: DSH-Code TUI, Chrome MCP, native computer use, skills and compaction | 0.1.7-rc.2 (2026-09-29) |
+| jingyun-dsh | 810 | [jingyunstudio/jingyun-dsh](https://github.com/jingyunstudio/jingyun-dsh) | 基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端 | 0.1.1-rc.2 (2026-09-01) |
 | deepseek-harness-desktop-ningbain | 761 | [ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop/tree/HEAD/apps/dsh-desktop) | Lossless desktop shell for DeepSeek Harness and the complete dsh-web-ui plugin collection | unverified |
 | dshcode | 713 | [whitelonng/dshcode](https://github.com/whitelonng/dshcode) | Community desktop companion for DeepSeek Harness — one-click Electron app for macOS and Windows | 0.1.1-rc.2 (2026-09-04) |
 | deepseek-harness-studio-fufankej | 665 | [fufankeji/deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio) | DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。 | 0.1.0-rc.8 (2026-08-20) |
@@ -21,7 +21,7 @@ TUIs, desktop shells, headless runners.
 | deepseek-harness-desktop-chokwinl | 286 | [chokwinlee/deepseek-harness-desktop](https://github.com/chokwinlee/deepseek-harness-desktop) | Compact unofficial desktop host for DeepSeek Harness, powered by Tauri on macOS | 0.1.1-rc.2 (2026-09-04) |
 | dsh-tianshu-tui | 285 | [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) · [npm](https://www.npmjs.com/package/@huiliyi37/dsh-tianshu-tui) | Terminal UI for dsh shipped as an installable profile bundle | 0.1.0-rc.8 (2026-08-20) |
 | pilot-harness | 282 | [op7418/pilot-harness](https://github.com/op7418/pilot-harness) | Pilot Harness — a CodePilot-inspired desktop client and plugin suite for DeepSeek Harness on macOS, Windows, and Linux. | 0.1.0-rc.8 (2026-08-20) |
-| dsh-workbuddy-connect | 257 | [corrinehu/dsh-workbuddy-connect](https://github.com/corrinehu/dsh-workbuddy-connect) · [npm](https://www.npmjs.com/package/dsh-workbuddy-connect) | 将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness — bring WorkBuddy desktop app models into DeepSeek Harness with zero configuration. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-workbuddy-connect | 258 | [corrinehu/dsh-workbuddy-connect](https://github.com/corrinehu/dsh-workbuddy-connect) · [npm](https://www.npmjs.com/package/dsh-workbuddy-connect) | 将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness — bring WorkBuddy desktop app models into DeepSeek Harness with zero configuration. | 0.1.0-rc.8 (2026-08-20) |
 | seektty | 197 | [Hilbert-beinghappy/seektty](https://github.com/Hilbert-beinghappy/seektty) · [npm](https://www.npmjs.com/package/seektty) | SeekTTY, a pluggable DeepSeek-colored terminal surface for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | Tydora | 195 | [zuorn/Tydora](https://github.com/zuorn/Tydora) | Let Your Ideas Flow — Tydora is a modern desktop Markdown editor combining WYSIWYG editing, bidirectional links, mind maps, and an infinite canvas — empowering deep thinking and effortless expression. | 0.1.0-rc.8 (2026-08-20) |
 | Deepseek-Harness-Desktop-chisaalt | 172 | [ChisaAlter/Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) | Electron desktop shell for DeepSeek Harness Web UI | 0.1.7-rc.2 (2026-09-29) |
