@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-91 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+92 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -98,4 +98,5 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-completion-guard | 0 | [GreenLv/dsh-completion-guard](https://github.com/GreenLv/dsh-completion-guard) · [npm](https://www.npmjs.com/package/dsh-completion-guard) | Helps DSH agents remember your requirements during long tasks and, after a session resumes, checks the key conditions and saved results again so partial work is not reported as complete. | 0.1.1-rc.2 (2026-08-29) |
 | dsh-feishu-beacon | 0 | [jiangdunchun/dsh-feishu-beacon](https://github.com/jiangdunchun/dsh-feishu-beacon) · [npm](https://www.npmjs.com/package/dsh-feishu-beacon) | DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook | 0.1.7-rc.2 (2026-09-29) |
 | dsh-prompt-profiles | 0 | [knopki/dsh-prompt-profiles](https://github.com/knopki/dsh-prompt-profiles) · [npm](https://www.npmjs.com/package/@knopki/dsh-prompt-profiles) | DSH bundle adding a per-session prompt-profile axis: named system-prompt sections grouped into profiles with per-section order and scope, sealed into the session prompt. | 0.1.7-rc.2 (2026-09-29) |
+| dsh-rub-cost | - | [Stmol/dsh-rub-cost](https://github.com/Stmol/dsh-rub-cost) · [npm](https://www.npmjs.com/package/@stmol/dsh-rub-cost) | Shows estimated current-session cost in Russian rubles beside the token counters in the DeepSeek Harness conversation dock. | 0.2.0-rc.2 (2026-10-02) |
 | dsh-token-meter-panel | 0 | [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) · [npm](https://www.npmjs.com/package/dsh-token-meter-panel) | DSH Token 用量面板（社区插件，非官方）：今日/近期 token 消耗与花费、成本构成、按会话明细、预算告警。Token usage & cost panel for DeepSeek Harness (community plugin, unofficial). | 0.1.7-rc.2 (2026-09-29) |
