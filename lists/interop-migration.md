@@ -4,7 +4,7 @@
 
 Bridges to and from Claude Code, Codex, and other harnesses.
 
-524 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+525 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -510,6 +510,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-web-advanced-settings | 0 | [jcjyids/dsh-web-advanced-settings](https://github.com/jcjyids/dsh-web-advanced-settings) · [npm](https://www.npmjs.com/package/dsh-advanced-listening-settings) | DSH 高级监听设置（profile: web）：全局/指定 IP 监听、设置端口、取消鉴权、远程访问兼容（宿主面判定 + 入口头规范化）、宿主重启，以及卸载前的一键完全清理。基于 dsh 0.1.5-rc.3，由 DSv4.1flash 构建。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-web-manager | 0 | [FYHC1/dsh-web-manager](https://github.com/FYHC1/dsh-web-manager) | dsh web manager — Windows tray manager, WSL companion scripts, and the in-dsh runtime bridge, installable as a dsh profile plugin bundle. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-word-docs | 0 | [Ei-Ayw/dsh-word-docs](https://github.com/Ei-Ayw/dsh-word-docs) | Office Word documents for DeepSeek Harness: generate / edit / extract / convert .docx with a pure-stdlib toolkit | 0.1.1-rc.2 (2026-09-01) |
+| dsh-wsl-native | - | [Han-1413141/dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) | Use Windows and native Linux DSH sessions in one Windows window, with WSL environment switching and bidirectional system tools. | unverified |
 | dsh-wsl-wode2550 | 0 | [WODE25500/dsh-wsl](https://github.com/WODE25500/dsh-wsl) | WSL (Windows Subsystem for Linux) bridge for DeepSeek Harness: run Linux commands, manage distros, and move files between Windows and WSL through native dsh tools. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-xiuxian-world | 0 | [CHristianREEVEE/dsh-xiuxian-world](https://github.com/CHristianREEVEE/dsh-xiuxian-world) | 云仙大世界 — a living xiuxian (cultivation) world for DeepSeek Harness agents: enter, explore, cultivate, and export a self-contained HTML replay of your journey. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-yzlin499-easy-plugins | 0 | [yzlin499/dsh-yzlin499-easy-plugins](https://github.com/yzlin499/dsh-yzlin499-easy-plugins/tree/HEAD/dsh-mcp-compat) | DSH plugin: auto-load MCP servers from standard agent configs (.mcp.json / opencode.json / .cursor/mcp.json / .codex/config.toml) of every workspace and the user home, mounting each as a | 0.1.0-rc.8 (2026-08-20) |

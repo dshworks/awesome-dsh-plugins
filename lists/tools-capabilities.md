@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-4617 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+4618 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -2445,6 +2445,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-codeact-tools | 0 | [lyuwen/dsh-codeact-tools](https://github.com/lyuwen/dsh-codeact-tools) | Self-contained minimal AI coding tool set for DeepSeek Harness: execute_bash + finish beside the shipped str_replace_editor, plus the vendored persistent-shell core. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-codegraph-hrhgit | 0 | [hrhgit/dsh-codegraph](https://github.com/hrhgit/dsh-codegraph) · [npm](https://www.npmjs.com/package/@ruihuahe/dsh-codegraph) | Question-driven code architecture scenes for DeepSeek Harness | 0.1.1-rc.2 (2026-09-01) |
 | dsh-codetime | 0 | [codetime-dev/dsh-codetime](https://github.com/codetime-dev/dsh-codetime) · [npm](https://www.npmjs.com/package/dsh-codetime) | CodeTime backend for the DeepSeek Harness session-telemetry seam: reports session/turn/tool/file activity to codetime.dev via /v3/agent/ingest | 0.1.1-rc.2 (2026-09-04) |
+| dsh-codex-computer-use | - | [Han-1413141/dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) | Let a DSH model inspect and operate Windows applications through an installed Codex Computer Use runtime, with per-session app approval. | unverified |
 | dsh-coffee-ratio | 0 | [uckkk/dsh-coffee-ratio](https://github.com/uckkk/dsh-coffee-ratio) | coffeeratio：咖啡粉水比：按参数精确计算，返回详细结果（经验参考）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-coffee-temp | 0 | [uckkk/dsh-coffee-temp](https://github.com/uckkk/dsh-coffee-temp) | coffeetemp：咖啡水温：按参数精确计算，返回详细结果（经验参考）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cold-drink | 0 | [uckkk/dsh-cold-drink](https://github.com/uckkk/dsh-cold-drink) | colddrink：冰饮制作：按参数返回饮品制作方案。 | 0.1.0-rc.8 (2026-08-21) |
