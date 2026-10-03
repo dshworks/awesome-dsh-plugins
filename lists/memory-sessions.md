@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-2167 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+2168 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1908,6 +1908,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-session-search-chipphil | 0 | [CHIP-PHILO-GH/dsh-session-search](https://github.com/CHIP-PHILO-GH/dsh-session-search) | DeepSeek Harness 侧边栏会话搜索增强：搜索范围由用户自己定——时间范围（全部 / 最近 N 天）与内容来源（我说的话 / DSH 的回复 / 项目名）都在搜索结果上方可改，选择存进官方设置文档、重启后仍然有效；命中片段显示两行。Customize the sidebar session search scope: time range and content sources | 0.1.7-rc.2 (2026-09-29) |
 | dsh-session-search-goodandr | 0 | [GooDAnDReaDY/dsh-session-search](https://github.com/GooDAnDReaDY/dsh-session-search) · [npm](https://www.npmjs.com/package/@goodandready/dsh-session-search) | DeepSeek Harness agent tool (session_search) for full-text search across historical sessions backed by core SQLite FTS5 engine without memory overhead. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-session-search-ivaneari | 0 | [ivanearisty/dsh-session-search](https://github.com/ivanearisty/dsh-session-search) | Full-text search across every DeepSeek Harness conversation — MiniSearch index on the host, Option+K palette in the browser, jump straight to the matching message. | 0.1.7-rc.2 (2026-09-29) |
+| dsh-session-shift | - | [easerlee/dsh-session-shift](https://github.com/easerlee/dsh-session-shift) · [npm](https://www.npmjs.com/package/dsh-session-shift) | 上下文压力到阈值、或本会话被压缩次数到上限时，自动把工作交接给一个新会话：交接包从会话机械提取（改动过的文件 / 用过的工具 / 最近几轮消息 / 停在哪儿），不过模型，落盘 .dsh/handoff/ 可审阅；旧会话只改名不归档。 | 0.2.0-rc.2 (2026-10-04) |
 | dsh-session-sight | 0 | [Yidien/dsh-session-sight](https://github.com/Yidien/dsh-session-sight) · [npm](https://www.npmjs.com/package/dsh-session-sight) | DeepSeek Harness 会话「看清再动手」外挂：归档/彻底删除（走系统回收站）+ 会话内容只读预览（Markdown），零依赖、不 patch 官方。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-session-slm-router | 0 | [NinjaSln-labs/dsh-session-slm-router](https://github.com/NinjaSln-labs/dsh-session-slm-router) | Shadow-mode SLM router for DeepSeek Harness: per-turn weak/strong prediction via vertical-small-model CLI, writes ~/.dsh/slm-shadow/session-slm-shadow.jsonl; does NOT change the active model (S1 | 0.1.1-rc.2 (2026-09-04) |
 | dsh-session-snapshot | 0 | [po-et/dsh-session-snapshot](https://github.com/po-et/dsh-session-snapshot) | DeepSeek Harness plugin that keeps rolling, integrity-verified backups of each session at turn boundaries, so any corruption costs at most the in-flight turn; one-command restore, even when dsh won't | 0.1.7-rc.2 (2026-09-29) |

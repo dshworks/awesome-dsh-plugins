@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -327267,6 +327267,23 @@
         "knowledge"
       ],
       "pushedAt": "2026-09-30"
+    },
+    {
+      "name": "dsh-session-shift",
+      "repo": "easerlee/dsh-session-shift",
+      "npm": "dsh-session-shift",
+      "description": "上下文压力到阈值、或本会话被压缩次数到上限时，自动把工作交接给一个新会话：交接包从会话机械提取（改动过的文件 / 用过的工具 / 最近几轮消息 / 停在哪儿），不过模型，落盘 .dsh/handoff/ 可审阅；旧会话只改名不归档。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-04",
+      "lastVerified": "2026-10-04",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "memory"
+      ],
+      "pushedAt": "2026-10-04"
     }
   ]
 }
