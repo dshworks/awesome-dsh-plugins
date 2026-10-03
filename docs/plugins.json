@@ -142558,6 +142558,21 @@
       "pushedAt": "2026-08-15"
     },
     {
+      "name": "dsh-project-guard",
+      "repo": "Inceptzws/dsh-project-guard",
+      "description": "DeepSeek Harness 权限守卫：工作区内的修改完全不干预，只对超出工作区的提权逐条判定——读取与网络放行、系统改动与项目外写入确认（附后果分析）、会毁机器或断会话的动作直接拒绝。",
+      "category": "bundle",
+      "tags": [
+        "safety"
+      ],
+      "official": false,
+      "added": "2026-10-03",
+      "lastVerified": "2026-10-03",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
+    },
+    {
       "name": "dsh-project-j4agent",
       "repo": "esonx/dsh-project-j4agent",
       "description": "Jira-like Agent-native Project Management for DSH",
