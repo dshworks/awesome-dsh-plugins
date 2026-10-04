@@ -1,7 +1,27 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "plugins": [
+    {
+      "name": "AI-Suplex 7-7-7",
+      "repo": "kmagwenzi/dsh-ai-suplex",
+      "description": "Runs a file-first execution loop over a local markdown vault: context brief, tasklists, artifact capture, session close, lesson extraction, and memory promotion behind an approval gate.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-04",
+      "lastVerified": "2026-10-04",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-ai-suplex",
+      "stars": 0,
+      "starsUpdated": "2026-10-04",
+      "tags": [
+        "agents",
+        "memory"
+      ],
+      "pushedAt": "2026-10-04"
+    },
     {
       "name": "429-throttle-mcp",
       "repo": "iqingyoung/429-throttle-mcp",
