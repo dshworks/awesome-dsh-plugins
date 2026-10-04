@@ -6,7 +6,7 @@
   ],
   "checked": "2026-10-04",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 764,
+  "count": 765,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -469,6 +469,13 @@
       "npm": "@huanlin/dsh-plugin-device-info",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Porphyrioon/ironlaw",
+      "path": "packages/adapter-dsh",
+      "npm": "@ironlaw/adapter-dsh",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-04"
     },
     {
       "repo": "DamonBao/dsh-codex-suite",
