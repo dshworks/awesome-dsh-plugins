@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-09-30",
-  "count": 316,
-  "ownerChanged": 84,
+  "detected": "2026-10-05",
+  "count": 344,
+  "ownerChanged": 91,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -1950,6 +1950,202 @@
       "ownerChanged": false,
       "name": "dsh-session-delete-coency",
       "on": "2026-09-30"
+    },
+    {
+      "from": "Missher12/deepseek-harness-desktop",
+      "to": "Missher12/Missher-Archive-DSH-Desktop",
+      "ownerChanged": false,
+      "name": "deepseek-harness-desktop-missher1",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "cherrchen/deepseek-harness-electron",
+      "to": "cherrchen/rivetdeck",
+      "ownerChanged": false,
+      "name": "deepseek-harness-electron",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "KLRSL/dsh-biomemory",
+      "to": "KLRSL/dsh-memory-layer",
+      "ownerChanged": false,
+      "name": "dsh-biomemory",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "DSH-EAC/DSH-Desktop-EAC",
+      "to": "DSH-EAC/EAC-Desktop",
+      "ownerChanged": false,
+      "name": "DSH-Desktop-EAC",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "TommyFang2077/dsh-easy-desktop",
+      "to": "TommyFang2077/pi-workbench",
+      "ownerChanged": false,
+      "name": "dsh-easy-desktop",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "ddtcorex/dsh-maestro-supervisor",
+      "to": "ddtcorex/dsh-maestro-core",
+      "ownerChanged": false,
+      "name": "dsh-maestro-supervisor",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "Missher12/dsh-missher-evolution",
+      "to": "Missher12/Missher-DSH-Evolution",
+      "ownerChanged": false,
+      "name": "dsh-missher-evolution",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "Missher12/dsh-missher-memory",
+      "to": "Missher12/Missher-DSH-Memory",
+      "ownerChanged": false,
+      "name": "dsh-missher-memory",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "Missher12/dsh-project-ops",
+      "to": "Missher12/Missher-DSH-Project-Ops",
+      "ownerChanged": false,
+      "name": "dsh-project-ops",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "PolinniZhong/dsh-skill-trace",
+      "to": "PolinniZhong/dsh-skill-intelligence",
+      "ownerChanged": false,
+      "name": "dsh-skill-trace",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "Yan-Zero/dsh-std",
+      "to": "T-Auto/dsh-std",
+      "ownerChanged": true,
+      "name": "dsh-std",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "jaywedgeworth22/BotFleet",
+      "to": "Simple-With-Us/BotFleet",
+      "ownerChanged": true,
+      "name": "BotFleet",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "ChisaAlter/Deepseek-Harness-Desktop",
+      "to": "ChisaAlter/WhaleIsle",
+      "ownerChanged": false,
+      "name": "Deepseek-Harness-Desktop-chisaalt",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "H1Kariiiiiii/dsh-desktop-launcher2",
+      "to": "H1Kariiiiiii/dsh-icon-console",
+      "ownerChanged": false,
+      "name": "dsh-desktop-launcher2",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "zouyuxuan122/dsh-our-free-model",
+      "to": "Ebony-Vinyl/dsh-our-free-model",
+      "ownerChanged": true,
+      "name": "dsh-our-free-model",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "vitas/dsh-web-search-openrouter",
+      "to": "vitas/dsh-web-search-gateway",
+      "ownerChanged": false,
+      "name": "dsh-web-search-openrouter",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "ao882866-ux/dsh-session-archive",
+      "to": "ao882866-ux/dsh-archive-trash",
+      "ownerChanged": false,
+      "name": "dsh-session-archive-ao882866",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "pioneer666-user/dsh-archify-manage",
+      "to": "pioneer666-user/specdev-workbench",
+      "ownerChanged": false,
+      "name": "dsh-archify-manage",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "Fwkkk666/dsh-time-stop-theme",
+      "to": "Fwkkk666/dsh-za-warudo",
+      "ownerChanged": false,
+      "name": "dsh-time-stop-theme",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "Grant-Felix/dev-rules",
+      "to": "Grant-Felix/dsh-ian-rules",
+      "ownerChanged": false,
+      "name": "dev-rules",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "jevgpt/dsh-plugin-locale-tr",
+      "to": "kaanyavuzer/dsh-plugin-locale-tr",
+      "ownerChanged": true,
+      "name": "dsh-plugin-locale-tr",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "loonylabs-dev/dsh-cache-guard",
+      "to": "loonylabs/dsh-cache-guard",
+      "ownerChanged": true,
+      "name": "dsh-cache-guard",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "maryasov/dsh-plugins-mp",
+      "to": "maryasov/dsh-plugins-hub",
+      "ownerChanged": false,
+      "name": "dsh-plugins-mp",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "YUsaltyfish/dsh-fish-sound-notify",
+      "to": "YUsaltyfish/dsh-notification-sound",
+      "ownerChanged": false,
+      "name": "dsh-fish-sound-notify",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "Ruler4396/dsh-shredder",
+      "to": "LEEKINBUN-dsh-tools/dsh-shredder",
+      "ownerChanged": true,
+      "name": "dsh-shredder",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "shell-error/deepseek-harness-remote-access",
+      "to": "safety10086/deepseek-harness-remote-access-shell-error-old",
+      "ownerChanged": true,
+      "name": "deepseek-harness-remote-access",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "jryang1997/dsh-composer-dictation",
+      "to": "jryang1997/dsh-hold-to-dictate",
+      "ownerChanged": false,
+      "name": "dsh-composer-dictation",
+      "on": "2026-10-05"
+    },
+    {
+      "from": "haotian-lu-prog/dsh-dev-backup",
+      "to": "haotian-lu-prog/dsh-cold-backup",
+      "ownerChanged": false,
+      "name": "dsh-dev-backup",
+      "on": "2026-10-05"
     }
   ],
   "collisions": {
@@ -2029,6 +2225,111 @@
         "repo": "ToLiveAndLove/dsh-tool-adb",
         "row": "dsh-tool-adb",
         "on": "2026-09-30"
+      },
+      {
+        "repo": "cherrchen/rivetdeck",
+        "row": "deepseek-harness-electron",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "ChisaAlter/WhaleIsle",
+        "row": "Deepseek-Harness-Desktop-chisaalt",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "ddtcorex/dsh-maestro-core",
+        "row": "dsh-maestro-supervisor",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "DSH-EAC/EAC-Desktop",
+        "row": "DSH-Desktop-EAC",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "Ebony-Vinyl/dsh-our-free-model",
+        "row": "dsh-our-free-model",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "H1Kariiiiiii/dsh-icon-console",
+        "row": "dsh-desktop-launcher2",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "jryang1997/dsh-hold-to-dictate",
+        "row": "dsh-composer-dictation",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "kaanyavuzer/dsh-plugin-locale-tr",
+        "row": "dsh-plugin-locale-tr",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "KLRSL/dsh-memory-layer",
+        "row": "dsh-biomemory",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "loonylabs/dsh-cache-guard",
+        "row": "dsh-cache-guard",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "maryasov/dsh-plugins-hub",
+        "row": "dsh-plugins-mp",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "Missher12/Missher-DSH-Evolution",
+        "row": "dsh-missher-evolution",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "Missher12/Missher-DSH-Memory",
+        "row": "dsh-missher-memory",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "Missher12/Missher-DSH-Project-Ops",
+        "row": "dsh-project-ops",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "pioneer666-user/specdev-workbench",
+        "row": "dsh-archify-manage",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "PolinniZhong/dsh-skill-intelligence",
+        "row": "dsh-skill-trace",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "Simple-With-Us/BotFleet",
+        "row": "BotFleet",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "T-Auto/dsh-std",
+        "row": "dsh-std",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "TommyFang2077/pi-workbench",
+        "row": "dsh-easy-desktop",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "vitas/dsh-web-search-gateway",
+        "row": "dsh-web-search-openrouter",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "YUsaltyfish/dsh-notification-sound",
+        "row": "dsh-fish-sound-notify",
+        "on": "2026-10-05"
       }
     ]
   },
@@ -2043,8 +2344,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 241,
-    "rowsRemoved": 242,
+    "groupsMerged": 243,
+    "rowsRemoved": 244,
     "leftForTriage": [],
     "merges": [
       {
@@ -4596,6 +4897,28 @@
         ],
         "evidence": "package.json#dsh.bundle",
         "on": "2026-09-30"
+      },
+      {
+        "repo": "Nicholaskin/vision-exp-tile",
+        "path": null,
+        "renamedFrom": "Nicholas023/vision-exp-tile",
+        "kept": "vision-exp-tile",
+        "dropped": [
+          "vision-exp-tile-nicholas"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-10-05"
+      },
+      {
+        "repo": "Grant-Felix/dsh-ian-rules",
+        "path": null,
+        "renamedFrom": "Grant-Felix/dsh-agent-rules",
+        "kept": "dev-rules",
+        "dropped": [
+          "dsh-agent-rules"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-10-05"
       }
     ]
   },
