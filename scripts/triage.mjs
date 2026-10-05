@@ -255,6 +255,51 @@ async function gh(path) {
 // root manifest is the strongest claim a repo can make about itself; a
 // stylesheet full of `--dsw-*` overrides is the weakest thing still real.
 const SKIP_PATH = /(^|\/)(node_modules|dist|build|out|vendor|\.git|coverage|fixtures?|examples?|tests?|__tests__)\//;
+// dsh's own patch layers, read off the dsh-v0.2.0-rc.2 tree (test fixtures
+// left out; SKIP_PATH drops those already). `vendoredFrom` taught the
+// package.json lane that a copy of dsh's file is dsh's proof, not the
+// copier's. The deep lanes never learned it: a fork of dsh carries
+// `packages/bundle/base/cordis.patch.yml`, the patch lane took the first patch
+// in the tree, and the fork was listed as a plugin of dsh. Measured 2026-10-05:
+// 83 listed rows had a receipt like that, 76 at the tree root and 7 under a
+// subdirectory (`harness/`, `kernel/deepseek-harness/`, `overlay/`). Where one
+// of these sits in a tree, the prefix it sits under is a copy of dsh, and
+// nothing in that copy's top-level directories proves anything about this
+// repo. `python/sdk-runtime/package.json` is the one that showed it: dsh's own
+// Python SDK depends on `@deepseek-ai/dsh-acp`, so 70 forks re-proved on it
+// once the patch was out of the way.
+const DSH_TOP_DIRS = [".agents", ".claude", ".github", "apps", "benchmarks", "docs", "native",
+  "packages", "patches", "python", "scripts", "snapshots", "vendor", "website"];
+const DSH_FIRST_PARTY_PATCHES = [
+  "apps/cli/src/sdk-source.cordis.patch.yml",
+  "packages/bundle/acp-app/cordis.patch.yml",
+  "packages/bundle/base/cordis.patch.yml",
+  "packages/bundle/headless/cordis.patch.yml",
+  "packages/bundle/sdk-app/cordis.patch.yml",
+  "packages/bundle/sdk-minimal/cordis.patch.yml",
+  "packages/bundle/web-app/cordis.patch.yml",
+  "packages/bundle/web-app/presets/cordis.patch.yml",
+  "packages/experimental/agent-team-profile/cordis.patch.yml",
+  "packages/experimental/auto-review/cordis.patch.yml",
+  "packages/experimental/inspector/cordis.patch.yml",
+  "packages/experimental/schedule-bundle/cordis.patch.yml",
+  "packages/experimental/voice-input-bundle/cordis.patch.yml",
+  "packages/subagent/subagent-claude-code/cordis.patch.yml",
+  "packages/subagent/subagent-codex/cordis.patch.yml",
+];
+
+const firstPartyPatch = (p) => DSH_FIRST_PARTY_PATCHES.find((f) => p === f || p.endsWith(`/${f}`));
+
+// The prefixes under which a tree carries a copy of dsh, and the first file
+// that gave each away.
+function vendoredDshRoots(paths) {
+  const roots = new Map();
+  for (const p of paths) {
+    const fp = firstPartyPatch(p);
+    if (fp && !roots.has(p.slice(0, p.length - fp.length))) roots.set(p.slice(0, p.length - fp.length), p);
+  }
+  return roots;
+}
 // An override is a declaration (`--dsw-x:` in a sheet, `"--dsw-x":` in a
 // style object). A mention is `var(--dsw-x)`, which every app that embeds the
 // dsh web UI writes -- desktop shells, launchers, a mobile client, the themes
@@ -538,10 +583,13 @@ async function proveDeep(repo) {
   // back — so both are reported, and nothing is deleted here.
   if (tree?.__missing) return { proof: null, facts: { tree: "gone" } };
   if (!tree || !Array.isArray(tree.tree)) return { proof: null, facts: { tree: "unreadable" } };
-  const paths = tree.tree
+  const blobs = tree.tree
     .filter((n) => n.type === "blob")
     .map((n) => n.path)
     .filter((p) => !SKIP_PATH.test(p));
+  const roots = vendoredDshRoots(blobs);
+  const vendored = roots.size ? [...roots.values()][0] : undefined;
+  const paths = blobs.filter((p) => ![...roots.keys()].some((r) => DSH_TOP_DIRS.some((d) => p.startsWith(`${r}${d}/`))));
 
   const nestedPkgs = paths.filter((p) => p.endsWith("package.json") && p !== "package.json").slice(0, 20);
   let weakNested = null;
@@ -615,10 +663,20 @@ async function proveDeep(repo) {
     }
   }
 
+  // Depending on dsh is what a distribution's own packaging does, so in a
+  // tree that carries dsh it proves nothing.
+  if (vendored) return { proof: null, facts: { tree: paths.length, vendored } };
   return weakNested ?? { proof: null, facts: { tree: paths.length } };
 }
 
 const NO_PATH = "no dsh install path at any depth: no dsh manifest, no @deepseek-ai dependency, no top-level .md carrying skill frontmatter";
+
+// A distribution of dsh is not a plugin of dsh, but whether one belongs here
+// is the same maintainer's call as an application built on it.
+const distribution = (repo, facts, vendored) => ({
+  repo, verdict: "review", facts,
+  reason: `a distribution of dsh: the tree carries dsh's own ${vendored}, and nothing outside that copy declares a dsh manifest, a skill, or a patch`,
+});
 
 async function triage(repo, { deep = true } = {}) {
   const root = await proveRoot(repo);
@@ -631,6 +689,7 @@ async function triage(repo, { deep = true } = {}) {
     }
     // Whether an application built on dsh belongs in a registry of things dsh
     // loads is a maintainer's call, not a regex's, so it waits for one.
+    if (deepRead.facts.vendored) return distribution(repo, root.facts, deepRead.facts.vendored);
     if (root.proof.app) {
       return {
         repo, verdict: "review", facts: root.facts,
@@ -651,6 +710,9 @@ async function triage(repo, { deep = true } = {}) {
     if (deepRead.facts.tree === "unreadable") {
       return { repo, verdict: "reject", reason: "repo tree unreadable at triage time", recheck: true, facts: root.facts };
     }
+    // A distribution of dsh is not a plugin of dsh, but whether one belongs
+    // here is the same maintainer's call as an application built on it.
+    if (deepRead.facts.vendored) return distribution(repo, root.facts, deepRead.facts.vendored);
     root.facts.tree = deepRead.facts.tree;
   }
 
@@ -849,8 +911,17 @@ if (PROVE) {
       if (skill && SKILL_FRONTMATTER.test(skill)) {
         return { entry: p, verdict: "accept", evidence: `${p.path}/SKILL.md#frontmatter`, why: "SKILL.md" };
       }
+      // The patch lane writes a `path` too, and this branch never re-read a
+      // patch, so every nested patch receipt fell to the root-only triage
+      // below and came back unproven.
+      const ev = p.evidence ?? "";
+      if (/cordis\.patch\.ya?ml$/i.test(ev) && dirname(ev) === p.path && !firstPartyPatch(ev) && await raw(p.repo, ev)) {
+        return { entry: p, verdict: "accept", evidence: ev, why: "cordis patch layer" };
+      }
     }
-    const t = await triage(p.repo, { deep: !p.path });
+    // A receipt that is dsh's own patch file needs the whole tree read again:
+    // the repo may ship something of its own outside the copy, or nothing.
+    const t = await triage(p.repo, { deep: !p.path || !!firstPartyPatch(p.evidence ?? "") });
     return { entry: p, ...t };
   }, "prove");
 
@@ -897,6 +968,11 @@ if (PROVE) {
       continue;
     }
     if (r.verdict === "accept") {
+      // The old `path` pointed into a copy of dsh; the new proof names its own.
+      if (firstPartyPatch(p.evidence ?? "")) {
+        if (r.path) p.path = r.path;
+        else delete p.path;
+      }
       p.evidence = r.evidence;
       p.status = "verified";
       // The file still proves an install path, but dsh at this version would
