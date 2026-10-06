@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -345707,6 +345707,22 @@
         "memory",
         "models"
       ]
+    },
+    {
+      "name": "dsh-sieve",
+      "repo": "Sev7eEn7/sieve",
+      "path": "packages/dsh-sieve",
+      "npm": "dsh-sieve",
+      "description": "Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.",
+      "category": "bundle",
+      "tags": [
+        "memory"
+      ],
+      "added": "2026-10-06",
+      "lastVerified": "2026-10-06",
+      "verifiedAgainst": "0.2.1-alpha.1",
+      "status": "verified",
+      "evidence": "packages/dsh-sieve/package.json#dsh.bundle"
     }
   ]
 }
