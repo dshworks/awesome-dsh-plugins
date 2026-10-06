@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -332397,7 +332397,7 @@
     {
       "name": "dsh-project-guard",
       "repo": "Inceptzws/dsh-project-guard",
-      "description": "Permission guard for DeepSeek Harness: work inside the workspace is never interrupted, and only the extra permission a call asks for is judged — machine-safe actions pass, system changes ask with a",
+      "description": "Consequence analysis for DeepSeek Harness: it says what an extra-permission call costs you — the device, your delegated authority, your wider interests. State-based, not guessed.",
       "category": "plugin",
       "official": false,
       "added": "2026-10-05",
