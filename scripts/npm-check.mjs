@@ -157,6 +157,14 @@ async function ownership(name, repo, path) {
 
 // The name the repo's own package.json declares today. One raw fetch per
 // entry per run, shared by every question asked about that entry.
+//
+// Only a name npm could hold counts. cloud0-long/dsh-anime-skins declares
+// `"name": "."`; registry.npmjs.org/. is the registry's own root document, a
+// 200 with no `repository`, so the "repo claims it, npm does not contradict"
+// rule above adopted "." on 2026-10-05 and every stars run went red on the
+// schema from then on. Same pattern as schema.json, so nothing gets adopted
+// that validate would refuse.
+const NPM_NAME = new RegExp(read("data/schema.json").$defs.plugin.properties.npm.pattern);
 const manifestPath = (path) => (path ? `${path}/package.json` : "package.json");
 const declared = new Map();
 function declaredName(repo, path) {
@@ -165,7 +173,7 @@ function declaredName(repo, path) {
     declared.set(key, raw(repo, manifestPath(path)).then((text) => {
       try {
         const name = text ? JSON.parse(text).name : undefined;
-        return typeof name === "string" && name ? name : null;
+        return typeof name === "string" && NPM_NAME.test(name) ? name : null;
       } catch {
         return null;
       }

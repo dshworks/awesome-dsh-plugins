@@ -113,6 +113,13 @@ async function gh(path) {
       await sleep(Math.min(Math.max(5000, reset - Date.now() + 2000), 70000));
       continue;
     }
+    if (res.status >= 500) {
+      // A bare 502 on a deep search page is GitHub having a moment, not an
+      // answer. Treated as fatal, one of them threw away the plugins sweep
+      // twice on 2026-10-06, 26 minutes of search budget each time.
+      await sleep(5000 * (attempt + 1));
+      continue;
+    }
     if (!res.ok) throw new Error(`GitHub ${path}: HTTP ${res.status}`);
     if (Number(res.headers.get("x-ratelimit-remaining") ?? 30) <= 1) await sleep(3000);
     else await sleep(1100);
