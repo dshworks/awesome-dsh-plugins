@@ -350730,6 +350730,22 @@
         "safety"
       ],
       "pushedAt": "2026-10-07"
+    },
+    {
+      "name": "dsh-asr-plugin",
+      "repo": "huliux/dsh-asr-plugin",
+      "npm": "@huliux/dsh-asr-plugin",
+      "description": "Local meeting transcription with microphone and system audio recording, speaker labels, and transcript export on Apple Silicon macOS.",
+      "category": "bundle",
+      "tags": [
+        "capabilities",
+        "ui"
+      ],
+      "added": "2026-10-07",
+      "lastVerified": "2026-10-07",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
