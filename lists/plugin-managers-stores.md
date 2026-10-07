@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-566 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+568 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -175,6 +175,7 @@ In-UI stores, installers, skill managers.
 | dsh-plugin-marketplace-scorp1o1 | 2 | [Scorp1o117/dsh-plugin-marketplace](https://github.com/Scorp1o117/dsh-plugin-marketplace) · [npm](https://www.npmjs.com/package/dsh-plugin-marketplace) | DeepSeek Harness Web UI 内置插件市场：在设置页直接浏览 github.com/topics/dsh-plugin，支持搜索、按 Star 排序、查看安装方式。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-organizer | 2 | [Inspireason/dsh-plugin-organizer](https://github.com/Inspireason/dsh-plugin-organizer) | DSH web plugin: group the plugin inventory into official and third-party collapsible sections | 0.1.0-rc.8 (2026-08-20) |
 | DSH-plugin-switch | 2 | [Nexus-Aethra/DSH-plugin-switch](https://github.com/Nexus-Aethra/DSH-plugin-switch) | DSH plugin marketplace: browse the GitHub dsh-plugin topic, view manifests, and install community plugins. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-prompt-market | 2 | [yi-yezhiqiu/dsh-prompt-market](https://github.com/yi-yezhiqiu/dsh-prompt-market) | 提示词市场（Prompt Market）— DeepSeek Harness 桌面端插件：输入框旁「提示词导入」按钮 + 浮层市场面板；零后端、纯 JavaScript、无编译步骤。 | 0.2.0-rc.2 (2026-10-07) |
 | dsh-scratchpad | 2 | [Waverly-W/dsh-scratchpad](https://github.com/Waverly-W/dsh-scratchpad) | Quick temporary conversation & workspace manager for DeepSeek Harness (DSH) Web GUI | 0.1.0-rc.8 (2026-08-25) |
 | dsh-seismicx | 2 | [MOLAaaaaaaa/dsh-seismicx](https://github.com/MOLAaaaaaaa/dsh-seismicx) | DeepSeek Harness plugin exposing the SeismicX earthquake-catalog skill as typed, model-facing tools | 0.1.0-rc.8 (2026-08-20) |
 | dsh-setting-manager | 2 | [coderHeJiyu/dsh-setting-manager](https://github.com/coderHeJiyu/dsh-setting-manager) | DSH plugin: right-click settings section navigation with checkable menu to show/hide settings sections | 0.1.7-rc.2 (2026-09-29) |
@@ -376,6 +377,7 @@ In-UI stores, installers, skill managers.
 | dsh-feed | 0 | [863683348/dsh-feed](https://github.com/863683348/dsh-feed) · [npm](https://www.npmjs.com/package/dsh-feed) | Cross-ecosystem aggregation base ('聚合的聚合'): syncs the GitHub dsh-plugin topic + npm registry into one open JSON index, queried by model tools, a CLI (dsh-feed), and a minimal stdio MCP server | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-changes | 0 | [mixin-ai/dsh-file-changes](https://github.com/mixin-ai/dsh-file-changes) | Per-turn file-change panel: lists created/modified files at the end of every answer, shows their diffs, and reveals them in the OS file manager | 0.1.0-rc.8 (2026-08-20) |
 | dsh-file-explorer-devacc8 | 0 | [devacc8/dsh-file-explorer](https://github.com/devacc8/dsh-file-explorer) | File Explorer for DeepSeek Harness: right-side resizable file tree (expand/collapse, search, syntax-highlighted preview, in-panel editing) with one-click VS Code / system file manager open | 0.1.7-rc.2 (2026-09-29) |
+| dsh-file-manager-jamesct | 0 | [jamesct/dsh-file-manager](https://github.com/jamesct/dsh-file-manager) | File-tree toolbox: trash can and restore, download and ZIP packaging, move, rename, create folders, multi-select batching, plus an in-page settings form. | 0.2.0-rc.2 (2026-10-07) |
 | dsh-file-manager-starstor | 0 | [starstorm-ai/dsh-file-manager](https://github.com/starstorm-ai/dsh-file-manager) | Workspace-scoped Monaco file manager for DeepSeek Harness | 0.1.7-rc.2 (2026-09-29) |
 | dsh-Fonts | 0 | [zhijun-dai/dsh-Fonts](https://github.com/zhijun-dai/dsh-Fonts) | Font system plugin for DeepSeek Harness: bundled OFL webfonts served offline, user-imported custom fonts, and a ctx.fonts registry other plugins can extend | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ghCLI-manager | 0 | [sweven-tears/dsh-ghCLI-manager](https://github.com/sweven-tears/dsh-ghCLI-manager) | GitHub CLI 管理插件：gh 安装检测/自愈（含 Windows 网络代理自愈）、多账户认证管理、Git 仓库高频操作，全部在 DSH 设置页（GitHub CLI）呈现。 | 0.1.0-rc.8 (2026-08-20) |
