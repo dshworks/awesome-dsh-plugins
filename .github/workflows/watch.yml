@@ -34,9 +34,11 @@ env:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    # An exhaustive sweep is ~110 search calls against a 30/min limit, so it
-    # runs in low tens of minutes. Anything past 45 is stuck, not slow.
-    timeout-minutes: 45
+    # Search is 30 calls/min and the sweep pages every topic in full, so its
+    # runtime grows with the ecosystem: 28 min on 2026-10-03, 31 on 10-05,
+    # with topic:dsh-plugin at 17.8k repos. Sized for that growth; past 75 it
+    # is stuck, not slow.
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v7
         with:
