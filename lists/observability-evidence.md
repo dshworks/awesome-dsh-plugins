@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-281 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+284 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -146,9 +146,11 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-status-plugin | 1 | [woshi-Tom/dsh-status-plugin](https://github.com/woshi-Tom/dsh-status-plugin) · [npm](https://www.npmjs.com/package/dsh-status-plugin) | A dsh status plugin with host-plane and browser halves: harness runtime health (process, listener, API-key presence, memory, uptime, plugin inventory) as JSON plus server-pushed SSE alerts, surfaced. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-stock-research | 1 | [luoyuejun9/dsh-stock-research](https://github.com/luoyuejun9/dsh-stock-research) | Evidence-backed end-of-day stock research for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-surface-contract-proof | 1 | [dongsheng123132/dsh-surface-contract-proof](https://github.com/dongsheng123132/dsh-surface-contract-proof) | Content-addressed conformance proof across recorded DSH ToolRuntime, MCP JSON-RPC and CLI JSON surfaces | 0.1.0-rc.8 (2026-08-20) |
+| dsh-task-monitor | 1 | [3450892121/dsh-task-monitor](https://github.com/3450892121/dsh-task-monitor/tree/HEAD/dsh-task-monitor) | DSH 窗口右侧独立「任务监控」浮层：环境信息 / 技能与 MCP / 产出 / 网页查阅（只读）。 | 0.2.0-rc.2 (2026-10-07) |
 | dsh-thermal-monitor | 1 | [whiskey1993/dsh-thermal-monitor](https://github.com/whiskey1993/dsh-thermal-monitor) | DSH Web 左侧栏硬件温度看板：CPU / 内存 / GPU / 固态实时温度，含免提权降级模式 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-token-gauge | 1 | [stone100010/dsh-token-gauge](https://github.com/stone100010/dsh-token-gauge) · [npm](https://www.npmjs.com/package/@stone100010/dsh-token-gauge) | Draggable real-time token & context dashboard for the DSH Web GUI, mounted on the frame-wide shell.overlay seat | 0.1.7-rc.2 (2026-09-29) |
 | dsh-token-speed | 1 | [gbeta/dsh-token-speed](https://github.com/gbeta/dsh-token-speed) | DSH web plugin: a draggable ring-gauge dashboard pinned to the bottom-right that shows live model output speed (tok/s), with an expandable detail panel (per-step exact speed, TTFT, cache-hit rate | 0.1.1-rc.2 (2026-09-04) |
+| dsh-toolbox-qlheric | 1 | [qlheric/dsh-toolbox](https://github.com/qlheric/dsh-toolbox) | DSH 工具箱：一个包注册十个零依赖确定性工具（json / calculator / encoding / diff / regex / time / csv / stat / markdown / schema）。 | 0.2.0-rc.2 (2026-10-07) |
 | dsh-trace | 1 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | Embedded yiTrace plugin for DeepSeek Harness turns, model steps, and tool calls | 0.2.0-rc.2 (2026-10-05) |
 | dsh-trajectory-anchor | 1 | [ggfgfgf-on/dsh-trajectory-anchor](https://github.com/ggfgfgf-on/dsh-trajectory-anchor) | Self-contained DeepSeek Harness bundle: first-round trajectory anchoring, EWMA trajectory scoring, adaptive drift rollback, anchorGate promotion gating, bootstrap context suppression, trajectory-log | 0.1.7-rc.2 (2026-09-29) |
 | dsh-trajectory-debug | 1 | [devmom/dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug/tree/HEAD/packages/client-ui-trajectory-debug) · [npm](https://www.npmjs.com/package/dsh-client-ui-trajectory-debug) | Trajectory Debug Workbench: browser UI (waterfall, replay, compare, perf dashboard) — M1 skeleton | 0.1.0-rc.8 (2026-08-20) |
@@ -270,6 +272,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-tool-notion | 0 | [LJH-snow/dsh-tool-notion](https://github.com/LJH-snow/dsh-tool-notion) · [npm](https://www.npmjs.com/package/@libai168/dsh-tool-notion) | Notion tools for DeepSeek Harness: search pages, read and write documents, query databases, list comments, and inspect users | 0.1.1-rc.2 (2026-09-04) |
 | dsh-tool-surface-proof | 0 | [dongsheng123132/dsh-tool-surface-proof](https://github.com/dongsheng123132/dsh-tool-surface-proof) | Offline content-addressed DSH model-visible tool surface conformance evidence | 0.1.1-rc.2 (2026-08-26) |
 | dsh-trace-weekitmo | 0 | [weekitmo/dsh-trace](https://github.com/weekitmo/dsh-trace) | A DeepSeek Harness Web plugin for inspecting redacted LLM HTTP request and response traces. | 0.1.1-rc.2 (2026-09-01) |
+| dsh-train-dashboard | 0 | [moazzamak/dsh-train-dashboard](https://github.com/moazzamak/dsh-train-dashboard) | A right-pane training dashboard for the DeepSeek Harness: it runs a command of your own that writes a JSON snapshot of a training run, serves that snapshot over two HTTP routes, and charts it as a | 0.2.0-rc.2 (2026-10-07) |
 | dsh-url-trace | 0 | [wqy-cell/dsh-url-trace](https://github.com/wqy-cell/dsh-url-trace) | 网址足迹：自动记录从 DSH 打开过的每个网址（常用排序 / 最近 / 收藏 / 搜索），在聊天输入栏提供随时查看入口。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-usage-dashboard-xinmo114 | 0 | [xinmo114514/dsh-usage-dashboard](https://github.com/xinmo114514/dsh-usage-dashboard) | DSH web plugin: 设置页 Token 消耗仪表盘 —— 总/输入/输出 token 指标卡、近7天每日 + 近24小时逐时趋势图、按模型/会话分布；宿主半扫描会话日志（assistant/message usage 事件）并提供 GET /usage/api/dashboard | 0.1.0-rc.8 (2026-08-20) |
 | dsh-visual-trace | 0 | [wikiiizhao/dsh-visual-trace](https://github.com/wikiiizhao/dsh-visual-trace) | Cross-surface plain-language trajectory visualization and review for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |

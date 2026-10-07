@@ -4,7 +4,7 @@
 
 Research workbenches, RAG, learning modes.
 
-601 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+604 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -357,6 +357,7 @@ Research workbenches, RAG, learning modes.
 | dsh-agent-plugin-research | 0 | [Asteroid0449/dsh-agent-plugin-research](https://github.com/Asteroid0449/dsh-agent-plugin-research) | Agent 专用的 DSH 插件检索、审计、安装与验证工具桥；不提供可视化市场界面。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-agriculture-terms | 0 | [uckkk/dsh-agriculture-terms](https://github.com/uckkk/dsh-agriculture-terms) | listagriculture：列出 农业术语 知识条目。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ai-terms | 0 | [uckkk/dsh-ai-terms](https://github.com/uckkk/dsh-ai-terms) | listai：列出 AI 术语 知识条目（名称+英文）。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-airlock-thatsimp | 0 | [ThatSimpleTech/dsh-airlock](https://github.com/ThatSimpleTech/dsh-airlock/tree/HEAD/plugins/web-search) | Brave Search / Tavily / SearXNG web search provider for DSH (DeepSeek Harness), used by dsh-airlock in place of the DeepSeek-only search provider | 0.2.0-rc.2 (2026-10-07) |
 | dsh-aloof-gaochong | 0 | [gaochonggeng/dsh-aloof](https://github.com/gaochonggeng/dsh-aloof) · [npm](https://www.npmjs.com/package/dsh-aloof) | 把 Aloof 的团队资料库和办公审批接成 DeepSeek Harness 的原生工具：搜团队知识、读写共享文档、查审批待办、发起单子。写操作先过 dsh 的审批闸门。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-animation-principles | 0 | [uckkk/dsh-animation-principles](https://github.com/uckkk/dsh-animation-principles) · [npm](https://www.npmjs.com/package/dsh-animation-principles) | 迪士尼动画12法则知识库 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-annotator | 0 | [cw1999mm/dsh-annotator](https://github.com/cw1999mm/dsh-annotator) | DSH conversation annotator: select transcript text, attach a note in a popup, then send the compiled quote+note pair through the composer. | 0.1.0-rc.8 (2026-08-20) |
@@ -474,7 +475,7 @@ Research workbenches, RAG, learning modes.
 | dsh-plugin-model-filter | 0 | [EiffelBS/dsh-plugin-model-filter](https://github.com/EiffelBS/dsh-plugin-model-filter) | Searchable model picker for the DSH chat composer — adds a search/filter box to the model selection menu. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-rag | 0 | [YYTbit/dsh-plugin-rag](https://github.com/YYTbit/dsh-plugin-rag) · [npm](https://www.npmjs.com/package/dsh-plugin-rag) | Local knowledge base RAG for DeepSeek Harness -- index project files and search for relevant context | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-skill-palette | 0 | [qyjgg/dsh-plugin-skill-palette](https://github.com/qyjgg/dsh-plugin-skill-palette) | Enhanced skill plugin for DeepSeek Harness (DSH): Fuzzy slash search, interactive multi-skill palette & preset bundles | 0.1.1-rc.2 (2026-09-04) |
-| dsh-plugin-sources | 0 | [maxsaltshen/dsh-plugin-sources](https://github.com/maxsaltshen/dsh-plugin-sources) | Persistent plugin source classifier for DeepSeek Harness Web: settings page grouping plugins by official / third-party / custom with descriptions, search, and click filters. DSH | 0.1.1-rc.2 (2026-09-01) |
+| dsh-plugin-sources | 0 | [SMAXHERO/dsh-plugin-sources](https://github.com/SMAXHERO/dsh-plugin-sources) | Persistent plugin source classifier for DeepSeek Harness Web: settings page grouping plugins by official / third-party / custom with descriptions, search, and click filters. DSH | 0.1.1-rc.2 (2026-09-01) |
 | dsh-plugin-todo-scanner | 0 | [zhaoxuejie/dsh-plugin-todo-scanner](https://github.com/zhaoxuejie/dsh-plugin-todo-scanner) · [npm](https://www.npmjs.com/package/dsh-plugin-todo-scanner) | DeepSeek Harness TODO 代码扫描插件：扫描本地项目目录中的 TODO/FIXME/HACK/NOTE 等标记，生成结构化清单，支持状态管理、Markdown 导出与侧边面板。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-user-research | 0 | [nsdmgt/dsh-plugin-user-research](https://github.com/nsdmgt/dsh-plugin-user-research) | DeepSeek Harness 插件：用户研究合成 Agent 包——把访谈 / 问卷 / 观察笔记合成用户画像、痛点与机会点。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-plugin-wangzhan | 0 | [wangzhanchao883/dsh-plugin](https://github.com/wangzhanchao883/dsh-plugin/tree/HEAD/dsh-screenshot-capture) | 指哪拍哪 · 截图即存:剪贴板监听 + 鼠标位置系统级悬浮窗(注释/重点标记 + 复制/存文档/存图片)+ 即时OCR + Obsidian 按天合并 + 晚间AI整理打双链 | 0.1.0-rc.8 (2026-08-25) |
@@ -542,6 +543,7 @@ Research workbenches, RAG, learning modes.
 | dsh-web-search-local | 0 | [gausszhou/dsh-web-search-local](https://github.com/gausszhou/dsh-web-search-local) · [npm](https://www.npmjs.com/package/@gausszhou/dsh-web-search-local) | Keyless multi-engine web search + page fetch providers for the dsh web seam (no DeepSeek dependency). | 0.1.0-rc.8 (2026-08-20) |
 | dsh-web-search-opencli | 0 | [sincerity711/dsh-web-search-opencli](https://github.com/sincerity711/dsh-web-search-opencli) | OpenCLI Google AI Mode search provider for DeepSeek Harness web_search | 0.1.0-rc.8 (2026-08-20) |
 | dsh-web-search-plus | 0 | [loommii/dsh-web-search-plus](https://github.com/loommii/dsh-web-search-plus) | DSH web_search 增强插件：为官方 web-search-deepseek 的 model 字段提供第三方 GUI（host 代理架构） | 0.1.7-rc.2 (2026-09-29) |
+| dsh-web-search-prism | 0 | [linhanson3-eng/dsh-web-search-prism](https://github.com/linhanson3-eng/dsh-web-search-prism) | Firecrawl-backed search provider (search + full-page markdown in one call) for the DeepSeek Harness web capability seam (ctx.web) | 0.2.0-rc.2 (2026-10-07) |
 | dsh-web-search-public | 0 | [hy-sde/dsh-web-search-public](https://github.com/hy-sde/dsh-web-search-public) | Credential-free concurrent web search fan-out for DeepSeek Harness (Startpage, DuckDuckGo, Ecosia, Google, Mojeek, consensus-merged, soft/hard deadlines) | 0.2.0-rc.2 (2026-10-05) |
 | dsh-web-search-so360 | 0 | [Bronier/dsh-web-search-so360](https://github.com/Bronier/dsh-web-search-so360) | Keyless web search provider for DeepSeek Harness backed by 360 Search (so.com). 免 API Key 的 DSH 联网搜索提供方。 | 0.1.1-rc.2 (2026-08-28) |
 | dsh-web-search-tavily-farfreef | 0 | [FarFreeFire/dsh-web-search-tavily](https://github.com/FarFreeFire/dsh-web-search-tavily) | Pluggable Tavily-backed web search provider for DeepSeek Harness (DSH). Registers a WebSearchProvider on the ctx.web seam so the web_search tool routes queries to api.tavily.com. | 0.1.1-rc.2 (2026-09-04) |
@@ -578,6 +580,7 @@ Research workbenches, RAG, learning modes.
 | project-ai-docs | 0 | [igugyj/project-ai-docs](https://github.com/igugyj/project-ai-docs) · [npm](https://www.npmjs.com/package/project-ai-docs) | 通用项目 AI 文档协议 skill：每项目一份 docs/.ai 认知库，防上下文涣散、保项目认知精细。（DSH plugin） | 0.1.0-rc.8 (2026-08-20) |
 | qmd-autosearch | 0 | [zhangzhenwen1/qmd-autosearch](https://github.com/zhangzhenwen1/qmd-autosearch) · [npm](https://www.npmjs.com/package/qmd-autosearch) | DSH plugin: auto-supplement QMD semantic search when the model greps/globs a knowledge-base directory | 0.1.0-rc.8 (2026-08-20) |
 | quick-research-campaign | 0 | [wswbx/quick-research-campaign](https://github.com/wswbx/quick-research-campaign) | DeepSeek Harness bundle: a bounded, de-confounded hyperparameter sweep ledger with a research-campaign playbook skill and paper-ready report tables | 0.1.7-rc.2 (2026-09-29) |
+| QuillPen | 0 | [enchangcui340-cloud/QuillPen](https://github.com/enchangcui340-cloud/QuillPen/tree/HEAD/packages/dsh-quill-user) | 把 Quill（本地笔记 / 待办 / 白板）搬进 DSH 的「笔记」面板 | 0.2.0-rc.2 (2026-10-07) |
 | research-writing | 0 | [dsh-packs/research-writing](https://github.com/dsh-packs/research-writing/tree/HEAD/patch) | 面向研究与学术写作的 dsh 场景包：五个原创 skills，刻意不连接任何外部 MCP | unverified |
 | tavily-web-search | 0 | [xjcloudy/tavily-web-search](https://github.com/xjcloudy/tavily-web-search) | Tavily search plugin for DeepSeek Harness seam | 0.2.0-rc.2 (2026-10-05) |
 | tokens_DshWebSearch_code | 0 | [sobermh/tokens_DshWebSearch_code](https://github.com/sobermh/tokens_DshWebSearch_code) | Locally maintained web search plugin for DeepSeek Harness with free and API-backed providers. | 0.1.0-rc.8 (2026-08-25) |

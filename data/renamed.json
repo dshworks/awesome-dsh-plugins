@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-10-05",
-  "count": 344,
-  "ownerChanged": 91,
+  "detected": "2026-10-07",
+  "count": 352,
+  "ownerChanged": 93,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -2146,6 +2146,62 @@
       "ownerChanged": false,
       "name": "dsh-dev-backup",
       "on": "2026-10-05"
+    },
+    {
+      "from": "TommyFang2077/pi-workbench",
+      "to": "TommyFang2077/dsh-linux-desktop",
+      "ownerChanged": false,
+      "name": "dsh-easy-desktop",
+      "on": "2026-10-07"
+    },
+    {
+      "from": "purezhi/dsh-plugin-confirmo",
+      "to": "purezhi/dsh-plugin-pando",
+      "ownerChanged": false,
+      "name": "dsh-plugin-confirmo",
+      "on": "2026-10-07"
+    },
+    {
+      "from": "maxsaltshen/dsh-plugin-sources",
+      "to": "SMAXHERO/dsh-plugin-sources",
+      "ownerChanged": true,
+      "name": "dsh-plugin-sources",
+      "on": "2026-10-07"
+    },
+    {
+      "from": "dragon43pp/dsh-ops-skill",
+      "to": "fatedawn/dsh-ops-skill",
+      "ownerChanged": true,
+      "name": "dsh-ops-skill",
+      "on": "2026-10-07"
+    },
+    {
+      "from": "youbaiyun/dsh-browser-application",
+      "to": "youbaiyun/dsh-browser-crossplatform",
+      "ownerChanged": false,
+      "name": "dsh-browser-application",
+      "on": "2026-10-07"
+    },
+    {
+      "from": "EvangeliMo/dsh-computer-use",
+      "to": "EvangeliMo/dsh-computer-use-mode",
+      "ownerChanged": false,
+      "name": "dsh-computer-use-evangeli",
+      "on": "2026-10-07"
+    },
+    {
+      "from": "VibeDev-Si/dsh-media",
+      "to": "VibeDev-Si/dsh-vibedev",
+      "ownerChanged": false,
+      "name": "dsh-media-vibedevs",
+      "on": "2026-10-07"
+    },
+    {
+      "from": "WwW7olFWwW/dsh-cbm-keeper",
+      "to": "WwW7olFWwW/dsh-codebase-watcher",
+      "ownerChanged": false,
+      "name": "dsh-cbm-keeper",
+      "on": "2026-10-07"
     }
   ],
   "collisions": {
@@ -2330,6 +2386,41 @@
         "repo": "YUsaltyfish/dsh-notification-sound",
         "row": "dsh-fish-sound-notify",
         "on": "2026-10-05"
+      },
+      {
+        "repo": "fatedawn/dsh-ops-skill",
+        "row": "dsh-ops-skill",
+        "on": "2026-10-07"
+      },
+      {
+        "repo": "purezhi/dsh-plugin-pando",
+        "row": "dsh-plugin-confirmo",
+        "on": "2026-10-07"
+      },
+      {
+        "repo": "SMAXHERO/dsh-plugin-sources",
+        "row": "dsh-plugin-sources",
+        "on": "2026-10-07"
+      },
+      {
+        "repo": "TommyFang2077/dsh-linux-desktop",
+        "row": "dsh-easy-desktop",
+        "on": "2026-10-07"
+      },
+      {
+        "repo": "VibeDev-Si/dsh-vibedev",
+        "row": "dsh-media-vibedevs",
+        "on": "2026-10-07"
+      },
+      {
+        "repo": "WwW7olFWwW/dsh-codebase-watcher",
+        "row": "dsh-cbm-keeper",
+        "on": "2026-10-07"
+      },
+      {
+        "repo": "youbaiyun/dsh-browser-crossplatform",
+        "row": "dsh-browser-application",
+        "on": "2026-10-07"
       }
     ]
   },
@@ -2344,8 +2435,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 243,
-    "rowsRemoved": 244,
+    "groupsMerged": 244,
+    "rowsRemoved": 245,
     "leftForTriage": [],
     "merges": [
       {
@@ -4919,6 +5010,17 @@
         ],
         "evidence": "cordis.patch.yml",
         "on": "2026-10-05"
+      },
+      {
+        "repo": "omdsh-dev/dsh-neoforge",
+        "path": null,
+        "renamedFrom": "r05En1cU/dsh-neoforge",
+        "kept": "dsh-neoforge",
+        "dropped": [
+          "dsh-neoforge-r05en1cu"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-10-07"
       }
     ]
   },
