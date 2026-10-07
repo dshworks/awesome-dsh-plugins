@@ -450,7 +450,15 @@ function proveFromPackage(pkg, path, repo) {
   if (vendoredFrom(pkg, repo)) return null;
   const refused = peerRefusal(pkg) ?? undefined;
   if (pkg.dsh?.bundle) return { evidence: `${path}#dsh.bundle`, why: "dsh.bundle manifest", refused };
-  if (pkg.dsh) return { evidence: `${path}#dsh.${Object.keys(pkg.dsh).join("+")}`, why: "dsh manifest", refused };
+  // Only the keys dsh reads. At dsh-v0.2.0-rc.2 that is `bundle`
+  // (plugin-manager/src/index.ts:545 refuses a package without it), `client`
+  // (test-support/client-runtime/src/assembly/bundle-roster.ts:75) and
+  // `profile` (app-boot/src/profile-plugins.ts:66). Until 2026-10-07 any `dsh`
+  // object passed, so `{ "comment": "...", "plugin": true }` was a receipt and
+  // 42 listed rows stood on keys dsh never looks at.
+  if (pkg.dsh?.client || pkg.dsh?.profile) {
+    return { evidence: `${path}#dsh.${Object.keys(pkg.dsh).join("+")}`, why: "dsh manifest", refused };
+  }
   // Take the harness dep, not merely the first `@deepseek-ai/` one. `ds[0]` was
   // an alphabetical accident: `cordis` and `schemastery` both sort ahead of
   // every `dsh-*`, so a package.json naming both got the receipt that proves
