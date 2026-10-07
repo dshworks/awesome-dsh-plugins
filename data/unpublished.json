@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-10-05",
+  "checked": "2026-10-07",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 769,
+  "count": 806,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -88,6 +88,18 @@
       "npm": "@cxzrdxy/dsh-file-explorer",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "ddtcorex/dsh-maestro-devkit",
+      "npm": "@ddtcorex/dsh-maestro-devkit",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "ddtcorex/dsh-maestro-guard",
+      "npm": "@ddtcorex/dsh-maestro-guard",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-07"
     },
     {
       "repo": "deepforce/dsh-balance",
@@ -364,6 +376,13 @@
       "npm": "@dsh-local/notify",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "T-Auto/dsh-std",
+      "path": "packages/adapter-dsh",
+      "npm": "@dsh-std/adapter-dsh",
+      "why": "published by yan-zero/dsh-std",
+      "since": "2026-10-07"
     },
     {
       "repo": "entireyu/dsh-webui-plus",
@@ -800,14 +819,20 @@
     {
       "repo": "ls-cool-123/dsh-account-balance",
       "npm": "dsh-account-balance",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-10-01"
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "305037991x-pixel/dsh-account-balance",
       "npm": "dsh-account-balance",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-10-01"
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "ShawnShang-1/dsh-account-balance",
+      "npm": "dsh-account-balance",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "JimChen-g/dsh-action-outbox",
@@ -897,39 +922,45 @@
     {
       "repo": "neltharion11/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "6 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "linshufan21/dsh-Api-monitor",
       "npm": "dsh-api-balance",
-      "why": "6 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Vast-Unhurried/dsh-toolkit",
       "path": "packages/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "6 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "AdaJyao/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "6 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "wwwwangpengggg/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "6 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "X-Xyy/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "6 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "CH2008445/dsh-api-balance",
+      "npm": "dsh-api-balance",
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "MaYiFei1995/dsh-approval-comment",
@@ -1151,12 +1182,6 @@
       "since": "2026-09-29"
     },
     {
-      "repo": "miqian-nomad/dsh-browser-playwright-codex",
-      "npm": "dsh-browser-playwright",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
-    },
-    {
       "repo": "yzd6552-commits/dsh-browseruse",
       "npm": "dsh-browseruse",
       "why": "no such package",
@@ -1167,6 +1192,12 @@
       "npm": "dsh-btw",
       "why": "published by iluluyu/dsh-btw",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "loonylabs/dsh-cache-guard",
+      "npm": "dsh-cache-guard",
+      "why": "published by loonylabs-dev/dsh-cache-guard",
+      "since": "2026-10-07"
     },
     {
       "repo": "Chance-Wu/dsh-change-center",
@@ -1339,6 +1370,18 @@
       "npm": "dsh-commit-review",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "JohnXu22786/computer-control",
+      "npm": "dsh-computer-control",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "baldovinmarques391-design/dsh-computer-control",
+      "npm": "dsh-computer-control",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Altairpaca/dsh-computer-use-windows",
@@ -1768,6 +1811,18 @@
       "npm": "dsh-finance",
       "why": "published by dushaobindoudou/dsh-finance",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "rootkiller6788/dsh-flow",
+      "npm": "dsh-flow",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "d0ublecl1ck/dsh-flow",
+      "npm": "dsh-flow",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "LessXi/dsh-fluid-width",
@@ -2262,20 +2317,38 @@
     {
       "repo": "imdeniil/dsh-locale-ru",
       "npm": "dsh-locale-ru",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-30"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "execrat1on/dsh-locale-ru",
       "npm": "dsh-locale-ru",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-30"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "vowa-antilamer/dsh-locale-ru",
       "npm": "dsh-locale-ru",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-30"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "thezavtrak-a11y/dsh-locale-ru",
+      "npm": "dsh-locale-ru",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "Balla1ore/dsh-locale-ru",
+      "npm": "dsh-locale-ru",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "kvashninsasha-gif/dsh-locale-ru",
+      "npm": "dsh-locale-ru",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "wangsan71/dsh-locale-zh-tw",
@@ -2336,134 +2409,146 @@
     {
       "repo": "yihefeikong-rgb/dsh-cc-haha-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "34262315716/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Amengclass/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "BayInl/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "ben7am1n/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "boomzikazita/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "guyuefangyuanl/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "joyiok/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "mario03690/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "penglai-doll/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "qwert702/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Starry0214/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "U-Illll/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "yangyongzhen/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "lifensame/dsh-plugin",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "hmlyx/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "LZMW/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "mnbvcxzaqwertyuioplm/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "doublehappy123/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "biubiu23333333/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "EchoHeim/DSH-Memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "HaydenSmith1121/dsh-memory",
       "npm": "dsh-memory",
-      "why": "22 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "Jerry-Zhang-74/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "ChenYueqi2024/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "24 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "solknight48/dsh-memoryhub",
@@ -2557,23 +2642,41 @@
       "since": "2026-09-29"
     },
     {
+      "repo": "lhwwxy/dsh-model-deploy",
+      "npm": "dsh-model-deploy",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "ethanrise/dsh-model-deploy",
+      "npm": "dsh-model-deploy",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
       "repo": "tianji-qingtian/dsh-model-router",
       "npm": "dsh-model-router",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "thedeveloper256/dsh-model-router",
       "npm": "dsh-model-router",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "zhuzhujunandy/dsh-model-router",
       "path": "dsh-model-router",
       "npm": "dsh-model-router",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "chillBnetley/dsh-model-router",
+      "npm": "dsh-model-router",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "cyberlieflife/dsh-model-thinking",
@@ -2789,6 +2892,20 @@
       "since": "2026-09-29"
     },
     {
+      "repo": "Swwag666/DSH_Phone_Swag",
+      "path": "dsh-phone/plugin/dsh-phone-bridge",
+      "npm": "dsh-phone-bridge",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "KaiyeZeng/dsh-phone-bridge",
+      "path": "dsh-plugin",
+      "npm": "dsh-phone-bridge",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
       "repo": "chintoleung/dsh-ping",
       "npm": "dsh-ping",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -2899,6 +3016,18 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "meme-dog/dsh-plugin-finder",
+      "npm": "dsh-plugin-finder",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "HarrisXiu/dsh-plugin-finder",
+      "npm": "dsh-plugin-finder",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
       "repo": "xu1132/dsh-plugin-hello",
       "npm": "dsh-plugin-hello",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -2983,6 +3112,18 @@
       "npm": "dsh-plugin-organizer",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "ArvenWang/dsh-plugin-quota",
+      "npm": "dsh-plugin-quota",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "121212165/dsh-plugin-quota",
+      "npm": "dsh-plugin-quota",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "dshplugin-me/dsh-plugin-radar",
@@ -3088,6 +3229,12 @@
       "since": "2026-10-05"
     },
     {
+      "repo": "siweimofang/dsh-plugin-zhishe-bikeng-qa",
+      "npm": "dsh-plugin-zhishe-bikeng-qa",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-07"
+    },
+    {
       "repo": "siweimofang/dsh-plugin-zhishe-zaojia-gusuan",
       "npm": "dsh-plugin-zhishe-zaojia-gusuan",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
@@ -3142,10 +3289,10 @@
       "since": "2026-08-21"
     },
     {
-      "repo": "maryasov/dsh-plugins-mp",
+      "repo": "maryasov/dsh-plugins-hub",
       "npm": "dsh-plugins-hub",
       "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-10-01"
+      "since": "2026-10-07"
     },
     {
       "repo": "tamashi486/dsh-plugins-hub",
@@ -3156,14 +3303,20 @@
     {
       "repo": "HB123X/dsh-ponytail",
       "npm": "dsh-ponytail",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "maci0/dsh-ponytail",
       "npm": "dsh-ponytail",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "Sepolian/dsh-ponytail",
+      "npm": "dsh-ponytail",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Codingendless/dsh-prevent-scd",
@@ -3222,20 +3375,26 @@
     {
       "repo": "JoukoPuro/dsh-prompt-polish",
       "npm": "dsh-prompt-polish",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "1321928757/dsh-prompt-polish",
       "npm": "dsh-prompt-polish",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "gaowei-AFK/dsh-prompt-polish",
       "npm": "dsh-prompt-polish",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "LMQ00/dsh-prompt-polish",
+      "npm": "dsh-prompt-polish",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Chhlafiu4312/promptwall",
@@ -3294,26 +3453,32 @@
     {
       "repo": "EdwardoStarks/dsh-quote",
       "npm": "dsh-quote",
-      "why": "4 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "5 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "uckkk/dsh-quote",
       "npm": "dsh-quote",
-      "why": "4 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "5 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "zysftd/dsh-quote",
       "npm": "dsh-quote",
-      "why": "4 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "5 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "luoxunhao/dsh-quote",
       "npm": "dsh-quote",
-      "why": "4 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "5 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "naletko/dsh-quote",
+      "npm": "dsh-quote",
+      "why": "5 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "HOFO-GYG/dsh-quote-reply",
@@ -3510,6 +3675,30 @@
       "since": "2026-09-29"
     },
     {
+      "repo": "ao882866-ux/dsh-archive-trash",
+      "npm": "dsh-session-archive",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "mayf3/dsh-session-doctor",
+      "npm": "dsh-session-doctor",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "imtokenxinluo/dsh-session-doctor",
+      "npm": "dsh-session-doctor",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "luoxin10086/dsh-session-doctor",
+      "npm": "dsh-session-doctor",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
       "repo": "homily707/dsh-session-header",
       "npm": "dsh-session-header",
       "why": "no such package",
@@ -3532,6 +3721,18 @@
       "npm": "dsh-session-tags",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Huo-yang/dsh-session-trash",
+      "npm": "dsh-session-trash",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "vi0let-dev/dsh-session-trash",
+      "npm": "dsh-session-trash",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "fujunchao/dsh-session-vault",
@@ -3898,32 +4099,44 @@
     {
       "repo": "Sevncz/dsh-task-notify",
       "npm": "dsh-task-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "V-Reason/dsh-task-notify",
       "npm": "dsh-task-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "weijianguizhou/dsh-task-notify",
       "npm": "dsh-task-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "YuMo226/dsh-task-notify",
       "npm": "dsh-task-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "DeepseekHarnessPlugins/Notification",
       "npm": "dsh-task-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "herenfor/dsh-task-notify",
+      "npm": "dsh-task-notify",
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "forwardzz/dsh-task-notify",
+      "npm": "dsh-task-notify",
+      "why": "7 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Player-MINEPIG/dsh-tavern",
@@ -4021,6 +4234,18 @@
       "npm": "dsh-token-usage",
       "why": "published by tastelessor/dsh-usage-stats",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "MashedPotato817/dsh-tool-browser",
+      "npm": "dsh-tool-browser",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "yuehancn/dsh-tool-browser",
+      "npm": "dsh-tool-browser",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
     },
     {
       "repo": "Huasfan/dsh-tool-git",
@@ -4482,6 +4707,19 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "Moonshile/moonshile-dsh-plugins",
+      "path": "plugins/dsh-workspace-sort",
+      "npm": "dsh-workspace-sort",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
+      "repo": "LostAbaddon/dsh-workspace-sort",
+      "npm": "dsh-workspace-sort",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-10-07"
+    },
+    {
       "repo": "LI-Huaa/dsh-workspace-upload",
       "npm": "dsh-workspace-upload",
       "why": "no such package",
@@ -4573,12 +4811,6 @@
       "since": "2026-08-21"
     },
     {
-      "repo": "jingzhao-l/iterate-plugin",
-      "npm": "iterate-plugin",
-      "why": "published by jingzhao-l/iterate-skill",
-      "since": "2026-09-06"
-    },
-    {
       "repo": "fieldnote-ops/keyringseam",
       "npm": "keyringseam",
       "why": "no such package",
@@ -4586,13 +4818,6 @@
     },
     {
       "repo": "14185638/dsh-mcp-manager",
-      "npm": "mcp-manager",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
-    },
-    {
-      "repo": "jingzhonghui/dsh-mcp-manager",
-      "path": "host-plugin",
       "npm": "mcp-manager",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-09-29"
