@@ -121,9 +121,19 @@ async function gh(path) {
       continue;
     }
     if (!res.ok) throw new Error(`GitHub ${path}: HTTP ${res.status}`);
+    // Read the body inside the retry loop, before the pacing sleep. The 30 s
+    // timeout covers the body too, and a read that failed outside the loop
+    // threw away a whole local sweep on 2026-10-07 ("Body is unusable").
+    let data;
+    try {
+      data = await res.json();
+    } catch {
+      await sleep(2000 * (attempt + 1));
+      continue;
+    }
     if (Number(res.headers.get("x-ratelimit-remaining") ?? 30) <= 1) await sleep(3000);
     else await sleep(1100);
-    return res.json();
+    return data;
   }
   throw new Error(`GitHub ${path}: gave up after retries`);
 }
