@@ -6,7 +6,7 @@
   ],
   "checked": "2026-10-08",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 803,
+  "count": 802,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -100,12 +100,6 @@
       "npm": "@ddtcorex/dsh-maestro-guard",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-07"
-    },
-    {
-      "repo": "deepforce/dsh-balance",
-      "npm": "@deepforce/dsh-balance",
-      "why": "no such package",
-      "since": "2026-08-21"
     },
     {
       "repo": "KanoNoUta/dsh-captain",
@@ -2150,13 +2144,6 @@
       "since": "2026-09-29"
     },
     {
-      "repo": "tafcear/kimi-tide",
-      "path": "packages/dsh-kimi-tide",
-      "npm": "dsh-kimi-tide",
-      "why": "no such package",
-      "since": "2026-08-21"
-    },
-    {
       "repo": "MicroHEROX/dsh-Kimi-WebBridge",
       "npm": "dsh-kimi-webbridge",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -3203,6 +3190,12 @@
       "npm": "dsh-plugin-turn-memory",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Fivezy2005/dsh-plugin-updater",
+      "npm": "dsh-plugin-updater",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-08"
     },
     {
       "repo": "VanillaCreamer/dsh-plugin-visual-composer",
