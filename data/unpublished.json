@@ -6,7 +6,7 @@
   ],
   "checked": "2026-10-09",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 803,
+  "count": 804,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -392,6 +392,12 @@
       "since": "2026-09-29"
     },
     {
+      "repo": "EveGoodEvening/dsh-llmwiki",
+      "npm": "@evegoodevening/dsh-llmwiki",
+      "why": "no such package",
+      "since": "2026-10-09"
+    },
+    {
       "repo": "Karbo123/DSH-EvoResearch",
       "path": "packages/evoresearch-plugin",
       "npm": "@evoresearch/dsh-plugin",
@@ -761,6 +767,13 @@
       "npm": "@zhangzujian/dsh-subprocess-inherit-environment",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Zleap-AI/dsh-sag",
+      "path": "packages/dsh-sag",
+      "npm": "@zleap-ai/dsh-sag",
+      "why": "published by zleap-ai/sag",
+      "since": "2026-10-09"
     },
     {
       "repo": "ZrSiO4-y/dsh-explorer",
@@ -3522,34 +3535,34 @@
       "since": "2026-09-30"
     },
     {
-      "repo": "NaNQiQ/deepseek-harness-remote-ssh",
-      "npm": "dsh-remote-ssh",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-30"
-    },
-    {
-      "repo": "Yan-Zero/dsh-remote-ssh",
-      "npm": "dsh-remote-ssh",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-30"
-    },
-    {
-      "repo": "aijunjiang/dsh-remote-ssh",
-      "npm": "dsh-remote-ssh",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-30"
-    },
-    {
       "repo": "173787247/dsh-remote-ssh",
       "npm": "dsh-remote-ssh",
       "why": "5 listed repos declare this name and the package states no repository",
       "since": "2026-09-30"
     },
     {
+      "repo": "NaNQiQ/deepseek-harness-remote-ssh",
+      "npm": "dsh-remote-ssh",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-09"
+    },
+    {
+      "repo": "Yan-Zero/dsh-remote-ssh",
+      "npm": "dsh-remote-ssh",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-09"
+    },
+    {
+      "repo": "aijunjiang/dsh-remote-ssh",
+      "npm": "dsh-remote-ssh",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-09"
+    },
+    {
       "repo": "zzaccount/dsh-remoteSSH",
       "npm": "dsh-remote-ssh",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-09-30"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-10-09"
     },
     {
       "repo": "lmst2/dsh-rename",
@@ -4711,12 +4724,6 @@
       "npm": "dsh-ws-files",
       "why": "no such package",
       "since": "2026-08-21"
-    },
-    {
-      "repo": "liyu34/dsh-wsl-tray",
-      "npm": "dsh-wsl-tray",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
     },
     {
       "repo": "173787247/dsh-wsl-tray",
