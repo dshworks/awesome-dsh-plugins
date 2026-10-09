@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-10-08",
+  "checked": "2026-10-09",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 802,
+  "count": 803,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -737,6 +737,12 @@
       "npm": "@yogemow/dsh-prism",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "gcry13067381632-jpg/dsh-qqbot",
+      "npm": "@zaofan/dsh-qqbot",
+      "why": "published by zaofan-make/dsh-qqbot",
+      "since": "2026-10-09"
     },
     {
       "repo": "zekdeW/dsh-client-workspace-deep-link",
