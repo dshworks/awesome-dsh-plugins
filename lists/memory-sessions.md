@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-2393 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+2394 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1548,6 +1548,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-fulltext-search | 0 | [termanli/dsh-fulltext-search](https://github.com/termanli/dsh-fulltext-search) | DSH web plugin: full-text content search for the better-sidebar file manager — a search tab that greps file CONTENTS in the session working directory and opens matches in the sidebar editor | 0.1.0-rc.8 (2026-08-25) |
 | dsh-fx-marquee | 0 | [0rangeSoda1506/dsh-fx-marquee](https://github.com/0rangeSoda1506/dsh-fx-marquee) · [npm](https://www.npmjs.com/package/dsh-fx-marquee) | Live FX and market ticker above the composer, with trend charts, per-market session status and a frozen-rate currency calculator. 输入框上方的实时汇率跑马灯，含走势图、交易时段与汇率计算器。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-genoffice-captain | 0 | [rajpaulsingh6-stack/dsh-genoffice-captain](https://github.com/rajpaulsingh6-stack/dsh-genoffice-captain) | DeepSeek Harness plugin: when a session invokes the GenOffice task-list skills, it launches GenOffice for a solo session, or opens a DESIGNATE THE CAPTAIN pane to pick the orchestrating session first. | 0.1.7-rc.2 (2026-09-29) |
+| dsh-get-memory | - | [krodon998/dsh-get-memory](https://github.com/krodon998/dsh-get-memory) · [npm](https://www.npmjs.com/package/dsh-get-memory) | 对话开始自动拉取 GitHub 仓库内容注入上下文，对话结束提取长期记忆按文件写回提交。Pulls GitHub repo content into DSH conversations at start and writes long-term memory back at conversation end. | 0.2.0-rc.2 (2026-10-09) |
 | dsh-gildrafo | 0 | [Gildra-Foundation/dsh](https://github.com/Gildra-Foundation/dsh/tree/HEAD/plugins/gildra-dsh-ui-compact) | Compact UI overrides for the Gildra DeepSeek Harness kit | 0.1.1-rc.2 (2026-08-26) |
 | dsh-git-branch-switcher | 0 | [mixin-ai/dsh-git-branch-switcher](https://github.com/mixin-ai/dsh-git-branch-switcher) | DSH web plugin: a Git branch pill in the session header that shows the current workspace branch and switches branches from the UI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-git-commit | 0 | [uckkk/dsh-git-commit](https://github.com/uckkk/dsh-git-commit) | Git 提交助手：分析仓库变更生成规范化 Conventional Commits 提交信息、按提交历史生成 CHANGELOG、按语义化版本建议下一个版本号 | 0.1.0-rc.8 (2026-08-20) |
