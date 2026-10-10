@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-91 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+98 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -99,3 +99,10 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-completion-guard | 0 | [GreenLv/dsh-completion-guard](https://github.com/GreenLv/dsh-completion-guard) · [npm](https://www.npmjs.com/package/dsh-completion-guard) | Helps DSH agents remember your requirements during long tasks and, after a session resumes, checks the key conditions and saved results again so partial work is not reported as complete. | 0.1.1-rc.2 (2026-08-29) |
 | dsh-feishu-beacon | 0 | [jiangdunchun/dsh-feishu-beacon](https://github.com/jiangdunchun/dsh-feishu-beacon) · [npm](https://www.npmjs.com/package/dsh-feishu-beacon) | DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook | 0.1.7-rc.2 (2026-09-29) |
 | dsh-prompt-profiles | 0 | [knopki/dsh-prompt-profiles](https://github.com/knopki/dsh-prompt-profiles) · [npm](https://www.npmjs.com/package/@knopki/dsh-prompt-profiles) | DSH bundle adding a per-session prompt-profile axis: named system-prompt sections grouped into profiles with per-section order and scope, sealed into the session prompt. | 0.1.7-rc.2 (2026-09-29) |
+| kid-coder | - | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-coder) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-coder) | 给小朋友的编程学习启蒙：一个包 = 一张 🐵「小教室·跑代码」卡片（真跑 Python/海龟画图）+ 五个模型工具（kid_run / kid_explain / kid_practice / kid_review / kid_steps），零第三方依赖、无构建步骤。 | 0.2.0-rc.2 (2026-10-10) |
+| kid-memory | - | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-memory) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-memory) | 给小朋友的内存启蒙：一个包 = 一张 🦉「记忆小管家·电脑的工作台」卡片 + 四个模型工具（mem_now / mem_pressure / mem_workbench / mem_top），零第三方依赖、无构建步骤。 | 0.2.0-rc.2 (2026-10-10) |
+| kid-network | - | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-network) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-network) | 给小朋友的网络启蒙：一个包 = 一张 🕊️「信鸽邮局」卡片 + 五个模型工具（net_my_identity / net_trace_trip / net_test_speed / net_who_is_home / net_dns），零第三方依赖、无构建步骤。 | 0.2.0-rc.2 (2026-10-10) |
+| kid-process | - | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-process) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-process) | 给小朋友的进程启蒙：一个包 = 一张 🐝 工人点名卡片 + 四个模型工具（proc_count / proc_busiest / proc_family / proc_badge），零第三方依赖、无构建步骤。 | 0.2.0-rc.2 (2026-10-10) |
+| kid-security | - | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-security) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-security) | 给小朋友的「电脑安全 / 城堡守卫」启蒙：防火墙、磁盘加密、锁屏、远程端口、登录记录五个模型工具，外加一张常驻输入条上方的 🐕 卡片（Cordis bundle）。 | 0.2.0-rc.2 (2026-10-10) |
+| kid-storage | - | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-storage) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-storage) | 给小朋友的「存储 / 大仓库」启蒙：分区全景 + 主目录占用榜 + 大件行李榜三个模型工具，外加一张常驻输入条上方的 🐿️ 卡片（DeepSeek Harness / Cordis）。 | 0.2.0-rc.2 (2026-10-10) |
+| kid-sysmon | - | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-sysmon) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-sysmon) | 给小朋友的「电脑体检 / 资源监控」启蒙：一张 🐻「小熊体检」卡片 + 一个 system_status 工具，查 CPU/内存/磁盘/网络/电池/负载/Top 进程的真实数据（免 sudo，零依赖，无构建）。 | 0.2.0-rc.2 (2026-10-10) |

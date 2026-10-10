@@ -350762,6 +350762,126 @@
         "safety"
       ],
       "pushedAt": "2026-10-07"
+    },
+    {
+      "name": "kid-coder",
+      "repo": "baixiaoustc/dsh-kidlab",
+      "path": "plugins/kid-coder",
+      "description": "给小朋友的编程学习启蒙：一个包 = 一张 🐵「小教室·跑代码」卡片（真跑 Python/海龟画图）+ 五个模型工具（kid_run / kid_explain / kid_practice / kid_review / kid_steps），零第三方依赖、无构建步骤。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-10",
+      "lastVerified": "2026-10-10",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "plugins/kid-coder/package.json#dsh.bundle",
+      "npm": "@kidlab/dsh-kid-coder",
+      "tags": [
+        "knowledge",
+        "fun"
+      ]
+    },
+    {
+      "name": "kid-sysmon",
+      "repo": "baixiaoustc/dsh-kidlab",
+      "path": "plugins/kid-sysmon",
+      "description": "给小朋友的「电脑体检 / 资源监控」启蒙：一张 🐻「小熊体检」卡片 + 一个 system_status 工具，查 CPU/内存/磁盘/网络/电池/负载/Top 进程的真实数据（免 sudo，零依赖，无构建）。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-10",
+      "lastVerified": "2026-10-10",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "plugins/kid-sysmon/package.json#dsh.bundle",
+      "npm": "@kidlab/dsh-kid-sysmon",
+      "tags": [
+        "observability"
+      ]
+    },
+    {
+      "name": "kid-network",
+      "repo": "baixiaoustc/dsh-kidlab",
+      "path": "plugins/kid-network",
+      "description": "给小朋友的网络启蒙：一个包 = 一张 🕊️「信鸽邮局」卡片 + 五个模型工具（net_my_identity / net_trace_trip / net_test_speed / net_who_is_home / net_dns），零第三方依赖、无构建步骤。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-10",
+      "lastVerified": "2026-10-10",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "plugins/kid-network/package.json#dsh.bundle",
+      "npm": "@kidlab/dsh-kid-network",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "kid-storage",
+      "repo": "baixiaoustc/dsh-kidlab",
+      "path": "plugins/kid-storage",
+      "description": "给小朋友的「存储 / 大仓库」启蒙：分区全景 + 主目录占用榜 + 大件行李榜三个模型工具，外加一张常驻输入条上方的 🐿️ 卡片（DeepSeek Harness / Cordis）。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-10",
+      "lastVerified": "2026-10-10",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "plugins/kid-storage/package.json#dsh.bundle",
+      "npm": "@kidlab/dsh-kid-storage",
+      "tags": [
+        "observability"
+      ]
+    },
+    {
+      "name": "kid-memory",
+      "repo": "baixiaoustc/dsh-kidlab",
+      "path": "plugins/kid-memory",
+      "description": "给小朋友的内存启蒙：一个包 = 一张 🦉「记忆小管家·电脑的工作台」卡片 + 四个模型工具（mem_now / mem_pressure / mem_workbench / mem_top），零第三方依赖、无构建步骤。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-10",
+      "lastVerified": "2026-10-10",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "plugins/kid-memory/package.json#dsh.bundle",
+      "npm": "@kidlab/dsh-kid-memory",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "name": "kid-security",
+      "repo": "baixiaoustc/dsh-kidlab",
+      "path": "plugins/kid-security",
+      "description": "给小朋友的「电脑安全 / 城堡守卫」启蒙：防火墙、磁盘加密、锁屏、远程端口、登录记录五个模型工具，外加一张常驻输入条上方的 🐕 卡片（Cordis bundle）。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-10",
+      "lastVerified": "2026-10-10",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "plugins/kid-security/package.json#dsh.bundle",
+      "npm": "@kidlab/dsh-kid-security",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "name": "kid-process",
+      "repo": "baixiaoustc/dsh-kidlab",
+      "path": "plugins/kid-process",
+      "description": "给小朋友的进程启蒙：一个包 = 一张 🐝 工人点名卡片 + 四个模型工具（proc_count / proc_busiest / proc_family / proc_badge），零第三方依赖、无构建步骤。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-10",
+      "lastVerified": "2026-10-10",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "plugins/kid-process/package.json#dsh.bundle",
+      "npm": "@kidlab/dsh-kid-process",
+      "tags": [
+        "observability"
+      ]
     }
   ]
 }
