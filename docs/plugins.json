@@ -350760,6 +350760,23 @@
         "safety"
       ],
       "pushedAt": "2026-10-07"
+    },
+    {
+      "name": "dsh-plugin-subagent-model-route",
+      "repo": "huhu23333/dsh-plugin-subagent-model-route",
+      "npm": "dsh-plugin-subagent-model-route",
+      "description": "给每个子代理标注其实际使用的模型路由：目录行徽标 + 子代理会话页头（纯客户端插件，遮蔽官方目录 UI，复用 modelSelection 投影）",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-09",
+      "lastVerified": "2026-10-09",
+      "verifiedAgainst": "0.2.1-alpha.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "agents",
+        "observability"
+      ]
     }
   ]
 }

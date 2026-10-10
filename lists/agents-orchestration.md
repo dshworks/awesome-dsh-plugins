@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-1554 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1555 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1302,6 +1302,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-plugin-skills-laoboshi | 0 | [Modole/dsh-plugin-skills-laoboshi](https://github.com/Modole/dsh-plugin-skills-laoboshi) | 在 DSH Web 中管理项目级与用户级 Agent Skills。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-sorter | 0 | [inks-knowledge/dsh-plugin-sorter](https://github.com/inks-knowledge/dsh-plugin-sorter) | RimCrow-inspired plugin sorter for DeepSeek Harness: two-column enable/disable board, drag to reorder, draft-apply-restart workflow, groups, notes, and diagnostics. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-split-and-solve | 0 | [uppercrusteve/dsh-plugin-split-and-solve](https://github.com/uppercrusteve/dsh-plugin-split-and-solve) | 科研批量/多子问题任务自动拆分 + 子代理并行求解 + 结果合并（DSH 插件） | 0.1.1-rc.2 (2026-09-01) |
+| dsh-plugin-subagent-model-route | - | [huhu23333/dsh-plugin-subagent-model-route](https://github.com/huhu23333/dsh-plugin-subagent-model-route) · [npm](https://www.npmjs.com/package/dsh-plugin-subagent-model-route) | 给每个子代理标注其实际使用的模型路由：目录行徽标 + 子代理会话页头（纯客户端插件，遮蔽官方目录 UI，复用 modelSelection 投影） | 0.2.1-alpha.1 (2026-10-09) |
 | dsh-plugin-task-runner | 0 | [weixshaw/dsh-plugin-task-runner](https://github.com/weixshaw/dsh-plugin-task-runner) · [npm](https://www.npmjs.com/package/dsh-plugin-task-runner) | Task Runner 任务拆解模式：主代理把大任务拆成独立子任务、派给子代理（默认本地模型）并行执行再综合结果；并发数与 worker/fallback/orchestrator 模型可在设置面板图形化配置。安装时自动把 agent preset 装进 ~/.dsh/.agent-presets/。 | 0.1.1-rc.2 (2026-09-04) |
 | dsh-plugin-terminal-agent | 0 | [antlordGit/dsh-plugin-terminal-agent](https://github.com/antlordGit/dsh-plugin-terminal-agent) | 在 DSH 会话中提供终端智能体面板，作为对话与轨迹之外的第三种会话形态。 | 0.1.1-rc.2 (2026-09-01) |
 | dsh-plugin-toolkit | 0 | [chengganping-ship-it/dsh-plugin-toolkit](https://github.com/chengganping-ship-it/dsh-plugin-toolkit/tree/HEAD/dsh-tool-a2abridge) | 跨平台A2A智能体协议桥接 for DSH - Agent2Agent开放协议、万物互联 | 0.1.1-rc.2 (2026-09-04) |
