@@ -350767,6 +350767,23 @@
         "safety"
       ],
       "pushedAt": "2026-10-07"
+    },
+    {
+      "name": "dsh-project-progress-lph993",
+      "repo": "lph993/dsh-project-progress",
+      "description": "DSH 侧边栏实时进度看板：把项目进度记成功能点/任务点树（带百分比与未完成计数），支持 AI 建树、进度回写、关注/门控/交接文档、快照回滚与审查，含 32 个 pm_* 工具与 /pm/debug 诊断页。",
+      "category": "plugin",
+      "official": false,
+      "npm": "dsh-project-progress",
+      "added": "2026-10-11",
+      "lastVerified": "2026-10-11",
+      "verifiedAgainst": "0.1.5-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "ui",
+        "agents"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-1422 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1423 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1210,6 +1210,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-process-panel | 0 | [ALIWUER/dsh-process-panel](https://github.com/ALIWUER/dsh-process-panel) | Process panel for DeepSeek Harness: start, stop and watch long-running background processes from the sidebar, with live logs. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-progress-fuguier0 | 0 | [fuguier001/dsh-progress](https://github.com/fuguier001/dsh-progress) | Floating water-ball progress indicator for DSH web GUI: watches heartbeat/dircount/dirsize progress files, renders a draggable glass ball with metric-colored halo, silver-highlight thresholds and | 0.1.7-rc.2 (2026-09-29) |
 | dsh-project-groups | 0 | [ThinkofRain1213/dsh-project-groups](https://github.com/ThinkofRain1213/dsh-project-groups) · [npm](https://www.npmjs.com/package/dsh-project-groups) | DSH plugin: owns the sidebar workspace browser (vendored from the official plugin) so project-grouping logic can be layered onto the real UI instead of a reimplementation. | 0.2.0-rc.2 (2026-09-30) |
+| dsh-project-progress-lph993 | - | [lph993/dsh-project-progress](https://github.com/lph993/dsh-project-progress) · [npm](https://www.npmjs.com/package/dsh-project-progress) | DSH 侧边栏实时进度看板：把项目进度记成功能点/任务点树（带百分比与未完成计数），支持 AI 建树、进度回写、关注/门控/交接文档、快照回滚与审查，含 32 个 pm_* 工具与 /pm/debug 诊断页。 | 0.1.5-rc.2 (2026-10-11) |
 | dsh-prompt-polish-gaoweiaf | 0 | [gaowei-AFK/dsh-prompt-polish](https://github.com/gaowei-AFK/dsh-prompt-polish) | Prompt polish — a DeepSeek Harness WebUI plugin that adds a one-click button to rewrite rough input into a structured, professional prompt, written back into the input box. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-prompt-toolkit | 0 | [Ethereal-ljq/dsh-prompt-toolkit](https://github.com/Ethereal-ljq/dsh-prompt-toolkit) | DSH Web 提示词工作台：把输入框里的草稿整理成一条可直接执行的命令（引擎 fork 自 WestFox-AwA/dsh-prompt-optimizer，BSD-3-Clause，署名保留；界面与交互为本项目自有） | 0.1.7-rc.2 (2026-09-29) |
 | dsh-question-panel-collapse | 0 | [Townrain/dsh-question-panel-collapse](https://github.com/Townrain/dsh-question-panel-collapse) | 提问面板折叠：agent 提问时把问答面板折叠成一条紧凑条（保留标题与取消），展开后回答草稿不丢。Collapse the DSH question panel into a compact strip; the unsent answer draft survives expand. | 0.1.0-rc.8 (2026-08-20) |
