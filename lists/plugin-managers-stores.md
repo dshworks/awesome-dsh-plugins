@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-568 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+569 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -436,6 +436,7 @@ In-UI stores, installers, skill managers.
 | dsh-plugin-agents-loader | 0 | [CrazyPigHead/dsh-plugin-agents-loader](https://github.com/CrazyPigHead/dsh-plugin-agents-loader) | Auto-discover and load ~/.agents/mcp.json MCP servers (http + stdio), ~/.agents/commands/ slash commands, and ~/.agents/AGENTS.md into dsh | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-app-manager-laoboshi | 0 | [Modole/dsh-plugin-app-manager-laoboshi](https://github.com/Modole/dsh-plugin-app-manager-laoboshi) | 为劳博士 DSH 桌面客户端提供本地应用登记、启动、日志和 API 文档管理。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-archive-manager | 0 | [piaohua/dsh-plugin-archive-manager](https://github.com/piaohua/dsh-plugin-archive-manager) | DSH (DeepSeek Harness) workspace archive manager: view archived sessions in place with dimmed titles, filter the workspace list by archived / not-archived from the view options, and unarchive | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-autoupdate | 0 | [publieople/dsh-plugin-autoupdate](https://github.com/publieople/dsh-plugin-autoupdate) · [npm](https://www.npmjs.com/package/dsh-plugin-autoupdate) | Supply-chain-aware plugin updater for DeepSeek Harness: updates profile plugins only to versions pnpm's release-age policy allows, snapshots before every change and can roll back. | 0.2.0-rc.2 (2026-10-14) |
 | dsh-plugin-catalog-fengs202 | 0 | [fengs2021/dsh-plugin-catalog](https://github.com/fengs2021/dsh-plugin-catalog) | Plugin catalog for the dsh web GUI: a Settings section listing every installed profile bundle, auto-grouped by source (DSH core / UI suite / community / local / GitHub), each with a searchable | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-categories | 0 | [superFAN14/dsh-plugin-categories](https://github.com/superFAN14/dsh-plugin-categories) | Categorized plugin list for DeepSeek Harness: all / system / market / favorites, with enable-disable, favorite and uninstall. · DSH 插件分类管理：全部/系统/市场/收藏 四视图 + 启停/收藏/卸载/批量操作。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-certification | 0 | [PerryLink/dsh-plugin-certification](https://github.com/PerryLink/dsh-plugin-certification) | Community certification registry for DeepSeek Harness plugins: public spec, machine-checkable scoring model, registry data and badges. Data repository - ships no Cordis plugin and is not installable. | unverified |

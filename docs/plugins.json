@@ -350777,6 +350777,26 @@
         "safety"
       ],
       "pushedAt": "2026-10-07"
+    },
+    {
+      "name": "dsh-plugin-autoupdate",
+      "repo": "publieople/dsh-plugin-autoupdate",
+      "description": "Supply-chain-aware plugin updater for DeepSeek Harness: updates profile plugins only to versions pnpm's release-age policy allows, snapshots before every change and can roll back.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-14",
+      "lastVerified": "2026-10-14",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-plugin-autoupdate",
+      "stars": 0,
+      "starsUpdated": "2026-10-14",
+      "tags": [
+        "marketplace",
+        "safety"
+      ],
+      "pushedAt": "2026-10-14"
     }
   ]
 }
