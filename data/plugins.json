@@ -350786,6 +350786,25 @@
         "safety"
       ],
       "pushedAt": "2026-10-07"
+    },
+    {
+      "name": "dsh-grill-first",
+      "repo": "InoriMutsumi/dsh-grill-first",
+      "description": "开工前的需求访谈门禁：模糊任务分轮追问，strict 档位下未确认前拦截编辑类工具。Requirements interview gate that clarifies vague tasks and, in strict mode, blocks edit tools until the user confirms.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-15",
+      "lastVerified": "2026-10-15",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-10-15",
+      "tags": [
+        "agents",
+        "safety"
+      ],
+      "pushedAt": "2026-10-15"
     }
   ]
 }

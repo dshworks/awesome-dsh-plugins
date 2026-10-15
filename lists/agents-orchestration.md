@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-1554 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1555 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1197,6 +1197,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-goodjob | 0 | [fentz26/dsh-goodjob](https://github.com/fentz26/dsh-goodjob) | GoodJob — background jobs, waits, and agent operations for DeepSeek Harness | 0.1.1-rc.2 (2026-08-28) |
 | dsh-gov | 0 | [863683348/dsh-gov](https://github.com/863683348/dsh-gov) · [npm](https://www.npmjs.com/package/dsh-gov) | Agent governance suite for DeepSeek Harness (enterprise companion): policy-based tool gating (allow/deny/ask), structured JSONL audit trail, and per-agent token quotas against the host token meter — | 0.1.0-rc.8 (2026-08-20) |
 | dsh-goz | 0 | [hfyydd/dsh-goz](https://github.com/hfyydd/dsh-goz) | Everything-class whole-disk file lookup for DeepSeek Harness, backed by the goz engine (MFT filename index). Lets the agent answer "where is that file" across projects in milliseconds. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-grill-first | 0 | [InoriMutsumi/dsh-grill-first](https://github.com/InoriMutsumi/dsh-grill-first) | 开工前的需求访谈门禁：模糊任务分轮追问，strict 档位下未确认前拦截编辑类工具。Requirements interview gate that clarifies vague tasks and, in strict mode, blocks edit tools until the user confirms. | 0.2.0-rc.2 (2026-10-15) |
 | dsh-grok-plan-mode | 0 | [aa2246740/dsh-grok-plan-mode](https://github.com/aa2246740/dsh-grok-plan-mode) | Full Grok Build Plan Mode port for DeepSeek Harness. Replaces official DSH Plan. | 0.1.1-rc.2 (2026-08-26) |
 | dsh-group-chat-wystars | 0 | [wyStars/dsh-group-chat](https://github.com/wyStars/dsh-group-chat) · [npm](https://www.npmjs.com/package/@stars-w/dsh-group-chat) | AI 主持人驱动的多角色群聊插件（DSH Host）：自动生成主持人 + 3~6 专家团队、动态调度讨论、成员 subagent 深度推理、总结结论并导出 md 到工作区 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-groupx | 0 | [Harzva/dsh-groupx](https://github.com/Harzva/dsh-groupx) | DSH-native GroupX room bridge for local multi-agent collaboration | 0.1.0-rc.8 (2026-08-20) |
