@@ -350779,6 +350779,25 @@
         "safety"
       ],
       "pushedAt": "2026-10-07"
+    },
+    {
+      "name": "dsh-reasoning-distill",
+      "repo": "huhu23333/dsh-reasoning-distill",
+      "description": "Distills over-long model reasoning into its useful core, replays the compressed version on every later request, and reports per-session cost and savings.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-16",
+      "lastVerified": "2026-10-16",
+      "verifiedAgainst": "0.2.1-alpha.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-10-16",
+      "tags": [
+        "usage",
+        "memory"
+      ],
+      "pushedAt": "2026-10-16"
     }
   ]
 }
