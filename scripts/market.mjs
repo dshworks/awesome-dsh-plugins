@@ -28,11 +28,13 @@
 //
 // Per version: `publishTimestamp` is npm's `time[version]`, `source` is
 // {type: "npm"} (no registry: dsh asks its configured registries, npmjs by
-// default), and `engines.dsh` is the version's own `engines.dsh`, copied
-// unchanged, or absent. Absent means "any dsh" to the 0.2.1-rc.2 reader;
-// installation still applies dsh's peer gate. We do not synthesise a range
-// from @deepseek-ai/dsh* peers the way dsh's reference generator does: a range
-// the author never declared would be our claim printed as theirs.
+// default), and `engines.dsh` is derived exactly as dsh's reference generator
+// derives it (dshRange below, a line-for-line port): the version's own
+// `engines.dsh`, else the conjunction of its @deepseek-ai/dsh* peer ranges. A
+// version whose range is invalid or unsatisfiable is left out, as the
+// generator leaves it out. Without the peer fallback, the Discover card would
+// call a version compatible that dsh's install gate then refuses, because the
+// gate reads those same peers when `engines.dsh` is absent.
 //
 // Per plugin: title and description come from the registry row (the curated
 // text), repository from the row's verified repo and path; author, homepage,
@@ -109,11 +111,61 @@ function refusal(plugin) {
 const isObject = (v) => typeof v === "object" && v !== null && !Array.isArray(v);
 const text = (v) => (typeof v === "string" && v.trim() !== "" ? v : undefined);
 
-// Reference generator rule (apps/plugin-market-generator/src/packages.ts).
+// Ports of dsh's reference generator at tag dsh-v0.2.1-rc.2, kept line for
+// line so a diff against the source stays readable. Do not "improve" them: the
+// point is that our index says what dsh's own generator would say.
+//
+// apps/plugin-market-generator/src/packages.ts:60-64
 function isBundle(manifest) {
   const bundle = manifest?.dsh?.bundle;
   if (!isObject(bundle)) return false;
   return typeof bundle.patch === "string" || (Array.isArray(bundle.patch) && bundle.patch.every((f) => typeof f === "string"));
+}
+
+// apps/plugin-market-generator/src/packages.ts:28-30
+const DSH_PEER = /^@deepseek-ai\/dsh(?:-|$)/u;
+/** Ranges that installation reads as the running DSH version. */
+const CURRENT_DSH = new Set(["workspace:*", "workspace:^", "workspace:~"]);
+
+// apps/plugin-market-generator/src/packages.ts:66-71
+const validRange = (range) => range !== "" && !range.startsWith("workspace:") && semver.validRange(range) !== null;
+const invalidRange = (range) => new Error(`DSH range ${JSON.stringify(range)} is not a valid SemVer range`);
+const MAX_RANGE_ALTERNATIVES = 256;
+
+// apps/plugin-market-generator/src/packages.ts:73-105 (dshRange).
+// The `engines.dsh` range an index lists for a manifest: its own `engines.dsh`
+// string, otherwise the conjunction of its @deepseek-ai/dsh and
+// @deepseek-ai/dsh-* peer ranges. A peer of exactly workspace:*, workspace:^,
+// or workspace:~ means the running DSH version, and a `*` range admits every
+// version; both impose nothing. A single remaining range is listed as written.
+// Several ranges are combined: one `||` alternative of each range, each
+// comparator kept once, combinations no version satisfies (prereleases
+// included) dropped. Returns the range, undefined for any DSH version, or an
+// Error when installation finds the version incompatible with every DSH
+// version: an empty, workspace:, or invalid range, or ranges no version
+// satisfies together.
+function dshRange(manifest) {
+  const declared = isObject(manifest.engines) ? manifest.engines.dsh : undefined;
+  const ranges = typeof declared === "string" ? [declared]
+    : Object.entries(isObject(manifest.peerDependencies) ? manifest.peerDependencies : {})
+      .flatMap(([name, range]) => DSH_PEER.test(name) && typeof range === "string" && !CURRENT_DSH.has(range) ? [range] : []);
+  const used = [...new Set(ranges.map((range) => range.trim()))].filter((range) => range !== "*");
+  if (used.length === 0) return undefined;
+  let combinations = [[]];
+  for (const range of used) {
+    if (!validRange(range)) return invalidRange(range);
+    const alternatives = new semver.Range(range, { includePrerelease: true }).set
+      .map((set) => set.map((comparator) => comparator.value).filter(Boolean));
+    if (combinations.length * alternatives.length > MAX_RANGE_ALTERNATIVES) {
+      return new Error(`DSH peer ranges combine into more than ${MAX_RANGE_ALTERNATIVES} alternatives`);
+    }
+    combinations = combinations.flatMap((prefix) => alternatives.map((alternative) => [...new Set([...prefix, ...alternative])]))
+      .filter((combination) => semver.minVersion(new semver.Range(combination.join(" ") || "*", { includePrerelease: true })) !== null);
+  }
+  if (combinations.length === 0) return new Error(`no DSH version satisfies ${used.length === 1 ? "the DSH range" : "every DSH peer range"}: ${used.join(", ")}`);
+  const written = [...new Set(combinations.map((combination) => combination.join(" ") || "*"))];
+  if (written.includes("*")) return undefined;
+  return used.length === 1 ? used[0] : written.join(" || ");
 }
 
 // npm person: an object's `name`, or the name part of `Name <email> (url)`.
@@ -173,15 +225,18 @@ async function entryFor(row, versionSkips) {
 
   const versions = [];
   let bundles = 0;
+  // apps/plugin-market-generator/src/generate.ts:163-168 (readNpm) and
+  // :131-145 (releaseOf): a dshRange Error skips the version, undefined lists
+  // it without engines, a string becomes engines.dsh.
   for (const [version, manifest] of Object.entries(doc.versions)) {
     if (!isBundle(manifest)) continue;
     bundles++;
-    if (text(manifest.deprecated) !== undefined) {
+    if (typeof manifest.deprecated === "string" && manifest.deprecated !== "") {
       tally(versionSkips, "deprecated");
       continue;
     }
-    const published = Date.parse(doc.time?.[version]);
-    if (!Number.isFinite(published)) {
+    const published = doc.time?.[version];
+    if (typeof published !== "string") {
       tally(versionSkips, "no publish time in npm `time`");
       continue;
     }
@@ -189,12 +244,18 @@ async function entryFor(row, versionSkips) {
       tally(versionSkips, "not a canonical SemVer version");
       continue;
     }
-    const declared = isObject(manifest.engines) && Object.hasOwn(manifest.engines, "dsh") ? manifest.engines.dsh : undefined;
+    const range = dshRange(manifest);
+    if (range instanceof Error) {
+      tally(versionSkips, range.message.startsWith("no DSH version") ? "no dsh version satisfies its dsh range(s)"
+        : range.message.startsWith("DSH peer ranges combine") ? "dsh peer ranges combine into too many alternatives"
+          : "dsh range is empty, workspace:, or not valid SemVer");
+      continue;
+    }
     const entry = {
       version,
-      publishTimestamp: Math.floor(published / 1000),
+      publishTimestamp: Math.floor(Date.parse(published) / 1000),
       source: { type: "npm" },
-      ...(declared === undefined ? {} : { engines: { dsh: declared } }),
+      ...(typeof range === "string" ? { engines: { dsh: range } } : {}),
     };
     const why = refusal({ name: row.npm, versions: [entry] });
     if (why) {
@@ -204,7 +265,7 @@ async function entryFor(row, versionSkips) {
     versions.push(entry);
   }
   if (bundles === 0) return { skip: "no published version declares dsh.bundle" };
-  if (versions.length === 0) return { skip: "every dsh.bundle version is deprecated or refused" };
+  if (versions.length === 0) return { skip: "every dsh.bundle version is deprecated or has an unusable dsh range" };
 
   // rsort keeps npm's order for ties, as the format asks.
   const order = semver.rsort(versions.map((v) => v.version));
@@ -280,7 +341,7 @@ parseMarketIndex(JSON.parse(body), INDEX_URL);
 const nVersions = plugins.reduce((n, p) => n + p.versions.length, 0);
 const nEngines = plugins.reduce((n, p) => n + p.versions.filter((v) => v.engines?.dsh !== undefined).length, 0);
 const nGitOnly = data.plugins.length - data.plugins.filter((p) => p.npm).length;
-console.log(`market: ${plugins.length} plugins, ${nVersions} versions (${nEngines} declare engines.dsh), from ${rows.length} npm rows`);
+console.log(`market: ${plugins.length} plugins, ${nVersions} versions (${nEngines} carry engines.dsh), from ${rows.length} npm rows`);
 if (kept) console.log(`market: ${kept} kept from the last index (npm did not answer)`);
 for (const [why, n] of [...pluginSkips].sort((a, b) => b[1] - a[1])) console.log(`market: skipped ${n} rows: ${why}`);
 for (const [why, n] of [...versionSkips].sort((a, b) => b[1] - a[1])) console.log(`market: skipped ${n} bundle versions: ${why}`);
