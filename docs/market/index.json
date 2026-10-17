@@ -5862,6 +5862,124 @@
       ]
     },
     {
+      "name": "dsh-ops",
+      "title": "dsh-ops",
+      "description": "Native file and PTC tools for DSH on Windows x64, Linux x64 and macOS Apple Silicon; Windows-only optional Bash and PowerShell 7 payloads",
+      "homepage": "https://github.com/T-Auto/dsh-ops#readme",
+      "repository": {
+        "url": "https://github.com/T-Auto/dsh-ops"
+      },
+      "metadata": {
+        "category": "capabilities",
+        "labels": [
+          "capabilities"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "mcp",
+          "fastctx",
+          "repository-tools"
+        ],
+        "sortKeys": {
+          "stars": 2685
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1791952211,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.9",
+          "publishTimestamp": 1791713725,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.6",
+          "publishTimestamp": 1791599107,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1791598088,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.5-beta.1",
+          "publishTimestamp": 1791523190,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.4",
+          "publishTimestamp": 1791468348,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.3",
+          "publishTimestamp": 1791462605,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1791461085,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1791458417,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.2"
+          }
+        }
+      ]
+    },
+    {
       "name": "@smalltailqwq/dsh-client-ui-skin-maid-atelier",
       "title": "dsh-deep-whale",
       "description": "Whale-girl skin series for the web UI; maid-atelier ships as a dsh.bundle package installed from a local clone (CC BY-NC-SA, non-commercial)",
@@ -9824,6 +9942,13 @@
       },
       "versions": [
         {
+          "version": "0.1.198",
+          "publishTimestamp": 1792237914,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
           "version": "0.1.197",
           "publishTimestamp": 1791966879,
           "source": {
@@ -12087,6 +12212,27 @@
         {
           "version": "0.1.119-pr.950.792",
           "publishTimestamp": 1789740137,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.4215-pr.3564.bf318cf",
+          "publishTimestamp": 1792237724,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.4213-pr.3541.8a57d94",
+          "publishTimestamp": 1792237367,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.4212-pr.3562.6818e36",
+          "publishTimestamp": 1792237538,
           "source": {
             "type": "npm"
           }
@@ -65964,6 +66110,16 @@
       },
       "versions": [
         {
+          "version": "0.3.17",
+          "publishTimestamp": 1792237384,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.2-rc.1 || >=0.1.5-rc.1 <0.3.0-0"
+          }
+        },
+        {
           "version": "0.3.16",
           "publishTimestamp": 1792225361,
           "source": {
@@ -71002,7 +71158,7 @@
       "description": "Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.",
       "homepage": "https://github.com/Sev7eEn7/sieve#readme",
       "repository": {
-        "url": "https://github.com/Sev7eEn7/sieve",
+        "url": "https://github.com/Sev7eEn7/dsh-sieve",
         "directory": "packages/dsh-sieve"
       },
       "metadata": {
@@ -114266,6 +114422,16 @@
       },
       "versions": [
         {
+          "version": "0.2.6",
+          "publishTimestamp": 1792237446,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1"
+          }
+        },
+        {
           "version": "0.2.5",
           "publishTimestamp": 1792154061,
           "source": {
@@ -115586,7 +115752,7 @@
       "description": "Persistent MCP server management UI for DeepSeek Harness Web — FAB overlay + Settings tab, backed by a host Remote (list/status/enable/disable/reconnect/tools/add/update/removeServer).",
       "homepage": "https://github.com/Imzl-zl/dsh-mcp-manager-ui#readme",
       "repository": {
-        "url": "https://github.com/Imzl-zl/dsh-mcp-manager-ui"
+        "url": "https://github.com/Imzl-zl/dsh-toolbox-ui"
       },
       "metadata": {
         "category": "marketplace",
@@ -117242,6 +117408,74 @@
           "publishTimestamp": 1788346185,
           "source": {
             "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@huliux/dsh-asr-plugin",
+      "title": "dsh-asr-plugin",
+      "description": "Local recording and meeting transcription for DSH on macOS (Apple Silicon only)",
+      "homepage": "https://github.com/huliux/dsh-asr-plugin#readme",
+      "repository": {
+        "url": "https://github.com/huliux/dsh-asr-plugin"
+      },
+      "metadata": {
+        "category": "capabilities",
+        "labels": [
+          "capabilities",
+          "ui"
+        ],
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "asr",
+          "meeting-transcription",
+          "local-transcription"
+        ],
+        "sortKeys": {
+          "stars": 23
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1791368003,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1791344693,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1791018179,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2"
+          }
+        },
+        {
+          "version": "0.1.0-alpha.18",
+          "publishTimestamp": 1790942891,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2"
           }
         }
       ]
@@ -125252,6 +125486,13 @@
       },
       "versions": [
         {
+          "version": "0.17.0",
+          "publishTimestamp": 1792237527,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
           "version": "0.16.5",
           "publishTimestamp": 1792225874,
           "source": {
@@ -126794,6 +127035,16 @@
         }
       },
       "versions": [
+        {
+          "version": "0.4.7",
+          "publishTimestamp": 1792237956,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        },
         {
           "version": "0.4.6",
           "publishTimestamp": 1791644461,
@@ -173840,7 +174091,7 @@
       "author": "OMSociety",
       "homepage": "https://github.com/OMSociety/dsh-kimi-ppt#readme",
       "repository": {
-        "url": "https://github.com/OMSociety/dsh-kimi-ppt"
+        "url": "https://github.com/OMSociety/dsh-ppt-maker"
       },
       "metadata": {
         "category": "models",
@@ -189510,7 +189761,7 @@
       "author": "zlZayn",
       "homepage": "https://github.com/zlZayn/dsh-workbuddy-bridge#readme",
       "repository": {
-        "url": "https://github.com/zlZayn/dsh-workbuddy-bridge"
+        "url": "https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge"
       },
       "metadata": {
         "category": "terminal",
@@ -207152,6 +207403,16 @@
         }
       },
       "versions": [
+        {
+          "version": "0.7.3",
+          "publishTimestamp": 1792237931,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.1 || ^0.2.1-rc.1"
+          }
+        },
         {
           "version": "0.7.2",
           "publishTimestamp": 1792234689,
@@ -283394,6 +283655,16 @@
         }
       },
       "versions": [
+        {
+          "version": "1.3.10",
+          "publishTimestamp": 1792237688,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2 <0.3.0-0"
+          }
+        },
         {
           "version": "1.3.9",
           "publishTimestamp": 1792233358,
@@ -372289,6 +372560,16 @@
       },
       "versions": [
         {
+          "version": "0.4.7",
+          "publishTimestamp": 1792237628,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        },
+        {
           "version": "0.4.6",
           "publishTimestamp": 1791644381,
           "source": {
@@ -413045,187 +413326,6 @@
       ]
     },
     {
-      "name": "@moon16u/dsh-pouch",
-      "title": "dsh-pouch",
-      "description": "A collection of small, beautiful, and practical plugins for DeepSeek Harness (DSH)",
-      "author": "moon16u",
-      "homepage": "https://github.com/moon16u/dsh-pouch#readme",
-      "repository": {
-        "url": "https://github.com/moon16u/dsh-pouch"
-      },
-      "metadata": {
-        "category": "capabilities",
-        "labels": [
-          "capabilities"
-        ],
-        "keywords": [
-          "deepseek-harness",
-          "dsh",
-          "dsh-plugin",
-          "cordis",
-          "plugins"
-        ],
-        "sortKeys": {
-          "stars": 1
-        }
-      },
-      "versions": [
-        {
-          "version": "0.7.3",
-          "publishTimestamp": 1792236410,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.1-rc.1"
-          }
-        },
-        {
-          "version": "0.7.2",
-          "publishTimestamp": 1792235197,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.1-rc.1"
-          }
-        },
-        {
-          "version": "0.7.1",
-          "publishTimestamp": 1792233060,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.1-rc.1"
-          }
-        },
-        {
-          "version": "0.7.0",
-          "publishTimestamp": 1792219776,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2"
-          }
-        },
-        {
-          "version": "0.6.0",
-          "publishTimestamp": 1792214856,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2"
-          }
-        },
-        {
-          "version": "0.5.3",
-          "publishTimestamp": 1792208215,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2"
-          }
-        },
-        {
-          "version": "0.5.2",
-          "publishTimestamp": 1791689449,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2"
-          }
-        },
-        {
-          "version": "0.5.1",
-          "publishTimestamp": 1790687659,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2"
-          }
-        },
-        {
-          "version": "0.5.0",
-          "publishTimestamp": 1790508599,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.1.7-rc.2"
-          }
-        },
-        {
-          "version": "0.4.2",
-          "publishTimestamp": 1789064060,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.4.1",
-          "publishTimestamp": 1788714576,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.4.0",
-          "publishTimestamp": 1788607970,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.3.2",
-          "publishTimestamp": 1788017016,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.3.1",
-          "publishTimestamp": 1787958370,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.3.0",
-          "publishTimestamp": 1787956867,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.2.0",
-          "publishTimestamp": 1787753742,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.1.1",
-          "publishTimestamp": 1787329679,
-          "source": {
-            "type": "npm"
-          }
-        },
-        {
-          "version": "0.1.0",
-          "publishTimestamp": 1787251662,
-          "source": {
-            "type": "npm"
-          }
-        }
-      ]
-    },
-    {
       "name": "dsh-power-xc",
       "title": "dsh-power-xc",
       "description": "Self-contained power control for DSH: sidebar power button with an upward 重启/关机 menu plus a Windows-shutdown-style overlay. Own restart & shutdown engine (no dependency on other plugins), MIT",
@@ -413531,6 +413631,16 @@
         }
       },
       "versions": [
+        {
+          "version": "0.4.7",
+          "publishTimestamp": 1792237935,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        },
         {
           "version": "0.4.6",
           "publishTimestamp": 1791644406,
@@ -451188,7 +451298,7 @@
       "title": "dsh-agent-policy",
       "description": "Shared Claw/session policy schema, preset bases, MCP init defaults. Does not deny tools. 策略契约：schema / 预设基类 / MCP 初始化默认，不执行拦截。",
       "repository": {
-        "url": "https://github.com/xingyingyuzhui/dsh-agent-policy"
+        "url": "https://github.com/xingyingyuzhui/dsh-claw-policy"
       },
       "metadata": {
         "category": "memory",
@@ -458703,6 +458813,98 @@
           },
           "engines": {
             "dsh": ">=0.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@dightendless/dsh-bridge-browser",
+      "title": "dsh-browser-dightend",
+      "description": "Operate the Chrome or Edge tab you are already in, through the unpacked extension: hover, coordinate clicks, drag, batched actions, whole-page screenshots, file upload, image addresses and switching",
+      "author": "DightEndless",
+      "homepage": "https://github.com/DightEndless/dsh-browser#readme",
+      "repository": {
+        "url": "https://github.com/DightEndless/dsh-browser",
+        "directory": "packages/browser/bridge-browser"
+      },
+      "metadata": {
+        "category": "capabilities",
+        "labels": [
+          "capabilities"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "browser-automation",
+          "chrome-extension",
+          "edge-extension",
+          "ai-agent",
+          "cordis"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.5",
+          "publishTimestamp": 1791786066,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2 || >=0.2.1-alpha.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.3.4",
+          "publishTimestamp": 1791733483,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2 || >=0.2.1-alpha.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1791728032,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2 || >=0.2.1-alpha.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1791697157,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2 || >=0.2.1-alpha.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1791696805,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2 || >=0.2.1-alpha.1 <0.3.0"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1791695764,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2"
           }
         }
       ]
@@ -476823,7 +477025,7 @@
       "author": "citisen",
       "homepage": "https://github.com/citisen/dsh-font#readme",
       "repository": {
-        "url": "https://github.com/citisen/dsh-font"
+        "url": "https://github.com/caparisen/dsh-font"
       },
       "metadata": {
         "category": "ui",
@@ -478101,6 +478303,85 @@
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6 <0.2.0-0 >=0.1.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-get-memory",
+      "title": "dsh-get-memory",
+      "description": "Get记忆插件：对话开始时自动拉取GitHub指定仓库的内容并注入上下文；对话结束时提取值得长期记住的新信息写回并提交；左栏快捷面板实时查看状态，设置界面进行详细配置",
+      "homepage": "https://github.com/krodon998/dsh-get-memory#readme",
+      "repository": {
+        "url": "https://github.com/krodon998/dsh-get-memory"
+      },
+      "metadata": {
+        "category": "memory",
+        "labels": [
+          "memory"
+        ],
+        "keywords": [
+          "dsh",
+          "plugin",
+          "cordis",
+          "memory",
+          "aire",
+          "github",
+          "get-memory",
+          "deepseek-harness"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.5.1",
+          "publishTimestamp": 1791608415,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.5.0",
+          "publishTimestamp": 1791601525,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1791559161,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1791558534,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1791557628,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.3.4",
+          "publishTimestamp": 1791556799,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1791553699,
+          "source": {
+            "type": "npm"
           }
         }
       ]
@@ -481125,7 +481406,7 @@
       "author": "wujue",
       "homepage": "https://github.com/WuJiaoJue/dsh-herdr-site",
       "repository": {
-        "url": "https://github.com/WuJiaoJue/dsh-herdr-site"
+        "url": "https://github.com/dsh-plugin-collection/dsh-herdr-site"
       },
       "metadata": {
         "category": "terminal",
@@ -499917,6 +500198,16 @@
       },
       "versions": [
         {
+          "version": "0.1.4",
+          "publishTimestamp": 1792237476,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-alpha.1"
+          }
+        },
+        {
           "version": "0.1.3",
           "publishTimestamp": 1791011920,
           "source": {
@@ -504135,6 +504426,82 @@
       ]
     },
     {
+      "name": "dsh-plugin-autoupdate",
+      "title": "dsh-plugin-autoupdate",
+      "description": "Supply-chain-aware plugin updater for DeepSeek Harness: checks the plugins installed in your profiles, applies only the versions pnpm's minimum-release-age policy allows, snapshots before every",
+      "author": "publieople",
+      "homepage": "https://github.com/publieople/dsh-plugin-autoupdate#readme",
+      "repository": {
+        "url": "https://github.com/publieople/dsh-plugin-autoupdate"
+      },
+      "metadata": {
+        "category": "marketplace",
+        "labels": [
+          "marketplace",
+          "safety"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek",
+          "deepseek-harness",
+          "plugin",
+          "update",
+          "updater",
+          "auto-update",
+          "maintenance",
+          "supply-chain",
+          "profile",
+          "cordis"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1791966082,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+          }
+        },
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1791684929,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1791681263,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791626091,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.1.7-rc.1 || ^0.2.0-rc.1"
+          }
+        }
+      ]
+    },
+    {
       "name": "@huanlin/dsh-plugin-better-plan",
       "title": "dsh-plugin-better-plan",
       "description": "取代 DSH 内置 plan mode 的计划交付体验：计划先写成 markdown 文件，经侧边栏「计划面板」展示，聊天里只剩紧凑审批卡（审批流与原版一致）。 | Replaces the built-in plan mode's plan delivery: plans are written to a markdown file first and shown in the",
@@ -504841,7 +505208,7 @@
       "description": "Devin CLI inside DeepSeek Harness: a `devin` delegation tool, a /devin command, and a `devin` LLM provider route — all over the ctx.subprocess seam.",
       "homepage": "https://github.com/quonaro/dsh-plugin-devin#readme",
       "repository": {
-        "url": "https://github.com/quonaro/dsh-plugin-devin"
+        "url": "https://github.com/alexisvaleev/dsh-plugin-devin"
       },
       "metadata": {
         "category": "models",
@@ -509073,6 +509440,58 @@
       ]
     },
     {
+      "name": "dsh-plugin-subagent-model-route",
+      "title": "dsh-plugin-subagent-model-route",
+      "description": "Annotate every subagent with the model route it actually ran on: a badge line in each parent-catalog row and a readout in a child session's own header.",
+      "author": "huhu233",
+      "homepage": "https://github.com/huhu23333/dsh-plugin-subagent-model-route#readme",
+      "repository": {
+        "url": "https://github.com/huhu23333/dsh-plugin-subagent-model-route"
+      },
+      "metadata": {
+        "category": "agents",
+        "labels": [
+          "agents",
+          "observability"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "subagent",
+          "model",
+          "catalog",
+          "client-plugin"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1791622032,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1791602670,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1791481405,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-plugin-task-runner",
       "title": "dsh-plugin-task-runner",
       "description": "Task Runner 任务拆解模式：主代理把大任务拆成独立子任务、派给子代理（默认本地模型）并行执行再综合结果；并发数与 worker/fallback/orchestrator 模型可在设置面板图形化配置。安装时自动把 agent preset 装进 ~/.dsh/.agent-presets/。",
@@ -511883,6 +512302,61 @@
         {
           "version": "0.1.1",
           "publishTimestamp": 1788154948,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-project-progress",
+      "title": "dsh-project-progress-lph993",
+      "description": "Project Manager — 侧边栏实时进度看板（DSH 双面插件）：项目进度树 + 百分比与未完成计数、关注/门控/交接、回滚点与审查。",
+      "homepage": "https://github.com/lph993/dsh-project-progress#readme",
+      "repository": {
+        "url": "https://github.com/lph993/dsh-project-progress"
+      },
+      "metadata": {
+        "category": "ui",
+        "labels": [
+          "ui",
+          "agents"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "project-management",
+          "progress",
+          "kanban",
+          "sidebar"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1791725459,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1791718258,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1791683247,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791682778,
           "source": {
             "type": "npm"
           }
@@ -514757,6 +515231,80 @@
         {
           "version": "0.1.0",
           "publishTimestamp": 1788426226,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-reasoning-distill",
+      "title": "dsh-reasoning-distill",
+      "description": "Distill over-long model reasoning into its useful core and replay the distilled version on every later request, with a per-session cost report.",
+      "author": "huhu233",
+      "homepage": "https://github.com/huhu23333/dsh-reasoning-distill#readme",
+      "repository": {
+        "url": "https://github.com/huhu23333/dsh-reasoning-distill"
+      },
+      "metadata": {
+        "category": "usage",
+        "labels": [
+          "usage",
+          "memory"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "reasoning",
+          "thinking",
+          "distill",
+          "token",
+          "cache"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1792226712,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1792175220,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1792170287,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1792167800,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1792167310,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792161669,
           "source": {
             "type": "npm"
           }
@@ -540701,6 +541249,16 @@
       },
       "versions": [
         {
+          "version": "0.2.2",
+          "publishTimestamp": 1792238017,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2"
+          }
+        },
+        {
           "version": "0.2.1",
           "publishTimestamp": 1792226706,
           "source": {
@@ -548553,6 +549111,255 @@
         {
           "version": "0.1.0",
           "publishTimestamp": 1786852285,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@kidlab/dsh-kid-coder",
+      "title": "kid-coder",
+      "description": "给小朋友的编程学习启蒙插件：一个包 = 一张 「小教室·跑代码」卡片（真跑 Python/海龟画图）+ 五个模型工具（kid_run / kid_explain / kid_practice / kid_review / kid_steps），零第三方依赖、无构建步骤。",
+      "author": "baixiaoustc",
+      "homepage": "https://github.com/baixiaoustc/dsh-kidlab#readme",
+      "repository": {
+        "url": "https://github.com/baixiaoustc/dsh-kidlab",
+        "directory": "plugins/kid-coder"
+      },
+      "metadata": {
+        "category": "knowledge",
+        "labels": [
+          "knowledge",
+          "fun"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "kid",
+          "coder",
+          "python",
+          "turtle"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791529544,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@kidlab/dsh-kid-memory",
+      "title": "kid-memory",
+      "description": "给小朋友的内存启蒙：一个包 = 一张 🦉「记忆小管家·电脑的工作台」卡片 + 四个模型工具（mem_now / mem_pressure / mem_workbench / mem_top），零第三方依赖、无构建步骤。",
+      "author": "baixiaoustc",
+      "homepage": "https://github.com/baixiaoustc/dsh-kidlab#readme",
+      "repository": {
+        "url": "https://github.com/baixiaoustc/dsh-kidlab",
+        "directory": "plugins/kid-memory"
+      },
+      "metadata": {
+        "category": "memory",
+        "labels": [
+          "memory"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "kid",
+          "memory"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791529521,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@kidlab/dsh-kid-network",
+      "title": "kid-network",
+      "description": "给小朋友的网络启蒙：一个包 = 一张 🕊️「信鸽邮局」卡片 + 五个模型工具（net_my_identity / net_trace_trip / net_test_speed / net_who_is_home / net_dns），零第三方依赖、无构建步骤。",
+      "author": "baixiaoustc",
+      "homepage": "https://github.com/baixiaoustc/dsh-kidlab#readme",
+      "repository": {
+        "url": "https://github.com/baixiaoustc/dsh-kidlab",
+        "directory": "plugins/kid-network"
+      },
+      "metadata": {
+        "category": "capabilities",
+        "labels": [
+          "capabilities"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "kid",
+          "network"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791529469,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@kidlab/dsh-kid-process",
+      "title": "kid-process",
+      "description": "给小朋友的进程启蒙：一个包 = 一张 🐝 工人点名卡片 + 四个模型工具（proc_count / proc_busiest / proc_family / proc_badge），零第三方依赖、无构建步骤。",
+      "author": "baixiaoustc",
+      "homepage": "https://github.com/baixiaoustc/dsh-kidlab#readme",
+      "repository": {
+        "url": "https://github.com/baixiaoustc/dsh-kidlab",
+        "directory": "plugins/kid-process"
+      },
+      "metadata": {
+        "category": "observability",
+        "labels": [
+          "observability"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "kid",
+          "process"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791529494,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@kidlab/dsh-kid-security",
+      "title": "kid-security",
+      "description": "给小朋友的「电脑安全 / 城堡守卫」启蒙：防火墙、磁盘加密、锁屏、远程端口、登录记录五个模型工具，外加一张常驻输入条上方的 🐕 卡片（Cordis bundle）。",
+      "author": "baixiaoustc",
+      "homepage": "https://github.com/baixiaoustc/dsh-kidlab#readme",
+      "repository": {
+        "url": "https://github.com/baixiaoustc/dsh-kidlab",
+        "directory": "plugins/kid-security"
+      },
+      "metadata": {
+        "category": "safety",
+        "labels": [
+          "safety"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "kid",
+          "security"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791529524,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@kidlab/dsh-kid-storage",
+      "title": "kid-storage",
+      "description": "给小朋友的「存储 / 大仓库」启蒙：分区全景 + 主目录占用榜 + 大件行李榜三个模型工具，外加一张常驻输入条上方的 🐿️ 卡片（DeepSeek Harness / Cordis）。",
+      "author": "baixiaoustc",
+      "homepage": "https://github.com/baixiaoustc/dsh-kidlab#readme",
+      "repository": {
+        "url": "https://github.com/baixiaoustc/dsh-kidlab",
+        "directory": "plugins/kid-storage"
+      },
+      "metadata": {
+        "category": "observability",
+        "labels": [
+          "observability"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "kid",
+          "storage"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791529542,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@kidlab/dsh-kid-sysmon",
+      "title": "kid-sysmon",
+      "description": "给小朋友的「电脑体检 / 资源监控」启蒙：一张 🐻「小熊体检」卡片 + 一个 system_status 工具，查 CPU/内存/磁盘/网络/电池/负载/Top 进程的真实数据（免 sudo，零依赖，无构建）。",
+      "author": "baixiaoustc",
+      "homepage": "https://github.com/baixiaoustc/dsh-kidlab#readme",
+      "repository": {
+        "url": "https://github.com/baixiaoustc/dsh-kidlab",
+        "directory": "plugins/kid-sysmon"
+      },
+      "metadata": {
+        "category": "observability",
+        "labels": [
+          "observability"
+        ],
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "kid",
+          "sysmon",
+          "system"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1791529676,
           "source": {
             "type": "npm"
           }

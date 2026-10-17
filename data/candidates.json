@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-17",
   "candidates": [
     {
       "repo": "10086ggqq/dsh_theme_Minecraft",
@@ -16,9 +16,19 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 3,
+      "stars": 4,
       "description": "Windows AI PC manager powered by DeepSeek Harness — scoped read-only scanning, safe cleanup review, and privacy-first desktop controls.",
       "discovered": "2026-09-28",
+      "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "23J1633/GoForge",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Electron desktop app for 1–19D AI Go with DeepSeek Harness workflows, scoring, replay, and pattern summaries. / 使用 DeepSeek Harness 的 1–19 维 AI 围棋桌面应用，支持工作流、评分、复盘与棋谱总结。",
+      "discovered": "2026-10-17",
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
     },
     {
@@ -30,6 +40,26 @@
       "description": "Session spend for the DSH Web client: a stats-line pill that prices the durable tokenUsage projection with user-configured per-bucket unit prices.",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "acdsh4869/dsh-aqua-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Aqua glassmorphism theme plugin for DeepSeek Harness (DSH v0.2.x / desktop v0.22.3+) — original by WYH66666666, adapted for 0.2.x",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "ailixiya24865-alt/dsh-jellyfish-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Deep-Sea Jellyfish theme for the Deepseek Harness Web UI: a bioluminescent abyss palette plus an illustration as the shell backdrop.",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "aipieksel/ai-security-reconnaissance-agent",
@@ -62,6 +92,26 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "AlyceStocking/dsh-yukimi-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "A Sajo Yukimi (Idolmaster Cinderella Girls) theme for DeepSeek Harness Web",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "Ansellwan/DSH-Custom-Wallpaper",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "可以自定义Harness的壁纸，比如透明度和虚化之类的。可以尝试一下哦",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "Antiboday/dsh-plugin-bg-studio",
       "sources": [
         "github-topic"
@@ -79,6 +129,75 @@
       "stars": 0,
       "description": "dsh-dream-skin satellite: per-image wallpaper position (X/Y px) settings row. Vibe-coded.",
       "discovered": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "AtlacherCoder/dsh-wallpaper",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "badai147/dsh-leafy-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "An eye-friendly green skin for DeepSeek Harness.",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "Bainianzzz/dsh-bg-switcher",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Switch the Harness window background to a preset or a custom image URL",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "baizz-520/dsh-theme-studio",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DSH 主题工坊 — 可自定义背景色/背景图、字体、输入框、边栏颜色的 DeepSeek Harness 主题插件（实时生效，43 项测试）",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "Bancott/dsh-yexueqing-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH叶雪青皮肤插件",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "berhbro/dsh-cyrene-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Cyrene theme dsh plugin",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "catEatRabbit/dsh-light-green-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 浅绿主题",
+      "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -106,7 +225,7 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
+      "stars": 3,
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
@@ -119,6 +238,16 @@
       "description": "DSH (DeepSeek Harness) plugin: bidirectional WebDAV sync for DSH configuration (providers, plugins, prompts, skills). Excludes sessions and credentials. Design inspired by farion1231/cc-switch sync pr",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "dd598/dsh-handdrawn-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "手绘素描风皮肤：纸 + 墨的单色观感，给 DeepSeek Harness Web 界面换上一套手绘墨黑主题",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "DeverAI/dsh-harness-fork",
@@ -135,9 +264,19 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
+      "stars": 1,
       "description": "A DeepSeek Harness plugin that sets a photo as the harness background.",
       "discovered": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "dirtywork22/dsh-client-ui-skin-bayern",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Bayern Munich skin for the dsh web GUI: home-red/away-white canvases, real match-photo backdrops for 19 first-team players plus drawn shirt, squad-wall, Allianz-Arena and plain backdrops.",
+      "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -181,6 +320,16 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "Ebony-Vinyl/EAC-skin-loader",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 29,
+      "description": "DSH UI Skin Loader / DSH UI 皮肤加载器",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "Ever0330/universal-vision",
       "sources": [
         "github-topic"
@@ -189,6 +338,16 @@
       "description": "Universal vision-model plugin for DeepSeek Harness, enabling image description using any configured vision model.",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "Galaxy-2001/Rhine-Lab-Codex-Theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "莱茵生命风格的 Windows Codex 动态主题，支持聊天与设置页背景、循环动画和可选 Skill。",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "gausszhou/dsh-scavenger",
@@ -219,6 +378,16 @@
       "description": "DeepSeek Harness model auto-failover plugin: quota/usage walls switch on the first failure, blips keep the retry threshold, cooldowns escalate, recovery goes through a half-open probe, and a terminal ",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "haihaiaicode/dsh-cutesnowgirl-background",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Video workspace background with a translucent composer for DeepSeek Harness.",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "hanhan1137/theme-coach-dsh",
@@ -271,13 +440,33 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "hello-heyongping/dsh-helloai-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness 主题插件：十款内置配色 + 自建主题编辑器，可选玻璃质感与逐 token 覆盖",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "hgp005/dsh-winterskin",
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
+      "stars": 1,
       "description": "雪岭皮肤 — 把一张照片变成整个 DeepSeek Harness GUI 的底色，并把面板调成配套的玻璃质感主题。A photo skin for the DeepSeek Harness web GUI.",
       "discovered": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "huangfuren/dsh-bg-plugin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH plugin: persistent full-window background image - upload, live preview, opacity/brightness/mask/blur/position/fit, config persisted to disk. Two packages: host + client.",
+      "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -286,7 +475,7 @@
         "github-topic"
       ],
       "stars": 1,
-      "description": "DeepSeek Harness Web 界面主题/皮肤管理插件，可切换多种视觉风格。",
+      "description": "DSH 插件：DeepSeek Harness 界面主题与皮肤管理组件，可自由切换多款界面视觉风格。",
       "discovered": "2026-10-06",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
@@ -299,6 +488,36 @@
       "description": "Plugin DSH para trabajar con archivos Office: PDF, Word, Excel y PowerPoint. 16 herramientas listas para usar.",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "kimo-si/dsh-skin-live",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH Web 全局皮肤插件：图片/视频背景铺满界面，面板半透明可调 | Global image/video background skin for DSH Web",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "kjx-talesofai/dsh-plugin-theme-workbench",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Five themes for the DeepSeek Harness Web client. Each ships a light and a dark palette.",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "Klop233/dsh-claude-code-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Claude Code visual theme for the DeepSeek Harness Web GUI ??warm paper palette, terracotta accent, Claude Code transcript markers and mono-forward typography.",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "kviiinh/dsh-whale-particles-bg",
@@ -325,9 +544,19 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 0,
+      "stars": 1,
       "description": "把 Wallpaper Engine 的壁纸真正铺满 DeepSeek Harness 网页界面：跟随 dsh-plugin-wallpaper-engine 的选择，UI 面层半透明，不依赖桌面壳 extended 模式。",
       "discovered": "2026-10-05",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "LeeRolling/dsh-chat-wallpaper",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 11,
+      "description": "给 DeepSeek Harness 的开场视频 + 聊天底图插件",
+      "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -338,6 +567,26 @@
       "stars": 0,
       "description": "Wallpaper Engine assets as DeepSeek Harness dynamic background — upstream skin-center 0.3.14 source snapshot + self-built WE engine research",
       "discovered": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "liushuchang-2012/dsh-skin-liquid-glass",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "一个模仿IOS液态玻璃的DeepSeek Harness插件",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "liyy996/dsh-theme-windowsxp",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "把 DSH 换成 Windows XP：Luna 蓝皮肤（米色面板、渐变按钮、#7F9DB9 输入框、圆角滚动条、Bliss 桌面壁纸）＋ 一轮跑完时的提示音与完成弹窗。",
+      "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -381,6 +630,16 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "Mahiru0427/dsh-vesna-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "薇斯纳主题：DeepSeek Harness Desktop 插件，含全窗口壁纸、明暗配色与日常表情。",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "MaybeMeibeMaybi/dsh-lan-remote-access",
       "sources": [
         "github-topic"
@@ -421,6 +680,25 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "RonnyJung2021/dsh-mimo-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "MiMo skin for the DSH Web GUI",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "RonnyJung2021/dsh-trae-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "Sawyer20/DSH-Control-Center",
       "sources": [
         "github-topic"
@@ -429,6 +707,16 @@
       "description": "DSH control center",
       "discovered": "2026-09-29",
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "sayzwx/dsh-xingkong-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Nebula Core — a deep-space theme for the DeepSeek Harness Web GUI: two fully designed light and dark palettes over a seamless cross-dissolve nebula wallpaper, plus a model probe that reports which con",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "sehoon123/dsh-key-rotator",
@@ -491,6 +779,16 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "Soviet-Dreadnaught/dsh-theme-longmarch",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "TFR《烈焰升腾》长征 / Loji 路线主题皮肤 for DeepSeek Harness — 磷光终端 + 数据雨 + CRT 扫描线，四套部门预设各自带徽记、配色与背景纹样。",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "sqs404/dsh-client-ui-beautify",
       "sources": [
         "github-topic"
@@ -518,6 +816,16 @@
       "stars": 0,
       "description": "《庐州月 · 许嵩》— DeepSeek Harness 国风水墨主题插件 | 夜色水墨长卷 · 金丝九宫格边框 · VAE 书法标志 · 全屏雨幕 · 国风歌词竖排轮播",
       "discovered": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "tenebris173/dsh-skin-strata",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "STRATA · 地层 — DSH UI 皮肤：工业网格 + 等高线背景，浅色纸面 / 深色终端两套底",
+      "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -571,6 +879,26 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "WhatCannotBeSaid/eva-inspired-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "NERV-gate visual theme for DeepSeek Harness (fan work, non-commercial; see LICENSE)",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "whf-jx/dsh-wallpaper",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DSH Web GUI 本地壁纸插件:上传本地图片/视频、手动切换、定时轮换与随机播放,带清晰度/压暗/模糊/填充调节",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "whj2015/dsh-wechat-bridge",
       "sources": [
         "github-topic"
@@ -599,11 +927,41 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "Xiaoli-Asuna/dsh-theme-endfield-style",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Arknights: Endfield-style theme for the DeepSeek Harness web UI (unofficial fan work).",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "xiaotuchu/dsh-theme-eye-care",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 2,
+      "description": "Eye-care palettes — three switchable low-glare themes for the DeepSeek Harness GUI.",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "xikan0/dsh-outerwilds-theme",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 2,
+      "description": "以《星际拓荒》为主题的 DSH Web 与 DSH Desktop 外观插件",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "XINGRUYU33224/dsh-liquid-glass-wallpaper",
       "sources": [
         "github-topic"
       ],
-      "stars": 1,
+      "stars": 2,
       "description": "Liquid-glass Wallpaper Engine backdrop for the DeepSeek Harness Web GUI",
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
@@ -613,7 +971,7 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 1,
+      "stars": 2,
       "description": "NAZUNA (彻夜之歌) themed wallpaper-engine for DeepSeek Harness: 七草荠 mascot, moonlight-violet liquid glass. Derivative of elysia395/dsh-wallpaper-engine v0.7.1 (MIT).",
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
@@ -636,6 +994,26 @@
       "stars": 1,
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "yll86/dsh-theme-aemath",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "AEMEATH Theme - sakura violet-rose theme plugin for the DeepSeek Harness Web GUI",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "YorenZZZ/DeepseekHarness-Desktop-Skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness 桌面版皮肤 —— 白骑士（非官方外部插件）",
+      "discovered": "2026-10-17",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "yuwenbin521wl-cell/dsh-desktop",
@@ -665,6 +1043,16 @@
       "stars": 1,
       "description": "豆包主题 — DeepSeek Harness Web 客户端主题插件。",
       "discovered": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "zhanghzdev/dsh-theme-button",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness 的悬浮主题挂件：切换官方外观 + 自定义背景（图片/纯色）",
+      "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {

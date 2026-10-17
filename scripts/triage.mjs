@@ -423,7 +423,27 @@ const HARNESS_DEP = /^@deepseek-ai\/dsh(-|$)/;
 // runtime" to dsh, so they pass. Returns the refused peers, or null.
 const WORKSPACE_RANGES = new Set(["workspace:^", "workspace:~", "workspace:*"]);
 
+// From 0.2.1-alpha.4 (deepseek-harness 3de3a977e0) the gate reads an own
+// `engines.dsh` first: when present, that range decides alone and the dsh peers
+// are not read; a non-object `engines` or a non-string `engines.dsh` refuses
+// the package; and unlike a peer, a `workspace:` engines range is unmet. The
+// file is byte-identical from alpha.4 through 0.2.1-rc.2 (sha256 3aaddccc...).
+// Older runtimes ignore `engines` entirely, so the rule follows the runtime the
+// proof is stamped against, not the calendar. The refused record is keyed as
+// dsh's own `requirements`: `engines.dsh`, or the peer names.
+const ENGINES_SINCE = "0.2.1-alpha.4";
+
 function peerRefusal(pkg, runtime = DSH_VERSION) {
+  if (pkg && semver.gte(runtime, ENGINES_SINCE) && Object.hasOwn(pkg, "engines")) {
+    const engines = pkg.engines;
+    if (typeof engines !== "object" || engines === null || Array.isArray(engines)) return { engines };
+    if (Object.hasOwn(engines, "dsh")) {
+      const range = engines.dsh;
+      if (typeof range === "string" && range.trim() !== ""
+        && semver.satisfies(runtime, range, { includePrerelease: true })) return null;
+      return { "engines.dsh": range };
+    }
+  }
   if (!pkg || !Object.hasOwn(pkg, "peerDependencies")) return null;
   const peers = pkg.peerDependencies;
   if (typeof peers !== "object" || peers === null || Array.isArray(peers)) return { peerDependencies: peers };
@@ -490,7 +510,8 @@ const embedsHarness = (pkg) => pkg?.private === true && depsOf(pkg).some(([, d])
 // person who can fix it, and the fix is one range.
 const refusalReason = (evidence, refused) =>
   `dsh ${DSH_VERSION} refuses to install it: ${evidence.replace(/#.*/, "")} `
-  + `peerDependencies ${JSON.stringify(refused)} exclude ${DSH_VERSION} `
+  + `${Object.keys(refused).some((k) => k.startsWith("engines")) ? "" : "peerDependencies "}`
+  + `${JSON.stringify(refused)} exclude ${DSH_VERSION} `
   + "(packages/boot/app-boot/src/plugin-compatibility.ts)";
 
 // Plenty of real plugins ship with the GitHub description field blank and
