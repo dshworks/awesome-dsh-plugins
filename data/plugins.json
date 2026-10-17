@@ -348867,21 +348867,22 @@
     {
       "name": "dsh-plugin-compat-check",
       "repo": "lcy0121/dsh-plugin-compat-check",
-      "path": "probe",
-      "description": "在安装前判断一个 DSH 插件在你这一版 DeepSeek Harness 上是否真的可用 / Check whether a DeepSeek Harness plugin actually works on your version, before installing it",
+      "path": "plugin",
+      "description": "检查已装 DSH 插件的宿主兼容性，按 file:line 报出缺失的服务或方法、确定度与影响依据 / Checks installed DSH plugins against the host: missing services or methods with file:line, certainty and impact basis.",
       "category": "plugin",
       "official": false,
       "added": "2026-10-07",
-      "lastVerified": "2026-10-07",
-      "verifiedAgainst": "0.2.0-rc.2",
+      "lastVerified": "2026-10-17",
+      "verifiedAgainst": "0.2.1-rc.2",
       "status": "verified",
-      "evidence": "probe/package.json#dsh.bundle",
+      "evidence": "plugin/package.json#dsh.bundle",
       "stars": 0,
       "starsUpdated": "2026-10-17",
       "tags": [
         "interop"
       ],
-      "pushedAt": "2026-10-17"
+      "pushedAt": "2026-10-17",
+      "npm": "dsh-plugin-compat-check"
     },
     {
       "name": "dsh-harness",
