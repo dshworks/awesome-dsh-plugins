@@ -19,6 +19,19 @@ curl -s https://dsh.works/awesome-dsh-plugins/stats.json                   # jus
 
 Each entry carries two orthogonal dimensions: `category` is the form factor (bundle, plugin, skill, theme, tool — what dsh docs call things) and `tags` is the functional area (what it actually does). `stars` is the linked repo's GitHub count (refreshed by `scripts/stars.mjs`, display signal only), and `featured` marks a hand-curated editor's pick.
 
+## Use this registry in dsh's Discover tab
+
+dsh 0.2.1 and later can browse a plugin market from one JSON index at a URL you add. The feature is experimental. This registry publishes an index built by `scripts/market.mjs` from every entry with a verified `npm` name whose published versions declare `dsh.bundle`; git-only entries are not in it yet.
+
+1. Open **Plugins**, select **More** beside **Experimental plugins**, and switch on **Custom plugin markets**.
+2. Select the **Discover** tab that appears, choose **Add index source**, and enter:
+
+```
+https://dsh.works/awesome-dsh-plugins/market/index.json
+```
+
+Use that address exactly: dsh refuses redirects, and the `dshworks.github.io` address redirects to it. **Install** opens a confirmation first, and dsh runs its own compatibility checks before anything is installed.
+
 ## Why a filtered registry
 
 DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of 2026-10-17 it holds 19,872, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.

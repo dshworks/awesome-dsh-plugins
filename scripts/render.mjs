@@ -11,6 +11,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { TAGS } from "./tags.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
@@ -41,27 +42,6 @@ const CATEGORIES = [
   ["skill", "Skills", "Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no nested discovery, kebab-case names only)."],
   ["theme", "Themes", `UI skins. The dedicated registry is [awesome-dsh-themes](https://github.com/${cfg.org}/awesome-dsh-themes); only themes that also ship plugin machinery live here.`],
   ["tool", "Tools", "Developer tooling around dsh."],
-];
-
-// Functional areas, in browse order. Tag ids match data/schema.json.
-const TAGS = [
-  ["ui", "Web UI", "Panels, composer upgrades, navigation, layout, mobile."],
-  ["terminal", "Terminals & desktop", "TUIs, desktop shells, headless runners."],
-  ["capabilities", "Tools & capabilities", "New things the model can do: search, browser, files, databases, devices, media."],
-  ["vision", "Vision", "Image understanding for text-only models."],
-  ["agents", "Agents & orchestration", "Subagents, workflows, cross-session coordination."],
-  ["memory", "Memory & sessions", "Memory systems, context management, session search/rewind/export."],
-  ["models", "Models & providers", "Providers, routing, fallbacks, subscription adapters."],
-  ["interop", "Interop & migration", "Bridges to and from Claude Code, Codex, and other harnesses."],
-  ["channels", "Channels & remote", "IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk."],
-  ["notifications", "Notifications", "Alerting the human: desktop, sound, even a phone call."],
-  ["usage", "Usage & cost", "Token accounting, billing, balance, quota."],
-  ["observability", "Observability & evidence", "Diagnostics, logs, audits, content-addressed proofs."],
-  ["safety", "Safety & approvals", "Permission tiers, gates, redaction, protection."],
-  ["marketplace", "Plugin managers & stores", "In-UI stores, installers, skill managers."],
-  ["devtools", "Developer tools", "Building, testing, and publishing plugins."],
-  ["knowledge", "Knowledge & research", "Research workbenches, RAG, learning modes."],
-  ["fun", "Fun", "Games, pets, memes, ambience. The reef has coral."],
 ];
 
 const esc = (s) => s.replaceAll("|", "\\|");
@@ -214,6 +194,19 @@ curl -s ${GALLERY}stats.json                   # just the counts, ~150 bytes
 \`\`\`
 
 Each entry carries two orthogonal dimensions: \`category\` is the form factor (bundle, plugin, skill, theme, tool — what dsh docs call things) and \`tags\` is the functional area (what it actually does). \`stars\` is the linked repo's GitHub count (refreshed by \`scripts/stars.mjs\`, display signal only), and \`featured\` marks a hand-curated editor's pick.
+
+## Use this registry in dsh's Discover tab
+
+dsh 0.2.1 and later can browse a plugin market from one JSON index at a URL you add. The feature is experimental. This registry publishes an index built by \`scripts/market.mjs\` from every entry with a verified \`npm\` name whose published versions declare \`dsh.bundle\`; git-only entries are not in it yet.
+
+1. Open **Plugins**, select **More** beside **Experimental plugins**, and switch on **Custom plugin markets**.
+2. Select the **Discover** tab that appears, choose **Add index source**, and enter:
+
+\`\`\`
+${GALLERY}market/index.json
+\`\`\`
+
+Use that address exactly: dsh refuses redirects, and the \`${cfg.org}.github.io\` address redirects to it. **Install** opens a confirmation first, and dsh runs its own compatibility checks before anything is installed.
 
 ## Why a filtered registry
 
