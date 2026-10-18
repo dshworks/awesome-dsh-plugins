@@ -4,7 +4,7 @@
 
 Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no nested discovery, kebab-case names only).
 
-680 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+684 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -263,6 +263,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | AgentSideCar | 1 | [shendeguize/AgentSideCar](https://github.com/shendeguize/AgentSideCar/tree/HEAD/skills/agent-sidecar) | A local-first CLI for observing AI-agent sessions | 0.1.0-rc.8 (2026-08-25) |
 | AgentSkillHub | 1 | [yinsanbian/AgentSkillHub](https://github.com/yinsanbian/AgentSkillHub/tree/HEAD/skill-hub) | Windows 桌面端多 Agent 技能（SKILL.md）共享管理器：扫描、去重、合并共享库，并通过 Junction 安全地定向共享给 Codex / Claude Code / Cursor / Gemini CLI / DeepSeek Harness 等 Agent | 0.2.0-rc.2 (2026-10-17) |
 | ai-daw | 1 | [heshengtao/ai-daw](https://github.com/heshengtao/ai-daw/tree/HEAD/skills/aidaw) | An AI-native digital audio workstation that enables AI to write songs, supporting MCP and Agent Skills to access any AI Harness!让AI学会写歌的AI原生数字音频工作站，支持MCP和Agent Skills接入任意AI Harness！ | 0.2.0-rc.2 (2026-10-17) |
+| ai-presentation-workflow | 1 | [pj1433139082-hue/ai-presentation-workflow](https://github.com/pj1433139082-hue/ai-presentation-workflow) | 先把内容设计好，再交付到你需要的那一步。 | 0.2.0-rc.2 (2026-10-18) |
 | ai-security-assistant | 1 | [SongYuhui14/ai-security-assistant](https://github.com/SongYuhui14/ai-security-assistant) | AI 安全评估辅助技能：OWASP LLM Top 10 2025 + 国内法规框架下的大模型/Agent/RAG 安全评估，含检查清单、风险判定、报告生成与备考学习 | 0.1.0-rc.8 (2026-08-21) |
 | Amazon-VOC | 1 | [funewa/Amazon-VOC](https://github.com/funewa/Amazon-VOC) | ARI Amazon 评论智能 Amazon VOC | 0.1.7-rc.2 (2026-09-29) |
 | archpresent | 1 | [lewes2/archpresent](https://github.com/lewes2/archpresent) | Agent skill: generate beautiful dark-themed architecture diagrams from your project/demo/idea. Interactive, verifiable, and editable. Delivered as self-contained HTML. | 0.1.1-rc.2 (2026-09-01) |
@@ -379,6 +380,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | multi-skilled-repository | 1 | [High-cla/multi-skilled-repository](https://github.com/High-cla/multi-skilled-repository/tree/HEAD/skills/customize-dsh) | AI Agent Skills 合集 — CMD+PowerShell 避坑指南 · CLI 优先决策矩阵 · 更多技能持续添加 | 0.1.0-rc.8 (2026-08-20) |
 | Novera-AI-pipeline | 1 | [whaojie797-design/Novera-AI-pipeline](https://github.com/whaojie797-design/Novera-AI-pipeline) | four-agent-pipeline agent skill: Specifier -> Coder -> Refactorer -> Architect. Turn a vague requirement into gate-verified code with Gherkin acceptance specs, steel-cage quality gates (coverage… | 0.1.0-rc.8 (2026-08-21) |
 | orchestration-skill | 1 | [pridesong/orchestration-skill](https://github.com/pridesong/orchestration-skill) | Long tasks shouldn't cost like they need a frontier model. Cheap-model long-task engine: reliability in structure (disk state machine + mechanical gates + T3 zero-prose dispatch + multi-brain… | 0.1.7-rc.2 (2026-09-29) |
+| papercraft | 1 | [Linus-Shyu/papercraft](https://github.com/Linus-Shyu/papercraft) | Evidence-first paper writing and review for AI agents: survey, feasibility, experiments, writing, audit, review, acceptance. Fail-closed gates, verified citations, template provenance. | 0.2.0-rc.2 (2026-10-18) |
 | persona-auditor | 1 | [kevinshi3200/persona-auditor](https://github.com/kevinshi3200/persona-auditor) | Persona Auditor — audit AI-generated code from a real user's perspective. Digital personas exhaustively traverse every user journey… | 0.1.0-rc.8 (2026-08-21) |
 | plugin-bastion-bridge-qizhi | 1 | [AFAP/plugin-bastion-bridge-qizhi](https://github.com/AFAP/plugin-bastion-bridge-qizhi/tree/HEAD/skill/bastion-qizhi) | 在 DeepSeek Harness 一键安装技能插件，让 AI 通过本地 RESTful API（HTTP/SSE/WebSocket）接管齐治堡垒机里的服务器；任何能发 HTTP 的 AI 均可接入。 | 0.1.7-rc.2 (2026-09-29) |
 | plugin-contract-unification | 1 | [zhang123liang/plugin-contract-unification](https://github.com/zhang123liang/plugin-contract-unification) | One contract for every capability. Foundation for AI coding assistant skill systems and enterprise plugin systems. | 0.1.0-rc.8 (2026-08-21) |
@@ -472,6 +474,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | dsh-agent-kit | 0 | [wpc725562-dotcom/dsh-agent-kit](https://github.com/wpc725562-dotcom/dsh-agent-kit/tree/HEAD/skills/academic-figure-skill) | 自用 Agent 工具集：DSH Desktop 插件/MCP/Skills/预设的一键部署套件 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-agent-teams-jypjypjy | 0 | [jypjypjypjyp/dsh-agent-teams](https://github.com/jypjypjypjyp/dsh-agent-teams/tree/HEAD/skills/dsh-plugin-development) | AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI | 0.1.1-rc.2 (2026-08-26) |
 | dsh-ai-bridge | 0 | [ganmayou2333/dsh-ai-bridge](https://github.com/ganmayou2333/dsh-ai-bridge/tree/HEAD/skills/dsh-mcp-connector) | Bridge external AI clients and a local DeepSeek Harness (DSH): a zero-dependency MCP server, a pull-based task queue, and a CDP driver for the Doubao desktop app | 0.2.0-rc.2 (2026-10-05) |
+| dsh-artifact-stamp | 0 | [yanggaihao5-sys/dsh-artifact-stamp](https://github.com/yanggaihao5-sys/dsh-artifact-stamp) | DSH skill: inline version stamps for text artifacts, plus a drift check that works as a CI gate | 0.2.0-rc.2 (2026-10-18) |
 | dsh-artist-mode | 0 | [Asher-2000/dsh-artist-mode](https://github.com/Asher-2000/dsh-artist-mode/tree/HEAD/.artist-mode) | DSH 艺术家模式 — 对话式设计交付预设（HTML 原生设计 / 反 AI slop / 5维评审 / Agnes AI 生图生视频） | 0.1.0-rc.8 (2026-08-25) |
 | dsh-autoresearch-preset | 0 | [gavenma/dsh-autoresearch-preset](https://github.com/gavenma/dsh-autoresearch-preset/tree/HEAD/skills/research-outline-project) | A source-controlled AutoResearch Project Mode preset for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-25) |
 | dsh-backup-little3t | 0 | [little3tar/dsh-backup](https://github.com/little3tar/dsh-backup) | 由于 dsh 的自定义范围太大，很难通过一个插件或者程序来完美备份自己的配置，所以我觉得可以通过 ai 来分析哪些配置需要备份、可以备份，以及在新的环境中如何恢复。有了这个 skills 导出的配置文件，任意 agent 都可以帮助恢复 dsh 的配置。 | 0.1.0-rc.8 (2026-08-25) |
@@ -644,6 +647,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | remote-coding-workstation-template | 0 | [dll61/remote-coding-workstation-template](https://github.com/dll61/remote-coding-workstation-template) | 电脑跑 DSH 和 CloudCLI，手机/平板通过 xEdge 或 Tailscale 私网远程使用；CloudCLI 按授权可接 Codex、Claude Code、DeepSeek，RustDesk 可控 Windows 桌面。 | 0.1.7-rc.2 (2026-09-29) |
 | repo-release | 0 | [joejojoking-cloud/repo-release](https://github.com/joejojoking-cloud/repo-release) | DSH skill：Git/GitHub 版本发布与仓库运营，含 push 前密钥/PII 扫描闸门 | 0.1.7-rc.2 (2026-09-29) |
 | research-epic-manager | 0 | [alexchen5/research-epic-manager](https://github.com/alexchen5/research-epic-manager/tree/HEAD/skills/add-comment) | Agent skills for running research projects end-to-end using a plain-file epic→issues→comments tracker. | 0.1.1-rc.2 (2026-09-01) |
+| research-paper-style | 0 | [hero-jianghaojie/research-paper-style](https://github.com/hero-jianghaojie/research-paper-style) | 科研论文式作答技能 + 可点击引用溯源：摘要(1-3句结论)→详细介绍→参考文献；[n] 引用可跳转源文行；规则单一来源 + 回答 lint（可选 DSH 插件） | 0.2.0-rc.2 (2026-10-18) |
 | resume-skills | 0 | [converk/resume-skills](https://github.com/converk/resume-skills/tree/HEAD/job-form-filling) | 把简历整理成结构化简历文件夹，再用它自动化填写招聘网站表单 | 0.1.7-rc.2 (2026-09-29) |
 | route-recovery | 0 | [inxups/inxv-skills](https://github.com/inxups/inxv-skills) | A skill for long horizon coding tasks, to improve the experience for non-top-tier models. | 0.1.7-rc.2 (2026-09-29) |
 | rpg-maker-mac-skill | 0 | [HomophonicFate/rpg-maker-mac-skill](https://github.com/HomophonicFate/rpg-maker-mac-skill) | DeepSeek Harness skill：macOS 上运行 RPG Maker MV/MZ 游戏并集成 MTool 翻译文件 | 0.1.7-rc.2 (2026-09-29) |
