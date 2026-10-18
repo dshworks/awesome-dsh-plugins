@@ -111466,7 +111466,7 @@
       "category": "plugin",
       "official": false,
       "added": "2026-08-20",
-      "lastVerified": "2026-10-07",
+      "lastVerified": "2026-10-17",
       "verifiedAgainst": "0.2.0-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
@@ -259764,7 +259764,7 @@
     },
     {
       "name": "vn-harness",
-      "repo": "vecnode/vncode",
+      "repo": "vecnode/vn-code",
       "path": "packages/dsh-audio",
       "description": "Audio viewer: a real audio tab type for the vncode right bar (dsh-rightbar). WAV/RIFF, AIFF/AIFC and FLAC open as a WAVEFORM - one track per channel, an adaptive time ruler, a min/max envelope with",
       "category": "plugin",
@@ -267886,13 +267886,13 @@
     },
     {
       "name": "personal-track",
-      "repo": "cup113/personal-track",
+      "repo": "ds-hu/dsh-personal-track",
       "description": "DSH 个人习惯追踪插件：右侧栏每日看板 + 主面板统计",
       "category": "plugin",
       "official": false,
       "added": "2026-09-29",
-      "lastVerified": "2026-09-29",
-      "verifiedAgainst": "0.1.7-rc.2",
+      "lastVerified": "2026-10-17",
+      "verifiedAgainst": "0.2.0-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
       "stars": 1,
@@ -287368,7 +287368,7 @@
     },
     {
       "name": "dsh-plugin-pyrun",
-      "repo": "cup113/dsh-plugin-pyrun",
+      "repo": "ds-hu/dsh-plugin-pyrun",
       "description": "DSH Python quick-exec tool: source piped to `python -X utf8 -u -` over stdin, with sandbox escalation and background jobs.",
       "category": "plugin",
       "official": false,
@@ -288203,7 +288203,7 @@
     },
     {
       "name": "deepseek-harness-linux",
-      "repo": "destroyor/deepseek-harness-linux",
+      "repo": "destroyor/deepseek-harness-desktop",
       "path": "apps/cli/src",
       "description": "Unofficial Linux (x86_64) desktop build target for DeepSeek Harness, incl. a fix for the sharp/Electron image-decode crash",
       "category": "plugin",
@@ -323636,7 +323636,7 @@
     },
     {
       "name": "dsh-usage-pill",
-      "repo": "oliblue-evan/dsh-usage-pill",
+      "repo": "oliblue-evan/dsh-liao-usage",
       "description": "DeepSeek 用量与余额：会话 token 用量、按每笔实际发生时刻与模型计价的费用（峰谷/档位）、账户余额（账号授权优先，API Key 兜底）",
       "category": "plugin",
       "official": false,
@@ -333237,7 +333237,7 @@
     },
     {
       "name": "dsh-connect-qoder-x",
-      "repo": "road-kid/dsh-connect-qoder-x",
+      "repo": "road-kid/dsh-qoder-plugin",
       "description": "把 Qoder 模型接入 DeepSeek Harness：用 PAT 调用与 Qoder CLI 同源的模型服务，支持国内版 / 国际版双区域、模型开关、上下文窗口与每日签到，并提供只读的额度概览。",
       "category": "plugin",
       "official": false,
@@ -343130,7 +343130,7 @@
     },
     {
       "name": "dsh-personal-dev-workflow",
-      "repo": "satan9394/dsh-personal-dev-workflow",
+      "repo": "satan9394/personal-dev-workflow",
       "path": "plugin/dsh-personal-dev-workflow",
       "description": "个人开发工作流 v4（有限自治）：一个指挥 + 隔离 Worker + 文件记忆 + 验证闭环 + 数字预算与停止条件。融合 OpenAI Codex（harness engineering/Symphony）、Anthropic（Claude Code 最佳实践）、DeepSeek Harness 实测，附任务卡/SPEC/验证/生产控制模板。",
       "category": "plugin",
@@ -356625,25 +356625,6 @@
       "pushedAt": "2026-10-06"
     },
     {
-      "name": "dsh-personal-track",
-      "repo": "ds-hu/dsh-personal-track",
-      "description": "DSH 个人习惯追踪插件：右侧栏每日看板 + 主面板统计",
-      "category": "plugin",
-      "official": false,
-      "added": "2026-10-17",
-      "lastVerified": "2026-10-17",
-      "verifiedAgainst": "0.2.0-rc.2",
-      "status": "verified",
-      "evidence": "package.json#dsh.bundle",
-      "stars": 1,
-      "starsUpdated": "2026-10-17",
-      "tags": [
-        "observability",
-        "ui"
-      ],
-      "pushedAt": "2026-10-17"
-    },
-    {
       "name": "plugin",
       "repo": "dsh-remote/plugin",
       "description": "DSH Remote Control 的宿主侧插件：把本机 DeepSeek Harness 与中继配对，微信小程序可发指令、看流式输出、回答审批。载荷级端到端加密。",
@@ -356665,7 +356646,7 @@
     },
     {
       "name": "dsh-plugin-session-cost",
-      "repo": "dtxovo/dsh-plugin-session-cost",
+      "repo": "dtxovo/dsh-plugin-session-spend",
       "description": "DeepSeek Harness plugin: shows the current session's spend, priced by peak and off-peak tier.",
       "category": "plugin",
       "official": false,
@@ -359834,7 +359815,7 @@
     },
     {
       "name": "DSH-Laya-Tool-Router",
-      "repo": "residenthiago2011/DSH-Laya-Tool-Router",
+      "repo": "residenthiago2011/DSH-Tool-Router",
       "description": "Lazy tool discovery: hides every tool schema from prefill and reveals one through a Laya Choice on demand.",
       "category": "plugin",
       "official": false,
@@ -360597,7 +360578,7 @@
     },
     {
       "name": "dsh-alerts",
-      "repo": "sqzw-x/dsh-alerts",
+      "repo": "sqzw-x/dsh-focus-notify",
       "description": "Focus-aware notifications for DeepSeek Harness: approvals, questions, plan reviews and finished replies all arrive as one kind of alert — the conversation on screen only once its window loses focus…",
       "category": "plugin",
       "official": false,
@@ -361017,7 +360998,7 @@
     },
     {
       "name": "dsh-small-talk",
-      "repo": "TPSCE/dsh-small-talk",
+      "repo": "TPSCE/dsh-side-assistant",
       "description": "给当前会话开一个侧边助手：主会话已完成的历史压成摘要、之后每一步进展（想法、工具、结论）以系统提示片段推送，面板顶部另有一条默认折叠的实时进展条；回答下方两颗快捷卡片，助手可在菜单里删除（归档），面板内的聊天记录不再复制主对话。",
       "category": "plugin",
       "official": false,
@@ -362868,7 +362849,7 @@
     },
     {
       "name": "dsh-host-paths",
-      "repo": "384124694/dsh-host-paths",
+      "repo": "SereneJi/dsh-host-paths",
       "description": "DeepSeek Harness Desktop: dropped files and folders become @path references instead of uploads, by wiring the shell's file-path bridge into the composer's host-path seam.",
       "category": "plugin",
       "official": false,
@@ -370647,7 +370628,7 @@
     },
     {
       "name": "dsh-deepseek-turn-cost",
-      "repo": "lhylhy2024/dsh-deepseek-turn-cost",
+      "repo": "lhylhy2024/dsh-simple-cost",
       "description": "DeepSeek 账户余额与本会话计费挂件：常驻在侧边栏账户区上方，显示账户余额、当前对话的 token 费用、峰谷时段提醒，并对超出 token 阈值的单轮对话提供按钮触发的 AI 分析。",
       "category": "plugin",
       "official": false,
@@ -373342,7 +373323,7 @@
     },
     {
       "name": "dsh-github-auth",
-      "repo": "oliblue-evan/dsh-github-auth",
+      "repo": "oliblue-evan/dsh-liao-github",
       "description": "一键准备工具并登录 GitHub；管理账号、权限与本机退出，检查 SSH 和仓库访问。",
       "category": "plugin",
       "official": false,
@@ -373362,7 +373343,7 @@
     },
     {
       "name": "dsh-model-organizer",
-      "repo": "oliblue-evan/dsh-model-organizer",
+      "repo": "oliblue-evan/dsh-liao-models",
       "description": "按厂商与模型系列浏览，支持折叠、全局搜索、名称/倍率排序、置顶、别名与隐藏。 | Group models by provider and family, search globally, sort by name or multiplier, and manage pins, aliases and visibility.",
       "category": "plugin",
       "official": false,
@@ -373496,7 +373477,7 @@
     },
     {
       "name": "dsh-cu",
-      "repo": "OrderG-X/dsh-cu",
+      "repo": "OrderG-X/dsh-mac-computer-use",
       "path": "plugin",
       "description": "DSH desktop computer-use tools on top of a vision-first helper: window list, screenshots, coordinate clicks, typing. No Accessibility dependency.",
       "category": "plugin",
@@ -375225,24 +375206,6 @@
       "pushedAt": "2026-10-16"
     },
     {
-      "name": "dsh-neoforge-r05en1cu",
-      "repo": "r05En1cU/dsh-neoforge",
-      "description": "NeoForge-style standard API layer for DeepSeek Harness plugins: runtime mixins with snapshot/restore + a Cordis-native event bus",
-      "category": "plugin",
-      "official": false,
-      "added": "2026-10-17",
-      "lastVerified": "2026-10-17",
-      "verifiedAgainst": "0.2.0-rc.2",
-      "status": "verified",
-      "evidence": "package.json#dsh.bundle",
-      "stars": 3,
-      "starsUpdated": "2026-10-17",
-      "tags": [
-        "capabilities"
-      ],
-      "pushedAt": "2026-08-16"
-    },
-    {
       "name": "dsh-web-git-sidebar",
       "repo": "RaditPasya/dsh-web-git-sidebar",
       "description": "DSH Web Git Sidebar: VS Code-style left-rail Git panel for DeepSeek Harness with branch switching, commit graph, per-commit previews and a session-following footer entry.",
@@ -375468,7 +375431,7 @@
     },
     {
       "name": "dsh-session-delete-ricardoy",
-      "repo": "RicardoYan/dsh-session-delete",
+      "repo": "RicardoYan/dsh-session-purger",
       "description": "Delete a DSH session together with all its subagent sessions · 永久删除 DSH 会话及其派生的所有子代理会话",
       "category": "plugin",
       "official": false,

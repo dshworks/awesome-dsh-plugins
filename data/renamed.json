@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-10-17",
-  "count": 423,
-  "ownerChanged": 124,
+  "detected": "2026-10-18",
+  "count": 439,
+  "ownerChanged": 126,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -2699,6 +2699,118 @@
       "ownerChanged": false,
       "name": "dsh-thinking-language-wqzhello",
       "on": "2026-10-17"
+    },
+    {
+      "from": "vecnode/vncode",
+      "to": "vecnode/vn-code",
+      "ownerChanged": false,
+      "name": "vn-harness",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "cup113/dsh-plugin-pyrun",
+      "to": "ds-hu/dsh-plugin-pyrun",
+      "ownerChanged": true,
+      "name": "dsh-plugin-pyrun",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "destroyor/deepseek-harness-linux",
+      "to": "destroyor/deepseek-harness-desktop",
+      "ownerChanged": false,
+      "name": "deepseek-harness-linux",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "oliblue-evan/dsh-usage-pill",
+      "to": "oliblue-evan/dsh-liao-usage",
+      "ownerChanged": false,
+      "name": "dsh-usage-pill",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "road-kid/dsh-connect-qoder-x",
+      "to": "road-kid/dsh-qoder-plugin",
+      "ownerChanged": false,
+      "name": "dsh-connect-qoder-x",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "satan9394/dsh-personal-dev-workflow",
+      "to": "satan9394/personal-dev-workflow",
+      "ownerChanged": false,
+      "name": "dsh-personal-dev-workflow",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "dtxovo/dsh-plugin-session-cost",
+      "to": "dtxovo/dsh-plugin-session-spend",
+      "ownerChanged": false,
+      "name": "dsh-plugin-session-cost",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "residenthiago2011/DSH-Laya-Tool-Router",
+      "to": "residenthiago2011/DSH-Tool-Router",
+      "ownerChanged": false,
+      "name": "DSH-Laya-Tool-Router",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "sqzw-x/dsh-alerts",
+      "to": "sqzw-x/dsh-focus-notify",
+      "ownerChanged": false,
+      "name": "dsh-alerts",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "TPSCE/dsh-small-talk",
+      "to": "TPSCE/dsh-side-assistant",
+      "ownerChanged": false,
+      "name": "dsh-small-talk",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "384124694/dsh-host-paths",
+      "to": "SereneJi/dsh-host-paths",
+      "ownerChanged": true,
+      "name": "dsh-host-paths",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "lhylhy2024/dsh-deepseek-turn-cost",
+      "to": "lhylhy2024/dsh-simple-cost",
+      "ownerChanged": false,
+      "name": "dsh-deepseek-turn-cost",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "oliblue-evan/dsh-github-auth",
+      "to": "oliblue-evan/dsh-liao-github",
+      "ownerChanged": false,
+      "name": "dsh-github-auth",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "oliblue-evan/dsh-model-organizer",
+      "to": "oliblue-evan/dsh-liao-models",
+      "ownerChanged": false,
+      "name": "dsh-model-organizer",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "OrderG-X/dsh-cu",
+      "to": "OrderG-X/dsh-mac-computer-use",
+      "ownerChanged": false,
+      "name": "dsh-cu",
+      "on": "2026-10-18"
+    },
+    {
+      "from": "RicardoYan/dsh-session-delete",
+      "to": "RicardoYan/dsh-session-purger",
+      "ownerChanged": false,
+      "name": "dsh-session-delete-ricardoy",
+      "on": "2026-10-18"
     }
   ],
   "collisions": {
@@ -2918,6 +3030,51 @@
         "repo": "youbaiyun/dsh-browser-crossplatform",
         "row": "dsh-browser-application",
         "on": "2026-10-07"
+      },
+      {
+        "repo": "ds-hu/dsh-plugin-pyrun",
+        "row": "dsh-plugin-pyrun",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "dtxovo/dsh-plugin-session-spend",
+        "row": "dsh-plugin-session-cost",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "OrderG-X/dsh-mac-computer-use",
+        "row": "dsh-cu",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "residenthiago2011/DSH-Tool-Router",
+        "row": "DSH-Laya-Tool-Router",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "RicardoYan/dsh-session-purger",
+        "row": "dsh-session-delete-ricardoy",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "road-kid/dsh-qoder-plugin",
+        "row": "dsh-connect-qoder-x",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "SereneJi/dsh-host-paths",
+        "row": "dsh-host-paths",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "sqzw-x/dsh-focus-notify",
+        "row": "dsh-alerts",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "vecnode/vn-code",
+        "row": "vn-harness",
+        "on": "2026-10-18"
       }
     ]
   },
@@ -2932,8 +3089,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 245,
-    "rowsRemoved": 246,
+    "groupsMerged": 247,
+    "rowsRemoved": 248,
     "leftForTriage": [],
     "merges": [
       {
@@ -5529,6 +5686,28 @@
         ],
         "evidence": "package.json#dsh.bundle",
         "on": "2026-10-17"
+      },
+      {
+        "repo": "ds-hu/dsh-personal-track",
+        "path": null,
+        "renamedFrom": "cup113/personal-track",
+        "kept": "personal-track",
+        "dropped": [
+          "dsh-personal-track"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-10-18"
+      },
+      {
+        "repo": "omdsh-dev/dsh-neoforge",
+        "path": null,
+        "renamedFrom": "r05En1cU/dsh-neoforge",
+        "kept": "dsh-neoforge",
+        "dropped": [
+          "dsh-neoforge-r05en1cu"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-10-18"
       }
     ]
   },
