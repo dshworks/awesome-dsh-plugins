@@ -44,8 +44,12 @@ must clear this bar:
    package's own `peerDependencies` must admit that version (prereleases
    count), or `dsh plugin add` refuses the install and profile startup
    disables the plugin (`packages/boot/app-boot/src/plugin-compatibility.ts`).
-   The prover checks this and rejects, with a recheck date, a package the
-   registry's dsh version would refuse.
+   From dsh 0.2.1-alpha.4 an own `engines.dsh` decides alone and those peers
+   are not read at all, so make it cover every dsh you support; a non-object
+   `engines` refuses the package outright
+   ([upgrade guide](https://github.com/deepseek-ai/deepseek-harness/blob/dsh-v0.2.1-rc.2/docs/upgrade-guide/v0.2.1-alpha.3/plugin-engines-dsh/guide.md)).
+   The prover checks both rules and rejects, with a recheck date, a package
+   the registry's dsh version would refuse.
 4. Honest description, no keyword stuffing. Riding the `dsh-plugin` topic
    without extending dsh is exactly what this registry filters out.
 

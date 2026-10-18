@@ -26,7 +26,8 @@
 //   node scripts/triage.mjs --prove        re-prove entries already listed
 //   node scripts/triage.mjs --prove --evidence=@deepseek-ai/cordis
 //                                          re-prove only rows whose receipt matches
-//   node scripts/triage.mjs --redescribe   re-derive descriptions the gates refuse
+//   node scripts/triage.mjs --redescribe   re-derive descriptions the gates refuse,
+//                                          and re-cut ones the old clip cut mid-clause
 //   node scripts/triage.mjs --limit 50     stop after 50 repos
 //   node scripts/triage.mjs --report f.json  write the full per-repo trace
 //
@@ -247,6 +248,39 @@ async function gh(path) {
     return res.json();
   }
   return null;
+}
+
+// Repo blurbs for many rows at once: 100 per GraphQL request instead of one
+// REST call each, so a pass over thousands of rows leaves the hourly REST
+// budget to the drain. A batch that will not answer just leaves its repos out.
+async function blurbs(repos) {
+  const out = new Map();
+  for (let i = 0; i < repos.length; i += 100) {
+    const batch = repos.slice(i, i + 100);
+    const fields = batch.map((slug, j) => {
+      const [owner, name] = slug.split("/");
+      return `r${j}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) { description }`;
+    }).join("\n");
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const res = await fetch("https://api.github.com/graphql", {
+          method: "POST",
+          headers: { "user-agent": "awesome-dsh-plugins-triage", authorization: `Bearer ${TOKEN}` },
+          body: JSON.stringify({ query: `query {\n${fields}\n}` }),
+          signal: AbortSignal.timeout(30000),
+        });
+        // A repo that 404s comes back as a null alias next to an `errors`
+        // entry; the rest of the batch is still good.
+        const data = res.ok ? (await res.json()).data : null;
+        if (!data) { await sleep(2000 * (attempt + 1)); continue; }
+        batch.forEach((slug, j) => { if (data[`r${j}`]) out.set(slug, data[`r${j}`].description); });
+        break;
+      } catch {
+        await sleep(2000 * (attempt + 1));
+      }
+    }
+  }
+  return out;
 }
 
 // --- the prover -------------------------------------------------------------
@@ -803,24 +837,39 @@ const CJK = /[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF\u3040-\u30FF\uAC00-\uD7AF]
 const CJK_WEIGHT = 3;
 const displayWidth = (s) => [...s].reduce((n, ch) => n + (CJK.test(ch) ? CJK_WEIGHT : 1), 0);
 
+const tidyDescription = (input) => String(input)
+  .replace(/\r?\n/g, " ")
+  .replace(STAR_BEG, " ")
+  .replace(EMOJI, " ")
+  .replace(/\s+/g, " ")
+  .replace(/^[\s>|·•\-—:：,，.。]+/, "")
+  .trim();
+
 function cleanDescription(input) {
   if (!input) return null;
-  let s = String(input)
-    .replace(/\r?\n/g, " ")
-    .replace(STAR_BEG, " ")
-    .replace(EMOJI, " ")
-    .replace(/\s+/g, " ")
-    .replace(/^[\s>|·•\-—:：,，.。]+/, "")
-    .trim();
+  let s = tidyDescription(input);
   if (MOJIBAKE.test(s)) return null; // arrives destroyed; passing it on helps nobody
   if (INSTALL_BOILERPLATE.test(s)) return null;
   if (displayWidth(s) < 8) return null;
   if (s.length > 200) {
-    const cut = s.slice(0, 200);
-    const at = Math.max(
-      cut.lastIndexOf("; "), cut.lastIndexOf("。"), cut.lastIndexOf("，"),
-      cut.lastIndexOf(", "), cut.lastIndexOf(" · "), cut.lastIndexOf(" "));
-    s = (at > 120 ? cut.slice(0, at) : cut.slice(0, 197)).replace(/[\s,;·、，。]+$/, "");
+    // A whole sentence first, then a clause, then a word, and an ellipsis
+    // whenever the cut does not end a sentence. The bare space used to sit in
+    // the same max() as the clause separators and was nearly always the latest
+    // match, so 1,875 rows stopped mid-clause with nothing saying they were
+    // cut: "...provider channels (gpt-image-2 /" (#168). The themes prover had
+    // the same bug and fixed it on 2026-09-29. One character is kept back for
+    // the ellipsis so the schema's 200 still holds.
+    const cut = s.slice(0, 199);
+    const sentence = Math.max(...[". ", "! ", "? ", "。", "！", "？"].map((m) => cut.lastIndexOf(m)));
+    if (sentence > 100) {
+      s = cut.slice(0, sentence + 1);
+    } else {
+      const clause = Math.max(
+        cut.lastIndexOf("; "), cut.lastIndexOf("，"), cut.lastIndexOf(", "),
+        cut.lastIndexOf("、"), cut.lastIndexOf(" · "), cut.lastIndexOf(" — "));
+      const at = clause > 120 ? clause : cut.lastIndexOf(" ");
+      s = `${(at > 120 ? cut.slice(0, at) : cut).replace(/[\s,;:·、，：—(（/-]+$/, "")}…`;
+    }
   }
   return displayWidth(s) >= 8 ? s : null;
 }
@@ -1047,43 +1096,63 @@ if (PROVE) {
 // section -- so 164 rows described how to install a plugin instead of what it
 // does, all of them carrying the identical sentence. Fixing the gate only
 // helps rows admitted after the fix; these were admitted before it.
+//
+// The same holds for the old 200-character clip, which cut at the last space.
+// A row it cut is repaired only when its stored text is still a prefix of
+// what the author's own lane says today and that lane runs past the cap, so a
+// description a contributor wrote by hand is never touched.
 
 if (REDESCRIBE) {
-  const broken = registry.plugins.filter(
-    (p) => !p.official && !cleanDescription(p.description),
-  );
-  console.error(`triage: ${broken.length} listed row(s) carry a description the gates refuse`);
+  const refused = (p) => !cleanDescription(p.description);
+  const maybeClipped = (p) => p.description.length > 120 && !/[.!?。！？…]$/.test(p.description);
+  const broken = registry.plugins.filter((p) => !p.official && (refused(p) || maybeClipped(p)));
+  console.error(`triage: ${broken.length} listed row(s) carry a description the gates refuse or the old clip may have cut`);
+
+  const blurb = await blurbs([...new Set(broken.filter((p) => !refused(p)).map((p) => p.repo))]);
 
   const results = await pooled(broken, async (p) => {
+    const clip = !refused(p);
     const [pkgText, readme, meta] = await Promise.all([
       raw(p.repo, p.path ? `${p.path}/package.json` : "package.json"),
       raw(p.repo, p.path ? `${p.path}/README.md` : "README.md"),
-      gh(`/repos/${p.repo}`),
+      clip ? null : gh(`/repos/${p.repo}`),
     ]);
-    const description = cleanDescription(parse(pkgText)?.description)
-      ?? cleanDescription(meta?.description)
-      ?? cleanDescription(ledeFromReadme(readme));
+    const lanes = [parse(pkgText)?.description, clip ? blurb.get(p.repo) : meta?.description, ledeFromReadme(readme)];
+    let description;
+    if (clip) {
+      const source = lanes.find((l) => {
+        const full = l ? tidyDescription(l) : "";
+        return full.length > 200 && full.startsWith(p.description);
+      });
+      const recut = source ? cleanDescription(source) : null;
+      description = recut !== p.description ? recut : null;
+    } else {
+      description = lanes.reduce((d, l) => d ?? cleanDescription(l), null);
+    }
     // `was` is captured here, not read back at report time: the writeback
     // below mutates the very row `entry` points at, so a report that reads
     // `entry.description` shows the new value in both columns and silently
     // claims every repair was a no-op.
-    return { entry: p, was: p.description, description, gone: meta?.__missing === true };
+    return { entry: p, was: p.description, description, gone: meta?.__missing === true, clip };
   }, "redescribe");
 
   const fixed = results.filter((r) => r.description);
-  const stuck = results.filter((r) => !r.description && !r.gone);
+  const stuck = results.filter((r) => !r.clip && !r.description && !r.gone);
   const gone = results.filter((r) => r.gone);
   console.error(
-    `triage: ${fixed.length} redescribed, ${stuck.length} still have nothing upstream, ${gone.length} now 404`,
+    `triage: ${fixed.length} redescribed (${fixed.filter((r) => r.clip).length} re-cut), ` +
+    `${stuck.length} still have nothing upstream, ${gone.length} now 404`,
   );
   for (const g of gone) console.error(`  - 404: ${g.entry.repo} (${g.entry.name})`);
 
-  const byName = new Map(fixed.map((r) => [r.entry.name, r.description]));
+  const byName = new Map(fixed.map((r) => [r.entry.name, r]));
   for (const p of registry.plugins) {
-    const d = byName.get(p.name);
-    if (!d) continue;
-    p.description = d;
-    p.tags = tagsFor(`${p.repo} ${d}`);
+    const r = byName.get(p.name);
+    if (!r) continue;
+    p.description = r.description;
+    // A re-cut only drops a broken tail, so the row keeps its tags, including
+    // ones a contributor set by hand.
+    if (!r.clip) p.tags = tagsFor(`${p.repo} ${r.description}`);
   }
 
   if (REPORT) {
