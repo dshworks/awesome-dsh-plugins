@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-1754 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1755 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1135,6 +1135,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-adt | 0 | [nefevcore/dsh-adt](https://github.com/nefevcore/dsh-adt) | ABAP Development Tools (ADT) protocol client + DeepSeek Harness plugin: agent-native SAP ABAP access with features beyond VS Code ADT. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-adversarial-roundtable | 0 | [Nerdless-ship-it/dsh-adversarial-roundtable](https://github.com/Nerdless-ship-it/dsh-adversarial-roundtable) | 多模型圆桌会议编排：规划者/审核者/执行者/验收者四席协作，代码主持人仲裁；开会前先向用户确认阵容。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-advisor-slhssb | 0 | [slhssb/dsh-advisor](https://github.com/slhssb/dsh-advisor) · [npm](https://www.npmjs.com/package/@slhssb/dsh-advisor) | Independent-model advisory review for DeepSeek Harness: after each tool step, a reviewer model audits the agent's operations and injects concerns/guidance into the next step. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-advisor-wweir | - | [wweir/dsh-advisor](https://github.com/wweir/dsh-advisor) · [npm](https://www.npmjs.com/package/@wweir/dsh-advisor) | Automatic second-opinion review: a restricted child session re-reads the agent's recent work with read-only tools and records at most one evidence-backed note, or stays silent. | 0.2.1-rc.2 (2026-10-19) |
 | dsh-agent-bridge-caimh | 0 | [CAI-MH/dsh-agent-bridge](https://github.com/CAI-MH/dsh-agent-bridge) | 飞书「算法组」机器人 → DSH 会话桥：在指定工作区开真会话，用 DSH 现有模型+插件执行任务并回传结论 — DSH bundle。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-agent-browser-guanhais | 0 | [guanhaisen/dsh-agent-browser](https://github.com/guanhaisen/dsh-agent-browser) | Agent-driven control of the DSH right-Sidebar browser: read page content, act on it, size the viewport, and take screenshots from model tools (Desktop only) | 0.2.0-rc.2 (2026-10-17) |
 | dsh-agent-browser-jhlee111 | 0 | [jhlee111/dsh-agent-browser](https://github.com/jhlee111/dsh-agent-browser) | DeepSeek Harness plugin: headed browser with Pick/Draw toolbar, chat feedback card, launch settings, and dev-server auto-start. | unverified |

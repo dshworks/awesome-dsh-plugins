@@ -392302,6 +392302,23 @@
       "tags": [
         "capabilities"
       ]
+    },
+    {
+      "name": "dsh-advisor-wweir",
+      "repo": "wweir/dsh-advisor",
+      "description": "Automatic second-opinion review: a restricted child session re-reads the agent's recent work with read-only tools and records at most one evidence-backed note, or stays silent.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-19",
+      "lastVerified": "2026-10-19",
+      "verifiedAgainst": "0.2.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@wweir/dsh-advisor",
+      "tags": [
+        "agents",
+        "observability"
+      ]
     }
   ]
 }
