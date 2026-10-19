@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-1585 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1586 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1077,6 +1077,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-draft-shield | 0 | [johndfowler/dsh-draft-shield](https://github.com/johndfowler/dsh-draft-shield) | Marks the DSH Web GUI as untranslatable (html translate=no + google notranslate meta) so browser page-translation can never rewrite React-owned DOM and wipe composer drafts. | 0.1.1-rc.2 (2026-09-01) |
 | dsh-drawio-zhangguo | 0 | [zhang-guo-wen/dsh-drawio](https://github.com/zhang-guo-wen/dsh-drawio) · [npm](https://www.npmjs.com/package/@guowenzhang/dsh-drawio) | Standalone DeepSeek Harness plugin: preview .drawio (mxGraph XML) diagrams in the Web Sidebar | 0.1.7-rc.2 (2026-09-29) |
 | dsh-dsbal | 0 | [flyingfishzxf/dsh-dsbal](https://github.com/flyingfishzxf/dsh-dsbal) | DeepSeek API balance widget for the DSH web sidebar — CNY balance above Settings, 30s auto refresh, click to refresh, hover details card, threshold warning borders, follows UI language. | 0.1.1-rc.2 (2026-08-28) |
+| dsh-dual-bridge | - | [xiez0324-rgb/dsh-dual-bridge](https://github.com/xiez0324-rgb/dsh-dual-bridge) · [npm](https://www.npmjs.com/package/dsh-dual-bridge) | 分流对话：把工作区打包成结构化 prompt 复制到剪贴板，并同屏打开 DeepSeek 网页版做免费项目阅读；支持 PDF/Word/PPT/Excel 提取与图片 OCR，无法转文本的文件导出到桌面供上传，纯本地运行。 | unverified |
 | dsh-duobaxian | 0 | [jindaxia2026/dsh-duobaxian](https://github.com/jindaxia2026/dsh-duobaxian) | 多巴仙 — DeepSeek Harness Web UI 主题：八仙 × 多巴胺亮色，8 套仙家变体，明暗双模式。仙气多巴胺，界面好心情。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-dwg-preview | 0 | [linanbuan/dsh-dwg-preview](https://github.com/linanbuan/dsh-dwg-preview) | 侧边栏 DWG/DXF 预览：宿主侧用 LibreDWG(WASM) 把 DWG 转成 DXF 并渲染为矢量 SVG，客户端在文档预览标签里显示。 A DSH sidebar preview for DWG/DXF drawings: the host half decodes DWG with LibreDWG (WASM) and renders vector SVG… | 0.2.0-rc.2 (2026-10-17) |
 | dsh-ecnu-quota | 0 | [Taulee/dsh-ecnu-quota](https://github.com/Taulee/dsh-ecnu-quota) · [npm](https://www.npmjs.com/package/dsh-ecnu-quota) | ECNU (chat.ecnu.edu.cn) quota display for the DSH web GUI: a read-only host route that proxies the ECNU quota API, plus a sidebar card and a detail panel. | 0.2.0-rc.2 (2026-10-17) |
