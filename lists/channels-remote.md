@@ -4,7 +4,7 @@
 
 IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
-381 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+382 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -211,6 +211,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-plugin-wechat-ox2g | 1 | [Ox2g/dsh-plugin-wechat](https://github.com/Ox2g/dsh-plugin-wechat) | DeepSeek Harness WeChat channel plugin (ilink bot gateway), built on the Tencent/openclaw-weixin protocol layer. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-pocket-console | 1 | [picsky/dsh-pocket-console](https://github.com/picsky/dsh-pocket-console) · [npm](https://www.npmjs.com/package/dsh-pocket-console) | 不把整台机器交出去，只送出挡路的决定和下一步：DeepSeek Harness 的审批、ask_user_question 提问与结果回复，以飞书卡片发到手机——桌面优先、只出站；执行过程实时可见，下一段任务一键即开。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-qq-bot | 1 | [hZsFN/dsh-qq-bot](https://github.com/hZsFN/dsh-qq-bot) | Bridge QQ official bot private messages (C2C) into DeepSeek Harness (dsh) agent sessions | 0.1.0-rc.8 (2026-08-20) |
+| dsh-qq-bridge-flyinsta | 1 | [flyinstar/dsh-qq-bridge](https://github.com/flyinstar/dsh-qq-bridge) | Bidirectional QQ (OneBot v11) bridge: QQ messages drive Harness agents, and any agent can send QQ messages, images and stickers back into a chat. | 0.2.1-rc.2 (2026-10-19) |
 | dsh-qqbot-community | 1 | [DLive/dsh-qqbot-community](https://github.com/DLive/dsh-qqbot-community) · [npm](https://www.npmjs.com/package/dsh-qqbot-community) | QQ Official Bot adapter for DeepSeek Harness (migrated from openclaw-qqbot) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-realtime-voice-martinbe | 1 | [martinbear1/dsh-realtime-voice](https://github.com/martinbear1/dsh-realtime-voice) | Hot-disposable realtime voice Agent plugin for DeepSeek Harness WebUI and future WeChat Mini Program clients | 0.1.0-rc.8 (2026-08-20) |
 | dsh-remote-control-providcc | 1 | [providcc/dsh-remote-control](https://github.com/providcc/dsh-remote-control/tree/HEAD/packages/plugin) · [npm](https://www.npmjs.com/package/dsh-remote-control) | DSH Remote Control host plugin: pairs a running DeepSeek Harness with the DRC relay so a WeChat Mini Program can send prompts, watch streamed output, and answer approvals. | 0.2.0-rc.2 (2026-10-05) |
@@ -275,7 +276,7 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | dsh-feishu-mcp | 0 | [zhengjy01/dsh-feishu-mcp](https://github.com/zhengjy01/dsh-feishu-mcp) · [npm](https://www.npmjs.com/package/dsh-feishu-mcp) | Feishu (Lark) OpenAPI MCP connection for DeepSeek Harness: drives the official @larksuiteoapi/lark-mcp stdio server with your Feishu app credentials, exposes Feishu API tools (IM messages, Bitable… | 0.1.7-rc.2 (2026-09-29) |
 | dsh-feishu-plugin-zjuatri | 0 | [zjuatri/dsh-feishu-plugin](https://github.com/zjuatri/dsh-feishu-plugin) | DSH 飞书插件：右侧边栏读取飞书任务 / 总结机器人所在群聊，并把任务一键加入输入框 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-feishu-potterle | 0 | [potterlee369-prog/dsh-feishu](https://github.com/potterlee369-prog/dsh-feishu) | DSH host plugin: a Feishu (Lark) bot bridge — send @dsh messages from Feishu on your phone or PC, and the local DSH agent runs them and replies back to Feishu | 0.1.0-rc.8 (2026-08-20) |
-| dsh-feishu-reader | 0 | [Mr-SYGao/dsh-feishu-reader](https://github.com/Mr-SYGao/dsh-feishu-reader/tree/HEAD/lib) · [npm](https://www.npmjs.com/package/dsh-feishu-reader) | DSH Cordis plugin: read Feishu (Lark) docs — text, tables & images — as Markdown for your AI. 读取飞书文档（docx/wiki/sheets/bitable），文字转 Markdown、表格还原、图片下载供 AI 读图。 | 0.1.0-rc.8 (2026-08-25) |
+| dsh-feishu-reader | 0 | [gsnowdrift/dsh-feishu-reader](https://github.com/gsnowdrift/dsh-feishu-reader/tree/HEAD/lib) · [npm](https://www.npmjs.com/package/dsh-feishu-reader) | DSH Cordis plugin: read Feishu (Lark) docs — text, tables & images — as Markdown for your AI. 读取飞书文档（docx/wiki/sheets/bitable），文字转 Markdown、表格还原、图片下载供 AI 读图。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-feishu-remote | 0 | [ShiXiangYu2/dsh-feishu-remote](https://github.com/ShiXiangYu2/dsh-feishu-remote) · [npm](https://www.npmjs.com/package/dsh-feishu-remote) | Control your DeepSeek Harness agent from Feishu/Lark: send tasks via DM, receive results back, approve tool calls from mobile cards. Powered by lark-cli. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feishu-remote-luolin92 | 0 | [LUOLIN926/dsh-feishu-remote](https://github.com/LUOLIN926/dsh-feishu-remote) | 通过飞书私聊安全地远程控制本机 DeepSeek Harness | 0.1.0-rc.8 (2026-08-25) |
 | dsh-feishu-task-recorder | 0 | [CAI-MH/dsh-feishu-task-recorder](https://github.com/CAI-MH/dsh-feishu-task-recorder) | 轮询飞书群聊/单聊提取候选任务，一键授权（device flow），与任务看板插件双向同步，含界面悬浮面板 — DSH bundle。 | 0.1.7-rc.2 (2026-09-29) |

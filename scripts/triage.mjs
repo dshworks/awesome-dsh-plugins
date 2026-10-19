@@ -185,7 +185,17 @@ const CONCURRENCY = 12;
 // apps/cli/src/plugin.ts moved, and only to refuse `--profile desktop` until
 // the desktop app has initialised that profile. The contract is the same; the
 // ranges that miss are the `^0.1.x` ones counted above.
-const DSH_VERSION = process.env.DSH_VERSION ?? "0.2.0-rc.2";
+//
+// 2026-10-19: stamped 0.2.1-rc.2 (npm `latest` since 2026-10-19, packument
+// modified 06:29:58Z). The gate moved at 0.2.1-alpha.4 and peerRefusal() has
+// ported it since 2026-10-17: `engines.dsh` decides alone when declared.
+// plugin-compatibility.ts at dsh-v0.2.1-rc.2 is the file mirrored there
+// (sha256 3aaddccc...). plugin-manager still refuses a package without
+// `dsh.bundle` (index.ts:623), the client roster still reads `dsh.client`,
+// profile-plugins.ts is byte-identical, and skill-filesystem changed only how
+// it resolves the agents home. As on 2026-09-30, rows proven before today are
+// not re-dated.
+const DSH_VERSION = process.env.DSH_VERSION ?? "0.2.1-rc.2";
 if (!semver.valid(DSH_VERSION)) throw new Error(`DSH_VERSION ${JSON.stringify(DSH_VERSION)} is not a semantic version`);
 
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
@@ -290,7 +300,9 @@ async function blurbs(repos) {
 // stylesheet full of `--dsw-*` overrides is the weakest thing still real.
 const SKIP_PATH = /(^|\/)(node_modules|dist|build|out|vendor|\.git|coverage|fixtures?|examples?|tests?|__tests__)\//;
 // dsh's own patch layers, read off the dsh-v0.2.0-rc.2 tree (test fixtures
-// left out; SKIP_PATH drops those already). `vendoredFrom` taught the
+// left out; SKIP_PATH drops those already), plus the nine that
+// dsh-v0.2.1-rc.2 added (2026-10-19). schedule-bundle is gone from 0.2.1 and
+// stays listed: forks of the older tree still carry it. `vendoredFrom` taught the
 // package.json lane that a copy of dsh's file is dsh's proof, not the
 // copier's. The deep lanes never learned it: a fork of dsh carries
 // `packages/bundle/base/cordis.patch.yml`, the patch lane took the first patch
@@ -315,8 +327,17 @@ const DSH_FIRST_PARTY_PATCHES = [
   "packages/bundle/web-app/presets/cordis.patch.yml",
   "packages/experimental/agent-team-profile/cordis.patch.yml",
   "packages/experimental/auto-review/cordis.patch.yml",
+  "packages/experimental/badge-skill-bundle/cordis.patch.yml",
+  "packages/experimental/cot-translation-bundle/cordis.patch.yml",
   "packages/experimental/inspector/cordis.patch.yml",
+  "packages/experimental/inspector-profile/cordis.patch.yml",
+  "packages/experimental/plugin-market-bundle/cordis.patch.yml",
+  "packages/experimental/ralph-bundle/cordis.patch.yml",
   "packages/experimental/schedule-bundle/cordis.patch.yml",
+  "packages/experimental/session-search/cordis.patch.yml",
+  "packages/experimental/session-titles-bundle/cordis.patch.yml",
+  "packages/experimental/terminal-bundle/cordis.patch.yml",
+  "packages/experimental/tool-worktree/cordis.patch.yml",
   "packages/experimental/voice-input-bundle/cordis.patch.yml",
   "packages/subagent/subagent-claude-code/cordis.patch.yml",
   "packages/subagent/subagent-codex/cordis.patch.yml",
@@ -709,7 +730,11 @@ async function proveDeep(repo) {
     }
   }
 
-  const patch = paths.find((p) => /cordis\.patch\.ya?ml$/i.test(p));
+  // Shallowest first. Tree order sorts `.backup-x/cordis.patch.yml` ahead of
+  // the root `cordis.patch.yml` the package actually points at (found by hand
+  // on LanJinGod/dsh-purge, 2026-10-19).
+  const depth = (p) => p.split("/").length;
+  const patch = paths.filter((p) => /cordis\.patch\.ya?ml$/i.test(p)).sort((a, b) => depth(a) - depth(b))[0];
   if (patch) {
     return {
       proof: { evidence: patch, why: "cordis patch layer", path: dirname(patch) === "." ? undefined : dirname(patch) },

@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-10-18",
-  "count": 439,
-  "ownerChanged": 126,
+  "detected": "2026-10-19",
+  "count": 460,
+  "ownerChanged": 138,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -2811,6 +2811,153 @@
       "ownerChanged": false,
       "name": "dsh-session-delete-ricardoy",
       "on": "2026-10-18"
+    },
+    {
+      "from": "Pheobe-Southwood/dsh-acp-paseo",
+      "to": "ds-hu/dsh-acp-paseo",
+      "ownerChanged": true,
+      "name": "dsh-acp-paseo",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "Mr-SYGao/dsh-feishu-reader",
+      "to": "gsnowdrift/dsh-feishu-reader",
+      "ownerChanged": true,
+      "name": "dsh-feishu-reader",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "ddtcorex/dsh-maestro-review",
+      "to": "ddtcorex/maestro-reviewer",
+      "ownerChanged": false,
+      "name": "dsh-maestro-review",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "QIN-SMART/dsh-web-restart",
+      "to": "DEVbyQIN/dsh-web-restart",
+      "ownerChanged": true,
+      "name": "dsh-web-restart-qinsmart",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "WestFox-AwA/dsh-prompt-optimizer",
+      "to": "WestFox-AwA/dsh-wish-specializer",
+      "ownerChanged": false,
+      "name": "dsh-prompt-optimizer-westfoxa",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "zendev-lab/spark",
+      "to": "zendev-lab/cogfold",
+      "ownerChanged": false,
+      "name": "spark",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "HaydenSmith1121/dsh-opencode-go-plus",
+      "to": "DPH-1121/dsh-opencode-go-plus",
+      "ownerChanged": true,
+      "name": "dsh-opencode-go-plus-haydensm",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "HaydenSmith1121/dsh-connect-trae-plus",
+      "to": "DPH-1121/dsh-connect-trae-plus",
+      "ownerChanged": true,
+      "name": "dsh-connect-trae-plus",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "HaydenSmith1121/dsh-memory",
+      "to": "DPH-1121/dsh-memory",
+      "ownerChanged": true,
+      "name": "dsh-memory-haydensm",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "HaydenSmith1121/dsh-session-cleanup",
+      "to": "DPH-1121/dsh-session-cleanup",
+      "ownerChanged": true,
+      "name": "dsh-session-cleanup-haydensm",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "QIN-SMART/dsh-plugin-kit",
+      "to": "DEVbyQIN/dsh-plugin-kit",
+      "ownerChanged": true,
+      "name": "dsh-plugin-kit-qinsmart",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "QIN-SMART/dsh-quote-to-chat",
+      "to": "DEVbyQIN/dsh-quote-to-chat",
+      "ownerChanged": true,
+      "name": "dsh-quote-to-chat",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "QIN-SMART/dsh-session-md",
+      "to": "DEVbyQIN/dsh-session-md",
+      "ownerChanged": true,
+      "name": "dsh-session-md",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "QIN-SMART/dsh-sidebar-marks",
+      "to": "DEVbyQIN/dsh-sidebar-marks",
+      "ownerChanged": true,
+      "name": "dsh-sidebar-marks",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "lianzhimanye/dsh-bard-0.03",
+      "to": "lianzhimanye/dsh-bard-0.10",
+      "ownerChanged": false,
+      "name": "dsh-bard-0.03",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "QIN-SMART/dsh-session-tabs",
+      "to": "DEVbyQIN/dsh-session-tabs",
+      "ownerChanged": true,
+      "name": "dsh-session-tabs-qinsmart",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "imtwa/dsh-recall",
+      "to": "imtwa/dsh-recall-sessions",
+      "ownerChanged": false,
+      "name": "dsh-recall-imtwa",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "ling-long-ling/dsh-novel-companion",
+      "to": "ling-long-ling/dsh-novel-writer",
+      "ownerChanged": false,
+      "name": "dsh-novel-companion",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "zhangyuzhangyu233/dsh-claudelike",
+      "to": "zhangyuzhangyu233/dsh-coderipple",
+      "ownerChanged": false,
+      "name": "dsh-claudelike",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "MCJF28/dsh-prompt-optimizer",
+      "to": "MCJF28/dsh-prompt-crafter",
+      "ownerChanged": false,
+      "name": "dsh-prompt-optimizer-mcjf28",
+      "on": "2026-10-19"
+    },
+    {
+      "from": "oliblue-evan/dsh-peakclock",
+      "to": "oliblue-evan/dsh-liao-peakclock",
+      "ownerChanged": false,
+      "name": "dsh-peakclock",
+      "on": "2026-10-19"
     }
   ],
   "collisions": {
@@ -3075,6 +3222,106 @@
         "repo": "vecnode/vn-code",
         "row": "vn-harness",
         "on": "2026-10-18"
+      },
+      {
+        "repo": "ddtcorex/maestro-reviewer",
+        "row": "dsh-maestro-review",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DEVbyQIN/dsh-plugin-kit",
+        "row": "dsh-plugin-kit-qinsmart",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DEVbyQIN/dsh-quote-to-chat",
+        "row": "dsh-quote-to-chat",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DEVbyQIN/dsh-session-md",
+        "row": "dsh-session-md",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DEVbyQIN/dsh-session-tabs",
+        "row": "dsh-session-tabs-qinsmart",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DEVbyQIN/dsh-sidebar-marks",
+        "row": "dsh-sidebar-marks",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DEVbyQIN/dsh-web-restart",
+        "row": "dsh-web-restart-qinsmart",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DPH-1121/dsh-connect-trae-plus",
+        "row": "dsh-connect-trae-plus",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DPH-1121/dsh-memory",
+        "row": "dsh-memory-haydensm",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DPH-1121/dsh-opencode-go-plus",
+        "row": "dsh-opencode-go-plus-haydensm",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "DPH-1121/dsh-session-cleanup",
+        "row": "dsh-session-cleanup-haydensm",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "ds-hu/dsh-acp-paseo",
+        "row": "dsh-acp-paseo",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "gsnowdrift/dsh-feishu-reader",
+        "row": "dsh-feishu-reader",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "imtwa/dsh-recall-sessions",
+        "row": "dsh-recall-imtwa",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "lianzhimanye/dsh-bard-0.10",
+        "row": "dsh-bard-0.03",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "ling-long-ling/dsh-novel-writer",
+        "row": "dsh-novel-companion",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "oliblue-evan/dsh-liao-peakclock",
+        "row": "dsh-peakclock",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "WestFox-AwA/dsh-wish-specializer",
+        "row": "dsh-prompt-optimizer-westfoxa",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "zendev-lab/cogfold",
+        "row": "spark",
+        "on": "2026-10-19"
+      },
+      {
+        "repo": "zhangyuzhangyu233/dsh-coderipple",
+        "row": "dsh-claudelike",
+        "on": "2026-10-19"
       }
     ]
   },

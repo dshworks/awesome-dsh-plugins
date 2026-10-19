@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-267 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+270 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -163,6 +163,7 @@ Building, testing, and publishing plugins.
 | deepseek-harness-python | 0 | [awesimon/deepseek-harness-python](https://github.com/awesimon/deepseek-harness-python/tree/HEAD/frontend) | Python SDK and runtime packaging for DeepSeek Harness (under development) | unverified |
 | deepseek-harness-runcase-adapter | 0 | [rrrrrredy/deepseek-harness-runcase-adapter](https://github.com/rrrrrredy/deepseek-harness-runcase-adapter) | Capture DeepSeek Harness SDK runs as validated RunCase Interchange records. | 0.1.1-rc.2 (2026-09-01) |
 | dev-workbench | 0 | [cnskycn/dev-workbench](https://github.com/cnskycn/dev-workbench) | DSH (DeepSeek Harness) 插件开发工作台：草稿验证 → 一键发布 → 一键回滚/停用/卸载，防止坏插件阻塞启动 | 0.1.0-rc.8 (2026-08-20) |
+| dreamina-canvas-plugin | 0 | [full-aigc-plugins/dreamina-canvas-plugin](https://github.com/full-aigc-plugins/dreamina-canvas-plugin) | Build Dreamina canvas node graphs and timelines with quoted runs and verified assets. | 0.2.1-rc.2 (2026-10-19) |
 | dsh-a11y-scan | 0 | [988hj7tczd-oss/dsh-a11y-scan](https://github.com/988hj7tczd-oss/dsh-a11y-scan) · [npm](https://www.npmjs.com/package/dsh-a11y-scan) | DSH native accessibility (WCAG) scanner: runs axe-core over local HTML files / build output / URLs and reports violations (rule id, impact, WCAG 2.1 mapping, element targeting… | 0.1.0-rc.8 (2026-08-25) |
 | dsh-agora | 0 | [AgoraIO-Community/dsh-agora](https://github.com/AgoraIO-Community/dsh-agora) · [npm](https://www.npmjs.com/package/dsh-agora) | DSH skill bundle: the Agora skill (RTC, RTM, ConvoAI, CLI, Cloud Recording, tokens) synced verbatim from AgoraIO/skills at a pinned release tag. Install to add the `agora` skill to DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-api-contract | 0 | [uckkk/dsh-api-contract](https://github.com/uckkk/dsh-api-contract) · [npm](https://www.npmjs.com/package/dsh-api-contract) | 接口契约助手：解析 OpenAPI 3.x（JSON/YAML），生成 TypeScript / Python 类型化客户端，并检测接口升级的破坏性变更 | 0.1.0-rc.8 (2026-08-20) |
@@ -231,6 +232,7 @@ Building, testing, and publishing plugins.
 | dsh-publish-skill | 0 | [WonderfulEdge/dsh-publish-skill](https://github.com/WonderfulEdge/dsh-publish-skill) | User-invocable XDSP frontend release skill for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-readme-writer | 0 | [wenbuer/dsh-readme-writer](https://github.com/wenbuer/dsh-readme-writer) | 自适应 GitHub README 撰写与截图技能：先判断目标类型与截图能力——网页走浏览器截图，无网页的控制台/CLI 走终端截屏（System.Drawing / HTML 终端 / termtosvg），能则询问并自动配图，不能则走无截图模板；强调相对路径防丢图。 | 0.1.1-rc.2 (2026-09-04) |
 | dsh-release-guardian | 0 | [XiaoSong1223/dsh-release-guardian](https://github.com/XiaoSong1223/dsh-release-guardian) | Local, deterministic release risk checks for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-release-selfcheck | 0 | [feely0208/dsh-release-selfcheck](https://github.com/feely0208/dsh-release-selfcheck) | 软件发布前的自检：产物清单比对（防止把无关文件一起上传）、版本一致性、平台与架构正确性、上传内容过滤、上线前逐链接 404 检查、发布纪律与现场清理。 | 0.2.1-rc.2 (2026-10-19) |
 | dsh-reload | 0 | [louisyeaaah/dsh-reload](https://github.com/louisyeaaah/dsh-reload) | Hot-reload DSH plugins and skills without restarting: reload_plugin re-imports a loaded plugin's own modules and re-applies it (with rollback)… | 0.2.0-rc.2 (2026-10-05) |
 | dsh-reproducible-build-proof | 0 | [dongsheng123132/dsh-reproducible-build-proof](https://github.com/dongsheng123132/dsh-reproducible-build-proof) | Offline content-addressed proof that independent builds reproduced byte-identical specified artifacts | 0.1.1-rc.2 (2026-08-26) |
 | dsh-scaffold | 0 | [uckkk/dsh-scaffold](https://github.com/uckkk/dsh-scaffold) | 项目脚手架：生成 LICENSE / .gitignore / .editorconfig 等常见项目文件 | 0.1.7-rc.2 (2026-09-29) |
@@ -257,6 +259,7 @@ Building, testing, and publishing plugins.
 | dsh-updater-zhengjy0 | 0 | [zhengjy01/dsh-updater](https://github.com/zhengjy01/dsh-updater) · [npm](https://www.npmjs.com/package/@zhengjunyao/dsh-updater) | Track DeepSeek Harness's own releases and update in one click: follows the npm dist-tags and GitHub releases, shows every change between the running build and the target… | 0.1.7-rc.2 (2026-09-29) |
 | dsh-web-preview-nubeslov | 0 | [nubeslove/dsh-web-preview](https://github.com/nubeslove/dsh-web-preview) | DSH 侧栏网页预览：在右侧栏直接打开本地开发服务器或任意 http/https 页面，不用跳出 DSH 去开外部浏览器。 | 0.2.0-rc.2 (2026-10-18) |
 | dsh-wei-sitecontrol | 0 | [TodayWei/dsh-wei-sitecontrol](https://github.com/TodayWei/dsh-wei-sitecontrol) | Site controller for DeepSeek Harness: register websites/HTTP services and manage their lifecycle, git, and release-based SSH deploys — with server probing, stored deploy scripts… | 0.1.7-rc.2 (2026-09-29) |
+| effectcraft-plugin | 0 | [full-aigc-plugins/effectcraft-plugin](https://github.com/full-aigc-plugins/effectcraft-plugin) | Build editable motion-graphics compositions with layers, keyframes, and alpha renders. | 0.2.1-rc.2 (2026-10-19) |
 | gamify-edu | 0 | [BinLe1988/gamify-edu](https://github.com/BinLe1988/gamify-edu) | A modern, gamified educational platform built with React, TypeScript, and Vite | 0.1.0-rc.8 (2026-08-20) |
 | hedgehog-core-deepseek-harness | 0 | [skyf0xx/hedgehog-core-deepseek-harness](https://github.com/skyf0xx/hedgehog-core-deepseek-harness/tree/HEAD/workspace) · [npm](https://www.npmjs.com/package/workspace) | Hedgehog's deepseek-harness core: a pinned DSH/Cordis plugin workspace, a tool-plugin generator, and the skills that drive building DeepSeek Harness plugins with Hedgehog's build discipline. | 0.1.0-rc.8 (2026-08-25) |
 | kdd-scaffold | 0 | [MauricioPerera/kdd-scaffold](https://github.com/MauricioPerera/kdd-scaffold) | Plugin de composición para DeepSeek Harness (dsh) que expone una Tool para generar un contrato de tarea KDD nuevo: kddscaffold. | 0.1.1-rc.2 (2026-08-28) |

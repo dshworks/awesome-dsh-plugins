@@ -1,13 +1,20 @@
 {
   "_comment": "Repos this registry decided belong to dshworks/awesome-dsh-themes, not here. Written by scripts/triage.mjs; read by the sibling repo's discover step as a source. A row stays after the sibling admits it -- this file records the routing decision, not the sibling's queue.",
-  "updated": "2026-10-18",
-  "count": 139,
+  "updated": "2026-10-19",
+  "count": 148,
   "repos": [
     {
       "repo": "10086ggqq/dsh_theme_Minecraft",
       "description": "把 DeepSeek Harness 变成 Minecraft Java Edition 风格——WebGL 旋转全景主菜单、存档式会话选择、四种游戏模式对应 Agent 预设、世界内 HUD 聊天台、像素风工具卡片与审批面板、AI 思考时触发跑酷小游戏、8-bit 合成音效与自定义背景音乐、五类互动桌宠与红石粒子特效。零侵入 DSH 核心源码，经典界面一键切回。",
       "stars": 2,
       "routed": "2026-09-04",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "165890/dsh-claude-code-desktop-theme",
+      "description": "Claude Code desktop theme for the DeepSeek Harness Web GUI: warm surfaces, serif UI, HUD, diff review drawer and usage overview card.",
+      "stars": 1,
+      "routed": "2026-10-19",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -180,6 +187,20 @@
       "description": "Skin manager for the DeepSeek Harness (dsh) web GUI: a Settings page that lists installed skins, picks the active one, and switches between the stock UI and a skin. Two-layer wiring, adopts skins othe",
       "stars": 0,
       "routed": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "DPH-1121/dsh-wallhaven-wallpaper",
+      "description": "DeepSeek Harness 插件：从 wallhaven.cc 搜图并铺成 GUI 背景，图片全由宿主端取回（支持代理，浏览器无需能访问 wallhaven），可一键下载原图。零运行时依赖。",
+      "stars": 1,
+      "routed": "2026-10-19",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "DPH-1121/dsh-wallpaper-engine",
+      "description": "Wallpaper Engine Steam Workshop browser for DeepSeek Harness: anonymous search & browse the workshop from a sidebar panel, steam:// subscribe deep-links, Steam login detection.",
+      "stars": 0,
+      "routed": "2026-10-19",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -377,6 +398,20 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "jeweis/dsh-skin-lab",
+      "description": "DeepSeek Harness 主题插件：10 套内置主题，自由搭配配色、背景与风格，支持自定义图片和一键恢复官方外观。",
+      "stars": 0,
+      "routed": "2026-10-19",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "jiabei20031104/dsh_theme_terraria",
+      "description": "Terraria pixel theme for DeepSeek Harness (Desktop + Web)",
+      "stars": 1,
+      "routed": "2026-10-19",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "kdzhang-hub/dsh-wallpaper",
       "description": "Wallpaper Engine integration for DeepSeek Harness and Windows desktop customization.",
       "stars": 3,
@@ -423,6 +458,13 @@
       "description": "DSH自定义主题：可自行修改背景图片，主题色，表情包与文案。基于[dsh-vesna-theme](https://github.com/Mahiru0427/dsh-vesna-theme)",
       "stars": 0,
       "routed": "2026-10-18",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "km5473/dsh-customizable-theme",
+      "description": "DSH自定义主题：可自行修改背景图片，主题色，表情包与文案。基于[dsh-vesna-theme](https://github.com/Mahiru0427/dsh-vesna-theme)",
+      "stars": 2,
+      "routed": "2026-10-19",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -531,6 +573,13 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "luongthimydieu/dsh-client-ui-skin-kitty",
+      "description": "一个为 DeepSeek Harness (DSH) Web UI 打造的 Hello Kitty 主题插件，以粉嫩的视觉风格和自定义壁纸，为你的 DSH 界面增添一份可爱与个性。",
+      "stars": 0,
+      "routed": "2026-10-19",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "luoyuejun9/dsh-skin-rotation",
       "description": "Random skin rotation for DeepSeek Harness: a different installed skin on every launch, with an on/off switch inside Settings -> Skins.",
       "stars": 1,
@@ -570,6 +619,13 @@
       "description": "给 DSH 铺整屏动态背景：静态图 / GIF / 视频三种都支持，配可调蒙版、模糊、不透明度与面板半透明。只改 CSS 变量、不碰哈希类名。动态背景插件（DSH plugin for dynamic wallpaper/background）",
       "stars": 0,
       "routed": "2026-10-07",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "MilkySnowWay123/dsh-client-ui-skin-tianlight",
+      "description": "为 DeepSeek Harness Web 界面打造的天光皮肤：4K 视频/图片壁纸、本地上传与自动轮播、可选 WebWallGL 场景、液态玻璃外观，以及薄荷猫桌面伙伴。",
+      "stars": 2,
+      "routed": "2026-10-19",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
@@ -889,6 +945,13 @@
       "description": "NAZUNA (彻夜之歌) themed wallpaper-engine for DeepSeek Harness: 七草荠 mascot, moonlight-violet liquid glass. Derivative of elysia395/dsh-wallpaper-engine v0.7.1 (MIT).",
       "stars": 1,
       "routed": "2026-09-29",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "yesang0924-beep/dsh-glass-skin",
+      "description": "Glass Skin · 玻璃肌肤 — 给 DeepSeek Harness Web UI 的玻璃材质主题：材质冻结、壁纸是唯一变量。",
+      "stars": 1,
+      "routed": "2026-10-19",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
