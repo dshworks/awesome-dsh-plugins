@@ -369267,12 +369267,12 @@
     {
       "name": "dsh-connect-minimaxcode",
       "repo": "JeffTsuiCUG/dsh-connect-minimaxcode",
-      "description": "把本机已登录的 MiniMax Code 桌面 App 的模型接入 DeepSeek Harness：复用其登录态，提供 Anthropic Messages 兼容接入与动态模型目录。",
+      "description": "把本机已登录的 MiniMax Code 桌面 App 模型接入 DSH：零配置、无需 API Key，Anthropic Messages 兼容接入与动态模型目录，并在对话框底部和插件页显示积分余额与即将到期的积分。非官方插件，依赖 MiniMax 客户端非公开接口，仅供学习研究。",
       "category": "plugin",
       "official": false,
       "added": "2026-10-17",
-      "lastVerified": "2026-10-17",
-      "verifiedAgainst": "0.2.0-rc.2",
+      "lastVerified": "2026-10-20",
+      "verifiedAgainst": "0.2.1-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
       "npm": "dsh-connect-minimaxcode",
@@ -369280,7 +369280,7 @@
       "starsUpdated": "2026-10-19",
       "tags": [
         "models",
-        "interop"
+        "usage"
       ],
       "pushedAt": "2026-10-19"
     },
