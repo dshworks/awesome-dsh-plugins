@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-10-19",
+  "checked": "2026-10-20",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 882,
+  "count": 883,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -495,6 +495,12 @@
       "npm": "@huanlin/dsh-plugin-device-info",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "whisperflo/dsh-deepseek-console",
+      "npm": "@hzjjxc/dsh-deepseek-console",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-20"
     },
     {
       "repo": "Porphyrioon/ironlaw",
@@ -1657,6 +1663,12 @@
       "npm": "dsh-crw",
       "why": "published by us/dsh-crw",
       "since": "2026-09-29"
+    },
+    {
+      "repo": "zhuoxiaoshuai/dsh-database",
+      "npm": "dsh-database",
+      "why": "published by blkpne/dsh-database",
+      "since": "2026-10-20"
     },
     {
       "repo": "kyya/dsh-deepseek-balance",
@@ -3193,6 +3205,12 @@
       "since": "2026-09-29"
     },
     {
+      "repo": "eivmosn/dsh-pets",
+      "npm": "dsh-pets",
+      "why": "published by dushaobindoudou/dsh-plugin",
+      "since": "2026-10-20"
+    },
+    {
       "repo": "Swwag666/DSH_Phone_Swag",
       "path": "dsh-phone/plugin/dsh-phone-bridge",
       "npm": "dsh-phone-bridge",
@@ -4680,18 +4698,6 @@
       "npm": "dsh-token-usage",
       "why": "published by tastelessor/dsh-usage-stats",
       "since": "2026-08-21"
-    },
-    {
-      "repo": "MashedPotato817/dsh-tool-browser",
-      "npm": "dsh-tool-browser",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
-    },
-    {
-      "repo": "yuehancn/dsh-tool-browser",
-      "npm": "dsh-tool-browser",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
     },
     {
       "repo": "Huasfan/dsh-tool-git",
