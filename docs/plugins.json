@@ -354604,24 +354604,20 @@
       "pushedAt": "2026-10-12"
     },
     {
-      "name": "datacircle-plugin",
-      "repo": "waynehamadi/datacircle-plugin",
+      "name": "datacircle",
+      "repo": "waynehamadi/datacircle",
       "path": "skills/datacircle",
-      "description": "Datacircle for Claude Code, Cursor and Gemini CLI. Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup.",
+      "description": "Datacircle lists all the GTM APIs. Download every GTM API plan on Datacircle as one file, with a skill that tells your AI how to query it: datacircle.dev/SKILL.md.",
       "category": "skill",
       "official": false,
       "added": "2026-10-17",
-      "lastVerified": "2026-10-17",
-      "verifiedAgainst": "0.2.0-rc.2",
+      "lastVerified": "2026-10-20",
+      "verifiedAgainst": "0.2.1-rc.2",
       "status": "verified",
       "evidence": "skills/datacircle/SKILL.md#frontmatter",
-      "stars": 2,
-      "starsUpdated": "2026-10-20",
       "tags": [
-        "interop",
-        "models"
-      ],
-      "pushedAt": "2026-10-19"
+        "capabilities"
+      ]
     },
     {
       "name": "dsh-whale-run",
