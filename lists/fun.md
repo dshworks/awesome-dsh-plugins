@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-635 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+636 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -534,6 +534,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-pet-nutri | 0 | [uckkk/dsh-pet-nutri](https://github.com/uckkk/dsh-pet-nutri) | petnutri：营养补充：按参数返回宠物健康营养方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pet-pack | 0 | [uckkk/dsh-pet-pack](https://github.com/uckkk/dsh-pet-pack) | petpack：宠物旅行清单：按参数返回宠物出行寄养方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pet-pill | 0 | [uckkk/dsh-pet-pill](https://github.com/uckkk/dsh-pet-pill) | petpill：宠物喂药：按参数返回宠物急救护理方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-pet-plugin | 0 | [zuoyunlai/dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) · [npm](https://www.npmjs.com/package/dsh-pet-plugin) | Photo-real desk pet: four personas, 24fps alpha-video dance/walk/hair actions, five-language lines, optional edge-tts neural voice, right-click menu and /dsh-pet command. Zero dependencies. | 0.2.1-alpha.2 (2026-10-22) |
 | dsh-pet-progress | 0 | [Elefseus/dsh-pet-progress](https://github.com/Elefseus/dsh-pet-progress) | Progress companion for the dsh web pet: folds durable todo/write and goal/change session events into the pet's status bubble so it reports how much of the work is left… | 0.2.0-rc.2 (2026-10-17) |
 | dsh-pet-qqmusic | 0 | [344272586-sketch/dsh-pet-qqmusic](https://github.com/344272586-sketch/dsh-pet-qqmusic) | 鲸歌：让 dsh-pet 跟着 QQ 音乐 / 网易云音乐逐行显示歌词。QQ 音乐走 Windows SMTC，网易云读本地 cloudmusic.elog（无需插件、支持 seek），延迟可调、翻译、桌面悬浮模式不切动画 | 0.2.0-rc.2 (2026-10-18) |
 | dsh-pet-sitting | 0 | [uckkk/dsh-pet-sitting](https://github.com/uckkk/dsh-pet-sitting) | petsitting：宠物寄养：按参数返回宠物出行寄养方案。 | 0.1.0-rc.8 (2026-08-21) |
