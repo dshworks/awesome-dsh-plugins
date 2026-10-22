@@ -392745,6 +392745,22 @@
       "stars": 0,
       "starsUpdated": "2026-10-22",
       "pushedAt": "2026-10-19"
+    },
+    {
+      "name": "dsh-provider-proxy-routes",
+      "repo": "apolenkov/dsh-provider-proxy",
+      "npm": "@apolenkov/dsh-provider-proxy",
+      "description": "Per-provider and per-model outbound proxy routing for model calls, configured from a Settings page.",
+      "category": "bundle",
+      "tags": [
+        "models"
+      ],
+      "official": false,
+      "added": "2026-10-22",
+      "lastVerified": "2026-10-22",
+      "verifiedAgainst": "0.2.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }

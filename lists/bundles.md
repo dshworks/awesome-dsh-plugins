@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+103 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -109,4 +109,5 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-completion-guard | 0 | [GreenLv/dsh-completion-guard](https://github.com/GreenLv/dsh-completion-guard) · [npm](https://www.npmjs.com/package/dsh-completion-guard) | Helps DSH agents remember your requirements during long tasks and, after a session resumes, checks the key conditions and saved results again so partial work is not reported as complete. | 0.1.1-rc.2 (2026-08-29) |
 | dsh-feishu-beacon | 0 | [jiangdunchun/dsh-feishu-beacon](https://github.com/jiangdunchun/dsh-feishu-beacon) · [npm](https://www.npmjs.com/package/dsh-feishu-beacon) | DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook | 0.1.7-rc.2 (2026-09-29) |
+| dsh-provider-proxy-routes | - | [apolenkov/dsh-provider-proxy](https://github.com/apolenkov/dsh-provider-proxy) · [npm](https://www.npmjs.com/package/@apolenkov/dsh-provider-proxy) | Per-provider and per-model outbound proxy routing for model calls, configured from a Settings page. | 0.2.1-rc.2 (2026-10-22) |
 | dsh-reasoning-distill | 0 | [huhu23333/dsh-reasoning-distill](https://github.com/huhu23333/dsh-reasoning-distill) · [npm](https://www.npmjs.com/package/dsh-reasoning-distill) | Distill over-long model reasoning into its useful core and replay the distilled version on every later request, with a per-session cost report. | 0.2.0-rc.2 (2026-10-17) |
