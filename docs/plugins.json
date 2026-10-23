@@ -392756,6 +392756,22 @@
       "stars": 0,
       "starsUpdated": "2026-10-23",
       "pushedAt": "2026-10-19"
+    },
+    {
+      "name": "CI Diet",
+      "repo": "0disoft/dsh-ci-diet",
+      "npm": "dsh-ci-diet",
+      "description": "Finds wasted GitHub Actions runner time and proposes small, reviewable workflow patches, with a DSH settings page and explicit approval before any edit.",
+      "category": "bundle",
+      "tags": [
+        "usage",
+        "devtools"
+      ],
+      "status": "verified",
+      "added": "2026-10-23",
+      "lastVerified": "2026-10-23",
+      "verifiedAgainst": "0.2.1-rc.2",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
