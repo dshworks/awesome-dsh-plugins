@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+103 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -67,6 +67,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-fschannel | 2 | [cershuang/dsh-fschannel](https://github.com/cershuang/dsh-fschannel) | Feishu/Lark bot bridge that binds a web session to a Feishu chat so messages flow both ways. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-goal-quiescence | 2 | [1052326311/dsh-goal-quiescence](https://github.com/1052326311/dsh-goal-quiescence) | Completion evidence gate for DeepSeek Harness goal-mode subagents. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-live-reload | 2 | [xuhurdern-beep/dsh-live-reload](https://github.com/xuhurdern-beep/dsh-live-reload) | One-click hot reload of the running DeepSeek Harness plugin composition without restarting the process. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-mcp-tools | 2 | [hxlog/dsh-mcp-tools](https://github.com/hxlog/dsh-mcp-tools) · [npm](https://www.npmjs.com/package/dsh-mcp-tools) | DSH 设置内的 MCP 服务器/工具管理器：streamable-http 与 stdio、Postman 式请求头、连通性测试、逐工具开关，停用工具不注册进模型 | 0.2.1-rc.2 (2026-10-23) |
 | dsh-session-manager-semidia | 2 | [Semidia/dsh-session-manager](https://github.com/Semidia/dsh-session-manager) | Right-click session menu and sidebar manager: pin, rename, archive, export, and open in a new window. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-side-workspace | 2 | [invalidnaaaame/dsh-side-workspace](https://github.com/invalidnaaaame/dsh-side-workspace) | Codex-style side conversations, a right workspace with Side/Subagents/Goal, and a pinned-notes board for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-simplify | 2 | [GongYuanCaiJi/dsh-simplify](https://github.com/GongYuanCaiJi/dsh-simplify) | Reviews recently changed code for clarity, consistency, and maintainability in DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |

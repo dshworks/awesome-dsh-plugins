@@ -392756,6 +392756,26 @@
       "stars": 0,
       "starsUpdated": "2026-10-23",
       "pushedAt": "2026-10-19"
+    },
+    {
+      "name": "dsh-mcp-tools",
+      "repo": "hxlog/dsh-mcp-tools",
+      "description": "DSH 设置内的 MCP 服务器/工具管理器：streamable-http 与 stdio、Postman 式请求头、连通性测试、逐工具开关，停用工具不注册进模型",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-23",
+      "lastVerified": "2026-10-23",
+      "verifiedAgainst": "0.2.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-mcp-tools",
+      "tags": [
+        "ui",
+        "capabilities"
+      ],
+      "stars": 2,
+      "starsUpdated": "2026-10-23",
+      "pushedAt": "2026-10-23"
     }
   ]
 }
