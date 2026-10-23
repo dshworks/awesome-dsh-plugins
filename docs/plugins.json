@@ -13800,6 +13800,23 @@
       "pushedAt": "2026-10-23"
     },
     {
+      "name": "dsh-cloudflare-media",
+      "repo": "dmscode/dsh-cloudflare-media",
+      "description": "Cloudflare Workers AI media tools: text-to-image, TTS and speech-to-text with per-model price badges, a native settings card, and outputs named after the generating model",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-23",
+      "lastVerified": "2026-10-23",
+      "verifiedAgainst": "0.3.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-cloudflare-media",
+      "tags": [
+        "capabilities",
+        "vision"
+      ]
+    },
+    {
       "name": "dsh_ark_plan_usage",
       "repo": "Barry-Liu-001/dsh_ark_plan_usage",
       "description": "DeepSeek Harness (DSH) sidebar plugin: live Volcengine Ark Agent Plan usage (5h / weekly / monthly), fetched via the local arkcli.",
