@@ -392752,6 +392752,36 @@
       "stars": 0,
       "starsUpdated": "2026-10-23",
       "pushedAt": "2026-10-19"
+    },
+    {
+      "name": "@lifenrir/dsh-selection-quote",
+      "repo": "LiFenrir/dsh-selection-quote",
+      "description": "划选 DSH 会话消息中的文字一键引用到输入框，引用随消息以卡片发送，点芯片或卡片可跳回原文",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-23",
+      "lastVerified": "2026-10-23",
+      "verifiedAgainst": "0.2.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "ui"
+      ]
+    },
+    {
+      "name": "@lifenrir/dsh-video-preview",
+      "repo": "LiFenrir/dsh-video-preview",
+      "description": "在 DSH 右侧文档预览面板直接播放工作区视频（mp4/mov/webm 等），Host 侧鉴权流路由支持 HTTP Range，超过 32 MiB 的文件也能拖动进度",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-23",
+      "lastVerified": "2026-10-23",
+      "verifiedAgainst": "0.2.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "ui"
+      ]
     }
   ]
 }

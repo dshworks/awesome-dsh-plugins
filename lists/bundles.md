@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+104 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -107,6 +107,8 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | kid-sysmon | 1 | [baixiaoustc/dsh-kidlab](https://github.com/baixiaoustc/dsh-kidlab/tree/HEAD/plugins/kid-sysmon) · [npm](https://www.npmjs.com/package/@kidlab/dsh-kid-sysmon) | 给小朋友的「电脑体检 / 资源监控」启蒙：一张 🐻「小熊体检」卡片 + 一个 system_status 工具，查 CPU/内存/磁盘/网络/电池/负载/Top 进程的真实数据（免 sudo，零依赖，无构建）。 | 0.2.0-rc.2 (2026-10-17) |
 | otto-dsh | 1 | [ottotheagent/otto-dsh](https://github.com/ottotheagent/otto-dsh) | Book flights, hotels, and cars from DeepSeek Harness through the Otto travel MCP connector. | 0.1.0-rc.8 (2026-08-20) |
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
+| @lifenrir/dsh-selection-quote | - | [LiFenrir/dsh-selection-quote](https://github.com/LiFenrir/dsh-selection-quote) | 划选 DSH 会话消息中的文字一键引用到输入框，引用随消息以卡片发送，点芯片或卡片可跳回原文 | 0.2.1-rc.2 (2026-10-23) |
+| @lifenrir/dsh-video-preview | - | [LiFenrir/dsh-video-preview](https://github.com/LiFenrir/dsh-video-preview) | 在 DSH 右侧文档预览面板直接播放工作区视频（mp4/mov/webm 等），Host 侧鉴权流路由支持 HTTP Range，超过 32 MiB 的文件也能拖动进度 | 0.2.1-rc.2 (2026-10-23) |
 | dsh-completion-guard | 0 | [GreenLv/dsh-completion-guard](https://github.com/GreenLv/dsh-completion-guard) · [npm](https://www.npmjs.com/package/dsh-completion-guard) | Helps DSH agents remember your requirements during long tasks and, after a session resumes, checks the key conditions and saved results again so partial work is not reported as complete. | 0.1.1-rc.2 (2026-08-29) |
 | dsh-feishu-beacon | 0 | [jiangdunchun/dsh-feishu-beacon](https://github.com/jiangdunchun/dsh-feishu-beacon) · [npm](https://www.npmjs.com/package/dsh-feishu-beacon) | DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook | 0.1.7-rc.2 (2026-09-29) |
 | dsh-reasoning-distill | 0 | [huhu23333/dsh-reasoning-distill](https://github.com/huhu23333/dsh-reasoning-distill) · [npm](https://www.npmjs.com/package/dsh-reasoning-distill) | Distill over-long model reasoning into its useful core and replay the distilled version on every later request, with a per-session cost report. | 0.2.0-rc.2 (2026-10-17) |
