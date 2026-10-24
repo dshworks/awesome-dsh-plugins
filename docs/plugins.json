@@ -379248,6 +379248,22 @@
       "pushedAt": "2026-10-13"
     },
     {
+      "name": "dsh-subagent-cost",
+      "repo": "Synapse-ACh/dsh-subagent-cost",
+      "description": "Counts the subagent sessions a conversation spawned and what they cost in CNY: a dock pill for the live total, and a per-turn panel attributing every child to the message that dispatched it.",
+      "category": "plugin",
+      "tags": [
+        "usage",
+        "ui"
+      ],
+      "added": "2026-10-24",
+      "lastVerified": "2026-10-24",
+      "verifiedAgainst": "0.2.1-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-subagent-cost"
+    },
+    {
       "name": "dsh-decision-router",
       "repo": "xinyang20/dsh-decision-router",
       "description": "Decision-model-powered routing for DeepSeek Harness, with local inference and opt-in cloud decisions.",
