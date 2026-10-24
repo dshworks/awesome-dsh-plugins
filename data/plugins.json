@@ -392758,6 +392758,23 @@
       "stars": 0,
       "starsUpdated": "2026-10-24",
       "pushedAt": "2026-10-19"
+    },
+    {
+      "name": "api-hub",
+      "repo": "Limooning/DSH-API-Hub",
+      "description": "Manage local API providers and skills inside DeepSeek Harness: keys, model picks, balances, and one-click registration as dsh model routes.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-24",
+      "lastVerified": "2026-10-24",
+      "verifiedAgainst": "0.2.1-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-api-hub",
+      "tags": [
+        "models",
+        "marketplace"
+      ]
     }
   ]
 }
