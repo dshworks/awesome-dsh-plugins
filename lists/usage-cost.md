@@ -4,7 +4,7 @@
 
 Token accounting, billing, balance, quota.
 
-1230 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1231 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1060,6 +1060,7 @@ Token accounting, billing, balance, quota.
 | dsh-status-cards | 0 | [Kerberos255/dsh-status-cards](https://github.com/Kerberos255/dsh-status-cards) | 统一查看运行状态，并在原有边缘卡片查看 OpenCode Go 额度和 DeepSeek 余额。 | 0.2.0-rc.2 (2026-10-17) |
 | dsh-sub2api-monitor | 0 | [fegnze/dsh-sub2api-monitor](https://github.com/fegnze/dsh-sub2api-monitor) · [npm](https://www.npmjs.com/package/dsh-sub2api-monitor) | 账号用量：sub2api 额度窗口、重置时间与今日统计 | 0.2.0-rc.2 (2026-10-17) |
 | dsh-sub2api-usage | 0 | [aming1029/dsh-sub2api-usage](https://github.com/aming1029/dsh-sub2api-usage) | Sub2API 用量面板：在 DSH 左侧边栏显示余额/用量摘要，点开是完整用量详情，查询接口（服务地址、模式、路径、字段指针）全部可自定义。 | 0.2.0-rc.2 (2026-10-05) |
+| dsh-subagent-cost | - | [Synapse-ACh/dsh-subagent-cost](https://github.com/Synapse-ACh/dsh-subagent-cost) | Counts the subagent sessions a conversation spawned and what they cost in CNY: a dock pill for the live total, and a per-turn panel attributing every child to the message that dispatched it. | 0.2.1-rc.3 (2026-10-24) |
 | dsh-subscription-usage | 0 | [sd1g1/dsh-subscription-usage](https://github.com/sd1g1/dsh-subscription-usage) | DeepSeek Harness Web 的订阅 Provider 用量徽标 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-survival-cost | 0 | [ZhaYi-Miao/dsh-survival-cost](https://github.com/ZhaYi-Miao/dsh-survival-cost) | Survival mode cost panel for DeepSeek Harness: per-session and per-message token usage with DeepSeek pricing (pre/post increase, custom), shown in the sidebar footer and under every assistant message. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-switch-cost | 0 | [xyzs996/dsh-switch-cost](https://github.com/xyzs996/dsh-switch-cost) | Prices a dsh session against other models: what it cost on the route that ran it, and what the same token counts would have cost elsewhere. | 0.1.0-rc.8 (2026-08-25) |
