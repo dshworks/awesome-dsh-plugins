@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-635 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+636 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -307,6 +307,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-pet-mjwgit | 1 | [mjw-git/dsh-pet](https://github.com/mjw-git/dsh-pet/tree/HEAD/packages/pet) · [npm](https://www.npmjs.com/package/@dsh-pet/pet) | Pet-raising companion for DeepSeek Harness in one package: the host half (XP economy from token use, evolution stages, spritesheet validation, /pet/* routes, /pet/events SSE)… | 0.1.0-rc.8 (2026-08-25) |
 | dsh-pet-niumali | 1 | [chenyuan1251/dsh-pet-niumali](https://github.com/chenyuan1251/dsh-pet-niumali) | 牛马力 v8：DSH 界面里的常驻桌宠浮球，点开是开工/收工打卡、专注计时、待办、手帐、旅行与探宝的生活闭环。 | 0.2.0-rc.2 (2026-10-17) |
 | dsh-pet-panel | 1 | [zw11591-sketch/dsh-pet-panel](https://github.com/zw11591-sketch/dsh-pet-panel) | A desktop pet plus a session dashboard for the DeepSeek Harness Web UI — a self-contained client plugin (no host service) contributing a conversation dashboard tab and a floating, draggable | 0.1.1-rc.2 (2026-09-01) |
+| dsh-pet-plugin | 1 | [zuoyunlai/dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) · [npm](https://www.npmjs.com/package/dsh-pet-plugin) | Photo-real desk pet: five personas, 24fps alpha-video dance, walk and hair, a 10s stage clip, five-language lines, optional edge-tts neural voice, right-click menu, /dsh-pet command. | 0.2.1-rc.2 (2026-10-26) |
 | DSH-pet-zhoujiaj | 1 | [Zhoujiajia824/DSH-pet](https://github.com/Zhoujiajia824/DSH-pet) | A draggable AI-agent companion pet for the DeepSeek Harness web terminal: reacts to agent states and speaks on approval and completion. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-pet-zuodazuo | 1 | [zuodazuoqiang001/dsh-pet](https://github.com/zuodazuoqiang001/dsh-pet) | Windows desktop pet plugin for DeepSeek Harness. Renders Codex-compatible pets (pet.json + spritesheet.webp) as a layered overlay, with a Plugins settings card. | 0.2.0-rc.2 (2026-10-07) |
 | dsh-pets-eivmosn | 1 | [eivmosn/dsh-pets](https://github.com/eivmosn/dsh-pets) | Codex Pets integration for the DeepSeek Harness Web GUI: a transparent draggable desktop pet fully compatible with the codex-pets package format (V1/V2 spritesheet pets)… | 0.1.0-rc.8 (2026-08-20) |
