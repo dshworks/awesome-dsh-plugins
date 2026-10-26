@@ -4,7 +4,7 @@
 
 Token accounting, billing, balance, quota.
 
-1283 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1284 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1076,6 +1076,7 @@ Token accounting, billing, balance, quota.
 | dsh-quota-cards | 0 | [ShiraGawaAnri/dsh-quota-cards](https://github.com/ShiraGawaAnri/dsh-quota-cards) | DSH profile bundle: account quota cards beside the composer — DeepSeek balance with a configurable refresh interval (1/5/10/30/60 min), and OpenCode Go 5h/weekly/monthly token usage. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-quota-dashboard | 0 | [wangyong1972/dsh-quota-dashboard](https://github.com/wangyong1972/dsh-quota-dashboard) · [npm](https://www.npmjs.com/package/@wangyong1972/dsh-quota-dashboard) | Draggable quota/cost dashboard for the dsh web GUI: combines OpenRouter and DeepSeek balances and spend (official APIs + local ledger) in one movable card. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-quota-hub | 0 | [penguin-oo/dsh-quota-hub](https://github.com/penguin-oo/dsh-quota-hub) · [npm](https://www.npmjs.com/package/dsh-quota-hub) | Unified real-time quota dashboard for DeepSeek Harness: OpenCodeGo windows, DeepSeek balance, OpenRouter credits, SiliconFlow and Moonshot balances in one collapsible panel… | broken against 0.1.0-rc.6 |
+| dsh-quota-ring | - | [Aya-zhang/dsh-quota-ring](https://github.com/Aya-zhang/dsh-quota-ring) | Mac sidebar ring showing DeepSeek account balance, estimated daily spend, peak/off-peak periods, and hover details; click to refresh or confirm DSH restart. | 0.2.1-rc.3 (2026-10-26) |
 | dsh-quota-status | 0 | [ruby1304/dsh-quota-status](https://github.com/ruby1304/dsh-quota-status) · [npm](https://www.npmjs.com/package/dsh-quota-status) | Live DeepSeek, Kimi and ChatGPT subscription quota widget for DeepSeek Harness web, with an in-app ChatGPT OAuth login card. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-quota-usage | 0 | [lbqcgza/dsh-quota-usage](https://github.com/lbqcgza/dsh-quota-usage) | 在 DSH 侧边栏底部、用户名正上方显示 DeepSeek 账号剩余额度（总余额 + 赠金余额）的 Web 插件。 | 0.2.0-rc.2 (2026-10-05) |
 | dsh-quota-viewer | 0 | [black970/dsh-quota-viewer](https://github.com/black970/dsh-quota-viewer) | Multi-provider quota dashboard for DeepSeek Harness: DeepSeek official balance, jojo code, SCNet, Ark Coding Plan and OpenCode Zen Go usage windows in the sidebar footer… | 0.1.7-rc.2 (2026-09-29) |

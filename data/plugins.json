@@ -146747,6 +146747,22 @@
       "pushedAt": "2026-09-24"
     },
     {
+      "name": "dsh-quota-ring",
+      "repo": "Aya-zhang/dsh-quota-ring",
+      "description": "Mac sidebar ring showing DeepSeek account balance, estimated daily spend, peak/off-peak periods, and hover details; click to refresh or confirm DSH restart.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-10-26",
+      "lastVerified": "2026-10-26",
+      "verifiedAgainst": "0.2.1-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "usage",
+        "ui"
+      ]
+    },
+    {
       "name": "dsh-quota-router",
       "repo": "Liyuk/dsh-quota-router",
       "description": "Policy-only multi-source quota router for DeepSeek Harness: deterministic task profiles, ordered candidate chains, health-aware fallback, and observable decisions.",
