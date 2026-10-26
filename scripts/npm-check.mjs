@@ -143,12 +143,35 @@ async function packument(name) {
 // if the repo's own package.json declares this exact name, then the repo
 // claims the package and npm does not contradict it, which is two independent
 // files agreeing. Nothing else is enough.
+// A package published before its repo moved still names the old slug, and
+// GitHub redirects that slug to the row's repo. Read strictly, every rename
+// renames.mjs applies parks the row's npm name as "published by <old slug>":
+// on 2026-10-26 that day's renames parked 6 (`tripo-dsh` among them), and 29
+// rows renamed earlier sat parked the same way in data/unpublished.json
+// (`@jcy2387/dsh-codex-provider-plugin` names DamonBao/dsh-codex-provider-plugin,
+// which is DamonBao/dsh-codex-suite). data/renamed.json is the record that the
+// two slugs are one repo, so a claim on a recorded old slug counts as a claim
+// on the row's. Followed as a chain: a repo can move twice.
+const renamedTo = new Map();
+{
+  const file = read("data/renamed.json");
+  for (const r of file.renames ?? []) renamedTo.set(r.from.toLowerCase(), r.to.toLowerCase());
+  for (const m of file.duplicates?.merges ?? []) {
+    if (m.renamedFrom && m.repo) renamedTo.set(m.renamedFrom.toLowerCase(), m.repo.toLowerCase());
+  }
+}
+const currentSlug = (slug) => {
+  const seen = new Set();
+  while (renamedTo.has(slug) && !seen.has(slug)) { seen.add(slug); slug = renamedTo.get(slug); }
+  return slug;
+};
+
 async function ownership(name, repo, path) {
   const { state, doc } = await packument(name);
   if (state !== "published") return { state };
   const latest = doc?.["dist-tags"]?.latest;
   const claims = normalizeRepo(doc?.repository ?? doc?.versions?.[latest]?.repository);
-  if (claims === repo.toLowerCase()) return { state: "published" };
+  if (claims !== null && currentSlug(claims) === repo.toLowerCase()) return { state: "published" };
   if (claims !== null) return { state: "foreign", owner: claims };
 
   if (await declaredName(repo, path) === name) return { state: "published" };

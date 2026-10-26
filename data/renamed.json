@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-10-19",
-  "count": 460,
-  "ownerChanged": 138,
+  "detected": "2026-10-26",
+  "count": 518,
+  "ownerChanged": 162,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -2958,6 +2958,412 @@
       "ownerChanged": false,
       "name": "dsh-peakclock",
       "on": "2026-10-19"
+    },
+    {
+      "from": "OpenCnid/deepseek-dovetail",
+      "to": "lilCnid/deepseek-dovetail",
+      "ownerChanged": true,
+      "name": "deepseek-dovetail",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Lixiaoyiao/deepseek-harness-action",
+      "to": "Lixiaoyiao/DSH-action",
+      "ownerChanged": false,
+      "name": "deepseek-harness-action",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "YuhaoYeSteve/deepseek-harness-desktop-mac",
+      "to": "yyh-steve/deepseek-harness-desktop-mac",
+      "ownerChanged": true,
+      "name": "deepseek-harness-desktop-mac",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "OpenCnid/deepseek-openai-codex",
+      "to": "lilCnid/deepseek-openai-codex",
+      "ownerChanged": true,
+      "name": "deepseek-openai-codex",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "OpenCnid/deepseek-rlm",
+      "to": "lilCnid/deepseek-rlm",
+      "ownerChanged": true,
+      "name": "deepseek-rlm",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "caob23/dsh-browser-control",
+      "to": "angelky7/dsh-browser-control",
+      "ownerChanged": true,
+      "name": "dsh-browser-control-caob23",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "rvaim/dsh-compat",
+      "to": "rvaim/dsh-plugin-bridge",
+      "ownerChanged": false,
+      "name": "dsh-compat",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "sun-zihang/dsh-cost-overlay",
+      "to": "meat-daemon-404/dsh-cost-overlay",
+      "ownerChanged": true,
+      "name": "dsh-cost-overlay",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "elonnzhang/dsh-digital-life",
+      "to": "elonnzhang/dsh-expert-ai",
+      "ownerChanged": false,
+      "name": "dsh-digital-life",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Lrxc/dsh-manage-hub",
+      "to": "Lrxc/dsh-mcp-skills",
+      "ownerChanged": false,
+      "name": "dsh-manage-hub",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "222wcnm/dsh-manager",
+      "to": "222wcnm/whalekeeper",
+      "ownerChanged": false,
+      "name": "dsh-manager",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "zylzyqzz/dsh-mobile-pwa",
+      "to": "zylzyqzz/dsbot",
+      "ownerChanged": false,
+      "name": "dsh-mobile-pwa",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "YFlaga/dsh-paper-checker",
+      "to": "YFlaga/dsh-manuscript-tracker",
+      "ownerChanged": false,
+      "name": "dsh-paper-checker",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "PlusQi/dsh-plugins",
+      "to": "PlusQi/dsh-tokstats",
+      "ownerChanged": false,
+      "name": "dsh-plugins-plusqi",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "XYZ1024-alt/dsh-side-panel",
+      "to": "XYZ1024-alt/dsh-git-diff",
+      "ownerChanged": false,
+      "name": "dsh-side-panel",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "mytianyi0712/dsh-tui-plugin-OhMyPi",
+      "to": "mytianyi0712/my-dpsk-harness-tui",
+      "ownerChanged": false,
+      "name": "dsh-tui-plugin-ohmypi",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "jiangnanquan/dsh-ux",
+      "to": "jiangnanquan/dsh-uxexo",
+      "ownerChanged": false,
+      "name": "dsh-ux",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "xingyingyuzhui/dsh-vision-bench",
+      "to": "xingyingyuzhui/dsh-corn-bench",
+      "ownerChanged": false,
+      "name": "dsh-vision-bench",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "ZekaiShi/evo-subagent",
+      "to": "ZekaiShi/dsh-evo-subagent",
+      "ownerChanged": false,
+      "name": "smart-subagent",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "raktim-mondol/dsh-researchcraft",
+      "to": "raktim-mondol/academic-harness",
+      "ownerChanged": false,
+      "name": "dsh-researchcraft",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "VAST-AI-Research/Tripo3D-Plugin-dsh",
+      "to": "Tripo-Developer/Tripo3D-Plugin-dsh",
+      "ownerChanged": true,
+      "name": "Tripo3D-Plugin-dsh",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Yinxe/deepseek-harness-plugins",
+      "to": "Yinxe/dshp",
+      "ownerChanged": false,
+      "name": "deepseek-harness-plugins-yinxe",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "BreakFree003/dsh-clinepass-deepseekv4.1",
+      "to": "BreakFree003/dsh-clinepass-deepseek",
+      "ownerChanged": false,
+      "name": "dsh-clinepass-deepseekv4.1",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "zendev-lab/cogfold",
+      "to": "zendev-lab/ulota",
+      "ownerChanged": false,
+      "name": "spark",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "s11phere/dsh-away-notify",
+      "to": "TianzeLuo/dsh-away-notify",
+      "ownerChanged": true,
+      "name": "dsh-away-notify-s11phere",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "jingchangzhao-gif/dsh-errkb",
+      "to": "jingchangzhao-gif/error-knowledge-base",
+      "ownerChanged": false,
+      "name": "dsh-errkb",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Plocr/dsh-commandcode-goat",
+      "to": "Plocr/dsh-commandcode",
+      "ownerChanged": false,
+      "name": "dsh-commandcode-goat",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "arrow1031/dsh-qq-bot",
+      "to": "arrow1031-dev/dsh-qq-bot",
+      "ownerChanged": true,
+      "name": "dsh-qq-bot-arrow103",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "hfdsdfgr/dsh-balance-bar",
+      "to": "marksimZ/dsh-balance-bar",
+      "ownerChanged": true,
+      "name": "dsh-balance-bar",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "isayrhythm/dsh-plugin-repo-snapshot",
+      "to": "isayrhythm/dsh-plugins",
+      "ownerChanged": false,
+      "name": "dsh-plugin-repo-snapshot",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Leawind/dsh-carrot-on-a-stick",
+      "to": "Leawind/dsh-rice-on-a-stick",
+      "ownerChanged": false,
+      "name": "dsh-carrot-on-a-stick",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "mengge237-labs/dsh-auto-continue",
+      "to": "mengge237/dsh-auto-continue",
+      "ownerChanged": true,
+      "name": "dsh-auto-continue-mengge23",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "mengge237-labs/dsh-model-priority",
+      "to": "mengge237/dsh-model-priority",
+      "ownerChanged": true,
+      "name": "dsh-model-priority",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "s11phere/dsh-btw-sidebar",
+      "to": "TianzeLuo/dsh-btw-sidebar",
+      "ownerChanged": true,
+      "name": "dsh-btw-sidebar",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "s11phere/dsh-commandcode-quota",
+      "to": "TianzeLuo/dsh-commandcode-quota",
+      "ownerChanged": true,
+      "name": "dsh-commandcode-quota-s11phere",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "s11phere/dsh-tex-block-normalizer",
+      "to": "TianzeLuo/dsh-tex-block-normalizer",
+      "ownerChanged": true,
+      "name": "dsh-tex-block-normalizer",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "sunligh91/dsh-helper",
+      "to": "FlyGame91/dsh-helper",
+      "ownerChanged": true,
+      "name": "dsh-helper",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "OwlNjust/DSH-DeepSeek-Balance",
+      "to": "OwlNjust/deepseek-balance-dsh",
+      "ownerChanged": false,
+      "name": "DSH-DeepSeek-Balance-owlnjust",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "zudazhuang/dsh-upgrade",
+      "to": "zudazhuang/dsh-update-safe",
+      "ownerChanged": false,
+      "name": "dsh-upgrade-zudazhua",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "piggy00544/dsh-workproof",
+      "to": "oxmumu3/dsh-workproof",
+      "ownerChanged": true,
+      "name": "dsh-workproof",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "s11phere/dsh-web-search-keyless",
+      "to": "TianzeLuo/dsh-web-search-keyless",
+      "ownerChanged": true,
+      "name": "dsh-web-search-keyless",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "tuoLuoSuan/dsh-peak-badge",
+      "to": "tuoLuoSuan/dsh-peak",
+      "ownerChanged": false,
+      "name": "dsh-peak-badge-tuoluosu",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Chaos-Paradox/dsh-web-search-searxng",
+      "to": "Chaos-Paradox/dsh-search-proxy",
+      "ownerChanged": false,
+      "name": "dsh-web-search-searxng-chaospar",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Fei2411/DeepSeek-Bot",
+      "to": "Fei2411/DS-Bot",
+      "ownerChanged": false,
+      "name": "DeepSeek-Bot",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "2220545672/dsh-remote-signin",
+      "to": "MeiXu6693/dsh-remote-signin",
+      "ownerChanged": true,
+      "name": "dsh-remote-signin",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "caob23/dsh-origin-bridge",
+      "to": "angelky7/dsh-origin-bridge",
+      "ownerChanged": true,
+      "name": "dsh-origin-bridge",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Ckarefulon/dsh-gitbar-lite",
+      "to": "Ckarefulon/dsh-lite-git",
+      "ownerChanged": false,
+      "name": "dsh-gitbar-lite",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Cristallin2006/DSH-CTF-Skill",
+      "to": "Cristallin2006/DSH-CTF-Mode",
+      "ownerChanged": false,
+      "name": "DSH-CTF-Skill",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Imzl-zl/dsh-model-router",
+      "to": "Imzl-zl/dsh-models-router",
+      "ownerChanged": false,
+      "name": "dsh-model-router-imzlzl",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Luca4Don3/dsh-opencode-live-models",
+      "to": "Luca4Don3/dsh-providers-live-models",
+      "ownerChanged": false,
+      "name": "dsh-opencode-live-models",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "zhaorui-wu/dsh-skill-cockpit",
+      "to": "huanlin-labs/dsh-skill-cockpit",
+      "ownerChanged": true,
+      "name": "dsh-skill-cockpit-zhaoruiw",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "mengge237-labs/dsh-composer-pro",
+      "to": "mengge237/dsh-composer-ease",
+      "ownerChanged": true,
+      "name": "dsh-composer-pro",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Storm-Starlight/dsh-mcp-skills-board",
+      "to": "JasperPengC/dsh-mcp-skills-board",
+      "ownerChanged": true,
+      "name": "dsh-mcp-skills-board",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "yaanlaan/deepseek-colorful",
+      "to": "yaanlaan/dsh-colorful",
+      "ownerChanged": false,
+      "name": "deepseek-colorful",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "dexwebcode/dsh-plugin-mobile-ui",
+      "to": "dexwebcode/dsh-plugin-telegram-bot",
+      "ownerChanged": false,
+      "name": "dsh-plugin-mobile-ui-dexwebco",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "ztg-pty/dsh-codex-bridge",
+      "to": "tianguzhang/dsh-codex-bridge",
+      "ownerChanged": true,
+      "name": "dsh-codex-bridge-ztgpty",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "full-aigc-plugins/printcraft-plugin",
+      "to": "full-aigc-plugins/pdfcraft-plugin",
+      "ownerChanged": false,
+      "name": "printcraft-plugin",
+      "on": "2026-10-26"
+    },
+    {
+      "from": "Lingrui98/dsh-research-hub",
+      "to": "Lingrui98/dsh-project-inbox",
+      "ownerChanged": false,
+      "name": "dsh-research-hub",
+      "on": "2026-10-26"
     }
   ],
   "collisions": {
@@ -3322,6 +3728,61 @@
         "repo": "zhangyuzhangyu233/dsh-coderipple",
         "row": "dsh-claudelike",
         "on": "2026-10-19"
+      },
+      {
+        "repo": "angelky7/dsh-browser-control",
+        "row": "dsh-browser-control-caob23",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "BreakFree003/dsh-clinepass-deepseek",
+        "row": "dsh-clinepass-deepseekv4.1",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "Fei2411/DS-Bot",
+        "row": "DeepSeek-Bot",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "huanlin-labs/dsh-skill-cockpit",
+        "row": "dsh-skill-cockpit-zhaoruiw",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "jiangnanquan/dsh-uxexo",
+        "row": "dsh-ux",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "Lixiaoyiao/DSH-action",
+        "row": "deepseek-harness-action",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "mytianyi0712/my-dpsk-harness-tui",
+        "row": "dsh-tui-plugin-ohmypi",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "Plocr/dsh-commandcode",
+        "row": "dsh-commandcode-goat",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "Tripo-Developer/Tripo3D-Plugin-dsh",
+        "row": "Tripo3D-Plugin-dsh",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "Yinxe/dshp",
+        "row": "deepseek-harness-plugins-yinxe",
+        "on": "2026-10-26"
+      },
+      {
+        "repo": "ZekaiShi/dsh-evo-subagent",
+        "row": "smart-subagent",
+        "on": "2026-10-26"
       }
     ]
   },
@@ -3336,8 +3797,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 247,
-    "rowsRemoved": 248,
+    "groupsMerged": 248,
+    "rowsRemoved": 249,
     "leftForTriage": [],
     "merges": [
       {
@@ -5955,6 +6416,17 @@
         ],
         "evidence": "package.json#dsh.bundle",
         "on": "2026-10-18"
+      },
+      {
+        "repo": "omdsh-dev/dsh-neoforge",
+        "path": null,
+        "renamedFrom": "r05En1cU/dsh-neoforge",
+        "kept": "dsh-neoforge",
+        "dropped": [
+          "dsh-neoforge-r05en1cu"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-10-26"
       }
     ]
   },

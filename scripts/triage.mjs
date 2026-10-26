@@ -26,6 +26,8 @@
 //   node scripts/triage.mjs --prove        re-prove entries already listed
 //   node scripts/triage.mjs --prove --evidence=@deepseek-ai/cordis
 //                                          re-prove only rows whose receipt matches
+//   node scripts/triage.mjs --prove --repo=owner/a,owner/b
+//                                          re-prove only these repos' rows
 //   node scripts/triage.mjs --redescribe   re-derive descriptions the gates refuse,
 //                                          and re-cut ones the old clip cut mid-clause
 //   node scripts/triage.mjs --limit 50     stop after 50 repos
@@ -63,6 +65,9 @@ const LIMIT = Number(opt("--limit", Infinity));
 // of it. Re-proving 13k rows to fix 421 wastes an hour and re-dates rows the
 // change never touched, so --prove can be pointed at the receipts in question.
 const EVIDENCE_FILTER = opt("--evidence", null);
+// A contributor asking for one row to be re-checked should not cost a pass
+// over 20k rows, and should not re-date any other row either.
+const REPO_FILTER = opt("--repo", null)?.split(",").map((r) => r.trim().toLowerCase()).filter(Boolean) ?? null;
 const REPORT = opt("--report", null);
 
 // A rejection for absence of evidence is a snapshot, not a verdict: the repo
@@ -449,12 +454,33 @@ const ghSlug = (url) => {
   return m ? m[1].toLowerCase() : null;
 };
 
+// A repo that moved still declares its old slug, so read strictly a renamed
+// repo is a copy of itself: Lrxc/dsh-mcp-skills's package.json names
+// Lrxc/dsh-manage-hub, its own name before the move. data/renamed.json records the moves
+// this registry has applied; a slug it maps onto the repo being proven is that
+// repo. A move made before the row was listed is not recorded there and still
+// reads as a copy (LanJinGod/dsh-purge, 2026-10-19) -- telling those apart
+// costs an API call per row.
+const renamedTo = new Map();
+{
+  const file = read("data/renamed.json");
+  for (const r of file.renames ?? []) renamedTo.set(r.from.toLowerCase(), r.to.toLowerCase());
+  for (const m of file.duplicates?.merges ?? []) {
+    if (m.renamedFrom && m.repo) renamedTo.set(m.renamedFrom.toLowerCase(), m.repo.toLowerCase());
+  }
+}
+const currentSlug = (slug) => {
+  const seen = new Set();
+  while (renamedTo.has(slug) && !seen.has(slug)) { seen.add(slug); slug = renamedTo.get(slug); }
+  return slug;
+};
+
 function vendoredFrom(pkg, repo) {
   if (typeof pkg?.name === "string" && pkg.name.startsWith("@deepseek-ai/")) {
     return `vendored first-party package ${pkg.name}`;
   }
   const declared = ghSlug(pkg?.repository?.url ?? pkg?.repository);
-  if (declared && repo && declared !== repo.toLowerCase()) {
+  if (declared && repo && currentSlug(declared) !== repo.toLowerCase()) {
     return `package.json declares repository ${declared}`;
   }
   return null;
@@ -733,8 +759,27 @@ async function proveDeep(repo) {
   // Shallowest first. Tree order sorts `.backup-x/cordis.patch.yml` ahead of
   // the root `cordis.patch.yml` the package actually points at (found by hand
   // on LanJinGod/dsh-purge, 2026-10-19).
+  //
+  // Inside a copy of dsh, a patch is the copier's only if the package beside
+  // it is. fufankeji/FF-FDE-Delivery-Workbench (2026-10-26) is a project
+  // snapshot carrying a copy of dsh, and inside that copy a `third-party/`
+  // copy of Degurechaff57/dsh-openapi. The package.json lane refused that
+  // manifest (its repository names Degurechaff57), and the patch beside it
+  // proved the snapshot anyway. Only under a copy of dsh: outside one, 492 of
+  // the 620 listed patch receipts sit beside a package.json that names
+  // another repo or an @deepseek-ai/ name (measured the same day), mostly
+  // authors borrowing the first-party scope or a template's repository field,
+  // and refusing those is a policy change, not this fix.
   const depth = (p) => p.split("/").length;
-  const patch = paths.filter((p) => /cordis\.patch\.ya?ml$/i.test(p)).sort((a, b) => depth(a) - depth(b))[0];
+  const pathSet = new Set(paths);
+  const underCopy = (p) => [...roots.keys()].some((r) => p.startsWith(r));
+  let patch;
+  for (const p of paths.filter((x) => /cordis\.patch\.ya?ml$/i.test(x)).sort((a, b) => depth(a) - depth(b))) {
+    const beside = dirname(p) === "." ? "package.json" : `${dirname(p)}/package.json`;
+    if (underCopy(p) && pathSet.has(beside) && vendoredFrom(parse(await raw(repo, beside)), repo)) continue;
+    patch = p;
+    break;
+  }
   if (patch) {
     return {
       proof: { evidence: patch, why: "cordis patch layer", path: dirname(patch) === "." ? undefined : dirname(patch) },
@@ -1001,6 +1046,7 @@ if (PROVE) {
   const targets = registry.plugins
     .filter((p) => !p.official)
     .filter((p) => !EVIDENCE_FILTER || (p.evidence ?? "").includes(EVIDENCE_FILTER))
+    .filter((p) => !REPO_FILTER || REPO_FILTER.includes(p.repo.toLowerCase()))
     .slice(0, LIMIT);
   console.error(`triage: proving ${targets.length} listed entries (skipping ${registry.plugins.length - targets.length} first-party/limited)`);
   const results = await pooled(targets, async (p) => {
@@ -1022,9 +1068,25 @@ if (PROVE) {
         return { entry: p, verdict: "accept", evidence: ev, why: "cordis patch layer" };
       }
     }
-    // A receipt that is dsh's own patch file needs the whole tree read again:
-    // the repo may ship something of its own outside the copy, or nothing.
-    const t = await triage(p.repo, { deep: !p.path || !!firstPartyPatch(p.evidence ?? "") });
+    // Past this point the row's own `path` proved nothing (or it has none),
+    // so the whole tree is read: a receipt that is dsh's own patch file may
+    // have something of the repo's own beside the copy, and a row whose
+    // directory is gone may have moved (#180's bundle dir became 267 skill
+    // dirs, which a root-only read cannot see).
+    const t = await triage(p.repo, { deep: true });
+    // The row's own `path` proved nothing, so whatever the repo proves now
+    // lives somewhere else. Applying that proof under the old `path` wrote a
+    // receipt for one directory onto a row naming another: #180's row kept
+    // `path: dsh-plugin` for a directory deleted a month earlier. The row
+    // moves with its proof -- unless another row of the same repo already
+    // sits there, in which case the proof is that row's and this one is gone.
+    if (p.path && t.verdict === "accept") {
+      const to = (t.path ?? "").toLowerCase();
+      const owner = registry.plugins.find((o) => o !== p && o.repo.toLowerCase() === p.repo.toLowerCase()
+        && (o.path ?? "").toLowerCase() === to);
+      if (owner) return { entry: p, verdict: "reject", reason: `${p.path}/ no longer proves an install path; the repo's proof belongs to ${owner.name}` };
+      return { entry: p, ...t, relocated: true };
+    }
     return { entry: p, ...t };
   }, "prove");
 
@@ -1071,10 +1133,16 @@ if (PROVE) {
       continue;
     }
     if (r.verdict === "accept") {
-      // The old `path` pointed into a copy of dsh; the new proof names its own.
-      if (firstPartyPatch(p.evidence ?? "")) {
+      // The old `path` pointed into a copy of dsh, or at a directory that is
+      // gone; the new proof names its own.
+      if (firstPartyPatch(p.evidence ?? "") || r.relocated) {
         if (r.path) p.path = r.path;
         else delete p.path;
+      }
+      // A moved row can change kind: #180's bundle directory became skills.
+      if (r.relocated) {
+        if (r.evidence.endsWith("#frontmatter")) p.category = "skill";
+        else if (p.category === "skill") p.category = "plugin";
       }
       p.evidence = r.evidence;
       p.status = "verified";

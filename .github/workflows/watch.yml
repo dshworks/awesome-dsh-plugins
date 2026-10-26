@@ -307,3 +307,57 @@ jobs:
           # main can move under us while the sweep runs; rebase rather than fail
           git pull --rebase origin main
           git push origin main
+
+  # docs/market/index.json lists rows by npm name, and the stars job adopts npm
+  # names between sweeps. Rebuilt only by a hand-run sweep, a name adopted on
+  # 2026-10-19 had not reached dsh's Discover tab a week later (#178). Its own
+  # job, so a market npm or validator failure can never cost the stars commit.
+  # Once a day: a build reads ~6.5k packuments (1m54s locally on 2026-10-26)
+  # and rewrites a 15 MiB file, and four commits of that a day would mostly
+  # be history.
+  market:
+    needs: stars
+    if: always() && (github.event_name == 'workflow_dispatch' || github.event.schedule != '')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Once a day
+        id: due
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date -u +%H)" = "02" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "market is rebuilt on the 02:17 UTC run; skipping"
+          fi
+
+      - if: steps.due.outputs.run == 'true'
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - if: steps.due.outputs.run == 'true'
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      # The validator is dsh's own package; an index it refuses is never written.
+      - if: steps.due.outputs.run == 'true'
+        name: Rebuild the plugin market index
+        run: |
+          npm install --no-audit --no-fund
+          node scripts/market.mjs
+
+      - if: steps.due.outputs.run == 'true'
+        name: Commit if the index moved
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- docs/market/index.json; then
+            echo "market unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/market/index.json
+          git commit -m "market: rebuild the Discover index from today's npm names"
+          git pull --rebase origin main
+          git push origin main
