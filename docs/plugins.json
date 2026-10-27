@@ -414860,6 +414860,26 @@
         "agents"
       ],
       "pushedAt": "2026-10-25"
+    },
+    {
+      "name": "dsh-plugin-ssh-remote",
+      "repo": "IVAN4242/dsh-plugin-ssh-remote",
+      "npm": "dsh-plugin-ssh-remote",
+      "description": "Multi-host SSH toolbelt for the agent: run commands, copy files, read logs and grep remote trees over the system ssh/scp, with a command policy, secret redaction and a rotating audit log.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-27",
+      "lastVerified": "2026-10-27",
+      "verifiedAgainst": "0.2.1-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-10-27",
+      "tags": [
+        "terminal",
+        "capabilities"
+      ],
+      "pushedAt": "2026-10-27"
     }
   ]
 }
