@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-10-27",
+  "checked": "2026-10-28",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 900,
+  "count": 901,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -762,6 +762,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "yeastcloud/dsh-anchor",
+      "npm": "@yeastcloud/dsh-anchor",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-28"
+    },
+    {
       "repo": "YOGEMOW/DeepSeek_Prism",
       "path": "dsh-plugin",
       "npm": "@yogemow/dsh-prism",
@@ -1475,6 +1481,12 @@
       "npm": "dsh-compaction-threshold",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-10-19"
+    },
+    {
+      "repo": "xy261624/dsh-companion-memory",
+      "npm": "dsh-companion-memory",
+      "why": "published by sutanglime/dsh-companion-memory",
+      "since": "2026-10-28"
     },
     {
       "repo": "Shizuku-keop/dsh-compat-guard",
@@ -2667,13 +2679,6 @@
     },
     {
       "repo": "danhcng3822f/dsh-mcp-kimicodeandmgr",
-      "path": "packages/dsh-mcp-mgr-ui",
-      "npm": "dsh-mcp-mgr-ui",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-10-17"
-    },
-    {
-      "repo": "yangfch3/dsh-mcp-mgr",
       "path": "packages/dsh-mcp-mgr-ui",
       "npm": "dsh-mcp-mgr-ui",
       "why": "3 listed repos declare this name and the package states no repository",
