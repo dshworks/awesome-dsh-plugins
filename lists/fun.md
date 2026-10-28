@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-700 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+701 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -441,6 +441,7 @@ Games, pets, memes, ambience. The reef has coral.
 | YierPet | 1 | [wusai2333/YierPet](https://github.com/wusai2333/YierPet/tree/HEAD/integrations/dsh-sentinel) | Forwards dsh lifecycle events to the YierPet desktop-pet sentinel (fire-and-forget, never blocks dsh). | 0.1.0-rc.8 (2026-08-20) |
 | yuhao-pet | 1 | [dlpufan/yuhao-pet](https://github.com/dlpufan/yuhao-pet) | DSH Web GUI 桌面宠物「宇昊」：可拖拽/投喂/玩耍/洗澡/打针吃药/学习/打工/积分商店，token 消耗自动攒积分。 | 0.1.0-rc.8 (2026-08-20) |
 | aemeath-mini | 0 | [xushengkai13/aemeath-mini](https://github.com/xushengkai13/aemeath-mini) | DSH Web GUI 内的桌宠 aemeath-mini（Q版像素爱弥斯）：按代码运行结果做反应 + 每日/深夜问好 + 语音气泡 + 屏幕自主移动 | 0.1.0-rc.8 (2026-08-20) |
+| Big Fat Fish Girl | - | [troodon/dsh-big-fat-fish-girl](https://github.com/troodon/dsh-big-fat-fish-girl) | Animated macOS desktop pet that follows Harness activity across chats, reacts to work and approvals, snacks during long runs and naps when idle; requires a separate shell app. | 0.2.1-rc.2 (2026-10-28) |
 | clippy-harness | 0 | [sjh9714/clippy-harness](https://github.com/sjh9714/clippy-harness/tree/HEAD/plugin) · [npm](https://www.npmjs.com/package/dsh-clippy) | Office assistant pet for the dsh web GUI. Clippy reacts to real agent state, interrupts risky messages with classic options, and opens the illegal operation dialog on failed turns. | 0.1.0-rc.8 (2026-08-20) |
 | DBS | 0 | [LLYlab/DBS](https://github.com/LLYlab/DBS) · [npm](https://www.npmjs.com/package/dsh-bgm-service) | DBS (DSH BGM service) — 独立于 DET 的 DeepSeek Harness 音乐播放器插件：本地音乐库 + 浮动播放器 + AI 依据任务控制播放(模型工具 + 自动联动) + 网络下载入库 + 乐评爬取(尽力而为)。 | 0.1.7-rc.2 (2026-09-29) |
 | deepseek-haeness-pet | 0 | [z15692312501/deepseek-haeness-pet](https://github.com/z15692312501/deepseek-haeness-pet/tree/HEAD/packages/client/ui-pet) | Whale pet surface: a floating shell.overlay mascot showing the live agent/tool execution status from the pet Remote | unverified |

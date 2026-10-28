@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -414868,6 +414868,21 @@
         "agents"
       ],
       "pushedAt": "2026-10-25"
+    },
+    {
+      "name": "Big Fat Fish Girl",
+      "repo": "troodon/dsh-big-fat-fish-girl",
+      "description": "Animated macOS desktop pet that follows Harness activity across chats, reacts to work and approvals, snacks during long runs and naps when idle; requires a separate shell app.",
+      "category": "plugin",
+      "added": "2026-10-28",
+      "lastVerified": "2026-10-28",
+      "verifiedAgainst": "0.2.1-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "fun",
+        "terminal"
+      ]
     }
   ]
 }
