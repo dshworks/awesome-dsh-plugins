@@ -6,7 +6,7 @@
   ],
   "checked": "2026-10-30",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 901,
+  "count": 902,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -4531,6 +4531,12 @@
       "npm": "dsh-snapshot",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-09-29"
+    },
+    {
+      "repo": "jedzqer/dsh-sound-plugin",
+      "npm": "dsh-sound-plugin",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-10-30"
     },
     {
       "repo": "superfly/sprites-deepseek-plugin",
