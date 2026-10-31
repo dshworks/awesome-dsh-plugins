@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+103 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -95,6 +95,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-session-archive-manager | 1 | [my-dsh-plugin/session-archive-manager](https://github.com/my-dsh-plugin/session-archive-manager) | Manage archived DeepSeek Harness sessions from Settings: view, unarchive, delete, batch delete, or delete all. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-session-insights | 1 | [GreenLv/dsh-session-insights](https://github.com/GreenLv/dsh-session-insights) · [npm](https://www.npmjs.com/package/dsh-session-insights) | Local-first session retrospectives for DeepSeek Harness, with deterministic or model-assisted bilingual reports and privacy-preserving sessionQuery ingestion. | 0.1.1-rc.1 (2026-08-22) |
 | dsh-snapshot-hyna-hla | 1 | [Hyna-hla/dsh-snapshot](https://github.com/Hyna-hla/dsh-snapshot) | Automatic file snapshots on write and edit, with restore/purge tools and session export. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-study-mode | 1 | [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) · [npm](https://www.npmjs.com/package/dsh-study-mode) | Learning-mode agent preset plus a sidebar knowledge-base panel: answers retrieve your own stored cards, cite the card they came from, and mark anything not found as unverified. | 0.2.1-rc.5 (2026-10-31) |
 | dsh-token-meter-panel | 1 | [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) · [npm](https://www.npmjs.com/package/dsh-token-meter-panel) | DSH Token 用量面板（社区插件，非官方）：今日/近期 token 消耗与花费、成本构成、按会话明细、预算告警。Token usage & cost panel for DeepSeek Harness (community plugin, unofficial). | 0.1.7-rc.2 (2026-09-29) |
 | dsh-version-guard | 1 | [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) | DSH 版本守卫：记录插件版本与配置快照，插件冲突导致 DSH 崩坏后可脱离 DSH 进程回退到上一个可用版本。 · Plugin version guard with an out-of-process recovery page. | 0.2.0-rc.2 (2026-10-17) |
 | dsh-web-search-duckduckgo | 1 | [qwased/dsh-web-search-duckduckgo](https://github.com/qwased/dsh-web-search-duckduckgo/tree/HEAD/packages/dsh-web-search-duckduckgo-bundle) | Free DuckDuckGo search provider and web_search_ddg tool for the DeepSeek Harness web capability seam. | unverified |

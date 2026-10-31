@@ -13800,6 +13800,26 @@
       "pushedAt": "2026-10-31"
     },
     {
+      "name": "dsh-study-mode",
+      "repo": "waspqj/dsh-study-mode",
+      "npm": "dsh-study-mode",
+      "description": "Learning-mode agent preset plus a sidebar knowledge-base panel: answers retrieve your own stored cards, cite the card they came from, and mark anything not found as unverified.",
+      "category": "bundle",
+      "tags": [
+        "knowledge",
+        "memory"
+      ],
+      "stars": 1,
+      "starsUpdated": "2026-10-31",
+      "pushedAt": "2026-10-31",
+      "official": false,
+      "added": "2026-10-31",
+      "lastVerified": "2026-10-31",
+      "verifiedAgainst": "0.2.1-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
+    },
+    {
       "name": "dsh_ark_plan_usage",
       "repo": "Barry-Liu-001/dsh_ark_plan_usage",
       "description": "DeepSeek Harness (DSH) sidebar plugin: live Volcengine Ark Agent Plan usage (5h / weekly / monthly), fetched via the local arkcli.",
