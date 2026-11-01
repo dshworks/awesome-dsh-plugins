@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -178833,6 +178833,26 @@
         "fun"
       ],
       "pushedAt": "2026-09-20"
+    },
+    {
+      "name": "dsh-token-dash",
+      "repo": "spartawhy117/dsh-token-dash",
+      "npm": "dsh-token-dash",
+      "description": "Token usage and cost dashboard for DSH: per-provider budgets, balances, subscription quotas, monthly usage ledger and log export.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-31",
+      "lastVerified": "2026-11-02",
+      "verifiedAgainst": "0.2.1-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "stars": 0,
+      "starsUpdated": "2026-11-02",
+      "tags": [
+        "usage",
+        "ui"
+      ],
+      "pushedAt": "2026-11-02"
     },
     {
       "name": "dsh-token-dashboard",
