@@ -8,9 +8,9 @@ TUIs, desktop shells, headless runners.
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
-| deepseek-harness-desktop | 34388 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-desktop-anywhere | 34388 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop/tree/HEAD/dsh-plugin-desktop) | DSH Desktop product workspace | 0.2.0-rc.2 (2026-10-05) |
-| dsh-desktop | 17045 | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | A cross-platform desktop shell for DeepSeek Harness. | 0.1.1-rc.2 (2026-09-04) |
+| deepseek-harness-desktop | 34391 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-desktop-anywhere | 34391 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop/tree/HEAD/dsh-plugin-desktop) | DSH Desktop product workspace | 0.2.0-rc.2 (2026-10-05) |
+| dsh-desktop | 17048 | [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop) | A cross-platform desktop shell for DeepSeek Harness. | 0.1.1-rc.2 (2026-09-04) |
 | deepseek-harness-desktop-hairyf | 3407 | [dsh-tauri/deepseek-harness-desktop](https://github.com/dsh-tauri/deepseek-harness-desktop) | Desktop application for DeepSeek Harness (dsh) — one-click local install and launch, no Node.js setup required. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-workbuddy-connect | 1613 | [corrinehu/dsh-workbuddy-connect](https://github.com/corrinehu/dsh-workbuddy-connect) · [npm](https://www.npmjs.com/package/dsh-workbuddy-connect) | 将 WorkBuddy 桌面 App 包含的模型自动接入 DeepSeek Harness — bring WorkBuddy desktop app models into DeepSeek Harness with zero configuration. | 0.1.0-rc.8 (2026-08-20) |
 | dscode | 999 | [qiz029/dscode](https://github.com/qiz029/dscode) | Reproducible macOS coding harness: DSH-Code TUI, Chrome MCP, native computer use, skills and compaction | 0.1.7-rc.2 (2026-09-29) |
@@ -23,7 +23,7 @@ TUIs, desktop shells, headless runners.
 | dsh-tianshu-tui | 296 | [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) · [npm](https://www.npmjs.com/package/@huiliyi37/dsh-tianshu-tui) | Terminal UI for dsh shipped as an installable profile bundle | 0.1.0-rc.8 (2026-08-20) |
 | deepseek-harness-desktop-chokwinl | 286 | [chokwinlee/deepseek-harness-desktop](https://github.com/chokwinlee/deepseek-harness-desktop) | Compact unofficial desktop host for DeepSeek Harness, powered by Tauri on macOS | 0.1.1-rc.2 (2026-09-04) |
 | pilot-harness | 281 | [op7418/pilot-harness](https://github.com/op7418/pilot-harness) | Pilot Harness — a CodePilot-inspired desktop client and plugin suite for DeepSeek Harness on macOS, Windows, and Linux. | unverified |
-| dsh-uumit-remote | 270 | [uumit-ai/dsh-uumit-remote](https://github.com/uumit-ai/dsh-uumit-remote) · [npm](https://www.npmjs.com/package/@uumit-ai/dsh-uumit-remote) | DeepSeek Harness plugin: open your DSH from your phone or any computer through UUMit, with pairing, access control and invitations. No desktop client needed. | 0.2.1-rc.2 (2026-10-26) |
+| dsh-uumit-remote | 271 | [uumit-ai/dsh-uumit-remote](https://github.com/uumit-ai/dsh-uumit-remote) · [npm](https://www.npmjs.com/package/@uumit-ai/dsh-uumit-remote) | DeepSeek Harness plugin: open your DSH from your phone or any computer through UUMit, with pairing, access control and invitations. No desktop client needed. | 0.2.1-rc.2 (2026-10-26) |
 | Tydora | 227 | [zuorn/Tydora](https://github.com/zuorn/Tydora) | Let Your Ideas Flow — Tydora is a modern desktop Markdown editor combining WYSIWYG editing, bidirectional links, mind maps, and an infinite canvas — empowering deep thinking and effortless expression. | 0.1.0-rc.8 (2026-08-20) |
 | Deepseek-Harness-Desktop-chisaalt | 200 | [ChisaAlter/WhaleIsle](https://github.com/ChisaAlter/WhaleIsle) | Electron desktop shell for DeepSeek Harness Web UI | 0.1.7-rc.2 (2026-09-29) |
 | seektty | 194 | [Hilbert-beinghappy/seektty](https://github.com/Hilbert-beinghappy/seektty) · [npm](https://www.npmjs.com/package/seektty) | SeekTTY, a pluggable DeepSeek-colored terminal surface for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
