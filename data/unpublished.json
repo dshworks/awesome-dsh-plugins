@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-10-31",
+  "checked": "2026-11-01",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 903,
+  "count": 904,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -735,6 +735,12 @@
       "npm": "@suxeca/dsh-client-ui-session-switcher",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-10-17"
+    },
+    {
+      "repo": "temotee2103/dsh-ci-co-pilot",
+      "npm": "@temotee2103/dsh-ci-co-pilot",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-01"
     },
     {
       "repo": "FNOSP/fnos-dsh",
