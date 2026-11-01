@@ -13800,6 +13800,26 @@
       "pushedAt": "2026-11-01"
     },
     {
+      "name": "dsh-adapt-packs",
+      "repo": "LUgABeEEE/dsh-adapt-packs",
+      "description": "Mobile adaptation packs for DSH plugin panels (44px touch floor, rail/floater clearance), a Settings page to install them, and a compatibility list for third-party plugins on a phone.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-01",
+      "lastVerified": "2026-11-01",
+      "verifiedAgainst": "0.2.1-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle + cordis.patch.yml; booted on DSH 0.2.1-rc.5 with /api/adapt-packs/state answering; real Android device round in docs/真机验证.md",
+      "npm": "dsh-adapt-packs",
+      "stars": 1,
+      "starsUpdated": "2026-11-01",
+      "tags": [
+        "ui",
+        "devtools"
+      ],
+      "pushedAt": "2026-11-01"
+    },
+    {
       "name": "dsh_ark_plan_usage",
       "repo": "Barry-Liu-001/dsh_ark_plan_usage",
       "description": "DeepSeek Harness (DSH) sidebar plugin: live Volcengine Ark Agent Plan usage (5h / weekly / monthly), fetched via the local arkcli.",

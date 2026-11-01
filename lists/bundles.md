@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+103 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -77,6 +77,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | frameevidence | 2 | [fieldnote-ops/frameevidence](https://github.com/fieldnote-ops/frameevidence) | Bounded, read-only design evidence for DeepSeek Harness agents, compatible with the Figma REST API. | 0.1.0-rc.8 (2026-08-20) |
 | keyringseam | 2 | [fieldnote-ops/keyringseam](https://github.com/fieldnote-ops/keyringseam) | macOS Keychain credential provider for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | octie-dsh-plugin | 2 | [StarChen-Cycler/octie-dsh-plugin](https://github.com/StarChen-Cycler/octie-dsh-plugin/tree/HEAD/octie) | Durable DAG task-graph plugin with octie tools, a Cordis service, and a web UI. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-adapt-packs | 1 | [LUgABeEEE/dsh-adapt-packs](https://github.com/LUgABeEEE/dsh-adapt-packs) · [npm](https://www.npmjs.com/package/dsh-adapt-packs) | Mobile adaptation packs for DSH plugin panels (44px touch floor, rail/floater clearance), a Settings page to install them, and a compatibility list for third-party plugins on a phone. | 0.2.1-rc.5 (2026-11-01) |
 | dsh-bundle-updater | 1 | [hyls9527/dsh-bundle-updater](https://github.com/hyls9527/dsh-bundle-updater) | Profile bundle manager for checking, searching, adding, and removing DeepSeek Harness plugins. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-clawshell | 1 | [jorinyang/dsh-clawshell](https://github.com/jorinyang/dsh-clawshell) · [npm](https://www.npmjs.com/package/dsh-clawshell) | ClawShell vision as DeepSeek Harness plugins: self-perception, adaptation, and swarm tools. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-cost-meter | 1 | [Creakono/dsh-cost-meter](https://github.com/Creakono/dsh-cost-meter) | Appends an estimated token cost to the chat stats line in the DeepSeek Harness web GUI. | 0.1.0-rc.8 (2026-08-20) |
