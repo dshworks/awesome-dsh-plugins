@@ -86,7 +86,11 @@ function card(p) {
   if (p.official) badges.push(badge("official", "official"));
   badges.push(badge("cat", p.category));
   for (const t of p.tags ?? []) badges.push(badge("tag", TAG_LABEL[t] ?? t));
-  const install = cmd
+  // `install` is set by hand where the generated line installs something that
+  // cannot load (a git install of uncommitted build output), so it wins.
+  const install = p.install
+    ? `<p class="install steps"><code>${esc(p.install)}</code></p>`
+    : cmd
     ? `<p class="install"><code>${esc(cmd)}</code><button type="button" class="copy" data-copy="${esc(cmd)}">Copy</button></p>`
     : "";
   const stars = starsLabel(p);

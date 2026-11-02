@@ -113,7 +113,10 @@ const text = (v) => (typeof v === "string" && v.trim() !== "" ? v : undefined);
 
 // Ports of dsh's reference generator at tag dsh-v0.2.1-rc.2, kept line for
 // line so a diff against the source stays readable. Do not "improve" them: the
-// point is that our index says what dsh's own generator would say.
+// point is that our index says what dsh's own generator would say. Re-read
+// 2026-11-02 at dsh-v0.2.1-rc.5 (npm `latest`): apps/plugin-market-generator
+// and packages/util/plugin-market-index moved only their package.json version
+// strings, so the ports and line numbers stand.
 //
 // apps/plugin-market-generator/src/packages.ts:60-64
 function isBundle(manifest) {

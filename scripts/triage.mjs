@@ -200,7 +200,17 @@ const CONCURRENCY = 12;
 // profile-plugins.ts is byte-identical, and skill-filesystem changed only how
 // it resolves the agents home. As on 2026-09-30, rows proven before today are
 // not re-dated.
-const DSH_VERSION = process.env.DSH_VERSION ?? "0.2.1-rc.2";
+//
+// 2026-11-02: stamped 0.2.1-rc.5 (npm `latest` and `next` since 2026-10-29,
+// published 14:15Z, tag dsh-v0.2.1-rc.5 b830ec950f). rc.5 is rc.3 plus 13 UI
+// and ACP commits. Tag to tag against rc.2, plugin-compatibility.ts (sha256
+// 3aaddccc78...), plugin-manager src/index.ts (11f14c5787...) and
+// operations.ts (f72e7e6933...) are byte-identical, no first-party patch layer
+// was added or removed, and packages/boot, packages/host and skill-filesystem
+// moved only their package.json version strings. Rows proven before today are
+// not re-dated; rejections the rc.2 gate wrote are re-decided, since they were
+// a verdict on the version, not the repo.
+const DSH_VERSION = process.env.DSH_VERSION ?? "0.2.1-rc.5";
 if (!semver.valid(DSH_VERSION)) throw new Error(`DSH_VERSION ${JSON.stringify(DSH_VERSION)} is not a semantic version`);
 
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
@@ -1010,7 +1020,7 @@ function nameFor(repo, taken) {
 // bug waiting for the next schema field, and this one ate every `featured`
 // pick on its first run.
 const KEY_ORDER = ["name", "repo", "path", "description", "category", "official", "featured", "added",
-  "lastVerified", "verifiedAgainst", "status", "evidence", "npm", "stars", "starsUpdated", "tags", "pushedAt"];
+  "lastVerified", "verifiedAgainst", "status", "evidence", "npm", "install", "stars", "starsUpdated", "tags", "pushedAt"];
 const ordered = (o) => {
   const rest = Object.keys(o).filter((k) => !KEY_ORDER.includes(k));
   return Object.fromEntries(
@@ -1269,6 +1279,31 @@ const listed = new Set(registry.plugins.map((p) => p.repo.toLowerCase()));
 const alreadyRejected = new Map(rejectedFile.rejected.map((r) => [r.repo.toLowerCase(), r]));
 let recheckedRejections = 0;
 
+// A package.json carried over verbatim from someone else's plugin proves the
+// other author's plugin, not this repo. deepseek-ai/dsh-superagent-prototype
+// showed it: published 2026-10-31 with no `repository` field, so
+// vendoredFrom() had nothing to read, and a dry run over the original and
+// twelve repos named after it admitted seven that carry its package.json word
+// for word -- mirrors, an archive, sandboxes -- one of them under the
+// original's name, which left the original a suffixed one. The words are the
+// tell: a description is the author's, and the same description from a
+// different owner is a copy of whoever was listed first (the drain runs in
+// star order, so within a pass that is the most-starred). Same owner is one
+// author reusing their own text and stays allowed. Short, generic lines
+// ("A dsh plugin") would collide by accident, so only a description at least
+// COPY_MIN_WIDTH wide counts as a fingerprint. Rows already listed are not
+// re-judged here: 185 descriptions were shared across repos on main on
+// 2026-11-02, some by one owner, some forks.
+const COPY_MIN_WIDTH = 48;
+const ownerOf = (repo) => repo.split("/")[0].toLowerCase();
+const textOwner = new Map();
+const claimText = (row) => {
+  if (!row.description || displayWidth(row.description) < COPY_MIN_WIDTH) return;
+  if (!textOwner.has(row.description)) textOwner.set(row.description, row);
+};
+for (const p of registry.plugins) claimText(p);
+let copies = 0;
+
 const queue = candidatesFile.candidates.filter((c) => !listed.has(c.repo.toLowerCase())).slice(0, LIMIT);
 console.error(`triage: ${queue.length} candidate(s) to decide`);
 
@@ -1331,11 +1366,35 @@ for (const d of decided) {
     held.push({ ...c, note: "install path proven, but no usable description upstream" });
     continue;
   }
+  const original = textOwner.get(description);
+  if (original && ownerOf(original.repo) !== ownerOf(c.repo)) {
+    // The first listing usually is the original, but not always: a copy can
+    // reach the queue before the repo it copied. More stars than the listed
+    // row is the one cheap hint of that, and a human settles it.
+    if ((c.stars ?? 0) > (original.stars ?? 0)) {
+      held.push({ ...c, note: `same description as ${original.repo}, listed first but with fewer stars: which is the original?` });
+      continue;
+    }
+    copies += 1;
+    const reason = `a copy: its description is ${original.repo}'s word for word, and the install path proves that plugin, not this repo`;
+    const prior = alreadyRejected.get(c.repo.toLowerCase());
+    if (prior) {
+      Object.assign(prior, { reason, date: TODAY, recheckAfter: addDays(TODAY, RECHECK_DAYS) });
+      recheckedRejections += 1;
+    } else {
+      rejects.push({ repo: c.repo, reason, date: TODAY, recheckAfter: addDays(TODAY, RECHECK_DAYS) });
+    }
+    continue;
+  }
   // A row the themes registry sent back has been opened by a human over there
   // and found to be a plugin wearing a skin's name. Routing it again by that
   // name would bounce it between the two queues forever.
   const sentBack = (c.sources ?? []).includes("routed-from-themes");
   if (!sentBack && isTheme(c.repo, description)) {
+    // Routing is a decision too. A rejection on file -- three rc.2 peer-gate
+    // refusals re-read on 2026-11-02 -- is superseded by it, or the repo sits
+    // in the queue and in rejected.json at once and `validate` fails.
+    if (alreadyRejected.has(c.repo.toLowerCase())) overturned.add(c.repo.toLowerCase());
     routed.push({ ...c, note: "looks like a theme; belongs in awesome-dsh-themes" });
     continue;
   }
@@ -1348,7 +1407,7 @@ for (const d of decided) {
   // the flat one. Keying on the filename alone filed every flat skill as a
   // "plugin".
   const category = d.evidence.endsWith("#frontmatter") ? "skill" : "plugin";
-  admitted.push(ordered({
+  const row = ordered({
     name: nameFor(c.repo, takenNames),
     repo: c.repo,
     path: d.path,
@@ -1364,12 +1423,14 @@ for (const d of decided) {
     stars: c.stars,
     starsUpdated: c.stars === undefined ? undefined : TODAY,
     tags: tagsFor(`${c.repo} ${description}`),
-  }));
+  });
+  admitted.push(row);
+  claimText(row);
 }
 
 console.error([
   `triage: ${admitted.length} admitted, ${rejects.length} rejected,`,
-  `${refusedByPeers} refused by dsh ${DSH_VERSION}'s peer gate,`,
+  `${refusedByPeers} refused by dsh ${DSH_VERSION}'s peer gate, ${copies} copies of a listed plugin,`,
   `${recheckedRejections} rejection(s) re-dated,`,
   `${overturned.size} rejection(s) overturned,`,
   `${held.length} held for review, ${routed.length} routed to themes (api ${apiCalls})`,

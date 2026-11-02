@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 21,928 entries from 12,985 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 27,444 entries from 16,518 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -34,11 +34,11 @@ Use that address exactly: dsh refuses redirects, and the `dshworks.github.io` ad
 
 ## Why a filtered registry
 
-DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of 2026-11-01 it holds 25,554, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
+DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [`dsh-plugin`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of 2026-11-02 it holds 25,649, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
 
-How much filtering that is, measured on 2026-11-01: **29,828** repositories carry a dsh discovery topic and **23,580** of them — 79% — have been opened, read, and decided. 3,226 were rejected, **2,785** of those for having no install path at any depth: no `dsh` manifest in `package.json`, no dsh dependency, no `SKILL.md`. They carry the topic and nothing else. Every rejection is published with its reason and a recheck date in [`data/rejected.json`](data/rejected.json).
+How much filtering that is, measured on 2026-11-02: **29,966** repositories carry a dsh discovery topic and **29,732** of them — 99% — have been opened, read, and decided. 3,842 were rejected, **3,239** of those for having no install path at any depth: no `dsh` manifest in `package.json`, no dsh dependency, no `SKILL.md`. They carry the topic and nothing else. Every rejection is published with its reason and a recheck date in [`data/rejected.json`](data/rejected.json).
 
-That is the number worth comparing. A topic count says how many people typed a tag. **23,580 of 29,828** says how many repositories somebody actually opened.
+That is the number worth comparing. A topic count says how many people typed a tag. **29,732 of 29,966** says how many repositories somebody actually opened.
 
 On 2026-08-20 that percentage fell, and it fell because the denominator got honest. Until then "carries a dsh discovery topic" quietly meant "carries one of the five `dsh-*` topics we sweep", so every author who spelled the project out instead of abbreviating it was invisible to us while we published a coverage figure that read as though they were not there. Measured that day, in repositories carrying none of the original five: `topic:deepseek-harness` held 892, `topic:dsh` 163, `topic:deepseek-harness-plugin` 3 — **1,058 repositories, about 13% of the real universe, that a 99% claim had silently excluded.** All of them are swept now. The percentage a wider net produces is lower and means more; a coverage number you can raise by narrowing what you count is not a coverage number.
 
@@ -114,7 +114,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-21074 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-01.
+26362 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-02.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -124,6 +124,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
+| next-ai-draw-io | 36557 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io/tree/HEAD/packages/dsh-plugin) · [npm](https://www.npmjs.com/package/@next-ai-drawio/dsh) | draw.io diagrams in DeepSeek Harness: the AI draws on a live canvas in the sidebar that you can also edit by hand, with versions and undo | 0.2.1-rc.5 (2026-11-02) |
 | dsh-web-ui ⭐ | 9921 | [zhu1090093659/dsh-web](https://github.com/zhu1090093659/dsh-web) · [npm](https://www.npmjs.com/package/dsh-web) | Plugin and skin collection for the dsh Web UI: task board, git graph, right-side panel, remote mobile UI, live token stats, and a skin center that routes around the theme-persistence gap | 0.1.0-rc.8 (2026-08-20) |
 | answer-me-with-html | 5022 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | Answer hard questions with a one-page HTML: the model writes a short Markdown draft; the bundled CLI handles templates, SVG auto-layout and an STE controlled-writing check. | 0.2.0-rc.2 (2026-10-17) |
 | dsh-better-sidebar ⭐ | 4803 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [npm](https://www.npmjs.com/package/dsh-better-sidebar) | Full sidebar workbench with file rendering/editing, terminal, Git, and subagents; third-party extensions can register new tabs | 0.1.0-rc.8 (2026-08-20) |
@@ -135,22 +136,21 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-claude-style | 431 | [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) · [npm](https://www.npmjs.com/package/dsh-claude-style) | Claude Code Desktop theme for DeepSeek Harness (dsh) web GUI — visual & interaction overhaul | 0.1.7-rc.2 (2026-09-29) |
 | pi-web-ui | 358 | [xing-shuyin/pi-web-ui](https://github.com/xing-shuyin/pi-web-ui) · [npm](https://www.npmjs.com/package/pi-web-ui) | Web chat interface for the pi coding agent, powered by the pi SDK (@earendil-works/pi-coding-agent) — one-command run, Docker/systemd/launchd deployable | 0.1.1-rc.2 (2026-09-04) |
 | dsh-visualize | 330 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) · [npm](https://www.npmjs.com/package/@nagi-ovo/dsh-visualize) | Generative UI in conversation: a visualize tool plus companion skill renders interactive HTML cards in sandboxed frames with streaming preview | 0.1.0-rc.8 (2026-08-20) |
+| dsh-boot-animation-lxj5820 | 310 | [lxj5820/dsh-boot-animation](https://github.com/lxj5820/dsh-boot-animation) | DSH 启动动画与屏保：全屏短片片尾交叉溶解进界面；闲置后全屏盖住界面，点击或按键收回。支持视频/图片/动图/Live2D，设置全在界面里。不改 DSH 本体源码。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-mattpocock-skills-deck | 273 | [FeatherHunter/dsh-mattpocock-skills-deck](https://github.com/FeatherHunter/dsh-mattpocock-skills-deck/tree/HEAD/package) · [npm](https://www.npmjs.com/package/dsh-mattpocock-skills-deck) | 非官方 DeepSeek Harness 插件：Matt Pocock 技能套件（mattpocock/skills）的 DSH 控制面板（Deck）——将 wayfinder 地图/票务/进度、triage / grilling / handoff 动作注入带进 DSH；配套 25 个工程与效率技能。打开形式仅右侧 details 列（无 PiP/悬浮）。npm 标准安装（dsh plugin | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-mcp-panel | 243 | [Fishquito7/dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) · [npm](https://www.npmjs.com/package/dsh-skill-mcp-panel) | dsh-skill-mcp-panel: manage skills and MCP servers from the DSH web settings UI plus the unified dsh-panel CLI. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-openpencil | 205 | [ZSeven-W/dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) · [npm](https://www.npmjs.com/package/@zseven-w/dsh-openpencil) | OpenPencil design preview and editing inside the web UI | 0.1.0-rc.8 (2026-08-20) |
 | dsh-popout-sidebar | 205 | [e2mcc/dsh-popout-sidebar](https://github.com/e2mcc/dsh-popout-sidebar) · [npm](https://www.npmjs.com/package/dsh-popout-sidebar) | 可弹出侧边栏 · A DeepSeek Harness sidebar that shows artifacts and pops out into a larger web tab. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-undo-plugin | 195 | [lire1131/dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) · [npm](https://www.npmjs.com/package/dsh-undo-savepoint) | DSH undo/rollback system: snapshot config files on change, undo/redo the last action from the WebUI or by chat, and roll back broken plugin trees without reinstalling. | 0.2.0-rc.2 (2026-10-05) |
+| dsh-startup-secret | 185 | [huzhengcai471-crypto/dsh-startup-secret](https://github.com/huzhengcai471-crypto/dsh-startup-secret) | DSH 启动界面与启动动画（二次创作版）：长征机主题开机动画，徽章标识 + 赛博电子风人物立绘（可切换）+ 访问密码功能 + 动画结束后的事件窗口。中文主字 + 英文等宽副标题，真声素材 + 界面音效，身份名称等参数在 DSH 设置页可改。web profile 与 desktop profile 通用。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-auto-continue | 178 | [HsiangNianian/dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) · [npm](https://www.npmjs.com/package/dsh-client-auto-continue) | Automatically sends continue when a Web UI request is interrupted by network errors or other non-human causes. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-web-mobile | 175 | [mexiaosqwq/dsh-web-mobile](https://github.com/mexiaosqwq/dsh-web-mobile) · [npm](https://www.npmjs.com/package/dsh-web-mobile) | Mobile-adaptive DSH web UI: on narrow screens the sidebar rail is hidden and the directory opens as an overlay drawer, so the conversation gets the full width. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-remote-web-gateway | 166 | [summer1238/dsh-remote-web-gateway](https://github.com/summer1238/dsh-remote-web-gateway/tree/HEAD/plugin) · [npm](https://www.npmjs.com/package/dsh-remote-web-gateway) | DSH Remote Web Gateway — DSH native plugin: one-click phone/tablet remote access to the DeepSeek Harness Web GUI via Cloudflare Quick Tunnel + QR pairing + device management + optional GitHub login | 0.1.0-rc.8 (2026-08-20) |
 | dsh-annotation | 159 | [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) · [npm](https://www.npmjs.com/package/@changfenhuang/dsh-annotation) | DSH Web selection-annotation plugin: select assistant text, annotate (optional), and press Enter to send the annotation block with your message — the model replies to each annotation by number,. | 0.1.0-rc.8 (2026-08-20) |
 | baro | 126 | [jigjoy-ai/baro](https://github.com/jigjoy-ai/baro/tree/HEAD/packages/baro-dsh) · [npm](https://www.npmjs.com/package/baro-dsh) | baro as a DeepSeek Harness subagent provider: delegate a multi-story goal, get parallel execution, independent review and a verified outcome back — with a live run panel in the sidebar | 0.1.1-rc.2 (2026-09-18) |
 | dsh-prompt-enhancer | 120 | [Fishsb/dsh-prompt-enhancer](https://github.com/Fishsb/dsh-prompt-enhancer) | One-click prompt enhancement: fuzzy draft to an independent LLM call, then polished composer text with undo. | 0.1.0-rc.8 (2026-08-20) |
-| dsh-openmaic | 112 | [THU-MAIC/dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) | OpenMAIC for DeepSeek Harness: generate classrooms and render slides, interactive widgets, teaching cards, plus a Socratic teaching skill | 0.1.0-rc.8 (2026-08-20) |
-| dsh-tool-todo-plus | 107 | [shuxidemosheng/dsh-tool-todo-plus](https://github.com/shuxidemosheng/dsh-tool-todo-plus) · [npm](https://www.npmjs.com/package/dsh-tool-todo-plus) | todo_write tool with priority tags, markdown checklist rendering and a floating task panel — drop-in enhanced fork of @deepseek-ai/dsh-tool-todo | 0.2.0-rc.2 (2026-10-05) |
-| recruiting-copilot | 104 | [Viy1204/recruiting-copilot](https://github.com/Viy1204/recruiting-copilot) | AI 招聘副驾 —— DeepSeek Harness profile bundle：注册招聘工作流 skills（岗位梳理、双通道寻源初筛、约面试、简历评估、台账与日报），并在 Web UI 右侧提供一只可直接操作的 boss/liepin 浏览器面板。 | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 1698. **[all 1698 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 2183. **[all 2183 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Terminals & desktop
 
@@ -184,7 +184,7 @@ TUIs, desktop shells, headless runners.
 | DeepSeek-Harness-Desktop-webcasa | 125 | [web-casa/DeepSeek-Harness-Desktop](https://github.com/web-casa/DeepSeek-Harness-Desktop/tree/HEAD/runtime) | Bundled DeepSeek Harness runtime for the desktop packaging. Pin exactly; upgrades happen only through prepare-harness + CI smoke. | 0.1.0-rc.8 (2026-08-20) |
 | Corum-Harness | 98 | [kukucaiCndy/Corum-Harness](https://github.com/kukucaiCndy/Corum-Harness/tree/HEAD/packages/desktop) | Corum（矩道）desktop carrier: Electron shell + host bridge + IPC transport, booting the corum profile over the official dsh foundation (zero HTTP). | 0.2.0-rc.2 (2026-10-05) |
 
-<sub>Showing the 25 most-starred of 702. **[all 702 →](lists/terminals-desktop.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 842. **[all 842 →](lists/terminals-desktop.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Tools & capabilities
 
@@ -218,7 +218,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | ANOLISA-agentico | 650 | [agentic-os-org/ANOLISA](https://github.com/agentic-os-org/ANOLISA/tree/HEAD/src/agentsight/dsh-plugin) | AgentSight observability plugin for DeepSeek Harness | 0.1.1-rc.2 (2026-09-18) |
 | dsh-synapse | 639 | [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) · [npm](https://www.npmjs.com/package/dsh-synapse) | A visual, non-linear conversation workspace plugin for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-21) |
 
-<sub>Showing the 25 most-starred of 5575. **[all 5575 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 6748. **[all 6748 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Vision
 
@@ -238,6 +238,7 @@ Image understanding for text-only models.
 | dsh-vision-oil | 91 | [oil-oil/dsh-vision](https://github.com/oil-oil/dsh-vision) | Near-native image understanding for text-only DeepSeek Harness models. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-imagegen-video | 69 | [q253595422/dsh-imagegen-video](https://github.com/q253595422/dsh-imagegen-video) · [npm](https://www.npmjs.com/package/@q253595422/dsh-imagegen-video) | Image and video generation for the dsh web GUI: provider channels, an infinite canvas with node-graph workflows, clip stitching, and a 30-day trash. Fork of dickpy/dsh-imagegen. | 0.2.0-rc.2 (2026-10-17) |
 | DeepSeek-Harness-Video-Director | 68 | [chiphoton/DeepSeek-Harness-Video-Director](https://github.com/chiphoton/DeepSeek-Harness-Video-Director) | A project-scoped multimodal video director plugin for DeepSeek Harness. | 0.1.7-rc.2 (2026-09-29) |
+| dsh-see-now | 62 | [SAOS-3624/dsh-see-now](https://github.com/SAOS-3624/dsh-see-now) · [npm](https://www.npmjs.com/package/dsh-see-now) | Let DSH watch a live screen or camera feed: score every frame by how much the picture changed, keep only the ones that matter, and pack them into one image. · 让 AI 实时看见你的屏幕，只传「画面变了」的那几帧。 | 0.2.1-rc.5 (2026-11-02) |
 | picturereader | 36 | [jing-hy/picturereader](https://github.com/jing-hy/picturereader) · [npm](https://www.npmjs.com/package/picturereader) | DSH plugin: pixel-to-text image reading for text-only models. Downscales and color-quantizes PNG/JPEG/GIF/BMP and feeds the coarse pixel grid to the model so DeepSeek can 'see' layout, colors and | 0.1.0-rc.8 (2026-08-20) |
 | dsh-origin-plugin | 35 | [Fantasality/dsh-origin-plugin](https://github.com/Fantasality/dsh-origin-plugin) · [npm](https://www.npmjs.com/package/dsh-origin-plugin) | Drive Origin scientific plotting from DeepSeek Harness AI chat via MCP - 28 tools, styled multi-series plots, inline image preview, statistics batch (t/ANOVA/PCA/survival), stable error codes. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-qwen-studio | 35 | [kingcharleslzy-ai/dsh-qwen-studio](https://github.com/kingcharleslzy-ai/dsh-qwen-studio) | Qwen Image 2.1 for DeepSeek Harness: native reference editing on Apple Silicon MLX and self-hosted CUDA, LoRA, ControlNet, inpainting and live chat progress | 0.2.0-rc.2 (2026-10-17) |
@@ -250,9 +251,8 @@ Image understanding for text-only models.
 | dsh-visual-plugin | 21 | [jyh20030112/dsh-visual-plugin](https://github.com/jyh20030112/dsh-visual-plugin) · [npm](https://www.npmjs.com/package/dsh-visual-plugin) | Vision bridge plugin for DeepSeek Harness: when the main model has no vision, forward user images to a configurable OpenAI-compatible vision model and show results in a Web UI right panel. Host. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-packycode-api | 20 | [BaronCyrus/dsh-packycode-api](https://github.com/BaronCyrus/dsh-packycode-api) · [npm](https://www.npmjs.com/package/dsh-packycode-api) | Use PackyCode API keys in DeepSeek Harness with multi-protocol models, image generation and editing, separate key rings, and balance display | 0.2.0-rc.2 (2026-10-17) |
 | dsh-diagram | 19 | [hanzhangzzz/dsh-diagram](https://github.com/hanzhangzzz/dsh-diagram) · [npm](https://www.npmjs.com/package/dsh-diagram) | Turn articles in DeepSeek Harness into editable Excalidraw canvases | 0.1.0-rc.8 (2026-08-20) |
-| deepseek-visionary | 17 | [xlight/deepseek-visionary](https://github.com/xlight/deepseek-visionary/tree/HEAD/packages/dsh-plugin) · [npm](https://www.npmjs.com/package/@xlight-oss/visionary-dsh) | DeepSeek Visionary native plugin for DeepSeek Harness: deepseek_vision / status / login / logout native tools backed by the visionary-server CLI (DeepSeek web vision model, no API key). | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 690. **[all 690 →](lists/vision.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 827. **[all 827 →](lists/vision.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Agents & orchestration
 
@@ -262,6 +262,7 @@ Subagents, workflows, cross-session coordination.
 |---|---|---|---|---|
 | DeepSeek-Reasonix | 36030 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix/tree/HEAD/integrations/dsh-plugin) | Use Reasonix as a subagent in DeepSeek Harness (dsh) through its ACP provider. Configuration only, no code. | 0.2.1-rc.2 (2026-10-26) |
 | ouroboros | 6303 | [Q00/ouroboros](https://github.com/Q00/ouroboros/tree/HEAD/integrations/dsh-plugin) | Mount Ouroboros (spec-first AI dev workflow engine) into DeepSeek Harness as native tools — type "ooo interview" or "ooo auto" in chat. | 0.1.1-rc.2 (2026-09-09) |
+| baoyu-design | 5821 | [JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design/tree/HEAD/dsh-plugins/dsh-claude-dashboard) · [npm](https://www.npmjs.com/package/dsh-claude-dashboard) | DeepSeek Harness plugin: the claude-dashboard skill from baoyu-design. The agent builds data-backed dashboards as files and opens them in a local dashboard editor. | 0.2.1-rc.5 (2026-11-02) |
 | DeepSeek-Bot | 4862 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot/tree/HEAD/ds-bot) · [npm](https://www.npmjs.com/package/ds-bot) | DS Bot: a team of long-lived Bots for DeepSeek Harness, with Main Bots, Bot-to-Bot messages and group chats | 0.2.0-rc.2 (2026-10-17) |
 | BitFun | 3439 | [GCWing/OpenBitFun](https://github.com/GCWing/OpenBitFun/tree/HEAD/packages/dsh-acp) | IDE-oriented Agent Client Protocol server for DeepSeek Harness: publishes tool calls, reasoning, and plans that the automation-only @deepseek-ai/dsh-acp deliberately withholds | 0.1.0-rc.8 (2026-08-20) |
 | OpenBitFun | 3439 | [GCWing/OpenBitFun](https://github.com/GCWing/OpenBitFun/tree/HEAD/extensions/dsh-openbitfun) | DeepSeek Harness plugin bundle exposing the OpenBitFun Agent SDK Host as dsh tools | 0.1.1-rc.2 (2026-09-09) |
@@ -272,6 +273,7 @@ Subagents, workflows, cross-session coordination.
 | tongflow | 1049 | [tong-io/tongflow](https://github.com/tong-io/tongflow/tree/HEAD/packages/dsh-tongflow) · [npm](https://www.npmjs.com/package/dsh-tongflow) | TongFlow studio plugin for DeepSeek Harness (dsh): agent-designed project folders, one TongFlow workflow per generated asset stored next to its outputs, deterministic media generation… | 0.1.0-rc.8 (2026-08-20) |
 | Openwrite | 906 | [LiPu-jpg/Openwrite](https://github.com/LiPu-jpg/Openwrite) · [npm](https://www.npmjs.com/package/dsh-openwrite) | OpenWrite 长篇小说领域后端接入 DeepSeek Harness：统一创作 Agent 预设 + 原生创作工作台 | 0.1.1-rc.2 (2026-09-09) |
 | easyeda-agent | 905 | [zhoushoujianwork/easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) | EasyEDA Pro (JLC EDA) automation for DeepSeek Harness: MCP bridge + agent skill bundle | 0.1.1-rc.2 (2026-09-09) |
+| AnyModelBot | 896 | [modelflare-ai/AnyModelBot](https://github.com/modelflare-ai/AnyModelBot/tree/HEAD/dsh-runtime) | Pinned DeepSeek Harness (MIT) runtime used by anymodel bot as its agent host. Packaged by scripts/bundle-dsh.mjs as resources/dsh/dsh.asar, with native packages in resources/dsh/node_modules. | 0.2.1-rc.5 (2026-11-02) |
 | Wegent | 880 | [wecode-ai/Wegent](https://github.com/wecode-ai/Wegent/tree/HEAD/wework/dsh/app-wework) | An open-source AI-native operating system to define, organize, and run intelligent agent teams | 0.1.1-rc.2 (2026-08-28) |
 | dsh-worktable | 824 | [Aisland-SJL/dsh-worktable](https://github.com/Aisland-SJL/dsh-worktable/tree/HEAD/01_content) | 工作台 Worktable：DeepSeek Harness 侧边栏的 agent 级项目容器（应用抽屉） | 0.1.0-rc.8 (2026-08-24) |
 | Minke | 696 | [lencx/Minke](https://github.com/lencx/Minke) | Minke desktop agent powered by DeepSeek Harness | 0.1.1-rc.2 (2026-09-09) |
@@ -283,10 +285,8 @@ Subagents, workflows, cross-session coordination.
 | dsh-liketavern | 230 | [Amakurai/dsh-liketavern](https://github.com/Amakurai/dsh-liketavern) | Tavern mode for dsh web — SillyTavern character cards, prompt presets, lorebooks, personas and regex on the dsh agent runtime. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-agent-rp | 215 | [hewzhew/dsh-agent-rp](https://github.com/hewzhew/dsh-agent-rp) · [npm](https://www.npmjs.com/package/@hewzhew/dsh-agent-rp) | SillyTavern migration and next-generation Agent RP for DSH | 0.1.0-rc.8 (2026-08-20) |
 | sandbase-skills | 206 | [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) | Install SandBase Agent Skills into DeepSeek Harness projects. | 0.1.1-rc.2 (2026-09-09) |
-| TavernWeave | 201 | [LiarMTTT/TavernWeave](https://github.com/LiarMTTT/TavernWeave/tree/HEAD/host-adapters/dsh/plugin) · [npm](https://www.npmjs.com/package/liarmttt-tavernweave-dsh) | TavernWeave X DSH: 23 rolecard-engineering Skills, Host Front Door, selectable agent preset, and the bundled TavernWeave DSH client panel in one DeepSeek Harness plugin. | 0.2.1-rc.2 (2026-10-26) |
-| dsh-lowtide | 180 | [KelaoHu/dsh-lowtide](https://github.com/KelaoHu/dsh-lowtide/tree/HEAD/packages/dsh) | lowtide: human-adjudicated off-peak batch task pipeline for dsh (peak/valley pricing aware) | 0.1.0-rc.8 (2026-08-25) |
 
-<sub>Showing the 25 most-starred of 1868. **[all 1868 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 2300. **[all 2300 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Memory & sessions
 
@@ -320,7 +320,7 @@ Memory systems, context management, session search/rewind/export.
 | deepseek-harness-desktop-app | 486 | [vibeinging/dsh-desktop](https://github.com/vibeinging/dsh-desktop/tree/HEAD/packages/dsh-product-bridge) | Session-scoped DeepSeek Harness Desktop App capabilities for the current DSH Web profile | unverified |
 | dsh-memory-evolve | 484 | [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 为 DeepSeek Harness 带来分层记忆（全局 / 用户 / 项目 / GIT 分支 / 每日）与自我进化（经验沉淀 + 技能自动创建）和技能管理、待办管理、CLI 调度（kimi/codex/grok/hermes 等外部 AI 统一调度）、临时信息便签，带 WebUI 管理界面。 | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 2927. **[all 2927 →](lists/memory-sessions.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 3910. **[all 3910 →](lists/memory-sessions.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Models & providers
 
@@ -354,7 +354,7 @@ Providers, routing, fallbacks, subscription adapters.
 | dsh-agy | 66 | [chaos-03x/dsh-agy](https://github.com/chaos-03x/dsh-agy) · [npm](https://www.npmjs.com/package/dsh-agy) | Google Antigravity (agy) OAuth auth + model access plugin for DeepSeek Harness: multi-account pool, 429 rotation, device fingerprinting, CLI and web login. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-reasoning-effort | 65 | [HaoyueQin/dsh-better-reasoning-effort](https://github.com/HaoyueQin/dsh-better-reasoning-effort) · [npm](https://www.npmjs.com/package/dsh-better-reasoning-effort) | Third-party provider reasoning-effort for DeepSeek Harness: thinking levels declared per model, auto-adapted from a model knowledge base + wire-protocol inference, edited right inside the official | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 1463. **[all 1463 →](lists/models-providers.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 1809. **[all 1809 →](lists/models-providers.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Interop & migration
 
@@ -379,7 +379,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | dsh-crew | 193 | [ZSeven-W/dsh-crew](https://github.com/ZSeven-W/dsh-crew) · [npm](https://www.npmjs.com/package/@zseven-w/dsh-crew) | DeepSeek Harness plugin: dispatch work to DSH agents from Claude Code / Codex, as native subagents with live progress | 0.1.0-rc.8 (2026-08-20) |
 | dsh-codex-connect | 177 | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) · [npm](https://www.npmjs.com/package/dsh-codex-connect) | ChatGPT OAuth and Codex models for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-baton-jialaoli | 153 | [JialaoLiu/dsh-baton](https://github.com/JialaoLiu/dsh-baton/tree/HEAD/host) · [npm](https://www.npmjs.com/package/dsh-baton-host) | DeepSeek Harness plugin for dsh-baton: adding it is the whole install. Switched on, it registers the dsh-baton MCP server for Claude Code and Codex, then takes the baton over a local… | 0.2.1-rc.2 (2026-10-26) |
-| dsh-qq-bridge-yuuyukou | 152 | [Yuuyuko-uu/dsh-qq-bridge](https://github.com/Yuuyuko-uu/dsh-qq-bridge) | 通到 QQ：DSH 里的 AI 伙伴和 QQ 双向互通 —— 它说完话自动发到 QQ，你在 QQ 里说的话自动转进 DSH。走 OneBot 11 HTTP（SnowLuma / NapCat 都行）。 | 0.2.1-rc.2 (2026-10-26) |
+| dsh-qq-bridge-yuuyukou | 152 | [Yuuyuko-uu/dsh-qq-link](https://github.com/Yuuyuko-uu/dsh-qq-link) · [npm](https://www.npmjs.com/package/dsh-qq-link) | 通到 QQ：DSH 里的 AI 伙伴和 QQ 双向互通 —— 它说完话自动发到 QQ，你在 QQ 里说的话自动转进 DSH。走 OneBot 11 HTTP（SnowLuma / NapCat 都行）。 | 0.2.1-rc.2 (2026-10-26) |
 | ScientificFigureLibrary | 133 | [xuzhougeng/ScientificFigureLibrary](https://github.com/xuzhougeng/ScientificFigureLibrary) · [npm](https://www.npmjs.com/package/scientific-figure-library) | Local image-code knowledge library with native macOS and local Web clients, plus MCP and Skill for Pi, DeepSeek Harness (dsh), Claude, Codex, Cursor, and Wisp. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-opencode-palette | 94 | [FeatherHunter/dsh-opencode-palette](https://github.com/FeatherHunter/dsh-opencode-palette/tree/HEAD/package) · [npm](https://www.npmjs.com/package/dsh-opencode-palette) | 让 DeepSeek Harness 穿上 34 款经典皮肤——东京的霓虹夜色、德古拉的暗红月光、复古工坊的暖黄灯火、黑客帝国的数字雨、玫瑰松林间的风……一键换肤，即点即换，重启不丢。34 legendary skins for DeepSeek Harness — tokyonight's neon dusk, dracula's crimson moon, gruvbox's retro | 0.1.0-rc.8 (2026-08-20) |
 | dsh-multica-runtime | 76 | [multica-ai/dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) | Private DeepSeek Harness runtime bridge for Multica | 0.2.0-rc.2 (2026-10-05) |
@@ -388,7 +388,7 @@ Bridges to and from Claude Code, Codex, and other harnesses.
 | search-boost | 59 | [Mr-remon219/search-boost](https://github.com/Mr-remon219/search-boost) · [npm](https://www.npmjs.com/package/search-boost) | Multi-engine web search for coding agents — one SearchBoost core (fused search, fetch, X) with MCP (Cursor, Codex, Claude Code, Grok Build, Antigravity), pi extension… | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugins-ephemera | 54 | [Ephemeral-AI-Lab/dsh-plugins](https://github.com/Ephemeral-AI-Lab/dsh-plugins/tree/HEAD/codex-shell) | Exclusive Codex-style exec_command and write_stdin shell tools for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 683. **[all 683 →](lists/interop-migration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 853. **[all 853 →](lists/interop-migration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Channels & remote
 
@@ -396,10 +396,11 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
+| dsh-superagent-prototype | 10259 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | A proactive agent for one GitHub repository, as a DSH (DeepSeek Harness) bundle: it listens to GitHub and optionally Feishu, evaluates requests under a Policy, turns authorized ones into Tickets… | 0.2.1-rc.5 (2026-11-02) |
 | qq-bridge | 3416 | [Derpyu520/qq-bridge](https://github.com/Derpyu520/qq-bridge) | Bridge between SnowLuma (OneBot v11 / QQ) and DeepSeek Harness Web API: QQ messages become DSH agent prompts, agent replies go back to QQ. | 0.1.1-rc.2 (2026-09-18) |
 | dsh-qqbot | 488 | [tencent-connect/dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) · [npm](https://www.npmjs.com/package/@tencent-connect/dsh-qqbot) | QQ Bot IM channel plugin for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-wechat-xcisxc29 | 375 | [xcisxc29/dsh-wechat](https://github.com/xcisxc29/dsh-wechat) | WeChat channel for DeepSeek Harness | 0.2.0-rc.2 (2026-10-17) |
-| dsh-aurabot-qq | 236 | [accomplish07zrh-eng/dsh-aurabot-qq](https://github.com/accomplish07zrh-eng/dsh-aurabot-qq) | Aurabot：住在 QQ 里的 AI 伙伴「大肥鱼」—— DeepSeek Harness 插件（经 SnowLuma / OneBot v11 接 QQ） | 0.2.1-rc.2 (2026-10-26) |
+| dsh-aurabot-qq | 236 | [aureth-labs/dsh-aurabot-qq](https://github.com/aureth-labs/dsh-aurabot-qq) | Aurabot：住在 QQ 里的 AI 伙伴「大肥鱼」—— DeepSeek Harness 插件（经 SnowLuma / OneBot v11 接 QQ） | 0.2.1-rc.2 (2026-10-26) |
 | dsh-bridge-wenbinwb | 236 | [wenbin-wb/dsh-bridge](https://github.com/wenbin-wb/dsh-bridge) · [npm](https://www.npmjs.com/package/@wenbin_wb/dsh-bridge) | 手机扫码即可在移动端/公网继续用 DeepSeek Harness，人不在电脑前也能接着干。一键局域网二维码、Cloudflare 公网隧道、自建隧道与微信 Bot（多工作区/会话持久化/媒体/审批），无需自己搭公网服务器。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-qqbot-gcry1306 | 207 | [zaofan-make/dsh-qqbot](https://github.com/zaofan-make/dsh-qqbot) · [npm](https://www.npmjs.com/package/@zaofan/dsh-qqbot) | QQ Bot IM channel plugin for deepseek-harness (dsh) | 0.1.7-rc.2 (2026-09-29) |
 | dsh-im-connect | 115 | [MichengAI/dsh-im-connect](https://github.com/MichengAI/dsh-im-connect) · [npm](https://www.npmjs.com/package/@michengai/dsh-im-connect) | DeepSeek Harness IM 助理：把本机 agent 接到微信、企微、钉钉、飞书、QQ、Telegram，会话与网页任务分列。 | 0.1.0-rc.8 (2026-08-20) |
@@ -417,12 +418,11 @@ IM bridges and remote control: Feishu, Telegram, WeCom, DingTalk.
 | qq-bridge-plus | 31 | [adj18311/qq-bridge-plus](https://github.com/adj18311/qq-bridge-plus/tree/HEAD/plugins/qq-agent-presets) | qq-bridge 的 DSH agent preset bundle：把 qq-chat / qq-chat-v2 作为 @deepseek-ai/dsh-agent-preset 行插入（DSH 0.1.7+ 的 preset 机制），并携带两个 preset 共用的 qq-tool-restrict 安全守卫 | 0.2.0-rc.2 (2026-10-05) |
 | dsh-email | 30 | [STARDUSTLC666/dsh-email](https://github.com/STARDUSTLC666/dsh-email) · [npm](https://www.npmjs.com/package/dsh-email) | IMAP/SMTP email tools for DeepSeek Harness: list, read, search and send mail, with QQ/163/126/Sina/Aliyun/Gmail/Outlook/iCloud presets. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-lark-sugarfor | 26 | [sugarforever/dsh-lark](https://github.com/sugarforever/dsh-lark) · [npm](https://www.npmjs.com/package/@sugarforever/dsh-lark) | Feishu/Lark WebSocket channel plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
+| qq-dsh-bridge | 25 | [NoMindSama/qq-dsh-bridge](https://github.com/NoMindSama/qq-dsh-bridge/tree/HEAD/dsh-plugins/dsh-thinking-zh) | DSH Desktop 浮游球工具箱：可拖动的角落小球，面板里以开关形式管理功能（当前含「思考链中文」） | 0.2.1-rc.5 (2026-11-02) |
 | dsh-qq-bridge-tomoyona | 23 | [TomoyoNatsume/dsh-qq-bridge](https://github.com/TomoyoNatsume/dsh-qq-bridge) · [npm](https://www.npmjs.com/package/@yachangchang/dsh-qq-bridge) | A pluggable DSH host plugin that connects QQ (NapCat/OneBot) and forwards messages to DSH agents / local capabilities. | 0.1.1-rc.2 (2026-09-09) |
 | dsh-dingtalk-dingtalk | 21 | [DingTalk-Real-AI/dsh-dingtalk](https://github.com/DingTalk-Real-AI/dsh-dingtalk) · [npm](https://www.npmjs.com/package/@dingtalk-real-ai/dsh-dingtalk) | Official DingTalk connector for DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
-| dsh-web-remote | 20 | [godchen520/dsh-web-remote](https://github.com/godchen520/dsh-web-remote) · [npm](https://www.npmjs.com/package/dsh-web-remote) | DSH 手机/外网远程访问插件：Cloudflare Quick Tunnel 公网隧道 + token 鉴权代理 + gzip 压缩 + 局域网 HTTP/HTTPS 直连 + 常驻手机图标面板 + QQ 机器人取链接。 | 0.1.0-rc.8 (2026-08-20) |
-| dsh-awiki | 19 | [AgentConnect/dsh-awiki](https://github.com/AgentConnect/dsh-awiki) · [npm](https://www.npmjs.com/package/@awiki/dsh-plugin) | AWiki identity and messaging plugin for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 414. **[all 414 →](lists/channels-remote.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 565. **[all 565 →](lists/channels-remote.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Notifications
 
@@ -456,7 +456,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-notify-center | 6 | [SingleOne/dsh-notify-center](https://github.com/SingleOne/dsh-notify-center) | Unified native desktop and webhook notifications for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | chicheng-quickinput | 5 | [534119219/chicheng-quickinput](https://github.com/534119219/chicheng-quickinput) | DSH 便捷输入保险箱插件：在发送按钮左侧提供灰色快捷按钮，展开密码保护的资料面板（密钥/服务器/地址/手机号/网址），自动识别会话中的敏感信息并提醒收录，支持分类/标签/私密记录/WebDAV 备份，点击即填入输入框，Ctrl+点击直接发送。 | 0.2.0-rc.2 (2026-10-05) |
 
-<sub>Showing the 25 most-starred of 400. **[all 400 →](lists/notifications.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 530. **[all 530 →](lists/notifications.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Usage & cost
 
@@ -490,7 +490,7 @@ Token accounting, billing, balance, quota.
 | dsh-opencode-zen | 30 | [xiaozhe7772222/dsh-opencode-zen](https://github.com/xiaozhe7772222/dsh-opencode-zen) | OpenCode Zen free-tier models for DeepSeek Harness: zero-config public-key provider with quota-aware pacing. | 0.1.0-rc.8 (2026-08-20) |
 | NixKits | 29 | [Kihara777/NixKits](https://github.com/Kihara777/NixKits/tree/HEAD/packages/dsh-api-balance) | API 用量余额插件 for the DeepSeek Harness — 在 webui 原有用量显示旁添加「用量 / 开销」标签切换，切换为「开销」后展示当前 API KEY 的用量信息、账户花费与余额（DeepSeek /user/balance） | 0.1.1-rc.2 (2026-09-04) |
 
-<sub>Showing the 25 most-starred of 1283. **[all 1283 →](lists/usage-cost.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 1625. **[all 1625 →](lists/usage-cost.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Observability & evidence
 
@@ -524,7 +524,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-acp-enhanced | 7 | [grunmin/dsh-acp-enhanced](https://github.com/grunmin/dsh-acp-enhanced) · [npm](https://www.npmjs.com/package/dsh-acp-enhanced) | Enhanced ACP server for DeepSeek Harness: block-level streaming, usage/stat telemetry (cache hit rate, token speed, input/output tokens, context length, turns, tool timing)… | 0.1.0-rc.8 (2026-08-20) |
 | dsh-hot-restart | 7 | [xiaolu511/dsh-hot-restart](https://github.com/xiaolu511/dsh-hot-restart) · [npm](https://www.npmjs.com/package/dsh-hot-restart) | DSH 热重启插件：窗口里一个固定按钮，点一下关闭并自动重开 DSH，全程没有黑窗口；内置自检系统，出问题点一下就能生成一份可直接定位的诊断报告 | 0.2.0-rc.2 (2026-10-17) |
 
-<sub>Showing the 25 most-starred of 330. **[all 330 →](lists/observability-evidence.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 396. **[all 396 →](lists/observability-evidence.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Safety & approvals
 
@@ -534,6 +534,7 @@ Permission tiers, gates, redaction, protection.
 |---|---|---|---|---|
 | penguin-harness | 3092 | [Prism-Shadow/penguin-harness](https://github.com/Prism-Shadow/penguin-harness/tree/HEAD/plugins/sandbox-dsh) · [npm](https://www.npmjs.com/package/@penguinharness/sandbox-dsh) | DeepSeek Harness sandbox adaptor for PenguinHarness: the DSH local backend chain behind the harness's own sandbox interface. | 0.1.1-rc.2 (2026-09-18) |
 | Aegis | 1408 | [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) | Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks. | 0.1.0-rc.8 (2026-08-20) |
+| DSH-Android-jackwene | 730 | [jackwener/DSH-Android](https://github.com/jackwener/DSH-Android/tree/HEAD/js/packages/bundle-android) | DSH-Android profile bundle and engine entry (main.mjs): layered over dsh-base + dsh-sdk-app; trims desktop/web/experimental rows, runs approval-only without an OS sandbox, mounts the device, guard… | 0.2.1-rc.5 (2026-11-02) |
 | dsh-mobile-sayach | 714 | [saya-ch/dsh-mobile](https://github.com/saya-ch/dsh-mobile) · [npm](https://www.npmjs.com/package/dsh-mobile) | DeepSeek Harness 移动端适配与安全局域网访问插件，支持 Android App 和手机浏览器。 | 0.1.0-rc.8 (2026-08-20) |
 | SkillCorpus | 694 | [EverMind-AI/SkillCorpus](https://github.com/EverMind-AI/SkillCorpus/tree/HEAD/skillcorpus_plugin/engine-typescript) | Per-turn skill retrieval for the DeepSeek Harness: fuse local and remote sources, gate by relevance, inject what fits | 0.1.1-rc.2 (2026-09-18) |
 | k8e | 513 | [xiaods/k8e](https://github.com/xiaods/k8e/tree/HEAD/plugins/deepseek-harness/packages/dsh-k8e-sandbox-bundle) · [npm](https://www.npmjs.com/package/@k8e-sandbox/dsh-k8e-sandbox-bundle) | Installable dsh bundle mounting the k8e-sandbox execution world (KIP-20). | 0.1.0-rc.8 (2026-08-20) |
@@ -556,9 +557,8 @@ Permission tiers, gates, redaction, protection.
 | dsh-loop-guard-mrweicod | 32 | [MrWeiCodes/dsh-loop-guard](https://github.com/MrWeiCodes/dsh-loop-guard) · [npm](https://www.npmjs.com/package/@mrweicodes/dsh-loop-guard) | Thinking-loop guard for dsh: observes the llm/stream waterfall and breaks a model that degrades into a loop. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-heartbeat-kanadego | 27 | [Kanadego/dsh-heartbeat](https://github.com/Kanadego/dsh-heartbeat) · [npm](https://www.npmjs.com/package/@kanadego/dsh-heartbeat) | Heartbeat plugin for DeepSeek Harness: scheduled autonomous reflection loop with user profile, material pool, pace gate, and gated proactive expression. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-defend | 23 | [PerryLink/dsh-defend](https://github.com/PerryLink/dsh-defend) · [npm](https://www.npmjs.com/package/dsh-defend) | Prompt-injection, jailbreak, and secret-leak detection with allow/ask/block interception for DeepSeek Harness: an Aho-Corasick pattern engine and heuristics ported from the… | 0.1.6-alpha.2 (2026-09-20) |
-| dsh-multi-tenant | 23 | [GuoMonth/dsh-multi-tenant](https://github.com/GuoMonth/dsh-multi-tenant) | Multi-tenant SaaS extension for DeepSeek Harness (DSH): tenant identity, session ownership, authorization boundaries, tenant-aware MCP, and audit. | unverified |
 
-<sub>Showing the 25 most-starred of 702. **[all 702 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 888. **[all 888 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Plugin managers & stores
 
@@ -592,7 +592,7 @@ In-UI stores, installers, skill managers.
 | dsh-capability-menu | 94 | [PKUfudawei/dsh-capability-menu](https://github.com/PKUfudawei/dsh-capability-menu) · [npm](https://www.npmjs.com/package/@daweifu/capability-menu) | Unified capability management for the DeepSeek Harness: catalog (registry) + meta_search/meta_invoke + Exposed/Progressive/Blocked projection policy + 能力管理 surface, in one installable bundle. | 0.1.0-rc.8 (2026-08-24) |
 | zat-dsh-engine | 77 | [mishibeikejie/zat-dsh-engine](https://github.com/mishibeikejie/zat-dsh-engine) | Visual plugin marketplace for DeepSeek Harness: browse, search, install, update, and uninstall community plugins. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 648. **[all 648 →](lists/plugin-managers-stores.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 758. **[all 758 →](lists/plugin-managers-stores.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Developer tools
 
@@ -622,11 +622,11 @@ Building, testing, and publishing plugins.
 | ilife | 20 | [FeatherHunter/ilife](https://github.com/FeatherHunter/ilife/tree/HEAD/packages/plugin-bill-ilife) · [npm](https://www.npmjs.com/package/dsh-bill-ilife) | 爱生活单品插件 P10 脚手架：记账（ilife:cookie order 95），硬依赖总管 dsh-life-pack | 0.1.7-rc.2 (2026-09-29) |
 | dsh-kanban-alpacach | 19 | [alpacachen/dsh-kanban](https://github.com/alpacachen/dsh-kanban) · [npm](https://www.npmjs.com/package/@alpacachen/dsh-kanban) | A kanban board plugin for DeepSeek Harness: a 'Board' tab in conversations plus 14 kanban_* AI tools, per-workspace isolation and disk persistence. Built with React, TypeScript, dnd-kit, shadcn/ui | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-teamflow | 18 | [MichaelShii/dsh-plugin-teamflow](https://github.com/MichaelShii/dsh-plugin-teamflow) · [npm](https://www.npmjs.com/package/dsh-plugin-teamflow) | TeamFlow 团队研发流水线（TypeScript）：需求→PRD→设计→架构→技术方案→并行开发→QA→验收；backlog 持久化 + 断点续跑 + 完成汇报 + 防假交付；Web 团队工作台（conversation.view tab + 拖拽看板） | 0.1.1-rc.2 (2026-08-28) |
-| dsh-eval-harness | 14 | [BiBoyang/dsh-eval-harness](https://github.com/BiBoyang/dsh-eval-harness) · [npm](https://www.npmjs.com/package/dsh-eval-harness) | DSH 插件回归评测门禁：yaml 用例 + headless 驱动 + trace 断言 + baseline 门禁（eval_run / eval_gate） | 0.1.0-rc.8 (2026-08-20) |
+| dsh-eval-harness | 14 | [BiBoyang/dsh-eval-harness](https://github.com/BiBoyang/dsh-eval-harness) | DSH 插件回归评测门禁：yaml 用例 + headless 驱动 + trace 断言 + baseline 门禁（eval_run / eval_gate） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-healthcheck | 14 | [chenw2759-wq/dsh-plugin-healthcheck](https://github.com/chenw2759-wq/dsh-plugin-healthcheck) | DSH 插件健康检查：设置面板内的「插件检测」向导 — L0 静态检查（files 白名单/依赖声明/高危副本/依赖可解析/Windows 命令/lockfile 一致性）+ L1 配置组合检查 + L2 隔离试跑（子进程 boot 全树），发现即自动回滚（写 home patch 前弹确认），复杂问题打包预制提示词交给 agent 修复。铁律：只修改插件代码与配置层，严禁修改 harness. | 0.1.0-rc.8 (2026-08-20) |
 | tencentcloud-agentobs-sdk-dsh | 14 | [TencentCloud/tencentcloud-agentobs-sdk-dsh](https://github.com/TencentCloud/tencentcloud-agentobs-sdk-dsh) · [npm](https://www.npmjs.com/package/tencentcloud-agentobs-sdk-dsh) | Tencent Cloud Service CLS observability plugin for DeepSeek Harness — direct upload to Tencent Cloud CLS | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 280. **[all 280 →](lists/developer-tools.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 342. **[all 342 →](lists/developer-tools.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Knowledge & research
 
@@ -643,6 +643,7 @@ Research workbenches, RAG, learning modes.
 | dsh-nekowhale-stickers | 130 | [Loping151/dsh-nekowhale-stickers](https://github.com/Loping151/dsh-nekowhale-stickers) · [npm](https://www.npmjs.com/package/dsh-nekowhale-stickers) | 大肥鱼 / GPT娘 sticker knowledge, search and local meme templates for DeepSeek Harness (dsh) and any bot | 0.2.1-rc.2 (2026-10-26) |
 | hanai-investment-dsh | 120 | [hancao97/hanai-investment-dsh](https://github.com/hancao97/hanai-investment-dsh) | Hanai Investment — a local-first A-share research workbench powered by DeepSeek Harness | 0.2.0-rc.2 (2026-10-05) |
 | dsh-web-search-pro | 82 | [anweat/dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) · [npm](https://www.npmjs.com/package/dsh-web-search-pro) | Enhanced, persistent web search plugin for DeepSeek Harness — multi-engine routing (DeepSeek/Exa/DDG/Bing/Jina + GitHub/B站/YouTube/V2EX/小红书/Twitter/Reddit/RSS), SQLite+LRU cache… | 0.1.0-rc.8 (2026-08-20) |
+| qiaomu-ui-learn-dsh | 75 | [joeseesun/qiaomu-ui-learn-dsh](https://github.com/joeseesun/qiaomu-ui-learn-dsh) | Qiaomu UI Learn for DeepSeek Harness | 0.2.1-rc.5 (2026-11-02) |
 | SpecFusion | 75 | [wxkingstar/SpecFusion](https://github.com/wxkingstar/SpecFusion/tree/HEAD/dsh-plugin) · [npm](https://www.npmjs.com/package/@wxkingstar/specfusion-dsh) | SpecFusion skill + native API-docs search tools for DeepSeek Harness: 65,000+ API docs across 20 Chinese open platforms | 0.1.0-rc.8 (2026-08-20) |
 | OpenQuantum | 71 | [xi-zhao/OpenQuantum](https://github.com/xi-zhao/OpenQuantum) | A DeepSeek Harness distribution for open quantum research | 0.1.0-rc.8 (2026-08-24) |
 | prts-terrarchive | 68 | [HTian-qwq/prts-terrarchive](https://github.com/HTian-qwq/prts-terrarchive) · [npm](https://www.npmjs.com/package/prts-terrarchive) | PRTS.chat local corpus search/read tools as a deepseek-harness plugin | 0.1.1-rc.2 (2026-09-01) |
@@ -658,9 +659,8 @@ Research workbenches, RAG, learning modes.
 | dsh-ai4scholar | 38 | [literaf/dsh-ai4scholar](https://github.com/literaf/dsh-ai4scholar) · [npm](https://www.npmjs.com/package/dsh-ai4scholar) | AI4Scholar for DeepSeek Harness (dsh): 38 native academic tools — Semantic Scholar, PubMed, Google Scholar, arXiv, bioRxiv/medRxiv, DOI resolution, PDF full text, auto-cite, scientific figures… | 0.1.0-rc.8 (2026-08-20) |
 | deep-read-summarize | 37 | [PensiveFei/deep-read-summarize](https://github.com/PensiveFei/deep-read-summarize) · [npm](https://www.npmjs.com/package/deep-read-summarize) | Deep reading & summarization for DSH: books/papers/videos/web → structured Obsidian notes. Plugin parsers, MapReduce deep-read, JSON Schema output, idempotent cache. | 0.1.0-rc.8 (2026-08-21) |
 | dsh-paper-reader | 32 | [GGboya/dsh-paper-reader](https://github.com/GGboya/dsh-paper-reader) · [npm](https://www.npmjs.com/package/@ggboy123/dsh-paper-reader) | DeepSeek Harness 插件：论文伴读工作台 — PDF 转录 / 检索 / 原生对话伴读 + 内置阅读器页面。 | 0.1.7-rc.2 (2026-09-29) |
-| dsh-plugin-miliastra-toolbox | 32 | [1475505/dsh-plugin-miliastra-toolbox](https://github.com/1475505/dsh-plugin-miliastra-toolbox) | DeepSeek Harness plugin: 千星沙箱知识库（节点/指南/教程/FAQ）查询工具与技能 | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 711. **[all 711 →](lists/knowledge-research.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 877. **[all 877 →](lists/knowledge-research.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Fun
 
@@ -674,6 +674,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-meme-yyh001 | 479 | [yyh-001/dsh-meme](https://github.com/yyh-001/dsh-meme) · [npm](https://www.npmjs.com/package/dsh-meme) | DeepSeek Harness 表情包插件:内置默认图库(官方-001,92 张),按情绪随机抽图,send_meme 发图(Web/QQ),设置页管理面板。 | 0.1.0-rc.8 (2026-08-20) |
 | DSH-Transparent-UI-Plugin | 428 | [WYH66666666/DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) | Aqua: a highly customizable glassmorphism theme for the Web surface — adjustable blur, frost, fluid or wallpaper backdrop, unified corners, and motion | 0.2.0-rc.2 (2026-10-05) |
 | whale-girl ⭐ | 399 | [vlln/whale-girl](https://github.com/vlln/whale-girl) · [npm](https://www.npmjs.com/package/whale-girl) | Desktop-pet companion for the web GUI (QQ-pet style): draggable, feedable, levels up with session activity; migrated from the removed .dsh-plugin format to dsh.bundle | 0.1.0-rc.8 (2026-08-20) |
+| desktop-pet | 219 | [IvenKooLab/desktop-pet](https://github.com/IvenKooLab/desktop-pet/tree/HEAD/adapters/dsh/comi-bridge) | Comi pet for DSH: session status, in-app overlay and standalone desktop handoff | 0.2.1-rc.5 (2026-11-02) |
 | gal-view | 212 | [Ayase34/gal-view](https://github.com/Ayase34/gal-view) | DSH Web GUI 会话页的 GAL 视窗：Galgame 风格对话视图 + 场景元素可视化编辑器 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-whale-musume | 195 | [Sutera-Diffusus/dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | A whale-girl Kanban Musume mascot for DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-game-material-master | 130 | [universe-st/dsh-game-material-master](https://github.com/universe-st/dsh-game-material-master) · [npm](https://www.npmjs.com/package/dsh-game-material-master) | 游戏素材大师：DSH 插件，包含八方向图生成、图片生成、序列帧生成三个游戏素材模块，以及实验性的骨骼动画生成模块。八方向图默认「转圈截帧」（一段原地匀速转一圈的绿幕视频 → 按时间轴截出八个方向），也可逐方向生图；火山方舟 Seedream 生图 + MiniMax 图生视频 + 本地抠绿幕合成。 | 0.1.7-rc.2 (2026-09-29) |
@@ -692,9 +693,8 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-emoji | 51 | [hellodigua/dsh-emoji](https://github.com/hellodigua/dsh-emoji) · [npm](https://www.npmjs.com/package/dsh-emoji) | Tiny semantic inline emoji for DSH Agent responses | 0.1.0-rc.8 (2026-08-20) |
 | dsh-godot-skill | 50 | [akira399/dsh-godot-skill](https://github.com/akira399/dsh-godot-skill) | Godot Engine 4.x full-stack game development skill for DeepSeek Harness (DSH). A host plugin that registers the `godot-4-development` skill — covering renderers, 2D/3D graphics & physics… | 0.1.0-rc.8 (2026-08-20) |
 | ghost | 47 | [varsian/ghost](https://github.com/varsian/ghost/tree/HEAD/live2d-pet/packages/bundle) | Live2D desktop mascot for DeepSeek Harness: a transparent avatar overlay driven by the local TTS plugin's real playback envelope, emotions and text. | 0.2.1-rc.2 (2026-10-26) |
-| dsh-ui-whale | 43 | [lhh010/dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) | DSH Web UI 像素鲸鱼伙伴插件：会话标题栏常驻，平时眨眼/偶尔摆尾/动胸鳍，思考运行时持续动起来，回合完成头顶喷水，点击冒爱心，零核心改动。 | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 700. **[all 700 →](lists/fun.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 909. **[all 909 →](lists/fun.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Bundles
 
@@ -752,6 +752,7 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | J-Space-Cognition-Suite-V3.7 | 2957 | [Tiger3807861189/J-Space-Cognition-Suite](https://github.com/Tiger3807861189/J-Space-Cognition-Suite/tree/HEAD/j-space) | J-Space Cognition Suite — a model-agnostic inference-time control suite for deep reasoning, long-horizon work, verification, and recovery. Based on Anthropic's J-space global workspace research. | 0.1.1-rc.2 (2026-09-18) |
 | grida | 2695 | [gridaco/grida](https://github.com/gridaco/grida/tree/HEAD/skills/dotcanvas) | Grida — Open Canvas | 0.1.7-rc.2 (2026-09-29) |
 | vox-director | 2566 | [Alisa0808/vox-director](https://github.com/Alisa0808/vox-director) | Vox Director — an open-source Agent Skill that turns one topic into a finished Vox-style paper-collage explainer/ad video: script, collage keyframes, motion, voice-over, music and captions… | 0.1.0-rc.8 (2026-08-21) |
+| new-term-radar | 2030 | [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar/tree/HEAD/skills/ai-listening) | Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them. | 0.2.1-rc.5 (2026-11-02) |
 | last30days-skill-cn | 2026 | [Jesseovo/last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) | last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。 | 0.1.0-rc.8 (2026-08-21) |
 | math-modeling-skill | 1892 | [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill) | 数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本 | 0.1.0-rc.8 (2026-08-21) |
 | AI_Animation | 1689 | [Unclecheng-li/AI_Animation](https://github.com/Unclecheng-li/AI_Animation/tree/HEAD/skills/card-theater) | AI-powered HTML animation & visualization skill collection | 0.1.7-rc.2 (2026-09-29) |
@@ -760,9 +761,8 @@ Anthropic-format `SKILL.md` units; dsh discovers them from its skill roots (no n
 | MatrixMedia | 1186 | [hanliang97/MatrixMedia](https://github.com/hanliang97/MatrixMedia/tree/HEAD/skills/matrixmedia-cli-publish) | 自媒体免费开源矩阵工具 | 0.2.0-rc.2 (2026-10-17) |
 | ex-skill | 1095 | [titanwings/ex-skill](https://github.com/titanwings/ex-skill) | Builds a digital persona skill of your ex from WeChat chat logs (create-ex); SKILL.md documents dsh discovery paths alongside other hosts | unverified |
 | Skills-Manager | 1051 | [jiweiyeah/Skills-Manager](https://github.com/jiweiyeah/Skills-Manager/tree/HEAD/skills/skills-manager-cli) | Free, open-source desktop manager for AI Agent Skills. Write a skill once, sync it to 32 AI coding tools (Claude Code, Codex, Cursor, Gemini CLI, and more) via symlinks. Local-first, MIT licensed. | 0.1.1-rc.2 (2026-09-18) |
-| hol-guard | 1050 | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard/tree/HEAD/docs/guard) | Open-source antivirus for AI agents: block risky tools, secret access, prompt injection, malicious packages, MCP servers, plugins, and skills at runtime. | 0.2.0-rc.2 (2026-09-30) |
 
-<sub>Showing the 25 most-starred of 747. **[all 747 →](lists/skills.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 975. **[all 975 →](lists/skills.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Themes
 

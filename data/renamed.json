@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-10-26",
-  "count": 518,
-  "ownerChanged": 162,
+  "detected": "2026-11-02",
+  "count": 553,
+  "ownerChanged": 179,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -3364,6 +3364,251 @@
       "ownerChanged": false,
       "name": "dsh-research-hub",
       "on": "2026-10-26"
+    },
+    {
+      "from": "nbsp1221/dotdsh",
+      "to": "nbsp1221/beluga",
+      "ownerChanged": false,
+      "name": "dotdsh",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "Ultronen/dsh-archived-chats",
+      "to": "Ultroncn/dsh-archived-chats",
+      "ownerChanged": true,
+      "name": "dsh-archived-chats",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "Liu-ty/dsh-balance-display",
+      "to": "tynacity/dsh-balance-display",
+      "ownerChanged": true,
+      "name": "dsh-balance-display-liuty",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "xinspark/dsh-better-session-title",
+      "to": "xinspark/dsh-better-session-topbar",
+      "ownerChanged": false,
+      "name": "dsh-better-session-title",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "Ultronen/dsh-liquid-glass",
+      "to": "Ultroncn/dsh-liquid-glass",
+      "ownerChanged": true,
+      "name": "dsh-liquid-glass-ultronen",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "zhang66633/.dsh-plugin-installer",
+      "to": "zhang66633/dsh-plugin-installer",
+      "ownerChanged": false,
+      "name": "dsh-plugin-installer",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "NonchalantLudens/dsh-side-dir",
+      "to": "flyingludens/dsh-side-dir",
+      "ownerChanged": true,
+      "name": "dsh-side-dir",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "kaiqiangh/dsh-workshpace-plugin",
+      "to": "kk-ai-lab/dsh-workshpace-plugin",
+      "ownerChanged": true,
+      "name": "dsh-workshpace-plugin",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "komoai2026/dsh-zpdf",
+      "to": "nguyenvanhoang1/dsh-zpdf",
+      "ownerChanged": true,
+      "name": "dsh-zpdf",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "xiangrui979/foresight",
+      "to": "dawn-471/foresight",
+      "ownerChanged": true,
+      "name": "foresight",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "xianyuyijinban/boardwise",
+      "to": "XiangyuYue/boardwise",
+      "ownerChanged": true,
+      "name": "boardwise",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "goatliamia/dsh-trajectory-query",
+      "to": "goatliamia/trajectory-tree",
+      "ownerChanged": false,
+      "name": "dsh-trajectory-query",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "01men/RQ-DSH",
+      "to": "01men/DeptAI-UI-DSH",
+      "ownerChanged": false,
+      "name": "RQ-DSH",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "AkinoHaruka/companion-memory",
+      "to": "AkiHaruka/companion-memory",
+      "ownerChanged": true,
+      "name": "companion-memory",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "bugbyc0922/DSH-ANYWORK",
+      "to": "TokenAI-Beta/ANYWORK",
+      "ownerChanged": true,
+      "name": "DSH-ANYWORK",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "guhanfei-ai/dsh-introspect",
+      "to": "guhanfei-ai/dsh-innersense",
+      "ownerChanged": false,
+      "name": "dsh-introspect",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "Milbaxter/dsh-evolution-lab",
+      "to": "milimithrandir/dsh-evolution-lab",
+      "ownerChanged": true,
+      "name": "dsh-evolution-lab-milbaxte",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "rin721/dsh-mythor-plugin",
+      "to": "reina0721/dsh-mythor-plugin",
+      "ownerChanged": true,
+      "name": "dsh-mythor-plugin",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "xiangrui979/MMCAS",
+      "to": "dawn-471/MMCAS",
+      "ownerChanged": true,
+      "name": "MMCAS",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "GeekXtop/skills-misc",
+      "to": "GeekXtop/personal-agent-extensions",
+      "ownerChanged": false,
+      "name": "skills-misc",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "SherinG-official/dsh-desktop-pet",
+      "to": "SherinG-official/dsh-session-board",
+      "ownerChanged": false,
+      "name": "dsh-desktop-pet-sheringo",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "yuloong07-star/Luwi",
+      "to": "Luwi-developers/Luwi",
+      "ownerChanged": true,
+      "name": "Luwi",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "BangBang-03/dsh-memory",
+      "to": "BangBang-03/dsh-memory-portrait",
+      "ownerChanged": false,
+      "name": "dsh-memory-bangbang",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "arzvaak/dsh-provider-hub",
+      "to": "DSH-Extensions-list/dsh-provider-hub",
+      "ownerChanged": true,
+      "name": "dsh-provider-hub-arzvaak",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "WYR-233/dsh-memory-lite",
+      "to": "WYR-233/dsh-memory-markdown",
+      "ownerChanged": false,
+      "name": "dsh-memory-lite-wyr233",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "lvy-jsd/dsh-tool-manager",
+      "to": "lvy-jsd/dsh-tool-ultra",
+      "ownerChanged": false,
+      "name": "dsh-tool-manager-lvyjsd",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "Kiru-Sama/kiru-progress-bar",
+      "to": "Kiru-Sama/dsh-progress-bar",
+      "ownerChanged": false,
+      "name": "kiru-progress-bar",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "Yuuyuko-uu/dsh-qq-bridge",
+      "to": "Yuuyuko-uu/dsh-qq-link",
+      "ownerChanged": false,
+      "name": "dsh-qq-bridge-yuuyukou",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "accomplish07zrh-eng/dsh-aurabot-qq",
+      "to": "aureth-labs/dsh-aurabot-qq",
+      "ownerChanged": true,
+      "name": "dsh-aurabot-qq",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "Nekomeow114/dsh-tieba-scroll",
+      "to": "Nekomeow114/dsh-tieba-dive",
+      "ownerChanged": false,
+      "name": "dsh-tieba-scroll",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "skchopper/automaton-trading",
+      "to": "skchopper/meat",
+      "ownerChanged": false,
+      "name": "automaton-trading",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "1010231693/dsh-first-prompt-bar",
+      "to": "1010231693/dsh-prompt-bar",
+      "ownerChanged": false,
+      "name": "dsh-first-prompt-bar",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "colsonSung/dsh-english-reader",
+      "to": "colsonSung/dsh-reader",
+      "ownerChanged": false,
+      "name": "dsh-english-reader",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "kangjiazhen/dsh-workbuddy-codex",
+      "to": "kangjiazhen/workbuddy2everything",
+      "ownerChanged": false,
+      "name": "dsh-workbuddy-codex",
+      "on": "2026-11-02"
+    },
+    {
+      "from": "elk-9527/dsh-vscode",
+      "to": "StanElka/dsh-vscode",
+      "ownerChanged": true,
+      "name": "dsh-vscode-elk9527",
+      "on": "2026-11-02"
     }
   ],
   "collisions": {
@@ -3797,8 +4042,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 248,
-    "rowsRemoved": 249,
+    "groupsMerged": 249,
+    "rowsRemoved": 250,
     "leftForTriage": [],
     "merges": [
       {
@@ -6427,6 +6672,17 @@
         ],
         "evidence": "package.json#dsh.bundle",
         "on": "2026-10-26"
+      },
+      {
+        "repo": "omdsh-dev/dsh-neoforge",
+        "path": "skills/dsh-neoforge-migrate",
+        "renamedFrom": "r05En1cU/dsh-neoforge",
+        "kept": "dsh-forge-r05en1cu",
+        "dropped": [
+          "dsh-neoforge-r05en1cu"
+        ],
+        "evidence": "skills/dsh-neoforge-migrate/SKILL.md#frontmatter",
+        "on": "2026-11-02"
       }
     ]
   },

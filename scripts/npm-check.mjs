@@ -84,7 +84,7 @@ const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
 // their value and land at the end — a reorderer that drops what it does not
 // recognise is a data-loss bug waiting for the next schema field.
 const KEY_ORDER = ["name", "repo", "path", "description", "category", "official", "featured", "added",
-  "lastVerified", "verifiedAgainst", "status", "evidence", "npm", "stars", "starsUpdated", "tags", "pushedAt"];
+  "lastVerified", "verifiedAgainst", "status", "evidence", "npm", "install", "stars", "starsUpdated", "tags", "pushedAt"];
 const ordered = (o) => {
   const rest = Object.keys(o).filter((k) => !KEY_ORDER.includes(k));
   return Object.fromEntries(
