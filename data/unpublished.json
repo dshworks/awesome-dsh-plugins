@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-02",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1038,
+  "count": 1039,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -502,13 +502,6 @@
       "since": "2026-10-20"
     },
     {
-      "repo": "Porphyrioon/ironlaw",
-      "path": "packages/adapter-dsh",
-      "npm": "@ironlaw/adapter-dsh",
-      "why": "published by nobody — the package states no repository and the repo does not claim the name",
-      "since": "2026-10-04"
-    },
-    {
       "repo": "Khorsheed/dsh-ankh-guard",
       "npm": "@khorsheed/dsh-ankh-guard",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -550,12 +543,6 @@
       "npm": "@linxin666/dsh-multi-pet",
       "why": "no such package",
       "since": "2026-08-21"
-    },
-    {
-      "repo": "little-traincar/dsh-imagegen",
-      "npm": "@little-traincar/dsh-imagegen",
-      "why": "no such package",
-      "since": "2026-10-30"
     },
     {
       "repo": "yangzhaofeng496/dsh-feishu-plugin",
@@ -722,6 +709,12 @@
       "npm": "@sqnb/dsh-gpt-remote-compaction",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "STofone/dsh-agent-roster",
+      "npm": "@stofone/dsh-agent-roster",
+      "why": "published by dsh-agent-roster/dsh-agent-roster",
+      "since": "2026-11-02"
     },
     {
       "repo": "Suxeca/dsh-plugin",
@@ -2016,6 +2009,12 @@
       "since": "2026-09-29"
     },
     {
+      "repo": "xkk6663/dsh-elab-cockpit",
+      "npm": "dsh-elab-cockpit",
+      "why": "published by xkk6663/elab-flow",
+      "since": "2026-11-02"
+    },
+    {
       "repo": "Yuki-takuya-kun/dsh-engine-switch",
       "npm": "dsh-engine-switch",
       "why": "no such package",
@@ -2306,6 +2305,13 @@
       "npm": "dsh-goal-quiescence",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "luochang212/dsh-god-view",
+      "path": "packages/dsh-god-view",
+      "npm": "dsh-god-view",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-02"
     },
     {
       "repo": "youxi-huang/dsh-gpt-file-discipline",
