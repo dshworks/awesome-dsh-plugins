@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -414895,6 +414895,23 @@
         "agents"
       ],
       "pushedAt": "2026-10-25"
+    },
+    {
+      "name": "dsh-soul-evolve",
+      "repo": "xiachuyoufeng/dsh-soul-evolve",
+      "description": "人格状态与缓慢演化：五维状态随对话累积衰减、按场景调语气，人格条目带权重与 4000 字注入预算，改完下一轮生效",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-02",
+      "lastVerified": "2026-11-02",
+      "verifiedAgainst": "0.2.1-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "memory",
+        "ui"
+      ],
+      "pushedAt": "2026-11-02"
     }
   ]
 }
