@@ -56,6 +56,12 @@
           "pattern": "^(@[a-z0-9-~][a-z0-9-._~]*/)?[a-z0-9-~][a-z0-9-._~]*$",
           "description": "npm package name, when published"
         },
+        "install": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240,
+          "description": "Set by hand, only when the generated install line (`dsh plugin --profile web add` with the npm name or a github: slug) does not work for this entry: the steps that do, in the author's documented order. A git install of a package whose entry file is uncommitted build output, with no `prepare` script, installs and then fails to load. Consumers show this instead of the generated line"
+        },
         "description": {
           "type": "string",
           "minLength": 1,

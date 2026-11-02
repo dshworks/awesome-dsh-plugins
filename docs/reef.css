@@ -218,6 +218,7 @@ h1 {
   padding: 0.28rem 0.5rem;
   border-radius: 8px;
 }
+.install.steps code { white-space: normal; }
 .copy {
   appearance: none;
   border: 1px solid var(--stroke-cool);

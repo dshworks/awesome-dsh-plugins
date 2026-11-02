@@ -51,7 +51,16 @@ must clear this bar:
    The prover checks both rules and rejects, with a recheck date, a package
    the registry's dsh version would refuse.
 4. Honest description, no keyword stuffing. Riding the `dsh-plugin` topic
-   without extending dsh is exactly what this registry filters out.
+   without extending dsh is exactly what this registry filters out. Your own
+   words: a description copied from a plugin already listed under another
+   owner is read as a copy of it and rejected, with a recheck date.
+
+Not a gate, but check it: the sites print `dsh plugin --profile web add
+github:<repo>` for an entry without an `npm` name. If your entry file (`main`
+or `exports`) is build output you don't commit, such as `lib/` or `dist/`,
+that installs and then fails to load. Commit the build, add a `prepare`
+script, or publish to npm. Where none of those applies, set `install` to the
+steps that work.
 
 ## The discovery queue
 
