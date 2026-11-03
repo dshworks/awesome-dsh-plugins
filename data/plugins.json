@@ -519394,6 +519394,25 @@
         "capabilities"
       ],
       "pushedAt": "2026-10-23"
+    },
+    {
+      "name": "@lifenrir/dsh-external-task-context",
+      "repo": "LiFenrir/dsh-external-task-context",
+      "description": "在 DSH 右侧栏查看外部子代理任务（Claude Code / Codex / ACP）的委派提示词、运行上下文与返回结果，数据全部来自父会话已有日志",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-10-23",
+      "lastVerified": "2026-11-03",
+      "verifiedAgainst": "0.2.1-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "agents"
+      ],
+      "npm": "@lifenrir/dsh-external-task-context",
+      "stars": 0,
+      "starsUpdated": "2026-11-03",
+      "pushedAt": "2026-11-03"
     }
   ]
 }
