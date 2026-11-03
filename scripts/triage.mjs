@@ -270,7 +270,14 @@ async function gh(path) {
       continue;
     }
     if (!res.ok) return null;
-    return res.json();
+    // The timeout covers the body too. A big recursive tree still streaming at
+    // 25 s rejected here, outside the try, and on 2026-11-03 that ended a
+    // 1,787-repo drain at repo 300 with nothing written.
+    try {
+      return await res.json();
+    } catch {
+      await sleep(1500 * (attempt + 1));
+    }
   }
   return null;
 }
