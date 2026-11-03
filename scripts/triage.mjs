@@ -1407,6 +1407,13 @@ for (const d of decided) {
   // the flat one. Keying on the filename alone filed every flat skill as a
   // "plugin".
   const category = d.evidence.endsWith("#frontmatter") ? "skill" : "plugin";
+  // A candidate's `npm` is whichever search hit named this repo, and in a
+  // monorepo that is often a sibling of the package proven here: on
+  // 2026-11-03, 64 of 242 nested admissions paired one package's path with
+  // another's npm name, so the card would install B under A's description.
+  // Keep it only when the manifest this row was proven from declares that
+  // exact name; npm-check --adopt fills in the right one from the row's path.
+  const provenName = d.pkgName ?? d.facts?.pkgName ?? null;
   const row = ordered({
     name: nameFor(c.repo, takenNames),
     repo: c.repo,
@@ -1419,7 +1426,7 @@ for (const d of decided) {
     verifiedAgainst: DSH_VERSION,
     status: "verified",
     evidence: d.evidence,
-    npm: c.npm,
+    npm: c.npm && c.npm === provenName ? c.npm : undefined,
     stars: c.stars,
     starsUpdated: c.stars === undefined ? undefined : TODAY,
     tags: tagsFor(`${c.repo} ${description}`),

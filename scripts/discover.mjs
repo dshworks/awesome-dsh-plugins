@@ -322,19 +322,22 @@ const DSH_WORD = /dsh|deepseek/i;
 
 async function npmSearch(text, from) {
   const url = `https://registry.npmjs.org/-/v1/search?text=${encodeURIComponent(text)}&size=${NPM_PAGE}&from=${from}`;
-  for (let attempt = 0; attempt < 4; attempt++) {
+  // Six tries over ~2 minutes. The first run with four over 30 seconds lost
+  // a whole query (keywords:cordis dsh, 1,742 names nobody else reaches) to a
+  // stretch of failures that answered in a second when asked again.
+  for (let attempt = 0; attempt < 6; attempt++) {
     let res;
     try {
       res = await fetch(url, { signal: AbortSignal.timeout(40000) });
     } catch {
-      await sleep(3000 * (attempt + 1)); // transient socket error, not a verdict
+      await sleep(5000 * (attempt + 1)); // transient socket error, not a verdict
       continue;
     }
     if (res.ok) return res.json();
     if (res.status !== 429 && res.status < 500) throw new Error(`npm search: HTTP ${res.status}`);
-    await sleep(3000 * (attempt + 1));
+    await sleep(5000 * (attempt + 1));
   }
-  throw new Error(`npm search "${text}" from ${from}: gave up after 4 attempts`);
+  throw new Error(`npm search "${text}" from ${from}: gave up after 6 attempts`);
 }
 
 // One query, paged until it stops adding names (two pages in a row) or runs

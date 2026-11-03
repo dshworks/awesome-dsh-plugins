@@ -1,8 +1,8 @@
 {
   "_comment": "Repositories that answered under a new name and had their `repo` field updated. GitHub's API follows renames and returns the current nameWithOwner, so these are the same repositories, not new ones — updating the field is a refresh, not a re-listing, and it is recorded here so the change is auditable and a stale inbound link can still be traced. `lastVerified` and `evidence` are deliberately NOT touched: a rename does not move files, and re-dating a check nobody re-ran would be the lie this registry exists to avoid. ownerChanged rows deserve a second look — an ownership transfer means the install decision now rests on a different person, which is a fact about trust and not about a URL. Detected by scripts/stars.mjs, which now reports renames it was previously discarding.",
-  "detected": "2026-11-02",
-  "count": 553,
-  "ownerChanged": 179,
+  "detected": "2026-11-03",
+  "count": 571,
+  "ownerChanged": 184,
   "renames": [
     {
       "from": "237229953-create/ds-turn-notify",
@@ -3609,6 +3609,132 @@
       "ownerChanged": true,
       "name": "dsh-vscode-elk9527",
       "on": "2026-11-02"
+    },
+    {
+      "from": "FitBBC/dsh-plugin-tokenmarket",
+      "to": "Duqiyan2/dsh-plugin-tokenmarket",
+      "ownerChanged": true,
+      "name": "dsh-plugin-tokenmarket",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "jerryxff26-alt/dsh-delivery-board",
+      "to": "jerryxff26-alt/delivery-board",
+      "ownerChanged": false,
+      "name": "dsh-delivery-board",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "djornii/dsh-grok-stars",
+      "to": "muntag/dsh-grok-stars",
+      "ownerChanged": true,
+      "name": "dsh-grok-stars",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "Dogtiti/dsh-plugin-subagent-bridge",
+      "to": "Dogtiti/dsh-subagent-bridge",
+      "ownerChanged": false,
+      "name": "dsh-plugin-subagent-bridge",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "Dogtiti/dsh-plugin-composer-history",
+      "to": "Dogtiti/dsh-input-history",
+      "ownerChanged": false,
+      "name": "dsh-plugin-composer-history",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "Dogtiti/dsh-plugin-composer-predict",
+      "to": "Dogtiti/dsh-predict",
+      "ownerChanged": false,
+      "name": "dsh-plugin-composer-predict",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "Dogtiti/dsh-plugin-provider-icons",
+      "to": "Dogtiti/dsh-provider-icons",
+      "ownerChanged": false,
+      "name": "dsh-plugin-provider-icons",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "STofone/dsh-agent-roster",
+      "to": "dsh-agent-roster/dsh-agent-roster",
+      "ownerChanged": true,
+      "name": "dsh-agent-roster",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "266767398/lingshu-skill",
+      "to": "Q2667671398/lingshu-skill",
+      "ownerChanged": true,
+      "name": "lingshu-skill",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "Chengyunlai/dsh-git-control",
+      "to": "Chengyunlai/dsh-workbench",
+      "ownerChanged": false,
+      "name": "dsh-git-control",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "chriswang/dsh-conversation-tree",
+      "to": "orchivo/dsh-conversation-tree",
+      "ownerChanged": true,
+      "name": "dsh-conversation-tree-chriswan",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "Dogtiti/dsh-plugin-usage-panel",
+      "to": "Dogtiti/dsh-quota-meter",
+      "ownerChanged": false,
+      "name": "dsh-plugin-usage-panel",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "GinoXiang/dsh-grice",
+      "to": "GinoXiang/dsh-output-style",
+      "ownerChanged": false,
+      "name": "dsh-grice",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "IKEASven69/dsh-sensenova-image",
+      "to": "IKEASven69/dsh-openimage",
+      "ownerChanged": false,
+      "name": "dsh-sensenova-image",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "keyblues/dsh-plugin-fengniao-company-search",
+      "to": "keyblues/dsh-fengniao-company-search",
+      "ownerChanged": false,
+      "name": "dsh-plugin-fengniao-company-search",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "zhaochengggg/dsh-control-studio",
+      "to": "zhaochengggg/dsh-a2ui-studio",
+      "ownerChanged": false,
+      "name": "dsh-control-studio",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "luochang212/dsh-god-view",
+      "to": "luochang212/godview",
+      "ownerChanged": false,
+      "name": "dsh-god-view",
+      "on": "2026-11-03"
+    },
+    {
+      "from": "MSSZSD3925/dsh-toolkit",
+      "to": "MSSZSD3925/dsh-msszsd-toolkit",
+      "ownerChanged": false,
+      "name": "dsh-toolkit-msszsd39",
+      "on": "2026-11-03"
     }
   ],
   "collisions": {
@@ -3676,6 +3802,13 @@
         "reason": "dsh 0.1.7-rc.2 refuses to install it: package.json peerDependencies {\"@deepseek-ai/dsh-agent\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-agent-loop\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-invariants\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-llm\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-scope\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-session\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-session-persistence\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-settings\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-subprocess\":\"0.1.2-rc.1\",\"@deepseek-ai/dsh-timeout\":\"0.1.2-rc.1\"} exclude 0.1.7-rc.2 (packages/boot/app-boot/src/plugin-compatibility.ts)",
         "date": "2026-09-29",
         "on": "2026-09-30"
+      },
+      {
+        "repo": "zhaochengggg/dsh-a2ui-studio",
+        "row": "dsh-control-studio",
+        "reason": "dsh 0.2.1-rc.5 refuses to install it: package.json {\"engines.dsh\":\"0.2.1-alpha.1 || 0.2.1-rc.2\"} exclude 0.2.1-rc.5 (packages/boot/app-boot/src/plugin-compatibility.ts)",
+        "date": "2026-11-02",
+        "on": "2026-11-03"
       }
     ],
     "dequeued": [
@@ -4028,6 +4161,81 @@
         "repo": "ZekaiShi/dsh-evo-subagent",
         "row": "smart-subagent",
         "on": "2026-10-26"
+      },
+      {
+        "repo": "Chengyunlai/dsh-workbench",
+        "row": "dsh-git-control",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "Dogtiti/dsh-input-history",
+        "row": "dsh-plugin-composer-history",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "Dogtiti/dsh-predict",
+        "row": "dsh-plugin-composer-predict",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "Dogtiti/dsh-quota-meter",
+        "row": "dsh-plugin-usage-panel",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "Dogtiti/dsh-subagent-bridge",
+        "row": "dsh-plugin-subagent-bridge",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "dsh-agent-roster/dsh-agent-roster",
+        "row": "dsh-agent-roster",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "Duqiyan2/dsh-plugin-tokenmarket",
+        "row": "dsh-plugin-tokenmarket",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "GinoXiang/dsh-output-style",
+        "row": "dsh-grice",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "IKEASven69/dsh-openimage",
+        "row": "dsh-sensenova-image",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "jerryxff26-alt/delivery-board",
+        "row": "dsh-delivery-board",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "keyblues/dsh-fengniao-company-search",
+        "row": "dsh-plugin-fengniao-company-search",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "luochang212/godview",
+        "row": "dsh-god-view",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "MSSZSD3925/dsh-msszsd-toolkit",
+        "row": "dsh-toolkit-msszsd39",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "muntag/dsh-grok-stars",
+        "row": "dsh-grok-stars",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "orchivo/dsh-conversation-tree",
+        "row": "dsh-conversation-tree-chriswan",
+        "on": "2026-11-03"
       }
     ]
   },
@@ -4042,8 +4250,8 @@
   "duplicates": {
     "_comment": "The renames exposed a systematic double-count. Discovery sweeps the dsh-plugin topic repeatedly; when an author renamed a repo between two sweeps, the second sweep saw a repo it had no record of and queued it, so the SAME plugin was listed twice — once under its old name and once under its new one. Nothing in the pipeline could see it, because the two rows carried two different repo slugs. Updating the slugs collapsed them onto each other and made the duplication visible for the first time. Merged only where the rows agree on `evidence` at the same repo+path, i.e. they prove the same manifest; a group that disagrees is a monorepo and was left for triage. The surviving row takes the author's current name, the EARLIEST `added` (the registry really did first see it then) and the latest lastVerified/verifiedAgainst. Tags: the schema allows two, and the merge unions both rows then keeps the first two, which are the earlier row's. Both rows tagged the same repository so either set describes the same plugin, and a tag is a shelf rather than a verdict — but it is the earlier row's shelf that survived on the 14 rows where the union overflowed, not the surviving row's, and that is worth knowing before anyone reasons from it.",
     "detected": "2026-08-19",
-    "groupsMerged": 249,
-    "rowsRemoved": 250,
+    "groupsMerged": 254,
+    "rowsRemoved": 255,
     "leftForTriage": [],
     "merges": [
       {
@@ -6683,6 +6891,61 @@
         ],
         "evidence": "skills/dsh-neoforge-migrate/SKILL.md#frontmatter",
         "on": "2026-11-02"
+      },
+      {
+        "repo": "dinjufen/dsh-suggest",
+        "path": null,
+        "renamedFrom": "dinjufen/dsh-next-prompt",
+        "kept": "dsh-suggest-dinjufen",
+        "dropped": [
+          "dsh-next-prompt-dinjufen"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "drscrewdriver/dsh-manage-session",
+        "path": null,
+        "renamedFrom": "drscrewdriver/dsh-session-steward",
+        "kept": "dsh-manage-session",
+        "dropped": [
+          "dsh-session-steward"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "hldz-top/dsh_story_weaver",
+        "path": null,
+        "renamedFrom": "hldz-top/dsh-story",
+        "kept": "dsh_story_weaver",
+        "dropped": [
+          "dsh-story-hldztop"
+        ],
+        "evidence": "cordis.patch.yml",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "lakeofsky347/yingliu-video-studio",
+        "path": null,
+        "renamedFrom": "lakeofsky347/dsh-video-studio",
+        "kept": "yingliu-video-studio",
+        "dropped": [
+          "dsh-video-studio-lakeofsk"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-11-03"
+      },
+      {
+        "repo": "QR-0W/DSH-Custom-Auto-Review",
+        "path": null,
+        "renamedFrom": "QR-0W/dsh-independent-auto-review",
+        "kept": "DSH-Custom-Auto-Review",
+        "dropped": [
+          "dsh-independent-auto-review"
+        ],
+        "evidence": "package.json#dsh.bundle",
+        "on": "2026-11-03"
       }
     ]
   },
