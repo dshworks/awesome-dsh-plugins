@@ -7,7 +7,7 @@
 //
 // Sources:
 //   1. GitHub repo search across every dsh discovery topic (see TOPICS)
-//   2. npm search for packages referencing @deepseek-ai/dsh
+//   2. npm search: three dsh keywords paged until dry, plus a free-text query
 //   3. GitHub code search for `.agents/skills` SKILL.md layouts (best effort;
 //      the code-search API needs a token and rations heavily)
 //   4. data/seeds.json — repos hand-fed because no search can reach them
@@ -266,16 +266,129 @@ async function fromTopics() {
   return out;
 }
 
+// Until 2026-11-03 this lane asked npm one question, `@deepseek-ai/dsh`, and
+// read the first 50 answers: a source in name only. It mattered because the
+// dsh GUI adds a plugin by its npm name, so a whole wave of authors -- QQ,
+// WeChat and Feishu bridges, persona and desktop-pet plugins, mostly
+// documented in Chinese -- publish to npm and tag nothing on GitHub, where
+// every other lane looks.
+//
+// npm's search is a ranking, not a listing, and it will not list everything.
+// `total` is not a count of what it will serve: `keywords:dsh-plugin` reports
+// ~12,000 and serves 5,250 distinct names, after which every deeper page
+// repeats the last one. So no single query can be paged to the end, and the
+// lane is a union of queries that each reach a different 5,250. Measured
+// 2026-11-03, in this order, each line's new names on top of the lines above:
+//
+//   keywords:dsh-plugin       5,250   (capped)
+//   keywords:deepseek-harness 1,207   (capped)
+//   keywords:dsh                266   (capped)
+//   "@deepseek-ai/dsh"        2,216   (capped)
+//   the five small keywords     224
+//   "dsh plugin"                952   (capped)
+//   "deepseek harness"        1,537   (capped)
+//   "dsh-plugin"                134   (capped)
+//   keywords:cordis dsh       1,742
+//   "dsh qq"                     62   (capped)
+//   "dsh 大肥鱼"                183   (capped)
+//   ------------------------------------
+//   13,773 distinct packages, against 50 before
+//
+// ("dsh feishu" added 7 and was dropped.) The union was still growing when
+// it stopped, so this is a floor, and every run says which queries hit the
+// cap. Free-text queries are fuzzy, so every hit must say dsh or DeepSeek in
+// its name, description or keywords.
+const NPM_QUERIES = [
+  "keywords:dsh-plugin",
+  "keywords:deepseek-harness",
+  "keywords:dsh",
+  "@deepseek-ai/dsh",
+  "keywords:deepseek-harness-plugin",
+  "keywords:dsh-skill",
+  "keywords:dsh-bundle",
+  "keywords:dsh-theme",
+  "keywords:dsh-skin",
+  "dsh plugin",
+  "deepseek harness",
+  "dsh-plugin",
+  "keywords:cordis dsh",
+  "dsh qq",
+  "dsh 大肥鱼",
+];
+const NPM_PAGE = 250; // the largest page npm serves
+const NPM_SERVED = 5250; // the deepest result any one query returns
+const NPM_CONCURRENCY = 4;
+const DSH_WORD = /dsh|deepseek/i;
+
+async function npmSearch(text, from) {
+  const url = `https://registry.npmjs.org/-/v1/search?text=${encodeURIComponent(text)}&size=${NPM_PAGE}&from=${from}`;
+  // Six tries over ~2 minutes. The first run with four over 30 seconds lost
+  // a whole query (keywords:cordis dsh, 1,742 names nobody else reaches) to a
+  // stretch of failures that answered in a second when asked again.
+  for (let attempt = 0; attempt < 6; attempt++) {
+    let res;
+    try {
+      res = await fetch(url, { signal: AbortSignal.timeout(40000) });
+    } catch {
+      await sleep(5000 * (attempt + 1)); // transient socket error, not a verdict
+      continue;
+    }
+    if (res.ok) return res.json();
+    if (res.status !== 429 && res.status < 500) throw new Error(`npm search: HTTP ${res.status}`);
+    await sleep(5000 * (attempt + 1));
+  }
+  throw new Error(`npm search "${text}" from ${from}: gave up after 6 attempts`);
+}
+
+// One query, paged until it stops adding names (two pages in a row) or runs
+// into what npm will serve. Returns its relevant packages and whether it was
+// cut off, which is the difference between "that is all of them" and "that
+// is all npm would show us".
+async function npmQuery(text) {
+  const found = new Map();
+  let dry = 0;
+  let from = 0;
+  for (; from < NPM_SERVED && dry < 2; from += NPM_PAGE) {
+    const objects = (await npmSearch(text, from)).objects ?? [];
+    if (!objects.length) break;
+    const before = found.size;
+    for (const { package: pkg } of objects) {
+      if (DSH_WORD.test(`${pkg.name} ${pkg.description ?? ""} ${(pkg.keywords ?? []).join(" ")}`)) found.set(pkg.name, pkg);
+    }
+    dry = found.size === before ? dry + 1 : 0;
+  }
+  return { found, capped: from >= NPM_SERVED && dry === 0 };
+}
+
 async function fromNpm() {
-  const q = encodeURIComponent("@deepseek-ai/dsh");
-  const res = await fetch(`https://registry.npmjs.org/-/v1/search?text=${q}&size=50`);
-  if (!res.ok) throw new Error(`npm search: HTTP ${res.status}`);
-  const data = await res.json();
+  const pkgs = new Map();
+  const capped = [];
+  const queue = [...NPM_QUERIES];
+  // A query failing drops only its own names; the lane reports which.
+  const failed = [];
+  await Promise.all(Array.from({ length: NPM_CONCURRENCY }, async () => {
+    while (queue.length) {
+      const text = queue.shift();
+      try {
+        const { found, capped: cut } = await npmQuery(text);
+        for (const [name, pkg] of found) pkgs.set(name, pkg);
+        if (cut) capped.push(text);
+        console.error(`discover: npm "${text}" -> ${found.size} package(s)${cut ? " (npm's cap: more exist)" : ""}`);
+      } catch (err) {
+        failed.push(text);
+        console.error(`discover: npm "${text}" failed: ${err.message}`);
+      }
+    }
+  }));
+  if (failed.length === NPM_QUERIES.length) throw new Error("every npm query failed");
+
   const out = [];
-  for (const { package: pkg } of data.objects ?? []) {
-    if (pkg.name.startsWith("@deepseek-ai/")) continue; // first-party
+  let firstParty = 0;
+  let noRepo = 0;
+  for (const pkg of pkgs.values()) {
+    if (pkg.name.startsWith("@deepseek-ai/")) { firstParty += 1; continue; }
     const m = (pkg.links?.repository ?? "").match(/github\.com\/([^/]+\/[^/#?]+)/);
-    if (!m) continue;
+    if (!m) { noRepo += 1; continue; }
     out.push({
       repo: m[1].replace(/\.git$/, ""),
       npm: pkg.name,
@@ -283,6 +396,9 @@ async function fromNpm() {
       description: pkg.description ?? null,
     });
   }
+  // This registry is keyed by GitHub repo, so a package that names none cannot
+  // become a row. Say how many that was rather than let them vanish.
+  console.error(`discover: npm -> ${pkgs.size} distinct package(s): ${out.length} name a GitHub repo, ${noRepo} name none, ${firstParty} first-party; ${capped.length} of ${NPM_QUERIES.length} queries hit npm's cap${failed.length ? `; ${failed.length} failed` : ""}`);
   return out;
 }
 
