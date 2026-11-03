@@ -7,7 +7,7 @@
 //
 // Sources:
 //   1. GitHub repo search across every dsh discovery topic (see TOPICS)
-//   2. npm search: three dsh keywords paged until dry, plus a free-text query
+//   2. npm: a union of search queries, and the replication feed since the last run
 //   3. GitHub code search for `.agents/skills` SKILL.md layouts (best effort;
 //      the code-search API needs a token and rations heavily)
 //   4. data/seeds.json — repos hand-fed because no search can reach them
@@ -402,6 +402,93 @@ async function fromNpm() {
   return out;
 }
 
+// npm's replication feed is the census the search lane cannot be. Every
+// publish to every package appears on `_changes` in order, so a run that
+// remembers where the last one stopped (`npmFeedSeq` in data/coverage.json)
+// reads each change once, about 110,000 rows a day. A one-off scan of all
+// 4.56M names (`_all_docs`) on 2026-11-03 found 31,735 that say dsh, deepseek
+// or harness; search had reached 13,133 of them. Reading the `latest`
+// manifest of the 14,787 others that say dsh or deepseek found 6,881 dsh
+// packages naming a GitHub repo, in 3,562 repos, 1,391 of them in no file
+// here. That scan seeded the queue once, with `npmFeedSeq` set to a position
+// read before it started; this lane keeps the queue current from there.
+//
+// A name has to say dsh or DeepSeek to be read further. That loses the 5% of
+// dsh packages named otherwise, which the search lane still covers by keyword.
+// "harness" is not in the pattern: in the same sample 1 of 80 harness-named
+// packages was a dsh extension; the rest are Harness.io's CI tooling.
+const NPM_FEED = "https://replicate.npmjs.com/registry";
+const FEED_PAGE = 10000;
+const FEED_NAME = /dsh|deepseek/i;
+let feedSeqNext; // set only when the feed was read to the end
+
+async function getJson(url) {
+  for (let attempt = 0; attempt < 5; attempt++) {
+    let res;
+    try {
+      res = await fetch(url, { signal: AbortSignal.timeout(120000) });
+    } catch {
+      await sleep(5000 * (attempt + 1)); // transient socket error, not a verdict
+      continue;
+    }
+    if (res.ok) return res.json();
+    if (res.status === 404) return null;
+    if (res.status !== 429 && res.status < 500) throw new Error(`${url}: HTTP ${res.status}`);
+    await sleep(5000 * (attempt + 1));
+  }
+  throw new Error(`${url}: gave up after 5 attempts`);
+}
+
+// The manifest npm serves for `latest`, judged the way triage would start:
+// a `dsh` field, or a dependency on dsh's own packages. Search hits skip this
+// step because their keywords already say dsh; a feed name says nothing yet.
+function dshShaped(m) {
+  if (m.dsh) return true;
+  const deps = [...Object.keys(m.peerDependencies ?? {}), ...Object.keys(m.dependencies ?? {})];
+  return deps.some((d) => d.startsWith("@deepseek-ai/dsh") || d === "@deepseek-ai/cordis");
+}
+
+async function fromNpmFeed() {
+  const start = coverageBefore.npmFeedSeq;
+  if (start === undefined) {
+    console.error("discover: npm feed has no start position (npmFeedSeq); skipped");
+    return [];
+  }
+  let since = start;
+  let rows = 0;
+  const names = new Set();
+  for (;;) {
+    const data = await getJson(`${NPM_FEED}/_changes?since=${since}&limit=${FEED_PAGE}`);
+    const results = data?.results ?? [];
+    rows += results.length;
+    for (const r of results) {
+      if (!r.deleted && FEED_NAME.test(r.id) && !r.id.startsWith("@deepseek-ai/")) names.add(r.id);
+    }
+    if (!results.length) break;
+    since = data.last_seq;
+    if (results.length < FEED_PAGE) break;
+  }
+  // A name the registry already carries was decided; a republish is not news.
+  for (const p of registry.plugins) if (p.npm) names.delete(p.npm);
+
+  const out = [];
+  const pending = [...names];
+  await Promise.all(Array.from({ length: 8 }, async () => {
+    while (pending.length) {
+      const name = pending.shift();
+      const m = await getJson(`https://registry.npmjs.org/${name.replace("/", "%2F")}/latest`);
+      if (!m || !dshShaped(m)) continue;
+      const url = typeof m.repository === "string" ? m.repository : (m.repository?.url ?? "");
+      const hit = url.match(/github\.com[/:]([^/]+\/[^/#?]+?)(?:\.git)?(?:[/#?]|$)/);
+      if (!hit) continue;
+      out.push({ repo: hit[1], npm: name, source: "npm-feed", description: m.description ?? null });
+    }
+  }));
+  feedSeqNext = since;
+  console.error(`discover: npm feed ${start} -> ${since}: ${rows} change(s), ${names.size} unknown name(s) said dsh, ${out.length} dsh-shaped with a GitHub repo`);
+  return out;
+}
+
 async function fromCodeSearch() {
   if (!TOKEN) {
     console.error("discover: skipping code search (no GITHUB_TOKEN)");
@@ -466,6 +553,7 @@ function fromSeeds() {
 // --- merge -----------------------------------------------------------------
 
 const registry = read("data/plugins.json");
+const coverageBefore = read("data/coverage.json");
 const file = read("data/candidates.json");
 const rejectedFile = read("data/rejected.json");
 
@@ -494,22 +582,49 @@ const rejected = new Set(
 const rejectedAll = new Set(rejectedFile.rejected.map((r) => r.repo.toLowerCase()));
 const expired = rejectedFile.rejected.filter((r) => r.recheckAfter && r.recheckAfter <= TODAY).length;
 if (expired) console.error(`discover: ${expired} rejection(s) expired and are eligible again`);
+// npm lanes take the slug from a package's repository.url, which still names
+// the repo as it was when the package was published, and the API follows the
+// redirect without a word. On 2026-11-03 the npm-feed seed queued 49 old slugs
+// of listed repos and triage admitted every one as a second row. Finds and
+// queued repos are filed under the name data/renamed.json records they moved
+// to, chain followed. A rename nobody has recorded yet still gets through
+// (55 more that day); renames.mjs after triage merges those.
+const renamedTo = new Map();
+{
+  const renamed = read("data/renamed.json");
+  for (const r of renamed.renames ?? []) renamedTo.set(r.from.toLowerCase(), r.to);
+  for (const m of renamed.duplicates?.merges ?? []) {
+    if (m.renamedFrom && m.repo) renamedTo.set(m.renamedFrom.toLowerCase(), m.repo);
+  }
+}
+const currentSlug = (slug) => {
+  const seen = new Set();
+  while (renamedTo.has(slug.toLowerCase()) && !seen.has(slug.toLowerCase())) {
+    seen.add(slug.toLowerCase());
+    slug = renamedTo.get(slug.toLowerCase());
+  }
+  return slug;
+};
 // The exclusion set applies to the whole queue, not just to today's finds.
 // Rows routed here to the themes registry used to sit in this file forever:
 // once that registry lists them they are decided, and a queue that keeps
 // showing decided work reads as a backlog nobody is draining.
+const oldSlugs = file.candidates.filter((c) => currentSlug(c.repo) !== c.repo).length;
 const queue = new Map(
   file.candidates
+    .map((c) => ({ ...c, repo: currentSlug(c.repo) }))
     .filter((c) => !known.has(c.repo.toLowerCase()))
     .map((c) => [c.repo.toLowerCase(), c]));
+if (oldSlugs) console.error(`discover: ${oldSlugs} queued repo(s) were filed under a slug renamed.json records as moved; re-filed under the new name`);
 const settledElsewhere = file.candidates.length - queue.size;
-if (settledElsewhere) console.error(`discover: dropped ${settledElsewhere} queued repo(s) now decided in a sibling registry`);
+if (settledElsewhere) console.error(`discover: dropped ${settledElsewhere} queued repo(s) now decided here or in a sibling registry`);
 
 const found = [];
 const failed = [];
 for (const [name, fn] of [
   ["github-topic", fromTopics],
   ["npm-search", fromNpm],
+  ["npm-feed", fromNpmFeed],
   ["code-search", fromCodeSearch],
   ["seed", fromSeeds],
   ["routed-from-themes", fromRoutedThemes],
@@ -561,6 +676,7 @@ let added = 0;
 const overflow = new Set();
 for (const c of found) {
   if (!SLUG_RE.test(c.repo ?? "")) continue;
+  c.repo = currentSlug(c.repo);
   const slug = c.repo.toLowerCase();
   if (known.has(slug)) continue;
   if (rejected.has(slug)) continue; // triaged and rejected; do not requeue
@@ -613,6 +729,14 @@ if (topicRepos.size) {
     queued: queuedHere,
   };
   for (const t of TOPICS) if (topicTotals[t] !== undefined) coverage.topics[t] = topicTotals[t];
+  // The feed position moves only when every find it read was queued. A find
+  // the cap held back would otherwise be behind the cursor for good: the feed
+  // shows a package again only when it publishes again.
+  if (feedSeqNext !== undefined && !overflow.size) coverage.npmFeedSeq = feedSeqNext;
+  else if (coverageBefore.npmFeedSeq !== undefined) {
+    coverage.npmFeedSeq = coverageBefore.npmFeedSeq;
+    if (feedSeqNext !== undefined) console.error(`discover: npm feed position held at ${coverageBefore.npmFeedSeq}: the cap held finds back, so the next run reads this window again`);
+  }
   writeFileSync(join(ROOT, "data/coverage.json"), `${JSON.stringify(coverage, null, 2)}\n`);
   console.error(`discover: coverage — ${decidedHere}/${topicRepos.size} topic repos decided, ${queuedHere} queued`);
 }
