@@ -582,16 +582,42 @@ const rejected = new Set(
 const rejectedAll = new Set(rejectedFile.rejected.map((r) => r.repo.toLowerCase()));
 const expired = rejectedFile.rejected.filter((r) => r.recheckAfter && r.recheckAfter <= TODAY).length;
 if (expired) console.error(`discover: ${expired} rejection(s) expired and are eligible again`);
+// npm lanes take the slug from a package's repository.url, which still names
+// the repo as it was when the package was published, and the API follows the
+// redirect without a word. On 2026-11-03 the npm-feed seed queued 49 old slugs
+// of listed repos and triage admitted every one as a second row. Finds and
+// queued repos are filed under the name data/renamed.json records they moved
+// to, chain followed. A rename nobody has recorded yet still gets through
+// (55 more that day); renames.mjs after triage merges those.
+const renamedTo = new Map();
+{
+  const renamed = read("data/renamed.json");
+  for (const r of renamed.renames ?? []) renamedTo.set(r.from.toLowerCase(), r.to);
+  for (const m of renamed.duplicates?.merges ?? []) {
+    if (m.renamedFrom && m.repo) renamedTo.set(m.renamedFrom.toLowerCase(), m.repo);
+  }
+}
+const currentSlug = (slug) => {
+  const seen = new Set();
+  while (renamedTo.has(slug.toLowerCase()) && !seen.has(slug.toLowerCase())) {
+    seen.add(slug.toLowerCase());
+    slug = renamedTo.get(slug.toLowerCase());
+  }
+  return slug;
+};
 // The exclusion set applies to the whole queue, not just to today's finds.
 // Rows routed here to the themes registry used to sit in this file forever:
 // once that registry lists them they are decided, and a queue that keeps
 // showing decided work reads as a backlog nobody is draining.
+const oldSlugs = file.candidates.filter((c) => currentSlug(c.repo) !== c.repo).length;
 const queue = new Map(
   file.candidates
+    .map((c) => ({ ...c, repo: currentSlug(c.repo) }))
     .filter((c) => !known.has(c.repo.toLowerCase()))
     .map((c) => [c.repo.toLowerCase(), c]));
+if (oldSlugs) console.error(`discover: ${oldSlugs} queued repo(s) were filed under a slug renamed.json records as moved; re-filed under the new name`);
 const settledElsewhere = file.candidates.length - queue.size;
-if (settledElsewhere) console.error(`discover: dropped ${settledElsewhere} queued repo(s) now decided in a sibling registry`);
+if (settledElsewhere) console.error(`discover: dropped ${settledElsewhere} queued repo(s) now decided here or in a sibling registry`);
 
 const found = [];
 const failed = [];
@@ -650,6 +676,7 @@ let added = 0;
 const overflow = new Set();
 for (const c of found) {
   if (!SLUG_RE.test(c.repo ?? "")) continue;
+  c.repo = currentSlug(c.repo);
   const slug = c.repo.toLowerCase();
   if (known.has(slug)) continue;
   if (rejected.has(slug)) continue; // triaged and rejected; do not requeue
