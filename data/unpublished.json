@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-03",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1094,
+  "count": 1099,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -276,6 +276,19 @@
       "npm": "@deepseek-ai/dsh-ultra-ui",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "feely0208/dsh-bundle-cn-skills",
+      "npm": "@deepwhale-cn/dsh-bundle-cn-skills",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-03"
+    },
+    {
+      "repo": "feely0208/dsh-bundle-cn-skills",
+      "path": "dsh-bundle-cn-skills",
+      "npm": "@deepwhale-cn/dsh-bundle-cn-skills",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-03"
     },
     {
       "repo": "detpecca/dsh-llm-wiki",
@@ -1972,13 +1985,19 @@
       "repo": "GoldenApplePie404/DSH_Desktop",
       "path": "bridge-plugin",
       "npm": "dsh-desktop-bridge",
-      "why": "2 listed repos declare this name and the package states no repository",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-11-03"
+    },
+    {
+      "repo": "advance-lion/dsh-computer-use-bridge",
+      "npm": "dsh-desktop-bridge",
+      "why": "3 listed repos declare this name and the package states no repository",
       "since": "2026-11-03"
     },
     {
       "repo": "ElioFanyu/dsh-desktop-bridge",
       "npm": "dsh-desktop-bridge",
-      "why": "2 listed repos declare this name and the package states no repository",
+      "why": "3 listed repos declare this name and the package states no repository",
       "since": "2026-11-03"
     },
     {
@@ -4926,6 +4945,18 @@
       "npm": "dsh-rtk",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-09-29"
+    },
+    {
+      "repo": "lcx19970714/dsh-runner",
+      "npm": "dsh-runner",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-03"
+    },
+    {
+      "repo": "HuaGyuu/dsh-runner",
+      "npm": "dsh-runner",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-03"
     },
     {
       "repo": "magicOF2/dsh-schedule",
