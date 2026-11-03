@@ -2,6 +2,24 @@
   "updated": "2026-11-03",
   "candidates": [
     {
+      "repo": "01men/boxfill",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "装柜数量计算器 · 集装箱装载方案测算 + MCP 服务（H5 网页端与 Agent 共用同一套装箱引擎，292 测试 / 12 工具）",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "0xDaj/dsh-amdkey",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "AMD Radeon Cloud multi-key rotation plugin for DeepSeek Harness",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "10086ggqq/dsh_theme_Minecraft",
       "sources": [
         "github-topic"
@@ -20,6 +38,42 @@
       "description": "Workspace project-cycle panel for DeepSeek Harness Desktop",
       "discovered": "2026-11-03",
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "123zxs345/dsh-plugin-companion-memory",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 情感陪伴选择性记忆：主动用户画像、三层渐进披露、会话缓存与总结复用 | Selective companion memory for DeepSeek Harness",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "1583477320/dsh-abyss",
+      "npm": "dsh-abyss",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "深渊惊悚主题插件 for DeepSeek Harness：CRT 扫描线、画面故障、血迹、红色警报与 jump scare，随账户余额的减少而逐级加重。Abyss horror theme: CRT scanlines, glitch tears, blood, red alerts and jump scares that deepen as the balance drains.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "17825473820-Asaake/ai-graded-lab-report",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "AI-graded physics lab report skill for DeepSeek Harness",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "1luoyun/brain-framework",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "基于dsh环境制作，给 AI agent 用的类脑长期记忆：单文件 SQLite、事件是唯一真相、会遗忘（衰减/休眠/提炼）、题集评测。核心零依赖",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "23J1633/DSH-PC-Manager",
@@ -42,6 +96,26 @@
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "2869949486/dsh-opencode-accounts",
+      "npm": "dsh-opencode-accounts",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "dsh plugin: OpenCode account pool with automatic A-to-B failover, per-account quota probing, and a per-model usage dashboard in one Settings page.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "2869949486/dsh-opencode-routing",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "dsh plugin: OpenCode account pool with automatic A-to-B failover and quota routing, plus a per-account / per-model usage dashboard, in one Settings page.",
+      "discovered": "2026-11-03",
+      "npm": "dsh-opencode-routing"
+    },
+    {
       "repo": "2DHardty/dsh-renpy-skin",
       "sources": [
         "github-topic"
@@ -52,14 +126,73 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "384615666/dsha-to-dshgo",
+      "sources": [
+        "github-topic",
+        "npm-search",
+        "npm-feed"
+      ],
+      "stars": 1,
+      "description": "Migrate DSHA one-click backup sessions into dsh-Go. 将 DSHA 一键备份的会话迁移到 dsh-Go。",
+      "discovered": "2026-11-03",
+      "npm": "dsha-to-dshgo"
+    },
+    {
+      "repo": "4wgtty4zm7-a11y/dsh-session-recycle-tools",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Session recycle bin + batch picker for the DeepSeek Harness web sidebar: two entries above the settings row, independent of the host archive.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "666666fine-png/dsh-chang-kaishen",
+      "npm": "dsh-chang-kaishen",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "常凯申挂件：挂在 DSH 窗口边上的凯申显示器。显示金元券余额、经典台词，按循环时长逐步捣乱，最后把 DSH 窗口变成凯申大头像。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "6shenhonghong9/dsh-startup-screen",
       "sources": [
         "github-topic"
       ],
-      "stars": 712,
+      "stars": 717,
       "description": "DeepSeek Harness 的启动界面与启动动画插件",
       "discovered": "2026-11-02",
       "note": "same description as QIFANAI/dsh-startup-screen, listed first but with fewer stars: which is the original?"
+    },
+    {
+      "repo": "7gzgn/dsh-affect",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Give your agent an external emotion state machine: several axes (0-100) that drift over time and move when you speak to it. Each turn the plugin injects which band you are in plus which tags you may u",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "7gzgn/dsh-emotion",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "把 AI 的情绪搬到模型外面：若干条情绪轴各 0-100，按你说的话加减、随时间自己漂移，每轮把「现在处在哪一档 + 可用标签」注入系统提示。数值只由插件维护，模型自己算不出来也改不了——它只能带着这个状态说话。",
+      "discovered": "2026-11-03",
+      "npm": "dsh-affect"
+    },
+    {
+      "repo": "a285292107s/dsh-request-header-fix",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH plugin: append x-opencode-session to model requests of selected providers/models",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "AAAjzx111/dsh-theme-jing-chiyang",
@@ -73,6 +206,17 @@
       "discovered": "2026-11-03",
       "npm": "dsh-theme-jing-chiyang",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "ahao430/dsh-workhub",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Personal work-intelligence hub for DingTalk and Yunxiao inside DeepSeek Harness: syncs work data into local SQLite and exposes dashboards, a work calendar, project analysis, reports and workhub_* agen",
+      "discovered": "2026-11-03",
+      "npm": "@ahao430/dsh-workhub"
     },
     {
       "repo": "ai-written/dsh-custom-background",
@@ -105,6 +249,17 @@
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "aishenkiki/dsh-go-exam-helper",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "DSH Go 答题助手：盯住考试页面，把答案弹在顶部通知里。题库可选，图形题走视觉。",
+      "discovered": "2026-11-03",
+      "npm": "dsh-go-exam-helper"
+    },
+    {
       "repo": "aka-danielZhang/deepseek-harness",
       "npm": "@crazx/dsh-session-persistence",
       "sources": [
@@ -123,6 +278,15 @@
       "description": "OpenTelemetry GenAI metrics for DeepSeek Harness: token usage and step latency per provider and model, exported over OTLP for Grafana and Prometheus",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "alfonsoferrertorres-cyber/saare-suite",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Enterprise L7 AI Governance, Ex-Ante PII Redaction (<1.16ms RAM), and Cryptographic Forensic Evidence Vault for LLM Ecosystems & DeepSeek Harness (ISO 42001 / DORA / EU AI Act).",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "Alicex7777/dsh-theme-colors",
@@ -145,6 +309,15 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "ammelsayed/dsh-scope",
+      "npm": "@ammelsayed/dsh-scope",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Usage statistics for DeepSeek Harness as a sidebar page: lifetime token dashboard (52-week activity heatmap with daily/weekly/cumulative modes, per-model trend and donut, streaks), a balance page, and",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "anht3889/dsh-web-search-service",
       "npm": "@anht3889/dsh-web-search-service",
       "sources": [
@@ -153,6 +326,15 @@
       "description": "Service Definition for DeepSeek Harness web-search configuration management",
       "discovered": "2026-11-03",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "anjiecobamboo-blip/ai-project-delivery",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "AI 项目交付方法论：跨 harness 的 Agent Skill，含非技术用户模式（DeepSeek Harness / Claude Code / Codex）",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "Ansellwan/DSH-Custom-Wallpaper",
@@ -187,6 +369,15 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "apollodsh/dsh-session-forward",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "把 DSH 会话转发给别人：复制分享链接 / 零安装网页记录 / 可续聊的会话文件。Share DeepSeek Harness conversations without the recipient installing anything.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "argszero/cordis-plugin-session-audit",
       "npm": "@argszero/cordis-plugin-session-audit",
       "sources": [
@@ -207,6 +398,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "Astaticgalvanometerpampasgrass334/DSHHarness",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Run a full Alpine Linux sandbox and AI coding assistant on Android—no root, no Termux, no PC required.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Asukaleo-aa/dshgo-harmony",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 2,
+      "description": "HarmonyOS client for DSH — ArkTS/ArkUI shell + ArkWeb, ported from the Android dshgo client.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "ASUKAq01/dsh-background-image",
       "sources": [
         "github-topic"
@@ -224,6 +433,17 @@
       "stars": 0,
       "discovered": "2026-10-17",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "awbuilds/dsh-pocket",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 1,
+      "description": "LAN mobile access for DeepSeek Harness Desktop: a pairing-authenticated gateway and a mobile PWA surface.",
+      "discovered": "2026-11-03",
+      "npm": "@awbuilds/dsh-pocket"
     },
     {
       "repo": "baiiii279/dsh-wallpaper-local",
@@ -246,6 +466,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "baka-world/dsh-gtk",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness in a native GTK window: Go + MyGo + WebKitGTK, no bundled Chromium",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "bemarkt/dsh-fakeip-compat",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "FakeIP compatibility provider for DeepSeek Harness web_fetch — accepts FakeIP-range DNS answers, optional DoH verification, settings row included.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "billbill2012/dsh-superagent-redmine",
       "sources": [
         "github-topic"
@@ -254,6 +492,51 @@
       "description": "Redmine Source plugin for dsh-superagent: issues/comments → tickets, images readable, results written back as notes.",
       "discovered": "2026-11-03",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "bingomu/dsh-followup",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "A follow-through system for DSH: sidebar nudge, conversation-header control, ledger panel — every conversation gets an ending. 对话收尾系统：让每个对话都有始有终。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "BlinB209/deepchess",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "深棋 DeepChess — 为 DSH 右侧栏打造的像素风国际象棋：DeepSeek 娘「小鲸」、五档 AI、18 种表情、事件对话与本地存档。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Boris-boomer/dsh-project-cockpit",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Desktop-style project workbench UI bundle that replaces the default DSH layout with a three-pane workspace.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Boris-boomer/dsh-shepherd",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Orchestration and management plugin for DSH agent workflows.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "bowenphys/dsh-vasp-periodic-table",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "VASP periodic table for DeepSeek Harness: PAW potentials, ZVAL/ENMAX, MAGMOM, POTCAR snippets",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "Buddhilive/buddhi-ai-harness",
@@ -286,6 +569,17 @@
       "note": "a distribution of dsh: the tree carries dsh's own packages/bundle/base/cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "CarbonZhao-02692/dsh-offpeak-send",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Queue messages to DeepSeek off-peak (half-price) hours automatically — 谷时发送：高峰时段按发送自动排队，到谷时计价开始后投递",
+      "discovered": "2026-11-03",
+      "npm": "@carbonzhao/dsh-offpeak-send"
+    },
+    {
       "repo": "CCC-guodong/dsh-preflight-gate",
       "sources": [
         "github-topic"
@@ -294,6 +588,26 @@
       "description": "沙箱预检 + 一次性授权插件（DSH / cordis）：执行前就问，一批越界操作只点一次",
       "discovered": "2026-10-05",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "CEQ233/dsh-anime-bundle",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 1,
+      "description": "二次元大肥鱼模式：一键开关整套二次元外观插件、检查更新、装回缺失的插件，并带一个可随时开关的「肥鱼娘」人格。",
+      "discovered": "2026-11-03",
+      "npm": "dsh-anime-bundle"
+    },
+    {
+      "repo": "chaoguang668/dsh-continual-evolve-handoff",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Fork of ZK-Andy/dsh-continual-evolve: adds evolve_read action=handoff - the four-question handoff view (who / progress / next / blocked) as a projection over the memory store.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "chate111/dsh-desktop-wallpaper",
@@ -334,6 +648,32 @@
       "description": "WeChatAgent background native voice-message adapter for DSH. Independent adaptation, not an upstream fork or official distribution.",
       "discovered": "2026-11-02",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "Chrono-rigger/dsh-voice-enhance",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "chunonesoft/open-superagent",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "能接自建 GitLab 和钉钉的主动式编程智能体：群里 @ 它派活，自动开工单、写代码、提 MR。基于 DeepSeek dsh-superagent 的社区维护版 | Community fork of deepseek-ai/dsh-superagent-prototype with GitLab & DingTalk",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "cion771/dsh-status",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek API 服务状态胶囊：在 DeepSeek Harness 标题栏右上角显示 status.deepseek.com 的实时状态，灯色随受损服务比例从绿到橙再到红。",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "civilization-os/deepseek-harness",
@@ -377,6 +717,15 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "CQQ-ING/dsh-usage-cost",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "在 DSH 的用量弹层里补一行「费用」：按每条消息发生时刻的峰谷价逐条计价，并推给桌面宠物显示本轮花费。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "CS-Ryan/dsh-player",
       "npm": "dsh-player",
       "sources": [
@@ -417,6 +766,24 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "czdtech/dsh-human-readable",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness 插件：把输入框里那句只有你懂的话，结合对话上下文改写成任何人都听得懂的版本。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "dadawre/dsh-desktop-run-lens",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Run Lens (运行透视): a DSH Desktop workbench that visualizes an entire agent run — turns, steps, tools and subagents (including nested ones) — as one zoomable panorama, plus chat and timeline views.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "dashitongzhi/dsh-config-webdav-sync",
       "sources": [
         "github-topic"
@@ -435,6 +802,16 @@
       "description": "DeepSeek Harness pi-ai route aliases: multiple credential routes over one installed catalog (e.g. several OpenCode Go plans) plus a Model aliases settings page.",
       "discovered": "2026-11-02",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "Daydreaming1313/neko-persona-dsh",
+      "npm": "neko-persona-dsh",
+      "sources": [
+        "npm-search",
+        "npm-feed"
+      ],
+      "description": "一只有脾气、会记仇、帮起忙来不打折的猫娘人格层，给 DeepSeek Harness (DSH) 用。",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "dearbld/dsh-code-complete",
@@ -484,6 +861,15 @@
       "description": "A DeepSeek Harness plugin that sets a photo as the harness background.",
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "diegosouzapw/awesome-omni-dsh-plugins",
+      "npm": "omni-dsh-plugins",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "Unofficial catalog and safe installer for DeepSeek Harness plugins",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "diudiu666/dsh-wallpaper",
@@ -536,6 +922,51 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "dushaobindoudou/dsh-animation",
+      "npm": "dsh-animation",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "Animation pipeline for dsh - name reserved; first release in development.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "dushaobindoudou/dsh-image-edit",
+      "npm": "dsh-image-edit",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "Image editing tools for dsh - name reserved; first release in development.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "dushaobindoudou/dsh-locomotion",
+      "npm": "dsh-locomotion",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "Loco-manipulation data tools for dsh - name reserved; first release in development.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "dushaobindoudou/dsh-neurosymbolic",
+      "npm": "dsh-neurosymbolic",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "Neurosymbolic helpers for dsh - name reserved; first release in development.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "dushaobindoudou/dsh-video-to-video",
+      "npm": "dsh-video-to-video",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "Video-to-video restyling for dsh - name reserved; first release in development.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "duty25/dsh-aemeath-theme",
       "sources": [
         "github-topic"
@@ -546,6 +977,60 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "DX12xyz/dsh-escape-pod",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "逃生舱：让命令活在 DeepSeek Harness 之外——DSH 重启 / 崩溃后命令与输出继续运行（pod_run / pod_exec / pod_output / pod_kill / pod_freeze / pod_status / pod_shell）。MIT。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "DX12xyz/dsh-power",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 电源：在侧边栏一键重启 / 关闭 DeepSeek Harness，三档模式（等待 / 中断 / 强制）+ 五个 AI 工具 + 检查点与恢复报告。MIT。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "DX12xyz/dsh-user-attention-and-todo-inbox",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "用户注意力与待办收件箱：把「用户是否在界面旁」变成可门控状态，把被最终拒绝的人类交互收进可复核的待办收件箱（todo_list / todo_get / todo_execute）。MIT。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "eagle1-sys/eagle1-whereis-mcp",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness bundle for Whereis shipment tracking (MCP)",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "EayonLee/dsh-tuitui-bot",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "奇虎 360 推推 IM 机器人 DeepSeek-Harness 插件",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Echo-Smith/hy-memory4dsh",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "为 DSH 装上三层长期记忆：会话、项目、个人。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "echo-whale/dsh-phone-notify",
       "sources": [
         "github-topic"
@@ -553,6 +1038,24 @@
       "stars": 0,
       "discovered": "2026-11-02",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "Eclipse-NotFound/dsh-usage-replay",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Cross-session per-model token usage for DeepSeek Harness: replays every persisted session log and aggregates provider-reported usage by model, day and workspace. Tokens only.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "egsfggr22222/dsh-doodle-fat-fish",
+      "npm": "dsh-doodle-fat-fish",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "DSH 涂鸦肥鱼 —— 看图、标注、桌面画板三合一。截图 → 标注 → 收尾，中间图任务结束即删，只有标好的结果留在历史里。首次使用需在面板里下载依赖。",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "EIGHTfs/dsh-theme-mediascape",
@@ -575,6 +1078,24 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "Evil-Wideplain/session-messaging",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DSH（DeepSeek Harness）插件：让同一进程里的 AI 会话互相寻址、唤醒、发消息并审批入站消息，bash/pwsh 脚本可通过本地总线参与协作。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Fangweitang/dsh-error-self-reflection",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "把每一次配置事故，变成下一次自动拦截的检查。DSH 插件安装与 profile 变更的校验、变更拦截与复盘沉淀。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "FelixJiashengFu/dsh-preview-theme",
       "sources": [
         "github-topic",
@@ -595,6 +1116,24 @@
       "description": "Dark-gold particle skin for the DeepSeek Harness Web GUI: 暗金背景 + 漂浮金色粒子 + 暖白黄文字",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "fengling-windy/dsh-connect-telegram",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Drive DeepSeek Harness from Telegram: fully Chinese UI, cross-project session switching, bidirectional file transfer, paged history.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "FileXego/dsh-mathlab",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "MathLab — a graduate-level mathematics research workbench for DeepSeek Harness: SymPy/Lean, abstract algebra, category theory, logic, plots, and an interactive Live Stage.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "Firefly-Star/dsh-mini-skin",
@@ -641,7 +1180,7 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 29,
+      "stars": 31,
       "discovered": "2026-10-26",
       "note": "a distribution of dsh: the tree carries dsh's own upstream/deepseek-harness/apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch",
       "description": "FF - FDE 交付工作台完整私有交接快照：源码、数据分析项目、阶段状态与历史会话"
@@ -675,6 +1214,15 @@
       "description": "deepseek harness 插件清道夫 🧹🛡️",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "gengwg/dsh-agent-router",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Deterministic, inspectable delegation-time model routing for DeepSeek Harness (dsh) subagents",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "ggxx001/dsh-skin-updater",
@@ -727,6 +1275,36 @@
       "note": "a distribution of dsh: the tree carries dsh's own packages/bundle/base/cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "gongfpp/dsh-cost-voice",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "每轮会话结束后用支付宝或大白饭的声音播报本轮花费；金额优先取 dsh-cost-meter，否则按该轮模型单价估算。Per-turn spend voice announcements for DeepSeek Harness with Alipay or Dabaifan voice packs.",
+      "discovered": "2026-11-03",
+      "npm": "dsh-cost-voice"
+    },
+    {
+      "repo": "Goodfun-Studio/lot-trader",
+      "npm": "@goodfun-studio/dsh-lot-trader",
+      "sources": [
+        "npm-search",
+        "npm-feed"
+      ],
+      "description": "lot-trader 的 DSH 原生壳：读命令成为原生工具、写命令走审批门禁，并在 Web GUI 侧边栏提供原生持仓看板。首次使用自动下载对应平台的 trade 引擎二进制。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Green-hats/dsh-council",
+      "npm": "@greenhats/dsh-council",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Multi-model council deliberation for DeepSeek Harness",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "greenthree/deepseek-harness",
       "npm": "@greenthree/dsh-host-probhub",
       "sources": [
@@ -745,6 +1323,16 @@
       "description": "DeepSeek Harness model auto-failover plugin: quota/usage walls switch on the first failure, blips keep the retry threshold, cooldowns escalate, recovery goes through a half-open probe, and a terminal ",
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "guiyinrenshi/dsh-hermes-link",
+      "npm": "dsh-hermes-link",
+      "sources": [
+        "npm-search",
+        "npm-feed"
+      ],
+      "description": "Bidirectional bridge between Hermes Agent and DeepSeek Harness, compatible with dsh 0.2.x (subagents facade startActivation/prompt, session format v4). Hermes dispatches focused tasks via JSON-RPC ove",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "h2682503133/dsh-wallpaper-rotation",
@@ -767,6 +1355,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "HanYu-me/dsh-project-kanban",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Project kanban for the DeepSeek Harness (dsh) web GUI: a sidebar board grouped by project with four fixed columns (待办 / 进行中 / 待反馈 / 已完成).",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "HanYu-me/dsh-small-toolkit",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Small DeepSeek Harness features: keep the Mac awake while dsh runs, and a macOS notification when a conversation finishes its task (click it to bring dsh forward).",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "HaoQian-vary/dsh-wallpaper-skin",
       "sources": [
         "github-topic"
@@ -775,6 +1381,15 @@
       "description": "Wallpaper backgrounds for DeepSeek Harness with manual Wallpaper Engine sync",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "hardlic/dsh-fitness",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness fitness plugin: agent tools (fitness_log) + left-rail dashboard panel. Local-first SQLite. 撸铁打卡：记训练、查历史、周报、训练计划。",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "HarnessDesk/dsh-acp",
@@ -807,6 +1422,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "HeIIoAgain/dsh-airprint-print",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness 打印技能：无 CUPS、无驱动，直接以 Apple Raster（URF）通过 IPP 打印到 AirPrint/Mopria 打印机；含打印机发现、探测、状态、测试页与中文文字打印，零 root、零系统依赖。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "HeIIoAgain/dsh-notify-email",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness（DSH）邮件通知插件：任务结束、等待回答或授权时自动发邮件；支持 send_email 工具、附件与中文文件名，零运行时依赖。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "helibeiqi/dsh-memory-projection",
       "sources": [
         "github-topic"
@@ -837,6 +1470,33 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "hlwzm/memory-star",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "把 Markdown 笔记变成能查、能连、能看的 3D 记忆星图。零依赖 Python + DSH 插件。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Howardyh/dterm",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Dterm: an Android shell for DeepSeek Harness running in Termux — full-screen WebView, automatic token-bridge login, one-tap service start with a visible Termux session.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "hoyin-law/dsh-feishu-cli",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Feishu/Lark CLI for DeepSeek Harness: QR sign-in panel, command console, and agent tools (18 domains, 200+ commands, full OpenAPI).",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "huangyuanhu3-dev/dsh-chat-skin",
       "sources": [
         "github-topic"
@@ -857,6 +1517,24 @@
       "description": "DeepSeek Harness 的 ASCII 鲨鱼皮肤：让字符鲨鱼游过新会话与聊天窗口，随界面切换深浅配色，支持自定义鱼群和保存预设。"
     },
     {
+      "repo": "HUHUhim/dsh-taskbar-badge",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Windows taskbar unread badge and window-bounds restore for DeepSeek Harness.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "HunYiSage/dsh-purge",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 17035,
+      "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "HuTao71566/dsh-skin-tianyi-azure",
       "npm": "dsh-skin-tianyi-azure",
       "sources": [
@@ -865,6 +1543,15 @@
       "description": "天依蓝 · 洛天依主题皮肤：暗色夜空协奏、亮色云端城堡两套插画随主题切换，含侧栏半身像、舞台光与 #66CCFF 强调色。",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "IceWhaleTech/filens",
+      "npm": "dsh-filens",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Local document reading, OCR, search, conversion and multi-format sidebar previews for DeepSeek Harness.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "icewind/dsh-kanso-theme",
@@ -881,7 +1568,7 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 2,
+      "stars": 3,
       "description": "在 Harness Web 界面背景中游动的 ASCII 鲨鱼",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
@@ -927,6 +1614,18 @@
       "note": "a distribution of dsh: the tree carries dsh's own packages/bundle/base/cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "imx123/dsh-opencode-session-fix",
+      "sources": [
+        "github-topic",
+        "npm-search",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Supplies x-opencode-session for opencode routes whose request carries no session id, so Auto review stops failing with MissingSessionID.",
+      "discovered": "2026-11-03",
+      "npm": "dsh-opencode-session-fix"
+    },
+    {
       "repo": "Incredible-Jian/dsh-Bleach-Violet-Evergarden-Re-Zero-AoT-Themes",
       "sources": [
         "github-topic"
@@ -957,6 +1656,24 @@
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "jeff072333/dsh-live-spend",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 插件：输入框上方显示本次对话花费、账户余额与当前峰谷时段，每条回答末尾显示该轮消耗 | DSH plugin: live spend, balance and peak/off-peak card",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "jf143757-max/dsh-tech-companion",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "A gentle technical learning companion for DeepSeek Harness and Hermes",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "jiabei20031104/dsh_theme_terraria",
       "sources": [
         "github-topic",
@@ -979,6 +1696,26 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "jianlong-ww/dsh-explorer-editor",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Monaco editor inside the DeepSeek Harness file preview: edit, highlight, and project-typed completion in place.",
+      "discovered": "2026-11-03",
+      "npm": "@jianlong-ww/dsh-explorer-editor"
+    },
+    {
+      "repo": "JiessieM/dsh-memory-organizer",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 记忆本自动整理插件",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "jimmynorman/office-suite-dsh",
       "sources": [
         "github-topic"
@@ -999,6 +1736,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "Jiyin-Yang/dsh-LLM-Council",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "一个 DeepSeek Harness 插件：把同一个问题同时问给 GPT / Gemini / Claude / Grok / 通义千问 / 豆包 / DeepSeek，并列对比答案，按实际 token 结算每家花费。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "JJJACKsong/dsh-plugin-2048",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness 侧边栏 2048 小游戏 — a 2048 game plugin for dsh (sidebar panel, full-page board).",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "jonah791/dsh-agent-ask-timeout",
       "sources": [
         "github-topic"
@@ -1006,6 +1761,15 @@
       "stars": 0,
       "discovered": "2026-11-02",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "justinzyc271828-sys/dsh-music",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Music tools for DeepSeek Harness, starting with official Suno MCP credits and library access.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "KHWLGH/dsh-lightweight-wallpaper",
@@ -1029,6 +1793,15 @@
       "description": "DSH-era plugin ecosystem compatibility: module-name aliases and manifest-key fallback readers",
       "discovered": "2026-11-03",
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "Kumar1337/dsh-balance-peak",
+      "npm": "dsh-balance-peak",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "DeepSeek Harness 输入框上方右上角：DeepSeek 账户余额 + 高峰/低谷时段徽章（可微调位置）。余额经服务端代理（复用 DEEPSEEK_API_KEY）读取，key 不出服务端。",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "kviiinh/dsh-whale-particles-bg",
@@ -1061,6 +1834,24 @@
       "description": "Loopback DSH session bridge for the dsh-wallpaper desktop app.",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "l644351492/dsh-chrome-desktop",
+      "npm": "dsh-chrome-desktop",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Turn the DeepSeek Harness Web UI into a desktop app: provisions a Chrome/Edge app window plus desktop and start-menu shortcuts, with silent backend start and a startup splash.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Lanstzz/sapi-budget",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Sync AiSpot (sapi) group pricing in DeepSeek Harness and show per-turn and per-session cost, including the whole subagent subtree.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "leesama/dsh-compact",
@@ -1123,10 +1914,38 @@
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "lijiaqi-AI-Product-Manager/dsh-bug-gps",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "BugGPS：录制浏览器问题，固定预期，复核修复。Browser bug reproduction and fix verification for DeepSeek Harness.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "lionwill/dsh-project-scan",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "一个基于dsh实现的各种项目的纯本地扫描器，可视化查找你的vibecoding",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "LiranHuang/dsh-roleplay-engine",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Native SillyTavern-compatible character context compiler and prompt inspector for DeepSeek Harness.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "LittleLemonJam/dsh-chat-background",
       "sources": [
         "github-topic",
-        "npm-search"
+        "npm-search",
+        "npm-feed"
       ],
       "stars": 0,
       "description": "Chat background image, sidebar veil, composer strip, task progress bar and all-session token total for the DeepSeek Harness (DSH) Web GUI.",
@@ -1155,6 +1974,51 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "LiXiao1949/dsh-local-installer",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DSH 本地插件安装器：从本机文件夹或 zip 压缩包直接安装 DSH 插件，纯本地运行不走网络，界面与插件市场同位置。作者 LiXiao1949 · GitHub https://github.com/LiXiao1949 · QQ 1640444672",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "LiXiao1949/dsh-permission-manager",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DSH 权限管理面板：侧边栏一键把全部对话的权限切成同一模式（仅可查看/工作区内修改/完全权限），并可锁定给之后打开或新建的对话。作者 LiXiao1949 · GitHub https://github.com/LiXiao1949 · QQ 1640444672",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "lizhijie429/dsh-push-privacy-guard",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH Host plugin: privacy-check git commit/push before upload, ask for approval, manage a whitelist. DSH 提交/推送前隐私检查插件。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "lizhijie429/dsh-root-temp-guard",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH Host plugin: guard against temporary directories/files created in the workspace root (session-root aware, config-driven; not a security boundary).",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "lllirunze/dsh-codecraft",
+      "npm": "dsh-codecraft",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "A precise, safe code editor inside DSH's native file tabs.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "LM20230311/dsh-billing-cn",
       "sources": [
         "github-topic"
@@ -1173,6 +2037,15 @@
       "description": "DeepSeek Harness AI 代码审查插件 — /review 一键触发，四维度分析，支持自定义规则",
       "discovered": "2026-10-06",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "longjiahui/dsh-social-notifications",
+      "npm": "@anfo/dsh-social-notifications",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Session status notifications for the DeepSeek Harness: provider-based webhooks with a WeCom group robot, managed from the Settings panel.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "LosEcher/dsh-terminal-render",
@@ -1195,6 +2068,28 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "ltayshark0637/dsh-Shutdown-Guard",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 1,
+      "description": "任务结束后自动关机 —— 侧边栏守夜卡片：五道判定闸、后台任务守卫、AFK 接管、阻断态分级",
+      "discovered": "2026-11-03",
+      "npm": "dsh-shutdown-guard"
+    },
+    {
+      "repo": "lulaalu/dsh-session-tree",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Session Tree: a per-workspace map of DeepSeek Harness sessions, turns and fork branches in the Web UI",
+      "discovered": "2026-11-03",
+      "npm": "@lulaalu/dsh-session-tree"
+    },
+    {
       "repo": "LunFengChen/deepseek-harness",
       "npm": "@xfcodeai/dsh",
       "sources": [
@@ -1203,6 +2098,16 @@
       "description": "dsh CLI: profile boot, plugin management, and the browser UI alias",
       "discovered": "2026-11-03",
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "luodaoyi/dsh-cabinet-mode",
+      "npm": "dsh-cabinet-mode",
+      "sources": [
+        "npm-search",
+        "npm-feed"
+      ],
+      "description": "Cabinet Mode (内阁模式) for DeepSeek Harness: a declarative DSH bundle that adds a dual-identity Lead/teammate agent preset for the Great Ming Research Bureau cabinet team.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "luoyuejun9/dsh-skin-rotation",
@@ -1217,6 +2122,24 @@
       "npm": "dsh-skin-rotation"
     },
     {
+      "repo": "LynnChrysteiin/dsh-ink-splash",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Custom splash screen line-art animation for DeepSeek Harness",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "lyteboat/lyteboat",
+      "npm": "@lyteboat/cli",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "The lyteboat launcher: profile templates, patch stack, and boot over the official DeepSeek Harness packages",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "Maigic-AI/dsh-auto-recover",
       "npm": "@maigic/dsh-auto-recover",
       "sources": [
@@ -1225,6 +2148,15 @@
       "description": "DeepSeek Harness Host plugin: automatically resume quota-limited sessions once the provider quota recovers (DeepSeek balance, z.ai / GLM coding plan).",
       "discovered": "2026-11-03",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "MangMax/dsh-acp-config",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "ACP 模式可视化配置页 for DeepSeek Harness (dsh --profile acp)",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "maoshiba6863/dsh-we-wallpaper",
@@ -1260,6 +2192,24 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "mayc0202/dsh-agent-office",
+      "npm": "dsh-agent-office",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "实时 3D 办公室可视化 DSH 会话；Catora 发布后拓展笔记、思维导图、私人知识库与 RAG 检索。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "meihaoyangfang/painted-screens",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "15 switchable skins for the DSH Web UI — one plugin, fifteen themes, live switching. 给 DSH 用的 15 套皮肤：一个插件，即时换肤。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "midnight-automaton/deepseek-harness",
       "sources": [
         "github-topic"
@@ -1268,6 +2218,42 @@
       "description": "A human interface for agentic work, built on DeepSeek Harness.",
       "discovered": "2026-11-02",
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "miyunmoshi/dsh-disk-cleanup",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Windows disk cleanup workspace for DeepSeek Harness (DSH): read-only scanning, explained candidates, and a reversible quarantine instead of direct deletion.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "momiji42/dsh-desktop-tools",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Restart button in the DSH desktop title bar + Start with Windows switch, in one plugin.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "momijijin/dsh-session-groups",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Free-form nested session groups for the DeepSeek Harness sidebar: cross-workspace organization without moving sessions, with local persistence, backup recovery, drag-and-drop, and optional AI control.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "momoqiqi-qwq/autoaigc",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "本地优先的 AIGC 率工作流 skill：离线检测 AI 率、定向改写、复检闭环，原文不出机器、不烧额度",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "mrthanlon/deepseek-harness",
@@ -1280,6 +2266,15 @@
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "murongyunyeh/delias",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Delias — 以 DeepSeek Harness 为外观的桌面客户端：内置官方 DeepSeek 账号登录、Trae 技能、dsh（cordis）插件、GitHub 直连发布与蓝色大肥鱼。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "mwilljx-web/dsh-plugin-wallpaper",
       "sources": [
         "github-topic"
@@ -1288,6 +2283,15 @@
       "description": "DeepSeek Harness web plugin: a cyberpunk skin for the sidebar and icon buttons, plus a custom background image - managed from the Settings panel.",
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "MYSTERY2019/dsh-skills-symlink",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Project-scoped skill roots for DeepSeek Harness: the skill symlink you miss from Hermes, with multi-level category discovery",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "naipi11/Harness-Desktop",
@@ -1329,6 +2333,33 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "OakVideoEditorCommunity/mcp-skill",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness skill that builds a studio MCP server from example-mcp/Quercus",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Okra-juice/dsh-rheostat",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "把 DSH 模型菜单里的推理等级变成一条滑动变阻器：颜色由灰到蓝，米饭越吃越少",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Open-Glyph/OpenGlyph-DeepSeek-Harness",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Native OpenGlyph document, glyph retrieval, composition and printable-font tools for DeepSeek Harness",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "oshriagronov/deepseek-harness-omni",
       "npm": "@oshriv65/dsh-llm-antigravity",
       "sources": [
@@ -1349,6 +2380,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "p8054076283-del/dsh-ppt-studio",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "PPT workbench for DeepSeek Harness: live 16:9 deck preview, in-place editing, element-faithful PPTX import, AI chat column. · DSH 左侧栏 PPT 工作台：16:9 预览、就地编辑、原样导入 PPTX、AI 对话栏。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "passionternrecoup/Idrive-Pro-Desktop-2026",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "⭐️ Discover Idrive Pro the advanced Cloud Backup Software 2026 with Setup Installer v7.5. This release includes Patch Activator Keygen and License Key Pre-Activated giving you instant access to the Ve",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "pbadgpmeb22791-sketch/dsh-we-wallpaper",
       "sources": [
         "github-topic"
@@ -1357,6 +2406,24 @@
       "description": "Use your Wallpaper Engine library as the DeepSeek Harness (DSH) GUI background: video, web and scene wallpapers, with a native fullscreen HD cache for scene (.pkg) wallpapers. DSH 插件：把 Wallpaper Engin",
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "pdong15dth/dsh-computer-use-windows",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Real Windows desktop control for DeepSeek Harness: 12 computer_* tools (screen capture, mouse, keyboard, windows, clipboard, app launch) driven by a native Win32 helper (SendInput/GDI+/EnumWindows) - ",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "PerryLink/dsh-family-catalog",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH Desktop Market standard catalog source for the PerryLink plugin family: curated summaries, same-origin icons, contract-validated, CI-smoked.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "ph4310822/dsh-edex-themes",
@@ -1369,6 +2436,15 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "phoenixlucky/dsh-session-norms",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness plugin: a normalized session view that renders every turn, message and tool call in one consistent, copyable format.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "pmqzienbcka/dsh-theme-aurora",
       "sources": [
         "github-topic",
@@ -1376,7 +2452,7 @@
       ],
       "stars": 1,
       "discovered": "2026-11-03",
-      "description": "Aurora theme: background pictures, frosted glass, dimming, typography, corner radius and freely placed pictures for the DSH Web client.",
+      "description": "Background pictures, dimming, frosted glass, fonts and corner radius, plus freely placed pictures you can move, resize, rotate and mirror, for the DSH Web client.",
       "npm": "dsh-theme-aurora",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
@@ -1391,6 +2467,26 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "q8atnight/dsh-squeeze",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "squeeze tool for DeepSeek Harness: read long web pages, PDFs and files with a helper model and return only the answer",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "qui11zxy/dsh-hsr",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "《崩坏：星穹铁道》资料查询：角色满级属性与行迹、技能星魂、光锥叠影、遗器套装，另带配队知识与设置页。",
+      "discovered": "2026-11-03",
+      "npm": "dsh-hsr"
+    },
+    {
       "repo": "QXingYShu/dsh-mcskin-studio",
       "sources": [
         "github-topic"
@@ -1401,6 +2497,69 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "raoain/dsh-memory-chain",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "守链：给 AI agent 的长期记忆（五个动词，纯 markdown）。 | Long-term persistent memory for AI agents — plain markdown, survives restart / model swap / plugin removal.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Ravi666688/dsh-screen-glow",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "为 DeepSeek Harness 加的屏幕边缘光：模型接管鼠标键盘时亮蓝光、提问时琥珀、等你批准时红色，并在屏幕中上方显示「正在做什么」。含设置页、看门狗与自检 CLI。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Raymond-Hear/dsh-video-downloader",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "一个帮你高效下载各平台视频的DeepSeek Harness 插件。贴一个链接，用本机 yt-dlp 下载视频 / 音频 / 字幕 / 封面 —— 支持 YouTube、哔哩哔哩、X、TikTok 等上千个站点。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Rcyc-1025/dsh-build-driver",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 插件：CMake + Ninja + MSVC 构建工具（configure / build / status / stop）",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "ReaderSummer/music-player",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "A music player plugin for DeepSeek Harness: QQ Music / NetEase Cloud Music, full page player, conversation island.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "realhenrylan/dsh-token-plugin",
+      "npm": "dsh-token-plugin",
+      "sources": [
+        "npm-search"
+      ],
+      "description": "DeepSeek Harness usage & cost tracker plugin: per-call token/cache-hit stats, peak/off-peak billing, CSV/JSON/PNG export with custom destination, and persistent local storage. Ships a host half plus a",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "REALOIYO/dsh-qwenwork-connector",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "QwenWork (千问办公) models for DeepSeek Harness: built-in device-code sign-in, direct upstream, no desktop client or gateway needed.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "Reddddddds/dsh-naiwa-skin",
       "npm": "dsh-naiwa-skin",
       "sources": [
@@ -1409,6 +2568,15 @@
       "description": "奶娃皮肤：DeepSeek Harness web 界面的可插拔皮肤插件 —— 通过主题系统注册独立的 naiwa-light/naiwa-dark 主题（不修改默认皮肤），内置设置开关，卸载即回默认。A pluggable Naiwa skin for the DSH web UI: standalone registered themes, settings toggle, default s",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "residenthiago2011/DSH-Save-KV-Cache",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Save and load KV cache slots on a llama.cpp server from within DeepSeek Harness (DSH).",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "restlessnight/dsh-skin-velocity",
@@ -1429,6 +2597,15 @@
       "description": "DeepSeek Harness web plugin: a Background image row in General settings with four built-in presets, the images this deployment serves to every connected browser, and a transparency the user sets",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "RICO-DEV-GIT/dsh-channel-core",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH (DeepSeek Harness) 飞书/Lark + Discord 渠道插件：多机器人、扫码添加、/model 卡片选择。 Multi-bot Feishu & Discord channel plugin for DeepSeek Harness.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "rmyou/wallpaper-engine-static",
@@ -1459,6 +2636,51 @@
       "description": "macOS-enhanced fork of dsh-plugin-wallpaper-engine: WaifuX + loose-media support on top of the original Windows Wallpaper Engine implementation by elysia395.",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "sagedeng/dsh-plugins",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness plugins: DeepSeek cost lens + GitHub operations",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "saltedfish-T/dsh-turn-clock",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Right-sidebar tab that lists every turn of a DSH session with its date and start time, and jumps the conversation to it.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "samorachumbi/dsh-media-reader",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Read local images, audio and video from DeepSeek Harness, including on text-only model routes. Ships a composer drag-and-drop target, a replication evidence pack, and a timecoded transcript pipeline.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Saolence/dsh-restart-handoff",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "改完东西必须重启？它替你重启，再把对话接回原来的会话 —— Restart the DSH desktop host when a change requires it, then hand the conversation back to the same session.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Saoutax/dsh-prompt-polish",
+      "npm": "@saoutax/dsh-prompt-polish",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Polish the composer draft with AI from a composer-toolbar button.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "Sawyer20/DSH-Control-Center",
@@ -1531,6 +2753,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "shorekeeper-blackshore/dsh-think-command",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness 插件：在聊天里用 /think 查看或切换当前会话的思考等级（Web 指令适配器 + QQ 机器人通道）",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Sillykjs/dsh-ntfy",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 插件：回合结束后向自托管 ntfy 推送一条通知（Host-only bundle）",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "SilverLark257/DSHT-Skin-Engine",
       "sources": [
         "github-topic"
@@ -1541,6 +2781,27 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "siml1169/ShyPie",
+      "sources": [
+        "github-topic",
+        "npm-search",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Ingest-time PII masking and local document extraction for DeepSeek Harness",
+      "discovered": "2026-11-03",
+      "npm": "@shypie_privacy/dsh-privacy-gate"
+    },
+    {
+      "repo": "sinvacn/dsh-file-pane",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "VS Code/Codex-style file pane for DeepSeek Harness (DSH): split the right sidebar into viewer + file tree, with preview/pin tabs, right-click terminal, and Copy to Chat.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "SkillyNotFound/dsh-theme-endfield-re",
       "npm": "dsh-theme-endfield-re",
       "sources": [
@@ -1549,6 +2810,35 @@
       "description": "Fork of dsh-theme-endfield (based on upstream 1.1.5): the industrial editorial look of the Arknights: Endfield official site 鈥?cream paper, ink text, signal-yellow accents, zero radius. Adds a contour",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "sky-mirrors/dsh-chaos-memory",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Bitemporal long-term memory for DeepSeek Harness: every user turn is extracted, stored, and recalled automatically.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "SleepNap/dsh-session-inbox",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "A file-backed inbox for DeepSeek Harness sessions: any process drops a JSONL line into ~/.dsh/inbox/<sessionId>.jsonl and the target session picks it up when idle, as a normal user turn.",
+      "discovered": "2026-11-03",
+      "npm": "dsh-session-inbox"
+    },
+    {
+      "repo": "Smartloe/dsh-catpaw",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "CatPaw (妙手) model bridge for DeepSeek Harness: 12 real models, per-model reasoning effort, harness-executed tool calling, and QR login without the desktop app.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "snnh/dsh-lite",
@@ -1621,6 +2911,33 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "starry-start/dsh-relationship-graph",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "An plugin for managing interpersonal relationships，AI-generated, primarily for personal use. An AI built-in plugin suite for interpersonal management, customizable to your own environment. This reposi",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "starry-start/dshm-tool-indexquery",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "A plugin for managing textbook lookup to save tokens and increase speed. AI-generated, primarily for personal use. An AI built-in plugin suite for interpersonal management, customizable to your own en",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "StarsHarryZhu/dsh-assisstant",
+      "npm": "@starsharryzhu/dsh-assistant",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Assistant for DeepSeek Harness: a left-sidebar row that opens an assistant's long-running conversation on a hidden agent preset, with a workspace per assistant, automatic compaction, a balance reminde",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "stefanohe/deepseek-harness-datasecure",
       "sources": [
         "github-topic"
@@ -1651,6 +2968,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "Stopning/dsh-usage-stats",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 插件：会话 token 用量、成本估算、月度预算（鲸鱼水位）与宿主 CPU 监控仪表盘",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "StormAccountant/Archetype-Nolly-Version-2026",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "⭐️ NeuralDSP Archetype Nolly Version | Perpetual Extended Nolly Plugin | 2026 Keygen Link | Vst VSTi AU AAX Standalone | Metalcore Mix Djent Amp Sim ⭐️",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "suixin-sky/dsh-Qagent-bot",
       "sources": [
         "github-topic"
@@ -1659,6 +2994,15 @@
       "description": "dsh QQ 群机器人：群聊归档、成员名录、表情包、模型召唤、ComfyUI 生图生视频、闲聊对话、信息搜索、任务交接",
       "discovered": "2026-10-26",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "superchen061220/dsh-storage-insight",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Storage Insight for DeepSeek Harness: see what dsh occupies on this machine and reclaim only rebuildable caches.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "SuuuJV/dsh-wallpaper-engine",
@@ -1671,6 +3015,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "szmdshagent/dsh-superagent-plugins",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "dsh-superagent 与派活面板的 DSH 插件市场索引与组合包 | DSH plugin market index and bundles for dsh-superagent and its dispatch pane",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "TacitSay/dsh-compact-arsenal",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "可配置的上下文压缩插件：总压缩 / 思考压缩 / 工具输出压缩，带左栏面板（DeepSeek Harness）",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "TaiyakiOffical/claude-style-skin",
       "npm": "claude-style-skin",
       "sources": [
@@ -1679,6 +3041,51 @@
       "description": "Claude Style — Anthropic warm-editorial skin for the dsh web GUI, distilled from anthropic.com",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "tallahandsome-ux/dsh-fetch-search",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Safe third-party web fetch for DSH — delegates page crawling to user-configured services with no direct URL access (no SSRF), API keys in the managed credentials store, per-session budget, and an auto",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "tcgbp/dsh-flash-skin",
+      "npm": "dsh-flash-skin",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Flash Skin: a portrait-driven skin for DeepSeek Harness whose backdrop swaps character portraits as the reasoning level rises and flips the shell from light to dark at the top tiers. Three drivers — m",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "temidayoxyz/dsh-desktop-notifier",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "OS desktop toast when a session completes a turn (DeepSeek Harness Host plugin)",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "TheAlienn/Render-Switcher",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Switch Android GPU renderers between Vulkan and OpenGL via WebUI on Magisk, KernelSU, or APatch for better performance and compatibility.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "tierry-vcode/dsh-Go-ptbr",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH Go em português do Brasil — tradução comunitária não oficial, com APK pronto para baixar.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "tippykafuu/dsh-client-ui-wallpaper",
@@ -1691,6 +3098,28 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "TLEWA/dsh-better-choice",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 1,
+      "description": "DSH ask_user_question enhancement: right-click an option to add a note, and ask the model a side question before choosing — with the session's own context and cache-friendly prefix.",
+      "discovered": "2026-11-03",
+      "npm": "dsh-better-choice"
+    },
+    {
+      "repo": "tongsh6/dsh-tool-wait-until",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Event-driven wait for DeepSeek Harness: returns the moment the target completes, fails early, or stalls — instead of burning a full timeout and querying again. Also blocks sleep-polling and over-long ",
+      "discovered": "2026-11-03",
+      "npm": "dsh-tool-wait-until"
+    },
+    {
       "repo": "tonyZ1987/DSH-H.D.D-skin",
       "npm": "fairy-dsh-skin",
       "sources": [
@@ -1699,6 +3128,15 @@
       "description": "Fairy H.D.D skin for DeepSeek Harness: Hollow Zero-inspired glass UI, HDD wireframe hero with reflection, status eye that mirrors the agent state, and a full sidebar/composer restyle.",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "top10xiaowangzi-byte/dsh-plugins",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Two DeepSeek Harness plugins: an approval reminder with phone push, and a Windows AI-idle auto-shutdown panel.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "tranhieu860/AHVclaw",
@@ -1721,14 +3159,41 @@
       "note": "a distribution of dsh: the tree carries dsh's own packages/bundle/base/cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "tujuplayer/dsh-pet-float",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Always-on-top desktop pet ball for running DSH sessions: live status panel, thinking summary, pending-question alerts and one-click jump back to the conversation.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "tyvtjhj/system-resource-monitor",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 2,
+      "description": "该项目是一个电脑资源监测项目，目标是实现集合进入dsh，并且也可以正常使用桌面端功能，我只是做整合和适配，项目主体开发为协助者",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "UnieAI/UnieAI-Agent-Desktop",
-      "npm": "@unieai/uad-skill",
+      "npm": "@unieai/uad-web-search-exa",
       "sources": [
         "npm-search"
       ],
-      "description": "Agent skill provider registry for the DeepSeek Harness",
+      "description": "Exa-backed search provider for the DeepSeek Harness web capability seam (ctx.web)",
       "discovered": "2026-11-03",
       "note": "a distribution of dsh: the tree carries dsh's own packages/bundle/base/cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "UponNoise/dsh-code-review",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Unofficial Codex-style code review panel for DeepSeek Harness: local diffs, commits, and GitHub PRs with P0-P3 findings.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "validation-engineering/harness-verus",
@@ -1741,6 +3206,24 @@
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "Veagau/dsh-amadeus-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "An Amadeus-inspired theme and interface accents for DeepSeek Harness.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Veagau/dsh-amadeus-workbench",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "An Amadeus-inspired launch workbench for DeepSeek Harness.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "veloce-ailab/dsh-plugin-adapter-qq",
       "npm": "dsh-plugin-adapter-qq",
       "sources": [
@@ -1749,6 +3232,24 @@
       "description": "QQ Official Bot Adapter for DeepSeek Harness",
       "discovered": "2026-11-03",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "vEvergarden/dsh-plugin-token-audit",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Token usage audit plugin for DeepSeek Harness",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "VolumeDustRemember/Deepseek-Harness-2026",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "⭐️ Deepseek Harness: an AI agent where every module can be replaced ⭐️",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "wang48/dsh-desktop",
@@ -1778,6 +3279,24 @@
       "description": "DeepSeek Harness (DSH) 用量统计插件:每日 Token 柱状图、模型分布、调用明细、CSV/JSON 导出 | Usage analytics plugin for DeepSeek Harness. DSH 0.2.x compatible fork of lanlandeli/dsh-usage-stats.",
       "discovered": "2026-11-02",
       "note": "same description as healing1/dsh-usage-stats, listed first but with fewer stars: which is the original?"
+    },
+    {
+      "repo": "WangZW928/dsh-model-router-lite",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "按任务类型为原生子 agent 提供模型选择建议；不自动授权。 Task-based model preferences for DSH subagents; no extra routing-model calls.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "waning-sun/dsh-qq-wake",
+      "npm": "dsh-qq-wake",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "跟 QQ 绑定的会话一叫就醒：插件加载时（也就是 DSH 刚起来时）把绑定里的会话挨个叫一遍，没活着的用 ctx.agents.resume() 提起来（带上 provider/model，不然醒了一跑就报 has no provider/model）；之后再用事件驱动 + 1.2 秒 stat 兜底盯 ~/.dsh/logs 当补充手段。设置面板带 provider 选项卡、自动列模型和思考强度",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "War-God0108/dsh-dt-bg",
@@ -1839,6 +3358,15 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "WickCrisp/dsh-oneshotNiko-widget",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "A pet widget for harness",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "windy070916-tech/deepseek-harness",
       "npm": "@windy070916-tech/dsh-client-ui-pet",
       "sources": [
@@ -1847,6 +3375,15 @@
       "description": "蜗蜗 (Sumikko Gurashi snail) desktop pet for the DeepSeek Harness Web UI: 8-direction crawling, slime trail, file-drop feeding, sleep, and conversation reactions",
       "discovered": "2026-11-03",
       "note": "a distribution of dsh: the tree carries dsh's own packages/bundle/base/cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "wsfangyou/dsh-plugins",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness（DSH）外挂插件的索引",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "wsfangyou/dsh-ui-skin",
@@ -1871,6 +3408,24 @@
       "npm": "@wsj060618/dsh-skin-studio"
     },
     {
+      "repo": "wth373737/dsh-plugin-mail-triage",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "IMAP mail triage and safe cleanup for DeepSeek Harness: read-only incremental scan, hard-protection rule layer plus optional local-model classification, a triage report and hashed manifest, an explici",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "wth373737/dsh-plugin-ollama-bridge",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Local Ollama worker tools for DeepSeek Harness: bulk long-text jobs with deterministic verification and sampling labels.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "Wuqiu-Ying/dsh-wtskin-project",
       "sources": [
         "github-topic",
@@ -1883,6 +3438,62 @@
       "npm": "dsh-wtskin-project"
     },
     {
+      "repo": "wyf0931/dsh-pi",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Pi coding agent integration for DeepSeek Harness (DSH): an installable bundle plus a one-shot subagent provider and the delegate_pi tool.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "wyxpku/dsh-databoard",
+      "npm": "dsh-databoard",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Databoard — DSH views and reports plugin: local SQLite data sources, reusable views, Evidence-rendered reports, an Admin page and a generation skill.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "wzc520pyfm/dsh-nb-plugin",
+      "sources": [
+        "github-topic",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "discovered": "2026-11-03",
+      "description": "DSH UI visibility plugin: show or hide every interface region from a floating panel or the Settings page. A fresh install hides the composer and the floating button; the Settings page brings both back",
+      "npm": "dsh-nb-plugin"
+    },
+    {
+      "repo": "wzc520pyfm/session-rail",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Session-scoped environment, context, plugins and read-only Git changes in the DSH right sidebar.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "XHSecurity/dsh-tech-splash",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek HARNESS 黑白科幻启动屏：官方鲸鱼徽标 + HUD 启动序列 + 合成音效，点击启动进入程序。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "xianwins4ever-ux/dsh-pet-notepad",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH Web GUI 桌宠伴生记事本：右键桌宠弹出悬浮记事本，左侧栏入口查看/编辑。Host 侧 JSON 权威持久化，零构建、零依赖、抗桌宠更新。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "xianyu9n/dsh-exp-ops",
       "sources": [
         "github-topic"
@@ -1893,10 +3504,38 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "xiaobaga281/dsh-mise",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Mise — a film is a mise-en-scène. A DSH plugin that writes films as HTML pages, then measures, scores, checks, renders and delivers them itself.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "xiaohui-zhangxh/dsh-git-status",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "dsh plugin: Git project / worktree / branch and linked GitHub issue & PR numbers in the bottom status bar",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "xiaoqin422/dsh-plugin-mcp-apps",
+      "npm": "dsh-plugin-mcp-apps",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "通用 MCP 连接器 + MCP Apps 工作台：连接应用页管理 MCP 服务器（HTTP/SSE/stdio、API/OAuth 2.0/CIMD 鉴权、启停），带 ui:// 资源的工具在右侧工作台渲染",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "xiaoxiaohaigui/dsh-tui-theme",
       "npm": "dsh-tui-theme",
       "sources": [
-        "npm-feed"
+        "npm-feed",
+        "npm-search"
       ],
       "description": "Blossom status line and /settings section for dsh-TUI. The pink theme family (pink-night/pink-day/pink-ansi) has moved upstream and ships as a dsh-TUI built-in since dsh-TUI 0.15.0 (merged via PR #129",
       "discovered": "2026-11-03",
@@ -1911,6 +3550,33 @@
       "description": "Liquid-glass Wallpaper Engine backdrop for the DeepSeek Harness Web GUI",
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "xixi-kitchen/dsh-quickbar",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness 插件：macOS 系统级全局快捷键，弹出带工作区/模型/思考强度的轻量输入框，回车后主窗口流式回答。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "XIZRSAMS/dsh-rescue",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "Rescue distribution for DeepSeek Harness - 任何时候的介入急救",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Xtopia5616/sansanweier.skill",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "去 AI 味：按目的、位置、立场处理中文文字的中文写作 skill",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "xtrem21-source/AiTron-OS-Projet-DSH",
@@ -1941,6 +3607,24 @@
       "description": "DSH 官方小鲸鱼游动背景 + 侧栏显示开关：官方 logo 剪影单只大鲸鱼，沿 S 形曲线巡游、自动转向、尾鳍摆动、周期喷水花，浅色/深色主题自适应",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "Xunzhuo/dsh-system-one-plugin",
+      "npm": "@vllm-sr/dsh",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "System Duo for DeepSeek Harness. Thinking, fast and slow. One key: System One decision models guard, shield, triage and check your agent around System Two (vllm-sr/auto), with one free app.vllm-sr.ai ",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "xuy63724-boop/dsh-plugin-sticky-notes",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH（DeepSeek Harness）侧边栏便签墙插件：随手记录灵感，自动保存在本地，深浅色主题跟随",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "xxue-z/deepseek-harness-skin",
@@ -1993,6 +3677,15 @@
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "yelloooooooow/dsh-steer-anchor",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH plugin: frame mid-task steering messages so the agent keeps the running task instead of treating an interjection as a fresh instruction.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "YinFengWindy/dsh-plugin-shiori-role",
       "sources": [
         "github-topic"
@@ -2000,6 +3693,15 @@
       "stars": 1,
       "discovered": "2026-09-29",
       "note": "cordis plugin with no dsh manifest"
+    },
+    {
+      "repo": "YongQiangZhou997/dsh-migrate-skill",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "A DeepSeek Harness (DSH) skill that packages a configuration into a self-describing bundle and restores it on another machine.",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "YorenZZZ/DeepseekHarness-Desktop-Skin",
@@ -2012,6 +3714,42 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "yuexizhishang/dsh-ui-probe",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "DeepSeek Harness 图形界面插件测试工具：在真实界面里自动测试插件页面，读样式、点按钮、填表单、等异步结果、抓控制台报错，测完自动回到原对话。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "yujiajie01/dsh-anime-schedule",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Seasonal Japanese anime broadcast calendar (Bangumi) as a right-sidebar tab in the DSH web UI, with hover details and links to authoritative anime databases. / DSH 右侧栏每日新番放送表,数据源 Bangumi,悬停看详情,点击跳权威站点",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "yujiajie01/dsh-sleep-countdown",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Sleep countdown for the DSH web UI: counts down to 23:30 on workdays in the composer dock, plays a chime when time is up, with snooze and mute. / DSH 网页端睡觉倒计时:工作日 23:30 截止,到点钟声提醒,可贪睡与静音。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "Yume-Hatsuyuki/dsh-preset-studio",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness 的 Agent 预设扩展（可视化手动配置预设）",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "yuwenbin521wl-cell/dsh-desktop",
       "sources": [
         "github-topic"
@@ -2020,6 +3758,16 @@
       "description": "Windows desktop client for DeepSeek Harness (DSH) — Electron shell, native window, system tray, and dual-channel auto-update (shell + dsh engine following official releases). DSH 桌面客户端。",
       "discovered": "2026-09-29",
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "yuyu/dsh-yuyu-bridge",
+      "npm": "dsh-yuyu-bridge",
+      "sources": [
+        "npm-search",
+        "npm-feed"
+      ],
+      "description": "鱼鱼接口模块：为 DSH 提供多工作区隔离、高容错与策略可插拔的轻量化记忆基建 (Scope-aware Memory Bridge)。",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "ywxtxws/dsh-theme-redshift",
@@ -2032,6 +3780,33 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "yy1588133/dsh-continue-button",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness 插件：会话中断后发送按钮变成「继续」按钮，一键续跑。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "yyxyx263/dsh-turn-cost",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "dsh白饭计算器 — 为 DeepSeek Harness 实时估算每个任务的余额消耗（任务下方明细 + 输入框下方实时胶囊）",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "ZadAnthony/DSH-Projects",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DeepSeek Harness 的本地项目协作插件：多会话协作、长期上下文、聊天记录与共享记忆。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "zampie/sakura-afternoon-skin",
       "sources": [
         "github-topic"
@@ -2040,6 +3815,18 @@
       "description": "Sakura-afternoon (樱色午后) pastel skin for the DSH Web UI — light/dark sakura palettes, falling-petal overlay, header toggle and settings switch.",
       "discovered": "2026-09-29",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "Zarpyk/dsh-auto-continue",
+      "sources": [
+        "github-topic",
+        "npm-search",
+        "npm-feed"
+      ],
+      "stars": 0,
+      "description": "Bilingual (English/Spanish) auto-continue for the DeepSeek Harness: resumes turns that stopped on max-tokens, on a recoverable error, on a provider usage window, or on an interrupted turn. Ships a com",
+      "discovered": "2026-11-03",
+      "npm": "@zarpyk/dsh-auto-continue"
     },
     {
       "repo": "zdjmrq/dsh-shadertoy-skin",
@@ -2093,6 +3880,24 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "zeme56/dsh-landmarks",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Interactive 3D gallery of famous landmarks for DeepSeek Harness: a sidebar entry opens a three.js viewer for models shipped with the plugin.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "zeme56/dsh-style-studio",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Visual style studio for DeepSeek Harness: a sidebar panel that restyles the whole app with five skins (pixel, terminal, cyber, paper, aurora).",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "Zeppeli777/dsh-theme-stardew-fullskin",
       "sources": [
         "github-topic"
@@ -2113,6 +3918,15 @@
       "note": "a distribution of dsh: the tree carries dsh's own apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
     {
+      "repo": "zgq0106/dsh-restart-wake",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Restart DeepSeek Harness safely and wake sessions automatically afterwards - agent tools, startup wake registry, mutex-guarded restart protocol.",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "ZHIGENGNIAO258/dsh-theme-tarkov",
       "npm": "dsh-theme-tarkov",
       "sources": [
@@ -2121,6 +3935,24 @@
       "description": "以《逃离塔科夫》为灵感的 DSH Web 界面主题：动态背景、提示音、背景音乐、桌宠与状态文案。",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "ZhiX-Wang/dsh-tsinghua-course-sync",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "清华网络学堂课程资料增量同步，按登录用户读取课程，使用默认浏览器和配套扩展，保存去重日志。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "ZiFeng11/dsh-playmate",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "陪玩插件：看屏幕 / 热键语音输入 / 念出来（不含声音模型）",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "ziqianlin0208-png/dsh-plugin-registry",
@@ -2133,6 +3965,42 @@
       "note": "cordis plugin with no dsh manifest"
     },
     {
+      "repo": "zmy1006-sudo/dsh-project-atlas",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "A colorful tag wall of recent projects in the DeepSeek Harness sidebar: numbered tags with type logos that unfold into date, summary, hours, cost and next steps on hover.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "zmy15/dsh-plugin-git-status",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "为 DeepSeek Harness 提供 Git 状态提示，支持分支切换、最近提交与未提交改动展示，并安全处理工作区改动。Git status for DeepSeek Harness with branch switching, latest commit details, uncommitted changes, and safe dirty-worktree protection.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "zmy15/dsh-plugin-retry-backoff",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "DSH 插件：模型请求遇到 429 / 限流等可重试失败时，按自定义指数退避自动延长重试轮次与等待时间，直到请求成功。网页端与桌面端共用同一份设置。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "zsy334/dsh-doc-convert",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "在DeepSeek harness工作区面板或 convert_document 工具中转换 Word、PDF、Markdown、HTML、TXT、Excel/CSV 与 PowerPoint 文件。",
+      "discovered": "2026-11-03"
+    },
+    {
       "repo": "zus12873/dsh-cinematic-wallpaper",
       "sources": [
         "github-topic"
@@ -2141,6 +4009,33 @@
       "description": "Cinematic intro and live wallpaper for the DeepSeek Harness (DSH) web UI: a character awakens on every page load, then stays behind the UI as an animated background with adaptive text colours.",
       "discovered": "2026-11-02",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
+      "repo": "zydxn77/dsh-plugin-tiles",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 1,
+      "description": "插件显示在会话标题旁：装过的插件，左键开关、右键改名，尺寸可调。",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "zyileven/dsh-settings-sidebar",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "Show or hide sidebar panel entries and add shortcuts to Settings sections in DeepSeek Harness.",
+      "discovered": "2026-11-03"
+    },
+    {
+      "repo": "zz0-0/dsh-deepseek-status",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "One-line DeepSeek service status card for DSH with a separate balance-style popup detail card",
+      "discovered": "2026-11-03"
     },
     {
       "repo": "zzzhengqi/dsh-firefly-skin",
