@@ -55,9 +55,15 @@ function gql(query) {
     }));
   } catch (err) {
     // Some aliases 404: gh exits non-zero but still prints the partial data.
+    // A GitHub 5xx prints an HTML page instead, whose first `{` is CSS; on
+    // 2026-11-03 that threw past the retry loop and killed the run.
     const text = String(err.stdout || "");
     const start = text.indexOf("{");
-    return start >= 0 ? JSON.parse(text.slice(start)) : null;
+    try {
+      return start >= 0 ? JSON.parse(text.slice(start)) : null;
+    } catch {
+      return null;
+    }
   }
 }
 
