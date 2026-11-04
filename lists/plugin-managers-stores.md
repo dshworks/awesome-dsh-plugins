@@ -4,7 +4,7 @@
 
 In-UI stores, installers, skill managers.
 
-814 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+815 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -160,6 +160,7 @@ In-UI stores, installers, skill managers.
 | dsh-plugin-market-zhen-wushuilingchun | 3 | [Zhen-WushuiLingchun/dsh-plugin-market](https://github.com/Zhen-WushuiLingchun/dsh-plugin-market) · [npm](https://www.npmjs.com/package/@hydrogenoxide18/dsh-plugin-market) | Persistent plugin marketplace for DeepSeek Harness: discover GitHub plugins and hand installation to a new DSH agent session. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-resolver | 3 | [sakikoTGW/dsh-plugin-resolver](https://github.com/sakikoTGW/dsh-plugin-resolver) · [npm](https://www.npmjs.com/package/dsh-plugin-resolver) | Agent-facing DSH plugin resolver: search the catalog, pick a version the running DSH accepts, install (registry or GitHub-source build), and verify - no trial and error. | 0.2.0-rc.2 (2026-10-18) |
 | dsh-plugin-store | 3 | [sandbaseai/dsh-plugin-store](https://github.com/sandbaseai/dsh-plugin-store) | Native DeepSeek Harness plugin marketplace for discovering, filtering, installing, and managing community DSH plugins. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-plugin-upgrader | 3 | [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) · [npm](https://www.npmjs.com/package/dsh-plugin-upgrader) | DSH plugin for DeepSeek Harness: upgrade plugins from the Plugins page, version history, rollback, live pnpm progress | 0.2.1-rc.5 (2026-11-04) |
 | dsh-plugins-finder | 3 | [ihuajiu/dsh-plugins-finder](https://github.com/ihuajiu/dsh-plugins-finder) | Find DeepSeek Harness plugins from the dsh.so registry — like find-skill, but for dsh plugins. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugins-market | 3 | [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) · [npm](https://www.npmjs.com/package/dsh-plugins-market) | DeepSeek Harness 插件创意市场：嗅探官方 dsh-plugin topic，噪音过滤、信任徽章、排序搜索与一键安装面板 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-polymarket-knowhow | 3 | [fashionmascherine-svg/dsh-polymarket-knowhow](https://github.com/fashionmascherine-svg/dsh-polymarket-knowhow) | DeepSeek Harness plugin: complete Polymarket API coverage — market data tools, authenticated trading tools, WebSocket stream service, and an embedded Polymarket knowhow skill | 0.1.0-rc.8 (2026-08-24) |

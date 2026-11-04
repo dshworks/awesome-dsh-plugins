@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-4343 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+4342 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -643,7 +643,6 @@ Memory systems, context management, session search/rewind/export.
 | dsh-plugin-mzzsfy | 3 | [mzzsfy/dsh-plugin](https://github.com/mzzsfy/dsh-plugin/tree/HEAD/packages/dsh-auto-trust-all) · [npm](https://www.npmjs.com/package/@mzzsfy/dsh-auto-trust-all) | 动态信任所有实际到达的 Host:包装 webServer 路由把 Host 头实时注册进 webRuntime.trustedHosts,并将 web 默认绑定翻转为 0.0.0.0,泛域名入口免改启动命令;认证层(原生 cookie 与 startup-auth 会话)原样保留 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-session-cleaner | 3 | [gcggcg/dsh-plugin-session-cleaner](https://github.com/gcggcg/dsh-plugin-session-cleaner) · [npm](https://www.npmjs.com/package/@estelle-ge/dsh-plugin-session-cleaner) | Session cleanup for the DeepSeek Harness Web sidebar: a destructive Delete session action and one global archived-session visibility switch. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-plugin-session-share | 3 | [CJXIAO0718/dsh-plugin-session-share](https://github.com/CJXIAO0718/dsh-plugin-session-share) | 把 DSH 会话导出成单文件、离线可看、默认脱敏的 HTML 分享页。 | 0.2.1-rc.2 (2026-10-26) |
-| dsh-plugin-upgrader | 3 | [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) · [npm](https://www.npmjs.com/package/dsh-plugin-upgrader) | One-click upgrades, version history and rollback for plugins on the DeepSeek Harness Plugins page | 0.2.1-rc.2 (2026-10-26) |
 | dsh-plugin-vm-sandbox | 3 | [GHJIVHIDD/dsh-plugin-vm-sandbox](https://github.com/GHJIVHIDD/dsh-plugin-vm-sandbox) | OrbStack VM sandbox: per-session sandbox VMs (debian/alpine) with a VM tab next to trajectory/terminal, vm_list/vm_create/vm_exec/vm_delete tools, archive/delete cleanup, running cap, idle sleep | 0.2.0-rc.2 (2026-10-05) |
 | dsh-plugin-webrelay | 3 | [Baisbt/dsh-plugin-webrelay](https://github.com/Baisbt/dsh-plugin-webrelay) | DSH Web 中继插件：右侧内置浏览器（relay 反向代理同源嵌入外部 AI 站点）+ 输入框闪电按钮（提示词优化 / 与外部 AI 协作优化：压缩上下文→初优化→外发→收回回复→终优化→写入输入框）。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-plugin-zcode-import | 3 | [BaiZhi967/dsh-plugin-zcode-import](https://github.com/BaiZhi967/dsh-plugin-zcode-import) | DSH Settings plugin that imports local ZCode conversations as native DeepSeek Harness sessions — browse ZCode workspaces, pick chats, import a subset or a whole workspace. | 0.1.7-rc.2 (2026-09-29) |
