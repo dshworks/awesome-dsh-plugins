@@ -4,7 +4,7 @@
 
 Building, testing, and publishing plugins.
 
-370 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+373 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -172,6 +172,7 @@ Building, testing, and publishing plugins.
 | dsh-subpages | 1 | [SJTUMalPan/dsh-subpages](https://github.com/SJTUMalPan/dsh-subpages) | DSH 看板宿主：复用 DSH 端口提供 /subpages 网关与统一门户，把独立开发的下级页面一键挂载进来 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-sunder | 1 | [menghuanshiguang/dsh-sunder](https://github.com/menghuanshiguang/dsh-sunder) | Sunder: an open-source DSH bundle that swaps the deployment persona for an unrestricted prompt pack, with presets, release announcements, self-update checks, install scripts and a settings UI. | 0.2.1-rc.2 (2026-10-26) |
 | dsh-thunderforge | 1 | [oneinitAI/dsh-thunderforge](https://github.com/oneinitAI/dsh-thunderforge) · [npm](https://www.npmjs.com/package/dsh-thunderforge) | ThunderForge · 宇宙无敌雷霆霹雳炫光 — 励志做 0 元以内最 nb 的 DSH 插件（产品目标）：一站式 DSH 插件开发套件（单一 Bundle） | 0.1.0-rc.8 (2026-08-25) |
+| dsh-ui-probe | 1 | [yuexizhishang/dsh-ui-probe](https://github.com/yuexizhishang/dsh-ui-probe) | Acceptance-test a DSH plugin page in the running app: open it, read real computed styles, click controls, fill fields, wait for async effects, catch console errors, then return to the conversation. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-update-check | 1 | [knlght/DSH-update-check](https://github.com/knlght/DSH-update-check) · [npm](https://www.npmjs.com/package/dsh_check_updates) | DeepSeek Harness 更新检查插件：DSH 本体与 profile 插件版本可见性（模型工具 + Settings 页面 + 周期复查），只报告不执行升级。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-upgrade-zudazhua | 1 | [zudazhuang/dsh-update-safe](https://github.com/zudazhuang/dsh-update-safe) · [npm](https://www.npmjs.com/package/dsh-update-safe) | Official release checks and isolated, supervised source updates for DeepSeek Harness | 0.2.0-rc.2 (2026-10-05) |
 | dsh-video-creator | 1 | [uckkk/dsh-video-creator](https://github.com/uckkk/dsh-video-creator) · [npm](https://www.npmjs.com/package/dsh-video-creator) | 视频号创作助手：内置主流短视频创作模板，调用中国境内大模型一键生成内容包，适配抖音/视频号/B站/快手/小红书/微博/西瓜视频快速发布 | 0.1.0-rc.8 (2026-08-20) |
@@ -194,6 +195,7 @@ Building, testing, and publishing plugins.
 | deepseek-harness-plugin-skill | 0 | [chenshutian9610/deepseek-harness-plugin-skill](https://github.com/chenshutian9610/deepseek-harness-plugin-skill/tree/HEAD/references/deepseek-harness/packages/bundle/web-app) | DeepSeek Harness 插件开发 Skill | broken against 0.1.0-rc.6 |
 | deepseek-harness-python | 0 | [awesimon/deepseek-harness-python](https://github.com/awesimon/deepseek-harness-python/tree/HEAD/frontend) | Python SDK and runtime packaging for DeepSeek Harness (under development) | unverified |
 | deepseek-harness-runcase-adapter | 0 | [rrrrrredy/deepseek-harness-runcase-adapter](https://github.com/rrrrrredy/deepseek-harness-runcase-adapter) | Capture DeepSeek Harness SDK runs as validated RunCase Interchange records. | 0.1.1-rc.2 (2026-09-01) |
+| delias | 0 | [murongyunyeh/delias](https://github.com/murongyunyeh/delias/tree/HEAD/plugins/dsh-github) | Delias / DSH GitHub plugin: browser device-flow sign-in, repository publish (rename + snapshot push through the Git Data API), and release upload — no git binary required. | 0.2.1-rc.5 (2026-11-04) |
 | dev-workbench | 0 | [cnskycn/dev-workbench](https://github.com/cnskycn/dev-workbench) | DSH (DeepSeek Harness) 插件开发工作台：草稿验证 → 一键发布 → 一键回滚/停用/卸载，防止坏插件阻塞启动 | 0.1.0-rc.8 (2026-08-20) |
 | dreamina-canvas-plugin | 0 | [full-aigc-plugins/dreamina-canvas-plugin](https://github.com/full-aigc-plugins/dreamina-canvas-plugin) | Build Dreamina canvas node graphs and timelines with quoted runs and verified assets. | 0.2.1-rc.2 (2026-10-19) |
 | DSH_Agents_md | 0 | [Tkxyz1122/DSH_Agents_md](https://github.com/Tkxyz1122/DSH_Agents_md) | 在 DSH 里管理 AGENTS.md：标签行编辑当前项目规则，设置页编辑全局规则，首行固定、新建即用默认模板。 | 0.2.1-rc.5 (2026-11-02) |
@@ -350,6 +352,7 @@ Building, testing, and publishing plugins.
 | dsh-updater-zhengjy0 | 0 | [zhengjy01/dsh-updater](https://github.com/zhengjy01/dsh-updater) · [npm](https://www.npmjs.com/package/@zhengjunyao/dsh-updater) | Track DeepSeek Harness's own releases and update in one click: follows the npm dist-tags and GitHub releases, shows every change between the running build and the target… | 0.1.7-rc.2 (2026-09-29) |
 | dsh-video-distill | 0 | [yiz-dev/dsh-video-distill](https://github.com/yiz-dev/dsh-video-distill) | DSH 插件「视频蒸馏」：把指定目录里的视频读进来（口播转写 + 关键帧 + 镜头切点 + 元数据），拆成可复用的结构模板，再生成同款视频文案。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-video2text | 0 | [vlln/dsh-video2text](https://github.com/vlln/dsh-video2text) · [npm](https://www.npmjs.com/package/dsh-video2text) | 视频链接转文案：侧栏工作台（播放器 + 逐字稿 + 发布导出），自带 video2text skill | 0.2.1-rc.5 (2026-11-02) |
+| dsh-voice-enhance | 0 | [Chrono-rigger/dsh-voice-enhance](https://github.com/Chrono-rigger/dsh-voice-enhance) | Hold Alt to dictate, release to insert the cleaned-up transcript; a button at the left of the composer rewrites the draft into a clearer prompt. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-voice-hotkey | 0 | [caly250/dsh-voice-hotkey](https://github.com/caly250/dsh-voice-hotkey) | DSH Host + Client plugin: hold F9 to talk, release to transcribe with the local SenseVoice recognizer, and insert the text into whichever input currently has focus (composer, question card… | 0.2.1-rc.5 (2026-11-02) |
 | dsh-web-preview-nubeslov | 0 | [nubeslove/dsh-web-preview](https://github.com/nubeslove/dsh-web-preview) | DSH 侧栏网页预览：在右侧栏直接打开本地开发服务器或任意 http/https 页面，不用跳出 DSH 去开外部浏览器。 | 0.2.0-rc.2 (2026-10-18) |
 | dsh-wei-sitecontrol | 0 | [TodayWei/dsh-wei-sitecontrol](https://github.com/TodayWei/dsh-wei-sitecontrol) | Site controller for DeepSeek Harness: register websites/HTTP services and manage their lifecycle, git, and release-based SSH deploys — with server probing, stored deploy scripts… | 0.1.7-rc.2 (2026-09-29) |

@@ -4,7 +4,7 @@
 
 Image understanding for text-only models.
 
-890 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+893 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -369,6 +369,7 @@ Image understanding for text-only models.
 | dsh-qq-zone | 1 | [LFELKEEA/dsh-qq-zone](https://github.com/LFELKEEA/dsh-qq-zone) | QQ 空间说说 + 识图：给 DSH 里的 QQ 机器人补上两条能力——发/看/删/赞/评论说说，以及把图片交给视觉模型（本地网关）或 Windows OCR 读懂。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-qwen-mm-rrrosmon | 1 | [RRRosmontis/dsh-qwen-mm](https://github.com/RRRosmontis/dsh-qwen-mm) | Qwen-MM-Plugins integration bundle for DeepSeek Harness: bundled multimodal skills, MCP server rows, and an image attachment bridge for text-only model routes | 0.2.0-rc.2 (2026-10-05) |
 | dsh-qwen-vision | 1 | [Asanagl/dsh-qwen-vision](https://github.com/Asanagl/dsh-qwen-vision) | DeepSeek Harness plugin: Qwen-MM-Plugins vision (MCP) + paste-image-into-chat + image-vision skill | 0.1.0-rc.8 (2026-08-20) |
+| dsh-rescue-xizrsams | 1 | [XIZRSAMS/dsh-rescue](https://github.com/XIZRSAMS/dsh-rescue/tree/HEAD/packages/dsh-plugin-degraded) | Rescue/degraded-mode plugin for DeepSeek Harness: probes shell, PTY, UI and image capabilities, hides what the host cannot run, and reports why — with zero runtime dependencies. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-rich-artifacts | 1 | [Inkotake/dsh-rich-artifacts](https://github.com/Inkotake/dsh-rich-artifacts) | DeepSeek Harness Artifact/Deliverable plugin: publish workspace files as chat artifacts with inline image previews and download cards. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-screenshot-dcmwfg | 1 | [Dcmwfg/dsh-screenshot](https://github.com/Dcmwfg/dsh-screenshot/tree/HEAD/packages/macos) | Region screenshot for the DeepSeek Harness composer on macOS: the hosting app steps aside, the system's own screencapture selector frames the region… | 0.2.1-rc.2 (2026-10-26) |
 | dsh-screenshot-hotkey | 1 | [Dove222/dsh-screenshot-hotkey](https://github.com/Dove222/dsh-screenshot-hotkey) | DSH 截屏插件：全局快捷键（默认 Alt+A）、可自定义截图大小、截图后自动写入系统剪贴板 | 0.2.0-rc.2 (2026-10-17) |
@@ -605,6 +606,7 @@ Image understanding for text-only models.
 | dsh-imagen | 0 | [CarlMarkswx/dsh-imagen](https://github.com/CarlMarkswx/dsh-imagen/tree/HEAD/packages/imagen/imagen-service) | Image generation capability seam for text-to-image models | unverified |
 | dsh-imgnav | 0 | [fuguier001/dsh-imgnav](https://github.com/fuguier001/dsh-imgnav) | Click-to-zoom lightbox for DSH conversation images with arrow-key paging: click any image card to enlarge, <- / -> to flip prev/next, Esc to close. Edge hints included. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-imgview | 0 | [fuguier001/dsh-imgview](https://github.com/fuguier001/dsh-imgview) | Inline clickable image cards for DSH conversations: show_image tool + webServer image route + keyed toolview card | 0.1.7-rc.2 (2026-09-29) |
+| dsh-ink-splash | 0 | [LynnChrysteiin/dsh-ink-splash](https://github.com/LynnChrysteiin/dsh-ink-splash) | Ink splash: draws a line-art version of an image stroke by stroke, flashes it, then enters the UI. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-keymouse-use | 0 | [msn233/dsh-keymouse-use](https://github.com/msn233/dsh-keymouse-use) · [npm](https://www.npmjs.com/package/@temsmie/dsh-tool-keymouse) | Windows key/mouse/screenshot/window automation (SendInput over a persistent helper) for the DeepSeek Harness | 0.1.7-rc.2 (2026-09-29) |
 | dsh-koboldcpp-hands | 0 | [MicroHEROX/dsh-koboldcpp-hands](https://github.com/MicroHEROX/dsh-koboldcpp-hands) · [npm](https://www.npmjs.com/package/dsh-koboldcpp-hands) | KoboldCpp for DeepSeek Harness - a tool plugin that lets the harness online model hand repetitive text and vision (OCR) labor to a local KoboldCpp (llama.cpp) server. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-latex-ocr | 0 | [Yunnalab/dsh-latex-ocr](https://github.com/Yunnalab/dsh-latex-ocr) · [npm](https://www.npmjs.com/package/dsh-latex-ocr) | 公式图片 → LaTeX（pix2tex / LaTeX-OCR）：把教材/截图中的数学公式识别为 LaTeX 代码 | 0.1.0-rc.8 (2026-08-20) |
@@ -859,6 +861,7 @@ Image understanding for text-only models.
 | duhai-vision | 0 | [hamliy-feng/duhai-vision](https://github.com/hamliy-feng/duhai-vision) | PaddleOCR-VL-first visual model adapter for Codex and DeepSeek Harness | 0.1.0-rc.8 (2026-08-21) |
 | exam-diagram-solver | 0 | [Freeman945/exam-diagram-solver](https://github.com/Freeman945/exam-diagram-solver) | DeepSeek Harness plugin: photograph an exam problem, get a diagram-backed, programmatically verified, exam-style solution (拍题高分解答与自动作图助手). | 0.2.1-rc.5 (2026-11-02) |
 | expense-capture | 0 | [ChenneyZhuang/expense-capture](https://github.com/ChenneyZhuang/expense-capture) | Turn receipts and invoices into ledger-ready expense rows without invention: every field (date, merchant, amount, currency, tax) traces to the source image, unclear fields are flagged not guessed… | 0.1.7-rc.2 (2026-09-29) |
+| filens | - | [IceWhaleTech/filens](https://github.com/IceWhaleTech/filens/tree/HEAD/integrations/deepseek-harness) · [npm](https://www.npmjs.com/package/dsh-filens) | Local document reading, OCR, search, conversion and multi-format sidebar previews for DeepSeek Harness. | 0.2.1-rc.5 (2026-11-04) |
 | handwritten-ocr | 0 | [KL3jd/handwritten-ocr](https://github.com/KL3jd/handwritten-ocr) | Local OCR for DSH: handwritten Chinese and math formulas to Markdown with LaTeX. GPU (DirectML) / CPU / NPU backends, settings-driven, one-click install. | 0.1.1-rc.2 (2026-08-28) |
 | image-factory-plugin | 0 | [full-aigc-plugins/image-factory-plugin](https://github.com/full-aigc-plugins/image-factory-plugin) | Plan, batch-generate, and evaluate images with approved spend and hash-verified receipts. | 0.2.1-rc.2 (2026-10-19) |
 | image-gen-mcp | 0 | [bauerelizabeth07139/image-gen-mcp](https://github.com/bauerelizabeth07139/image-gen-mcp) | DeepSeek Harness plugin: image generation through a configurable, provider-agnostic backend. It mounts the bundled stdio MCP server behind an NDJSON bridge… | 0.2.0-rc.2 (2026-10-05) |
