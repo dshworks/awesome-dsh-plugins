@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-588 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+591 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -326,6 +326,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-customization-settings | 0 | [T-MKT/dsh-customization-settings](https://github.com/T-MKT/dsh-customization-settings) | DeepSeek Harness 通用 UI 个性化设置插件（外观/功能显示/通知声音）。 | 0.1.0-rc.8 (2026-08-24) |
 | dsh-danger-guard | 0 | [czhzz/dsh-danger-guard](https://github.com/czhzz/dsh-danger-guard) | DSH 危险命令守卫：通过 tools/pre-execute 门禁拦截 bash/pwsh 高危命令（rm -rf /、mkfs、dd 写设备、管道执行脚本、git push --force 等），支持分级策略（极高危始终拒绝 / 中危跟随全局 deny/ask/log）、用户自定义规则与白名单。 | 0.1.1-rc.2 (2026-09-02) |
 | dsh-desktop-bridge-eliofany | 0 | [ElioFanyu/dsh-desktop-bridge](https://github.com/ElioFanyu/dsh-desktop-bridge) | Windows notifications for DSH: a bottom-right toast when a session needs your confirmation, finishes, or fails. One plugin, no companion process. | 0.2.1-rc.5 (2026-11-02) |
+| dsh-desktop-notifier-temidayo | 0 | [temidayoxyz/dsh-desktop-notifier](https://github.com/temidayoxyz/dsh-desktop-notifier) | OS desktop toast when a session finishes a turn. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-desktop-notify-carbonzh | 0 | [CarbonZhao-02692/dsh-desktop-notify](https://github.com/CarbonZhao-02692/dsh-desktop-notify) · [npm](https://www.npmjs.com/package/@carbonzhao/dsh-desktop-notify) | DSH 桌面通知：所有 DSH 前端失焦时，对决策/授权/意外中断/任务完成发 Windows 通知（标题=会话标题，点击复用已有页面切回对话） | 0.2.0-rc.2 (2026-10-18) |
 | dsh-desktop-notify-guanhais | 0 | [guanhaisen/dsh-desktop-notify](https://github.com/guanhaisen/dsh-desktop-notify) | Desktop notifications for DeepSeek Harness: a Windows toast when a Session needs your approval or answer, or finishes a long run, with click-through back to that Session | 0.2.1-rc.5 (2026-11-02) |
 | dsh-desktop-notify-wxy123ct | 0 | [wxy123-ctrl/dsh-desktop-notify](https://github.com/wxy123-ctrl/dsh-desktop-notify) | DSH 桌面通知：会话完成、等待审批/提问/计划确认或出错时弹出 Windows 原生通知，点击通知跳回对应会话，支持按会话静音。 | 0.2.1-rc.5 (2026-11-02) |
@@ -354,6 +355,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-github-flow-jianghua | 0 | [JiangHuai24/dsh-github-flow](https://github.com/JiangHuai24/dsh-github-flow) | Registers the github-push skill and its script, so every session follows one fixed GitHub commit/push/release procedure. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-github-publisher | 0 | [Sun-0306/dsh-github-publisher](https://github.com/Sun-0306/dsh-github-publisher) | One-click GitHub publishing for local DSH plugins: fill in the metadata, prepare README/LICENSE/.gitignore/package.json, create the repo, commit, push, tag and release — from a left-sidebar page. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-github-sync-wzw4429c | 0 | [wzw4429-crypto/dsh-github-sync](https://github.com/wzw4429-crypto/dsh-github-sync) | GitHub repository sync for DSH: bidirectional git sync with pre-push checks, Actions/CI monitoring with run-detail drill-down, repo add/remove/rename, local file browsing… | 0.2.0-rc.2 (2026-10-17) |
+| dsh-go-exam-helper | 0 | [aishenkiki/dsh-go-exam-helper](https://github.com/aishenkiki/dsh-go-exam-helper) · [npm](https://www.npmjs.com/package/dsh-go-exam-helper) | DSH Go 答题助手：盯住考试页面，把答案弹在顶部通知里。题库可选，图形题走视觉。 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-gotify-notify | 0 | [AhYi8/dsh-gotify-notify](https://github.com/AhYi8/dsh-gotify-notify) · [npm](https://www.npmjs.com/package/dsh-gotify-notify) | DSH 会话轮次结束 Gotify 通知插件：可在设置界面配置的宿主 + 浏览器插件包 | 0.2.0-rc.2 (2026-10-17) |
 | dsh-health-reminder-sorawith | 0 | [sorawithcat/dsh-health-reminder](https://github.com/sorawithcat/dsh-health-reminder) | 健康提醒插件：按你自定义的作息定时提醒喝水、起身、护眼和拉伸，带每日与近 7/30 天统计，以及多套可随时切换的提醒方案。 | 0.2.0-rc.2 (2026-10-17) |
 | dsh-helper | 0 | [FlyGame91/dsh-helper](https://github.com/FlyGame91/dsh-helper) | DSH task notifier plugin: pops Windows toast notifications when an agent session finishes, errors, needs confirmation, or asks for approval. | 0.1.7-rc.2 (2026-09-29) |
@@ -434,6 +436,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-notify-zeta | 0 | [zeta987/dsh-notify-zeta](https://github.com/zeta987/dsh-notify-zeta) · [npm](https://www.npmjs.com/package/dsh-notify-zeta) | DeepSeek Harness notification center with interactive Windows question and approval cards | 0.1.7-rc.2 (2026-09-29) |
 | dsh-notify-zhengjy0 | 0 | [zhengjy01/dsh-notify](https://github.com/zhengjy01/dsh-notify) | 系统级弹窗提示插件：任务完成 / 任务失败 / 工具失败 / 目标完成或受阻 / 工作流完成 / 需要人工确认（权限审批）时弹出系统通知（macOS 通知中心横幅与模态弹窗，Linux notify-send） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ntfy-notifier-plugin | 0 | [liangmz/dsh-ntfy-notifier-plugin](https://github.com/liangmz/dsh-ntfy-notifier-plugin) · [npm](https://www.npmjs.com/package/dsh-ntfy-notifier) | Subscribe to configurable ntfy servers and channels and turn each message into a local Windows toast notification. | 0.2.1-rc.5 (2026-11-03) |
+| dsh-ntfy-sillykjs | 0 | [Sillykjs/dsh-ntfy](https://github.com/Sillykjs/dsh-ntfy) | 回合结束后向自托管 ntfy 推送一条通知（Host-only bundle）。 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-obvious-grid | 0 | [ray062/dsh-obvious-grid](https://github.com/ray062/dsh-obvious-grid) · [npm](https://www.npmjs.com/package/dsh-obvious-grid) | Host plugin for DeepSeek Harness: ambient status grid page + AFK notifications (ntfy push / alarm) on turn-end, error, and approval-wait. The "obvious" idea from opencode-obvious-grid, on DSH seams. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-office-helper | 0 | [jstudio1024/dsh-office-helper](https://github.com/jstudio1024/dsh-office-helper) · [npm](https://www.npmjs.com/package/dsh-office-helper) | DSH web plugin: 办公助手 - 工作时间追踪、喝水提醒、休息提醒 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-offpeak-alert | 0 | [wenxiuncle/dsh-offpeak-alert](https://github.com/wenxiuncle/dsh-offpeak-alert) | DeepSeek Harness 桌面版插件：DeepSeek API 峰谷时段角标，显示当前是高峰还是错峰低谷及倒计时；高峰时转为深红配色，不改动界面背景。 | 0.2.0-rc.2 (2026-10-05) |

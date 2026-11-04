@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-04",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1099,
+  "count": 1100,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -925,6 +925,12 @@
       "npm": "@yogemow/dsh-prism",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "YOYOYOAKE/dsh-token-plan-monitor",
+      "npm": "@yoyoyoake/dsh-token-plan-monitor",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-04"
     },
     {
       "repo": "yunxiiQwQ/dsh-maid-whale-webUI",

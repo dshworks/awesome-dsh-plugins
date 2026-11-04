@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-986 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+992 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -740,6 +740,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-music-dock-zy32566 | 0 | [zy32566/dsh-music-dock](https://github.com/zy32566/dsh-music-dock) | Always-visible music dock in the DSH sidebar: cover, title/artist, synced lyrics with translation, transport, queue, search, your own playlists and the AI DJ — driving @doitian/dsh-music's host. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-music-doitian | 0 | [doitian/dsh-music](https://github.com/doitian/dsh-music) · [npm](https://www.npmjs.com/package/@doitian/dsh-music) | NetEase Cloud Music (music.163.com) player and AI DJ for DeepSeek Harness: a sidebar page with in-app playback, QR sign-in, and agent tools that curate the queue. | 0.2.0-rc.2 (2026-10-05) |
 | dsh-music-jhevil | 0 | [jh-Evil/dsh-music](https://github.com/jh-Evil/dsh-music) | 音乐播放器卡片插件：在 DeepSeek Harness 对话中把 ```dsh-music 围栏渲染为可交互播放器。支持网易云 / QQ 音乐双后端（搜索、播放、歌词）、玻璃拟态悬浮歌词、气泡交互特效与多主题（glass / neon / paper / vapor / 自定义）。 | 0.1.7-rc.2 (2026-09-29) |
+| dsh-music-justinzy | 0 | [justinzyc271828-sys/dsh-music](https://github.com/justinzyc271828-sys/dsh-music) | Connect DeepSeek Harness to the official Suno MCP to check credits and browse your music library. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-music-local | 0 | [xiao000xue/dsh-music-local](https://github.com/xiao000xue/dsh-music-local) | 本地音乐播放器：把音乐根目录下的每个文件夹作为一个列表，支持 mp3/flac/wav/dts/dff/dsd/ape/wma 等全部常见格式；零 token 消耗 | 0.2.0-rc.2 (2026-10-18) |
 | dsh-music-player-heyruome | 0 | [hey-ruomei/dsh-music-player](https://github.com/hey-ruomei/dsh-music-player) | DeepSeek Harness music player plugin: search and stream legal music from Audius in the web UI, controllable by agent tools. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-music-player-tui | 0 | [heshuren371/dsh-music-player-tui](https://github.com/heshuren371/dsh-music-player-tui) | DSH TUI 本地音乐播放器：/music 打开全屏场景，选择本地目录、扫描常见音频格式（mp3/flac/m4a/ogg/wav...），mpv/ffplay/afplay 后端出声，单曲/列表循环，可删除曲目，退出场景音乐不中断。 | 0.1.0-rc.8 (2026-08-20) |
@@ -757,6 +758,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-notch-pet | 0 | [hyzmm/dsh-notch-pet](https://github.com/hyzmm/dsh-notch-pet) · [npm](https://www.npmjs.com/package/dsh-notch-pet) | An animated companion that shows live DSH agent progress in the macOS notch. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-nyanko-sensei | 0 | [Qihang-He/dsh-nyanko-sensei](https://github.com/Qihang-He/dsh-nyanko-sensei) | Nyanko-sensei desktop pet for DeepSeek Harness Web: a round calico cat that lives on your UI, reacts to clicks with a voice line (bring your own audio), naps, walks around and follows agent activity. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-olivia-bridge | 0 | [MacilyDots/dsh-olivia-bridge](https://github.com/MacilyDots/dsh-olivia-bridge) · [npm](https://www.npmjs.com/package/dsh-olivia-bridge) | BSide: Olivia Lin bridge — serves the game client's /toy/letter/* contract locally and answers each letter through a DSH agent session. | 0.2.0-rc.2 (2026-10-17) |
+| dsh-oneshotNiko-widget | 0 | [WickCrisp/dsh-oneshotNiko-widget](https://github.com/WickCrisp/dsh-oneshotNiko-widget) | A OneShot-style pixel pet for the DeepSeek Harness Web UI: dialogue window, emotion avatars, AI chat assistant with persona & memory. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-particle-whale | 0 | [zepeng-jin/dsh-particle-whale](https://github.com/zepeng-jin/dsh-particle-whale) | DeepSeek official 3D Three.js particle whale animation for DeepSeek Harness / DSH Desktop | 0.1.0-rc.8 (2026-08-20) |
 | dsh-peaktime-clock | 0 | [tingao/dsh-peaktime-clock](https://github.com/tingao/dsh-peaktime-clock) · [npm](https://www.npmjs.com/package/dsh-peaktime-clock) | Persistent DeepSeek peak-time whale widget: corner clock that turns red during DeepSeek peak-price windows and green off-peak, in local time. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-persona-cetacea | 0 | [g4yzx/dsh-persona-cetacea](https://github.com/g4yzx/dsh-persona-cetacea) | DeepSeek Harness (DSH) plugin: injects the CETACEA_LOLI whale-girl persona into every agent's system prompt. | 0.2.1-rc.5 (2026-11-02) |
@@ -779,6 +781,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-pet-extras | 0 | [amaji61/dsh-pet-extras](https://github.com/amaji61/dsh-pet-extras) | 仅配合 dsh-pet 桌宠使用：给宠物加上定时整屏截图、看图播报、与宿主智能体串行对话、窗口锁屏。不提供桌宠本身，需先安装 dsh-pet。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-pet-fetwtgra | 0 | [fetwtgrah/dsh-pet](https://github.com/fetwtgrah/dsh-pet) | A Codex/Shimeji-style desktop pet for DeepSeek Harness: a transparent, always-on-top, draggable companion that reacts to dsh's live work state. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-pet-first-aid | 0 | [uckkk/dsh-pet-first-aid](https://github.com/uckkk/dsh-pet-first-aid) | petfirstaid：宠物急救药品：按参数返回宠物常见病与驱虫方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-pet-float | 0 | [tujuplayer/dsh-pet-float](https://github.com/tujuplayer/dsh-pet-float) | Turn the DeepSeek Harness pet into a desktop floating ball: always-on-top status ball, hover panel with live session progress, "啊" alert when the session needs you, one click back to the conversation. | 0.2.1-rc.5 (2026-11-04) |
 | dsh-pet-food-amt | 0 | [uckkk/dsh-pet-food-amt](https://github.com/uckkk/dsh-pet-food-amt) | petfoodamt：每日食量：按参数返回宠物健康营养方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pet-game-guard | 0 | [sadnessXU/dsh-pet-game-guard](https://github.com/sadnessXU/dsh-pet-game-guard) | 打游戏时自动把 dsh-pet 桌宠收起来，退出游戏后放回来：全屏应用与游戏进程双重判定，只动窗口可见性，不改插件配置。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-pet-gujiguji | 0 | [7AAAAAH/dsh-pet-gujiguji](https://github.com/7AAAAAH/dsh-pet-gujiguji) | GujiGuji desktop pet for DeepSeek Harness: a lightweight bird companion that reacts to the active agent status, mirroring the Codex desktop pet. | 0.2.1-rc.5 (2026-11-02) |
@@ -798,6 +801,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-pet-miaoshuy | 0 | [MiaoShuYo/dsh-pet](https://github.com/MiaoShuYo/dsh-pet) | A Windows desktop pet for DeepSeek Harness: always-on-top pet, live tasks, balance/token plaque, native settings and double-click to open DSH. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-pet-mic-lite | 0 | [yizhuzhu-glitch/dsh-pet-mic-lite](https://github.com/yizhuzhu-glitch/dsh-pet-mic-lite) | 麦克风识别「摸摸」：手对着麦克风摸几下、停手 3 秒结算一次，把今天被摸了几次写进本地 count.json，供桌面宠物或角色读取。 | 0.2.1-rc.5 (2026-11-03) |
 | dsh-pet-mobile | 0 | [LiGoHi/dsh-pet-mobile](https://github.com/LiGoHi/dsh-pet-mobile) | dsh-pet 的手机端：安卓透明悬浮窗养同一只宠物，动作/气泡/显示位置/尺寸与页面那只双向同步，并可把桌面输入的话送进 DSH 会话。 | 0.2.1-rc.5 (2026-11-02) |
+| dsh-pet-notepad | 0 | [xianwins4ever-ux/dsh-pet-notepad](https://github.com/xianwins4ever-ux/dsh-pet-notepad) | DSH Web GUI 桌宠伴生记事本：右键宠物弹出悬浮记事本，左侧栏「记事本」入口可查看/编辑；Host 侧 JSON 权威持久化，单块纯文本随手粘贴。 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-pet-npcdao | 0 | [npc-dao/dsh-pet](https://github.com/npc-dao/dsh-pet) | DSH Web pet with a bundled default and Codex-compatible imports | unverified |
 | dsh-pet-nutri | 0 | [uckkk/dsh-pet-nutri](https://github.com/uckkk/dsh-pet-nutri) | petnutri：营养补充：按参数返回宠物健康营养方案。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-pet-pack | 0 | [uckkk/dsh-pet-pack](https://github.com/uckkk/dsh-pet-pack) | petpack：宠物旅行清单：按参数返回宠物出行寄养方案。 | 0.1.0-rc.8 (2026-08-21) |
@@ -821,6 +825,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-pixel-pet | 0 | [mobius/dsh-pixel-liangzu](https://github.com/mobius/dsh-pixel-liangzu) | A floating pixel big-head desktop pet for the DeepSeek Harness web surface: the character tier follows the 6-level performance slider (01-06), the animation state follows the live conversation | 0.1.0-rc.8 (2026-08-20) |
 | dsh-pixel-whale | 0 | [yoke233/dsh-pixel-whale](https://github.com/yoke233/dsh-pixel-whale) | A lively pixel-whale loading companion for DeepSeek Harness Web. | 0.1.0-rc.8 (2026-08-20) |
 | DSH-Plugin_awl | 0 | [AWL-MC2/DSH-Plugin_awl](https://github.com/AWL-MC2/DSH-Plugin_awl) · [npm](https://www.npmjs.com/package/dsh-type-tune) | DSH Web GUI typography & readability tuner: wallpaper-aware contrast repair, edge recolor and hue-cycle effects, per-content rules (bold+underlined links… | 0.2.1-rc.5 (2026-11-03) |
+| dsh-plugin-2048 | 0 | [JJJACKsong/dsh-plugin-2048](https://github.com/JJJACKsong/dsh-plugin-2048) | 侧边栏入口的 2048 小游戏：等 agent 干活时来一局。 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-plugin-big-icon | 0 | [rapidrabbitsliu/dsh-plugin-big-icon](https://github.com/rapidrabbitsliu/dsh-plugin-big-icon) · [npm](https://www.npmjs.com/package/dsh-plugin-big-icon) | Original blue whale-girl high-resolution home-screen icons for DSH Web, without source changes. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-plugin-codex-pets | 0 | [Skylarking/dsh-plugin-codex-pets](https://github.com/Skylarking/dsh-plugin-codex-pets) · [npm](https://www.npmjs.com/package/codex-pets) | Generic Codex-compatible animated pet host for the DSH web client | 0.1.0-rc.8 (2026-08-20) |
 | dsh-plugin-colorguess | 0 | [HDNRAY/dsh-plugin-colorguess](https://github.com/HDNRAY/dsh-plugin-colorguess) | ColorGuess DSH plugin: session-header action that opens the game in a drawer iframe (game hosted on GitHub Pages). | 0.1.7-rc.2 (2026-09-29) |
@@ -956,6 +961,7 @@ Games, pets, memes, ambience. The reef has coral.
 | MDSM | 0 | [bauerelizabeth07139/MDSM](https://github.com/bauerelizabeth07139/MDSM) | MDSM (Male DeepSeek Mascot) appearance layer for the DeepSeek Harness web GUI: wears the bundled mascot character as the GUI background (surface-token fade with opacity, blur… | 0.2.0-rc.2 (2026-09-30) |
 | minimax-design-plugin | 0 | [full-aigc-plugins/minimax-design-plugin](https://github.com/full-aigc-plugins/minimax-design-plugin) | Generate MiniMax H3 video, music, speech, and images with resumable paid tasks. | 0.2.1-rc.2 (2026-10-19) |
 | music-ai-netease | 0 | [harehareya66/music-ai-netease](https://github.com/harehareya66/music-ai-netease) | DSH 的网易云音乐插件：播放器 + AI DJ，外加场景歌单、口味画像、听歌周报、歌词二创。基座 fork 自 @doitian/dsh-music@1.2.0（MIT）。 | 0.2.1-rc.5 (2026-11-02) |
+| music-player | 0 | [ReaderSummer/music-player](https://github.com/ReaderSummer/music-player) | A music player for the DSH sidebar: sync playlists from QQ Music and NetEase Cloud Music, a full page with cover art and synced lyrics, a floating island in the conversation… | 0.2.1-rc.5 (2026-11-04) |
 | music-plugin | 0 | [yeqiqiye/music-plugin](https://github.com/yeqiqiye/music-plugin) | 点歌台：DSH Web 插件（Alt+T 面板，跨平台搜歌）+ IIROSE 用户脚本（一个 JS 链接即可在房间里点播）。 | 0.2.0-rc.2 (2026-10-18) |
 | mypet | 0 | [qiqikuaidianpao/mypet](https://github.com/qiqikuaidianpao/mypet) · [npm](https://www.npmjs.com/package/mypet) | A tamagotchi-style desktop pet for DeepSeek Harness — lives in your browser, reacts to coding sessions, levels up, collects skins, and more. | 0.1.0-rc.8 (2026-08-20) |
 | ocean-wave-theme | 0 | [johnsonspirit/ocean-wave-theme](https://github.com/johnsonspirit/ocean-wave-theme) | Animated ocean waves with a whale swimming behind the page, plus translucent surfaces. | 0.1.7-rc.2 (2026-09-29) |

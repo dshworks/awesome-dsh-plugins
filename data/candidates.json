@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "candidates": [
     {
       "repo": "10086ggqq/dsh_theme_Minecraft",
@@ -56,7 +56,7 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 712,
+      "stars": 717,
       "description": "DeepSeek Harness 的启动界面与启动动画插件",
       "discovered": "2026-11-02",
       "note": "same description as QIFANAI/dsh-startup-screen, listed first but with fewer stars: which is the original?"
@@ -641,7 +641,7 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 29,
+      "stars": 31,
       "discovered": "2026-10-26",
       "note": "a distribution of dsh: the tree carries dsh's own upstream/deepseek-harness/apps/cli/src/sdk-source.cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch",
       "description": "FF - FDE 交付工作台完整私有交接快照：源码、数据分析项目、阶段状态与历史会话"
@@ -881,7 +881,7 @@
       "sources": [
         "github-topic"
       ],
-      "stars": 2,
+      "stars": 3,
       "description": "在 Harness Web 界面背景中游动的 ASCII 鲨鱼",
       "discovered": "2026-11-03",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
@@ -1126,7 +1126,8 @@
       "repo": "LittleLemonJam/dsh-chat-background",
       "sources": [
         "github-topic",
-        "npm-search"
+        "npm-search",
+        "npm-feed"
       ],
       "stars": 0,
       "description": "Chat background image, sidebar veil, composer strip, task progress bar and all-session token total for the DeepSeek Harness (DSH) Web GUI.",
@@ -1376,7 +1377,7 @@
       ],
       "stars": 1,
       "discovered": "2026-11-03",
-      "description": "Aurora theme: background pictures, frosted glass, dimming, typography, corner radius and freely placed pictures for the DSH Web client.",
+      "description": "Background pictures, dimming, frosted glass, fonts and corner radius, plus freely placed pictures you can move, resize, rotate and mirror, for the DSH Web client.",
       "npm": "dsh-theme-aurora",
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
@@ -1681,6 +1682,16 @@
       "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
+      "repo": "tcgbp/dsh-flash-skin",
+      "npm": "dsh-flash-skin",
+      "sources": [
+        "npm-feed"
+      ],
+      "description": "Flash Skin: a portrait-driven skin for DeepSeek Harness whose backdrop swaps character portraits as the reasoning level rises and flips the shell from light to dark at the top tiers. Three drivers — m",
+      "discovered": "2026-11-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
+    },
+    {
       "repo": "tippykafuu/dsh-client-ui-wallpaper",
       "sources": [
         "github-topic"
@@ -1722,11 +1733,11 @@
     },
     {
       "repo": "UnieAI/UnieAI-Agent-Desktop",
-      "npm": "@unieai/uad-skill",
+      "npm": "@unieai/uad-web-search-exa",
       "sources": [
         "npm-search"
       ],
-      "description": "Agent skill provider registry for the DeepSeek Harness",
+      "description": "Exa-backed search provider for the DeepSeek Harness web capability seam (ctx.web)",
       "discovered": "2026-11-03",
       "note": "a distribution of dsh: the tree carries dsh's own packages/bundle/base/cordis.patch.yml, and nothing outside that copy declares a dsh manifest, a skill, or a patch"
     },
@@ -1739,6 +1750,16 @@
       "description": "Official DeepSeek Harness workflows on cordis-verus, with composable JavaScript and Rust plugins",
       "discovered": "2026-11-03",
       "note": "an application built on dsh: a private package.json that depends on @deepseek-ai/dsh itself, and nothing in the tree declares a dsh manifest, a skill, or a patch"
+    },
+    {
+      "repo": "Veagau/dsh-amadeus-skin",
+      "sources": [
+        "github-topic"
+      ],
+      "stars": 0,
+      "description": "An Amadeus-inspired theme and interface accents for DeepSeek Harness.",
+      "discovered": "2026-11-03",
+      "note": "looks like a theme; belongs in awesome-dsh-themes"
     },
     {
       "repo": "veloce-ailab/dsh-plugin-adapter-qq",
@@ -1896,7 +1917,8 @@
       "repo": "xiaoxiaohaigui/dsh-tui-theme",
       "npm": "dsh-tui-theme",
       "sources": [
-        "npm-feed"
+        "npm-feed",
+        "npm-search"
       ],
       "description": "Blossom status line and /settings section for dsh-TUI. The pink theme family (pink-night/pink-day/pink-ansi) has moved upstream and ships as a dsh-TUI built-in since dsh-TUI 0.15.0 (merged via PR #129",
       "discovered": "2026-11-03",

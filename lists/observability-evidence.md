@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-433 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+434 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -247,6 +247,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-autoresearch-vlozg | 0 | [vlozg/dsh-autoresearch](https://github.com/vlozg/dsh-autoresearch/tree/HEAD/dsh-plugin-autoresearch) | Autonomous experiment loop (try → benchmark → keep/discard → repeat) with a rich dashboard sidebar for DSH. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-backroom | 0 | [LEEKINBUN-dsh-tools/dsh-backroom](https://github.com/LEEKINBUN-dsh-tools/dsh-backroom) | DeepSeek Harness (dsh) plugin: a read-only back room for plugin authors — the host's own log buffer made readable, plus a live reachability probe of the official service faces. | 0.2.0-rc.2 (2026-10-17) |
 | dsh-bio-human-microbiome-function-mining | 0 | [Liuyixin-lily/dsh-bio-human-microbiome-function-mining](https://github.com/Liuyixin-lily/dsh-bio-human-microbiome-function-mining) | DeepSeek Harness plugin for human microbiome function discovery. Turns a target enzyme, EC number, or substrate/product reaction into candidate discovery, literature-aware evidence integration… | 0.2.0-rc.2 (2026-10-17) |
+| dsh-build-driver | 0 | [Rcyc-1025/dsh-build-driver](https://github.com/Rcyc-1025/dsh-build-driver) | DSH 构建驱动插件：为 CMake + Ninja + MSVC 工程提供 build_configure / build_run / build_status / build_stop 四个工具，自动注入 MSVC 环境并解析编译诊断。 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-business | 0 | [winyh/dsh-business](https://github.com/winyh/dsh-business) | Evidence-backed business strategy, pricing, profitability, elevator pitches and business plans. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-buttons | 0 | [qusaykhadour/dsh-buttons](https://github.com/qusaykhadour/dsh-buttons) · [npm](https://www.npmjs.com/package/dsh-buttons) | DeepSeek Harness plugin: pick Sessions in the sidebar and delete them for good — one row or a whole selected group — together with their log, projection cache and workspace registration. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-canary-decision-proof | 0 | [dongsheng123132/dsh-canary-decision-proof](https://github.com/dongsheng123132/dsh-canary-decision-proof) | Offline content-addressed proof that a canary decision follows explicit evidence policy | 0.1.1-rc.2 (2026-09-01) |

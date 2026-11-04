@@ -4,7 +4,7 @@
 
 Research workbenches, RAG, learning modes.
 
-957 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+961 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -500,6 +500,7 @@ Research workbenches, RAG, learning modes.
 | dsh-academic-search | 0 | [TianzeLuo/dsh-academic-search](https://github.com/TianzeLuo/dsh-academic-search) | DSH plugin: CS/AI 学术检索 — 多源召回、论文身份归并、有界引用链与 arXiv 原文交接。按项目开启（默认关闭）。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-academy | 0 | [literaf/dsh-academy](https://github.com/literaf/dsh-academy) · [npm](https://www.npmjs.com/package/dsh-academy) | Academic mode for DeepSeek Harness (dsh): a research persona, anti-fabrication rules for citations and data, and bilingual conventions. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-adaptive-learn | 0 | [ten-feng/dsh-adaptive-learn](https://github.com/ten-feng/dsh-adaptive-learn) · [npm](https://www.npmjs.com/package/dsh-adaptive-learn) | DSH 自适应学习插件：探测本地硬件，轻任务本地推理、重任务云端，结论写入两段式知识库并回喂原任务。 | 0.2.1-rc.5 (2026-11-03) |
+| dsh-agent-office | - | [mayc0202/dsh-agent-office](https://github.com/mayc0202/dsh-agent-office) · [npm](https://www.npmjs.com/package/dsh-agent-office) | 实时 3D 办公室可视化 DSH 会话；Catora 发布后拓展笔记、思维导图、私人知识库与 RAG 检索。 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-agent-plugin-research | 0 | [Asteroid0449/dsh-agent-plugin-research](https://github.com/Asteroid0449/dsh-agent-plugin-research) | Agent 专用的 DSH 插件检索、审计、安装与验证工具桥；不提供可视化市场界面。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-agriculture-terms | 0 | [uckkk/dsh-agriculture-terms](https://github.com/uckkk/dsh-agriculture-terms) | listagriculture：列出 农业术语 知识条目。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-ai-terms | 0 | [uckkk/dsh-ai-terms](https://github.com/uckkk/dsh-ai-terms) | listai：列出 AI 术语 知识条目（名称+英文）。 | 0.1.0-rc.8 (2026-08-21) |
@@ -611,6 +612,7 @@ Research workbenches, RAG, learning modes.
 | DSH-Graphify-jov3c | 0 | [Jov3c/DSH-Graphify](https://github.com/Jov3c/DSH-Graphify) | Native DSH integration for original Graphify graphs, tree/callflow, health, wiki exports and opt-in advanced CLI features | 0.2.1-rc.5 (2026-11-02) |
 | dsh-grid-system | 0 | [uckkk/dsh-grid-system](https://github.com/uckkk/dsh-grid-system) · [npm](https://www.npmjs.com/package/dsh-grid-system) | 栅格与间距系统参考：8 点栅格、响应式断点与间距规范知识库，指导界面布局设计（Grid & spacing system reference for DSH） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-hot-search | 0 | [caishzh/dsh-hot-search](https://github.com/caishzh/dsh-hot-search) · [npm](https://www.npmjs.com/package/dsh-hot-search) | Resident hot search for DSH: FFF-backed fuzzy filename + indexed grep + CJK typo-tolerant content search, all in the host process (no per-query process spawn). | 0.2.0-rc.2 (2026-10-05) |
+| dsh-hsr | 0 | [qui11zxy/dsh-hsr](https://github.com/qui11zxy/dsh-hsr) · [npm](https://www.npmjs.com/package/dsh-hsr) | 《崩坏：星穹铁道》资料查询：角色满级属性与行迹、技能星魂、光锥叠影、遗器套装，另带配队知识与设置页。 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-hypatia-ui | 0 | [tkliuxing/dsh-hypatia-ui](https://github.com/tkliuxing/dsh-hypatia-ui) · [npm](https://www.npmjs.com/package/@tkliuxing/dsh-hypatia-ui) | Hypatia knowledge console for the DSH Web GUI: a sidebar entry that opens shelf browsing, JSE search, record inspection, a local relationship graph, and guarded deletion in the main column. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-idea | 0 | [winyh/dsh-idea](https://github.com/winyh/dsh-idea) | DeepSeek Harness tools for external opportunity discovery, unmet-need research, pain-point signals, opportunity mapping and validation experiments. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-identity-ops | 0 | [jonah791/dsh-identity-ops](https://github.com/jonah791/dsh-identity-ops) | 数字身份运维工具：邮箱（列/读/取码/取链）+ 站点知识注册表（可成长——新站点是加记录，不是加脚本）。纯 HTTP 经 Clash 显式代理，fail-closed。 | 0.2.0-rc.2 (2026-10-05) |
@@ -649,6 +651,7 @@ Research workbenches, RAG, learning modes.
 | dsh-markup | 0 | [nickzhangcomes/dsh-markup](https://github.com/nickzhangcomes/dsh-markup) · [npm](https://www.npmjs.com/package/dsh-markup) | DSH Markup · 对话批注与文档审阅：原地批注、评论对话、正文修订，读完带回主会话。Inline annotations and document review for DeepSeek Harness. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-material-cards | 0 | [accoutmissing/dsh-material-cards](https://github.com/accoutmissing/dsh-material-cards) | Search a local material-notes library from the composer and drop a finished card into the draft: pinned and recent shelves, one keyboard walk, and an optional rules section for the prompt. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-math-copy-soh4c475 | 0 | [SOH4C4759/dsh-math-copy](https://github.com/SOH4C4759/dsh-math-copy) · [npm](https://www.npmjs.com/package/dsh-math-copy) | 把回答里的数学公式复制成可在 Obsidian / LaTeX 中重新渲染的 TeX：悬停公式出现三种格式的复制按钮，选中带公式的文本再 Ctrl+C 时公式会被还原成源码，而不是一堆字形。 | 0.2.1-rc.5 (2026-11-02) |
+| dsh-mathlab | 0 | [FileXego/dsh-mathlab](https://github.com/FileXego/dsh-mathlab) | MathLab — a graduate-level mathematics research workbench for DeepSeek Harness: symbolic computation, abstract algebra, category theory, mathematical logic, Lean 4… | 0.2.1-rc.5 (2026-11-04) |
 | dsh-mcwiki-search | 0 | [Yinxe/dsh-mcwiki-search](https://github.com/Yinxe/dsh-mcwiki-search) | DeepSeek Harness (DSH) tool plugin: query Minecraft Wiki (MediaWiki API) and convert raw wiki data into clean AI-readable text. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-meeting-room-kekydrea | 0 | [kekydream/dsh-meeting-room](https://github.com/kekydream/dsh-meeting-room) · [npm](https://www.npmjs.com/package/dsh-meeting-room) | 会议记录：本机转写、发言人分离、要点与工作安排、手写笔记、复盘与纪要 · Meeting notes inside DeepSeek Harness | 0.2.1-rc.5 (2026-11-03) |
 | dsh-meili-search | 0 | [zglinus-for-agent/dsh-meili-search](https://github.com/zglinus-for-agent/dsh-meili-search) · [npm](https://www.npmjs.com/package/dsh-meili-search) | DSH 会话内容检索(Meilisearch): 增量索引同步(按 seq/时间戳) + 原版搜索框内容检索替换 + 命中跳转定位与分词高亮 + Settings 配置卡 | 0.2.1-rc.5 (2026-11-03) |
@@ -923,6 +926,7 @@ Research workbenches, RAG, learning modes.
 | mega-index-map | 0 | [Nesarf/mega-index-map](https://github.com/Nesarf/mega-index-map) | Cross-workspace interop Library for DeepSeek Harness: record, index and search files, tools, environments, knowledge and work records across workspaces, with a self-extending file-format library. | 0.1.7-rc.2 (2026-09-29) |
 | nekowhale-meme | 0 | [jimmyalxe/nekowhale-meme](https://github.com/jimmyalxe/nekowhale-meme) · [npm](https://www.npmjs.com/package/nekowhale-meme) | 大肥鱼表情库：待识别队列 / 打标签 / 分组管理 / AI 检索发图 / 应景斗图。基于 dsh-nekowhale-stickers 二创，增加导入表情包功能。 | 0.2.1-rc.5 (2026-11-02) |
 | obsidian-deepseek-harness | 0 | [KafukaTree/obsidian-deepseek-harness](https://github.com/KafukaTree/obsidian-deepseek-harness) | Embed the official DeepSeek Harness client in Obsidian and bind DSH sessions to native files and folders. | 0.1.1-rc.2 (2026-09-04) |
+| OpenGlyph-DeepSeek-Harness | 0 | [Open-Glyph/OpenGlyph-DeepSeek-Harness](https://github.com/Open-Glyph/OpenGlyph-DeepSeek-Harness) | Native OpenGlyph document, glyph search, structural composition and printable-font tools for DeepSeek Harness | 0.2.1-rc.5 (2026-11-04) |
 | paper_plane_x_dsh | 0 | [WindLX/paper_plane_x_dsh](https://github.com/WindLX/paper_plane_x_dsh) | Paper Plane X plugin for DeepSeek Harness Web: context panel + /ppx-paper search | 0.1.0-rc.8 (2026-08-20) |
 | paper-format-check | 0 | [Stephen-pc/paper-format-check](https://github.com/Stephen-pc/paper-format-check) | 论文 / 实验报告格式体检：只读检查 docx 的字号、首行缩进、行距、页眉学号姓名、页边距、图题表题，给出可定位的修法。 | 0.2.1-rc.5 (2026-11-02) |
 | paper-workbench | 0 | [LessXi/paper-workbench](https://github.com/LessXi/paper-workbench) | DSH bundle：注册 paper 工具（论文解析/工作台状态），工作流知识见 skills/paper-lab（由 /paper-init 装入工作区 .agents/skills/） | 0.1.0-rc.8 (2026-08-20) |
