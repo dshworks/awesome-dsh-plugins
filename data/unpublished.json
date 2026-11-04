@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-04",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1100,
+  "count": 1104,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1755,14 +1755,20 @@
     {
       "repo": "Altairpaca/dsh-computer-use-windows",
       "npm": "dsh-computer-use-windows",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
     },
     {
       "repo": "nanbbb/dsh-computer-use-windows",
       "npm": "dsh-computer-use-windows",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
+    },
+    {
+      "repo": "pdong15dth/dsh-computer-use-windows",
+      "npm": "dsh-computer-use-windows",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
     },
     {
       "repo": "muyifc/dsh-config-sync",
@@ -3719,6 +3725,13 @@
       "since": "2026-11-02"
     },
     {
+      "repo": "keer1024/dsh-native",
+      "path": "packages/dsh-rust-exec",
+      "npm": "dsh-native",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-04"
+    },
+    {
       "repo": "WSL043/dsh-native-session-delete",
       "npm": "dsh-native-session-delete",
       "why": "published by wsl043/dsh-native-session-manager",
@@ -4146,6 +4159,18 @@
       "npm": "dsh-plugin-finder",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-10-07"
+    },
+    {
+      "repo": "jdz321/dsh-plugin-git-status",
+      "npm": "dsh-plugin-git-status",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
+    },
+    {
+      "repo": "zmy15/dsh-plugin-git-status",
+      "npm": "dsh-plugin-git-status",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
     },
     {
       "repo": "xu1132/dsh-plugin-hello",
@@ -4729,22 +4754,22 @@
       "since": "2026-09-29"
     },
     {
-      "repo": "cafeawa/dsh-qqbot",
-      "npm": "dsh-qqbot",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-02"
-    },
-    {
-      "repo": "leliln52/dsh-qqbot",
-      "npm": "dsh-qqbot",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-02"
-    },
-    {
       "repo": "prophetcrab/dsh-qqbot",
       "npm": "dsh-qqbot",
       "why": "3 listed repos declare this name and the package states no repository",
       "since": "2026-11-02"
+    },
+    {
+      "repo": "cafeawa/dsh-qqbot",
+      "npm": "dsh-qqbot",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
+    },
+    {
+      "repo": "leliln52/dsh-qqbot",
+      "npm": "dsh-qqbot",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
     },
     {
       "repo": "dmsobtl/dsh-quant-workbench",
@@ -5138,18 +5163,6 @@
       "npm": "dsh-session-manager",
       "why": "published by hkkz9522/dsh-session-manager",
       "since": "2026-08-21"
-    },
-    {
-      "repo": "daimingxing/dsh-session-recycle",
-      "npm": "dsh-session-recycle",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
-    },
-    {
-      "repo": "zhezhi33/dsh-session-recycle",
-      "npm": "dsh-session-recycle",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
     },
     {
       "repo": "kkishapppy/dsh-session-repacker",
@@ -6066,6 +6079,18 @@
       "npm": "dsh-updater",
       "why": "5 listed repos declare this name and the package states no repository",
       "since": "2026-10-18"
+    },
+    {
+      "repo": "O789Real/dsh-usage-cost",
+      "npm": "dsh-usage-cost",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
+    },
+    {
+      "repo": "CQQ-ING/dsh-usage-cost",
+      "npm": "dsh-usage-cost",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-04"
     },
     {
       "repo": "beijingwahw/dsh-usage-ledger",
