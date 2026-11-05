@@ -573865,6 +573865,22 @@
         "usage"
       ],
       "pushedAt": "2026-11-03"
+    },
+    {
+      "name": "dsh-rdm",
+      "repo": "NIRVANA-APOC/dsh-rdm",
+      "description": "Resident multi-connection download engine for DeepSeek Harness: rdm_* agent tools plus a sidebar panel with resumable, SHA-256-verified, bandwidth-limited transfers.",
+      "category": "bundle",
+      "tags": [
+        "capabilities",
+        "ui"
+      ],
+      "npm": "dsh-rdm",
+      "added": "2026-11-04",
+      "lastVerified": "2026-11-05",
+      "verifiedAgainst": "0.2.1-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
