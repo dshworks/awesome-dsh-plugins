@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-4372 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+4371 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1832,7 +1832,6 @@ Memory systems, context management, session search/rewind/export.
 | dsh-session-vacuum | 1 | [mili1360/dsh-session-vacuum](https://github.com/mili1360/dsh-session-vacuum) | Prune the dead streaming fragments out of DSH session logs at startup, so a long session stops expanding into gigabytes when it is loaded. Destructive by design; inert and dry-run by default. | 0.2.0-rc.2 (2026-10-17) |
 | dsh-session-viz | 1 | [xusuyang030218/dsh-session-viz](https://github.com/xusuyang030218/dsh-session-viz) | AgentTrace 智能体轨迹：DSH 会话日志可视化插件——三层渐进式查看器（摘要/故事线/事件树）+ 四层进度体系。host 半 TypeScript（tsdown 构建），随 harness 启动。 | 0.1.0-rc.8 (2026-08-21) |
 | dsh-session-workspace | 1 | [Unintendedz/dsh-session-workspace](https://github.com/Unintendedz/dsh-session-workspace) | Move cold DeepSeek Harness sessions between registered workspaces | 0.1.0-rc.8 (2026-08-25) |
-| dsh-sessivra | 1 | [leoan698-tom/dsh-sessivra](https://github.com/leoan698-tom/dsh-sessivra) · [npm](https://www.npmjs.com/package/dsh-plugin-sessivra) | DSH Sessivra: native session references, explicit messaging and conversation trees for DeepSeek Harness. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-setup-sergeyak | 1 | [sergey-akhalkov/dsh-setup](https://github.com/sergey-akhalkov/dsh-setup/tree/HEAD/packages/plugin-admin-indicator) | Windows administrator indicator for DeepSeek Harness Desktop: explains the OS privilege level next to the session permission control and creates the administrator desktop shortcut | 0.2.1-rc.5 (2026-11-02) |
 | dsh-share-link | 1 | [vlln/dsh-share-link](https://github.com/vlln/dsh-share-link) · [npm](https://www.npmjs.com/package/@vlln/dsh-share-link) | 把会话或产物发布成只读公网链接：对话快照、HTML/Markdown 产物，可换风格、可撤销。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-shared-memory-shadyyou | 1 | [shadyyoung/dsh-shared-memory](https://github.com/shadyyoung/dsh-shared-memory) | Shared Memory (AI 跨平台记忆增强) — cross-session, cross-app, cross-platform memory layer for DeepSeek Harness and other AI apps (Claude / Cursor / Codex / WorkBuddy) via local HTTP + MCP. | 0.2.1-rc.5 (2026-11-02) |
