@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-2556 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+2557 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1250,6 +1250,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-scheduled-send | 1 | [OTTTTTO/dsh-scheduled-send](https://github.com/OTTTTTO/dsh-scheduled-send) · [npm](https://www.npmjs.com/package/@ottttto/dsh-scheduled-send) | DSH plugin: scheduled sending (⏰ composer button, dock list of pending tasks, sidebar 定时任务 panel with cross-session cancel, due-time delivery as a normal user bubble) | 0.1.7-rc.2 (2026-09-29) |
 | dsh-selection-tools-fyisgod | 1 | [fyisgod/dsh-selection-tools](https://github.com/fyisgod/dsh-selection-tools) | DSH plugin: select text in any Windows app to explain or translate it with DeepSeek Harness's own agent, answered in a native always-on-top overlay (draggable, resizable). | 0.1.7-rc.2 (2026-09-29) |
 | dsh-semantic-drift | 1 | [Yubickari/dsh-semantic-drift](https://github.com/Yubickari/dsh-semantic-drift) · [npm](https://www.npmjs.com/package/dsh-semantic-drift) | One versioned vocabulary of a project's business concepts, a read-only drift scan, and the same naming rules in every agent prompt. A DSH plugin. | 0.2.1-rc.5 (2026-11-02) |
+| dsh-sessivra | 1 | [leoan698-tom/dsh-sessivra](https://github.com/leoan698-tom/dsh-sessivra) · [npm](https://www.npmjs.com/package/dsh-plugin-sessivra) | Sessivra dev.26: nest and resize DSH session panes, drag native @ references into drafts, delegate tasks to ordinary sessions, review artifacts and accept before follow-ups. Windows, DSH 0.2.1-rc.5. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-shield-24567800 | 1 | [245678000000/dsh-shield](https://github.com/245678000000/dsh-shield) | Security, Trust & Policy Layer for DeepSeek Harness. Don't trust your agent's tools. Verify them. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-Shutdown-Guard | 1 | [ltayshark0637/dsh-Shutdown-Guard](https://github.com/ltayshark0637/dsh-Shutdown-Guard) · [npm](https://www.npmjs.com/package/dsh-shutdown-guard) | 任务结束后自动关机 —— 侧边栏守夜卡片：五道判定闸、后台任务守卫、AFK 接管、阻断态分级 | 0.2.1-rc.5 (2026-11-04) |
 | dsh-sideband | 1 | [ishuowang/dsh-sideband](https://github.com/ishuowang/dsh-sideband) | Asynchronous LLM-summarized context handoff between DeepSeek Harness sessions and agent rooms. | 0.1.0-rc.8 (2026-08-20) |
