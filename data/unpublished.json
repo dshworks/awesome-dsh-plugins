@@ -4,7 +4,7 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-04",
+  "checked": "2026-11-05",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
   "count": 1104,
   "packages": [
@@ -1471,12 +1471,6 @@
     {
       "repo": "xh0915/dsh-chart",
       "npm": "dsh-chart",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-02"
-    },
-    {
-      "repo": "DDDMUC/dsh-chat-export",
-      "npm": "dsh-chat-export",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-02"
     },
@@ -5681,6 +5675,12 @@
       "npm": "dsh-suggest-ghost",
       "why": "published by dsh-plugins/dsh-suggest-ghost",
       "since": "2026-10-12"
+    },
+    {
+      "repo": "EternalNight996/dsh-super-agents",
+      "npm": "dsh-super-agents",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-05"
     },
     {
       "repo": "khiqwq/dsh-system-proxy",
