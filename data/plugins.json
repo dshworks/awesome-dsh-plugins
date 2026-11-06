@@ -158861,6 +158861,21 @@
       "pushedAt": "2026-08-14"
     },
     {
+      "name": "dsh-session-done-notifier",
+      "repo": "little-bird-vodka/dsh-session-done-notifier",
+      "description": "Windows desktop popups when a DSH session finishes, waits for an answer, or waits for tool approval; clicking restores the window and reopens the source session.",
+      "category": "bundle",
+      "added": "2026-11-06",
+      "lastVerified": "2026-11-06",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "tags": [
+        "notifications",
+        "ui"
+      ]
+    },
+    {
       "name": "dsh-session-drafts",
       "repo": "ne-ilyxa/dsh-session-drafts",
       "description": "Cursor-style New Session for DeepSeek Harness: every click mints a durable blank draft session (no reuse), with a sidebar drafts switcher",
