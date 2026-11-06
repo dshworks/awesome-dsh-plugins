@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1127,
+  "count": 1131,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -647,6 +647,12 @@
       "since": "2026-11-03"
     },
     {
+      "repo": "MAOLEIJIN/dsh-mattpocock-skills",
+      "npm": "@maoleijin/dsh-mattpocock-skills",
+      "why": "no such package",
+      "since": "2026-11-06"
+    },
+    {
       "repo": "mattismegevand/dsh-dock",
       "npm": "@mattismegevand/dsh-dock",
       "why": "no such package",
@@ -987,6 +993,12 @@
       "npm": "arcana",
       "why": "published by flipactual/arcana",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "lochimary1-cpu/bingbing",
+      "npm": "bingbing",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-06"
     },
     {
       "repo": "Elipese568/coloured-favicon",
@@ -3706,6 +3718,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "imwhatiam/dsh-mosaic",
+      "npm": "dsh-mosaic",
+      "why": "published by imwhatiam/dsh-plugins",
+      "since": "2026-11-06"
+    },
+    {
       "repo": "AndroidSix/dsh-multi-router",
       "npm": "dsh-multi-router",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
@@ -4003,6 +4021,12 @@
       "npm": "dsh-pets",
       "why": "published by dushaobindoudou/dsh-plugin",
       "since": "2026-10-20"
+    },
+    {
+      "repo": "uckkk/dsh-phone",
+      "npm": "dsh-phone",
+      "why": "published by opentandem/dsh-phone",
+      "since": "2026-11-06"
     },
     {
       "repo": "Hongjun1-RGB/dsh-phone-access",
