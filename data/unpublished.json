@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-07",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1180,
+  "count": 1184,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -3992,6 +3992,13 @@
       "since": "2026-09-12"
     },
     {
+      "repo": "bosd/odoo-lint",
+      "path": "integrations/dsh",
+      "npm": "dsh-odoo-lint",
+      "why": "published by getfluvo/odoo-lint",
+      "since": "2026-11-07"
+    },
+    {
       "repo": "mytianyi0712/dsh-tui-plugin-OhMyPi",
       "npm": "dsh-omp-tui",
       "why": "no such package",
@@ -4568,6 +4575,12 @@
       "npm": "dsh-plugin-reading-pipeline",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "jevonhou/dsh-reload-page",
+      "npm": "dsh-plugin-reload-page",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-07"
     },
     {
       "repo": "skyzhao1223/dsh-plugin-scaffold",
@@ -6026,6 +6039,18 @@
       "npm": "dsh-sound-plugin",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-30"
+    },
+    {
+      "repo": "hakulat2023/dsh-spotlight",
+      "npm": "dsh-spotlight",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-07"
+    },
+    {
+      "repo": "mdalboni/dsh-spotlight",
+      "npm": "dsh-spotlight",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-07"
     },
     {
       "repo": "superfly/sprites-deepseek-plugin",
