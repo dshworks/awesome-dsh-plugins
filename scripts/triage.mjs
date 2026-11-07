@@ -210,7 +210,23 @@ const CONCURRENCY = 12;
 // moved only their package.json version strings. Rows proven before today are
 // not re-dated; rejections the rc.2 gate wrote are re-decided, since they were
 // a verdict on the version, not the repo.
-const DSH_VERSION = process.env.DSH_VERSION ?? "0.2.1-rc.5";
+//
+// 2026-11-07: stamped 0.2.2-rc.1 (npm `latest` and `next` since 2026-11-04
+// 09:20Z, tag dsh-v0.2.2-rc.1 66491b05e3). It is cut from the 0.2.2 line, so
+// rc.5 -> rc.1 is 2,623 commits; re-read tag to tag:
+//   plugin-compatibility.ts and compatibility-preflight.ts: byte-identical
+//     (2e4ca5736a, ae10be63e1), so peerRefusal() stands as written.
+//   plugin-manager src/index.ts and operations.ts: a package without
+//     `dsh.bundle` is still refused (index.ts:635, :736, :1174) and installed
+//     only as a plain dependency (operations.ts:104). New: a bundle-platform
+//     gate, ported as platformRefusal() below.
+//   client/modules still reads `dsh.client` and needs `exports["./client"]`
+//     (:206, :908); profile-plugins.ts still reads `dsh.profile`;
+//     skill/skill is byte-identical and skill-filesystem changed only how a
+//     failed skill root is reported, so the frontmatter contract holds.
+//   Four first-party patch layers were added (DSH_FIRST_PARTY_PATCHES).
+// Rows proven before today are not re-dated.
+const DSH_VERSION = process.env.DSH_VERSION ?? "0.2.2-rc.1";
 if (!semver.valid(DSH_VERSION)) throw new Error(`DSH_VERSION ${JSON.stringify(DSH_VERSION)} is not a semantic version`);
 
 const read = (rel) => JSON.parse(readFileSync(join(ROOT, rel), "utf8"));
@@ -323,7 +339,10 @@ async function blurbs(repos) {
 const SKIP_PATH = /(^|\/)(node_modules|dist|build|out|vendor|\.git|coverage|fixtures?|examples?|tests?|__tests__)\//;
 // dsh's own patch layers, read off the dsh-v0.2.0-rc.2 tree (test fixtures
 // left out; SKIP_PATH drops those already), plus the nine that
-// dsh-v0.2.1-rc.2 added (2026-10-19). schedule-bundle is gone from 0.2.1 and
+// dsh-v0.2.1-rc.2 added (2026-10-19) and the four dsh-v0.2.2-rc.1 added
+// (cua, forge, liveshare, personalized-recommendations; 2026-11-07). The two
+// under packages/preset/agent-preset/skills/.../templates/ are templates for
+// authors to copy, like the fixtures, and stay out. schedule-bundle is gone from 0.2.1 and
 // stays listed: forks of the older tree still carry it. `vendoredFrom` taught the
 // package.json lane that a copy of dsh's file is dsh's proof, not the
 // copier's. The deep lanes never learned it: a fork of dsh carries
@@ -351,8 +370,12 @@ const DSH_FIRST_PARTY_PATCHES = [
   "packages/experimental/auto-review/cordis.patch.yml",
   "packages/experimental/badge-skill-bundle/cordis.patch.yml",
   "packages/experimental/cot-translation-bundle/cordis.patch.yml",
+  "packages/experimental/cua-bundle/cordis.patch.yml",
+  "packages/experimental/forge-bundle/cordis.patch.yml",
   "packages/experimental/inspector/cordis.patch.yml",
   "packages/experimental/inspector-profile/cordis.patch.yml",
+  "packages/experimental/liveshare/cordis.patch.yml",
+  "packages/experimental/personalized-recommendations/cordis.patch.yml",
   "packages/experimental/plugin-market-bundle/cordis.patch.yml",
   "packages/experimental/ralph-bundle/cordis.patch.yml",
   "packages/experimental/schedule-bundle/cordis.patch.yml",
@@ -560,6 +583,29 @@ function peerRefusal(pkg, runtime = DSH_VERSION) {
   return Object.keys(refused).length ? refused : null;
 }
 
+// From 0.2.2-alpha.2 (deepseek-harness c7b6fba276) a bundle may declare
+// `dsh.bundle.platforms`, a nonempty list of Node platform names; absent means
+// every host. `assertBundlePlatform` in packages/boot/app-boot/src/
+// bundle-platform.ts (dsh-v0.2.2-rc.1) is ported here. A valid list that
+// leaves the host out installs and stays inactive on that host only
+// (plugin-manager operations.ts:536, "bundle activation rejected"), so a
+// Windows-only bundle is a real plugin on Windows and is admitted: this
+// registry stamps a dsh version, not a host, and a row has no field for one.
+// A malformed list -- not an array, empty, or a name Node does not use, such
+// as "windows" -- throws on every host: reconcile rethrows it, profile startup
+// skips the bundle, selectBundle refuses it. That is a refusal, like a
+// non-object `engines`.
+const PLATFORMS_SINCE = "0.2.2-alpha.2";
+const NODE_PLATFORMS = ["aix", "android", "darwin", "freebsd", "haiku", "linux", "openbsd", "sunos", "win32", "cygwin", "netbsd"];
+
+function platformRefusal(pkg, runtime = DSH_VERSION) {
+  const platforms = pkg?.dsh?.bundle?.platforms;
+  if (platforms === undefined || semver.lt(runtime, PLATFORMS_SINCE)) return null;
+  const valid = Array.isArray(platforms) && platforms.length > 0
+    && platforms.every((p) => typeof p === "string" && NODE_PLATFORMS.includes(p));
+  return valid ? null : { "dsh.bundle.platforms": platforms };
+}
+
 // A proof carries `refused` when dsh at DSH_VERSION would refuse the very
 // package it cites. The install path is still real, so the proof stands; what
 // the caller may not do is stamp DSH_VERSION on it.
@@ -567,7 +613,9 @@ function proveFromPackage(pkg, path, repo) {
   if (!pkg) return null;
   if (vendoredFrom(pkg, repo)) return null;
   const refused = peerRefusal(pkg) ?? undefined;
-  if (pkg.dsh?.bundle) return { evidence: `${path}#dsh.bundle`, why: "dsh.bundle manifest", refused };
+  if (pkg.dsh?.bundle) {
+    return { evidence: `${path}#dsh.bundle`, why: "dsh.bundle manifest", refused: refused ?? platformRefusal(pkg) ?? undefined };
+  }
   // Only the keys dsh reads. At dsh-v0.2.0-rc.2 that is `bundle`
   // (plugin-manager/src/index.ts:545 refuses a package without it), `client`
   // (test-support/client-runtime/src/assembly/bundle-roster.ts:75) and
@@ -606,8 +654,11 @@ const embedsHarness = (pkg) => pkg?.private === true && depsOf(pkg).some(([, d])
 
 // The rejection names the file and the field, because the author is the one
 // person who can fix it, and the fix is one range.
-const refusalReason = (evidence, refused) =>
-  `dsh ${DSH_VERSION} refuses to install it: ${evidence.replace(/#.*/, "")} `
+const refusalReason = (evidence, refused) => Object.hasOwn(refused, "dsh.bundle.platforms")
+  ? `dsh ${DSH_VERSION} refuses to activate it on any host: ${evidence.replace(/#.*/, "")} `
+    + `${JSON.stringify(refused)} is not a nonempty list of Node platform names `
+    + "(packages/boot/app-boot/src/bundle-platform.ts)"
+  : `dsh ${DSH_VERSION} refuses to install it: ${evidence.replace(/#.*/, "")} `
   + `${Object.keys(refused).some((k) => k.startsWith("engines")) ? "" : "peerDependencies "}`
   + `${JSON.stringify(refused)} exclude ${DSH_VERSION} `
   + "(packages/boot/app-boot/src/plugin-compatibility.ts)";
@@ -1444,7 +1495,7 @@ for (const d of decided) {
 
 console.error([
   `triage: ${admitted.length} admitted, ${rejects.length} rejected,`,
-  `${refusedByPeers} refused by dsh ${DSH_VERSION}'s peer gate, ${copies} copies of a listed plugin,`,
+  `${refusedByPeers} refused by dsh ${DSH_VERSION}'s install gate, ${copies} copies of a listed plugin,`,
   `${recheckedRejections} rejection(s) re-dated,`,
   `${overturned.size} rejection(s) overturned,`,
   `${held.length} held for review, ${routed.length} routed to themes (api ${apiCalls})`,
