@@ -19,7 +19,8 @@
 // npm-check.mjs has proven belongs to the row's repo (the package's
 // repository.url names the repo back), so the market never offers a package
 // under somebody else's repo. Per row, every published version that
-//   - is not deprecated, and
+//   - is not deprecated,
+//   - is not `"private": true` (the rule dsh-v0.2.2-rc.1 added), and
 //   - declares `dsh.bundle` with a string or string[] `patch`
 // (the reference generator's rule; dsh refuses to install anything else).
 // A row with no such version is left out, and so is a row marked `broken`:
@@ -116,26 +117,32 @@ const text = (v) => (typeof v === "string" && v.trim() !== "" ? v : undefined);
 // point is that our index says what dsh's own generator would say. Re-read
 // 2026-11-02 at dsh-v0.2.1-rc.5 (npm `latest`): apps/plugin-market-generator
 // and packages/util/plugin-market-index moved only their package.json version
-// strings, so the ports and line numbers stand.
+// strings, so the ports and line numbers stand. Re-read 2026-11-07 at
+// dsh-v0.2.2-rc.1 (npm `latest`): the generator gained one rule, a version
+// whose manifest says `"private": true` is never listed (isPrivate below); the
+// validator moved only its version string. Line numbers below are rc.1's.
 //
-// apps/plugin-market-generator/src/packages.ts:60-64
+// apps/plugin-market-generator/src/packages.ts:61-65
 function isBundle(manifest) {
   const bundle = manifest?.dsh?.bundle;
   if (!isObject(bundle)) return false;
   return typeof bundle.patch === "string" || (Array.isArray(bundle.patch) && bundle.patch.every((f) => typeof f === "string"));
 }
 
-// apps/plugin-market-generator/src/packages.ts:28-30
+// apps/plugin-market-generator/src/packages.ts:72-74
+const isPrivate = (manifest) => manifest?.private === true;
+
+// apps/plugin-market-generator/src/packages.ts:29-31
 const DSH_PEER = /^@deepseek-ai\/dsh(?:-|$)/u;
 /** Ranges that installation reads as the running DSH version. */
 const CURRENT_DSH = new Set(["workspace:*", "workspace:^", "workspace:~"]);
 
-// apps/plugin-market-generator/src/packages.ts:66-71
+// apps/plugin-market-generator/src/packages.ts:76-80
 const validRange = (range) => range !== "" && !range.startsWith("workspace:") && semver.validRange(range) !== null;
 const invalidRange = (range) => new Error(`DSH range ${JSON.stringify(range)} is not a valid SemVer range`);
 const MAX_RANGE_ALTERNATIVES = 256;
 
-// apps/plugin-market-generator/src/packages.ts:73-105 (dshRange).
+// apps/plugin-market-generator/src/packages.ts:93-115 (dshRange).
 // The `engines.dsh` range an index lists for a manifest: its own `engines.dsh`
 // string, otherwise the conjunction of its @deepseek-ai/dsh and
 // @deepseek-ai/dsh-* peer ranges. A peer of exactly workspace:*, workspace:^,
@@ -228,14 +235,18 @@ async function entryFor(row, versionSkips) {
 
   const versions = [];
   let bundles = 0;
-  // apps/plugin-market-generator/src/generate.ts:163-168 (readNpm) and
-  // :131-145 (releaseOf): a dshRange Error skips the version, undefined lists
+  // apps/plugin-market-generator/src/generate.ts:164-169 (readNpm) and
+  // :131-144 (releaseOf): a dshRange Error skips the version, undefined lists
   // it without engines, a string becomes engines.dsh.
   for (const [version, manifest] of Object.entries(doc.versions)) {
     if (!isBundle(manifest)) continue;
     bundles++;
     if (typeof manifest.deprecated === "string" && manifest.deprecated !== "") {
       tally(versionSkips, "deprecated");
+      continue;
+    }
+    if (isPrivate(manifest)) {
+      tally(versionSkips, "private");
       continue;
     }
     const published = doc.time?.[version];
@@ -268,7 +279,7 @@ async function entryFor(row, versionSkips) {
     versions.push(entry);
   }
   if (bundles === 0) return { skip: "no published version declares dsh.bundle" };
-  if (versions.length === 0) return { skip: "every dsh.bundle version is deprecated or has an unusable dsh range" };
+  if (versions.length === 0) return { skip: "every dsh.bundle version is deprecated, private, or has an unusable dsh range" };
 
   // rsort keeps npm's order for ties, as the format asks.
   const order = semver.rsort(versions.map((v) => v.version));
