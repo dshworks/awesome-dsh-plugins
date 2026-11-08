@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-07",
+  "checked": "2026-11-08",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1183,
+  "count": 1185,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -126,6 +126,13 @@
       "npm": "@cxzrdxy/dsh-file-explorer",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "dawn0608/deepseek-harness-plugins",
+      "path": "plugins/session-cost",
+      "npm": "@dawn0608/dsh-session-cost",
+      "why": "published by dawn0608/dsh-plugins",
+      "since": "2026-11-08"
     },
     {
       "repo": "ddtcorex/dsh-maestro-devkit",
@@ -1179,18 +1186,6 @@
       "since": "2026-08-21"
     },
     {
-      "repo": "neltharion11/dsh-api-balance",
-      "npm": "dsh-api-balance",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
-    },
-    {
-      "repo": "linshufan21/dsh-Api-monitor",
-      "npm": "dsh-api-balance",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
-    },
-    {
       "repo": "Vast-Unhurried/dsh-toolkit",
       "path": "packages/dsh-api-balance",
       "npm": "dsh-api-balance",
@@ -1198,28 +1193,40 @@
       "since": "2026-10-07"
     },
     {
+      "repo": "neltharion11/dsh-api-balance",
+      "npm": "dsh-api-balance",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
+    },
+    {
+      "repo": "linshufan21/dsh-Api-monitor",
+      "npm": "dsh-api-balance",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
+    },
+    {
       "repo": "AdaJyao/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
     },
     {
       "repo": "wwwwangpengggg/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
     },
     {
       "repo": "X-Xyy/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
     },
     {
       "repo": "CH2008445/dsh-api-balance",
       "npm": "dsh-api-balance",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
     },
     {
       "repo": "MaYiFei1995/dsh-approval-comment",
@@ -2078,6 +2085,18 @@
       "npm": "dsh-desktop-bridge",
       "why": "3 listed repos declare this name and the package states no repository",
       "since": "2026-11-03"
+    },
+    {
+      "repo": "StuMing233/dsh-desktop-restart-button",
+      "npm": "dsh-desktop-restart-button",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
+    },
+    {
+      "repo": "jh0oo/dsh-desktop-restart-button",
+      "npm": "dsh-desktop-restart-button",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-08"
     },
     {
       "repo": "bruc3van/dsh-desktop-safe-market",
@@ -4118,12 +4137,6 @@
       "npm": "dsh-our-free-model",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-10-26"
-    },
-    {
-      "repo": "iasmndjxjz/dsh-paper-reader",
-      "npm": "dsh-paper-reader",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
     },
     {
       "repo": "SpBs2004/dsh-paper-reader",
