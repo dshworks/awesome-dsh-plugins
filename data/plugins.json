@@ -1,7 +1,22 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "plugins": [
+    {
+      "name": "dsh-go-env-vars",
+      "repo": "doubao01/dsh-go-env-vars",
+      "description": "Manage environment variables from the dsh-go native panel; each value is injected into every shell command as $DSH_VAR_<NAME>, with a generated shell bridge so gh and git see the plain names.",
+      "category": "bundle",
+      "tags": [
+        "terminal",
+        "safety"
+      ],
+      "added": "2026-11-08",
+      "lastVerified": "2026-11-08",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
+    },
     {
       "name": "429-throttle-mcp",
       "repo": "iqingyoung/429-throttle-mcp",
