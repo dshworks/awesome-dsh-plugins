@@ -8,7 +8,7 @@ Alerting the human: desktop, sound, even a phone call.
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
-| dsh-notify-me | 111 | [chromoany/dsh-notify-me](https://github.com/chromoany/dsh-notify-me) · [npm](https://www.npmjs.com/package/dsh-notify-me) | DSH 桌面消息提醒插件：模型需要你操作（审批/方案确认/提问的可操作提醒）或回复在后台完成时，系统通知+提示音+标签页标题提醒你；可在设置页开关并切换通知语言。Desktop notification & message alerts for DeepSeek Harness web — toasts, sounds and a tab-title marker when the agent | 0.1.7-rc.2 (2026-09-29) |
+| dsh-notify-me | 112 | [chromoany/dsh-notify-me](https://github.com/chromoany/dsh-notify-me) · [npm](https://www.npmjs.com/package/dsh-notify-me) | DSH 桌面消息提醒插件：模型需要你操作（审批/方案确认/提问的可操作提醒）或回复在后台完成时，系统通知+提示音+标签页标题提醒你；可在设置页开关并切换通知语言。Desktop notification & message alerts for DeepSeek Harness web — toasts, sounds and a tab-title marker when the agent | 0.1.7-rc.2 (2026-09-29) |
 | dsh-notification | 91 | [omdsh-dev/dsh-notification](https://github.com/omdsh-dev/dsh-notification) | Desktop notifications for turn completions, with per-outcome controls and include/exclude keyword rules | 0.1.0-rc.8 (2026-08-20) |
 | dsh-zju-assistant | 71 | [Anchorite-no/dsh-zju-assistant](https://github.com/Anchorite-no/dsh-zju-assistant/tree/HEAD/plugin/bundle) · [npm](https://www.npmjs.com/package/dsh-zju-assistant) | ZJU All-in-One Assistant：浙大学生的一站式校园助手，装进 DeepSeek Harness。课表、作业、通知、学习页、日程表，和已授权的选课、预约、交作业 | 0.2.1-rc.5 (2026-11-03) |
 | dsh-personal-workbench | 46 | [Dely0/dsh-personal-workbench](https://github.com/Dely0/dsh-personal-workbench) · [npm](https://www.npmjs.com/package/@dely0/dsh-personal-workbench) | DSH 个人工作台：日历 + 层级任务 + AI 澄清/拆解/执行/复盘 + AI 智能排序/日报周报 + 桌面提醒 | 0.1.0-rc.8 (2026-08-20) |
