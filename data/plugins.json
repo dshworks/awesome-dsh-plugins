@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -600576,11 +600576,11 @@
     {
       "name": "dsh-rdm",
       "repo": "NIRVANA-APOC/dsh-rdm",
-      "description": "Resident multi-connection download engine for DeepSeek Harness: rdm_* agent tools plus a sidebar panel with resumable, SHA-256-verified, bandwidth-limited transfers.",
+      "description": "Resident multi-connection download engine for DeepSeek Harness: seven rdm_* agent tools plus a sidebar panel with resumable, SHA-256-verified, bandwidth-limited transfers.",
       "category": "plugin",
       "official": false,
       "added": "2026-11-07",
-      "lastVerified": "2026-11-07",
+      "lastVerified": "2026-11-10",
       "verifiedAgainst": "0.2.2-rc.1",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
