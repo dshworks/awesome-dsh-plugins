@@ -13800,6 +13800,26 @@
       "pushedAt": "2026-11-08"
     },
     {
+      "name": "dsh-server-resources",
+      "repo": "brungcm/dsh-server-resources",
+      "description": "Resources tab in the right sidebar: live CPU, RAM, swap and disk of a Linux host, with rankings of the top processes, folders and files. Read-only, no dependencies; needs dsh-better-sidebar.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-server-resources",
+      "stars": 0,
+      "starsUpdated": "2026-11-09",
+      "tags": [
+        "observability",
+        "devtools"
+      ],
+      "pushedAt": "2026-11-08"
+    },
+    {
       "name": "dsh_ark_plan_usage",
       "repo": "Barry-Liu-001/dsh_ark_plan_usage",
       "description": "DeepSeek Harness (DSH) sidebar plugin: live Volcengine Ark Agent Plan usage (5h / weekly / monthly), fetched via the local arkcli.",
