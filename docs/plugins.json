@@ -613525,6 +613525,23 @@
         "observability"
       ],
       "pushedAt": "2026-11-05"
+    },
+    {
+      "name": "dsh-mole",
+      "repo": "tw93/Mole",
+      "path": "plugins/mole",
+      "description": "Official skill for the open-source Mole CLI (mo), a disk cleanup tool for macOS and Windows: read disk usage, preview and run cleanup, read system health. It asks before removing anything.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-09",
+      "lastVerified": "2026-11-09",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "plugins/mole/package.json#dsh.bundle",
+      "npm": "dsh-mole",
+      "tags": [
+        "capabilities"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-7770 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+7771 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -5482,6 +5482,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-models-filter | 0 | [odelbos/dsh-models-filter](https://github.com/odelbos/dsh-models-filter) | Filter input for the composer model menu: case-insensitive list filtering with combobox keyboard navigation, rendered with the shipped menu design | 0.1.1-rc.2 (2026-09-01) |
 | dsh-modular-scale | 0 | [uckkk/dsh-modular-scale](https://github.com/uckkk/dsh-modular-scale) | 字号阶梯（模块化比例）计算器 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-moe-plugin | 0 | [nataliwhite20534-droid/dsh-moe-plugin](https://github.com/nataliwhite20534-droid/dsh-moe-plugin) | 萌属性 Persona system for DSH (DeepSeek Harness): 10 preset character-trait cards (傲娇/毒舌/元气/天然呆/病娇/冰美人/暗恋型/大小姐/姐姐型/猫咪系), bilingual prompts, free-text recommendation, custom card editing… | 0.2.0-rc.2 (2026-10-05) |
+| dsh-mole | - | [tw93/Mole](https://github.com/tw93/Mole/tree/HEAD/plugins/mole) · [npm](https://www.npmjs.com/package/dsh-mole) | Official skill for the open-source Mole CLI (mo), a disk cleanup tool for macOS and Windows: read disk usage, preview and run cleanup, read system health. It asks before removing anything. | 0.2.2-rc.1 (2026-11-09) |
 | dsh-molecule-visualization | 0 | [Kanade-Tachibana-Methyl/dsh-molecule-visualization](https://github.com/Kanade-Tachibana-Methyl/dsh-molecule-visualization) | Interactive 3D molecular visualization for DeepSeek Harness — PDB/SDF/MOL/MOL2/XYZ/Gaussian input with strict host-side validation, ball-and-stick rendering and visible failure reasons. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-monaco | 0 | [uckkk/dsh-monaco](https://github.com/uckkk/dsh-monaco) | 摩纳哥国 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-monaco-devvikin | 0 | [DevViking-Persike/dsh-monaco](https://github.com/DevViking-Persike/dsh-monaco) | DeepSeek Harness plugin: serves the Monaco editor distribution over a host HTTP route, so an editor plugin needs no CDN and no extra bundler outputs | 0.1.0-rc.8 (2026-08-25) |
