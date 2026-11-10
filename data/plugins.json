@@ -613532,6 +613532,21 @@
         "observability"
       ],
       "pushedAt": "2026-11-05"
+    },
+    {
+      "name": "RSS Pal",
+      "repo": "morefreeze/dsh-plugin-rss-pal",
+      "description": "Local-first RSS/Atom reader with full-text search, bulk read marking, on-demand AI summaries and native reading companion.",
+      "category": "bundle",
+      "tags": [
+        "knowledge",
+        "ui"
+      ],
+      "added": "2026-11-10",
+      "lastVerified": "2026-11-10",
+      "verifiedAgainst": "0.2.1-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
