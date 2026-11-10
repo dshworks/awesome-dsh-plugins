@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-2646 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+2647 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1435,6 +1435,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-ark-quota-zpliao12 | 0 | [zpliao123/dsh-ark-quota](https://github.com/zpliao123/dsh-ark-quota) | Show Volcengine Ark Coding Plan / Agent Plan quota in the DSH Web GUI: a side float panel + settings page, persistent credentials on disk, and periodic auto-refresh. | 0.1.1-rc.2 (2026-08-28) |
 | dsh-artifact-index | 0 | [Huuuuung/dsh-artifact-index](https://github.com/Huuuuung/dsh-artifact-index) · [npm](https://www.npmjs.com/package/dsh-artifact-index) | Artifact index endpoint for the DeepSeek Harness web GUI: serves the JSON index contract and the file bytes that the dsh-artifacts sidebar tab reads. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-artifacts-extension | 0 | [liush2yuxjtu/dsh-artifacts-extension](https://github.com/liush2yuxjtu/dsh-artifacts-extension) | DSH Web extension: a read-only artifact library sidebar panel plus /artifact-create, /artifact-store, and /artifact-tweak slash commands. | 0.2.1-rc.5 (2026-11-02) |
+| dsh-artifacts-modusensus | - | [modusensus/dsh-artifacts](https://github.com/modusensus/dsh-artifacts) · [npm](https://www.npmjs.com/package/@modusensus/dsh-artifacts) | Sidebar artifact shelf: images, videos, files and links a session delivers, deduplicated by SHA-256, with filter tabs, search, video thumbnails, lightbox, uploads, backfill and a save_artifact tool. | 0.2.2-rc.1 (2026-11-10) |
 | dsh-asimovbox | 0 | [cerebrixos-org/dsh-asimovbox](https://github.com/cerebrixos-org/dsh-asimovbox) | Create, edit, render, and finish AsimovBox videos from DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ask-in-sidebar | 0 | [Ruiming-cn/dsh-ask-in-sidebar](https://github.com/Ruiming-cn/dsh-ask-in-sidebar) | Ask a sidebar assistant about selected assistant text using the current DeepSeek Harness conversation context, without touching the main conversation. Inspired by the MIT-licensed DSH plugin | 0.1.1-rc.2 (2026-08-26) |
 | dsh-atelier-clickfx | 0 | [catisamaomao/dsh-atelier-clickfx](https://github.com/catisamaomao/dsh-atelier-clickfx) | Five non-repeating, theme-aware click animations for DeepSeek Harness: ripples, lace blooms, comets, orbits and butterflies. | 0.2.0-rc.2 (2026-10-17) |

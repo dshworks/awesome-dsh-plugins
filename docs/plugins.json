@@ -613540,6 +613540,23 @@
         "observability"
       ],
       "pushedAt": "2026-11-05"
+    },
+    {
+      "name": "dsh-artifacts-modusensus",
+      "repo": "modusensus/dsh-artifacts",
+      "description": "Sidebar artifact shelf: images, videos, files and links a session delivers, deduplicated by SHA-256, with filter tabs, search, video thumbnails, lightbox, uploads, backfill and a save_artifact tool.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-10",
+      "lastVerified": "2026-11-10",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@modusensus/dsh-artifacts",
+      "tags": [
+        "ui",
+        "capabilities"
+      ]
     }
   ]
 }
