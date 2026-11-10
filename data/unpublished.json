@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1194,
+  "count": 1195,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -455,6 +455,12 @@
       "npm": "@entireyu/dsh-webui-plus",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-09-29"
+    },
+    {
+      "repo": "EvoMap/evolver-dsh-plugin",
+      "npm": "@evomap/dsh-evolver",
+      "why": "published by evomap/evolver-agent-plugin",
+      "since": "2026-11-10"
     },
     {
       "repo": "Karbo123/DSH-EvoResearch",
@@ -2773,12 +2779,6 @@
       "since": "2026-11-07"
     },
     {
-      "repo": "frostming/dsh-hongguo",
-      "npm": "dsh-hongguo",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
-    },
-    {
       "repo": "ShoWin2333/dsh-hongguo",
       "npm": "dsh-hongguo",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -4885,6 +4885,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "Kiru-Sama/dsh-progress-bar",
+      "npm": "dsh-progress-bar",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-10"
+    },
+    {
       "repo": "060625dfy/dsh-prompt-boost",
       "npm": "dsh-prompt-boost",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -5251,12 +5257,6 @@
       "npm": "dsh-qwen-mm-plugins",
       "why": "no such package",
       "since": "2026-08-21"
-    },
-    {
-      "repo": "guiyuan77/dsh-reader",
-      "npm": "dsh-reader",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
     },
     {
       "repo": "ShoWin2333/dsh-reader",
@@ -5688,46 +5688,46 @@
       "since": "2026-10-19"
     },
     {
-      "repo": "Huo-yang/dsh-session-trash",
-      "npm": "dsh-session-trash",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
-    },
-    {
-      "repo": "vi0let-dev/dsh-session-trash",
-      "npm": "dsh-session-trash",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
-    },
-    {
-      "repo": "a307608689-afk/dsh-session-trash",
-      "npm": "dsh-session-trash",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
-    },
-    {
-      "repo": "ozjxnxh/dsh-session-trash",
-      "npm": "dsh-session-trash",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
-    },
-    {
       "repo": "xxiiiixx/dsh-session-trash",
       "npm": "dsh-session-trash",
       "why": "7 listed repos declare this name and the package states no repository",
       "since": "2026-11-07"
     },
     {
+      "repo": "Huo-yang/dsh-session-trash",
+      "npm": "dsh-session-trash",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-10"
+    },
+    {
+      "repo": "vi0let-dev/dsh-session-trash",
+      "npm": "dsh-session-trash",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-10"
+    },
+    {
+      "repo": "a307608689-afk/dsh-session-trash",
+      "npm": "dsh-session-trash",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-10"
+    },
+    {
+      "repo": "ozjxnxh/dsh-session-trash",
+      "npm": "dsh-session-trash",
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-10"
+    },
+    {
       "repo": "qyy2005/dsh-session-trash",
       "npm": "dsh-session-trash",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-10"
     },
     {
       "repo": "forerunner-ux/dsh-session-trash",
       "npm": "dsh-session-trash",
-      "why": "7 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
+      "why": "6 listed repos declare this name and the package states no repository",
+      "since": "2026-11-10"
     },
     {
       "repo": "fujunchao/dsh-session-vault",
@@ -6403,6 +6403,12 @@
       "npm": "dsh-tool-git",
       "why": "published by lxj808624/dsh-tool-git",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "SouleyMoni1/dsh-tool-mssql",
+      "npm": "dsh-tool-mssql",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-10"
     },
     {
       "repo": "saurtone/dsh-tool-somark",
