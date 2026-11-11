@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+103 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -109,4 +109,5 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | otto-dsh | 1 | [ottotheagent/otto-dsh](https://github.com/ottotheagent/otto-dsh) | Book flights, hotels, and cars from DeepSeek Harness through the Otto travel MCP connector. | 0.1.0-rc.8 (2026-08-20) |
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feishu-beacon | 0 | [jiangdunchun/dsh-feishu-beacon](https://github.com/jiangdunchun/dsh-feishu-beacon) · [npm](https://www.npmjs.com/package/dsh-feishu-beacon) | DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook | 0.1.7-rc.2 (2026-09-29) |
+| dsh-lark-message | - | [respawnlife/dsh-lark-message](https://github.com/respawnlife/dsh-lark-message) · [npm](https://www.npmjs.com/package/dsh-lark-message) | Feishu/Lark notification channel for DeepSeek Harness: bind a bot with a QR code, push agent notifications to Feishu, and chat with DSH sessions from Feishu. | 0.2.2-rc.1 (2026-11-11) |
 | dsh-reasoning-distill | 0 | [huhu23333/dsh-reasoning-distill](https://github.com/huhu23333/dsh-reasoning-distill) · [npm](https://www.npmjs.com/package/dsh-reasoning-distill) | Distill over-long model reasoning into its useful core and replay the distilled version on every later request, with a per-session cost report. | 0.2.0-rc.2 (2026-10-17) |

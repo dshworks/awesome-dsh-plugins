@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -613547,6 +613547,22 @@
         "observability"
       ],
       "pushedAt": "2026-11-05"
+    },
+    {
+      "name": "dsh-lark-message",
+      "repo": "respawnlife/dsh-lark-message",
+      "npm": "dsh-lark-message",
+      "description": "Feishu/Lark notification channel for DeepSeek Harness: bind a bot with a QR code, push agent notifications to Feishu, and chat with DSH sessions from Feishu.",
+      "category": "bundle",
+      "tags": [
+        "notifications",
+        "channels"
+      ],
+      "added": "2026-11-11",
+      "lastVerified": "2026-11-11",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
