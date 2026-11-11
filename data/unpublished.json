@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-11",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1205,
+  "count": 1206,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -765,6 +765,12 @@
       "npm": "@neplich/dsh-preset-dev",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "xhznAI/media-sense",
+      "npm": "@nex-assistant/media-sense",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-11"
     },
     {
       "repo": "omdsh-dev/fabric",
@@ -3217,12 +3223,6 @@
       "since": "2026-09-29"
     },
     {
-      "repo": "xiaokaizhou/dsh-llm-multimodal",
-      "npm": "dsh-llm-multimodal",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-09-29"
-    },
-    {
       "repo": "ziyou979/dsh-llm-oauth",
       "npm": "dsh-llm-oauth",
       "why": "no such package",
@@ -4833,50 +4833,56 @@
     {
       "repo": "brzvsk/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "henlii/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "jcc1997/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "onchainyaotoshi/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "xarleyn/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "nickhelion/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "isayrhythm/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "dale0525/dsh-plugins",
       "npm": "dsh-plugins",
-      "why": "8 listed repos declare this name and the package states no repository",
-      "since": "2026-11-03"
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
+    },
+    {
+      "repo": "ph0ryn/dsh-siwc",
+      "npm": "dsh-plugins",
+      "why": "9 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
     },
     {
       "repo": "Sakana-yuyu/dsh-plugins",
@@ -6315,12 +6321,6 @@
       "since": "2026-08-21"
     },
     {
-      "repo": "huxint/dsh-team",
-      "npm": "dsh-team",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-02"
-    },
-    {
       "repo": "shaot92-del/dsh-team",
       "npm": "dsh-team",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -6458,6 +6458,12 @@
       "npm": "dsh-token-usage",
       "why": "published by tastelessor/dsh-usage-stats",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "hairyf/dsh-tool-activator",
+      "npm": "dsh-tool-activator",
+      "why": "published by tranquillitatis-lab/dsh-tool-activator",
+      "since": "2026-11-11"
     },
     {
       "repo": "Huasfan/dsh-tool-git",
