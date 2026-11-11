@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-10",
+  "checked": "2026-11-11",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1200,
+  "count": 1205,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -296,6 +296,12 @@
       "npm": "@deepwhale-cn/dsh-bundle-cn-skills",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-03"
+    },
+    {
+      "repo": "Delthin/dsh-fast",
+      "npm": "@delthin/dsh-fast",
+      "why": "published by delthin/dsh-plugins",
+      "since": "2026-11-11"
     },
     {
       "repo": "detpecca/dsh-llm-wiki",
@@ -4777,6 +4783,18 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "Pasumao/dsh-plugin-workbench",
+      "npm": "dsh-plugin-workbench",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
+    },
+    {
+      "repo": "Mr-Maidong/dsh-plugin-workbench",
+      "npm": "dsh-plugin-workbench",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-11"
+    },
+    {
       "repo": "Abyss-Seeker/dsh-plugin-working-status",
       "npm": "dsh-plugin-working-status",
       "why": "no such package",
@@ -5289,6 +5307,12 @@
       "since": "2026-11-07"
     },
     {
+      "repo": "guiyuan77/dsh-reader",
+      "npm": "dsh-reader",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-11"
+    },
+    {
       "repo": "uckkk/dsh-readme",
       "npm": "dsh-readme",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -5372,6 +5396,12 @@
       "npm": "dsh-remote-ssh",
       "why": "5 listed repos declare this name and the package states no repository",
       "since": "2026-11-02"
+    },
+    {
+      "repo": "magic-chandelier/dsh-remote-workspace",
+      "npm": "dsh-remote-workspace",
+      "why": "published by graydovee/dsh-remote-workspace",
+      "since": "2026-11-11"
     },
     {
       "repo": "lmst2/dsh-rename",
