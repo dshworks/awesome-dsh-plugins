@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -613547,6 +613547,21 @@
         "observability"
       ],
       "pushedAt": "2026-11-05"
+    },
+    {
+      "name": "dsh-peer-message",
+      "repo": "respawnlife/dsh-peer-message",
+      "npm": "dsh-peer-message",
+      "description": "Cross-session messaging for DeepSeek Harness: deliver a message into another conversation and wake it up (peer_list / peer_send).",
+      "category": "bundle",
+      "tags": [
+        "agents"
+      ],
+      "added": "2026-11-11",
+      "lastVerified": "2026-11-11",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
