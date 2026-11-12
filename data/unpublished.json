@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1206,
+  "count": 1209,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1946,6 +1946,18 @@
       "npm": "dsh-conversation-nav",
       "why": "3 listed repos declare this name and the package states no repository",
       "since": "2026-09-29"
+    },
+    {
+      "repo": "CoolTea001/dsh-cool-git",
+      "npm": "dsh-cool-git",
+      "why": "published by cooltea001/dsh-cool-plugins",
+      "since": "2026-11-12"
+    },
+    {
+      "repo": "CoolTea001/dsh-cool-terminal",
+      "npm": "dsh-cool-terminal",
+      "why": "published by cooltea001/dsh-cool-plugins",
+      "since": "2026-11-12"
     },
     {
       "repo": "zoumutou/dsh-cost-balance",
@@ -4108,6 +4120,12 @@
       "npm": "dsh-openai-codex",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-09-29"
+    },
+    {
+      "repo": "edynasty/dsh-opencode-go-provider",
+      "npm": "dsh-opencode-go-provider",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-12"
     },
     {
       "repo": "GLFzr/dsh-opencode-go-quota",
