@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -13798,6 +13798,23 @@
         "marketplace"
       ],
       "pushedAt": "2026-11-12"
+    },
+    {
+      "name": "DSH CDX Plus",
+      "repo": "Asuta/dsh-cdx-plus",
+      "path": "packages/suite",
+      "npm": "dsh-asuta-cdx-plus",
+      "description": "Codex-inspired DSH suite with 18 independently switchable features: selection quotes, side chats, Git worktree environments and code review.",
+      "category": "bundle",
+      "tags": [
+        "ui",
+        "agents"
+      ],
+      "added": "2026-11-13",
+      "lastVerified": "2026-11-13",
+      "verifiedAgainst": "0.2.2-rc.2",
+      "status": "verified",
+      "evidence": "packages/suite/package.json#dsh.bundle"
     },
     {
       "name": "dsh_ark_plan_usage",
