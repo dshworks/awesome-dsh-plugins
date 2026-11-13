@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1213,
+  "count": 1222,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -139,6 +139,12 @@
       "npm": "@ddtcorex/dsh-maestro-devkit",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-07"
+    },
+    {
+      "repo": "ddtcorex/dsh-maestro-govard",
+      "npm": "@ddtcorex/dsh-maestro-govard",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-13"
     },
     {
       "repo": "ddtcorex/dsh-maestro-guard",
@@ -590,6 +596,12 @@
       "npm": "@hzjjxc/dsh-deepseek-console",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-20"
+    },
+    {
+      "repo": "JasonJin2006/dsh-sound-effects-plugin",
+      "npm": "@jasonjin06/dsh-sound-effects",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-13"
     },
     {
       "repo": "joshryandavis/dsh-llm-aws-kiro",
@@ -1350,6 +1362,18 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "JohnathonYe/auto-compact",
+      "npm": "dsh-auto-compact",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-13"
+    },
+    {
+      "repo": "fpm0312/dsh-auto-compact",
+      "npm": "dsh-auto-compact",
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-13"
+    },
+    {
       "repo": "AL-spiritphoenix/dsh-auto-model",
       "npm": "dsh-auto-model",
       "why": "no such package",
@@ -1941,6 +1965,12 @@
       "since": "2026-10-11"
     },
     {
+      "repo": "lerwa2025-a11y/dsh-conversation-avatar",
+      "npm": "dsh-conversation-avatar",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-13"
+    },
+    {
       "repo": "Fiker1203/dsh-conversation-nav",
       "npm": "dsh-conversation-nav",
       "why": "3 listed repos declare this name and the package states no repository",
@@ -2163,6 +2193,13 @@
       "npm": "dsh-dev-backup",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-02"
+    },
+    {
+      "repo": "kp-z/dsh-dev-git-graph",
+      "path": "packages/dsh-dev-git-graph",
+      "npm": "dsh-dev-git-graph",
+      "why": "published by kp-z/dsh-plugins",
+      "since": "2026-11-13"
     },
     {
       "repo": "hyperMoss/dsh-diary",
@@ -4837,6 +4874,13 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "dongsheng123132/dsh-workspace-plugins",
+      "path": "plugins/dsh-workspace-hub",
+      "npm": "dsh-plugin-workspace-hub",
+      "why": "published by dongsheng123132/workspace-hub",
+      "since": "2026-11-13"
+    },
+    {
       "repo": "anxinyuanshiyu/dsh-plugin-zh-inventory",
       "npm": "dsh-plugin-zh-inventory",
       "why": "no such package",
@@ -4973,6 +5017,12 @@
       "npm": "dsh-progress-bar",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-11-10"
+    },
+    {
+      "repo": "duxingxiake3/dsh-project-room",
+      "npm": "dsh-project-room",
+      "why": "published by genesi599/dsh-plugins",
+      "since": "2026-11-13"
     },
     {
       "repo": "060625dfy/dsh-prompt-boost",
@@ -7274,6 +7324,13 @@
       "npm": "keyringseam",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Rinai-R/kivotos",
+      "path": "packages/kivotos",
+      "npm": "kivotos",
+      "why": "published by dsh-labs/kivotos",
+      "since": "2026-11-13"
     },
     {
       "repo": "14185638/dsh-mcp-manager",
