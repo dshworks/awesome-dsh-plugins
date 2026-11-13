@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-13",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1222,
+  "count": 1223,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -102,6 +102,12 @@
       "npm": "@chaoset/adaptive-perf",
       "why": "no such package",
       "since": "2026-09-19"
+    },
+    {
+      "repo": "charonX/dsh-skills-manager",
+      "npm": "@charonx/dsh-skills-manager",
+      "why": "published by charonx/dsh-plugins",
+      "since": "2026-11-13"
     },
     {
       "repo": "vinyumao/dsh-opencode-usage",
@@ -2531,6 +2537,13 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "IceWhaleTech/filens",
+      "path": "integrations/deepseek-harness",
+      "npm": "dsh-filens",
+      "why": "published by orca-zhang/filens",
+      "since": "2026-11-13"
+    },
+    {
       "repo": "onclaw-dev/dsh-fin-onclaw",
       "npm": "dsh-fin-onclaw",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
@@ -2913,12 +2926,6 @@
     },
     {
       "repo": "ikevss/dsh-ima",
-      "npm": "dsh-ima",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
-    },
-    {
-      "repo": "0131kikimy/dsh-ima",
       "npm": "dsh-ima",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-07"
