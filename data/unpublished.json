@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-14",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1223,
+  "count": 1224,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -2925,12 +2925,6 @@
       "since": "2026-09-29"
     },
     {
-      "repo": "ikevss/dsh-ima",
-      "npm": "dsh-ima",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-07"
-    },
-    {
       "repo": "haitang1/dsh-image-bridge",
       "npm": "dsh-image-bridge",
       "why": "3 listed repos declare this name and the package states no repository",
@@ -4729,6 +4723,12 @@
       "npm": "dsh-plugin-reload-page",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-11-07"
+    },
+    {
+      "repo": "pelucoola/dsh-plugin-remote-ssh",
+      "npm": "dsh-plugin-remote-ssh",
+      "why": "published by weipengmo/dsh-plugin-remote-ssh",
+      "since": "2026-11-14"
     },
     {
       "repo": "skyzhao1223/dsh-plugin-scaffold",
@@ -7381,6 +7381,12 @@
       "npm": "path-click",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "shuguang1994/project-blueprint",
+      "npm": "project-blueprint",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-14"
     },
     {
       "repo": "adj18311/qq-bridge-plus",
