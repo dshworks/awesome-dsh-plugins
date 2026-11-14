@@ -114,7 +114,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-31102 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-14.
+31101 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-15.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -286,7 +286,7 @@ Subagents, workflows, cross-session coordination.
 | dsh-agent-compare | 423 | [lijiaqi-AI-Product-Manager/dsh-agent-compare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) · [npm](https://www.npmjs.com/package/dsh-agent-compare) | 同一需求，两版真跑：在 DSH 对话里比较、验证并审查采用。A DeepSeek Harness plugin for two implementations, live previews, shared checks and reviewed adoption. | 0.2.1-rc.5 (2026-11-03) |
 | gotry | 315 | [Danceiny/gotry](https://github.com/Danceiny/gotry) · [npm](https://www.npmjs.com/package/@danceiny/gotry) | GoTry — 从出发到下一次出发的 AI 旅行 Agent(dsh 插件)。npm/源码入口共用锁定的 dsh runtime + README 安装路径。 | 0.2.1-rc.5 (2026-11-03) |
 
-<sub>Showing the 25 most-starred of 2764. **[all 2764 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 2763. **[all 2763 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Memory & sessions
 
@@ -772,6 +772,7 @@ UI skins. The dedicated registry is [awesome-dsh-themes](https://github.com/dshw
 |---|---|---|---|---|
 | dsh-deep-whale | 3110 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale/tree/HEAD/maid-atelier) · [npm](https://www.npmjs.com/package/@smalltailqwq/dsh-client-ui-skin-maid-atelier) | Whale-girl skin series for the web UI; maid-atelier ships as a dsh.bundle package installed from a local clone (CC BY-NC-SA, non-commercial) | 0.1.0-rc.8 (2026-08-20) |
 | dsh-homepage-skin | 3 | [yushi-xxh/dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) · [npm](https://www.npmjs.com/package/dsh-homepage-skin) | DeepSeek Harness homepage-style background skin: WebGL fluid, dot grid and digital whale. Dark and light variants included. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-liquid-glass-ultroncn | 3 | [Ultroncn/dsh-liquid-glass](https://github.com/Ultroncn/dsh-liquid-glass) · [npm](https://www.npmjs.com/package/dsh-liquid-glass) | Theme backgrounds for DeepSeek Harness: native-style collapsible settings, translucent surfaces, and local image/video wallpapers. 主题背景：官方风格折叠设置、通透界面与本地图片/视频背景。 | 0.2.2-rc.2 (2026-11-15) |
 
 ### Tools
 

@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-2764 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+2763 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -568,7 +568,6 @@ Subagents, workflows, cross-session coordination.
 | dsh-inner-browser-use | 3 | [regrevia/dsh-inner-browser-use](https://github.com/regrevia/dsh-inner-browser-use) · [npm](https://www.npmjs.com/package/dsh-inner-browser-use) | An agent-owned Chromium sidecar mirrored into the DeepSeek Harness right column: the agent drives it, the person watches and can take the mouse, and logins survive restarts. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-jev-advisor | 3 | [gordan-code/dsh-jev-advisor](https://github.com/gordan-code/dsh-jev-advisor) · [npm](https://www.npmjs.com/package/dsh-jev-advisor) | Jev (TypeSafe System One) gives the human a second opinion, not the agent. When DSH's model asks you a multiple-choice question… | 0.1.7-rc.2 (2026-09-29) |
 | dsh-knj-workflow | 3 | [yangdongzhen590/dsh-knj-workflow](https://github.com/yangdongzhen590/dsh-knj-workflow) · [npm](https://www.npmjs.com/package/dsh-knj-workflow) | KNJ 开发任务编排插件：配置驱动的工作流 + 开发任务管理 + 可视化阶段进度（DeepSeek Harness） | 0.1.0-rc.8 (2026-08-25) |
-| dsh-liquid-glass-ultronen | 3 | [Ultroncn/dsh-liquid-glass](https://github.com/Ultroncn/dsh-liquid-glass) · [npm](https://www.npmjs.com/package/dsh-liquid-glass) | DeepSeek Harness 液态玻璃：点一下，整个界面通透起来。透明度随心调，背景图自由换——让你的 Agent 住进风景里。Liquid glass for DeepSeek Harness: one toggle to turn the whole shell translucent… | 0.1.0-rc.8 (2026-08-20) |
 | dsh-loop-continue | 3 | [yunxiyang/dsh-loop-continue](https://github.com/yunxiyang/dsh-loop-continue) · [npm](https://www.npmjs.com/package/dsh-loop-continue) | Continue a DeepSeek Harness agent turn when the model narrated but did not call a tool. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-maid | 3 | [yuanstarstar/dsh-maid](https://github.com/yuanstarstar/dsh-maid) | Maid mode: roleplay the Agent as a customizable maid character with switchable, importable and prompt-generated character cards. | 0.2.0-rc.2 (2026-10-05) |
 | dsh-manim | 3 | [Strivy-ZSY/dsh-manim](https://github.com/Strivy-ZSY/dsh-manim) | DSH 的 Manim 动画工作室：侧边栏「动画」行 + 右侧栏「动画工作室」tab，用论文/方法生成讲解视频。宿主半边管工作区门控、渲染引擎（自带的 Python venv 里跑 manim 0.22）、视频/分镜的 Range 流式回放，外加三个 agent 工具 manim_scene / manim_render / manim_frames。 | 0.2.1-rc.2 (2026-10-26) |

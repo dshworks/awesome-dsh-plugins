@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -93806,21 +93806,20 @@
       "pushedAt": "2026-08-19"
     },
     {
-      "name": "dsh-liquid-glass-ultronen",
+      "name": "dsh-liquid-glass-ultroncn",
       "repo": "Ultroncn/dsh-liquid-glass",
-      "description": "DeepSeek Harness 液态玻璃：点一下，整个界面通透起来。透明度随心调，背景图自由换——让你的 Agent 住进风景里。Liquid glass for DeepSeek Harness: one toggle to turn the whole shell translucent…",
-      "category": "plugin",
+      "description": "Theme backgrounds for DeepSeek Harness: native-style collapsible settings, translucent surfaces, and local image/video wallpapers. 主题背景：官方风格折叠设置、通透界面与本地图片/视频背景。",
+      "category": "theme",
       "official": false,
       "added": "2026-08-17",
-      "lastVerified": "2026-08-20",
-      "verifiedAgainst": "0.1.0-rc.8",
+      "lastVerified": "2026-11-15",
+      "verifiedAgainst": "0.2.2-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
       "npm": "dsh-liquid-glass",
       "stars": 3,
       "starsUpdated": "2026-11-14",
       "tags": [
-        "agents",
         "ui"
       ],
       "pushedAt": "2026-11-14"
