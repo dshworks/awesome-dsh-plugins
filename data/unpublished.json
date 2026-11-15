@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-15",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1224,
+  "count": 1225,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -4120,6 +4120,12 @@
       "npm": "dsh-ntfy",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-10"
+    },
+    {
+      "repo": "yang208691-source/dsh-nutstore-backup",
+      "npm": "dsh-nutstore-backup",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-15"
     },
     {
       "repo": "Cavan-Ou/dsh-observation-journal",
