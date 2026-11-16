@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-16",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1228,
+  "count": 1234,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -126,6 +126,13 @@
       "npm": "@citisen/dsh-font",
       "why": "published by citisen/dsh-font",
       "since": "2026-11-03"
+    },
+    {
+      "repo": "cnzgray/dsh-plugins",
+      "path": "packages/claude-auto-memory",
+      "npm": "@cnzgray/dsh-claude-auto-memory",
+      "why": "published by cnzgray/dsh-claude-auto-memory",
+      "since": "2026-11-16"
     },
     {
       "repo": "cxzrdxy/dsh-file-explorer",
@@ -4141,6 +4148,24 @@
       "since": "2026-11-15"
     },
     {
+      "repo": "aaz111/dsh-nx",
+      "npm": "dsh-nx",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-11-16"
+    },
+    {
+      "repo": "Touhouywn/dsh-nx",
+      "npm": "dsh-nx",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-11-16"
+    },
+    {
+      "repo": "27painter/dsh-nx",
+      "npm": "dsh-nx",
+      "why": "3 listed repos declare this name and the package states no repository",
+      "since": "2026-11-16"
+    },
+    {
       "repo": "Cavan-Ou/dsh-observation-journal",
       "npm": "dsh-observation-journal",
       "why": "no such package",
@@ -6445,6 +6470,12 @@
       "since": "2026-11-02"
     },
     {
+      "repo": "Koierrr/dsh-team-model-router",
+      "npm": "dsh-team-model-router",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-16"
+    },
+    {
       "repo": "hi-wenw/dsh-telegram-channel",
       "npm": "dsh-telegram-channel",
       "why": "3 listed repos declare this name and the package states no repository",
@@ -7401,6 +7432,13 @@
       "npm": "oh-my-dsh",
       "why": "published by amplifthq/oh-my-dsh",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "omnimux-ai/omnimux-dsh",
+      "path": "archive/google-vids/plugins/omnimux-video",
+      "npm": "omnimux-video",
+      "why": "published by omnimux-ai/omnimux-client",
+      "since": "2026-11-16"
     },
     {
       "repo": "harmony520/path-click",
