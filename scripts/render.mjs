@@ -294,7 +294,7 @@ Verified dsh traps, skill discovery rules, and hook-bridge limits live in [howto
 
 ## License
 
-MIT. Not affiliated with DeepSeek; the harness README calls itself "an idea, an official showcase, and a source of inspiration", and the ecosystem belongs to the community.
+MIT. Not affiliated with DeepSeek; the harness's [CONTRIBUTING.md](https://github.com/deepseek-ai/deepseek-harness/blob/master/CONTRIBUTING.md) calls the repo "an idea, an official showcase, and a source of inspiration", and the ecosystem belongs to the community.
 `;
 
 mkdirSync(join(ROOT, "docs"), { recursive: true });
