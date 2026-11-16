@@ -613592,6 +613592,22 @@
         "observability"
       ],
       "pushedAt": "2026-11-12"
+    },
+    {
+      "name": "dsh-caidazi-boards",
+      "repo": "markthc/dsh-caidazi-boards",
+      "npm": "@caidazi/dsh-boards",
+      "description": "Investment research boards with Caidazi MCP data, Yahoo price charts and versioned research snapshots for memory, AI infrastructure, PCB/CCL and US data-center policy.",
+      "category": "bundle",
+      "tags": [
+        "knowledge",
+        "ui"
+      ],
+      "added": "2026-11-16",
+      "lastVerified": "2026-11-16",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
