@@ -210,7 +210,7 @@ Use that address exactly: dsh refuses redirects, and the \`${cfg.org}.github.io\
 
 ## Why a filtered registry
 
-DeepSeek delegates the ecosystem to the community: no first-party marketplace, discovery happens on the [\`dsh-plugin\`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of ${coverage.measured} it holds ${num(coverage.topics["dsh-plugin"])}, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
+DeepSeek delegates the ecosystem to the community. There is no first-party marketplace yet ([announced 2026-11-05](https://dsh.works/notes/deepseek-counts-35000-plugins), not shipped); discovery happens on the [\`dsh-plugin\`](https://github.com/topics/dsh-plugin) GitHub topic. On launch day that topic held 431 repositories. As of ${coverage.measured} it holds ${num(coverage.topics["dsh-plugin"])}, template spam and topic-riders included. A raw topic feed is not a registry; the filter is the value this repo adds.
 
 How much filtering that is, measured on ${coverage.measured}: **${num(coverage.unique)}** repositories carry a dsh discovery topic and **${num(coverage.decided)}** of them — ${pct}% — have been opened, read, and decided. ${num(rejectedRows.length)} were rejected, **${num(noInstallPath)}** of those for having no install path at any depth: no \`dsh\` manifest in \`package.json\`, no dsh dependency, no \`SKILL.md\`. They carry the topic and nothing else. Every rejection is published with its reason and a recheck date in [\`data/rejected.json\`](data/rejected.json).
 
