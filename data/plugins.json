@@ -628121,11 +628121,11 @@
     {
       "name": "dsh-better-notice",
       "repo": "MeruSu/dsh-better-notice",
-      "description": "Better Notice — unified visual and audible session notices for DeepSeek Harness: hot-session tab seats, sidebar state glyphs, per-state sounds and popout artwork",
+      "description": "Puts each session's state where you already look: a seat in the conversation tab row, a glyph on its sidebar row, a pill in the Windows title bar, plus optional sound or popup on change.",
       "category": "plugin",
       "official": false,
       "added": "2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "verifiedAgainst": "0.2.2-rc.1",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
@@ -628133,7 +628133,7 @@
       "stars": 1,
       "starsUpdated": "2026-11-16",
       "tags": [
-        "memory",
+        "notifications",
         "ui"
       ],
       "pushedAt": "2026-11-16"
@@ -628141,11 +628141,11 @@
     {
       "name": "dsh-better-setting-page",
       "repo": "MeruSu/dsh-better-setting-page",
-      "description": "Full-screen settings page with a collapsible navigation rail for DeepSeek Harness, plus a small page holding the two switches.",
+      "description": "Full-screen settings dialog for DeepSeek Harness: fills the window, collapses the section rail to a 56px icon column, and hides the settings pages you never open.",
       "category": "plugin",
       "official": false,
       "added": "2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "verifiedAgainst": "0.2.2-rc.1",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
@@ -628153,7 +628153,7 @@
       "stars": 1,
       "starsUpdated": "2026-11-16",
       "tags": [
-        "capabilities"
+        "ui"
       ],
       "pushedAt": "2026-11-16"
     },

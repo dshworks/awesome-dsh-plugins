@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-3083 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3084 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -850,6 +850,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-better-float | 1 | [metaone01/dsh-better-float](https://github.com/metaone01/dsh-better-float) · [npm](https://www.npmjs.com/package/@metaone01/dsh-better-float) | Pick any DOM element with a shortcut and pull it out as a floating panel or a standalone OS window. | 0.2.0-rc.2 (2026-10-05) |
 | dsh-better-interface | 1 | [satan9394/dsh-better-interface](https://github.com/satan9394/dsh-better-interface) | 界面质量技能系列：跨学科界面评审（UI/排版/颜色/可访问性/布局/产品写作）、variant 多版本选择器、explain-interface 逆向解释效果、better-interface 协调评审。受 jakubkrehel/skills（3.9k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-left-sidebar | 1 | [exoticknight/dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) · [npm](https://www.npmjs.com/package/dsh-better-left-sidebar) | A cleaner, better-organized DeepSeek Harness sidebar with support for multiple plugin-defined widgets. | 0.2.1-rc.5 (2026-11-02) |
+| dsh-better-setting-page | 1 | [MeruSu/dsh-better-setting-page](https://github.com/MeruSu/dsh-better-setting-page) · [npm](https://www.npmjs.com/package/dsh-better-setting-page) | Full-screen settings dialog for DeepSeek Harness: fills the window, collapses the section rail to a 56px icon column, and hides the settings pages you never open. | 0.2.2-rc.1 (2026-11-17) |
 | dsh-better-sidebar-onlyoffice | 1 | [chendefine/dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) | DSH web plugin: open .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE Document Server (JWT-signed config, in-network document/callback routes, save-back to disk). | 0.1.1-rc.2 (2026-08-28) |
 | dsh-better-todo | 1 | [lewisyoung0914/dsh-better-todo](https://github.com/lewisyoung0914/dsh-better-todo) · [npm](https://www.npmjs.com/package/dsh-better-todo) | A floating todo panel for the DSH Web UI with a built-in pomodoro timer, today/more grouping and a separate all-items tab. | 0.2.2-rc.1 (2026-11-07) |
 | dsh-better-workbench | 1 | [omdsh-dev/dsh-better-workbench](https://github.com/omdsh-dev/dsh-better-workbench) · [npm](https://www.npmjs.com/package/dsh-better-workbench) | Extensible DSH Web workbench host with durable instances, templates, and page, panel, and capsule presentations | 0.1.7-rc.2 (2026-09-29) |

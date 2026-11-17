@@ -150,7 +150,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-annotation | 169 | [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) · [npm](https://www.npmjs.com/package/@changfenhuang/dsh-annotation) | DSH Web selection-annotation plugin: select assistant text, annotate (optional), and press Enter to send the annotation block with your message — the model replies to each annotation by number,. | 0.1.0-rc.8 (2026-08-20) |
 | deepseek-harness-android | 133 | [dphmoblie/deepseek-harness-android](https://github.com/dphmoblie/deepseek-harness-android/tree/HEAD/packages/dsh-mobile-compat) | Client plugin: mobile AppFrame for the embedded Harness Web UI (<640px drawer sidebar + bottom-sheet details) and mobile layout overrides for desktop DSH plugins | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 3083. **[all 3083 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 3084. **[all 3084 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Terminals & desktop
 
@@ -218,7 +218,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-bili-scroll | 1422 | [c1overzz/dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) · [npm](https://www.npmjs.com/package/dsh-bili-scroll) | DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你 | 0.2.0-rc.2 (2026-10-17) |
 | dsh-free-search | 1277 | [DDDMUC/dsh-free-search](https://github.com/DDDMUC/dsh-free-search) · [npm](https://www.npmjs.com/package/dsh-free-search) | Free web search provider for DeepSeek Harness: DuckDuckGo HTML backend, no API key required. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 8801. **[all 8801 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 8800. **[all 8800 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Vision
 
@@ -320,7 +320,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-fish-memory | 524 | [Yuuyuko-uu/dsh-fish-memory](https://github.com/Yuuyuko-uu/dsh-fish-memory) | 给 DSH 里的会话一份会淡忘的长期记忆，每条都带时间。 | 0.1.7-rc.2 (2026-09-29) |
 | operator-memory | 516 | [aerovato/operator-memory](https://github.com/aerovato/operator-memory/tree/HEAD/packages/deepseek) · [npm](https://www.npmjs.com/package/@aerovato/operator-deepseek) | Operator Memory adapter for DeepSeek Harness. | 0.2.1-rc.2 (2026-10-26) |
 
-<sub>Showing the 25 most-starred of 5509. **[all 5509 →](lists/memory-sessions.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 5508. **[all 5508 →](lists/memory-sessions.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Models & providers
 
@@ -456,7 +456,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-plugin-call-me | 8 | [radres/dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) | Your DeepSeek Harness agent rings your phone: it asks out loud, you answer out loud, and what you said steers the run. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-douyin-watch | 7 | [miqian-nomad/dsh-douyin-watch](https://github.com/miqian-nomad/dsh-douyin-watch) · [npm](https://www.npmjs.com/package/dsh-douyin-watch) | 让大肥鱼活在抖音上：新私信叫醒 agent，能回私信、发评论、回楼中楼、读通知、分析视频；带频率上限、去重和发完核对。 | 0.2.1-rc.5 (2026-11-03) |
 
-<sub>Showing the 25 most-starred of 718. **[all 718 →](lists/notifications.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 719. **[all 719 →](lists/notifications.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Usage & cost
 

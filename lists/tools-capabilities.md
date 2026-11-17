@@ -4,7 +4,7 @@
 
 New things the model can do: search, browser, files, databases, devices, media.
 
-8801 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+8800 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -2028,7 +2028,6 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-better-display-cainiaon | 1 | [cainiaoNO1/dsh-better-display](https://github.com/cainiaoNO1/dsh-better-display) | DeepSeek Harness 的「阅读」视图插件（自用维护版）：过程折叠、实时思考卡片、最终回答聚焦。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-better-display-daha1216 | 1 | [daha1216/dsh-better-display](https://github.com/daha1216/dsh-better-display) | A calmer reading view for DeepSeek Harness: native process details, live reasoning, and clean final answers. | 0.1.7-rc.2 (2026-09-29) |
 | dsh-better-keymap | 1 | [Smallcarve/dsh-better-keymap](https://github.com/Smallcarve/dsh-better-keymap) · [npm](https://www.npmjs.com/package/dsh-better-keymap) | DeepSeek Harness shortcuts on your terms: a later assignment overrides an earlier one, displacements are reported, and even the composer's send/newline/complementary keys are rebindable. | 0.2.0-rc.2 (2026-10-17) |
-| dsh-better-setting-page | 1 | [MeruSu/dsh-better-setting-page](https://github.com/MeruSu/dsh-better-setting-page) · [npm](https://www.npmjs.com/package/dsh-better-setting-page) | Full-screen settings page with a collapsible navigation rail for DeepSeek Harness, plus a small page holding the two switches. | 0.2.2-rc.1 (2026-11-16) |
 | dsh-better-sidebar-loader | 1 | [dsh-plugins/dsh-better-sidebar-loader](https://github.com/dsh-plugins/dsh-better-sidebar-loader) · [npm](https://www.npmjs.com/package/@dsh-plugin/dsh-better-sidebar-loader) | dshloader-API transcription of dsh-better-sidebar: the VSCode-like right sidebar (explorer / editor / terminal / git / browser)… | 0.2.1-rc.5 (2026-11-03) |
 | dsh-better-tool-ui | 1 | [GeekRicardo/dsh-better-tool-ui](https://github.com/GeekRicardo/dsh-better-tool-ui) | DeepSeek Harness web 插件：把工具调用卡片（含 MCP 工具）与 thinking 行渲染成紧凑时间线（左侧色轨 + GitHub 风 diff + goal callout）。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-bid-health-check | 1 | [PerryLink/dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) · [npm](https://www.npmjs.com/package/dsh-bid-health-check) | 读 RequirementsPack 与投标文件，报告哪些要求看起来有响应、哪些没有、哪些根本定位不到。 | 0.2.1-rc.2 (2026-10-26) |
