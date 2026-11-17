@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-17",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1315,
+  "count": 1316,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1548,6 +1548,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "hermes-ai-2026/dsh-browser-agent",
+      "npm": "dsh-browser-agent",
+      "why": "published by natgurlain/dsh-browser-agent",
+      "since": "2026-11-17"
+    },
+    {
       "repo": "ylwl1997/dsh-browser",
       "npm": "dsh-browser-bsk",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -2269,12 +2275,6 @@
       "npm": "dsh-dep-audit",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-13"
-    },
-    {
-      "repo": "DDL095/dsh-depth-tool-gate",
-      "npm": "dsh-depth-tool-gate",
-      "why": "published by ddl095/dsh-depth-tool-gate.git",
-      "since": "2026-11-16"
     },
     {
       "repo": "zhaiyateng/dsh-design-skills",
@@ -7345,6 +7345,12 @@
       "npm": "dsh-usage-report",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-02"
+    },
+    {
+      "repo": "Danerus23/dsh-user-mirror-ru",
+      "npm": "dsh-user-mirror",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-17"
     },
     {
       "repo": "zdjmrq/dsh-pluginmanager",
