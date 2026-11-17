@@ -4,7 +4,7 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-16",
+  "checked": "2026-11-17",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
   "count": 1315,
   "packages": [
@@ -1237,6 +1237,13 @@
       "since": "2026-10-01"
     },
     {
+      "repo": "intpfx/OpenFX",
+      "path": "domains/dsh-openfx/packages/ambient-theme",
+      "npm": "dsh-ambient-theme",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-17"
+    },
+    {
       "repo": "railgun0325/dsh-phone",
       "path": "plugin",
       "npm": "dsh-android-control",
@@ -2388,12 +2395,6 @@
     },
     {
       "repo": "kialexdl/dsh-document-reader",
-      "npm": "dsh-document-reader",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "wangjianghu/dsh-document-reader",
       "npm": "dsh-document-reader",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-16"
