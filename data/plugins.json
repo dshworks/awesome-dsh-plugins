@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -628176,6 +628176,25 @@
         "ui"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "dsh-temp-full-access",
+      "repo": "MeruSu/dsh-temp-full-access",
+      "description": "Starts a countdown when a session switches to full access and sets it back to workspace-write when it runs out; switching back by hand cancels the timer.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-17",
+      "lastVerified": "2026-11-17",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-temp-full-access",
+      "stars": 1,
+      "starsUpdated": "2026-11-17",
+      "tags": [
+        "safety"
+      ],
+      "pushedAt": "2026-11-17"
     },
     {
       "name": "power-dsh",

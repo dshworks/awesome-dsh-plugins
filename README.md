@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 36,924 entries from 22,269 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 36,925 entries from 22,269 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -114,7 +114,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-35557 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-16.
+35558 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-17.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -558,7 +558,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-startup-screen | 51 | [QIFANAI/dsh-startup-screen](https://github.com/QIFANAI/dsh-startup-screen/tree/HEAD/package) | DeepSeek Harness 启动界面与启动动画：黑幕 DeepSeek 标识 → 过曝洗白 → 暖白档案底板 → 交互式访问授权序列（需要访问许可 / 身份资料确认 / 接收访问需求 / 开始读取权限 / 读取完毕·核验通过 / 欢迎访问）。中文主字 + 英文等宽副标题，真声素材 + 界面音效，身份名称等参数在 DSH 设置页可改。 | 0.2.0-rc.2 (2026-10-18) |
 | dsh-loop-guard-mrweicod | 41 | [MrWeiCodes/dsh-loop-guard](https://github.com/MrWeiCodes/dsh-loop-guard) · [npm](https://www.npmjs.com/package/@mrweicodes/dsh-loop-guard) | Thinking-loop guard for dsh: observes the llm/stream waterfall and breaks a model that degrades into a loop. | 0.1.7-rc.2 (2026-09-29) |
 
-<sub>Showing the 25 most-starred of 1145. **[all 1145 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 1146. **[all 1146 →](lists/safety-approvals.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Plugin managers & stores
 

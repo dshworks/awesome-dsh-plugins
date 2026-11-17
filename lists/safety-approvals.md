@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-1145 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1146 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -451,6 +451,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-task-checkpoint-guard | 1 | [jlnkx5200-beep/dsh-task-checkpoint-guard](https://github.com/jlnkx5200-beep/dsh-task-checkpoint-guard) | Durable task checkpoints and safe, bounded recovery for DeepSeek Harness agents. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-task-resume | 1 | [systemsssx/dsh-task-resume](https://github.com/systemsssx/dsh-task-resume) | 提示交接：把 dsh-hint-ball 与 dsh-auto-handoff 合并成一个本地 DSH 插件——侧栏「提示交接」入口、消息板块 + 交接按钮的暗色弹窗、Computer Use / 标准两种完全权限模式的交接，以及按真实压缩轮数阈值自动触发交接。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-task2docker-studio | 1 | [CarryChang/dsh-task2docker-studio](https://github.com/CarryChang/dsh-task2docker-studio) | Task-to-Docker studio for DeepSeek Harness: offload work from a weak or security-constrained host onto the user's own servers. | 0.2.2-rc.1 (2026-11-16) |
+| dsh-temp-full-access | 1 | [MeruSu/dsh-temp-full-access](https://github.com/MeruSu/dsh-temp-full-access) · [npm](https://www.npmjs.com/package/dsh-temp-full-access) | Starts a countdown when a session switches to full access and sets it back to workspace-write when it runs out; switching back by hand cancels the timer. | 0.2.2-rc.1 (2026-11-17) |
 | dsh-think-guard | 1 | [wsfangyou/dsh-think-guard](https://github.com/wsfangyou/dsh-think-guard) | DSH 思考纪律插件：从无意义思考的七个成因（无停止准则/提示词诱发过度谨慎/复述与元思考/分支爆炸/长度模仿/复杂度不分级/重复循环生成）出发——系统提示纪律段构建期现读三档强度，assemble 水龙扫描过度谨慎触发词、命中才追加校准附录，只追加不删改宿主内容 | 0.2.1-rc.5 (2026-11-03) |
 | dsh-todo-freshness-guard | 1 | [lamost423/dsh-todo-freshness-guard](https://github.com/lamost423/dsh-todo-freshness-guard) | Remind and block stale tool work until todo_write is reconciled in DeepSeek Harness | 0.1.0-rc.8 (2026-08-20) |
 | dsh-todo-guard | 1 | [a903067276-rgb/dsh-todo-guard](https://github.com/a903067276-rgb/dsh-todo-guard) | Reliable todo panel for DSH: survives restarts, verifies completion evidence | 0.1.0-rc.8 (2026-08-20) |
