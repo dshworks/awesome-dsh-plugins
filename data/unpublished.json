@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1316,
+  "count": 1324,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -610,12 +610,6 @@
       "npm": "@huanlin/dsh-plugin-device-info",
       "why": "no such package",
       "since": "2026-08-21"
-    },
-    {
-      "repo": "whisperflo/dsh-deepseek-console",
-      "npm": "@hzjjxc/dsh-deepseek-console",
-      "why": "published by nobody — the package states no repository and the repo does not claim the name",
-      "since": "2026-10-20"
     },
     {
       "repo": "JasonJin2006/dsh-sound-effects-plugin",
@@ -2837,6 +2831,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "Zhang-Eli/dsh-github-trending-masonry",
+      "npm": "dsh-github-trending-masonry",
+      "why": "published by wzvx/dsh-github-trending-masonry",
+      "since": "2026-11-18"
+    },
+    {
       "repo": "lsaa4/dsh-custom-ui",
       "npm": "dsh-glass-ui",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -3598,6 +3598,13 @@
       "since": "2026-11-16"
     },
     {
+      "repo": "Antipas/undohaven",
+      "path": "packages/log-gate",
+      "npm": "dsh-log-gate",
+      "why": "published by owner/undohaven",
+      "since": "2026-11-18"
+    },
+    {
       "repo": "Tangcuyu4/dsh-long-memory",
       "npm": "dsh-long-memory",
       "why": "4 listed repos declare this name and the package states no repository",
@@ -3659,6 +3666,12 @@
       "since": "2026-11-16"
     },
     {
+      "repo": "Zhang-Eli/dsh-market-dog",
+      "npm": "dsh-market-dog",
+      "why": "published by wzvx/dsh-market-dog",
+      "since": "2026-11-18"
+    },
+    {
       "repo": "ouyangyipeng/dsh-marketplace",
       "npm": "dsh-marketplace",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -3669,6 +3682,12 @@
       "npm": "dsh-marketplace",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-16"
+    },
+    {
+      "repo": "Zhang-Eli/dsh-matrix-todo",
+      "npm": "dsh-matrix-todo",
+      "why": "published by wzvx/dsh-matrix-todo",
+      "since": "2026-11-18"
     },
     {
       "repo": "kairoz9/dsh-mcp-admin",
@@ -4481,6 +4500,12 @@
       "npm": "dsh-omp-tui",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Zhang-Eli/dsh-one-pack",
+      "npm": "dsh-one-pack",
+      "why": "published by wzvx/dsh-one-pack",
+      "since": "2026-11-18"
     },
     {
       "repo": "Hoshino-Yumetsuki/dsh-onebot",
@@ -6461,6 +6486,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "JHyugou/dsh-sidebar-pet",
+      "npm": "dsh-sidebar-pet",
+      "why": "published by wanhang95/dsh-sidebar-pet",
+      "since": "2026-11-18"
+    },
+    {
       "repo": "GongYuanCaiJi/dsh-simplify",
       "npm": "dsh-simplify",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -6911,6 +6942,12 @@
       "npm": "dsh-tavern",
       "why": "published by chen731215-dev/dsh-tavern-v2",
       "since": "2026-08-27"
+    },
+    {
+      "repo": "yeweiliang7063/dsh-tcm",
+      "npm": "dsh-tcm-xueli",
+      "why": "published by yeweiliang7063/dsh-tcm-xueli",
+      "since": "2026-11-18"
     },
     {
       "repo": "Yihong89/dsh-teacher",
@@ -7857,6 +7894,13 @@
       "since": "2026-08-26"
     },
     {
+      "repo": "Jack7510/ggb-plugins",
+      "path": "dsh",
+      "npm": "ggb-plugins-dsh",
+      "why": "published by jack7510/ggb-plugins-dsh",
+      "since": "2026-11-18"
+    },
+    {
       "repo": "Cavan-Ou/hermes-dsh-collab",
       "npm": "hermes-dsh-collab",
       "why": "no such package",
@@ -7867,6 +7911,13 @@
       "npm": "hermes-to-dsh",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Bill-H9986/jco",
+      "path": "app",
+      "npm": "jco",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-18"
     },
     {
       "repo": "fieldnote-ops/keyringseam",
