@@ -115432,6 +115432,24 @@
       "pushedAt": "2026-08-15"
     },
     {
+      "name": "dsh-ollama-memory",
+      "repo": "haichongck/dsh-ollama-memory",
+      "description": "两层长期记忆插件：核心记忆文件每轮注入系统提示 + 本地 SQLite 向量库（Ollama 嵌入）。类别权重、存入去重、作废取代、容量治理与过时检测，检索按相似度×时间衰减×类别权重排序。",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-19",
+      "lastVerified": "2026-11-19",
+      "verifiedAgainst": "0.2.2-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@haichongck/dsh-ollama-memory",
+      "tags": [
+            "memory",
+            "capabilities"
+      ],
+      "pushedAt": "2026-11-19"
+},
+    {
       "name": "dsh-ollama-usage",
       "repo": "SeverusZh/dsh-ollama-usage",
       "description": "DeepSeek Harness 插件:可视化 Ollama Cloud 账号用量余量(每 5 小时会话用量 + 周用量),支持侧边栏双横条、设置页面板、API Key 与用量快照持久化、自动刷新与登录引导。Ollama Pro usage & remaining-quota visualization for DeepSeek Harness: 5-hour session + weekly",
