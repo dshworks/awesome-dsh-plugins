@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-5509 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+5508 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1438,7 +1438,6 @@ Memory systems, context management, session search/rewind/export.
 | dsh-best-workspace | 1 | [fengzhaoy/dsh-best-workspace](https://github.com/fengzhaoy/dsh-best-workspace) · [npm](https://www.npmjs.com/package/@zhaoyang10/dsh-best-workspace) | DSH Best Workspace — 为 DeepSeek Harness 提供 Codex 风格的左侧边栏（自绘项目/会话树，支持分组、置顶、拖拽排序、右键菜单）与输入框 ↑↓ 翻历史 · A Codex-style left sidebar for DSH with a project/session tree plus ↑/↓ input history | 0.2.2-rc.1 (2026-11-16) |
 | dsh-better-approve | 1 | [AngelosZou/dsh-better-approve](https://github.com/AngelosZou/dsh-better-approve) · [npm](https://www.npmjs.com/package/dsh-better-approve) | DeepSeek Harness plugin: an enhanced Auto review (Approve for me) gate with a selectable reviewer model and reasoning effort, a configurable denied-call policy, session-bound settings… | 0.2.1-rc.5 (2026-11-03) |
 | dsh-better-choice | 1 | [TLEWA/dsh-better-choice](https://github.com/TLEWA/dsh-better-choice) · [npm](https://www.npmjs.com/package/dsh-better-choice) | DSH ask_user_question enhancement: right-click an option to add a note, and ask the model a side question before choosing — with the session's own context and cache-friendly prefix. | 0.2.1-rc.5 (2026-11-04) |
-| dsh-better-notice | 1 | [MeruSu/dsh-better-notice](https://github.com/MeruSu/dsh-better-notice) · [npm](https://www.npmjs.com/package/dsh-better-notice) | Better Notice — unified visual and audible session notices for DeepSeek Harness: hot-session tab seats, sidebar state glyphs, per-state sounds and popout artwork | 0.2.2-rc.1 (2026-11-16) |
 | dsh-better-quotes | 1 | [SpellingDragon/dsh-better-quotes](https://github.com/SpellingDragon/dsh-better-quotes) · [npm](https://www.npmjs.com/package/dsh-better-quotes) | Quote or forward whole messages in DeepSeek Harness Web — one-action quoting, right-Sidebar multi-select, durable message metadata, and cross-session forwarding | 0.2.1-rc.5 (2026-11-02) |
 | dsh-better-session-title | 1 | [xinspark/dsh-better-session-topbar](https://github.com/xinspark/dsh-better-session-topbar) | Better Session Title — replace the DSH session topbar title with a workspace/session breadcrumb: switch workspaces and sessions right from the topbar. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-status | 1 | [Yaing-Yan/dsh-better-status](https://github.com/Yaing-Yan/dsh-better-status) | DeepSeek Harness 插件：把文本形式的会话统计（轮/步、LLM/工具耗时、首 token、tok/s、缓存命中、输入/输出 token）替换为页面右侧直观醒目的图表面板，每秒刷新。 | 0.1.7-rc.2 (2026-09-29) |

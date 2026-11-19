@@ -4,7 +4,7 @@
 
 Permission tiers, gates, redaction, protection.
 
-1145 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1147 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1010,6 +1010,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-skill-authoring | 0 | [boomzikazita/dsh-skill-authoring](https://github.com/boomzikazita/dsh-skill-authoring) | DSH skill authoring toolkit: scaffold new skills and audit them against a 9-gate quality checklist（skill 创建脚手架 + 9 项质量门禁审计） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-skill-deploy-harden | 0 | [zjukop/dsh-skill-deploy-harden](https://github.com/zjukop/dsh-skill-deploy-harden) · [npm](https://www.npmjs.com/package/dsh-skill-deploy-harden) | DeepSeek Harness skill — deploy an AI/web service to a cloud VM and harden it: never expose an unauthenticated web shell, unify tokens behind one gateway, redact secrets in logs… | 0.2.0-rc.2 (2026-10-07) |
 | dsh-skill-gate | 0 | [Bryan-cmf/dsh-skill-gate](https://github.com/Bryan-cmf/dsh-skill-gate) | DSH-Plugin: skill trigger/selection gate — when the model triggers a skill, the user picks from described candidates; 10s no-choice falls back to the system default. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-skill-gate (MeruSu) | - | [MeruSu/dsh-skill-gate](https://github.com/MeruSu/dsh-skill-gate) · [npm](https://www.npmjs.com/package/dsh-skill-gate) | Per-skill enable/disable for DSH skills: off means the skill is never offered to the model, kept in one guard list so no plugin can turn it back on silently. | 0.2.2-rc.1 (2026-11-20) |
 | dsh-skill-library | 0 | [lengrufeng2008/dsh-skill-library](https://github.com/lengrufeng2008/dsh-skill-library) | One installable DSH bundle with 100 practical skills across coding, testing, security, data, DevOps, product, writing, research, career, marketing, and operations. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-skill-radar-cqqooq12 | 0 | [CQQOOQ123/dsh-skill-radar](https://github.com/CQQOOQ123/dsh-skill-radar) | A lightweight automatic skill radar for DeepSeek Harness: auto-scout, auto-load strong matches, and acquire skills with security checks and rollback. | 0.2.2-rc.1 (2026-11-16) |
 | dsh-skill-scan | 0 | [lengrufeng2008/dsh-skill-scan](https://github.com/lengrufeng2008/dsh-skill-scan) | Static, read-only security first pass for DSH skills and plugin bundles: instruction override, remote shell, credentials, lifecycle scripts, JS patches, and obfuscation. | 0.2.1-rc.5 (2026-11-02) |
@@ -1051,6 +1052,7 @@ Permission tiers, gates, redaction, protection.
 | dsh-teaching-material-workbench | 0 | [Golden2002/dsh-teaching-material-workbench](https://github.com/Golden2002/dsh-teaching-material-workbench) | Evidence-gated teaching-material production workbench for DeepSeek Harness: scaffold a case, bind primary sources, audit claim-level grounding and the knowledge map… | 0.2.2-rc.1 (2026-11-07) |
 | dsh-teamwork-15352732 | 0 | [1535273240sch-droid/dsh-teamwork](https://github.com/1535273240sch-droid/dsh-teamwork) · [npm](https://www.npmjs.com/package/dsh-teamwork) | Teamwork multi-agent campaign kernel for DeepSeek Harness with a live 2D role panel: exclusive file ownership, dispatch budget, audit trail, verification gate, watchdog auto-heal… | 0.2.1-rc.5 (2026-11-02) |
 | dsh-telegram-sazzadur | 0 | [sazzadurrahmaan/dsh-telegram](https://github.com/sazzadurrahmaan/dsh-telegram) | Telegram channel for DeepSeek Harness — chat with your agent from Telegram, with a deny-by-default allowlist and in-chat tool approval. | 0.1.0-rc.8 (2026-08-25) |
+| dsh-temp-full-access | - | [MeruSu/dsh-temp-full-access](https://github.com/MeruSu/dsh-temp-full-access) · [npm](https://www.npmjs.com/package/dsh-temp-full-access) | Starts a countdown when a session is switched to full access and sets it back to workspace-write when it runs out; switching back by hand cancels the timer. | 0.2.2-rc.1 (2026-11-20) |
 | dsh-temp-workspace | 0 | [wjj-8283/dsh-temp-workspace](https://github.com/wjj-8283/dsh-temp-workspace) · [npm](https://www.npmjs.com/package/@wjj-8283/dsh-temp-workspace) | DSH web client plugin: a temporary workspace (临时工作区) — every conversation it contains is deleted at the next Harness restart (immediately or after a delay), optionally behind a confirm dialog. | 0.1.1-rc.2 (2026-09-04) |
 | dsh-test-guard | 0 | [ZhaoZiyangShaanxi/dsh-test-guard](https://github.com/ZhaoZiyangShaanxi/dsh-test-guard) · [npm](https://www.npmjs.com/package/dsh-test-guard) | Test development workbench plugin for DeepSeek Harness | 0.2.1-rc.5 (2026-11-02) |
 | dsh-text-mask | 0 | [uckkk/dsh-text-mask](https://github.com/uckkk/dsh-text-mask) | 文本脱敏：把文本中的邮箱/手机号/身份证/银行卡/IP/密钥等敏感信息替换为掩码，分享前保护隐私 | 0.1.0-rc.8 (2026-08-20) |

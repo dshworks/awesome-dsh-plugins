@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -628133,11 +628133,11 @@
     {
       "name": "dsh-better-notice",
       "repo": "MeruSu/dsh-better-notice",
-      "description": "Better Notice — unified visual and audible session notices for DeepSeek Harness: hot-session tab seats, sidebar state glyphs, per-state sounds and popout artwork",
+      "description": "Puts each session's state where you already look: a seat in the conversation tab row, a glyph on its sidebar row, a pill in the Windows title bar, plus optional sound or popup on change.",
       "category": "plugin",
       "official": false,
       "added": "2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-20",
       "verifiedAgainst": "0.2.2-rc.1",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
@@ -628145,7 +628145,7 @@
       "stars": 1,
       "starsUpdated": "2026-11-19",
       "tags": [
-        "memory",
+        "notifications",
         "ui"
       ],
       "pushedAt": "2026-11-19"
@@ -628153,11 +628153,11 @@
     {
       "name": "dsh-better-setting-page",
       "repo": "MeruSu/dsh-better-setting-page",
-      "description": "Full-screen settings page with a collapsible navigation rail for DeepSeek Harness, plus a small page holding the two switches.",
+      "description": "Full-screen settings dialog for DSH: fills the window, collapses the section rail to a 56px icon column, and hides the settings pages you never open.",
       "category": "plugin",
       "official": false,
       "added": "2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-20",
       "verifiedAgainst": "0.2.2-rc.1",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
@@ -628165,18 +628165,18 @@
       "stars": 1,
       "starsUpdated": "2026-11-19",
       "tags": [
-        "capabilities"
+        "ui"
       ],
       "pushedAt": "2026-11-19"
     },
     {
       "name": "dsh-ui-controller",
       "repo": "MeruSu/dsh-ui-controller",
-      "description": "Inspect and control the UI other plugins register into DeepSeek Harness slots (visibility, order, mirrored entries), and fold the sidebar's panels behind a single \"More (N)\" row.",
+      "description": "Inspect and control what other plugins register into DSH UI slots — hide, reorder or mirror entries — and fold the sidebar panels behind one More (N) row.",
       "category": "plugin",
       "official": false,
       "added": "2026-11-16",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-20",
       "verifiedAgainst": "0.2.2-rc.1",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
@@ -628184,8 +628184,8 @@
       "stars": 1,
       "starsUpdated": "2026-11-19",
       "tags": [
-        "observability",
-        "ui"
+        "ui",
+        "devtools"
       ],
       "pushedAt": "2026-11-19"
     },
@@ -701143,6 +701143,38 @@
       "pushedAt": "2026-11-09"
     },
     {
+      "name": "dsh-meru-ego",
+      "repo": "MeruSu/dsh-meru-ego",
+      "description": "Drives your own signed-in ego lite browser from a session: open a space, navigate, snapshot, click, fill, screenshot and run page scripts via the official CLI.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-20",
+      "lastVerified": "2026-11-20",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-meru-ego",
+      "tags": [
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-meru-preset",
+      "repo": "MeruSu/dsh-meru-preset",
+      "description": "Five agent presets — modeling, captain, dev, clerk, scholar — each with its own tool set, persona and skill folder, shipped as one bundle patch layer.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-20",
+      "lastVerified": "2026-11-20",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-meru-preset",
+      "tags": [
+        "agents"
+      ]
+    },
+    {
       "name": "dsh-plugin-session-purge-zzwtian",
       "repo": "zzwtian/dsh-plugin-session-purge",
       "description": "彻底删除 DSH 会话：右键菜单 + host 端真实擦除（日志、冷读缓存、概述缓存、workspace 账本）。",
@@ -701160,6 +701192,38 @@
         "observability"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "dsh-skill-gate (MeruSu)",
+      "repo": "MeruSu/dsh-skill-gate",
+      "description": "Per-skill enable/disable for DSH skills: off means the skill is never offered to the model, kept in one guard list so no plugin can turn it back on silently.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-20",
+      "lastVerified": "2026-11-20",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-skill-gate",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "name": "dsh-temp-full-access",
+      "repo": "MeruSu/dsh-temp-full-access",
+      "description": "Starts a countdown when a session is switched to full access and sets it back to workspace-write when it runs out; switching back by hand cancels the timer.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-20",
+      "lastVerified": "2026-11-20",
+      "verifiedAgainst": "0.2.2-rc.1",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-temp-full-access",
+      "tags": [
+        "safety"
+      ]
     }
   ]
 }

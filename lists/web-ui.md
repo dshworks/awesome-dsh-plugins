@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-3083 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3085 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -863,6 +863,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-better-float | 1 | [metaone01/dsh-better-float](https://github.com/metaone01/dsh-better-float) · [npm](https://www.npmjs.com/package/@metaone01/dsh-better-float) | Pick any DOM element with a shortcut and pull it out as a floating panel or a standalone OS window. | 0.2.0-rc.2 (2026-10-05) |
 | dsh-better-interface | 1 | [satan9394/dsh-better-interface](https://github.com/satan9394/dsh-better-interface) | 界面质量技能系列：跨学科界面评审（UI/排版/颜色/可访问性/布局/产品写作）、variant 多版本选择器、explain-interface 逆向解释效果、better-interface 协调评审。受 jakubkrehel/skills（3.9k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-better-left-sidebar | 1 | [exoticknight/dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) · [npm](https://www.npmjs.com/package/dsh-better-left-sidebar) | A cleaner, better-organized DeepSeek Harness sidebar with support for multiple plugin-defined widgets. | 0.2.1-rc.5 (2026-11-02) |
+| dsh-better-setting-page | 1 | [MeruSu/dsh-better-setting-page](https://github.com/MeruSu/dsh-better-setting-page) · [npm](https://www.npmjs.com/package/dsh-better-setting-page) | Full-screen settings dialog for DSH: fills the window, collapses the section rail to a 56px icon column, and hides the settings pages you never open. | 0.2.2-rc.1 (2026-11-20) |
 | dsh-better-sidebar-onlyoffice | 1 | [chendefine/dsh-sidebar-onlyoffice](https://github.com/chendefine/dsh-sidebar-onlyoffice) | DSH web plugin: open .docx/.xlsx/.pptx in the better-sidebar editor through a self-hosted ONLYOFFICE Document Server (JWT-signed config, in-network document/callback routes, save-back to disk). | 0.1.1-rc.2 (2026-08-28) |
 | dsh-better-todo | 1 | [lewisyoung0914/dsh-better-todo](https://github.com/lewisyoung0914/dsh-better-todo) · [npm](https://www.npmjs.com/package/dsh-better-todo) | A floating todo panel for the DSH Web UI with a built-in pomodoro timer, today/more grouping and a separate all-items tab. | 0.2.2-rc.1 (2026-11-07) |
 | dsh-better-workbench | 1 | [omdsh-dev/dsh-better-workbench](https://github.com/omdsh-dev/dsh-better-workbench) · [npm](https://www.npmjs.com/package/dsh-better-workbench) | Extensible DSH Web workbench host with durable instances, templates, and page, panel, and capsule presentations | 0.1.7-rc.2 (2026-09-29) |
@@ -1375,6 +1376,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-typst-preview | 1 | [Limbo-137/dsh-typst-preview](https://github.com/Limbo-137/dsh-typst-preview) | DeepSeek Harness web plugin: live Typst preview as a native right-Sidebar tab, rendered by a per-file `tinymist preview` server proxied over the app origin… | 0.1.7-rc.2 (2026-09-29) |
 | dsh-ui-beautify-zhangguo | 1 | [zhang-guo-wen/dsh-ui-beautify](https://github.com/zhang-guo-wen/dsh-ui-beautify) · [npm](https://www.npmjs.com/package/@guowenzhang/dsh-ui-beautify) | Page beautification for DeepSeek Harness: download open-source CJK webfonts on demand and let the Web GUI pick its body font | 0.1.7-rc.2 (2026-09-29) |
 | dsh-ui-container | 1 | [CH4ACKO3/dsh-ui-container](https://github.com/CH4ACKO3/dsh-ui-container) | Remote-capable recursive UI surface container for DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-ui-controller | 1 | [MeruSu/dsh-ui-controller](https://github.com/MeruSu/dsh-ui-controller) · [npm](https://www.npmjs.com/package/dsh-ui-controller) | Inspect and control what other plugins register into DSH UI slots — hide, reorder or mirror entries — and fold the sidebar panels behind one More (N) row. | 0.2.2-rc.1 (2026-11-20) |
 | dsh-ui-custom | 1 | [Summer-Perilla/dsh-ui-custom](https://github.com/Summer-Perilla/dsh-ui-custom) | DSH Web GUI 编辑模式：接管布局列宽，任意元素、组件可自定义，支持调整位置/宽/高/字号/隐藏。可选脱离文档流、吸附对齐，支持多选、批量、撤销、重置。兼容主题插件，允许用户调整元素获得更多空间和自定义个性化界面。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-ui-customizer | 1 | [qe2592008/dsh-ui-customizer](https://github.com/qe2592008/dsh-ui-customizer) | UI customizer for the dsh web GUI: a sidebar menu above Settings that sets a full-page background image with adjustable opacity | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ui-design-toggle | 1 | [YukoZ1227/dsh-ui-design-toggle](https://github.com/YukoZ1227/dsh-ui-design-toggle) · [npm](https://www.npmjs.com/package/dsh-ui-design-toggle) | DSH plugin: a sidebar switch that enables or disables the ui-ux-pro-max UI/UX design skill at runtime. | 0.2.1-rc.2 (2026-10-26) |

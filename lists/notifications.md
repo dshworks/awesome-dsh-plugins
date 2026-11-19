@@ -4,7 +4,7 @@
 
 Alerting the human: desktop, sound, even a phone call.
 
-718 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+719 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -164,6 +164,7 @@ Alerting the human: desktop, sound, even a phone call.
 | dsh-audio-alert | 1 | [ellelkktrraaa/dsh-audio-alert](https://github.com/ellelkktrraaa/dsh-audio-alert) | Browser audio alerts for DeepSeek Harness attention edges: approval requests, ask-user questions, and finished turns. | 0.2.0-rc.2 (2026-10-05) |
 | dsh-away-notify-ktouch10 | 1 | [ktouch10/dsh-away-notify](https://github.com/ktouch10/dsh-away-notify) · [npm](https://www.npmjs.com/package/dsh-away-notify) | DSH plugin: only ping me when the agent has really finished AND I have not come back for N minutes. Configurable dwell, brief result summary, plain SMTP or a local outbox. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-better-debug | 1 | [Leonlee114514/dsh-better-debug](https://github.com/Leonlee114514/dsh-better-debug) · [npm](https://www.npmjs.com/package/dsh-better-debug) | 卡住闸门的代码化：同一文件反复改 / 同一报错反复吃 / 改完不验证，命中就在下一步注入一次提醒，逼出一条几秒能跑的反馈回路。 | 0.2.2-rc.1 (2026-11-07) |
+| dsh-better-notice | 1 | [MeruSu/dsh-better-notice](https://github.com/MeruSu/dsh-better-notice) · [npm](https://www.npmjs.com/package/dsh-better-notice) | Puts each session's state where you already look: a seat in the conversation tab row, a glyph on its sidebar row, a pill in the Windows title bar, plus optional sound or popup on change. | 0.2.2-rc.1 (2026-11-20) |
 | dsh-bingo-ren | 1 | [kongkongya367-glitch/dsh-bingo-ren](https://github.com/kongkongya367-glitch/dsh-bingo-ren) · [npm](https://www.npmjs.com/package/dsh-bingo-ren) | DeepSeek Harness 插件管家：一键重启、新插件提醒、变更记录、临时试用和运行状态验收。支持拖动吸附、深浅色主题，零运行时依赖，无遥测。 | 0.2.1-rc.2 (2026-10-19) |
 | dsh-check-update | 1 | [HuiHuitie-zhu/dsh-check-update](https://github.com/HuiHuitie-zhu/dsh-check-update) · [npm](https://www.npmjs.com/package/dsh-check-update) | DSH 更新检查器（npm 版）：设置页检查 @deepseek-ai/dsh 是否有新版，导航红点提醒。Check @deepseek-ai/dsh for updates, red-dot reminder. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-chime-mysteryg | 1 | [Mystery-God/dsh-chime](https://github.com/Mystery-God/dsh-chime) | 任务完成提示音 for the dsh web GUI: a ding-dong chime when the current session's agent turn completes, a floating volume control, and a Plugins-settings page (volume, mute, built-in sounds, custom-audio | 0.1.0-rc.8 (2026-08-20) |
