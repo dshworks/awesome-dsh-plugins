@@ -4,7 +4,7 @@
 
 Subagents, workflows, cross-session coordination.
 
-3181 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3182 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -209,6 +209,7 @@ Subagents, workflows, cross-session coordination.
 | deepseek-harness-for-ide | 13 | [JayZz210l/deepseek-harness-for-ide](https://github.com/JayZz210l/deepseek-harness-for-ide/tree/HEAD/src/main/resources/dsh/ide-settings) | 把 DeepSeek Harness 完整搬进 JetBrains IDE：智能体对话、工具审批、目标与计划、子智能体与 Workflow。装插件、配一次 API Key，即可对话。DeepSeek Harness — agent chat, tool approvals, goals, subagents & workflows… | 0.1.0-rc.8 (2026-08-20) |
 | dsh-answer-reviewer | 13 | [bycall/dsh-answer-reviewer](https://github.com/bycall/dsh-answer-reviewer) · [npm](https://www.npmjs.com/package/dsh-answer-reviewer) | dsh host plugin: every agent turn's final assistant output is reviewed by a separate LLM graded 1-100; below-threshold scores steer the agent with concrete feedback. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-antibrow | 13 | [antibrow/dsh-antibrow](https://github.com/antibrow/dsh-antibrow) | DeepSeek Harness plugin: an agent browser with a persistent identity - engine-level fingerprint spoofing, per-profile cookies and passkeys, residential proxy egress. | 0.1.0-rc.8 (2026-08-20) |
+| dsh-bots-kadaliao | 13 | [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) · [npm](https://www.npmjs.com/package/@kadaliao/dsh-bots) | Bots for DeepSeek Harness: Grok-style bot teams, each bot with its own persona, model, skills and memory, and a dispatcher that hands out the work. | 0.2.2-rc.3 (2026-11-19) |
 | dsh-dao | 13 | [Yikumasai/dsh-dao](https://github.com/Yikumasai/dsh-dao) | 道Agent · 反者道之动 · 弱者道之用 — DeepSeek Harness (v0.2.1-rc.2+) 核心提示词反代与本源观照面板插件 (帛书《老子》+ 道藏《阴符经》) | 0.2.1-rc.5 (2026-11-02) |
 | dsh-excel-vera-plugin | 13 | [hccccc01333/dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat/tree/HEAD/bundle) · [npm](https://www.npmjs.com/package/dsh-excel-chat) | VERA - Verified Excel Reasoning Agent dsh plugin: silent formula-error detection, semantic Formula IR compilation, deterministic + LLM repair, oracle scoring, Pass@1 benchmark, and chart validation. | 0.2.1-rc.5 (2026-11-03) |
 | dsh-plannotator | 13 | [titanwings/dsh-plannotator](https://github.com/titanwings/dsh-plannotator) | Unofficial Plannotator integration for DeepSeek Harness: annotate plans inline and return structured feedback to the waiting coding agent | 0.1.0-rc.8 (2026-08-20) |

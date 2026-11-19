@@ -6,7 +6,7 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![browse the reef](https://img.shields.io/badge/browse-the_reef-ff7a59)](https://dsh.works/awesome-dsh-plugins/)
 
-A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 36,924 entries from 22,269 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
+A spam-filtered, open-data registry of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins, bundles, and skills — 36,927 entries from 22,269 authors across 17 functional areas, every one carrying the file its install path was proven in and the dsh version it was checked against.
 
 **[Browse the reef](https://dsh.works/awesome-dsh-plugins/)** — the same registry as a filterable, sortable gallery.
 
@@ -114,7 +114,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-35557 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-18.
+35560 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-18.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -150,7 +150,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-annotation | 169 | [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) · [npm](https://www.npmjs.com/package/@changfenhuang/dsh-annotation) | DSH Web selection-annotation plugin: select assistant text, annotate (optional), and press Enter to send the annotation block with your message — the model replies to each annotation by number,. | 0.1.0-rc.8 (2026-08-20) |
 | deepseek-harness-android | 139 | [dphmoblie/deepseek-harness-android](https://github.com/dphmoblie/deepseek-harness-android/tree/HEAD/packages/dsh-mobile-compat) | Client plugin: mobile AppFrame for the embedded Harness Web UI (<640px drawer sidebar + bottom-sheet details) and mobile layout overrides for desktop DSH plugins | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 3083. **[all 3083 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 3084. **[all 3084 →](lists/web-ui.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Terminals & desktop
 
@@ -218,7 +218,7 @@ New things the model can do: search, browser, files, databases, devices, media.
 | dsh-bili-scroll | 1444 | [c1overzz/dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) · [npm](https://www.npmjs.com/package/dsh-bili-scroll) | DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你 | 0.2.0-rc.2 (2026-10-17) |
 | dsh-free-search | 1397 | [DDDMUC/dsh-free-search](https://github.com/DDDMUC/dsh-free-search) · [npm](https://www.npmjs.com/package/dsh-free-search) | Free web search provider for DeepSeek Harness: DuckDuckGo HTML backend, no API key required. | 0.1.0-rc.8 (2026-08-20) |
 
-<sub>Showing the 25 most-starred of 8801. **[all 8801 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 8802. **[all 8802 →](lists/tools-capabilities.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Vision
 
@@ -286,7 +286,7 @@ Subagents, workflows, cross-session coordination.
 | Deepseek-Harness-Local-Android | 564 | [Soodok/Deepseek-Harness-Local-Android](https://github.com/Soodok/Deepseek-Harness-Local-Android/tree/HEAD/app/src/main/assets/android-plugins/chat-perf) | Run the DeepSeek Harness AI agent natively on Android — no root, no Termux, extension center included \| 手机本地运行 DeepSeek Agent，免 Root 免 Termux | 0.2.1-rc.2 (2026-10-26) |
 | dsh-agent-compare | 431 | [lijiaqi-AI-Product-Manager/dsh-agent-compare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) · [npm](https://www.npmjs.com/package/dsh-agent-compare) | 同一需求，两版真跑：在 DSH 对话里比较、验证并审查采用。A DeepSeek Harness plugin for two implementations, live previews, shared checks and reviewed adoption. | 0.2.1-rc.5 (2026-11-03) |
 
-<sub>Showing the 25 most-starred of 3181. **[all 3181 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 3182. **[all 3182 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Memory & sessions
 
