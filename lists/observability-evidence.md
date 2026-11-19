@@ -8,7 +8,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
-| dsh-oil-ui | 260 | [oil-oil/dsh-oil-ui](https://github.com/oil-oil/dsh-oil-ui) | Oil UI 的 DeepSeek Harness 原生工具与 Skill 加载诊断插件 | 0.2.2-rc.1 (2026-11-16) |
+| dsh-oil-ui | 262 | [oil-oil/dsh-oil-ui](https://github.com/oil-oil/dsh-oil-ui) | Oil UI 的 DeepSeek Harness 原生工具与 Skill 加载诊断插件 | 0.2.2-rc.1 (2026-11-16) |
 | dsh-status-rotator | 234 | [01Virex/dsh-status-rotator](https://github.com/01Virex/dsh-status-rotator) · [npm](https://www.npmjs.com/package/dsh-status-rotator) | Rotates the DSH chat turn-status label ("Deep diving...") through user-defined phrases every few seconds. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-research-report | 219 | [PerryLink/dsh-research-report](https://github.com/PerryLink/dsh-research-report) · [npm](https://www.npmjs.com/package/dsh-research-report) | Verifiable research-report engine for DeepSeek Harness: a content-addressed evidence ledger (claim ↔ snapshot binding, tamper-evident) plus versioned sealed reports where every claim carries a | 0.1.6-alpha.2 (2026-09-20) |
 | dsh-deepcanary | 182 | [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) · [npm](https://www.npmjs.com/package/dsh-deepcanary) | Local attention supervision for DeepSeek Harness: evidence-first signals, quiet notifications, and an actionable inbox. | 0.1.1-rc.2 (2026-09-01) |
@@ -201,6 +201,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-o11y-plugin | 1 | [fly3366/dsh-o11y-plugin](https://github.com/fly3366/dsh-o11y-plugin) · [npm](https://www.npmjs.com/package/dsh-o11y-plugin) | Unified observability (trace/log/metric) for deepseek-harness plugins: hooks dsh session telemetry where available, maintains OTel signals where not, and exports via standard OTLP. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-observability | 1 | [jeremy9682/dsh-observability](https://github.com/jeremy9682/dsh-observability) | Community DeepSeek Harness plugin. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-observability-satan939 | 1 | [satan9394/dsh-observability](https://github.com/satan9394/dsh-observability) | 可观测性与埋点：日志/指标/追踪三支柱、结构化日志、分布式追踪、告警设计。受 addyosmani/agent-skills（88k MIT）启发。 | 0.1.0-rc.8 (2026-08-20) |
+| dsh-omp-tools | 1 | [KeynoWu/dsh-omp-tools](https://github.com/KeynoWu/dsh-omp-tools) | DSH coding 增强工具集 — omp 风格能力分批迭代（模块 1：LSP 语义导航/诊断） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-onetree-log | 1 | [iasiv5/dsh-onetree-log](https://github.com/iasiv5/dsh-onetree-log) · [npm](https://www.npmjs.com/package/@inventec/dsh-onetree-log) | AMI MegaRAC OneTree 一键日志（OpenBMC dreport dump）上传与分析框架：设置面板「OneTree 日志」上传压缩包或登记服务器本地路径，安全解包、自动探测 dump 根、文件清单分类，为第二阶段逐域解析提供内核。 | 0.2.1-rc.5 (2026-11-03) |
 | dsh-onfail | 1 | [ZZZjf13960/dsh-onfail](https://github.com/ZZZjf13960/dsh-onfail) | CI failed. Stay in DSH. Click the card, start the fix. / CI 挂了也别离开 DSH：侧栏一张失败卡，点一下带 log 开修。 | 0.1.1-rc.2 (2026-09-01) |
 | dsh-otel | 1 | [krimvp/dsh-otel](https://github.com/krimvp/dsh-otel) | OpenTelemetry traces and metrics for DeepSeek Harness: turn, step, model-call, and tool-call spans under the GenAI semantic conventions, exported over OTLP to any backend. | unverified |
@@ -387,7 +388,6 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-novel-forge-eastchil | 0 | [EastChilde/dsh-novel-forge](https://github.com/EastChilde/dsh-novel-forge) | 墨匣 · 从想法到长篇网文：设定、卷纲、细纲、正文、追踪与质量闸门。 | 0.2.2-rc.1 (2026-11-16) |
 | dsh-observability-xingying | 0 | [xingyingyuzhui/dsh-claw-observability](https://github.com/xingyingyuzhui/dsh-claw-observability) | Shared structured diagnostics and a Settings page for the DSH Claw plugin suite. 治理插件共用诊断日志与运行诊断页。 | 0.1.0-rc.8 (2026-08-20) |
 | dsh-office-suite | 0 | [steven95/dsh-office-suite](https://github.com/steven95/dsh-office-suite) · [npm](https://www.npmjs.com/package/dsh-office-suite) | DSH 办公室动画仪表盘：工作日志 / 产出物 / 预览 / token 统计，一键生成可独立打开的动画办公室 HTML | 0.1.0-rc.8 (2026-08-20) |
-| dsh-omp-tools | 0 | [KeynoWu/dsh-omp-tools](https://github.com/KeynoWu/dsh-omp-tools) | DSH coding 增强工具集 — omp 风格能力分批迭代（模块 1：LSP 语义导航/诊断） | 0.1.0-rc.8 (2026-08-20) |
 | dsh-opencode-go-dashboard | 0 | [12398k/dsh-opencode-go-dashboard](https://github.com/12398k/dsh-opencode-go-dashboard) · [npm](https://www.npmjs.com/package/dsh-opencode-go-dashboard) | OpenCode Go 套餐用量面板：支持多 API Key 与网页 Cookie 账号监控，提供设置页管理面板与对话底栏快捷 5h 环形进度条 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-openspec-dashboard | 0 | [vowdemon/dsh-openspec-dashboard](https://github.com/vowdemon/dsh-openspec-dashboard) | OpenSpec dashboard with guarded task checkboxes in the DeepSeek Harness right sidebar | 0.2.0-rc.2 (2026-10-17) |
 | dsh-orchestrator-haroon0x | 0 | [haroon0x/dsh-orchestrator](https://github.com/haroon0x/dsh-orchestrator) | A native DeepSeek Harness orchestrator: see, inspect, message, and interrupt other live agents in the same process. | 0.2.2-rc.1 (2026-11-16) |
