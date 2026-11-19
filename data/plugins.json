@@ -531175,12 +531175,12 @@
     {
       "name": "dsh-beta-battle-mode",
       "repo": "godthrone/dsh-beta-battle-mode",
-      "description": "BETA battle mode for DeepSeek Harness — a commander-led agent cluster (commander, executors, reviewers) whose context is rebuilt from the project's work log instead of an expensive summarization call",
-      "category": "plugin",
+      "description": "Commander-led agent cluster for dsh: context compaction with no model call, and a verbatim user-quote ledger (ledger_search) that keeps earlier decisions traceable.",
+      "category": "bundle",
       "official": false,
       "added": "2026-11-03",
-      "lastVerified": "2026-11-03",
-      "verifiedAgainst": "0.2.1-rc.5",
+      "lastVerified": "2026-11-19",
+      "verifiedAgainst": "0.2.1-rc.2",
       "status": "verified",
       "evidence": "package.json#dsh.bundle",
       "npm": "dsh-beta-battle-mode",
@@ -531188,7 +531188,7 @@
       "starsUpdated": "2026-11-18",
       "tags": [
         "agents",
-        "observability"
+        "memory"
       ],
       "pushedAt": "2026-11-18"
     },
