@@ -4,7 +4,7 @@
 
 Panels, composer upgrades, navigation, layout, mobile.
 
-3083 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+3084 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -1606,6 +1606,7 @@ Panels, composer upgrades, navigation, layout, mobile.
 | dsh-asimovbox | 0 | [cerebrixos-org/dsh-asimovbox](https://github.com/cerebrixos-org/dsh-asimovbox) | Create, edit, render, and finish AsimovBox videos from DeepSeek Harness. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-ask-in-sidebar | 0 | [Ruiming-cn/dsh-ask-in-sidebar](https://github.com/Ruiming-cn/dsh-ask-in-sidebar) | Ask a sidebar assistant about selected assistant text using the current DeepSeek Harness conversation context, without touching the main conversation. Inspired by the MIT-licensed DSH plugin | 0.1.1-rc.2 (2026-08-26) |
 | dsh-atelier-clickfx | 0 | [catisamaomao/dsh-atelier-clickfx](https://github.com/catisamaomao/dsh-atelier-clickfx) | Five non-repeating, theme-aware click animations for DeepSeek Harness: ripples, lace blooms, comets, orbits and butterflies. | 0.2.0-rc.2 (2026-10-17) |
+| dsh-atlas-kadaliao | 0 | [kadaliao/dsh-atlas](https://github.com/kadaliao/dsh-atlas) · [npm](https://www.npmjs.com/package/@kadaliao/dsh-atlas) | Your photo library on a globe, in DeepSeek Harness: footprints, trips, story mode, on this day, and a model that can search your photos and move the map. | 0.2.2-rc.3 (2026-11-19) |
 | dsh-attachment-panel | 0 | [ysqp6-lang/dsh-attachment-panel](https://github.com/ysqp6-lang/dsh-attachment-panel) · [npm](https://www.npmjs.com/package/dsh-attachment-panel) | DeepSeek Harness 的投送面板：发给 DSH 的图片与文件、@ 引用过的本机路径、Taildrop 发出去和收到的文件，按设备与时间列在一起，还能直接在面板里选设备发文件。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-attention-center-kinfxhk | 0 | [Kinfxhk/dsh-attention-center](https://github.com/Kinfxhk/dsh-attention-center) | Sidebar inbox for finished work, approvals, and new questions, with system notifications when the platform allows them. | 0.2.2-rc.1 (2026-11-07) |
 | dsh-audio-control | 0 | [Li-Mingshuang/dsh-audio-control](https://github.com/Li-Mingshuang/dsh-audio-control) | DSH Web GUI audio control: host routes drive Windows media sessions and master volume via PowerShell; the browser half renders a floating control panel | 0.1.7-rc.2 (2026-09-29) |

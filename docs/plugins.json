@@ -24223,6 +24223,26 @@
       "pushedAt": "2026-08-25"
     },
     {
+      "name": "dsh-atlas-kadaliao",
+      "repo": "kadaliao/dsh-atlas",
+      "description": "Your photo library on a globe, in DeepSeek Harness: footprints, trips, story mode, on this day, and a model that can search your photos and move the map.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-19",
+      "lastVerified": "2026-11-19",
+      "verifiedAgainst": "0.2.2-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@kadaliao/dsh-atlas",
+      "stars": 0,
+      "starsUpdated": "2026-11-19",
+      "tags": [
+        "ui",
+        "fun"
+      ],
+      "pushedAt": "2026-11-19"
+    },
+    {
       "name": "dsh-atomgit",
       "repo": "xiongjiamu/dsh-atomgit",
       "description": "AtomGit plugin bundle for DeepSeek Harness: atomgit-skills workflows + ag CLI integration + GitCode MCP server tools",
@@ -32543,6 +32563,26 @@
         "capabilities"
       ],
       "pushedAt": "2026-08-20"
+    },
+    {
+      "name": "dsh-bots-kadaliao",
+      "repo": "kadaliao/dsh-bots",
+      "description": "Bots for DeepSeek Harness: Grok-style bot teams, each bot with its own persona, model, skills and memory, and a dispatcher that hands out the work.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-19",
+      "lastVerified": "2026-11-19",
+      "verifiedAgainst": "0.2.2-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@kadaliao/dsh-bots",
+      "stars": 13,
+      "starsUpdated": "2026-11-19",
+      "tags": [
+        "agents",
+        "channels"
+      ],
+      "pushedAt": "2026-11-19"
     },
     {
       "name": "dsh-botswana",
@@ -86163,6 +86203,25 @@
         "vision"
       ],
       "pushedAt": "2026-08-17"
+    },
+    {
+      "name": "dsh-images",
+      "repo": "kadaliao/dsh-images",
+      "description": "Images for DeepSeek Harness: a generate_image tool backed by your provider's image model, and a gallery of everything drawn.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-19",
+      "lastVerified": "2026-11-19",
+      "verifiedAgainst": "0.2.2-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@kadaliao/dsh-images",
+      "stars": 0,
+      "starsUpdated": "2026-11-19",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-11-18"
     },
     {
       "name": "dsh-imessage",
@@ -143051,6 +143110,25 @@
         "ui"
       ],
       "pushedAt": "2026-11-14"
+    },
+    {
+      "name": "dsh-prompt-en",
+      "repo": "kadaliao/dsh-prompt-en",
+      "description": "English under every prompt: a translation when you write in another language, a correction or other ways to say it when you write in English, and a vocabulary book to review them.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-02",
+      "lastVerified": "2026-11-19",
+      "verifiedAgainst": "0.2.2-rc.3",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@kadaliao/dsh-prompt-en",
+      "stars": 0,
+      "starsUpdated": "2026-11-19",
+      "tags": [
+        "capabilities"
+      ],
+      "pushedAt": "2026-11-18"
     },
     {
       "name": "dsh-prompt-engineering",
@@ -469334,26 +469412,6 @@
         "interop"
       ],
       "pushedAt": "2026-10-30"
-    },
-    {
-      "name": "dsh-plugins-kadaliao",
-      "repo": "kadaliao/dsh-plugins",
-      "path": "plugins/prompt-en",
-      "description": "English under every prompt: a translation when you write in another language, a correction or other ways to say it when you write in English, and a vocabulary book to review them.",
-      "category": "plugin",
-      "official": false,
-      "added": "2026-11-02",
-      "lastVerified": "2026-11-02",
-      "verifiedAgainst": "0.2.1-rc.5",
-      "status": "verified",
-      "evidence": "plugins/prompt-en/package.json#dsh.bundle",
-      "npm": "@kadaliao/dsh-prompt-en",
-      "stars": 3,
-      "starsUpdated": "2026-11-18",
-      "tags": [
-        "capabilities"
-      ],
-      "pushedAt": "2026-11-18"
     },
     {
       "name": "dsh-holo-memory",
