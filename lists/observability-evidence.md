@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-535 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+534 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -258,7 +258,6 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-trajectory-debug | 1 | [devmom/dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug/tree/HEAD/packages/client-ui-trajectory-debug) · [npm](https://www.npmjs.com/package/dsh-client-ui-trajectory-debug) | Trajectory Debug Workbench: browser UI (waterfall, replay, compare, perf dashboard) — M1 skeleton | 0.1.0-rc.8 (2026-08-20) |
 | dsh-trip-log | 1 | [Ricardozhuyuyu/dsh-trip-log](https://github.com/Ricardozhuyuyu/dsh-trip-log) | 行程记录：把一趟趟出门摊成时间线、词云和相册橱窗。 | 0.2.2-rc.1 (2026-11-16) |
 | dsh-tutorloop | 1 | [Qinling-Melon-Farmers/dsh-tutorloop](https://github.com/Qinling-Melon-Farmers/dsh-tutorloop) · [npm](https://www.npmjs.com/package/dsh-tutorloop) | Evidence-grounded learning for DeepSeek Harness: guided practice, feedback and spaced review with a local learning record. | 0.2.1-rc.5 (2026-11-02) |
-| dsh-ui-controller | 1 | [MeruSu/dsh-ui-controller](https://github.com/MeruSu/dsh-ui-controller) · [npm](https://www.npmjs.com/package/dsh-ui-controller) | Inspect and control the UI other plugins register into DeepSeek Harness slots (visibility, order, mirrored entries), and fold the sidebar's panels behind a single "More (N)" row. | 0.2.2-rc.1 (2026-11-16) |
 | dsh-understand-anything-cookabc | 1 | [cookabc/dsh-understand-anything](https://github.com/cookabc/dsh-understand-anything) | Codebase knowledge graphs for DSH: deterministic scanning, impact-aware queries, guided tours and an offline dashboard. | 0.2.2-rc.1 (2026-11-16) |
 | dsh-vibecode-studio | 1 | [niobium617/dsh-vibecode-studio](https://github.com/niobium617/dsh-vibecode-studio) | DSH Vibecode Studio: in-chat preview, annotation, inspect and API workbench for DeepSeek Harness. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-web-text-drop | 1 | [liceses/dsh-web-text-drop](https://github.com/liceses/dsh-web-text-drop) | Text-file drag-and-drop for the dsh web GUI: dropping md/txt/log/code files into the page inserts the content into the composer when it fits (<= 1000 characters)… | 0.1.0-rc.8 (2026-08-20) |
