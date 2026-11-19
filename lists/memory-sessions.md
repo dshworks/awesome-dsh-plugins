@@ -4,7 +4,7 @@
 
 Memory systems, context management, session search/rewind/export.
 
-5509 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+5510 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -3854,6 +3854,7 @@ Memory systems, context management, session search/rewind/export.
 | dsh-offpeak-inbox | 0 | [Tungpeng/dsh-offpeak-inbox](https://github.com/Tungpeng/dsh-offpeak-inbox) | DSH 错峰收件箱：平时把会话与想法存起来，只在 DeepSeek API 平价（错峰）时段自动推送给 DSH 执行。 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-offpeak-job | 0 | [ganningniang/dsh-offpeak-job](https://github.com/ganningniang/dsh-offpeak-job) | 会话谷时开关 + 按提供方配置的多段谷时窗口 | 0.1.7-rc.2 (2026-09-29) |
 | dsh-ofm-codearts-pin | 0 | [basaltfold/dsh-ofm-codearts-pin](https://github.com/basaltfold/dsh-ofm-codearts-pin) | 把 dsh-our-free-model 钉在 2.5.8（最后一个带华为云 CodeArts 渠道的版本）并在每次启动自愈回滚：逐文件 SHA-256 校验、失败自动还原、升级后自动重打，同时关掉会把华为云删掉的自动更新检查 | 0.2.1-rc.5 (2026-11-02) |
+| dsh-ollama-memory | - | [haichongck/dsh-ollama-memory](https://github.com/haichongck/dsh-ollama-memory) · [npm](https://www.npmjs.com/package/@haichongck/dsh-ollama-memory) | 两层长期记忆插件：核心记忆文件每轮注入系统提示 + 本地 SQLite 向量库（Ollama 嵌入）。类别权重、存入去重、作废取代、容量治理与过时检测，检索按相似度×时间衰减×类别权重排序。 | 0.2.2-rc.2 (2026-11-19) |
 | dsh-omni-memory | 0 | [wangzhen110/dsh-omni-memory](https://github.com/wangzhen110/dsh-omni-memory) | Omni memory for DeepSeek Harness: append-only transcripts, bi-temporal facts, self-verifying notes, hybrid retrieval, project scoping and an interactive star map. | 0.2.2-rc.1 (2026-11-16) |
 | dsh-omnifile | 0 | [zuuky/dsh-omnifile](https://github.com/zuuky/dsh-omnifile) | DSH 文件适配插件：拖拽/粘贴/点击多选/@ 选择本地文件，anydoc 解析文档、多模态模型识别图片（含内容哈希缓存），聊天内文件卡片与会话内消息导航，并为文本-only 主模型提供 omnifile-* 图像变体。 | 0.1.0-rc.8 (2026-08-25) |
 | dsh-one-click-polish | 0 | [HTRP1486/dsh-one-click-polish](https://github.com/HTRP1486/dsh-one-click-polish) · [npm](https://www.npmjs.com/package/dsh-one-click-polish) | One-click polish, expand and autopilot for the DeepSeek Harness composer: rewrite the draft with the model the session is switched to… | 0.2.1-rc.5 (2026-11-02) |
