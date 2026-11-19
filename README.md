@@ -114,7 +114,7 @@ Hand-curated, sparing, and revisited as the ecosystem moves; the ⭐ mark in the
 
 ## Plugins by area
 
-35557 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-18.
+35556 Cordis plugins activated through patch rows in a bundle or profile, grouped by what they do. Data updated 2026-11-18.
 
 Each area shows its 25 most-starred entries and links to the complete list in [`lists/`](lists). GitHub stops rendering a markdown file partway through once it passes about half a megabyte — silently, mid-row — so the full tables live in files small enough to survive that. Nothing is dropped: [`data/plugins.json`](data/plugins.json) and the [gallery](https://dsh.works/awesome-dsh-plugins/) always hold everything.
 
@@ -286,7 +286,7 @@ Subagents, workflows, cross-session coordination.
 | Deepseek-Harness-Local-Android | 564 | [Soodok/Deepseek-Harness-Local-Android](https://github.com/Soodok/Deepseek-Harness-Local-Android/tree/HEAD/app/src/main/assets/android-plugins/chat-perf) | Run the DeepSeek Harness AI agent natively on Android — no root, no Termux, extension center included \| 手机本地运行 DeepSeek Agent，免 Root 免 Termux | 0.2.1-rc.2 (2026-10-26) |
 | dsh-agent-compare | 431 | [lijiaqi-AI-Product-Manager/dsh-agent-compare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) · [npm](https://www.npmjs.com/package/dsh-agent-compare) | 同一需求，两版真跑：在 DSH 对话里比较、验证并审查采用。A DeepSeek Harness plugin for two implementations, live previews, shared checks and reviewed adoption. | 0.2.1-rc.5 (2026-11-03) |
 
-<sub>Showing the 25 most-starred of 3181. **[all 3181 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 3180. **[all 3180 →](lists/agents-orchestration.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Memory & sessions
 
@@ -728,7 +728,7 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | dsh-desk | 18 | [majiayu000/dsh-desk](https://github.com/majiayu000/dsh-desk) | Tauri desktop companion for DeepSeek Harness: wraps official dsh 0.1.0-rc.6 in a system WebView with isolated DSH_HOME and a plugin-manager UI. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-fabric | 18 | [omdsh-dev/stent](https://github.com/omdsh-dev/stent) · [npm](https://www.npmjs.com/package/@oh-my-dsh/stent-pack) | Stent/Mixin extension workspace: installable profile bundle carrier over the stent package trio | 0.1.1-rc.2 (2026-09-09) |
 
-<sub>Showing the 25 most-starred of 102. **[all 102 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
+<sub>Showing the 25 most-starred of 103. **[all 103 →](lists/bundles.md)** · [gallery](https://dsh.works/awesome-dsh-plugins/) · [JSON](data/plugins.json)</sub>
 
 ### Skills
 
