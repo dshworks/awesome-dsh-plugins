@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -66887,6 +66887,18 @@
         "memory"
       ],
       "pushedAt": "2026-08-14"
+    },
+    {
+      "name": "dsh-evidence-pages",
+      "repo": "DASHAN-0079/dsh-evidence-pages",
+      "description": "Keep a source-linked excerpt of long tool output and read the original page after DSH compaction. Uses local rules by default.",
+      "category": "bundle",
+      "install": "Clone DASHAN-0079/dsh-evidence-pages at v0.3.0, run npm pack, then dsh plugin --profile headless add ./dsh-evidence-pages-0.3.0.tgz. Start headless with --patch ./preset/headless.patch.yml.",
+      "added": "2026-11-20",
+      "lastVerified": "2026-11-20",
+      "verifiedAgainst": "0.2.2-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     },
     {
       "name": "dsh-evo-vis",
