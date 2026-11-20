@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1338,
+  "count": 1339,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -4713,6 +4713,12 @@
       "since": "2026-09-29"
     },
     {
+      "repo": "JeremyWangCY/dsh-pc-pilot",
+      "npm": "dsh-pc-pilot",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-20"
+    },
+    {
       "repo": "ralfsqual/dsh-pdf-reader",
       "npm": "dsh-pdf-reader",
       "why": "4 listed repos declare this name and the package states no repository",
@@ -7275,34 +7281,34 @@
       "since": "2026-09-29"
     },
     {
-      "repo": "hxy113/dsh-turn-notify",
-      "npm": "dsh-turn-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
       "repo": "Ruiming-cn/dsh-turn-notify",
       "npm": "dsh-turn-notify",
       "why": "5 listed repos declare this name and the package states no repository",
       "since": "2026-11-16"
     },
     {
+      "repo": "hxy113/dsh-turn-notify",
+      "npm": "dsh-turn-notify",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-20"
+    },
+    {
       "repo": "XEsx630/dsh-turn-notify",
       "npm": "dsh-turn-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-20"
     },
     {
       "repo": "helloHupc/dsh-turn-notify",
       "npm": "dsh-turn-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-20"
     },
     {
       "repo": "koolook123/dsh-turn-notify",
       "npm": "dsh-turn-notify",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-20"
     },
     {
       "repo": "lssyd20070106/dsh-ui-preset-enhance",
