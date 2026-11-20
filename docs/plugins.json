@@ -701169,6 +701169,26 @@
         "observability"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "gis-workbench",
+      "repo": "yinchuanqi/gis-workbench",
+      "description": "MapLibre GL JS GIS workbench: layer management, vector/raster import, semantic styling and labels, PostGIS registration, polygon draw/edit, and chat-callable GIS tools.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-20",
+      "lastVerified": "2026-11-20",
+      "verifiedAgainst": "0.2.0-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "@focus-daima/gis-workbench",
+      "stars": 0,
+      "starsUpdated": "2026-11-20",
+      "tags": [
+        "capabilities",
+        "ui"
+      ],
+      "pushedAt": "2026-11-20"
     }
   ]
 }
