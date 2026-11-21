@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-20",
+  "checked": "2026-11-21",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1340,
+  "count": 1343,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1879,6 +1879,12 @@
       "since": "2026-11-09"
     },
     {
+      "repo": "hhse/dsh-cmdk",
+      "npm": "dsh-cmdk",
+      "why": "published by hseons/dsh-cmdk",
+      "since": "2026-11-21"
+    },
+    {
       "repo": "zoahdev/dsh-cn-boot",
       "npm": "dsh-cn-boot",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
@@ -2543,6 +2549,12 @@
       "npm": "dsh-editor-link",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-24"
+    },
+    {
+      "repo": "Fisfzy/dsh-ego-browser",
+      "npm": "dsh-ego-browser",
+      "why": "published by omdsh-dev/dsh-ego-browser",
+      "since": "2026-11-21"
     },
     {
       "repo": "LKRCharon/dsh-egress-guard",
@@ -5149,6 +5161,12 @@
       "npm": "dsh-plugin-organizer",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "qifenglun1/dsh-prompt",
+      "npm": "dsh-plugin-prompt",
+      "why": "published by qifenglun1/dsh-plugin-prompt",
+      "since": "2026-11-21"
     },
     {
       "repo": "ArvenWang/dsh-plugin-quota",
