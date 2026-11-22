@@ -4,7 +4,7 @@
 
 Games, pets, memes, ambience. The reef has coral.
 
-1200 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+1201 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -789,6 +789,7 @@ Games, pets, memes, ambience. The reef has coral.
 | dsh-erii-boot-splash | 0 | [yanglingrise/dsh-erii-boot-splash](https://github.com/yanglingrise/dsh-erii-boot-splash) | Erii (Sakura) themed boot splash animation for the DeepSeek Harness Web UI: falling sakura petals, a mint monster mascot with a cherry blossom on its head, a soft pink progress bar… | 0.1.0-rc.8 (2026-08-25) |
 | dsh-eventline | 0 | [lingsheng-master/dsh-eventline](https://github.com/lingsheng-master/dsh-eventline) | 小鱼娘的事件线：跨端（DSH/QQ/B站/桌宠/定时）共用的只追加事件记录，让四个入口看起来是同一个她。单文件、零外部依赖、纯宿主。 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-eye-care-uckkk | 0 | [uckkk/dsh-eye-care](https://github.com/uckkk/dsh-eye-care) | eyecare：眼部护理：按参数返回宠物美容护理方案。 | 0.1.0-rc.8 (2026-08-21) |
+| dsh-famling | - | [PerryLink/dsh-famling](https://github.com/PerryLink/dsh-famling) · [npm](https://www.npmjs.com/package/dsh-famling) | Sidebar-footer pixel pet for DeepSeek Harness: Tinglan, Ragdoll cat and Golden Retriever animations, region-aware interaction, and low-disturb quiet hours. | 0.2.3-alpha.1 (2026-11-22) |
 | dsh-fat-fish | 0 | [203-11/dsh-fat-fish](https://github.com/203-11/dsh-fat-fish) | A draggable fish-maid desk pet for DSH Web with hydration and walk reminders, daily logs, custom avatars, free resizing, meme-flavored thoughts, and an original Manbo-style synth chime. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-fatfish-kabarryo | 0 | [kabarryo/dsh-fatfish](https://github.com/kabarryo/dsh-fatfish) | 大肥鱼桌宠：在 DSH 输入框右上角随会话状态换表情的动画形象 | 0.2.1-rc.5 (2026-11-02) |
 | dsh-fc-games | 0 | [flyingfishzxf/dsh-fc-games](https://github.com/flyingfishzxf/dsh-fc-games) | FC/NES game library and emulator for the DSH Web right sidebar — multi-source search, ZIP support, custom sources, link parsing, covers, gamepad/keyboard input, save states, rewind… | 0.2.2-rc.1 (2026-11-16) |
