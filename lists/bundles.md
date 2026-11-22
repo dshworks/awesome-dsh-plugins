@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+103 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -110,3 +110,4 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feishu-beacon | 0 | [jiangdunchun/dsh-feishu-beacon](https://github.com/jiangdunchun/dsh-feishu-beacon) · [npm](https://www.npmjs.com/package/dsh-feishu-beacon) | DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook | 0.1.7-rc.2 (2026-09-29) |
 | dsh-reasoning-distill | 0 | [huhu23333/dsh-reasoning-distill](https://github.com/huhu23333/dsh-reasoning-distill) · [npm](https://www.npmjs.com/package/dsh-reasoning-distill) | Distill over-long model reasoning into its useful core and replay the distilled version on every later request, with a per-session cost report. | 0.2.0-rc.2 (2026-10-17) |
+| wssdll-dsh-chat-preset | - | [wssdll/dsh-chat-preset](https://github.com/wssdll/dsh-chat-preset) · [npm](https://www.npmjs.com/package/@wssdll/dsh-chat-preset) | DSH 聊天专用 Agent 预设：只留联网搜索、打开网页与读取附件三个工具，中文思维链，极小上下文，尽量还原网页版聊天体验。 | unverified |
