@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1353,
+  "count": 1354,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1139,6 +1139,12 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "ZSeven-W/dsh-openpencil",
+      "npm": "@zseven-w/dsh-openpencil",
+      "why": "published by zseven-w/openpencil",
+      "since": "2026-11-23"
+    },
+    {
       "repo": "GooodWei/arcana",
       "npm": "arcana",
       "why": "published by flipactual/arcana",
@@ -1705,12 +1711,6 @@
       "npm": "dsh-btw",
       "why": "published by iluluyu/dsh-btw",
       "since": "2026-08-21"
-    },
-    {
-      "repo": "wqty123/dsh-browser",
-      "npm": "dsh-builtin-browser",
-      "why": "published by morlay/dsh-plugin",
-      "since": "2026-11-22"
     },
     {
       "repo": "ljcoder2015/dsh-canvas",
@@ -3111,6 +3111,13 @@
       "since": "2026-11-16"
     },
     {
+      "repo": "miuzel/harness-reflex",
+      "path": "packages/dsh-reflex",
+      "npm": "dsh-harness-reflex",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-23"
+    },
+    {
       "repo": "KiiiiiG/dsh-harness-restart",
       "npm": "dsh-harness-restart",
       "why": "2 listed repos declare this name and the package states no repository",
@@ -3947,244 +3954,244 @@
       "since": "2026-11-14"
     },
     {
-      "repo": "yihefeikong-rgb/dsh-cc-haha-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "34262315716/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "Amengclass/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "BayInl/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "ben7am1n/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "guyuefangyuanl/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "joyiok/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "mario03690/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "penglai-doll/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "qwert702/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "Starry0214/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "U-Illll/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "yangyongzhen/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "lifensame/dsh-plugin",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "hmlyx/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "LZMW/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "mnbvcxzaqwertyuioplm/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "doublehappy123/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
-      "repo": "biubiu23333333/dsh-memory",
-      "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
       "repo": "EchoHeim/DSH-Memory",
       "npm": "dsh-memory",
       "why": "40 listed repos declare this name and the package states no repository",
       "since": "2026-11-16"
     },
     {
+      "repo": "yihefeikong-rgb/dsh-cc-haha-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "34262315716/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "Amengclass/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "BayInl/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "ben7am1n/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "guyuefangyuanl/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "joyiok/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "mario03690/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "penglai-doll/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "qwert702/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "Starry0214/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "U-Illll/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "yangyongzhen/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "lifensame/dsh-plugin",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "hmlyx/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "LZMW/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "mnbvcxzaqwertyuioplm/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "doublehappy123/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
+      "repo": "biubiu23333333/dsh-memory",
+      "npm": "dsh-memory",
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
+    },
+    {
       "repo": "DPH-1121/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "Jerry-Zhang-74/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "ChenYueqi2024/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "linshenyuan/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "kovey/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "krutziy/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "Soulmate793/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "jiachenleo9-create/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "fuqiang-lab/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "mingyuemiss/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "Yum-wu/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "hong1413/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "Octidote/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "harm-m422/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "ROSESSSSS66/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "AaronWang-cpu/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "De22323/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "HluckyRing/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "supakiat-debug/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "YuzhenZhou1327/dsh-memory",
       "npm": "dsh-memory",
-      "why": "40 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "39 listed repos declare this name and the package states no repository",
+      "since": "2026-11-23"
     },
     {
       "repo": "baaai123/dsh-memory-protocol",
@@ -4850,6 +4857,12 @@
       "npm": "dsh-pets",
       "why": "published by dushaobindoudou/dsh-plugin",
       "since": "2026-10-20"
+    },
+    {
+      "repo": "Phocinae/dsh-phocinae",
+      "npm": "dsh-phocinae",
+      "why": "published by perrylink/dsh-phocinae",
+      "since": "2026-11-23"
     },
     {
       "repo": "uckkk/dsh-phone",
@@ -6464,12 +6477,6 @@
     },
     {
       "repo": "S3K926/dsh-session-switch",
-      "npm": "dsh-session-switch",
-      "why": "2 listed repos declare this name and the package states no repository",
-      "since": "2026-11-02"
-    },
-    {
-      "repo": "CHENJIAMIAN/dsh-session-switch",
       "npm": "dsh-session-switch",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-02"
