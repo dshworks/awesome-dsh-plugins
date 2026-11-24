@@ -701195,6 +701195,23 @@
         "observability"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "dsh-yingma-canvas",
+      "repo": "barnetshen/dsh-yingma-canvas",
+      "npm": "dsh-yingma-canvas",
+      "description": "Opens the Xiaoyingma AI video canvas in a DSH sidebar and dock tab; agents read and edit canvas nodes through the bundled yingma CLI and MCP tools. Needs a Xiaoyingma account.",
+      "category": "bundle",
+      "tags": [
+        "ui",
+        "capabilities"
+      ],
+      "official": false,
+      "added": "2026-11-20",
+      "lastVerified": "2026-11-20",
+      "verifiedAgainst": "0.2.2-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
