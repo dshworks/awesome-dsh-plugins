@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-23",
+  "checked": "2026-11-24",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1354,
+  "count": 1361,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -562,10 +562,22 @@
       "since": "2026-11-12"
     },
     {
+      "repo": "Saikel-Orado-Liu/dsh-archive-manager",
+      "npm": "@gamegeek-saikel/dsh-archive-manager",
+      "why": "published by gamegeek-saikel/dsh-archive-manager",
+      "since": "2026-11-24"
+    },
+    {
       "repo": "Saikel-Orado-Liu/dsh-coding-preset",
       "npm": "@gamegeek-saikel/dsh-coding-agent-preset",
       "why": "published by saikel-orado-liu/dsh-coding-agent-preset",
       "since": "2026-08-24"
+    },
+    {
+      "repo": "Saikel-Orado-Liu/dsh-cost-meter",
+      "npm": "@gamegeek-saikel/dsh-cost-meter",
+      "why": "published by gamegeek-saikel/dsh-cost-meter",
+      "since": "2026-11-24"
     },
     {
       "repo": "GM-HZ/dsh-dag-workflow",
@@ -622,6 +634,24 @@
       "npm": "@jasonjin06/dsh-sound-effects",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-11-13"
+    },
+    {
+      "repo": "nonenameless/dsh-hybrid-memory",
+      "npm": "@jasper_alaric/dsh-hybrid-memory",
+      "why": "published by jasper-alaric/dsh-hybrid-memory",
+      "since": "2026-11-24"
+    },
+    {
+      "repo": "jianghuifr/dsh-feishu-auth",
+      "npm": "@jianghuifr/dsh-feishu-auth",
+      "why": "no such package",
+      "since": "2026-11-24"
+    },
+    {
+      "repo": "jianghuifr/dsh-mobile-ui",
+      "npm": "@jianghuifr/dsh-mobile-ui",
+      "why": "no such package",
+      "since": "2026-11-24"
     },
     {
       "repo": "joshryandavis/dsh-llm-aws-kiro",
@@ -1389,6 +1419,13 @@
       "npm": "dsh-api-balance",
       "why": "6 listed repos declare this name and the package states no repository",
       "since": "2026-11-08"
+    },
+    {
+      "repo": "satan9394/dsh-skills-bundle",
+      "path": "plugins/dsh-api-designer",
+      "npm": "dsh-api-designer",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-24"
     },
     {
       "repo": "zhaohzXo/dsh-appearance",
@@ -2716,6 +2753,18 @@
       "since": "2026-09-30"
     },
     {
+      "repo": "Nafiygond/dsh-file-drop",
+      "npm": "dsh-file-drop",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-24"
+    },
+    {
+      "repo": "tianleyitian/dsh-file-drop",
+      "npm": "dsh-file-drop",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-24"
+    },
+    {
       "repo": "margbug01/dsh-ma-plugins",
       "path": "dsh-file-drop",
       "npm": "dsh-file-drop",
@@ -2723,22 +2772,10 @@
       "since": "2026-10-16"
     },
     {
-      "repo": "Nafiygond/dsh-file-drop",
-      "npm": "dsh-file-drop",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-22"
-    },
-    {
-      "repo": "tianleyitian/dsh-file-drop",
-      "npm": "dsh-file-drop",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-22"
-    },
-    {
       "repo": "xuechengzou/dsh-file-drop",
       "npm": "dsh-file-drop",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-22"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-24"
     },
     {
       "repo": "sunkeycn/dsh-desktop",
@@ -7359,6 +7396,12 @@
       "npm": "dsh-tray",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-09-29"
+    },
+    {
+      "repo": "SajoLuo/dsh-trellis",
+      "npm": "dsh-trellis",
+      "why": "published by homoland/dsh-trellis",
+      "since": "2026-11-24"
     },
     {
       "repo": "kouyichi/dsh-tui-app",
