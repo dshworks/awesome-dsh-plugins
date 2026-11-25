@@ -701198,6 +701198,23 @@
         "observability"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "dsh-science-review",
+      "repo": "SPYfighting/dsh-science-review",
+      "description": "Checks claims in DSH replies against task instructions and tool output. Findings quote both the answer and its evidence and can be returned to the next turn.",
+      "category": "plugin",
+      "official": false,
+      "added": "2026-11-25",
+      "lastVerified": "2026-11-25",
+      "verifiedAgainst": "0.2.2-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-science-review",
+      "tags": [
+        "observability",
+        "knowledge"
+      ]
     }
   ]
 }
