@@ -4,7 +4,7 @@
 
 Diagnostics, logs, audits, content-addressed proofs.
 
-535 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+536 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -440,6 +440,7 @@ Diagnostics, logs, audits, content-addressed proofs.
 | dsh-runtime-nutrition-label | 0 | [biubiukam/dsh-runtime-nutrition-label](https://github.com/biubiukam/dsh-runtime-nutrition-label) · [npm](https://www.npmjs.com/package/dsh-runtime-nutrition-label) | Evidence-backed runtime nutrition labels for DeepSeek Harness plugins and tool namespaces | 0.1.0-rc.8 (2026-08-20) |
 | dsh-sales | 0 | [winyh/dsh-sales](https://github.com/winyh/dsh-sales) | DeepSeek Harness tools for evidence-backed sales qualification, deal progression, closing and revenue expansion. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-schema-migration-proof | 0 | [dongsheng123132/dsh-schema-migration-proof](https://github.com/dongsheng123132/dsh-schema-migration-proof) | Deterministic evidence for DSH schema migration fixtures | 0.1.0-rc.8 (2026-08-25) |
+| dsh-science-review | - | [SPYfighting/dsh-science-review](https://github.com/SPYfighting/dsh-science-review) · [npm](https://www.npmjs.com/package/dsh-science-review) | Checks claims in DSH replies against task instructions and tool output. Findings quote both the answer and its evidence and can be returned to the next turn. | 0.2.2-rc.5 (2026-11-25) |
 | dsh-second-angle | 0 | [rootsbymenda/dsh-second-angle](https://github.com/rootsbymenda/dsh-second-angle) | Checks finished DeepSeek Harness turns: claims against tool evidence, and free ACTIONS patterns with optional pre-call RED blocking. | 0.2.1-rc.5 (2026-11-02) |
 | dsh-second-pass | 0 | [YJX0118/dsh-second-pass](https://github.com/YJX0118/dsh-second-pass) | Second Pass / 第二遍 — a DeepSeek Harness plugin that turns a finished answer into a verified interactive page or narrated film, with an evidence ledger and a durable work library. | 0.2.2-rc.1 (2026-11-16) |
 | dsh-self-harness-tools | 0 | [SuTang-vain/dsh-self-harness-tools](https://github.com/SuTang-vain/dsh-self-harness-tools/tree/HEAD/plugins/evidence-dashboard) · [npm](https://www.npmjs.com/package/dsh-evidence-dashboard) | Archive dashboard for DeepSeek Harness: components, design decisions, rejected options, and a version tree with changelog timeline. | 0.1.0-rc.8 (2026-08-20) |
