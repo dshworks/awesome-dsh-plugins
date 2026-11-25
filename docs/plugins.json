@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -701198,6 +701198,22 @@
         "observability"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "dsh-live-dictation",
+      "repo": "Linktp/dsh-live-dictation",
+      "description": "Hold Alt to dictate into the DeepSeek Harness composer: the transcript appears while you speak and keeps rewriting itself, then stays in the draft when you let go.",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-26",
+      "lastVerified": "2026-11-26",
+      "verifiedAgainst": "0.2.2-rc.5",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "npm": "dsh-live-dictation",
+      "tags": [
+        "ui"
+      ]
     }
   ]
 }
