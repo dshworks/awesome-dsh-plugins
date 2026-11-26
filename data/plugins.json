@@ -1,6 +1,6 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "plugins": [
     {
       "name": "429-throttle-mcp",
@@ -701202,6 +701202,74 @@
         "observability"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "dsh-qinghui-vision",
+      "repo": "qinghuidaqzp/dsh-qinghui-vision",
+      "description": "Qinghui 看图助手：为 DeepSeek Harness 提供截图理解、OCR 和多图对比，支持云端视觉接口与本地 Ollama。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-26",
+      "lastVerified": "2026-11-26",
+      "verifiedAgainst": "0.2.2-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "install": "dsh plugin --profile web add https://github.com/qinghuidaqzp/dsh-qinghui-vision/releases/download/v0.1.1/dsh-qinghui-vision-0.1.1.tgz",
+      "tags": [
+        "vision",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-focus-garden",
+      "repo": "qinghuidaqzp/dsh-focus-garden",
+      "description": "番茄花园：把每段专注时间种成一朵花，支持暂停、恢复和收获的 DeepSeek Harness 趣味插件。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-26",
+      "lastVerified": "2026-11-26",
+      "verifiedAgainst": "0.2.2-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "install": "dsh plugin --profile web add https://github.com/qinghuidaqzp/dsh-focus-garden/releases/download/v0.1.0/dsh-focus-garden-0.1.0.tgz",
+      "tags": [
+        "fun",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-idea-dice",
+      "repo": "qinghuidaqzp/dsh-idea-dice",
+      "description": "DeepSeek Harness 灵感骰子：随机创作挑战、带权选择转盘与可复现的多面骰。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-26",
+      "lastVerified": "2026-11-26",
+      "verifiedAgainst": "0.2.2-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "install": "dsh plugin --profile web add https://github.com/qinghuidaqzp/dsh-idea-dice/releases/download/v0.1.0/dsh-idea-dice-0.1.0.tgz",
+      "tags": [
+        "fun",
+        "capabilities"
+      ]
+    },
+    {
+      "name": "dsh-qinghui-quests",
+      "repo": "qinghuidaqzp/dsh-qinghui-quests",
+      "description": "Qinghui 任务冒险日志：将任务变成冒险，完成后获得经验、等级与徽章，进度按 Harness 会话保存。",
+      "category": "bundle",
+      "official": false,
+      "added": "2026-11-26",
+      "lastVerified": "2026-11-26",
+      "verifiedAgainst": "0.2.2-rc.2",
+      "status": "verified",
+      "evidence": "package.json#dsh.bundle",
+      "install": "dsh plugin --profile web add https://github.com/qinghuidaqzp/dsh-qinghui-quests/releases/download/v0.1.1/dsh-qinghui-quests-0.1.1.tgz",
+      "tags": [
+        "fun",
+        "capabilities"
+      ]
     }
   ]
 }
