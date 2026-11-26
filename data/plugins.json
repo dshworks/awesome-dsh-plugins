@@ -601545,14 +601545,14 @@
     },
     {
       "name": "dsh-plugins-pkkkkh",
-      "repo": "pkkkkh/dsh-plugins",
+      "repo": "pkkkkh/dsh-plugins-public",
       "path": "dsh-bilibili",
       "description": "DSH 插件：B 站视频分析——文稿骨架压缩、通道探针、双字幕轨/第二路 ASR 交叉校验、商单识别折叠、定点抓帧",
       "category": "plugin",
       "official": false,
       "added": "2026-11-07",
-      "lastVerified": "2026-11-07",
-      "verifiedAgainst": "0.2.2-rc.1",
+      "lastVerified": "2026-11-26",
+      "verifiedAgainst": "0.2.2-rc.5",
       "status": "verified",
       "evidence": "dsh-bilibili/cordis.patch.yml",
       "stars": 0,
@@ -601560,7 +601560,7 @@
       "tags": [
         "capabilities"
       ],
-      "pushedAt": "2026-11-14"
+      "pushedAt": "2026-11-25"
     },
     {
       "name": "dsh-auto-review-fallback",
