@@ -6,7 +6,7 @@
   ],
   "checked": "2026-11-26",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1382,
+  "count": 1384,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1096,6 +1096,12 @@
       "npm": "@whatsmore-nf/dsh-context-steward",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "xiaobaga281/dsh-session-manager",
+      "npm": "@xiaobaga281/dsh-session-manager",
+      "why": "no such package",
+      "since": "2026-11-26"
     },
     {
       "repo": "2501136589/dsh-rewind",
@@ -2613,6 +2619,13 @@
       "npm": "dsh-document-reader",
       "why": "2 listed repos declare this name and the package states no repository",
       "since": "2026-11-16"
+    },
+    {
+      "repo": "1Lany2a/dsh-domain-role",
+      "path": "plugins/dsh-domain-bridge",
+      "npm": "dsh-domain-bridge",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-26"
     },
     {
       "repo": "Britneycode/dsh-done-notify",
@@ -4722,22 +4735,16 @@
       "since": "2026-11-15"
     },
     {
-      "repo": "aaz111/dsh-nx",
-      "npm": "dsh-nx",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
-    },
-    {
       "repo": "Touhouywn/dsh-nx",
       "npm": "dsh-nx",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-26"
     },
     {
       "repo": "27painter/dsh-nx",
       "npm": "dsh-nx",
-      "why": "3 listed repos declare this name and the package states no repository",
-      "since": "2026-11-16"
+      "why": "2 listed repos declare this name and the package states no repository",
+      "since": "2026-11-26"
     },
     {
       "repo": "Cavan-Ou/dsh-observation-journal",
@@ -7072,6 +7079,12 @@
       "npm": "dsh-sound-plugin",
       "why": "published by nobody — the package states no repository and the repo does not claim the name",
       "since": "2026-10-30"
+    },
+    {
+      "repo": "xiaobaga281/dsh-token-spend",
+      "npm": "dsh-spend-ledger",
+      "why": "published by xiaobaga281/dsh-spend-ledger",
+      "since": "2026-11-26"
     },
     {
       "repo": "hakulat2023/dsh-spotlight",
