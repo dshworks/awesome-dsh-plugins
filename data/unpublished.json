@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-26",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1381,
+  "count": 1382,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1351,6 +1351,12 @@
       "npm": "dsh-agent-preset-recommender",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "AhYi8/dsh-agent-recycle-guard",
+      "npm": "dsh-agent-recycle-guard",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-26"
     },
     {
       "repo": "ishuowang/dsh-agent-team-room",
