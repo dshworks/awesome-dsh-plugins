@@ -4,7 +4,7 @@
 
 npm packages with a `dsh.bundle` manifest: composition layers a profile boots from.
 
-102 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
+106 entries, most-starred first. Back to the [registry README](../README.md) · [gallery](https://dsh.works/awesome-dsh-plugins/).
 
 | Name | Repo ★ | Repo | Description | Verified against |
 |---|---|---|---|---|
@@ -109,4 +109,8 @@ npm packages with a `dsh.bundle` manifest: composition layers a profile boots fr
 | otto-dsh | 1 | [ottotheagent/otto-dsh](https://github.com/ottotheagent/otto-dsh) | Book flights, hotels, and cars from DeepSeek Harness through the Otto travel MCP connector. | 0.1.0-rc.8 (2026-08-20) |
 | relayloom | 1 | [fieldnote-ops/relayloom](https://github.com/fieldnote-ops/relayloom) | Default-off external chat relay for DeepSeek Harness, with a DingTalk Stream compatibility adapter. | 0.1.0-rc.8 (2026-08-20) |
 | dsh-feishu-beacon | 0 | [jiangdunchun/dsh-feishu-beacon](https://github.com/jiangdunchun/dsh-feishu-beacon) · [npm](https://www.npmjs.com/package/dsh-feishu-beacon) | DSH plugin that pushes agent progress and human-attention events to a Feishu (Lark) custom-bot webhook | 0.1.7-rc.2 (2026-09-29) |
+| dsh-focus-garden | - | [qinghuidaqzp/dsh-focus-garden](https://github.com/qinghuidaqzp/dsh-focus-garden) | 番茄花园：把每段专注时间种成一朵花，支持暂停、恢复和收获的 DeepSeek Harness 趣味插件。 | 0.2.2-rc.2 (2026-11-26) |
+| dsh-idea-dice | - | [qinghuidaqzp/dsh-idea-dice](https://github.com/qinghuidaqzp/dsh-idea-dice) | DeepSeek Harness 灵感骰子：随机创作挑战、带权选择转盘与可复现的多面骰。 | 0.2.2-rc.2 (2026-11-26) |
+| dsh-qinghui-quests | - | [qinghuidaqzp/dsh-qinghui-quests](https://github.com/qinghuidaqzp/dsh-qinghui-quests) | Qinghui 任务冒险日志：将任务变成冒险，完成后获得经验、等级与徽章，进度按 Harness 会话保存。 | 0.2.2-rc.2 (2026-11-26) |
+| dsh-qinghui-vision | - | [qinghuidaqzp/dsh-qinghui-vision](https://github.com/qinghuidaqzp/dsh-qinghui-vision) | Qinghui 看图助手：为 DeepSeek Harness 提供截图理解、OCR 和多图对比，支持云端视觉接口与本地 Ollama。 | 0.2.2-rc.2 (2026-11-26) |
 | dsh-reasoning-distill | 0 | [huhu23333/dsh-reasoning-distill](https://github.com/huhu23333/dsh-reasoning-distill) · [npm](https://www.npmjs.com/package/dsh-reasoning-distill) | Distill over-long model reasoning into its useful core and replay the distilled version on every later request, with a per-session cost report. | 0.2.0-rc.2 (2026-10-17) |
