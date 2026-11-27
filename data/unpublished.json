@@ -4,9 +4,9 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-26",
+  "checked": "2026-11-27",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
-  "count": 1384,
+  "count": 1386,
   "packages": [
     {
       "repo": "834063245-creator/HoloGram",
@@ -1266,6 +1266,13 @@
       "since": "2026-08-21"
     },
     {
+      "repo": "Fei2411/DS-Bot",
+      "path": "ds-bot",
+      "npm": "ds-bot",
+      "why": "published by fei-craft/ds-bot",
+      "since": "2026-11-27"
+    },
+    {
       "repo": "yuzh2001/dsh-zotero",
       "npm": "dsa-zotero-sidebar",
       "why": "no such package",
@@ -2049,6 +2056,12 @@
       "npm": "dsh-codex-observability",
       "why": "no such package",
       "since": "2026-08-21"
+    },
+    {
+      "repo": "Witherwithwinter/DSH-Codinput",
+      "npm": "dsh-codinput",
+      "why": "published by 0x2fovo/dsh-codinput",
+      "since": "2026-11-27"
     },
     {
       "repo": "kjx-talesofai/dsh-cohub-board",
