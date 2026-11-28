@@ -701208,6 +701208,21 @@
         "observability"
       ],
       "pushedAt": "2026-11-16"
+    },
+    {
+      "name": "dsh-task-background",
+      "repo": "iqianshan/dsh-task-background",
+      "npm": "dsh-task-background",
+      "description": "Give each DeepSeek Harness conversation task its own blurred background with a shared image library and settings UI.",
+      "category": "bundle",
+      "tags": [
+        "ui"
+      ],
+      "added": "2026-11-28",
+      "lastVerified": "2026-11-28",
+      "verifiedAgainst": "0.2.2-rc.5",
+      "status": "unverified",
+      "evidence": "package.json#dsh.bundle"
     }
   ]
 }
