@@ -4,7 +4,7 @@
     "Kept rather than deleted: the name is how we notice the author publishing later.",
     "scripts/npm-check.mjs restores the field to plugins.json when one resolves."
   ],
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "method": "GET registry.npmjs.org/<name>; 404 is missing, timeout is unknown and changes nothing",
   "count": 1390,
   "packages": [
@@ -1024,6 +1024,12 @@
       "since": "2026-10-21"
     },
     {
+      "repo": "ShihaoShenCreator/dsh-project-agent-instructions",
+      "npm": "@shihaoshen/dsh-project-agent-instructions",
+      "why": "published by nobody — the package states no repository and the repo does not claim the name",
+      "since": "2026-11-28"
+    },
+    {
       "repo": "UABULAJIQL/dsh-gpt-remote-compaction",
       "npm": "@sqnb/dsh-gpt-remote-compaction",
       "why": "no such package",
@@ -2025,12 +2031,6 @@
       "npm": "dsh-cloudflare-browser-run",
       "why": "published by retiredphysicist/dsh-plugins",
       "since": "2026-10-01"
-    },
-    {
-      "repo": "jx70/dsh-cloudmusic-player",
-      "npm": "dsh-cloudmusic-player",
-      "why": "published by your_github_user/dsh-cloudmusic-player",
-      "since": "2026-11-27"
     },
     {
       "repo": "Bismuth-209/DSHCmdGuard",
@@ -6117,34 +6117,34 @@
       "since": "2026-08-21"
     },
     {
-      "repo": "EdwardoStarks/dsh-quote",
-      "npm": "dsh-quote",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
-    },
-    {
-      "repo": "uckkk/dsh-quote",
-      "npm": "dsh-quote",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
-    },
-    {
       "repo": "zysftd/dsh-quote",
       "npm": "dsh-quote",
       "why": "5 listed repos declare this name and the package states no repository",
       "since": "2026-10-07"
     },
     {
+      "repo": "EdwardoStarks/dsh-quote",
+      "npm": "dsh-quote",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-28"
+    },
+    {
+      "repo": "uckkk/dsh-quote",
+      "npm": "dsh-quote",
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-28"
+    },
+    {
       "repo": "luoxunhao/dsh-quote",
       "npm": "dsh-quote",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-28"
     },
     {
       "repo": "naletko/dsh-quote",
       "npm": "dsh-quote",
-      "why": "5 listed repos declare this name and the package states no repository",
-      "since": "2026-10-07"
+      "why": "4 listed repos declare this name and the package states no repository",
+      "since": "2026-11-28"
     },
     {
       "repo": "HOFO-GYG/dsh-quote-reply",
